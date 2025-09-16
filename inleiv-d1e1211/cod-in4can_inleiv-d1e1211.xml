@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 30</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 30</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="414-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1211" type="decretales-l3t30">
+            <head xml:id="inleiv-d1e1211-Hd1e98">Titulus 30</head>
+            <p xml:id="inleiv-d1e1211-d1e100">
+               <lb ed="#F" n="29"/>TITVLVS XXX. 
+      <lb ed="#F" n="30"/>DE DECIMIS. 
+      </p>
+            <div xml:id="inleiv-d1e1211-Dd1e107" type="decretales-l3t30c1">
+               <head xml:id="inleiv-d1e1211-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1211-d1e111">
+                  <lb ed="#F" n="31"/>CAPVT I. 
+      <lb ed="#F" n="32"/>2 Quantitas fi non est expressa, in optione dantum 
+      <lb ed="#F" n="33"/>est, quantam velit dare, nisi consuetudo 
+      <lb ed="#F" n="34"/>aliud induceret. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e122">
+                  <lb ed="#F" n="35"/>DECIMAM ( Traditio. 
+      <lb ed="#F" n="36"/>nem) arg. pro opinionibus 
+      <lb ed="#F" n="37"/>magistrorum nobis 
+      vide<lb ed="#F" n="38" break="no"/>tur, quod primitiae dandae 
+      <lb ed="#F" n="39"/>sunt secundum 
+      consuetu<lb ed="#F" n="40" break="no"/>dinem regionis, &amp; hoc hic probatur, quod 
+      <lb ed="#F" n="41"/>nunquam praeceptum inuenitur de certa 
+      <lb ed="#F" n="42"/>quantitate. (Et 6o.) imo cum non 
+      inue<lb ed="#F" n="43" break="no"/>niatur expressa quantitas, in optione 
+      re<lb ed="#F" n="44" break="no"/>linquitur dantis, vt quantumcunque 
+      ve<lb ed="#F" n="45" break="no"/>lit det, nisi consuetudo aliud induceret. 
+      <lb ed="#F" n="46"/>(Hoc) in Exechiele vel in traditionibus 
+      <lb ed="#F" n="47"/>Haebreorum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e154" type="decretales-l3t30c2">
+               <head xml:id="inleiv-d1e1211-Hd1e156">Caput 2</head>
+               <p xml:id="inleiv-d1e1211-d1e158">
+                  <lb ed="#F" n="48"/>CAPVT II. 
+      <lb ed="#F" n="49"/>1 Ecclesia intra limites alterius baptisialis 
+      ec<lb ed="#F" n="50" break="no"/>clesiae sita, an soluat decimas. 
+      <lb ed="#F" n="51"/>2 claiam eniulibet ecelesia penentur salaere 
+      <lb ed="#F" n="52"/>decimas personales. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>Mercenari an debent seluere detimat de sua 
+      <lb ed="#F" n="54"/>mercede. 
+      <lb ed="#F" n="55"/>3 An seruus &amp; monatbus tentantur ad 
+      sol<lb ed="#F" n="56" break="no"/>uendas decimas. 
+      <lb ed="#F" n="57"/>Clerici an debent soluere praebendas ecelesiis 
+      <lb ed="#F" n="58"/>in quibus audiunt diuina afficia. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e187">
+                  <lb ed="#F" n="59"/>NOVVM GENVS. (A 
+      <lb ed="#F" n="60"/>clericis). Quidam hoc 
+      intel<lb ed="#F" n="61" break="no"/>igunt verum, in omnibus 
+      <lb ed="#F" n="62"/>clericis, &amp; omnibe praedictis. 
+      <lb ed="#F" n="63"/>s. tam ecclesiae quam 
+      haeredita<lb ed="#F" n="64" break="no"/>rijs contra. 16. q. 1. si quois laicus. sed illud 
+      intel<lb ed="#F" n="65" break="no"/>ligitur de clericis coniugatis, quia nec 
+      <lb ed="#F" n="66"/>in personalibus, nec in praedialibus 
+      de<lb ed="#F" n="67" break="no"/>cimis habent exceptionem, hoc non 
+      pla<lb ed="#F" n="68" break="no"/>cet. Alii dicunt, quod de dote 
+      eccle<lb ed="#F" n="69" break="no"/>siae, non debent clerici clericis decimas 
+      <lb ed="#F" n="70"/>soluere, &amp; sic loquitur cap. hoc. De alijs 
+      <lb ed="#F" n="71"/>autem possessionibus in alterius 
+      paro<lb ed="#F" n="72" break="no"/>chia sitis, secus, &amp; sic loquitur cap. si quis 
+      <lb ed="#F" n="73"/>laicus. Alii dicunt, quod de 
+      personali<lb ed="#F" n="74" break="no"/>bus decimis loquitur principium huius 
+      <lb ed="#F" n="75"/>c. finis autem huius. c. de praedialibus, vel 
+      <lb ed="#F" n="76"/>de coniugatis clericis loquitur, qui &amp; 
+      <lb ed="#F" n="77"/>personales &amp; praediales soluunt. Vel 
+      <lb ed="#F" n="78"/>dic, quod ecclesia intra limites alterius 
+      <lb ed="#F" n="79"/>baptismalis ecclesiae sita non soluit 
+      per<lb ed="#F" n="80" break="no"/>sonales decimas, de laboribus ecclesiae, 
+      <lb ed="#F" n="81"/>vel alijs, id est, de his quae ad ecclesiam 
+      <lb ed="#F" n="82"/>pertinent, vel acquiruntur ei, &amp; sic 
+      loqui<lb ed="#F" n="83" break="no"/>tur prin. decr. sed clerici de his, quae sibi 
+      <lb ed="#F" n="84"/>propria acquirunt, bene soluent decimas 
+      <lb ed="#F" n="85"/>per sonales, vt de aduocatione &amp; 
+      simili<lb ed="#F" n="86" break="no"/>bus, &amp; sic loquitur finis decret. praediales 
+      <lb ed="#F" n="87"/>autem soluunt, sicut alii non 
+      priuile<lb ed="#F" n="88" break="no"/>giati. infra eodem, suggestum. &amp; c. ex 
+      <lb ed="#F" n="89"/>parte. &amp; c. prox. &amp; multis alijs. c. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e257">
+                  <lb ed="#F" n="90"/>Item plus dicimus, quod clerici 
+      cu<lb ed="#F" n="91" break="no"/>iuslibet ecclesiae, &amp; etiam sacerdotes, &amp; 
+      <lb ed="#F" n="92"/>quod plus est, praelati  suae ecclesiae, a 
+      <lb ed="#F" n="93"/>qua percipiunt ecclesiastica 
+      sacramen<lb ed="#F" n="94" break="no"/>ta, soluunt etiam decimas personales, 
+      <lb ed="#F" n="95"/>licet enim ipsi seruient ecclesiae, &amp; alijs 
+      <lb ed="#F" n="96"/>ministrent sacramenta: tamen nomine 
+      <lb ed="#F" n="97"/>ecclesiae faciunt, &amp; nomine ecclesiae susc 
+      <lb ed="#F" n="98"/>piunt decimas, &amp; ipsi idem a seipsis 
+      no<lb ed="#F" n="99" break="no"/>mine ecclesiarum recipiunt 
+      sacramen<lb ed="#F" n="100" break="no"/>ta. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e283">
+                  <lb ed="#F" n="101"/>Quid dices de Cisterciens. &amp; alijs 
+      cle<lb ed="#F" n="102" break="no"/>rieis, qui mercenarios tenent in 
+      alii<lb ed="#F" n="103" break="no"/>parochijs, qui ibi texunt vestes, &amp; alia 
+      <lb ed="#F" n="104"/>manibus suis operantur, &amp; ex talium 
+      mer<lb ed="#F" n="105" break="no"/>cenariorum operibus multa lucrantur 
+      <lb ed="#F" n="106"/>monachi, vel clerici. Respondemus, quod 
+      <pb ed="#F" n="414-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>mercenarii de mercede sua soluent 
+      deci<lb ed="#F" n="2" break="no"/>mas, sed de eo, quod peruenit ad 
+      monaste<lb ed="#F" n="3" break="no"/>rium, etiam de mercede nihil soluetur, &amp; 
+      <lb ed="#F" n="4"/>sic serui monasterii, vel monachi in alia 
+      <lb ed="#F" n="5"/>parochia operantur, cum nihil sibi 
+      acqui<lb ed="#F" n="6" break="no"/>rant, nullas decimas personales soluent 
+      il<lb ed="#F" n="7" break="no"/>li ecclesiae, in cuius parochia operantur, 
+      <lb ed="#F" n="8"/>&amp; vbi audiunt diuina officia. Idem etiam 
+      <lb ed="#F" n="9"/>videtur in seruis &amp; mercenarijs laicorum, 
+      <lb ed="#F" n="10"/>si operantur in alia parochia, quam in qua 
+      <lb ed="#F" n="11"/>dominus commoratur, quia ibi 
+      mercena<lb ed="#F" n="12" break="no"/>rius soluet decimas de mercede sua, serui 
+      <lb ed="#F" n="13"/>autem nihil soluent, cum nihil habere 
+      pos<lb ed="#F" n="14" break="no"/>sint, imo dominus soluet inde decimas 
+      ec<lb ed="#F" n="15" break="no"/>clesiae, vbi ipse dominus per circulum 
+      an<lb ed="#F" n="16" break="no"/>ni audiuit diuina officia, &amp; vbi moratur 
+      <lb ed="#F" n="17"/>dominus. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e341">
+                  <lb ed="#F" n="18"/>3 Alii tamen dicunt, cum naturaliter 
+      <lb ed="#F" n="19"/>etiam in seruo mercedes debeantur. arg. 
+      <lb ed="#F" n="20"/>ff. de condi. inde. naturaliter. quod 
+      eccle<lb ed="#F" n="21" break="no"/>siae in cuius porachia operabatur seruus, 
+      <lb ed="#F" n="22"/>soluendae sunt decimae, &amp; idem forte 
+      dici<lb ed="#F" n="23" break="no"/>tur in monacho, sed Roc non placet, cum 
+      <lb ed="#F" n="24"/>non possit quaerere nisi monasterio, et 
+      mo<lb ed="#F" n="25" break="no"/>nasterium decimas personales soluere non 
+      <lb ed="#F" n="26"/>tenetur, &amp; idem dicimus in his, qui 
+      nego<lb ed="#F" n="27" break="no"/>tiantur nomine aliorum. Item non 
+      cre<lb ed="#F" n="28" break="no"/>dimus, quod licet hodie in aliqua 
+      eccle<lb ed="#F" n="29" break="no"/>sia audiuit officia, &amp; hodie ibi lucretur 
+      <lb ed="#F" n="30"/>centum, quod ex eis det decimam illi 
+      ec<lb ed="#F" n="31" break="no"/>clesiae, sed vbi per totum annum ecclesia. 
+      <lb ed="#F" n="32"/>stica sumit sacramenta, id est audiuerit 
+      <lb ed="#F" n="33"/>diuina officia. 16. q. 1. &amp; infra, eo. ad 
+      apo<lb ed="#F" n="34" break="no"/>stolicae. &amp; si forte in pluribus audiret 
+      offi<lb ed="#F" n="35" break="no"/>cia, &amp; quasi pro aequali parte non esset 
+      <lb ed="#F" n="36"/>malum, quod authoritate superioris inter 
+      <lb ed="#F" n="37"/>eos decimae diuiderentur, quia dignum 
+      <lb ed="#F" n="38"/>est, vt temporalia metat, qui seminat 
+      spi<lb ed="#F" n="39" break="no"/>ritualia. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e391">
+                  <lb ed="#F" n="40"/>De praebendis autem suis, clerici non 
+      <lb ed="#F" n="41"/>debent aliquid ecclesijs, in quibus audiutm 
+      <lb ed="#F" n="42"/>diuina officia, si forte alibi audiunt, quam 
+      <lb ed="#F" n="43"/>in ecclesijs, vbi habent praebendas, &amp; hoc 
+      <lb ed="#F" n="44"/>verum si illae ecclesiae, vnde habent 
+      prae<lb ed="#F" n="45" break="no"/>bendas, nulli debent soluere decimas, vel 
+      <lb ed="#F" n="46"/>si debent soluere, decimauerunt bene illa 
+      <lb ed="#F" n="47"/>bona, vnde praebendas dederunt, quod sic 
+      <lb ed="#F" n="48"/>probo, quia praebendae datae clericis, non 
+      <lb ed="#F" n="49"/>sunt clericorum, imo proprietas earum 
+      <lb ed="#F" n="50"/>ecclesiarum quae dant praebendas, vnde de 
+      <lb ed="#F" n="51"/>eis non possunt testari. supra, de testa. c. 
+      <lb ed="#F" n="52"/>vlt. &amp;. c. ad haec. &amp;. c. relatum. Si autem 
+      <lb ed="#F" n="53"/>ecclesiae quae dant praebendas, deberent 
+      <lb ed="#F" n="54"/>alijs dare decimas, &amp; non dedissent, tunc 
+      <lb ed="#F" n="55"/>clerici qui receperunt praebendas, debent 
+      <lb ed="#F" n="56"/>inde dare decimas. infra, eod. a nobis. &amp; c. 
+      <lb ed="#F" n="57"/>tua. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e434" type="decretales-l3t30c3">
+               <head xml:id="inleiv-d1e1211-Hd1e436">Caput 3</head>
+               <p xml:id="inleiv-d1e1211-d1e438">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>CAPVT III
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e445">
+                  <lb ed="#F" n="59"/>EX MVLTIPLICI. (De 
+      <lb ed="#F" n="60"/>rogare) not. per priuilegium 
+      <lb ed="#F" n="61"/>non derogari pacto nec trant 
+      <lb ed="#F" n="62"/>Sactioni. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e458" type="decretales-l3t30c4">
+               <head xml:id="inleiv-d1e1211-Hd1e460">Caput 4</head>
+               <p xml:id="inleiv-d1e1211-d1e462">
+                  <lb ed="#F" n="63"/>CAPVT IIII. 
+      <lb ed="#F" n="64"/>COMMISSVM. (Pascuis) 
+      <lb ed="#F" n="65"/>quae vendebantur, &amp; sic pret 
+      <lb ed="#F" n="66"/>soluebantur, vel solui dede 
+      <lb ed="#F" n="67"/>bant ecclesiae parochiali, ve 
+      <lb ed="#F" n="68"/>lecimae debent solui de pa 
+      <lb ed="#F" n="69"/>scuis, id est, de lacte &amp; lana bestiarum, qu 
+      <lb ed="#F" n="70"/>pascebantur in illis pascuis, si. infra. e. ne 
+      <lb ed="#F" n="71"/>cios. Et sic est arg. quod tales decimae cen 
+      <lb ed="#F" n="72"/>seantur praediales, quia si personales e 
+      <lb ed="#F" n="73"/>sent, non parochiali, sed illi vbi audit off 
+      <lb ed="#F" n="74"/>cia, dari praecipiuntur, primum dictum 
+      <lb ed="#F" n="75"/>magis placet, &amp; si dominus fundi 
+      grati<lb ed="#F" n="76" break="no"/>patiatur pascere bestias in fundo suo, ta 
+      <lb ed="#F" n="77"/>men cum herba deuulsa de terra a 
+      besti<lb ed="#F" n="78" break="no"/>vel potius ab eo, qui bestias pascit 
+      transe<lb ed="#F" n="79" break="no"/>ant cum onere suo decimae. infra, c. tua. &amp; 
+      <lb ed="#F" n="80"/>c. pastoralis. dominus bestiae decimam 
+      <lb ed="#F" n="81"/>aestimationis totius herbae, debet dare 
+      ec<lb ed="#F" n="82" break="no"/>clesiae. ff. de vsufruc. si vsufructuarius. &amp; 
+      <lb ed="#F" n="83"/>idem videtur. arg. huius. l. &amp; praealle. 
+      ra<lb ed="#F" n="84" break="no"/>tionis, quod si quis comburat, vel aliter 
+      <lb ed="#F" n="85"/>destruat segetem, maxime maturam, vel 
+      <lb ed="#F" n="86"/>arbores cedat, quod parochialis sacerdos 
+      <lb ed="#F" n="87"/>potest agere ad decimam aestimationis. 
+      <lb ed="#F" n="88"/>Alii autem contradicunt. De feris autem 
+      <lb ed="#F" n="89"/>auibus, &amp; piscibus non reclusis, bene 
+      dan<lb ed="#F" n="90" break="no"/>dae funt decimae ecclesiae, vbi percipit 
+      sa<lb ed="#F" n="91" break="no"/>cramenta, &amp; non baptismali ecclesiae, quia 
+      <lb ed="#F" n="92"/>in nullius parochia debent esse. instit. de 
+      <lb ed="#F" n="93"/>rer. diui. §. ferre. &amp;. §. sequen. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e533" type="decretales-l3t30c5">
+               <head xml:id="inleiv-d1e1211-Hd1e535">Caput 5</head>
+               <p xml:id="inleiv-d1e1211-d1e537">
+                  <lb ed="#F" n="94"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e542">
+                  <lb ed="#F" n="95"/>DERVENIT AD NOS. E 
+      <lb ed="#F" n="96"/>INERA. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e550" type="decretales-l3t30c6">
+               <head xml:id="inleiv-d1e1211-Hd1e552">Caput 6</head>
+               <p xml:id="inleiv-d1e1211-d1e554">
+                  <lb ed="#F" n="97"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e559">
+                  <lb ed="#F" n="98"/>VNCIOS (De apibus). id est, de 
+      <lb ed="#F" n="99"/>nelle apium &amp; ceta. si. sup. eo d.cem 
+      <lb ed="#F" n="100"/>missum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e569" type="decretales-l3t30c7">
+               <head xml:id="inleiv-d1e1211-Hd1e571">Caput 7</head>
+               <p xml:id="inleiv-d1e1211-d1e573">
+                  <lb ed="#F" n="101"/>CAPVT VII. 
+      <lb ed="#F" n="102"/>CVMRIOMINES. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e581" type="decretales-l3t30c8">
+               <head xml:id="inleiv-d1e1211-Hd1e583">Caput 8</head>
+               <p xml:id="inleiv-d1e1211-d1e585">
+                  <lb ed="#F" n="103"/>CAPVT VIII. 
+      <lb ed="#F" n="104"/>ILECTI EILII. (
+      Con<lb ed="#F" n="105" break="no"/>duxistis) no. licere clericis conm 
+      <lb ed="#F" n="106"/>ducere praedia, si sua eis non 
+      <lb ed="#F" n="107"/>sufficiaat. (Conduxistis) sed 
+      <lb ed="#F" n="108"/>de proprijs tantum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e602" type="decretales-l3t30c9">
+               <head xml:id="inleiv-d1e1211-Hd1e604">Caput 9</head>
+               <p xml:id="inleiv-d1e1211-d1e606">
+                  <pb ed="#F" n="415-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT IX. 
+      <lb ed="#F" n="2"/>1 Deina an dantur de liboriblat &amp; praedit 
+      <lb ed="#F" n="3"/>propriis elericorum. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e619">
+                  <lb ed="#F" n="4"/>SVGGESTVM. ( 
+      Com<lb ed="#F" n="5" break="no"/>ponatis) cum enormiter 
+      lae<lb ed="#F" n="6" break="no"/>dantur alii monachi qui 
+      de<lb ed="#F" n="7" break="no"/>cimas recipere debent nisi 
+      <lb ed="#F" n="8"/>soluatis. (Ordini). idest, 
+      Ci<lb ed="#F" n="9" break="no"/>sterciensi. ( Priuilegia) cirea decimas 
+      <lb ed="#F" n="10"/>1monachorum, no. quod olim in 
+      primiti<lb ed="#F" n="11" break="no"/>ua ecclesia decimas de laboribus, &amp; 
+      prae<lb ed="#F" n="12" break="no"/>dijs suis dabant, sicut laici. 16. q. 1. 
+      genera<lb ed="#F" n="13" break="no"/>liter. 12. q. 1. duo. in fi. &amp; c. procedente. sed 
+      <lb ed="#F" n="14"/>Pascalis 2. &amp; Greg. &amp; conci. Magunt. 
+      con<lb ed="#F" n="15" break="no"/>stituerunt ne religiosi, nec alii 
+      communi<lb ed="#F" n="16" break="no"/>ter viuentes decimas de suis laboribus 
+      sol<lb ed="#F" n="17" break="no"/>uerent. 16. qO. 1. quaesti. &amp; c. decimas. &amp; 
+      <lb ed="#F" n="18"/>certo tempore hoc priuilegium arctatum est 
+      <lb ed="#F" n="19"/>circa Cisterciens. templarios, &amp; 
+      hospita<lb ed="#F" n="20" break="no"/>larios Hierosolymitanos, alijs vero 
+      mona<lb ed="#F" n="21" break="no"/>chis concessit tantum de noualibus, quae 
+      <lb ed="#F" n="22"/>proprijs manibus excolunt, &amp; de hortis, 
+      <lb ed="#F" n="23"/>&amp; nutrimentis animalium. inf. c. prox. &amp; 
+      <lb ed="#F" n="24"/>c. ad audien.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e667">
+                  <lb ed="#F" n="25"/> Est ergo sic tenendum, quod 
+      mona<lb ed="#F" n="26" break="no"/>chi Cisterci. non dabunt decimas de 
+      pos<lb ed="#F" n="27" break="no"/>sessi. proprijs, quas colunt manibus, vel 
+      <lb ed="#F" n="28"/>sumptibus proprijs, nisi pacto vel 
+      transa<lb ed="#F" n="29" break="no"/>ctione sint ligati. sup. e. ex multiplici. &amp; 
+      <lb ed="#F" n="30"/>nisi enormiter laedatur ecclesia, vt hic, vel 
+      <lb ed="#F" n="31"/>nisi soluendo renunciauerunt suo 
+      priuile<lb ed="#F" n="32" break="no"/>gio, vt. 3. de pri. si de terra. monachi autem 
+      <lb ed="#F" n="33"/>&amp; alii canonici, de omnibus tenentur 
+      da<lb ed="#F" n="34" break="no"/>re decimas, nisi de noualibus proprijs 
+      ma<lb ed="#F" n="35" break="no"/>nibus cultis &amp; hortis, &amp; nutrimentis 
+      ani<lb ed="#F" n="36" break="no"/>malium. 3. e. c. proxi. sed &amp; eascilicet decimas 
+      <lb ed="#F" n="37"/>de noua. &amp; hor. &amp; nutri. animalium 
+      sol<lb ed="#F" n="38" break="no"/>uent, si parochialis ecclesia laedatur. inf. de 
+      <lb ed="#F" n="39"/>ver. sign. quid per no. §. 2. de alijs autem 
+      <lb ed="#F" n="40"/>soluent, nisi super decimis speciale 
+      priui<lb ed="#F" n="41" break="no"/>legium habeant, vel nisi praescripserint. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e706">
+                  <lb ed="#F" n="42"/>Et haec vera sunt in monasterijs, quae 
+      <lb ed="#F" n="43"/>populum non habent, alias secus, quia 
+      <lb ed="#F" n="44"/>tunc etiam praediales &amp; personales 
+      habe<lb ed="#F" n="45" break="no"/>bunt, vt hic. &amp; 16. quaestio. 1. si monachus. 
+      <lb ed="#F" n="46"/>de possessionibus vero post conci. habitis 
+      <lb ed="#F" n="47"/>indifferenter omnes religiosi decimas 
+      <lb ed="#F" n="48"/>soluent, siue sint Cisterci. siue templarij, 
+      <lb ed="#F" n="49"/>siue hospitalarii, siue quicunque alii 
+      su<lb ed="#F" n="50" break="no"/>per decimis priuilegiati. infra, e. nup. olim 
+      <lb ed="#F" n="51"/>autem, vel hodie de conductis &amp; proprijs 
+      <lb ed="#F" n="52"/>manibus cultis decimas soluent. supra, e. 
+      <lb ed="#F" n="53"/>dilect. (Sed nunc) no. vbi priuilegium ex 
+      <lb ed="#F" n="54"/>post facto, ad iniquum grauamen etiam 
+      <lb ed="#F" n="55"/>non iniquum deuenit temperandum est 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>per superiorem. ff. de re. iur. Neratius. in 
+      <lb ed="#F" n="57"/>fi. ff. de vul. subst. ex facto. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e747" type="decretales-l3t30c10">
+               <head xml:id="inleiv-d1e1211-Hd1e749">Caput 10</head>
+               <p xml:id="inleiv-d1e1211-d1e751">
+                  <lb ed="#F" n="58"/>CAPVT X 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e756">
+                  <lb ed="#F" n="59"/>EX PARTE. (
+      Praedeces<lb ed="#F" n="60" break="no"/>sores): it quaestione prima. 
+      <lb ed="#F" n="61"/>tua. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e766" type="decretales-l3t30c11">
+               <head xml:id="inleiv-d1e1211-Hd1e768">Caput 11</head>
+               <p xml:id="inleiv-d1e1211-d1e770">
+                  <lb ed="#F" n="62"/>CAPVT XI. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e775">
+                  <lb ed="#F" n="63"/>LICET DE 
+      PENIGNITA<lb ed="#F" n="64" break="no"/>TE. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e783" type="decretales-l3t30c12">
+               <head xml:id="inleiv-d1e1211-Hd1e785">Caput 12</head>
+               <p xml:id="inleiv-d1e1211-d1e787">
+                  <lb ed="#F" n="65"/>CAPVT XII. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e792">
+                  <lb ed="#F" n="66"/>AD AVD IE NT IAM. 
+      <lb ed="#F" n="67"/>(vbi ponimus). ff. de 
+      consti<lb ed="#F" n="68" break="no"/>tu. princ. beneficium. supra, 
+      <lb ed="#F" n="69"/> de so. cum dilect. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e804" type="decretales-l3t30c13">
+               <head xml:id="inleiv-d1e1211-Hd1e806">Caput 13</head>
+               <p xml:id="inleiv-d1e1211-d1e808">
+                  <lb ed="#F" n="70"/>CAPVT XIII. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e813">
+                  <lb ed="#F" n="71"/>VO NIAM A NOEIS. (
+      Ali<lb ed="#F" n="72" break="no"/>cuius). id est, si non sunt in alicuius 
+      <lb ed="#F" n="73"/>parochia. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e823" type="decretales-l3t30c14">
+               <head xml:id="inleiv-d1e1211-Hd1e825">Caput 14</head>
+               <p xml:id="inleiv-d1e1211-d1e827">
+                  <lb ed="#F" n="74"/>CAPVT XIIII. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e832">
+                  <lb ed="#F" n="75"/>PAROCHIANOS. (
+      Do<lb ed="#F" n="76" break="no"/>mino). 16. quaestio. 1. 
+      re<lb ed="#F" n="77" break="no"/>uertimini. (Debitum) per 
+      <lb ed="#F" n="78"/>actionem confesso, arg. ff. 
+      <lb ed="#F" n="79"/>si ser. ven. ff. si vsusfr. pet. l. 
+      <lb ed="#F" n="80"/>pen. de rei ven. ad fructus. 16. quaestio. 1. 
+      <lb ed="#F" n="81"/>reuertimini moderamine. nec est 
+      curan<lb ed="#F" n="82" break="no"/>dum, si primo ecclesia non habeat 
+      domi<lb ed="#F" n="83" break="no"/>nium. C. de sacrosanct. eccle. vt interdi. 5. 
+      <lb ed="#F" n="84"/>de consu. cap. 2. arg. contra. ff. de polli. l. 
+      <lb ed="#F" n="85"/>2. §. vlti. vbi dicitur, quamdiu decima non 
+      <lb ed="#F" n="86"/>sit separata, semper est in possessione 
+      prio<lb ed="#F" n="87" break="no"/>ris dominij, sed ibi loquitur de prophana 
+      <lb ed="#F" n="88"/>decima, hic spirituali, vel petantur 
+      con<lb ed="#F" n="89" break="no"/>dictione ex canone. 16. quaestio. 1. decimae. 
+      <lb ed="#F" n="90"/>&amp; cap. reuerti. vel offic. iudi. pro his 
+      eti<lb ed="#F" n="91" break="no"/>am intentatur iudicium communi 
+      diui<lb ed="#F" n="92" break="no"/>dun. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e875" type="decretales-l3t30c15">
+               <head xml:id="inleiv-d1e1211-Hd1e877">Caput 15</head>
+               <p xml:id="inleiv-d1e1211-d1e879">
+                  <lb ed="#F" n="93"/>CAPVT XV.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e884">
+                  <lb ed="#F" n="94"/>AD HAEC. (Per 
+      successio<lb ed="#F" n="95" break="no"/>nem). Non ergo licet 
+      conce<lb ed="#F" n="96" break="no"/>dere in feudum, nec in 
+      em<lb ed="#F" n="97" break="no"/>phvteosim, nec in locatione 
+      <lb ed="#F" n="98"/>ad longum tempus, nullus 
+      <lb ed="#F" n="99"/>enim contractus super eis iniri debet per 
+      <lb ed="#F" n="100"/>quem fiat vel feudum, vel alienatio quae 
+      <lb ed="#F" n="101"/>fit per praedictos contractus. ff. si ager 
+      ve<lb ed="#F" n="102" break="no"/>cti. l. vlt. ff. de superfi. l. 1. arg. supra, de reb. 
+      <lb ed="#F" n="103"/>eccle. non alie. nulli. ad firmam autem &amp; 
+      <pb ed="#F" n="415-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>ad certum tempus concedi potest. 3. de 
+      <lb ed="#F" n="2"/>loca. &amp; condu. c. 2. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e919" type="decretales-l3t30c16">
+               <head xml:id="inleiv-d1e1211-Hd1e921">Caput 16</head>
+               <p xml:id="inleiv-d1e1211-d1e923">
+                  <lb ed="#F" n="3"/>CAPVT XVI. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e928">
+                  <lb ed="#F" n="4"/>DE TERRIS. (Iudaei) Ad 
+      <lb ed="#F" n="5"/>decimas quae ratione 
+      prae<lb ed="#F" n="6" break="no"/>diorum soluuntur tenentur 
+      <lb ed="#F" n="7"/>Iudaei, ad personales non. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e940" type="decretales-l3t30c17">
+               <head xml:id="inleiv-d1e1211-Hd1e942">Caput 17</head>
+               <p xml:id="inleiv-d1e1211-d1e944">
+                  <lb ed="#F" n="8"/>CAPVT XVII. 
+      <lb ed="#F" n="9"/>QVAMVIS. (Disponere). Et male. 
+      <lb ed="#F" n="10"/>§9. dis, quoniam. &amp; cap. iudicatur. 
+      <lb ed="#F" n="11"/>16. quaestio. vlti. nullus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e956" type="decretales-l3t30c18">
+               <head xml:id="inleiv-d1e1211-Hd1e958">Caput 18</head>
+               <p xml:id="inleiv-d1e1211-d1e960">
+                  <lb ed="#F" n="12"/>CAPVT XVIII.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e965">
+                  <lb ed="#F" n="13"/>VMSINT HOMINES. 
+      <lb ed="#F" n="14"/>(Diuersae) non tamen 
+      aduer<lb ed="#F" n="15" break="no"/>sae (Difficile) non tamen 
+      im<lb ed="#F" n="16" break="no"/>possibile, puta si praescripsit, 
+      <lb ed="#F" n="17"/>vel dic, quod praescribere non 
+      <lb ed="#F" n="18"/>potest, si est posse. vnde decima colligitur 
+      <lb ed="#F" n="19"/>in limite. sup. de paroc. cap. pe. &amp; loquitur 
+      <lb ed="#F" n="20"/>de possessio. in limite constitutis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e986" type="decretales-l3t30c19">
+               <head xml:id="inleiv-d1e1211-Hd1e988">Caput 19</head>
+               <p xml:id="inleiv-d1e1211-d1e990">
+                  <lb ed="#F" n="21"/>CAPVT XIX. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e995">
+                  <lb ed="#F" n="22"/>ROHIBEMVS. (In alios) 
+      <lb ed="#F" n="23"/>&amp; sic laicus tenens in feudum 
+      <lb ed="#F" n="24"/>decimas, eas alii infeudare 
+      <lb ed="#F" n="25"/>non potest, tamen secundum 
+      <lb ed="#F" n="26"/>quosdam illi, qui detinent in 
+      <lb ed="#F" n="27"/>feudum, non tenent eas cum peccato: vt 
+      <lb ed="#F" n="28"/>not. sup. de his quae fi. a praela. sine consen. 
+      <lb ed="#F" n="29"/>c. cum apostolica. &amp; secundum hoc non 
+      <lb ed="#F" n="30"/>loquitur hic de decimis infeudatis, sed de 
+      <lb ed="#F" n="31"/>alijs male detentis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1020" type="decretales-l3t30c20">
+               <head xml:id="inleiv-d1e1211-Hd1e1022">Caput 20</head>
+               <p xml:id="inleiv-d1e1211-d1e1024">
+                  <lb ed="#F" n="32"/>CAPVT XX. 
+      <lb ed="#F" n="33"/>1 Consuetudo tircadecimas in ceclesis valet. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1031">
+                  <lb ed="#F" n="34"/>AD APOSTOLICAE 
+      <lb ed="#F" n="35"/>(Consuetudo). No. 
+      consue<lb ed="#F" n="36" break="no"/>tudinem valere in decimis, 
+      <lb ed="#F" n="37"/>sed inter ecclesias tantum. 5. 
+      <lb ed="#F" n="38"/>e. cum sint. sed si de 
+      consue<lb ed="#F" n="39" break="no"/>tudine non constat praediales, dandae sunt 
+      <lb ed="#F" n="40"/>ecclesiae baptismali, &amp; personales capellae. 
+      <lb ed="#F" n="41"/>16. quaestio. 1. decimas. sup. eod. nuncios. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1052" type="decretales-l3t30c21">
+               <head xml:id="inleiv-d1e1211-Hd1e1054">Caput 21</head>
+               <p xml:id="inleiv-d1e1211-d1e1056">
+                  <lb ed="#F" n="42"/>CAPVT XXI.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1061">
+                  <lb ed="#F" n="43"/>EX PARTE 
+      CANONICO<lb ed="#F" n="44" break="no"/>RVM. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1070" type="decretales-l3t30c22">
+               <head xml:id="inleiv-d1e1211-Hd1e1072">Caput 22</head>
+               <p xml:id="inleiv-d1e1211-d1e1074">
+       <!-- missing line -->Caput XXII
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1079">
+                  <lb ed="#F" n="45"/>2 Nunquid de venatione, &amp; piscatione sunt 
+      <lb ed="#F" n="46"/>dapidae decimae. 
+      <lb ed="#F" n="47"/>Decimae an debeant solui de piscibus inelusis in 
+      <lb ed="#F" n="48"/>reclusorium alicuius parochiae. Et quid 
+      iu<lb ed="#F" n="49" break="no"/>ris sit de mercede militiae suae, 
+      aduocatio<lb ed="#F" n="50" break="no"/>nis in numero 2. 
+      <lb ed="#F" n="51"/>Si alicui donantur immobilia, an de tis tenea 
+      <lb ed="#F" n="52"/>tur dare decimas. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1099">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>NON EST. ( De 
+      vena<lb ed="#F" n="54" break="no"/>tione). Istae sunt 
+      persona<lb ed="#F" n="55" break="no"/>les decimae, quia ministerio 
+      <lb ed="#F" n="56"/>&amp; personali opera 
+      proue<lb ed="#F" n="57" break="no"/>niunt, vnde decimae solui 
+      <lb ed="#F" n="58"/>debent, licet in terra, vel in aere, vel in 
+      <lb ed="#F" n="59"/>aqua nutriantur, &amp; beneficio &amp; nutri 
+      <lb ed="#F" n="60"/>mento terrae, &amp; ideo decimae dandae sunt, 
+      <lb ed="#F" n="61"/>vbi per anni circulum percipit 
+      ecclesia<lb ed="#F" n="62" break="no"/>stica sacramenta. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1125">
+                  <lb ed="#F" n="63"/>Et haec intelligo vera vbi libere quisqu 
+      <lb ed="#F" n="64"/>piscatur nullo pretio dato, nec partem 
+      <lb ed="#F" n="65"/>piscationis, quia si inde daretur pretium, 
+      <lb ed="#F" n="66"/>vel pars, tunc bene videtur, quod de illo 
+      <lb ed="#F" n="67"/>pretio, vel parte dandae sint decimae 
+      ec<lb ed="#F" n="68" break="no"/>clesiae baptismali, quia non ex ministerio 
+      <lb ed="#F" n="69"/>hominis, sed ex aqua, &amp; terra 
+      proueni<lb ed="#F" n="70" break="no"/>unt. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1146">
+                  <lb ed="#F" n="71"/>1 Sed si esset locus publicus, vbi licet 
+      <lb ed="#F" n="72"/>cuique piscari, potius reputo personales, 
+      <lb ed="#F" n="73"/>quam praediales, &amp; idem dicimus in 
+      pi<lb ed="#F" n="74" break="no"/>scatore &amp; venatore, &amp; alijs huiusmodi. Item 
+      <lb ed="#F" n="75"/>videtur, quod si aliquis capiat pisces in 
+      <lb ed="#F" n="76"/>mari, &amp; in stagno portet, &amp; ibi viuant 
+      <lb ed="#F" n="77"/>aliquot diebus, quod decimas debet inde 
+      <lb ed="#F" n="78"/>habere ecclesia, in cuius parochia est 
+      <lb ed="#F" n="79"/>stagnum, &amp; idem videtur, si bestiae 
+      reclu<lb ed="#F" n="80" break="no"/>dantur in reclusorium, cum ibi viuant 
+      <lb ed="#F" n="81"/>beneficio aquae, vel terrae, quae est in eius 
+      <lb ed="#F" n="82"/>parochia. arg. infra. e. cum non sit in 
+      ho<lb ed="#F" n="83" break="no"/>mine. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1177">
+                  <lb ed="#F" n="84"/>Alijs tamen videtur, quod non sunt 
+      <lb ed="#F" n="85"/>dandae decimae de praedictis baptismali 
+      <lb ed="#F" n="86"/>ecclesiae, sed illi, vbi percipit sacramenta 
+      <lb ed="#F" n="87"/>ecclesiastica, quia omnia proueniunt 
+      <lb ed="#F" n="88"/>opera, &amp; artificio hominis, nec est 
+      con<lb ed="#F" n="89" break="no"/>tra. infra, e. cum non. quia ibi non 
+      proue<lb ed="#F" n="90" break="no"/>nit fructus artificio hominis, sed ex sola 
+      <lb ed="#F" n="91"/>gratia Dei, quod inde apparet, quia semen 
+      <lb ed="#F" n="92"/>mortificatum a Deo, non homine 
+      operan<lb ed="#F" n="93" break="no"/>te viuificatur, &amp; fructuum plus affert, sed 
+      <lb ed="#F" n="94"/>pisces &amp; animalia reclusa, non 
+      moriun<lb ed="#F" n="95" break="no"/>tur. Item si arborem de sylua excisam non 
+      <lb ed="#F" n="96"/>valentem libram, quis portet ad portum. 
+      <lb ed="#F" n="97"/>vbi valet mille, non debet soluere, nisi 
+      de<lb ed="#F" n="98" break="no"/>cimam eius, quod valebat in sylua, &amp; 
+      me<lb ed="#F" n="99" break="no"/>lius deductis expensis, quas fecit in 
+      du<lb ed="#F" n="100" break="no"/>cendo soluet decimam, dummodo bona 
+      <lb ed="#F" n="101"/>fide fecerit. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1219">
+                  <lb ed="#F" n="102"/>2 Omnibus) si alicui donantur 
+      immo<lb ed="#F" n="103" break="no"/>bilia, non credimus quod de illis quis 
+      de<lb ed="#F" n="104" break="no"/>beat dare decimas, cum in veteri 
+      testa<lb ed="#F" n="105" break="no"/>mento, vbi praeceptae fuerunt decimae, 
+      <lb ed="#F" n="106"/>L. euitae non habebant partem in 
+      posses<lb ed="#F" n="107" break="no"/>sione, quia de fructibus tantum decimas 
+      <lb ed="#F" n="108"/>dari dominus praecepit, alias autem mo¬ 
+      <pb ed="#F" n="416-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>bilia quoeunque titulo ad aliquem 
+      per<lb ed="#F" n="2" break="no"/>uenerint, siue ex dono, siue ex legato, siue 
+      <lb ed="#F" n="3"/>ex institutione haeredis soluat decimas, 
+      <lb ed="#F" n="4"/>quamuis aliqui excipiant suos haeredes, 
+      <lb ed="#F" n="5"/>qui finguntur domini etiam patre 
+      viuen<lb ed="#F" n="6" break="no"/>te. insti. de haere. quali. &amp; diffe. §. sui. alii 
+      <lb ed="#F" n="7"/>tamen dicunt, forte non male, quod de 
+      <lb ed="#F" n="8"/>his, quae dono dantur, vel ex successione 
+      <lb ed="#F" n="9"/>qualicunque obueniunt, non debent dari 
+      <lb ed="#F" n="10"/>decimae, quia nec de humo producuntur, 
+      <lb ed="#F" n="11"/>nec de opera manuum sunt, &amp; secundum 
+      <lb ed="#F" n="12"/>hoc exponendum est hoc verbum, de 
+      om<lb ed="#F" n="13" break="no"/>nibus bonis. sc. quae proueniunt ab humo, 
+      <lb ed="#F" n="14"/>vel a manibus. Item si aliquis pro 
+      mer<lb ed="#F" n="15" break="no"/>cede militiae suae vel aduocationis, vel pro 
+      <lb ed="#F" n="16"/>aliquo opere suo recipiat, ex pacto vel sine 
+      <lb ed="#F" n="17"/>pacto aliquod castrum, vel villam, vel 
+      ali<lb ed="#F" n="18" break="no"/>am possessionem immobilem, nunquam 
+      <lb ed="#F" n="19"/>de ea tenetur dare decimam praedicta 
+      ra<lb ed="#F" n="20" break="no"/>tione, scilicet quia de immobilibus non 
+      <lb ed="#F" n="21"/>sunt dandae decimae. Alii tamen dicunt, 
+      <lb ed="#F" n="22"/>quod in hoc casu, &amp; de mobilibus sunt 
+      dan<lb ed="#F" n="23" break="no"/>dae decimae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1292" type="decretales-l3t30c23">
+               <head xml:id="inleiv-d1e1211-Hd1e1294">Caput 23</head>
+               <p xml:id="inleiv-d1e1211-d1e1296">
+                  <lb ed="#F" n="24"/>CAPVT XXIII. 
+      <lb ed="#F" n="25"/>1 Decimae an &amp; quando seluantur ext rapinao 
+      <lb ed="#F" n="26"/>vsura, vel ex alio crimine notorio. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1305">
+                  <lb ed="#F" n="27"/>EX TRANSMISSA. (
+      Li<lb ed="#F" n="28" break="no"/>cite. ). Secus si illicite. 1. qon. 
+      <lb ed="#F" n="29"/>1. non est pu. quid dices de 
+      <lb ed="#F" n="30"/>meretrice &amp; histrione, &amp; 
+      <lb ed="#F" n="31"/>alijs in quos transfertur 
+      do<lb ed="#F" n="32" break="no"/>minium, &amp; non competit repetitio, dici. 
+      <lb ed="#F" n="33"/>mus quod tenetur soluere, quia non 
+      tur<lb ed="#F" n="34" break="no"/>piter accepit. ff. de condi. ob tur. cau. idem 
+      <lb ed="#F" n="35"/>&amp; fi. §. quoties. arg. ff. de interd. &amp; rele. 
+      <lb ed="#F" n="36"/>relegatorum, §. vlti. sed ecclesia in 
+      detesta<lb ed="#F" n="37" break="no"/>tionem criminis non recipiet, &amp; ne 
+      videa<lb ed="#F" n="38" break="no"/>tur tacite approbare, vnde scriptum est. 
+      <lb ed="#F" n="39"/>Non accipies mercedem prostibuli, sicut 
+      <lb ed="#F" n="40"/>&amp; non recipiet oblationes notoriae discor. 
+      <lb ed="#F" n="41"/>dantium. 90. dist. oblationes. ltem 
+      oppri<lb ed="#F" n="42" break="no"/>mentium pauperes, vt ibi dicitur. Item 
+      <lb ed="#F" n="43"/>raptorum &amp; vsurariorum. infra, de rap. 
+      <lb ed="#F" n="44"/>super ea. infra. de vsur. quia. Item 
+      mere<lb ed="#F" n="45" break="no"/>tricis, &amp; propter quodlibet aliud 
+      noto<lb ed="#F" n="46" break="no"/>rium crimen vel horrendum. 17. 
+      quae<lb ed="#F" n="47" break="no"/>stio. 4. miror. Secus autem vbi dominium 
+      <lb ed="#F" n="48"/>non est transsatum, vel est transsatum, 
+      <lb ed="#F" n="49"/>sed competit repetitio, nam tunc nullo 
+      <lb ed="#F" n="50"/>modo, nec aliquo tempore dandae sunt 
+      <lb ed="#F" n="51"/>decimae vel eleemosyvnae faciendae, &amp; sic 
+      <lb ed="#F" n="52"/>loquitur hic. &amp; 1. quaestio. 1. non est pu. 
+      <lb ed="#F" n="53"/>24. quaestio. 3. cap. vlti. a meretrice autem 
+      <lb ed="#F" n="54"/>post poenitentiam crederemus posse exi¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>gi decimam, quia iam post poenitentiam 
+      <lb ed="#F" n="56"/>despici non debet in eo quod fuit. 30. di. 
+      <lb ed="#F" n="57"/>ferrum. In decimis autem praedialibus 
+      <lb ed="#F" n="58"/>secus est dicendum, quia semper 
+      soluen<lb ed="#F" n="59" break="no"/>dae sunt de praedijs decimae, &amp; si infinita 
+      <lb ed="#F" n="60"/>sit malitia possidentium. supra. eo. de 
+      <lb ed="#F" n="61"/>terris. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1387" type="decretales-l3t30c24">
+               <head xml:id="inleiv-d1e1211-Hd1e1389">Caput 24</head>
+               <p xml:id="inleiv-d1e1211-d1e1391">
+                  <lb ed="#F" n="62"/>CAPVT 2XIIII. 
+      <lb ed="#F" n="63"/>1 Coloni, conductores, &amp; alii pensionari, an &amp; 
+      <lb ed="#F" n="64"/>quando teneantur soluere decimas. 
+      <lb ed="#F" n="65"/>2 Detimae sunt solnendae iis ecclesiit, vbi 
+      pra<lb ed="#F" n="66" break="no"/>dia sita sunt. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1404">
+                  <lb ed="#F" n="67"/>NOBIS. (Firmam). 
+      <lb ed="#F" n="68"/>Puta quia est colonus 
+      par<lb ed="#F" n="69" break="no"/>tionarius. scet qui certam 
+      par<lb ed="#F" n="70" break="no"/>tem fructuum recipit, si 
+      <lb ed="#F" n="71"/>autem esset pensionarius, 
+      <lb ed="#F" n="72"/>puta quia pro io. colit agrum de 
+      fructi<lb ed="#F" n="73" break="no"/>bus, cum non sint sui, non tenetur 
+      solue<lb ed="#F" n="74" break="no"/>re decimam, tamen si possideat, vel 
+      tan<lb ed="#F" n="75" break="no"/>tum detineat fructus terrae possunt, sicut 
+      <lb ed="#F" n="76"/>&amp; a quolibet alio detentore vendicari. 
+      <lb ed="#F" n="77"/>argumentum. 16. quaestio. 1. cap. si quis 
+      <lb ed="#F" n="78"/>laicus. infra, e. pastoralis. ff. de vsur. 
+      ha<lb ed="#F" n="79" break="no"/>ctenus. Item dicimus, quod licet 
+      do<lb ed="#F" n="80" break="no"/>minus cum pensionario conueniat, quod 
+      <lb ed="#F" n="81"/>pensionarius omnes decimas soluat, 
+      <lb ed="#F" n="82"/>tamen potest dominus conueniri de eo, 
+      <lb ed="#F" n="83"/>quod recipit, nisi pensionarius soluat, cum 
+      <lb ed="#F" n="84"/>de omnibus bonis debeant solui decimae. 
+      <lb ed="#F" n="85"/>supra, eo. non est.  Item credimus, 
+      <lb ed="#F" n="86"/>quod coloni etiam si in alia parochia 
+      <lb ed="#F" n="87"/>percipiant ecclesiastica sacramenta, 
+      ta<lb ed="#F" n="88" break="no"/>men de fructibus, quos percipiunt de 
+      <lb ed="#F" n="89"/>praedijs quae colunt ratione culturae, non 
+      <lb ed="#F" n="90"/>debent soluere decimas suae ecclesiae, sed 
+      <lb ed="#F" n="91"/>illi in cuius parochia sita sunt praedia. 
+      ar<lb ed="#F" n="92" break="no"/>gumentum. hic &amp; ratio est. supra eodem. 
+      <lb ed="#F" n="93"/>non est. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1465">
+                  <lb ed="#F" n="94"/>Et dicimus hoc sic verum, si quartam 
+      <lb ed="#F" n="95"/>partem fructuum recipiant pro labore, 
+      <lb ed="#F" n="96"/>siue certas mensuras tantum, dummode 
+      <lb ed="#F" n="97"/>de fundo illo recipere debeant illas 
+      men<lb ed="#F" n="98" break="no"/>furas, &amp; non aliunde, puta quia si in fun. 
+      <lb ed="#F" n="99"/>do essent, soluerentur illae mensurae, &amp;t si 
+      <lb ed="#F" n="100"/>non essent ibi, non soluerentur illae 
+      men<lb ed="#F" n="101" break="no"/>surae, &amp; idem videtur dicendum, etiam si 
+      <lb ed="#F" n="102"/>non de fructibus illorum praediorum, sed 
+      <lb ed="#F" n="103"/>etiam certa pecuniae summa deberet 
+      sol<lb ed="#F" n="104" break="no"/>ui, dummodo sic esset conuentum, quod 
+      <lb ed="#F" n="105"/>de fructibus illorum praediorum 
+      solue<lb ed="#F" n="106" break="no"/>retur illa pecunia. argumentum. ff. de 
+      <lb ed="#F" n="107"/>vsufruct. hactenus. ff. de iudic. fideicom. 
+      <lb ed="#F" n="108"/>misso. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1500">
+                  <lb ed="#F" n="109"/>Sed secus esset si de frucibus praedii 
+      <pb ed="#F" n="416-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>non deberent coloni recipere portionem 
+      <lb ed="#F" n="2"/>suam, sed persona esset tantum obligata 
+      <lb ed="#F" n="3"/>ad soluendum mercedem, siue merces 
+      <lb ed="#F" n="4"/>esset in fructibus vndecunque perceptis, 
+      <lb ed="#F" n="5"/>siue in pecunia, quia tunc de mercede 
+      il<lb ed="#F" n="6" break="no"/>la soluit decimas ecclesiae suae vbi 
+      perci<lb ed="#F" n="7" break="no"/>pit diuina sacramenta. 16. quaestio. 1. 
+      quae<lb ed="#F" n="8" break="no"/>sti. nam ibi loquitur in casu isto, &amp; est 
+      ar<lb ed="#F" n="9" break="no"/>gumentum, ad hoc. ff. de contrah. emp. 
+      <lb ed="#F" n="10"/>l. fi. &amp; hoc ipsum probo rationibus. In 
+      <lb ed="#F" n="11"/>primo enim casu, cum omnes fructus sint 
+      <lb ed="#F" n="12"/>decimandi antequam diuidantur sine 
+      de<lb ed="#F" n="13" break="no"/>ductione expensarum. infra, e. tua. ergo 
+      <lb ed="#F" n="14"/>ex quo semel sunt decimati, vlterius 
+      de<lb ed="#F" n="15" break="no"/>cimari non debent ab his, ad quos ex 
+      de<lb ed="#F" n="16" break="no"/>bito perueniunt, ficut sunt coloni. infra, 
+      <lb ed="#F" n="17"/>eodem, pasto. Item in secundo casu est 
+      <lb ed="#F" n="18"/>optima ratio, quia est lucrum manuum 
+      <lb ed="#F" n="19"/>suarum, ergo debet habere inde decimas 
+      <lb ed="#F" n="20"/>ecclesia, vbi percipit sacramenta. Item 
+      <lb ed="#F" n="21"/>in primo casu totus fructus est de terra, 
+      li<lb ed="#F" n="22" break="no"/>cet in eo habendo cooperetur opera 
+      ho<lb ed="#F" n="23" break="no"/>minis. supra eodem, non est. ideo tantum 
+      <lb ed="#F" n="24"/>ecclesiae vbi sunt sita praedia, dandae sunt 
+      <lb ed="#F" n="25"/>decimae. nam secundum pacta quae 
+      dixi<lb ed="#F" n="26" break="no"/>mus, nihil debet habere de mercede, nisi 
+      <lb ed="#F" n="27"/>terra fructificet. In secundo autem casu 
+      <lb ed="#F" n="28"/>totus fructus vel potius lucrum &amp; merces 
+      <lb ed="#F" n="29"/>est de opere manuum, quia etiam si 
+      fun<lb ed="#F" n="30" break="no"/>dus esset ex toto sterilis, tamen mercedem 
+      <lb ed="#F" n="31"/>suam haberet colonus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1577" type="decretales-l3t30c25">
+               <head xml:id="inleiv-d1e1211-Hd1e1579">Caput 25</head>
+               <p xml:id="inleiv-d1e1211-d1e1581">
+                  <lb ed="#F" n="32"/>CAPVT XXV. 
+      <lb ed="#F" n="33"/>1 priuilegium ecclefis siper decimas 
+      conces<lb ed="#F" n="34" break="no"/>sum an &amp; quando large sit 
+      interpretan<lb ed="#F" n="35" break="no"/>dum. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1592">
+                  <lb ed="#F" n="36"/>TVA. &amp; infra. (
+      Extenden<lb ed="#F" n="37" break="no"/>da). infra, e. ex parte. con. 
+      <lb ed="#F" n="38"/>tra sol. ibi priuilegium 
+      ge<lb ed="#F" n="39" break="no"/>nerale datum ecclesiae super 
+      <lb ed="#F" n="40"/>decimis alterius parochiae. 
+      <lb ed="#F" n="41"/>legitimam recipit interpretationem, &amp; 
+      <lb ed="#F" n="42"/>secundum proprietatem verborum. s. 
+      <lb ed="#F" n="43"/>quod ex quo concessae sunt ei decimae 
+      <lb ed="#F" n="44"/>alicuius parochiae, non solum decimae 
+      <lb ed="#F" n="45"/>veteres, sed etiam de noualibus 
+      conces<lb ed="#F" n="46" break="no"/>sae videntur, sed tamen nec in hoc casu 
+      <lb ed="#F" n="47"/>credimus priuilegium largissime, sed 
+      tan<lb ed="#F" n="48" break="no"/>tum large interpretandum est 
+      inquan<lb ed="#F" n="49" break="no"/>tum ius aliorum tangit. ff. de vulg. 
+      sub<lb ed="#F" n="50" break="no"/>sti. ex facto. supra eodem, dilecti. &amp; c. 
+      <lb ed="#F" n="51"/>suggestum. inquantum autem ius 
+      conce<lb ed="#F" n="52" break="no"/>dentis tangit, largissime 
+      interpretan<lb ed="#F" n="53" break="no"/>dum est. supra, de do. cum dilec. Sed 
+      li<lb ed="#F" n="54" break="no"/>cet hoc sit in priuile. concessis ecclesijs: 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>tamen: secus est in feudationibus 
+      deci<lb ed="#F" n="56" break="no"/>marum concessis laicis, quia ibi 
+      solum<lb ed="#F" n="57" break="no"/>modo sunt large interpretanda verba, 
+      <lb ed="#F" n="58"/>vt intelligantur tantum de decimis, quae 
+      <lb ed="#F" n="59"/>tempore infeudationis erant. 
+      argumen<lb ed="#F" n="60" break="no"/>tum. ff. de contrahen. emp. Rutilia. cum 
+      <lb ed="#F" n="61"/>enim infeudare sit contractus, sufficit si 
+      <lb ed="#F" n="62"/>fiat ibi larga interpretatio: vt in praealle. 
+      <lb ed="#F" n="63"/>c. cum dilecti. &amp; ideo ad futura extendi 
+      <lb ed="#F" n="64"/>non debet: vt in praedic. l. Rutilia. 
+      quam<lb ed="#F" n="65" break="no"/>uis haec concessio decimarum facta laicis 
+      <lb ed="#F" n="66"/>specialiter sit odiosa: vt supra, de his quae 
+      <lb ed="#F" n="67"/>fi. a praela. sine con. ca. cum 
+      apostoli<lb ed="#F" n="68" break="no"/>ca. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1668">
+                  <lb ed="#F" n="69"/>Et hoc est in contractibus, si non sunt 
+      <lb ed="#F" n="70"/>extendendi ad futura, multo fortius iura 
+      <lb ed="#F" n="71"/>ex praescriptione quaesita ad futura non 
+      <lb ed="#F" n="72"/>extenduntur. VERBI GRATIA: si 
+      <lb ed="#F" n="73"/>praescripsit aliquod ius decimandi in 
+      to<lb ed="#F" n="74" break="no"/>ta parochia alicuius, non tamen 
+      vide<lb ed="#F" n="75" break="no"/>tur praescripsisse in noualibus, infra, e. cum 
+      <lb ed="#F" n="76"/>contingat. nam praescriptiones non 
+      tan<lb ed="#F" n="77" break="no"/>tummodo sunt large interpretandae, sed 
+      <lb ed="#F" n="78"/>sunt restringendae, vt non intelligatur 
+      <lb ed="#F" n="79"/>praescriptum, nisi illud quod praeseriptum 
+      <lb ed="#F" n="80"/>probatur, nam licet quis probauerit, quod 
+      <lb ed="#F" n="81"/>per totam parochiam decimam colligit, 
+      <lb ed="#F" n="82"/>excepto vno praedio, de quo non 
+      proba<lb ed="#F" n="83" break="no"/>uit, non adiudicabo sibi decimam in 
+      il<lb ed="#F" n="84" break="no"/>lo praedio, &amp; ad hoc est argumentum, in 
+      <lb ed="#F" n="85"/>fra eodem, cum contingat. vnde est, quod 
+      <lb ed="#F" n="86"/>quando aliquis petit decimas, quas 
+      prae<lb ed="#F" n="87" break="no"/>scripsit extra suam parochiam, quod 
+      de<lb ed="#F" n="88" break="no"/>bet probare de singulis fundis per se: quia 
+      <lb ed="#F" n="89"/>decima collecta ex vicinis fundis, non 
+      <lb ed="#F" n="90"/>probat in alijs debere. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1719" type="decretales-l3t30c26">
+               <head xml:id="inleiv-d1e1211-Hd1e1721">Caput 26</head>
+               <p xml:id="inleiv-d1e1211-d1e1723">
+                  <lb ed="#F" n="91"/>CAPVT XXVI.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1728">
+                  <lb ed="#F" n="92"/>TVA NORIS. (
+      Sta<lb ed="#F" n="93" break="no"/>tutum). id est, reditus vel 
+      <lb ed="#F" n="94"/>census.  Aut semine). 
+      <lb ed="#F" n="95"/>not. quod quando aliquis dat 
+      <lb ed="#F" n="96"/> terram alicui colendam ad 
+      <lb ed="#F" n="97"/>tertium, quartum, vel ad alium reditum. 
+      <lb ed="#F" n="98"/>nunquam colonus debet inde 
+      deduce<lb ed="#F" n="99" break="no"/>re semen, vel alias expensas de iure, nisi 
+      <lb ed="#F" n="100"/>per speciale pactum aliuafat. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1751" type="decretales-l3t30c27">
+               <head xml:id="inleiv-d1e1211-Hd1e1753">Caput 27</head>
+               <p xml:id="inleiv-d1e1211-d1e1755">
+                  <lb ed="#F" n="101"/>CAPVT XXVII. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1760">
+                  <lb ed="#F" n="102"/>EX PARTET VA. 
+      <lb ed="#F" n="103"/>(Laboribus). id est, de ter. 
+      <lb ed="#F" n="104"/>ris laboratis (per vos) id 
+      <lb ed="#F" n="105"/>est, parochias, in quibus ius 
+      <lb ed="#F" n="106"/>patronatus habetis. (De 
+      no<lb ed="#F" n="107" break="no"/>ualibus) supra eodem, tua. contra sol 
+      <lb ed="#F" n="108"/>ibi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e1780" type="decretales-l3t30c28">
+               <head xml:id="inleiv-d1e1211-Hd1e1782">Caput 28</head>
+               <p xml:id="inleiv-d1e1211-d1e1784">
+                  <pb ed="#F" n="417-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT XXVIII. 
+      <lb ed="#F" n="2"/>1 Qae ratio sit, cur im fr luendo detimas 
+      dene<lb ed="#F" n="3" break="no"/>gotiatione dedncantur expensae, cirea rem 
+      <lb ed="#F" n="4"/>factae. 
+      <lb ed="#F" n="5"/>2 Deffuctibus &amp; reditibus decime 
+      nondimi<lb ed="#F" n="6" break="no"/>nutae dandae sunt. 
+      <lb ed="#F" n="7"/>2 De lucroreiempta datur decima, quidautem 
+      <lb ed="#F" n="8"/>de mercibus. in num. 4. 
+      <lb ed="#F" n="9"/>3 Detimae praediales dari debent statim, vbi 
+      <lb ed="#F" n="10"/>freftes bercibiuntere 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1813">
+                  <lb ed="#F" n="11"/>PASTORALIS 
+      <lb ed="#F" n="12"/>Casus est talis, episcopus 
+      <lb ed="#F" n="13"/>Elienens. quaesiuit, an si 
+      <lb ed="#F" n="14"/>quando soluuntur decimae 
+      <lb ed="#F" n="15"/>de fructibus, vel 
+      prouenti<lb ed="#F" n="16" break="no"/>bus molendinorum &amp; piscariarum 
+      de<lb ed="#F" n="17" break="no"/>ducendae sint expensae factae pro eis 
+      per<lb ed="#F" n="18" break="no"/>cipiendis, sicut deducuntur quando 
+      de<lb ed="#F" n="19" break="no"/>cimae soluuntur de lucro negotiationis: 
+      <lb ed="#F" n="20"/>Huic autem quaestioni respondit Papa, 
+      <lb ed="#F" n="21"/>non est differentia de molendinis &amp; 
+      pisca<lb ed="#F" n="22" break="no"/>rijs, vel agris, vel gregibus, vel 
+      quibus<lb ed="#F" n="23" break="no"/>cunque alijs mercibus, quia si ipsae 
+      fue<lb ed="#F" n="24" break="no"/>runt emptae de pecunia decimata, 
+      quan<lb ed="#F" n="25" break="no"/>tumcunque postea vendi contigerit 
+      eas<lb ed="#F" n="26" break="no"/>dem, etiam si post multos annos, &amp; 
+      post<lb ed="#F" n="27" break="no"/>quam multos collegerit fructus ex eis, 
+      <lb ed="#F" n="28"/>tamen omnes expensas deducet, sed 
+      quan<lb ed="#F" n="29" break="no"/>do soluit decimas de prouentibus, vel 
+      <lb ed="#F" n="30"/>fructibus molendinorum, vel 
+      piscaria<lb ed="#F" n="31" break="no"/>rum, vel agrorum, vel quarumcunque 
+      <lb ed="#F" n="32"/>aliarum rerum, siue sint empti causa 
+      pro<lb ed="#F" n="33" break="no"/>prii vsus, siue ad reuendendum, non 
+      de<lb ed="#F" n="34" break="no"/>bet inde extrahere expensas, siue fiant pro 
+      <lb ed="#F" n="35"/>fructibus colendis, siue fiant pro restau 
+      <lb ed="#F" n="36"/>randis rebus, vnde fructus proueniunt, 
+      <lb ed="#F" n="37"/>siue eaedem res pro parte corruant, siue in 
+      <lb ed="#F" n="38"/>totum, Aliqui tamen dicunt, quod 
+      quan<lb ed="#F" n="39" break="no"/>do dantur decimae de prouentibus 
+      mo<lb ed="#F" n="40" break="no"/>lendini, vel piscariae, quod deduci debent 
+      <lb ed="#F" n="41"/>expensae, quae fiunt extra rem, vnde 
+      pro<lb ed="#F" n="42" break="no"/>ueniunt fructus, &amp; deinde soluuntur 
+      de<lb ed="#F" n="43" break="no"/>cimae, &amp; intelligunt literam istam, vbi 
+      <lb ed="#F" n="44"/>dicitur, expensas tamen quae fiunt pro 
+      <lb ed="#F" n="45"/>fructibus, etc. loqui in tali casu, scilicet 
+      <lb ed="#F" n="46"/>quando aliquis emit molendinum vel 
+      pis<lb ed="#F" n="47" break="no"/>cariam, &amp; ex eis percipit fructus, &amp; pro 
+      <lb ed="#F" n="48"/>illis fructibus vel prouentibus 
+      percipien<lb ed="#F" n="49" break="no"/>dis fecit expensas extra rem, puta pro 
+      <lb ed="#F" n="50"/>mercenarijs retijs, postea quando 
+      reuen<lb ed="#F" n="51" break="no"/>det molendinum &amp; piscariam soluit 
+      de<lb ed="#F" n="52" break="no"/>eimam, de lucro, non deducet expensas 
+      <lb ed="#F" n="53"/>istas, secus autem esset, si circa rem 
+      fe<lb ed="#F" n="54" break="no"/>eisset expensas, puta in refectione 
+      molen<lb ed="#F" n="55" break="no"/>dini, vel piscariae, quia illas bene dedu¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>cet, &amp; hoc dicit finis dec. huius. Hoc 
+      li<lb ed="#F" n="57" break="no"/>cet aequitati consonet, tamen literae 
+      con<lb ed="#F" n="58" break="no"/>tradicere videntur, nobis videtur, quod 
+      <lb ed="#F" n="59"/>bene fuit quaestio in hac decre. an sicut 
+      <lb ed="#F" n="60"/>de negotiatione deducuntur expensae 
+      <lb ed="#F" n="61"/>ante decimas, quae fiunt pro lucro 
+      haben<lb ed="#F" n="62" break="no"/>do. sc. quae fiunt in mercenarijs, in 
+      media<lb ed="#F" n="63" break="no"/>toribus, in pedagijs &amp; mercibus 
+      dedu<lb ed="#F" n="64" break="no"/>cendi, &amp; in alijs huiusmodi, siue etiam 
+      fi<lb ed="#F" n="65" break="no"/>ant circa res, in quibus negotiantur, vt 
+      <lb ed="#F" n="66"/>sunt mercedes, quae dantur vel textoribus, 
+      <lb ed="#F" n="67"/>vel sarcinatoribus, vel fullonibus, vel alijs 
+      <lb ed="#F" n="68"/>huiusmodi, an si etiam deduci debeant de 
+      <lb ed="#F" n="69"/>molendinis &amp; piscarijs. &amp; respondit quod 
+      <lb ed="#F" n="70"/>non, quia nec primae expensae. se. quae 
+      <lb ed="#F" n="71"/>sunt extra rem. lsc. molendini, vt quae fiunt 
+      <lb ed="#F" n="72"/>in mercenarijs, qui seruiunt molendino 
+      <lb ed="#F" n="73"/>&amp; iumentis, sunt deducendae, &amp; hoc 
+      di<lb ed="#F" n="74" break="no"/>cit ibi expensas, quae fiunt, etc. nec secunt 
+      <lb ed="#F" n="75"/>dae etiam expensae quae fiunt circa rem. 
+      <lb ed="#F" n="76"/>s. molendini similiter sunt deducendae, 
+      <lb ed="#F" n="77"/>&amp; hoc dicit ibi, nec pro restauratione 
+      <lb ed="#F" n="78"/>detrimento, etc. Aliqui tamen dicunt, 
+      <lb ed="#F" n="79"/>quod expensae mercenariorum non sunt 
+      <lb ed="#F" n="80"/>deducendae ante decimas, neque in ne 
+      <lb ed="#F" n="81"/>gotiatione, neque in molendino, sed 
+      <lb ed="#F" n="82"/>haec est differentia inter negotiatores &amp; 
+      <lb ed="#F" n="83"/>alios, quia negotiatores deducunt 
+      expen<lb ed="#F" n="84" break="no"/>sas factas circa rem, sed alii non 
+      dedu<lb ed="#F" n="85" break="no"/>cunt expensas, neque circa rem factas, 
+      <lb ed="#F" n="86"/>neque alias, nisi quando res 
+      vendun<lb ed="#F" n="87" break="no"/>tur. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e1985">
+                  <lb ed="#F" n="88"/>1 Sed quaeritur circa primos qui 
+      mo<lb ed="#F" n="89" break="no"/>uit Papam, vel quae ratio est, quod 
+      dedu<lb ed="#F" n="90" break="no"/>cantur hae expensae siue extra rem, siue 
+      <lb ed="#F" n="91"/>ci rca rem de negotiatione, &amp; non de 
+      <lb ed="#F" n="92"/>21I5. Respon. ratio est supra, e. non est. &amp; 
+      <lb ed="#F" n="93"/>c. tua. &amp; infra, e. cum non. vbi dicitur, 
+      <lb ed="#F" n="94"/>quod dominus omnium rerum. s. orbis 
+      <lb ed="#F" n="95"/>&amp; terrae, &amp; plenitudinis eius decimas 
+      si<lb ed="#F" n="96" break="no"/>bi reseruauit in signum vniuersalis 
+      do<lb ed="#F" n="97" break="no"/>minii, &amp; indignum esset, quod de fructu 
+      <lb ed="#F" n="98"/>terrae suae, vel alterius rei, siue sit molen 
+      <lb ed="#F" n="99"/>dinum, siue grex, siue piscaria, siue 
+      pos<lb ed="#F" n="100" break="no"/>sessio deduceretur aliqua expensa extra 
+      <lb ed="#F" n="101"/>rem, nec circa rem, quando nec talis 
+      ex<lb ed="#F" n="102" break="no"/>pensa detrahitur dominis temporalibus 
+      <lb ed="#F" n="103"/>suos fundos, vel alias res locantibus, vel 
+      <lb ed="#F" n="104"/>ad censum dantibus, secus autem est in 
+      <lb ed="#F" n="105"/>negotiatione, quia ibi nullus est fructus. 
+      <lb ed="#F" n="106"/>quomodo enim potest dici fructus, si 
+      <lb ed="#F" n="107"/>ego emo lanam, &amp; inde facio vestem, 
+      <lb ed="#F" n="108"/>vel si emo fundum pro centum, certe 
+      <lb ed="#F" n="109"/>nunquam potest dici fructus, sed lucrum 
+      <lb ed="#F" n="110"/>est, &amp; pretium quicquid residuum est 
+      <lb ed="#F" n="111"/>deductis expenfis &amp; pretio. ff. de haere. 
+      <lb ed="#F" n="112"/>vel acto. vend. venditor ex haered. ff. ad. l. 
+      <pb ed="#F" n="417-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>Fal. l. 3. &amp; de hoc lucro bene danda est de.  
+      <lb ed="#F" n="2"/>cima. supra, e. non est. sed in molendino 
+      <lb ed="#F" n="3"/>grege, possessionibus &amp; alijs rebus 
+      ele<lb ed="#F" n="4" break="no"/>mentatis, fructus &amp; reditus est, quod 
+      in<lb ed="#F" n="5" break="no"/>de prouenit, non etiam deductis expensis, 
+      <lb ed="#F" n="6"/>licet enim expensae mercenariorum, &amp; 
+      <lb ed="#F" n="7"/>aliae siue fiant extra rem, siue circa rem, 
+      <lb ed="#F" n="8"/>&amp; prosint vt maior fructus habeatur, inde 
+      <lb ed="#F" n="9"/>tamen nunquam ex eis habetur fructus 
+      <lb ed="#F" n="10"/>molendini, sed tantum ex re, puta 
+      mo<lb ed="#F" n="11" break="no"/>lendino vel grege, &amp; sic vulgari sermone 
+      <lb ed="#F" n="12"/>dicitur fructus vel reditus huius 
+      molen<lb ed="#F" n="13" break="no"/>dini, vel gregis tantus est, &amp; lucrum 
+      hu<lb ed="#F" n="14" break="no"/>ius negotiationis tantum est. ff. de vsufruc. 
+      <lb ed="#F" n="15"/>l. vsufru. legato. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2079">
+                  <lb ed="#F" n="16"/>3  Cum ergo de fructibus &amp; reditibus 
+      <lb ed="#F" n="17"/>integrae decimae dandae sunt nullo modo 
+      <lb ed="#F" n="18"/>integrae darentur, si expensae 
+      deduceren<lb ed="#F" n="19" break="no"/>tur. supra, e. tua. infra, e. cum non. sed de 
+      <lb ed="#F" n="20"/>toto lucro dantur bene decimae, licet 
+      de<lb ed="#F" n="21" break="no"/>trahantur expensae factae in negotiatione, 
+      <lb ed="#F" n="22"/>quia eis deductis dicitur lucrum. Sed 
+      <lb ed="#F" n="23"/>contra. ff. de peti. haere. si a domino. §. fin. 
+      <lb ed="#F" n="24"/>vbi dicitur, quod fructus intelliguntur 
+      <lb ed="#F" n="25"/>deductis necessarijs &amp; vtilibus expensis. 
+      <lb ed="#F" n="26"/>Sol. ibi appellat fructum lucrum, vel dic, 
+      <lb ed="#F" n="27"/>quod illa expositio est ciuilis, non 
+      natura<lb ed="#F" n="28" break="no"/>lis, constat enim quod in veritate fructus 
+      <lb ed="#F" n="29"/>vel reditus est, quicquid venit de 
+      molen<lb ed="#F" n="30" break="no"/>dino grege, vel possessione, licet nullae 
+      <lb ed="#F" n="31"/>expensae deducantur, videtur ergo sic 
+      <lb ed="#F" n="32"/>tenendum, quia quando soluitur decima 
+      <lb ed="#F" n="33"/>a lucro, deducendae sunt expensae, sed vbi 
+      <lb ed="#F" n="34"/>soluuntur de fructibus, vel reditibus, non 
+      <lb ed="#F" n="35"/>deducuntur expensae. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2126">
+                  <lb ed="#F" n="36"/>Venduntur) quandocunque 
+      ven<lb ed="#F" n="37" break="no"/>dantur emptae res, vel factae, tamen 
+      sem<lb ed="#F" n="38" break="no"/>per si aliquod lucrum fuerit in eis, quan. &amp; 
+      <lb ed="#F" n="39"/>do venduntur, de lucro soluetur, de 
+      de<lb ed="#F" n="40" break="no"/>cima &amp; decimis detrahantur expensae, 
+      <lb ed="#F" n="41"/>nec distinguitur, an empta vel facta sit 
+      <lb ed="#F" n="42"/>res causa mercimonii, vel negotiationis, 
+      <lb ed="#F" n="43"/>vel causa proprii vsus, licet quidam 
+      dis<lb ed="#F" n="44" break="no"/>tinguant, vt quando mercimonii causa 
+      <lb ed="#F" n="45"/>emit, tunc det decimas de lucro, sed si 
+      cau<lb ed="#F" n="46" break="no"/>sa vsus proprii emit, tunc etiam si 
+      mul<lb ed="#F" n="47" break="no"/>tum inde lucretur, tamen non dat 
+      deci<lb ed="#F" n="48" break="no"/>mas. Sed certe his contradicit, quod 
+      <lb ed="#F" n="49"/>hic dicit. sc. quia dicitur, quod cum 
+      ven<lb ed="#F" n="50" break="no"/>duntur decimari debet lucrum, deductis 
+      <lb ed="#F" n="51"/>expensis. Item videtur nobis, quod 
+      eti<lb ed="#F" n="52" break="no"/>am si causa mercimonii emerit mercem, 
+      <lb ed="#F" n="53"/>quae multum plus valet, quam sit 
+      preti<lb ed="#F" n="54" break="no"/>um pro ea datum, si tamen retineat ad 
+      <lb ed="#F" n="55"/>proptium vsum, non soluet decimas de 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>eo, quod res plus valet.  Item 
+      vide<lb ed="#F" n="57" break="no"/>tur, si quis emerit mercem pro centum, 
+      <lb ed="#F" n="58"/>&amp; postea de medietate merais acceperit 
+      <lb ed="#F" n="59"/>centum, quod si vult de mereibus quae 
+      re<lb ed="#F" n="60" break="no"/>manserunt, quae omnes sunt lucrum 
+      da<lb ed="#F" n="61" break="no"/>re decimam, quod potest siue merces 
+      <lb ed="#F" n="62"/>sint immobiles, siue mobiles, sed si nolit 
+      <lb ed="#F" n="63"/>dare partem de mercibus, quae 
+      remanse<lb ed="#F" n="64" break="no"/>runt, debet dare decimam de pretio 
+      re<lb ed="#F" n="65" break="no"/>rum venditarum, &amp; hoc satis probatur 
+      <lb ed="#F" n="66"/>hic. &amp; supra, e. non est. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2198">
+                  <lb ed="#F" n="67"/> Sed quid si de parte quam vendidit 
+      <lb ed="#F" n="68"/>non accepit totum pretium, quod dedit 
+      <lb ed="#F" n="69"/>pro mercede clsct centum accepit fere totum, 
+      <lb ed="#F" n="70"/>puta 9o. &amp; non dedit nisi tertiam, vel 
+      me<lb ed="#F" n="71" break="no"/>diam partem mercis, certe &amp; tunc idem 
+      <lb ed="#F" n="72"/>videtur, quia facta legitima 
+      aestimatio<lb ed="#F" n="73" break="no"/>ne eius, quod apud eum remanet soluet 
+      <lb ed="#F" n="74"/>decimam de lucro rerum venditarum 
+      <lb ed="#F" n="75"/>( molendinis). id est, prouentibus 
+      mo<lb ed="#F" n="76" break="no"/>lendinorum &amp; piscariarum ( 
+      neceffari<lb ed="#F" n="77" break="no"/>as). s. pro seruitoribus &amp; mercenariis 
+      <lb ed="#F" n="78"/>molendini, vel etiam ipsius molendini 
+      re<lb ed="#F" n="79" break="no"/>fectione, vel piscariae (ex eisdem). s. ex 
+      <lb ed="#F" n="80"/>fructibus molendini vel piscariae. (
+      Con<lb ed="#F" n="81" break="no"/>cessum) consuetudine approbata vel 
+      <lb ed="#F" n="82"/>ratione licet non praescripta. icet quod 
+      de<lb ed="#F" n="83" break="no"/>trahant pretia rerum suarum 
+      negotia<lb ed="#F" n="84" break="no"/>torum expensas &amp; alia ( acquisitas) in 
+      <lb ed="#F" n="85"/>sua forma, vt campus, castrum &amp; similia 
+      <lb ed="#F" n="86"/>quocunque titulo, vt re alienentur, vel 
+      <lb ed="#F" n="87"/>etiam sine hac intentione (factas) ex alia 
+      <lb ed="#F" n="88"/>materia vt tela. (Decimata) si enim non 
+      <lb ed="#F" n="89"/>esset decimata, non soluit de lucro, sed 
+      <lb ed="#F" n="90"/>etiam pretium, quod etiam in re empta 
+      <lb ed="#F" n="91"/>datum est decimari debet, vel vt alii 
+      di<lb ed="#F" n="92" break="no"/>eunt ipsa res empta, argumentum. supra. 
+      <lb ed="#F" n="93"/>de pec. cle. cap. 1. vel pretium quod de re 
+      <lb ed="#F" n="94"/>empta accipitur.  Venduntur) si 
+      <lb ed="#F" n="95"/>enim donaret, vel permutaret, vel alio 
+      <lb ed="#F" n="96"/>titulo alienaret, nam tunc licet res plus 
+      <lb ed="#F" n="97"/>valeat, quam eam emerit, tamen nullas 
+      <lb ed="#F" n="98"/>decimas soluere tenetur, idem est, si sibi 
+      <lb ed="#F" n="99"/>retineret. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2272">
+                  <lb ed="#F" n="100"/>Quod verum est si pecunia, vnde res 
+      <lb ed="#F" n="101"/>empta, vel facta decimata esset, quia si 
+      <lb ed="#F" n="102"/>pecunia non esset decimata, erederemus 
+      <lb ed="#F" n="103"/>quod res empta pro decima parte esset 
+      <lb ed="#F" n="104"/>ecclesiae, cum &amp; ipsa pecunia vnde 
+      em<lb ed="#F" n="105" break="no"/>pta est pro decima parte esset ecclesiae. I. 
+      <lb ed="#F" n="106"/>e. c. §. fructus. argumentum op. supra, de 
+      <lb ed="#F" n="107"/>pe. cle. cap. 1. (expensas) quae fiunt in 
+      eun<lb ed="#F" n="108" break="no"/>do &amp; redeundo ad negotiandum, &amp; quae 
+      <lb ed="#F" n="109"/>dantur mediatoribus &amp; consimiles, &amp; 
+      <lb ed="#F" n="110"/>non solum necessarias &amp; vtiles, sed etiam 
+      <lb ed="#F" n="111"/>voluptuosas &amp; quaslibet, dummodo in 
+      <pb ed="#F" n="418-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>traudem non fieret ecclesiarum, &amp; ante 
+      <lb ed="#F" n="2"/>omnia deducendum est pretium datum 
+      <lb ed="#F" n="3"/>pro re. Decimae vero praediales soluuntur 
+      <lb ed="#F" n="4"/>nullis sumptibus deductis. 3. eod. cum 
+      ho<lb ed="#F" n="5" break="no"/>minis. &amp; c. tua. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2316">
+                  <lb ed="#F" n="6"/>5 Personales) si surgunt ex rebus 
+      deci<lb ed="#F" n="7" break="no"/>matis deducuntur expensae, alias non, vt 
+      <lb ed="#F" n="8"/>hic. Item praediales debent dari statim, vbi 
+      <lb ed="#F" n="9"/>fructus percipiuntur antequam 
+      separen<lb ed="#F" n="10" break="no"/>tur inde census, vel tributum, tamen &amp; si 
+      <lb ed="#F" n="11"/>tunc omissa fuerit postea facienda est. inf. 
+      <lb ed="#F" n="12"/>eo. cum non sint. &amp; sup. e. tua. sed &amp; 
+      perso<lb ed="#F" n="13" break="no"/>nales eodem tempore securius est dare, 
+      <lb ed="#F" n="14"/>quamuis quidam dicunt, quod melius est 
+      <lb ed="#F" n="15"/>dare in fine anni propter inimicitias. arg. 
+      <lb ed="#F" n="16"/>3. de pig. ex literis. Item in animalibus, &amp; 
+      <lb ed="#F" n="17"/>in alijs non debet dare deteriores, sed 
+      me<lb ed="#F" n="18" break="no"/>liores, vel mediocres, quia non est indignum 
+      <lb ed="#F" n="19"/>dandum Deo. 49. di. c. sacer. &amp; 16. q. 7. 
+      om<lb ed="#F" n="20" break="no"/>nes decimae (expensas) puta in colendo 
+      <lb ed="#F" n="21"/>agrum, vel pascendo gregem in lignis, &amp; 
+      <lb ed="#F" n="22"/>mercenarijs clibani &amp; molendini. Fru. 
+      <lb ed="#F" n="23"/>ctibus) hic vult dicere, quod expensas 
+      fa<lb ed="#F" n="24" break="no"/>ctas in re, vt sit pretiosior, illas detra het 
+      <lb ed="#F" n="25"/>cum vendet, &amp; non ante, illas autem quas 
+      <lb ed="#F" n="26"/>fecit pro fructibus recipiendis de ea 
+      tan<lb ed="#F" n="27" break="no"/>tum &amp; cum eis pereunt, &amp; non deducet. 
+      <lb ed="#F" n="28"/>Item est etiamsi emptam rem, &amp; post 
+      de<lb ed="#F" n="29" break="no"/>structam reficeret, crederemus tamen, quod 
+      <lb ed="#F" n="30"/>postea, si eam rem vendat, &amp; plus etiam 
+      <lb ed="#F" n="31"/>in de accipiat propter meliorationem 
+      il<lb ed="#F" n="32" break="no"/>lam, quam accepisset, si in priori forma 
+      <lb ed="#F" n="33"/>res permasisset, quod expensas secundum 
+      <lb ed="#F" n="34"/>quantitatem meliorationis accipiet. (
+      De<lb ed="#F" n="35" break="no"/>cimatae) expensae pro fructibus factae, id est, 
+      <lb ed="#F" n="36"/>etiam, si pecunia pro fructibus colligendis 
+      <lb ed="#F" n="37"/>soluta fuerit decimata (salua) ecclesijs 
+      <lb ed="#F" n="38"/>(onere) 16. q. 1. si quis laicus. ff. de contrah. 
+      <lb ed="#F" n="39"/>emp. alienatio. (pro rest aurando) scilicet, 
+      <lb ed="#F" n="40"/>quod aliquid datum est pro restaurando 
+      <lb ed="#F" n="41"/>furno, vel molendino vel huiusmodi (
+      de<lb ed="#F" n="42" break="no"/>ducendas) speciale in decimis. alias 
+      con<lb ed="#F" n="43" break="no"/>tra. ff. de haered. peti. si a domino. §. vlt. &amp; 
+      <lb ed="#F" n="44"/>l. seq. (prouentibus) id est, quando 
+      deci<lb ed="#F" n="45" break="no"/>mantur prouentus, &amp; si venderetur grex 
+      <lb ed="#F" n="46"/>&amp; clibanus decimaretur lucrum, non 
+      in<lb ed="#F" n="47" break="no"/>telligeretur lucrum, nisi deductis expensis 
+      <lb ed="#F" n="48"/>in reficiendo factis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e2413" type="decretales-l3t30c29">
+               <head xml:id="inleiv-d1e1211-Hd1e2415">Caput 29</head>
+               <p xml:id="inleiv-d1e1211-d1e2417">
+                  <lb ed="#F" n="49"/>CAPVT XXIX. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2422">
+                  <lb ed="#F" n="50"/>CVM CONTINGAT. 
+      <lb ed="#F" n="51"/>(Ab antiquo) ita quod 
+      prae<lb ed="#F" n="52" break="no"/>scripserit, &amp; est odiosum &amp; 
+      <lb ed="#F" n="53"/>restringendum, secus si ex 
+      <lb ed="#F" n="54"/>priuilegio haberet decimas, 
+      <lb ed="#F" n="55"/>quod est fauorabile &amp; extendendum: vt 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>no. 53. e. tua. (ipsas) . 5. e. ex parte. contra so. 
+      <lb ed="#F" n="57"/>ibi. Causarationabilis) puta priuilegium, 
+      <lb ed="#F" n="58"/>vel transactio, vel alia similis, vel specialis 
+      <lb ed="#F" n="59"/>praescriptio in singulis agris noualium: vt 
+      <lb ed="#F" n="60"/>not em. eod. tua. quod hic signatur contra. ee 
+      <lb ed="#F" n="61"/>ibi sel 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e2454" type="decretales-l3t30c30">
+               <head xml:id="inleiv-d1e1211-Hd1e2456">Caput 30</head>
+               <p xml:id="inleiv-d1e1211-d1e2458">
+                  <lb ed="#F" n="62"/>CAPVT XXX. 
+      <lb ed="#F" n="63"/>1 Decime in vno agro, non possunt diuersom iure 
+      <lb ed="#F" n="64"/>censeri. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2467">
+                  <lb ed="#F" n="65"/>CVM IN TVA. (Parochia) 
+      <lb ed="#F" n="66"/>aliarum ecclesiarum, &amp; certio 
+      <lb ed="#F" n="67"/>locis ipsarum parochiarum 
+      <lb ed="#F" n="68"/>(&amp; determinatis (percipiant) 
+      <lb ed="#F" n="69"/>ex priuilegio, vel 
+      consuetu<lb ed="#F" n="70" break="no"/>dine, vel alio iure. Annuatim) non posset 
+      <lb ed="#F" n="71"/>currere praescriptio, quia pro parte totum 
+      <lb ed="#F" n="72"/>retinet, cum non possint decimae, eiusdem 
+      <lb ed="#F" n="73"/>agri diuerso iure censeri, sed secus si 
+      diuer<lb ed="#F" n="74" break="no"/>si essent agri, quia tunc bene in altero 
+      prae<lb ed="#F" n="75" break="no"/>scriberetur, &amp; in altero non. 5. e. c. proxi. 
+      <lb ed="#F" n="76"/>nec per vnum aliud teneretur. Sed 
+      obiici<lb ed="#F" n="77" break="no"/>tur quod est. 3. e. ex multiplici. vbi duae 
+      de<lb ed="#F" n="78" break="no"/>cimae eiusdem agri alio iure censentur, 
+      <lb ed="#F" n="79"/>quam aliae decimae eiusdem agri. Sol. illud 
+      <lb ed="#F" n="80"/>est propter speciale pactum. Sed adhoc est 
+      <lb ed="#F" n="81"/>contra, quod legitur. 2. c. proxi. &amp;. 3. e. tua. 
+      <lb ed="#F" n="82"/>1. solu. ibi diuersa sunt, quia diuerso iure 
+      <lb ed="#F" n="83"/>censentur, nam alio iure censentur 
+      noua<lb ed="#F" n="84" break="no"/>lia, quam terrae cultae quo ad hoc, quod in 
+      <lb ed="#F" n="85"/>priuilegio contineri intelligantur, licet 
+      <lb ed="#F" n="86"/>quo ad ius commune eodem iure 
+      censean<lb ed="#F" n="87" break="no"/>tur. 2. eod. ex parte. Aliqui tamen dicunt, 
+      <lb ed="#F" n="88"/>quod bene posset praescribi, quod de certis 
+      <lb ed="#F" n="89"/>fruct ibus non darentur decimae, ex quo 
+      pa<lb ed="#F" n="90" break="no"/>cto potest induci, quod de certis fructibus 
+      <lb ed="#F" n="91"/>non debetur. Hic autem quia non 
+      praescri<lb ed="#F" n="92" break="no"/>pserat non prodest ei, quod licet certis 
+      <lb ed="#F" n="93"/>temporibus non soluit, non tamentanto 
+      <lb ed="#F" n="94"/>tempore cessaret, quod ad praescriptionem 
+      <lb ed="#F" n="95"/>sufficeret, sed prius dictum magis placet 
+      <lb ed="#F" n="96"/>(Perceptis) de eisdem possessionibus, de 
+      <lb ed="#F" n="97"/>quibus hactenus perceperunt decimas, &amp; 
+      <lb ed="#F" n="98"/>percipere debuerunt de alijs fructibus 
+      <lb ed="#F" n="99"/>(persolutae) hisqe de alijs fructibus 
+      percipe<lb ed="#F" n="100" break="no"/>re consueuerunt, vel priuilegio, vel 
+      con<lb ed="#F" n="101" break="no"/>suetudine(debentur) dic vt no. de offi. 
+      ar<lb ed="#F" n="102" break="no"/>chi, c. vlt. (debeat) 12. q. 2. cognouimus. 
+      <lb ed="#F" n="103"/>(censeri) super eadem re (alioquin) id est, si 
+      <lb ed="#F" n="104"/>fructus praedicti non peruenerunt de terra 
+      <lb ed="#F" n="105"/>decimali monasterij, melius videtur, quod 
+      <lb ed="#F" n="106"/>haec actio fuerit confessoria. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e2562" type="decretales-l3t30c31">
+               <head xml:id="inleiv-d1e1211-Hd1e2564">Caput 31</head>
+               <p xml:id="inleiv-d1e1211-d1e2566">
+                  <lb ed="#F" n="107"/>CAPVT XXXI. 
+      <lb ed="#F" n="108"/>h lenea prescriptione probatur tiulas, ia 
+      <lb ed="#F" n="109"/>longissima vero minime. 
+      <pb ed="#F" n="418-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>Canfirmatio nullum nouum ius tribuit, sea 
+      <lb ed="#F" n="2"/>tantum cvetass consirmat. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2584">
+                  <lb ed="#F" n="3"/>DVDVM. (Quaestionem) 
+      <lb ed="#F" n="4"/>interdicto vti possidetis 
+      in<lb ed="#F" n="5" break="no"/>tentando, de facto enim mo. 
+      <lb ed="#F" n="6"/>lestabat episcopum suis de 
+      <lb ed="#F" n="7"/>decimis non permittendo 
+      <lb ed="#F" n="8"/>eas solui a rusticis, &amp; secundum 
+      interdi<lb ed="#F" n="9" break="no"/>ctum videtur lata sententia in fi. decr. Vel 
+      <lb ed="#F" n="10"/>dic, quod intentabatur actio de dolo ad 
+      <lb ed="#F" n="11"/>decimas subtractas, sed ad damnum quod 
+      <lb ed="#F" n="12"/>contingit ex eo, quod hospitalarii 
+      suade<lb ed="#F" n="13" break="no"/>bant rusticis, ne soluerent decimas: vt ff. 
+      <lb ed="#F" n="14"/>de do. cum quis. vel officium iudicis 
+      <lb ed="#F" n="15"/>implorabat, melius videtur quod actum 
+      <lb ed="#F" n="16"/>fuit confessoria(communi) 16. q. 7. omnes. 
+      <lb ed="#F" n="17"/>12. q. 2. quatuor. 3. eod. quoniam a nobis. in 
+      <lb ed="#F" n="18"/>his nihil videtur, quod iure communi, &amp; 
+      <lb ed="#F" n="19"/>ecclesiae &amp; decimae pertinent ad episco 
+      <lb ed="#F" n="20"/>pum dio. (ecclesiae) id est, mensae 
+      episcopa<lb ed="#F" n="21" break="no"/>lis. Vel dic, quod bene nomine ecclesiae 
+      <lb ed="#F" n="22"/>potest agere episcopus: vt no. 3. de rest. spo. 
+      <lb ed="#F" n="23"/>olim. (titulum) id est, aliquem titulum 
+      di<lb ed="#F" n="24" break="no"/>cere per quem locum haberet 
+      praescri<lb ed="#F" n="25" break="no"/>ptio, in qua necessarius est titulus &amp; bona 
+      <lb ed="#F" n="26"/>fides. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2639">
+                  <lb ed="#F" n="27"/> Probaret. 3. de probat. licet. in longa 
+      <lb ed="#F" n="28"/>enim praescriptione probatur titulus etiam 
+      <lb ed="#F" n="29"/>secundum leges, sed in longissima non 
+      secun<lb ed="#F" n="30" break="no"/>dum leges, sed secundum canones sic, licet 
+      suf<lb ed="#F" n="31" break="no"/>ficiat probari tempus, &amp; non titulum, sed 
+      alle<lb ed="#F" n="32" break="no"/>gari: vt. C. de praesc. lon. temp. diuina. C. 
+      <lb ed="#F" n="33"/>pro haered. vlti. sup. de praescri. si diligen. 
+      <lb ed="#F" n="34"/>vbi not. &amp; de hoc. &amp; c. quoniam 
+      om<lb ed="#F" n="35" break="no"/>ne. arg. contra. C. de peti. haere. cogi. sed 
+      <lb ed="#F" n="36"/>illud loquitur, quando non allegatur 
+      <lb ed="#F" n="37"/>praescriptio, &amp; quando praesumptio 
+      <lb ed="#F" n="38"/>non est in contrarium. C. de prob. siue. 
+      <lb ed="#F" n="39"/>praescriptio enim sub se habet titulum 
+      <lb ed="#F" n="40"/>&amp; bonam fidem, &amp; ideo praescriptione 
+      <lb ed="#F" n="41"/>allegata allegare videtur iustum titulum, 
+      <lb ed="#F" n="42"/>&amp; bonam fidem, etiam si non dicatur. 
+      <lb ed="#F" n="43"/>(Qui) scilicet, rex &amp; regina. (
+      Concesse<lb ed="#F" n="44" break="no"/>runt) per hanc concessionem videtur 
+      con<lb ed="#F" n="45" break="no"/>cessisse id ius, quod habebat. sup. de testa. 
+      <lb ed="#F" n="46"/>Raynaldus, scilicet, ius patronatus. sup. de 
+      <lb ed="#F" n="47"/>do. pastoralis. (Confirmationis) in forma 
+      <lb ed="#F" n="48"/>communi, si enim ex certa sententia &amp; 
+      <lb ed="#F" n="49"/>cum causae cognitione confirmasset, 
+      se<lb ed="#F" n="50" break="no"/>cus esset: vt no. §5. de confir. vti. vel inuti. c. 
+      <lb ed="#F" n="51"/>pen. i. de transact. c. 1.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2696">
+                  <lb ed="#F" n="52"/>(Confirmatione) cum confirmatio 
+      ni<lb ed="#F" n="53" break="no"/>hil iuris noui tribuat, sed tantum vetus 
+      <lb ed="#F" n="54"/>confirmet. 5. de confir. vti. vel inuti. cum 
+      <lb ed="#F" n="55"/>dilecta. licet enim ignorantia iuris, qua se 
+      <lb ed="#F" n="56"/>putauit iuste possidere, excuset eum a culpa, 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>cum det bonam fidem, non tamen dat ius 
+      <lb ed="#F" n="58"/>stum titulum. Item ignorantia iuris non 
+      <lb ed="#F" n="59"/>prodest in praescriptione. ff. de iur. &amp; fac 
+      <lb ed="#F" n="60"/>ign. in vsu. &amp; l. regula. ff. pro emp. l. 2. §. s 
+      <lb ed="#F" n="61"/>a pupillo. ff. de vsu. l. nunquam. arg. quod 
+      <lb ed="#F" n="62"/>si fluxisset tempus, quod praescriptio 
+      vale<lb ed="#F" n="63" break="no"/>ret, cum tamen non praecesserit titulus, 
+      <lb ed="#F" n="64"/>nam donatio regis pro non titulo est, sed 
+      <lb ed="#F" n="65"/>dic idem est, si effluxissent, non tamen ea 
+      <lb ed="#F" n="66"/>ratione, quia titulum non probauit, quia 
+      <lb ed="#F" n="67"/>in corporalibus non tenetur titulum 
+      pro<lb ed="#F" n="68" break="no"/>bare: vt no. 3. de praescri. si diligen. sed quia 
+      <lb ed="#F" n="69"/>tamen malum allegauit, scilicet, 
+      donatio<lb ed="#F" n="70" break="no"/>nem regis, hoc videtur sonare litera 
+      se<lb ed="#F" n="71" break="no"/>quens, nos igitur ete. (Et 
+      confirmatio<lb ed="#F" n="72" break="no"/>nem) supra factam (Derogetur) quia non 
+      <lb ed="#F" n="73"/>intendebat illud tollere Papa propter 
+      su<lb ed="#F" n="74" break="no"/>am confirmationem, sed tantum 
+      donati<lb ed="#F" n="75" break="no"/>onem eis canonice factam. (
+      Confirma<lb ed="#F" n="76" break="no"/>bat) sed obiicies, nonnne eo ipso, quod 
+      dice<lb ed="#F" n="77" break="no"/>bat donationem de decimis tibi a rege 
+      fa<lb ed="#F" n="78" break="no"/>ctam confirmamus, videtur supplere 
+      de<lb ed="#F" n="79" break="no"/>fectum, quod erat in donatione ex 
+      perso<lb ed="#F" n="80" break="no"/>nis donantium. §. de transact. c. 1. Resp. hic 
+      <lb ed="#F" n="81"/>non fecit mentionem, quod hae 
+      donatio<lb ed="#F" n="82" break="no"/>nes factae essent arege, vel alia laica 
+      perso<lb ed="#F" n="83" break="no"/>na, sed sicut simpliciter dixit, confirmo 
+      <lb ed="#F" n="84"/>decimas, sicut iuste pos. Vel dic, quod etiam 
+      <lb ed="#F" n="85"/>si confirmasset decimas donatas a rege, 
+      <lb ed="#F" n="86"/>aintelligeret confirmare  in eo casu, in quo 
+      <lb ed="#F" n="87"/>donare liceret, quod donaret, sca. 
+      deci<lb ed="#F" n="88" break="no"/>mas quas in feudum ab ecclesia detinebat 
+      <lb ed="#F" n="89"/>quas donare licebat cum authoritate 
+      su<lb ed="#F" n="90" break="no"/>perioris. 5. de his quae fiunt a praela. sine 
+      <lb ed="#F" n="91"/>consen. cap. cum apostolica. sed hic non 
+      <lb ed="#F" n="92"/>tales decimas, sed decimas donare 
+      inten<lb ed="#F" n="93" break="no"/>debat sitas in locis, vbi erant ecclesiae, vbi 
+      <lb ed="#F" n="94"/>habebat ius patronatus, &amp; quod ius 
+      patro<lb ed="#F" n="95" break="no"/>natus hospitalarijs donabat, &amp; hoc non 
+      <lb ed="#F" n="96"/>poterat facere. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e2799" type="decretales-l3t30c32">
+               <head xml:id="inleiv-d1e1211-Hd1e2801">Caput 32</head>
+               <p xml:id="inleiv-d1e1211-d1e2803">
+                  <lb ed="#F" n="97"/>CAPVT XXXII. 
+      <lb ed="#F" n="98"/>1 ludaei nunquid cogantar soluere detimas 
+      <lb ed="#F" n="99"/>praediales. 
+      <lb ed="#F" n="100"/>2 Insolutione decimarum seruanda est 
+      consue<lb ed="#F" n="101" break="no"/>tudo. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2816">
+                  <lb ed="#F" n="102"/>EX ALIQVIBVS. (
+      Per<lb ed="#F" n="103" break="no"/>mixtae) puta Sarraceni &amp; 
+      Iu<lb ed="#F" n="104" break="no"/>daei, sicut in Vngaria. (
+      Chri<lb ed="#F" n="105" break="no"/>stiano) vt Graeci &amp; 
+      Arme<lb ed="#F" n="106" break="no"/>ni, &amp; consimiles. 
+      Integri<lb ed="#F" n="107" break="no"/>tate) sed nonne Iudaei coguntur soluere 
+      <lb ed="#F" n="108"/>decimas praediales: vt sup. eod. de terris. 
+      <lb ed="#F" n="109"/>Resp. licet cogantur, quia tamen non 
+      pos<lb ed="#F" n="110" break="no"/>sunt de facili cogi per censuram 
+      ecclesia<lb ed="#F" n="111" break="no"/>sticam , idcirco speciale esti vt eis locari 
+      <pb ed="#F" n="419-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>non possint, &amp; est si 5. proxi. c. velsi 
+      locan<lb ed="#F" n="2" break="no"/>tur, eis locentur tali conditione, quod abs. 
+      <lb ed="#F" n="3"/>que controuersia decimas reddant. 
+      <lb ed="#F" n="4"/>2 Consuetudine.) not. loci 
+      consuetu<lb ed="#F" n="5" break="no"/>dinem seruari. scem. in ecclesijs, in quibus 
+      <lb ed="#F" n="6"/>sunt soluendae, vt si consuetudo est, quod 
+      <lb ed="#F" n="7"/>vni ecclesiae soluantur, scilicet, parochiali 
+      <lb ed="#F" n="8"/>valet consuetudo, &amp; idem forte, si soluit 
+      <lb ed="#F" n="9"/>illi ecclesiae vbi percipit ecclesiastica 
+      sa<lb ed="#F" n="10" break="no"/>eramenta. sup. eod. cum sint. &amp; c. ad 
+      apo<lb ed="#F" n="11" break="no"/>stolicae. in eo autem quod non soluantur, 
+      <lb ed="#F" n="12"/>vel minus plene soluantur, nulla valet 
+      <lb ed="#F" n="13"/>eonsuetudo. 16. q 7. cuicunque. i :eod. cum 
+      <lb ed="#F" n="14"/>homines. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e2876" type="decretales-l3t30c33">
+               <head xml:id="inleiv-d1e1211-Hd1e2878">Caput 33</head>
+               <p xml:id="inleiv-d1e1211-d1e2880">
+                  <lb ed="#F" n="15"/>CAPVT XXXIII. 
+      <lb ed="#F" n="16"/>2 Dominus tributi quando non teneatur 
+      folue<lb ed="#F" n="17" break="no"/>re decimas de tributo 
+      <lb ed="#F" n="18"/>2 Partionarii &amp; pensionarui coloni 
+      differentia<lb ed="#F" n="19" break="no"/>3 De mercede operarum) oluuntur det imae. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2893">
+                  <lb ed="#F" n="20"/>CVM NON SIT. (
+      Praeter<lb ed="#F" n="21" break="no"/>eunt) de facto, non de iure, 
+      <lb ed="#F" n="22"/>vel dum nimis potentes 
+      <lb ed="#F" n="23"/>sunt, quibus soluuntur, vel 
+      <lb ed="#F" n="24"/>nimis absentes &amp; remoti. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e2906">
+                  <lb ed="#F" n="25"/>2 Quos) no. quod si de fructibus fundi 
+      <lb ed="#F" n="26"/>tributarii solutae sint plene decimae, 
+      domi<lb ed="#F" n="27" break="no"/>nus cui tributum soluitur, non tenetur 
+      <lb ed="#F" n="28"/>soluere decimas de tributo. 3. eo. pasto. &amp; 
+      <lb ed="#F" n="29"/>hoc quod dicit haec glo. videtur verum, 
+      <lb ed="#F" n="30"/>quando de certa terra debet habere 
+      cen<lb ed="#F" n="31" break="no"/>sum vel tributum, quia tunc habet 
+      quod<lb ed="#F" n="32" break="no"/>dam ius in terra illa, vel saltem in 
+      fructi<lb ed="#F" n="33" break="no"/>bus, sed si alias aliquis reciperet pensionem 
+      <lb ed="#F" n="34"/>pro aliquo seruitio ab aliqua persona, non 
+      <lb ed="#F" n="35"/>video rationem, quare non eodem modo 
+      <lb ed="#F" n="36"/>teneatur reddere decimam de pensione 
+      <lb ed="#F" n="37"/>ista, sicut de militia vel de aduoe itione. 
+      <lb ed="#F" n="38"/>supra eodem, non estetiam fi pecunia 
+      pri<lb ed="#F" n="39" break="no"/>us esset decimata, si autem gratis 
+      dare<lb ed="#F" n="40" break="no"/>tur pensio sine vllo seruitio, tunc si illa 
+      <lb ed="#F" n="41"/>pensio esset decimata, non videtur quod 
+      <lb ed="#F" n="42"/>iterum a donatario debeat decimari: vt 
+      <lb ed="#F" n="43"/>no. 3. non est. Et hac eadem ratione 
+      vi<lb ed="#F" n="44" break="no"/>detur, quod si dominus ad quem 
+      perueni<lb ed="#F" n="45" break="no"/>unt omnes fructus fundi eos decimauerit, 
+      <lb ed="#F" n="46"/>quod vlterius colonus partionarius, qui 
+      <lb ed="#F" n="47"/>debet recipere certam partem fructuum, 
+      <lb ed="#F" n="48"/>pro cultura suam partem decimare non 
+      <lb ed="#F" n="49"/>debet, quia ipse colonus ius habet in 
+      fru<lb ed="#F" n="50" break="no"/>ctibus, secus autem esset, si certam 
+      merce<lb ed="#F" n="51" break="no"/>dem acciperet colonus pro agricultura, 
+      <lb ed="#F" n="52"/>quia tunc etiam dominus debet decimare 
+      <lb ed="#F" n="53"/>omnes fructus, &amp; colonus debet 
+      decima<lb ed="#F" n="54" break="no"/>re mercedem suam, siue merces fuerit in 
+      <lb ed="#F" n="55"/>pecunia, siue in alijs rebus iam decimatis. 
+      <lb ed="#F" n="56"/>Aliqui tamen dicunt, quod ex quo merces 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>certa succedit loco partis fructuum, quam 
+      <lb ed="#F" n="58"/>debet habere colonus, quod eiusdem iuris 
+      <lb ed="#F" n="59"/>deberet censeri pecuniaria merces, sicit 
+      <lb ed="#F" n="60"/>perceptio certae partis fructuum. arg i. de 
+      <lb ed="#F" n="61"/>censi. olim causam, scilicet, ex quo a 
+      do<lb ed="#F" n="62" break="no"/>mino decimati sunt fructus, quod vlterius 
+      <lb ed="#F" n="63"/>a colono non decimetur merces. Sed 
+      cer<lb ed="#F" n="64" break="no"/>te non videtur, quod bene dicant isti, quia 
+      <lb ed="#F" n="65"/>nunquam merces ista suecedit loco partis 
+      <lb ed="#F" n="66"/>fructuum, nunquam enim nisi 
+      consuetu<lb ed="#F" n="67" break="no"/>dine, vel lege est introducta ista successio, 
+      <lb ed="#F" n="68"/>nam si esset introducta, forte alud 
+      dicen<lb ed="#F" n="69" break="no"/>dum esset. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e3008">
+                  <lb ed="#F" n="70"/>2 Item vna bona ratio est, quod 
+      meli<lb ed="#F" n="71" break="no"/>oris conditionis debet esse colonus 
+      parti<lb ed="#F" n="72" break="no"/>onarius, quam pensionarius, quia 
+      partio<lb ed="#F" n="73" break="no"/>naris exponit operas suas fortunae &amp; 
+      mise<lb ed="#F" n="74" break="no"/>ricordiae Dei, sed pensionaris semper est in 
+      <lb ed="#F" n="75"/>certo de mercede sua, in domino autem 
+      <lb ed="#F" n="76"/>fundi secus est, quia si recipiat certam 
+      <lb ed="#F" n="77"/>pensionem a colono pro fructibus fundi, 
+      <lb ed="#F" n="78"/>nunquam de illa pensione dare debet 
+      de<lb ed="#F" n="79" break="no"/>cimas, quia intelligitur vendidisse fructus 
+      <lb ed="#F" n="80"/>salua decima. 2. e. pasto. vnde fructe debent 
+      <lb ed="#F" n="81"/>decimari, &amp; non pensio, nisi forte pensio 
+      <lb ed="#F" n="82"/>constituta esset in fructibus eiusdem 
+      fun<lb ed="#F" n="83" break="no"/>di, quia tunc transeunt cum onere suo, nisi 
+      <lb ed="#F" n="84"/>prius a colono decimentur, vt hic. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e3044">
+                  <lb ed="#F" n="85"/>Sed quaeres quare non eodem mode 
+      <lb ed="#F" n="86"/>decimat dominus pretium fructuum non 
+      <lb ed="#F" n="87"/>venditorum, sicut colonus decimat 
+      mer<lb ed="#F" n="88" break="no"/>cedem operarum suarum e Respon. 
+      mer<lb ed="#F" n="89" break="no"/>ces operarum procedit ex membris 
+      homi<lb ed="#F" n="90" break="no"/>nis, &amp; ideo ex his dantur decimae, vnde 
+      <lb ed="#F" n="91"/>ler. Leuitae decimas accipient ex omnibus 
+      <lb ed="#F" n="92"/>ciuitatibus operarum vestrarum, secus in 
+      <lb ed="#F" n="93"/>venditione fructuum, vbi nec opera, nec 
+      <lb ed="#F" n="94"/>aliud dedaci debet ante decimas. s. eo. 
+      pa<lb ed="#F" n="95" break="no"/>storalis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e3072" type="decretales-l3t30c34">
+               <head xml:id="inleiv-d1e1211-Hd1e3074">Caput 34</head>
+               <p xml:id="inleiv-d1e1211-d1e3076">
+                  <lb ed="#F" n="96"/>CAPVT XXXIIII. 
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e3081">
+                  <lb ed="#F" n="97"/>SVPER. (Abbates) a quibus 
+      <lb ed="#F" n="98"/>colonis persoluant, repete 
+      <lb ed="#F" n="99"/>quae diximus.3. eod. 
+      sugge<lb ed="#F" n="100" break="no"/>stum. (alios) scilicet, 
+      templa<lb ed="#F" n="101" break="no"/>rios &amp; hospitalarios &amp; alios. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1211-Dd1e3095" type="decretales-l3t30c35">
+               <head xml:id="inleiv-d1e1211-Hd1e3097">Caput 35</head>
+               <p xml:id="inleiv-d1e1211-d1e3099">
+                  <lb ed="#F" n="102"/>CAPVT XXXV.
+      </p>
+               <p xml:id="inleiv-d1e1211-d1e3104">
+                  <lb ed="#F" n="103"/>INTER DICIMVS. (
+      De<lb ed="#F" n="104" break="no"/>tentas) forte in feudum (in 
+      <lb ed="#F" n="105"/>pignus) sicut venditio sine 
+      <lb ed="#F" n="106"/>authoritate episcopi.5. de 
+      <lb ed="#F" n="107"/>tis quae fi. a praelat. si. con. ca. 
+      <lb ed="#F" n="108"/>cum apostolica. (ab eisdem laicis) ab his 
+      <lb ed="#F" n="109"/>autem ad quos pertinet, licet accipere. art 
+      <lb ed="#F" n="110"/>. de loca. &amp; conduc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 22</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 22</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="519-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1925" type="decretales-l5t22">
+            <head xml:id="inleiv-d1e1925-Hd1e98">Titulus 22</head>
+            <p xml:id="inleiv-d1e1925-d1e100">
+               <lb ed="#F" n="19"/>TITVLVS XXII. 
+      <lb ed="#F" n="20"/>DE COLLVSIONE 
+      <lb ed="#F" n="21"/>DETEGENDA. 
+      </p>
+            <div xml:id="inleiv-d1e1925-Dd1e109" type="decretales-l5t22c1">
+               <head xml:id="inleiv-d1e1925-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1925-d1e113">
+                  <lb ed="#F" n="22"/>CAPVT 1 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e118">
+                  <lb ed="#F" n="23"/>SCRIPT A F. V. (
+      Dissimu<lb ed="#F" n="24" break="no"/>lare) cum esset infamatus, 
+      <lb ed="#F" n="25"/>alias enim non debet 
+      inquire<lb ed="#F" n="26" break="no"/>re. §. de accu. qualiter. Vel dic, 
+      <lb ed="#F" n="27"/>quod non licet accusatori ab 
+      <lb ed="#F" n="28"/>accusatione desistere lite contestata, &amp; 
+      <lb ed="#F" n="29"/>ideo mandatur inquiri de collusione eos 
+      <lb ed="#F" n="30"/>puniat. 2. q. 3. si quem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1925-Dd1e139" type="decretales-l5t22c2">
+               <head xml:id="inleiv-d1e1925-Hd1e141">Caput 2</head>
+               <p xml:id="inleiv-d1e1925-d1e143">
+                  <lb ed="#F" n="31"/>CAPVT II. 
+      <lb ed="#F" n="32"/>1 Causarum genera tria sunt, ciuilis, criminalis 
+      <lb ed="#F" n="33"/>&amp; PPiritualis. 
+      <lb ed="#F" n="34"/>Accusator an &amp; quando possit ab 
+      accusatio<lb ed="#F" n="35" break="no"/>ne uel actione desistere. 
+      <lb ed="#F" n="36"/>Transactio an &amp; quando criminibus habeat 
+      <lb ed="#F" n="37"/>locum. 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e161">
+                  <lb ed="#F" n="38"/>CRIMINA (Praeteribat.) 
+      <lb ed="#F" n="39"/>Causarum tria sunt genera, 
+      <lb ed="#F" n="40"/>ciuilis, criminalis, &amp; 
+      spiritu<lb ed="#F" n="41" break="no"/>alis. A ciuili pecuniaria, siue 
+      <lb ed="#F" n="42"/>per gratiam, siue per 
+      trans<lb ed="#F" n="43" break="no"/>actionem ante lit. contest. &amp; post iudicis 
+      <lb ed="#F" n="44"/>authoritate, &amp; sine recedere licet, nisi in 
+      <lb ed="#F" n="45"/>famosa actione, in qua sine iudicis 
+      autho<lb ed="#F" n="46" break="no"/>ritate transigere non licet. ff. de his qui no. 
+      <lb ed="#F" n="47"/>infa. furti. §. pac. in criminali vero ante 
+      in<lb ed="#F" n="48" break="no"/>choatam accusationem per gratiam 
+      desi<lb ed="#F" n="49" break="no"/>stere licet. ff. ad Turpil. muliere. &amp; l. 
+      quaesi<lb ed="#F" n="50" break="no"/>tum. post non licet sine authoritate 
+      iudi<lb ed="#F" n="51" break="no"/>cis, &amp; sine consensurei, nisi intra 30. dies. 
+      <lb ed="#F" n="52"/>sed nec inter illos, si nonfuit mancipatus 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>tormentis. C. de abol. l. 2. vel per aceulatr 
+      <lb ed="#F" n="54"/>onem infamatus. 5. q. 1. quidam. &amp; si alias 
+      <lb ed="#F" n="55"/>destiterit incidit in Turpi. si intendit 
+      pu<lb ed="#F" n="56" break="no"/>blicum crimen. C. ad Turpil. l. 1. Si vero 
+      <lb ed="#F" n="57"/>priuatum, extra ordinem punitur. ff. ad 
+      <lb ed="#F" n="58"/>Tur. si quis accepe. Transigere autem 
+      ali<lb ed="#F" n="59" break="no"/>quo dato in crimine publico non licet, &amp; 
+      <lb ed="#F" n="60"/>si fiat transactio, nulla est, &amp; accusatus 
+      ha<lb ed="#F" n="61" break="no"/>betur pro confesso. C. de transact. 
+      transi<lb ed="#F" n="62" break="no"/>gere. ff. de priua. in omnibus. nisi tale sit 
+      <lb ed="#F" n="63"/>crimen, quod irrogat poenam sanguinis, 
+      <lb ed="#F" n="64"/>quia licet tunc transigere, nisi in 
+      adulte<lb ed="#F" n="65" break="no"/>rio. C. de transac. transigere. sed hic qui 
+      <lb ed="#F" n="66"/>accipit incidit in Tur. ff. ad Turpil. ab 
+      oc<lb ed="#F" n="67" break="no"/>casione, sed in alijs criminibus, quae non 
+      <lb ed="#F" n="68"/>irrogant poenam sanguinis, transigere 
+      <lb ed="#F" n="69"/>non licet. 2. quaest. 3. §. praeuaricator. in 
+      <lb ed="#F" n="70"/>loco illo in omnibus licet, nisi in crimine 
+      <lb ed="#F" n="71"/>falsi. in praeal. l. transigere. Et est ratio, quia 
+      <lb ed="#F" n="72"/>saepe ad pecuniariam aestimationem refertur, 
+      <lb ed="#F" n="73"/>seilicet, vbi quaestio pecuniaria agitur. Et 
+      <lb ed="#F" n="74"/>idem dicunt aliqui in priuatis criminibus, 
+      <lb ed="#F" n="75"/>vt furti, vi bonorum raptorum praedicta 
+      <lb ed="#F" n="76"/>ratione, nec vnquam inuenitur 
+      prohibi<lb ed="#F" n="77" break="no"/>tum, secundum can. autem fere omne 
+      cri<lb ed="#F" n="78" break="no"/>men esse publicum, puto, nec ab aliquo 
+      <lb ed="#F" n="79"/>per transactionem discedere licet, vt hic 
+      <lb ed="#F" n="80"/>per totum titulum. Posset tamen dici, 
+      <lb ed="#F" n="81"/>quod iustis causis inspectis, vbicunque 
+      epi<lb ed="#F" n="82" break="no"/>scopus potest dispensare in priuatis 
+      crimi<lb ed="#F" n="83" break="no"/>nibus transactioni, &amp; simplici 
+      renunciati<lb ed="#F" n="84" break="no"/>oni authoritatem praestare. 5. q. 2. si 
+      prima<lb ed="#F" n="85" break="no"/>tes. 90. dist. dissidentes. a spirituali autem 
+      <lb ed="#F" n="86"/>causa, siue sit inquisitionis, siue 
+      denuncia<lb ed="#F" n="87" break="no"/>tionis, siue de rebus spiritualibus ex causa, 
+      <lb ed="#F" n="88"/>licet per gratiam discedere, qui autem 
+      si<lb ed="#F" n="89" break="no"/>ne causa discedit, punitur. 2. q. 7. 
+      quapro<lb ed="#F" n="90" break="no"/>pter. supra, de calum. c. fi. per transactionem 
+      <lb ed="#F" n="91"/>autem non licet. supra, de tranfac. c. 3. vbi 
+      <lb ed="#F" n="92"/>autem in criminali, vel spirituali aliter, 
+      <lb ed="#F" n="93"/>quam debet accusator, desistit, iudex 
+      nihi<lb ed="#F" n="94" break="no"/>lominus ex officio inquiret, vt hic per 
+      to<lb ed="#F" n="95" break="no"/>tum. §. de abol. indulgere. &amp; l. 2. vbi autem 
+      <lb ed="#F" n="96"/>vult iudex iusta causa discere, abol. 
+      indul<lb ed="#F" n="97" break="no"/>gebit. C. de abol. l. 1. 2. &amp; 3. 2. q. 3. si quem. &amp; 
+      <lb ed="#F" n="98"/>§. praeuaricator. in causa mista potest 
+      re<lb ed="#F" n="99" break="no"/>cedere, quando vult, in causa autem 
+      po<lb ed="#F" n="100" break="no"/>pulari similiter per transactionem 
+      recede<lb ed="#F" n="101" break="no"/>re non licet, nisi vt legitur. ff. de pac. l. iure. 
+      <lb ed="#F" n="102"/>Svlti. ff. de iureiur. l. eum qui. S in po 
+      pe<lb ed="#F" n="103" break="no"/>laribus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1925-Dd1e310" type="decretales-l5t22c3">
+               <head xml:id="inleiv-d1e1925-Hd1e312">Caput 3</head>
+               <p xml:id="inleiv-d1e1925-d1e314">
+                  <lb ed="#F" n="104"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e319">
+                  <lb ed="#F" n="105"/>AVDIVIMVS. (
+      Tranfadi<lb ed="#F" n="106" break="no"/>onis) haec pensio si bona fide 
+      <lb ed="#F" n="107"/>peracta sit, non excedit vitam 
+      <lb ed="#F" n="108"/>paciscentis, nisi interueniat, 
+      <lb ed="#F" n="109"/>authoritas epai. 5. de transact. 
+      <pb ed="#F" n="520-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>decaentero. veniens. CSpoliare) &amp; quod 
+      fa<lb ed="#F" n="2" break="no"/>ctum est per collusionem, non tenet. ff. eo. l. 3. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1925-Dd1e343" type="decretales-l5t22c4">
+               <head xml:id="inleiv-d1e1925-Hd1e345">Caput 4</head>
+               <p xml:id="inleiv-d1e1925-d1e347">
+                  <lb ed="#F" n="3"/>CAPVT IIII. 
+      <lb ed="#F" n="4"/>1 Quando alicui competunt due actioner de iure 
+      <lb ed="#F" n="5"/>communi, una intentata potest aliam 
+      atten<lb ed="#F" n="6" break="no"/>tare, &amp; idem sit in penalibus actionibus. 
+      <lb ed="#F" n="7"/>habes in num. 2. 
+      <lb ed="#F" n="8"/>3 De alicuius crimine non est pluries 
+      inquiren<lb ed="#F" n="9" break="no"/>dum. 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e365">
+                  <lb ed="#F" n="10"/>IN TANTVM. ( 
+      Cla<lb ed="#F" n="11" break="no"/>mor) praemissis de hoc no. 5. 
+      <lb ed="#F" n="12"/>2. 1.  Alioquin) Not. quod 
+      <lb ed="#F" n="13"/>vbi alicui competunt duae 
+      <lb ed="#F" n="14"/>actiones de iure communi, 
+      <lb ed="#F" n="15"/>vna intentata, potest aliam attentare, vt 
+      <lb ed="#F" n="16"/>apparet in socio, qui contra socium furem 
+      <lb ed="#F" n="17"/>potest agere, &amp; pro socio, &amp; furti, vtrum 
+      <lb ed="#F" n="18"/>vult primo, &amp; vtrum post vult. ff. pro soc. 
+      <lb ed="#F" n="19"/>rei. sed secus est, si vna competit de iure 
+      <lb ed="#F" n="20"/>communi, &amp; altera de officio praetoris, 
+      qua<lb ed="#F" n="21" break="no"/>lis est nau. cau. sta. quae datur de 
+      benefi<lb ed="#F" n="22" break="no"/>cio praetorum, nam in illis, si vnam eligit. 
+      <lb ed="#F" n="23"/>intelligitur alijs renunciare. ff. nau. cau. 
+      <lb ed="#F" n="24"/>sta. &amp; ita. §. fi. &amp; l. licet. §. fi. ff. de sepa. l. 1. §. 
+      <lb ed="#F" n="25"/>illud. 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e402">
+                  <lb ed="#F" n="26"/>Sed his videtur contra. 2. de in integ. 
+      re<lb ed="#F" n="27" break="no"/>sti. constitutus. vbi dicitur, quod simul quod 
+      <lb ed="#F" n="28"/>plus est, quam si diuersis temporibus 
+      ad<lb ed="#F" n="29" break="no"/>mittatur quis ad accusationem, quae 
+      com<lb ed="#F" n="30" break="no"/>petit beneficio praetoris. scet in inte. resti. ad 
+      <lb ed="#F" n="31"/>officium iudicis, quo dicit venditionem 
+      <lb ed="#F" n="32"/>nullam. Sed certe sol. est leuis, quia nos hic 
+      <lb ed="#F" n="33"/>loquimur, quando alicui competunt duae 
+      <lb ed="#F" n="34"/>actiones, quod prosequendo vnam, 
+      vide<lb ed="#F" n="35" break="no"/>tur alii renunciare, sed decr. loquitur, quans 
+      <lb ed="#F" n="36"/>do tantum altera competebat, sed tamen 
+      <lb ed="#F" n="37"/>vtramque prosequitur propter dubium, &amp; 
+      <lb ed="#F" n="38"/>sic potest responde. decre. 3. de praescri. 
+      <lb ed="#F" n="39"/>auditis. 
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e435">
+                  <lb ed="#F" n="40"/>2. In penalibus autem actionibus, quae 
+      <lb ed="#F" n="41"/>surgunt ex diuersis delictis, raro impedit 
+      <lb ed="#F" n="42"/>vna alteram. ff. de pri. delic. nunquam. sed 
+      <lb ed="#F" n="43"/>si oriantur ex vno delicto, quatenus 
+      con<lb ed="#F" n="44" break="no"/>currunt, se impediunt &amp; vltra. ff. vibo. 
+      <lb ed="#F" n="45"/>rap. l. 1. ff. de act. &amp; obl. qui seruum. Si autem 
+      <lb ed="#F" n="46"/>actiones non sunt penales, sed rei persecu. 
+      <lb ed="#F" n="47"/>toriae facta per alterutram exactionem, ret 
+      <lb ed="#F" n="48"/>liqua tollitur. ff. loc. si. merces. §. culpae. Si 
+      <lb ed="#F" n="49"/>autem vna sit persecutoria rei, vt rei ven. 
+      <lb ed="#F" n="50"/>&amp; altera penalis naturaliter, &amp; ab initio, 
+      <lb ed="#F" n="51"/>vt actio furti, neutra per alteram tollitur. 
+      <lb ed="#F" n="52"/>ff. de fur. l. si. pign. §. cum furti. nisi in casu, 
+      <lb ed="#F" n="53"/>qui est. ff. nau. sta. l. ita. §. fi. quod est praeal. 
+      <lb ed="#F" n="54"/>ratione, quia eligendo alterum de duobe, 
+      <lb ed="#F" n="55"/>s. ius commune vel beneficium praetoris, 
+      <lb ed="#F" n="56"/>alteri renunciare videtur, est etiam alius 
+      <lb ed="#F" n="57"/>casus. ff. de fur. is cui. vbi dicit, quod si ali¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>cui pro re commodata competit actio furti 
+      <lb ed="#F" n="59"/>&amp; commodati, quod vna per alteram 
+      tol<lb ed="#F" n="60" break="no"/>litur, sed hoc est ea ratione, quia. cscet vtraque 
+      <lb ed="#F" n="61"/>actiocls. furti &amp; conmmodati competit pro eodem. 
+      <lb ed="#F" n="62"/>s. interesse litis, licet per actionem furti 
+      du<lb ed="#F" n="63" break="no"/>pletur, vel quadrupletur, &amp; in actione 
+      fur<lb ed="#F" n="64" break="no"/>ti, vel commodati tantum sit simplum 
+      in<lb ed="#F" n="65" break="no"/>teresse. ff. de re iudi. nemo ex causa. §. 
+      quti<lb ed="#F" n="66" break="no"/>es. Si vero ab initio non sit penalis, sicut est 
+      <lb ed="#F" n="67"/>actio, quod met. cau. quae ab initio nullam 
+      <lb ed="#F" n="68"/>imponit poenam, si velit restituere, tunc 
+      <lb ed="#F" n="69"/>vna per alteram tollitur. ff. quod metus 
+      <lb ed="#F" n="70"/>cau. metum. §. licet.
+      </p>
+               <p xml:id="inleiv-d1e1925-d1e508">
+                  <lb ed="#F" n="71"/>3 Not. quod non est pluries inquirendum 
+      <lb ed="#F" n="72"/>de alicuius crimine, sicut nec est pluries 
+      <lb ed="#F" n="73"/>accusandus, nisi in casibus, quos habemus 
+      <lb ed="#F" n="74"/>no. supra, de accu. de his. arg. contra. 2 q. 
+      <lb ed="#F" n="75"/>5. mennam. C. de poena iudi. qui mat. iu. 
+      <lb ed="#F" n="76"/>Authen. sed nouo. ff. de iureiur. si duo pat. 
+      <lb ed="#F" n="77"/>§. vlti. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

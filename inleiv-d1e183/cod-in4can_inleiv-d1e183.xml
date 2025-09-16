@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 12</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 12</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="101-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e183" type="decretales-l1t12">
+            <head xml:id="inleiv-d1e183-Hd1e98">Titulus 12</head>
+            <p xml:id="inleiv-d1e183-d1e100">
+               <cb ed="#F" n="b"/>
+               <lb ed="#F" n="54"/>TITVLVS XII. 
+      <lb ed="#F" n="55"/>DE SCRVTINIO IN 
+      OR<lb ed="#F" n="56" break="no"/>DINE FACIENDO. 
+      </p>
+            <div xml:id="inleiv-d1e183-Dd1e111" type="decretales-l1t12c1">
+               <head xml:id="inleiv-d1e183-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e183-d1e115">
+                  <lb ed="#F" n="57"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e183-d1e120">
+                  <lb ed="#F" n="58"/>EX PARTE TVA. (Dioc.) 
+      <lb ed="#F" n="59"/>24. distinct. quando. (Et 
+      sci<lb ed="#F" n="60" break="no"/>et) ecce mirabilis 
+      respon<lb ed="#F" n="61" break="no"/>sio, cum eum non nouerit, 
+      <lb ed="#F" n="62"/>ex quo videt eum a bonis 
+      <lb ed="#F" n="63"/>praesentari, &amp; nihil mali scit de eo recte 
+      <lb ed="#F" n="64"/>sic testificatur. infra, de praesump. dudum 
+      <lb ed="#F" n="65"/>(Dignum) infra, de praesump. dudum. §6. 
+      <lb ed="#F" n="66"/>distinct. si quis vero. ff. de reg. iur. si 
+      infir<lb ed="#F" n="67" break="no"/>mus. ff. de manu. test. seruos. ff. de leg. 2. cum 
+      <lb ed="#F" n="68"/>pater. §. rogo. arg. contra. C. de his qui ve. 
+      <lb ed="#F" n="69"/>aeta. impe. l. 3. C. de proba. ex persona. ff. de 
+      <lb ed="#F" n="70"/>magistra. conue. l. 1. §. magistratus. infr. de 
+      <lb ed="#F" n="71"/>sen. excom. desideres. §. 2. 30. quaestio. 5. 
+      ali<lb ed="#F" n="72" break="no"/>ter. de consec. distinct. 4. paruulos. 37. dist. 
+      <lb ed="#F" n="73"/>c. 1. inf. de spon. iuuenis. Nunciare) sed 
+      s<lb ed="#F" n="74" break="no"/>Metropolitanus voluerit desistere 
+      pro<lb ed="#F" n="75" break="no"/>pter eius dictum debet obtinere a 
+      Metro<lb ed="#F" n="76" break="no"/>po. quod se absente faciet praedictam 
+      or<lb ed="#F" n="77" break="no"/>dinationem, sed si non potest obtinere 
+      <lb ed="#F" n="78"/>debet praedicta verba dicere. ar. inf. de of 
+      <lb ed="#F" n="79"/>dele. pastcralis. §. penul. vnde credimus, 
+      <lb ed="#F" n="80"/>quod si sui absentiam obtinere non 
+      po<lb ed="#F" n="81" break="no"/>test de facto vel sine scandalo, quod 
+      prae<lb ed="#F" n="82" break="no"/>dicta verba dicere debet, agit enim hic 
+      <lb ed="#F" n="83"/>vt minister, non vt ipse. 23. quaestio., 
+      <lb ed="#F" n="84"/>cum minister. &amp; ecclesia quae nihil debet 
+      <lb ed="#F" n="85"/>scire de occultis, per eum loquitur &amp; 
+      te<lb ed="#F" n="86" break="no"/>stificari dicitur, non ipse: si autem 
+      prae<lb ed="#F" n="87" break="no"/>sens esset non consulerem sibi, quod ali 
+      <lb ed="#F" n="88"/>quo modo postponeret supradicta verba 
+      <lb ed="#F" n="89"/>dicere eum sic omittedo licet tacite 
+      pub<lb ed="#F" n="90" break="no"/>licaret crimen fratris. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

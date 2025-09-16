@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 25</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 25</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="400-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1155" type="decretales-l3t25">
+            <head xml:id="inleiv-d1e1155-Hd1e98">Titulus 25</head>
+            <p xml:id="inleiv-d1e1155-d1e100">
+               <lb ed="#F" n="46"/>TITVLVS XXV. 
+      <lb ed="#F" n="47"/>E PE CVLIO 
+      <lb ed="#F" n="48"/>CLERICORVM. 
+      </p>
+            <div xml:id="inleiv-d1e1155-Dd1e109" type="decretales-l3t25c1">
+               <head xml:id="inleiv-d1e1155-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1155-d1e113">
+                  <lb ed="#F" n="49"/>CAPVT 1. 
+      </p>
+               <p xml:id="inleiv-d1e1155-d1e118">
+                  <lb ed="#F" n="50"/>INVESTIGANDVM. 
+      <lb ed="#F" n="51"/>(Ecclesiae) Praesumuntur eis 
+      <lb ed="#F" n="52"/>obtentu ecclesiae acquisita. 
+      <lb ed="#F" n="53"/>12. q. 3. c. 1. arg. C. de do. inter 
+      <lb ed="#F" n="54"/>virum &amp; vxo. etiam. tamen 
+      <lb ed="#F" n="55"/>contra hanc praesumptionem admittitur 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>probatio contraria. 12. q. 1. sint manifeste. 
+      <lb ed="#F" n="57"/>&amp; q. 4. c. 1. (Canonicam) 12. q. 5. nulli. &amp; c. 
+      <lb ed="#F" n="58"/>fixum. &amp; q. 3. quicunque. 16. q. 3. placuit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1155-Dd1e143" type="decretales-l3t25c2">
+               <head xml:id="inleiv-d1e1155-Hd1e145">Caput 2</head>
+               <p xml:id="inleiv-d1e1155-d1e147">
+                  <lb ed="#F" n="59"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1155-d1e152">
+                  <lb ed="#F" n="60"/> RESBVT E R. (
+      Supere<lb ed="#F" n="61" break="no"/>merit) De rebus ecclesiae 
+      <lb ed="#F" n="62"/>tantum, nam si de suis &amp; 
+      ec<lb ed="#F" n="63" break="no"/>clesiae emerit fit communie 
+      <lb ed="#F" n="64"/>diuisio. 12. q. 4. c. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1155-Dd1e166" type="decretales-l3t25c3">
+               <head xml:id="inleiv-d1e1155-Hd1e168">Caput 3</head>
+               <p xml:id="inleiv-d1e1155-d1e170">
+                  <lb ed="#F" n="65"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1155-d1e175">
+                  <lb ed="#F" n="66"/>T VNVSOVISOVE. (Ac 
+      quisie<lb ed="#F" n="67" break="no"/>rit) de rebus ecclesiae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1155-Dd1e184" type="decretales-l3t25c4">
+               <head xml:id="inleiv-d1e1155-Hd1e186">Caput 4</head>
+               <p xml:id="inleiv-d1e1155-d1e188">
+                  <lb ed="#F" n="68"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1155-d1e193">
+                  <lb ed="#F" n="69"/>INQVIRENDVM. (
+      Alie<lb ed="#F" n="70" break="no"/>no nomine) quod si fecerint 
+      <lb ed="#F" n="71"/>praeter poenam peccati, 
+      dici<lb ed="#F" n="72" break="no"/>mus quod ecclesia potest eos 
+      <lb ed="#F" n="73"/>vendicare, licet non sint suae. 
+      <lb ed="#F" n="74"/>C. derei. vendic. si vt proponis. C. de 
+      ad<lb ed="#F" n="75" break="no"/>ministra. tuto. l. 3. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1155-Dd1e212" type="decretales-l3t25c5">
+               <head xml:id="inleiv-d1e1155-Hd1e214">Caput 5</head>
+               <p xml:id="inleiv-d1e1155-d1e216">
+                  <lb ed="#F" n="76"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1155-d1e221">
+                  <lb ed="#F" n="77"/>SI QVIS. (Fecisse) quia emit 
+      <lb ed="#F" n="78"/>aliquas possessiones de 
+      redi<lb ed="#F" n="79" break="no"/>tibus suis. 12. quaestio. 5. fixum. 
+      <lb ed="#F" n="80"/>vel de terra inculta fecit 
+      cul<lb ed="#F" n="81" break="no"/>tam, vel vineam, hoc autem 
+      <lb ed="#F" n="82"/>tenebit, etiam si ecclesiam dimittatetiam 
+      <lb ed="#F" n="83"/>propter crimen. Quidam tamen dicunt 
+      <lb ed="#F" n="84"/>contra, nisi de consensu episcopi hoc fecisa 
+      <lb ed="#F" n="85"/>set. C. de allu. l. vlt. 5. de reb. eccle. non alie. 
+      <lb ed="#F" n="86"/>ad aures. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

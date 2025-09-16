@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="118-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e361" type="decretales-l1t28">
+            <head xml:id="inleiv-d1e361-Hd1e98">Titulus 28</head>
+            <p xml:id="inleiv-d1e361-d1e100">
+               <cb ed="#F" n="b"/>
+               <lb ed="#F" n="42"/>TITVLVS XXVIII 
+      <lb ed="#F" n="43"/>DE OFEICIO VI. 
+      <lb ed="#F" n="44"/>CARI I
+      </p>
+            <div xml:id="inleiv-d1e361-Dd1e111" type="decretales-l1t28c1">
+               <head xml:id="inleiv-d1e361-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e361-d1e115">
+                  <lb ed="#F" n="45"/>CAPVT I. 
+      <lb ed="#F" n="46"/>1 Inepritudo libelli facitrampilibellam. 
+      </p>
+               <p xml:id="inleiv-d1e361-d1e122">
+                  <lb ed="#F" n="47"/>AD AVDIENTIAM 
+      <lb ed="#F" n="48"/>NOSTRAM. (Adeptus) &amp; 
+      <lb ed="#F" n="49"/>sic amisit ius, quod habebat 
+      <lb ed="#F" n="50"/>in vicaria. infr. de conces. 
+      <lb ed="#F" n="51"/>praeben. vel ecc. non vac. 
+      li<lb ed="#F" n="52" break="no"/>iteras. 21. q. 2. si quis iam. (A petitione) no. 
+      <lb ed="#F" n="53"/>quod vbi apparet ineptitudo libelli, 
+      rum<lb ed="#F" n="54" break="no"/>petur libellus. ar. ff. si men. fal. mo. dixe. l. 
+      <lb ed="#F" n="55"/>1. &amp; quod notabilius est non solum si in 
+      li<lb ed="#F" n="56" break="no"/>bello contineatur ineptitudo, sed etiam 
+      <lb ed="#F" n="57"/>si alias a sit notum, nam hic non dicebat 
+      <lb ed="#F" n="58"/>se habere personatus, sed tantum petebat 
+      <lb ed="#F" n="59"/>vicariam, &amp; tamen sufficit, quod 
+      notori<lb ed="#F" n="60" break="no"/>um est, quod habebat alios personatus, 
+      <lb ed="#F" n="61"/>quod non potest esse occultum. supra, de 
+      <lb ed="#F" n="62"/>transact. quod tolerandus est libellus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e160" type="decretales-l1t28c2">
+               <head xml:id="inleiv-d1e361-Hd1e162">Caput 2</head>
+               <p xml:id="inleiv-d1e361-d1e164">
+                  <lb ed="#F" n="63"/>CAPVT 11. 
+      <lb ed="#F" n="64"/>1 Vicaria quando habeat lotum. 
+      </p>
+               <p xml:id="inleiv-d1e361-d1e171">
+                  <lb ed="#F" n="65"/>PROVIDEAS. (Attentus) 
+      <lb ed="#F" n="66"/>Vicaria non habet locum, 
+      <lb ed="#F" n="67"/>nisi vbi quis pluras habeat 
+      <lb ed="#F" n="68"/>ecclesias ex dispensatione, 
+      <lb ed="#F" n="69"/>vel absens ex dispensatione, 
+      <lb ed="#F" n="70"/>vel in casibus, in quibus licitum est 
+      habe<lb ed="#F" n="71" break="no"/>re plures ecclesias, cum persona 
+      continu<lb ed="#F" n="72" break="no"/>am residentiam ibi facere teneatur. supr. 
+      <lb ed="#F" n="73"/>de aeta. &amp; quali. eam te. sup. de elec. cum 
+      <lb ed="#F" n="74"/>inter. infr. de praeben. extirpandae. habent 
+      <lb ed="#F" n="75"/>etiam locum vicariae illorum, qui non 
+      ha<lb ed="#F" n="76" break="no"/>bent curam animarum. infra, eodem. c. 
+      <lb ed="#F" n="77"/>vlti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e203" type="decretales-l1t28c3">
+               <head xml:id="inleiv-d1e361-Hd1e205">Caput 3</head>
+               <p xml:id="inleiv-d1e361-d1e207">
+                  <lb ed="#F" n="78"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e361-d1e212">
+                  <lb ed="#F" n="79"/>AD HAEC. (Si persona) 
+      <lb ed="#F" n="80"/>Episcopi &amp; patroni. 65. dist. 
+      <lb ed="#F" n="81"/>princ. 16. q. 7. dedimus. C. de 
+      <lb ed="#F" n="82"/>autho. prae. l. vlti. Si 
+      consen<lb ed="#F" n="83" break="no"/>sus eius non affuit post 
+      mor<lb ed="#F" n="84" break="no"/>tem personae, non duret prouisio: vt not. 
+      <lb ed="#F" n="85"/>sup. de fil. presby. proposuit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e232" type="decretales-l1t28c4">
+               <head xml:id="inleiv-d1e361-Hd1e234">Caput 4</head>
+               <p xml:id="inleiv-d1e361-d1e236">
+                  <lb ed="#F" n="86"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e361-d1e241">
+                  <lb ed="#F" n="87"/>CLERICO S. (In presbyteratu.) 
+      <lb ed="#F" n="88"/>Quas. C. de iudi. a iudice. §. vicarias. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e249" type="decretales-l1t28c5">
+               <head xml:id="inleiv-d1e361-Hd1e251">Caput 5</head>
+               <p xml:id="inleiv-d1e361-d1e253">
+                  <lb ed="#F" n="89"/>CAPVT V. 
+      <lb ed="#F" n="90"/>1 Picarius an habeat iurisdictione ordinariam.
+      </p>
+               <p xml:id="inleiv-d1e361-d1e260">
+                  <lb ed="#F" n="91"/>TVA NOBIS. (Literas) 
+      <lb ed="#F" n="92"/>Impetratae erant forte super 
+      <lb ed="#F" n="93"/>commissione aliqua de iu¬ 
+      <pb ed="#F" n="119-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>stitia vel beneficio huiusmodi. 
+      cturisdi<lb ed="#F" n="2" break="no"/>ctio) vicarius autem iurisdietionem 
+      or<lb ed="#F" n="3" break="no"/>dinariam habet, quod sic probo. potest 
+      <lb ed="#F" n="4"/>decretum alienationibus minorum dare, 
+      <lb ed="#F" n="5"/>&amp; emancipationibus, &amp; omnia facta quae 
+      <lb ed="#F" n="6"/>ad iurisdictionem pertinent facere. C. 
+      <lb ed="#F" n="7"/>de off. eius qui vi. al. l. 2. Sed praedicta cum 
+      <lb ed="#F" n="8"/>causae cognitionem requirant, delegari 
+      <lb ed="#F" n="9"/>non possunt. ff. de off. procon. nec 
+      quic<lb ed="#F" n="10" break="no"/>quam. §. 1. ergo apparet, quod praedicta 
+      fa<lb ed="#F" n="11" break="no"/>cit vicarius iurisdictione ordinaria, non 
+      <lb ed="#F" n="12"/>delegatus, de iurisdictione autem 
+      delega<lb ed="#F" n="13" break="no"/>ti, non ordinaria vel vicaria loquitur. ff. 
+      <lb ed="#F" n="14"/>de off. eius cui man. est iur. per totum. 
+      <lb ed="#F" n="15"/>(Reuocatis) tanquam a non suo iudice 
+      fa<lb ed="#F" n="16" break="no"/>ctum. 11. q. 1. c. vlt. C. si a non comp. iu. per 
+      <lb ed="#F" n="17"/>totum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e311" type="decretales-l1t28c6">
+               <head xml:id="inleiv-d1e361-Hd1e313">Caput 6</head>
+               <p xml:id="inleiv-d1e361-d1e315">
+                  <lb ed="#F" n="18"/>CAPVT VI. 
+      <lb ed="#F" n="19"/>EX PARTE TVA FVIT. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e361-Dd1e323" type="decretales-l1t28c7">
+               <head xml:id="inleiv-d1e361-Hd1e325">Caput 7</head>
+               <p xml:id="inleiv-d1e361-d1e327">
+                  <lb ed="#F" n="20"/>CAPVT VII. 
+      <lb ed="#F" n="21"/>Iudicis ordinarii officialis iurisdictionem 
+      su<lb ed="#F" n="22" break="no"/>am exercere non potest post 
+      excommuni<lb ed="#F" n="23" break="no"/>cationem eius, cuius officialis est. 
+      </p>
+               <p xml:id="inleiv-d1e361-d1e338">
+                  <lb ed="#F" n="24"/>ROMANA ECCLESIA 
+      <lb ed="#F" n="25"/>&amp; infr. ( Cum Remen. 
+      archi<lb ed="#F" n="26" break="no"/>episcopus rationabili) forte 
+      <lb ed="#F" n="27"/>criminosus est vel alia 
+      consi<lb ed="#F" n="28" break="no"/>mili. (Vices) . lset officialitatis. 
+      <lb ed="#F" n="29"/>1 (Ipfius) id est, officialis, qui officium 
+      su<lb ed="#F" n="30" break="no"/>um consueuit exercere, quae tamen huic 
+      <lb ed="#F" n="31"/>vicario commissa sunt ab episcopo non 
+      <lb ed="#F" n="32"/>vicario, qui cum sit excommunicatus 
+      con<lb ed="#F" n="33" break="no"/>mittere non potest. Sed &amp; si ante 
+      excom<lb ed="#F" n="34" break="no"/>municationem commisisset idem 
+      dicen<lb ed="#F" n="35" break="no"/>dum videtur, nam etiam iudicis ordinarii 
+      <lb ed="#F" n="36"/>officialis non potest exercere 
+      iurisdictio<lb ed="#F" n="37" break="no"/>nem suam post excommunicationem eius 
+      <lb ed="#F" n="38"/>cuius officialis est, sicut nec post mortem. 
+      <lb ed="#F" n="39"/>arg. ff. de offi. vica. diem. Vel dic, quod 
+      <lb ed="#F" n="40"/>haec decre. loquitur, quando officialis 
+      <lb ed="#F" n="41"/>non episcopus commiserat vices, quo 
+      ca<lb ed="#F" n="42" break="no"/>su, &amp; si non valeat quod facit 
+      huiusmo<lb ed="#F" n="43" break="no"/>di vicarius, tamen non est 
+      excommu<lb ed="#F" n="44" break="no"/>nicatus, quia officialis. (Officium) id 
+      <lb ed="#F" n="45"/>est, officialitatem: nam &amp; si ob hoc 
+      es<lb ed="#F" n="46" break="no"/>set excommunicatus officialis, quia 
+      of<lb ed="#F" n="47" break="no"/>ficialitatem exercet ille, qui in eodem 
+      <lb ed="#F" n="48"/>officio sibi deseruit siue stando iuri 
+      co<lb ed="#F" n="49" break="no"/>ram eo, siue suscipiendo commissionem 
+      <lb ed="#F" n="50"/>causarum ab eo excommunicatus est. 
+      <lb ed="#F" n="51"/>Sed si suscipiat commissionem 
+      causa<lb ed="#F" n="52" break="no"/>rum, vel vicariam officialis, vel etiam 
+      <lb ed="#F" n="53"/>eandem officialitatem ab episcopo non 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>est excommunicatus. (Ipsi) vicarii 
+      offi<lb ed="#F" n="55" break="no"/>cialium. (Aliter) id est, propter aliam 
+      <lb ed="#F" n="56"/>causam, &amp; non propter officialitatem 
+      <lb ed="#F" n="57"/>quam exercet. (Eodem) de facto, quia 
+      <lb ed="#F" n="58"/>de iure hic officialis etiam non excom. 
+      <lb ed="#F" n="59"/>municati, alios vicarios facere non 
+      pos<lb ed="#F" n="60" break="no"/>sunt. argi supra, eod. clericos. Sed bene 
+      <lb ed="#F" n="61"/>credo, quod causas aliquas aliquibus com 
+      <lb ed="#F" n="62"/>mittere possunt. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 41</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 41</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="574-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e2138" type="decretales-l5t41">
+            <head xml:id="inleiv-d1e2138-Hd1e98">Titulus 41</head>
+            <p xml:id="inleiv-d1e2138-d1e100">
+               <lb ed="#F" n="41"/>TITVLVS XLI. 
+      <lb ed="#F" n="42"/>DE REGVLIS IVRIS. 
+      </p>
+            <div xml:id="inleiv-d1e2138-Dd1e107" type="decretales-l5t41c1">
+               <head xml:id="inleiv-d1e2138-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e2138-d1e111">
+                  <lb ed="#F" n="43"/>CAPVT I. 
+      <lb ed="#F" n="44"/>OMNIS RES. (Dissoluitur) 
+      <!-- line coord error -->
+      <lb ed="#F" n="49"/>fallit in ma. 32. quaestione. 7. 
+      <lb ed="#F" n="50"/>licite. In ordine &amp; baptismo 
+      <lb ed="#F" n="51"/>15. quaestione. 7. episcopus 
+      <lb ed="#F" n="52"/>solus. 1. quaestione. 1. quod
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e130" type="decretales-l5t41c2">
+               <head xml:id="inleiv-d1e2138-Hd1e132">Caput 2</head>
+               <p xml:id="inleiv-d1e2138-d1e134">
+                  <lb ed="#F" n="45"/>CAPVT II
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e139">
+                  <lb ed="#F" n="46"/>ESTOTE MISERICORDES. 
+      <lb ed="#F" n="47"/>In meliorem) supra, de simot &amp; 
+      <lb ed="#F" n="48"/>quaestiones. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e149" type="decretales-l5t41c3">
+               <head xml:id="inleiv-d1e2138-Hd1e151">Caput 3</head>
+               <p xml:id="inleiv-d1e2138-d1e153">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e160">
+                  <lb ed="#F" n="54"/>VI 
+      SCANDALILAVE<lb ed="#F" n="55" break="no"/>IT. supra, de renun. nisi 
+      <lb ed="#F" n="56"/>agitur. 7. quaestio. 1. in gloss. 
+      <lb ed="#F" n="57"/>sic. (vtilius) 11. quaestione. 3. 
+      <lb ed="#F" n="58"/>nter verba. 22. quaestione. 2. 
+      <lb ed="#F" n="59"/>primum. 32. quaest. 5. ita ne. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e178" type="decretales-l5t41c4">
+               <head xml:id="inleiv-d1e2138-Hd1e180">Caput 4</head>
+               <p xml:id="inleiv-d1e2138-d1e182">
+                  <lb ed="#F" n="60"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e187">
+                  <lb ed="#F" n="61"/>QOP NON EST LICITVM.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e193" type="decretales-l5t41c5">
+               <head xml:id="inleiv-d1e2138-Hd1e195">Caput 5</head>
+               <p xml:id="inleiv-d1e2138-d1e197">
+                  <lb ed="#F" n="62"/>CAPVT V.
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e202">
+                  <lb ed="#F" n="63"/>QVOD LATENTER. 10. q. 3. quia 
+      <lb ed="#F" n="64"/>cor pium. ff. quod metus causa. l. 1. 
+      <lb ed="#F" n="65"/>C. quod metus causa. l. 1. &amp; vlti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e212" type="decretales-l5t41c6">
+               <head xml:id="inleiv-d1e2138-Hd1e214">Caput 6</head>
+               <p xml:id="inleiv-d1e2138-d1e216">
+                  <lb ed="#F" n="66"/>CAPVT VI. 
+      <lb ed="#F" n="67"/> Clerici an v quando torqueri possint. 
+      <lb ed="#F" n="68"/> Mecusatores in accusatione clericorum 
+      de<lb ed="#F" n="69" break="no"/>Pent torquteris 
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e227">
+                  <lb ed="#F" n="70"/>CVM IIN 
+      CoNTEM<lb ed="#F" n="71" break="no"/>PLAT IONE. (Aquaesti. 
+      <lb ed="#F" n="72"/>onibus) qui torqueri 
+      debe<lb ed="#F" n="73" break="no"/>ant, quando &amp; qualiter hoc 
+      <lb ed="#F" n="74"/>non noto, quia in summa 
+      ple<lb ed="#F" n="75" break="no"/>ne de omnibe notaui. Sed tantum de 
+      cle<lb ed="#F" n="76" break="no"/>ricis videamus, &amp; dixerunt aliqui eos 
+      tor<lb ed="#F" n="77" break="no"/>quendos. 2. q. 1. in primis. 5. q. 3. illi qui. vbi 
+      <lb ed="#F" n="78"/>dic itur ac cusatores episcoporum &amp; testes 
+      <lb ed="#F" n="79"/>torquendos, quod non videtur posse 
+      in<lb ed="#F" n="80" break="no"/>telligi, nisi de clericis, cum alii ad 
+      accusa<lb ed="#F" n="81" break="no"/>tionem, vel testimonium contra eos non 
+      <lb ed="#F" n="82"/>admittantur. G. 2. q. 4. ipsi testes. arg. etiam 
+      <lb ed="#F" n="83"/>pro eis, quia cum extra testimonium 
+      lici<lb ed="#F" n="84" break="no"/>tum sit eos subire verberibus. 45. dist. cum 
+      <lb ed="#F" n="85"/>beatus. 5. q. 6. quia. quare &amp; si vacillant in 
+      <lb ed="#F" n="86"/>testimonio, &amp; viles sunt, non 
+      torquebun<lb ed="#F" n="87" break="no"/>tur. ff. de quaesti. ex libero. 4. q. 3. si ea. Alii 
+      <lb ed="#F" n="88"/>tamen dicunt contra, &amp; in c. contrarijs 
+      <lb ed="#F" n="89"/>dicunt laicos tortos, qui admissi fuerant in 
+      <lb ed="#F" n="90"/>exceptis criminibus, de quibus loquuntur 
+      <lb ed="#F" n="91"/>praeall. c. Pro crimine autem bene fatemur 
+      <lb ed="#F" n="92"/>aliquos verberandos, sed cauendum est 
+      <lb ed="#F" n="93"/>super, ne adeo grauiter torqueantur, quod 
+      <lb ed="#F" n="94"/>periculum immineat vitae vel 
+      membro<lb ed="#F" n="95" break="no"/>rum. 5. ne cle. sententiam. Item not. in 
+      <lb ed="#F" n="96"/>accusa. clericorum torquentur 
+      accusato<lb ed="#F" n="97" break="no"/>res secundum primam opinionem. 5. q. 6. 
+      <lb ed="#F" n="98"/>illi qui. quod non est secundum legem. Sed 
+      <lb ed="#F" n="99"/>mirum videtur, quod quaestio facienda sit 
+      <lb ed="#F" n="100"/>in accusatore cum nullus criminosus vel 
+      <lb ed="#F" n="101"/>suspectus sit admittendus ad 
+      accusatio<lb ed="#F" n="102" break="no"/>nem. 3. quaestio. 5. accusatoribus. &amp; c. 
+      se<lb ed="#F" n="103" break="no"/>quen. &amp; q. 8. c. 1. sed dic nos 
+      admitten<lb ed="#F" n="104" break="no"/>dos in exceptis criminibus, vel quando 
+      <pb ed="#F" n="574-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>accusatus volens euitare infamiam suam 
+      <lb ed="#F" n="2"/>eos vult admittere (a quaestionibus) ff. de 
+      <lb ed="#F" n="3"/>quaestioni. l. 1 &amp; C. de quaestionibus. 
+      mi<lb ed="#F" n="4" break="no"/>lites. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e319" type="decretales-l5t41c7">
+               <head xml:id="inleiv-d1e2138-Hd1e321">Caput 7</head>
+               <p xml:id="inleiv-d1e2138-d1e323">
+                  <lb ed="#F" n="5"/>CAPVT VII. 
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e328">
+                  <lb ed="#F" n="6"/>VAE MVLTOTIES.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e334" type="decretales-l5t41c8">
+               <head xml:id="inleiv-d1e2138-Hd1e336">Caput 8</head>
+               <p xml:id="inleiv-d1e2138-d1e338">
+                  <lb ed="#F" n="7"/>CAPVT VIII
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e343">
+                  <lb ed="#F" n="8"/>QVI EX TIMORE. 24. q. 1. 
+      puden<lb ed="#F" n="9" break="no"/>da. 22. q. 2. faciat de paeniten. distin. 
+      <lb ed="#F" n="10"/>prima solent. 
+      <lb ed="#F" n="11"/>III1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e355" type="decretales-l5t41c9">
+               <head xml:id="inleiv-d1e2138-Hd1e357">Caput 9</head>
+               <p xml:id="inleiv-d1e2138-d1e359">
+                  <lb ed="#F" n="12"/>CAPVT IX
+      <lb ed="#F" n="13"/>DELEAT PECCATOR. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e368" type="decretales-l5t41c10">
+               <head xml:id="inleiv-d1e2138-Hd1e370">Caput 10</head>
+               <p xml:id="inleiv-d1e2138-d1e372">
+                  <lb ed="#F" n="14"/>CAPVT X. 
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e377">
+                  <lb ed="#F" n="15"/>QVAMVIS CAVSAE. (
+      Pa<lb ed="#F" n="16" break="no"/>storis) negligentis. Si. distin. 
+      <lb ed="#F" n="17"/>dictum. 1. q. 1. quod quidam. 
+      <lb ed="#F" n="18"/>49. dist. deinde. 40. distin. c. 
+      <lb ed="#F" n="19"/> vlti. in fin. (comedit) pastor 
+      <lb ed="#F" n="20"/>enim tenetur de custodia. ff. l0. qui 
+      mer<lb ed="#F" n="21" break="no"/>cedem. 23. q. 3. tres personas. &amp; si negat 
+      do<lb ed="#F" n="22" break="no"/>lo suo, vel negligentia periisse, ipsi 
+      incum<lb ed="#F" n="23" break="no"/>bit probatio. ff. de eden. si quis ex. §. vlti. 
+      <lb ed="#F" n="24"/>Item in custodia carceris. ff. de custo. &amp; 
+      <lb ed="#F" n="25"/>exhi. re. l. vl. cum alias qui dolum allegat, 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="26"/>dolumprobare debeat. ff. de proba. 
+      queti<lb ed="#F" n="27" break="no"/>es. §. qui dolum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2138-Dd1e411" type="decretales-l5t41c11">
+               <head xml:id="inleiv-d1e2138-Hd1e413">Caput 11</head>
+               <p xml:id="inleiv-d1e2138-d1e415">
+                  <lb ed="#F" n="28"/>CAPVT <sic>X</sic>
+                  <lb ed="#F" n="29"/>1 Obedientiain piritualibus obseruatur, 
+      boma<lb ed="#F" n="30" break="no"/>gium in temporalibus
+      </p>
+               <p xml:id="inleiv-d1e2138-d1e426">
+                  <lb ed="#F" n="31"/>NDIGRVM EST. (
+      o<lb ed="#F" n="32" break="no"/>magium) . 3. de simo. ex 
+      dili<lb ed="#F" n="33" break="no"/>genti. alias autem licite ei 
+      iu<lb ed="#F" n="34" break="no"/>rant obedientiam: vt not.5 
+      <lb ed="#F" n="35"/>de ma. &amp; obe. legabatur. Est 
+      <lb ed="#F" n="36"/>autem obedientia in spiritualibus, &amp; in 
+      <lb ed="#F" n="37"/>his, quae ad Deum pertinent, &amp; in his quae 
+      <lb ed="#F" n="38"/>pertinent ad officium cuiusque praelati. ar. 
+      <lb ed="#F" n="39"/>pro his. io. dist. suscipitis. i. de ma. &amp; obe. 
+      <lb ed="#F" n="40"/>legebatur. 23. dist. quanquam. &amp; 11. q. 3. 
+      <lb ed="#F" n="41"/>quid mirum. 8. q. 1. sciendum. 8. 1. quia 
+      su<lb ed="#F" n="42" break="no"/>per. Ad hanc etiam imperator &amp; 
+      Laicite<lb ed="#F" n="43" break="no"/>nentur. 61. dist. Valentinianus. 5. de ma. &amp; 
+      <lb ed="#F" n="44"/>obe. solitae. Homagium autem est de 
+      tem<lb ed="#F" n="45" break="no"/>poralibus, &amp; his quae ad temporalia 
+      perti<lb ed="#F" n="46" break="no"/>nent. 22. q. 5. de forma. &amp; ideo homagium 
+      <lb ed="#F" n="47"/>in hac significatione sumptum, nunquam 
+      <lb ed="#F" n="48"/>pro spiritualibus est praestandum. 3. de 
+      si<lb ed="#F" n="49" break="no"/>mo. ex deli. 3. de iureiu. nimis. nec in hoc 
+      <lb ed="#F" n="50"/>videtur valere aliqua consuetudo, vt hic. 
+      <lb ed="#F" n="51"/>quia consuetudo iniqua, non potest 
+      prae<lb ed="#F" n="52" break="no"/>scribi: vt not. supra, de consue. 
+      <lb ed="#F" n="53"/>in princip. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

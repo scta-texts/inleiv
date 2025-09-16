@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 36</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 36</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="540-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e2082" type="decretales-l5t36">
+            <head xml:id="inleiv-d1e2082-Hd1e98">Titulus 36</head>
+            <p xml:id="inleiv-d1e2082-d1e100">
+               <lb ed="#F" n="101"/>TITVLVS XXXVI. 
+      <lb ed="#F" n="102"/>DE INIVRIIS  
+      <lb ed="#F" n="103"/>DAMNo PATO.
+      </p>
+            <div xml:id="inleiv-d1e2082-Dd1e109" type="decretales-l5t36c1">
+               <head xml:id="inleiv-d1e2082-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e2082-d1e113">
+                  <lb ed="#F" n="104"/>CAPVT I 
+      <lb ed="#F" n="105"/>SI RIXATI. Actio 
+      iniuria<lb ed="#F" n="106" break="no"/>rum solum iniuriam 
+      prose<lb ed="#F" n="107" break="no"/>quitur, &amp; non interesse, nisi 
+      <lb ed="#F" n="108"/>in hoc, quod propter maius 
+      <lb ed="#F" n="109"/>damnum aestimatur magis 
+      <lb ed="#F" n="110"/>iniuria: vt. ff. ad. I. Aquil. item apud. §. si 
+      <lb ed="#F" n="111"/>quis vel. ff. de ac. &amp; obl. si quis secundum. 
+      <pb ed="#F" n="541-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>C. de iniu. dominum. tamen pro damnis 
+      <lb ed="#F" n="2"/>&amp; expensis quandocunque datur actio legis 
+      <lb ed="#F" n="3"/>Aquil. vt in praedictis legibus. vel ad minus 
+      <lb ed="#F" n="4"/>act. de do. Si rixati) intellige quo ad 
+      poe<lb ed="#F" n="5" break="no"/>nam homicidij, tenebitur tamen de iniu. 
+      <lb ed="#F" n="6"/>de poe. di. 1. aut facta. item hoc secundum 
+      <lb ed="#F" n="7"/>vetus testamentum, nam secundum. l. ro. 
+      <lb ed="#F" n="8"/>si seruum oceideret, iniuriarum tenetur. 
+      <lb ed="#F" n="9"/>ff. ad. l. Aquil. si seruum. §. rupisse. &amp; 
+      mul<lb ed="#F" n="10" break="no"/>tofortius si liber liberum percussit. ff. de 
+      <lb ed="#F" n="11"/>iniu. non solum hoc (restituat) 
+      deformita<lb ed="#F" n="12" break="no"/>tis autem non habetur ratio. ff. de ele. &amp; l. 
+      <lb ed="#F" n="13"/>1. §. plagijs. hic in factum. ff. si quis cau. ex 
+      <lb ed="#F" n="14"/>hac. ff. ad. l. Aquil. si exempla. §. quidam etc. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e169" type="decretales-l5t36c2">
+               <head xml:id="inleiv-d1e2082-Hd1e171">Caput 2</head>
+               <p xml:id="inleiv-d1e2082-d1e173">
+                  <lb ed="#F" n="15"/>CAPVT II 
+      <lb ed="#F" n="16"/>SI QVIS APERVERIT. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e181" type="decretales-l5t36c3">
+               <head xml:id="inleiv-d1e2082-Hd1e183">Caput 3</head>
+               <p xml:id="inleiv-d1e2082-d1e185">
+                  <lb ed="#F" n="17"/>CAPVT III 
+      <lb ed="#F" n="18"/>SI BOS ALIENVS.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e194" type="decretales-l5t36c4">
+               <head xml:id="inleiv-d1e2082-Hd1e196">Caput 4</head>
+               <p xml:id="inleiv-d1e2082-d1e198">
+                  <lb ed="#F" n="19"/>CAPVT IIII 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e203">
+                  <lb ed="#F" n="20"/>ILAESERIT. (
+      Aestima<lb ed="#F" n="21" break="no"/>tionem) vltra enim non 
+      te<lb ed="#F" n="22" break="no"/>netur de pastu pecorum. ff. 
+      <lb ed="#F" n="23"/>de priui. de l. qui serua. §. 
+      sin<lb ed="#F" n="24" break="no"/>gulos ff. ad leg Aquil 
+      Quin<lb ed="#F" n="25" break="no"/>tus Mutius. §. Papae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e220" type="decretales-l5t36c5">
+               <head xml:id="inleiv-d1e2082-Hd1e222">Caput 5</head>
+               <p xml:id="inleiv-d1e2082-d1e224">
+                  <lb ed="#F" n="26"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e229">
+                  <lb ed="#F" n="27"/>SI EGRESSVS. (reddet) si in culpa 
+      <lb ed="#F" n="28"/>fuit. ff. ad legem aquil. qui occiditi S. 
+      <lb ed="#F" n="29"/>in hac 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e239" type="decretales-l5t36c6">
+               <head xml:id="inleiv-d1e2082-Hd1e241">Caput 6</head>
+               <p xml:id="inleiv-d1e2082-d1e243">
+                  <lb ed="#F" n="30"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e248">
+                  <lb ed="#F" n="31"/>SI QVIS DOMVM. (
+      Re<lb ed="#F" n="32" break="no"/>stituat) in quadruplum. ff. de 
+      <lb ed="#F" n="33"/>incen. l. 1. &amp; si dolo fecerit 
+      <lb ed="#F" n="34"/>secundum. l. cremabitur. ff. 
+      <lb ed="#F" n="35"/>deincen. qui aedes. l. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e262" type="decretales-l5t36c7">
+               <head xml:id="inleiv-d1e2082-Hd1e264">Caput 7</head>
+               <p xml:id="inleiv-d1e2082-d1e266">
+                  <lb ed="#F" n="36"/>CAPVT VII 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e271">
+                  <lb ed="#F" n="37"/>OLIM. (Praemissa) C. de iudi. Authen. 
+      <lb ed="#F" n="38"/>sed hodiescondemnandum) ordine 
+      <lb ed="#F" n="39"/>iudiciario seruato. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e281" type="decretales-l5t36c8">
+               <head xml:id="inleiv-d1e2082-Hd1e283">Caput 8</head>
+               <p xml:id="inleiv-d1e2082-d1e285">
+                  <lb ed="#F" n="40"/>CAPVT VIII. 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e290">
+                  <lb ed="#F" n="41"/>IN NOSTRA. (Prixiens.) 
+      <lb ed="#F" n="42"/>forte ita erat cum olim esset 
+      <lb ed="#F" n="43"/>discordia inter milites, &amp; 
+      po<lb ed="#F" n="44" break="no"/>pulum Brixi. multa sibi 
+      dam<lb ed="#F" n="45" break="no"/>na adinuicem intulerunt, 
+      <lb ed="#F" n="46"/>multi etiam ex ipsis multas expensas ex 
+      <lb ed="#F" n="47"/>partibus suis fecerunt, tandem facta pace 
+      <lb ed="#F" n="48"/>cum damnificati ab vtraque parte sibi ab 
+      al<lb ed="#F" n="49" break="no"/>tera peterent damna restitui, commune 
+      <lb ed="#F" n="50"/>videns ex hoc posse imminere periculum, 
+      <lb ed="#F" n="51"/>statuit quod nullus super damnis agere 
+      <lb ed="#F" n="52"/>posset, &amp; hoc singuli iurauerunt, 
+      verunta<lb ed="#F" n="53" break="no"/>men postea petierunt expensas, obiicie¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>bant eis hoc iuramentum, sed hic dicitur, 
+      <lb ed="#F" n="55"/>quod non potest a communi, hoc non 
+      de<lb ed="#F" n="56" break="no"/>terminat gerundium recipiendo, sed 
+      par<lb ed="#F" n="57" break="no"/>ticipium aeditum. Vel dic, quod 
+      determi<lb ed="#F" n="58" break="no"/>nat gerundium, commune enim in pace 
+      <lb ed="#F" n="59"/>se obligauerunt ad damna &amp; expensas, sed 
+      <lb ed="#F" n="60"/>propter periculum, quod inde eueniebat 
+      <lb ed="#F" n="61"/>commune contrarium statuit super 
+      dam<lb ed="#F" n="62" break="no"/>nis. Si quaeras quomodo hic potuit in 
+      prae<lb ed="#F" n="63" break="no"/>iudicium singulorum, respondeo quia sina 
+      <lb ed="#F" n="64"/>gulares singulariter consentiunt. Vel dic, 
+      <lb ed="#F" n="65"/>quod potuerunt in eorum praeiudicium 
+      <lb ed="#F" n="66"/>astatuere a, vt no. 3. de consti. c. in 
+      ecclesia<lb ed="#F" n="67" break="no"/>rum. nam cum commune brixi. tam 
+      mili<lb ed="#F" n="68" break="no"/>tum, quam populi non essent naturaliter 
+      <lb ed="#F" n="69"/>obligati ad damna resarcienda, quae nec 
+      <lb ed="#F" n="70"/>dederat, nec dari mandauerat, licet 
+      com<lb ed="#F" n="71" break="no"/>mune militum de aliquibus &amp; 
+      commune<lb ed="#F" n="72" break="no"/>populi de alijs posset conueniri, &amp; essent 
+      <lb ed="#F" n="73"/>ex suis culpis, vel negligentijs naturalite 
+      <lb ed="#F" n="74"/>obligati b, sicut statuto suo se obligauerat 
+      <lb ed="#F" n="75"/>ad damna resarcienda, ita statuto 
+      genera<lb ed="#F" n="76" break="no"/>liter facto per illos tantum, per quos 
+      regi<lb ed="#F" n="77" break="no"/>tur ciuitas, potuerunt obligationem 
+      tol<lb ed="#F" n="78" break="no"/>lere. 5. de reg. iur. omnis. (contribuat) quia 
+      <lb ed="#F" n="79"/>se obligauerat, aliter enim non tenetur, sed 
+      <lb ed="#F" n="80"/>dices si se obligauerat, ad soluendum, 
+      quo<lb ed="#F" n="81" break="no"/>modo postea admittitur moderatio, 
+      re<lb ed="#F" n="82" break="no"/>spondeo propter periculum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2082-Dd1e387" type="decretales-l5t36c9">
+               <head xml:id="inleiv-d1e2082-Hd1e389">Caput 9</head>
+               <p xml:id="inleiv-d1e2082-d1e391">
+                  <lb ed="#F" n="83"/>CAPVT I X. 
+      </p>
+               <p xml:id="inleiv-d1e2082-d1e396">
+                  <lb ed="#F" n="84"/>SI CVLPA TVA. C. ad. I 
+      <lb ed="#F" n="85"/>Aqui. l. 2. ff. ad l. Aquil. l. 5. §. 
+      <lb ed="#F" n="86"/>iniuria. (iniuria) id est, 
+      contu<lb ed="#F" n="87" break="no"/>melia, vnde oritur actio 
+      in<lb ed="#F" n="88" break="no"/>uriarum, aliter dicitur 
+      iniu<lb ed="#F" n="89" break="no"/>ria, id est, culpa vt in hac. l. Aquil. (opem) 
+      <lb ed="#F" n="90"/>idem si incitasti canem. ff. ad leg. Aquil. 
+      <lb ed="#F" n="91"/>item mela. §. si alij. &amp; §. item (negligentia) 
+      <lb ed="#F" n="92"/>ff. ad. l. Aquil. seruus. §. si ex plaustro. (
+      ve<lb ed="#F" n="93" break="no"/>risimiliter) ff. ad l. Aqui. si putatorum. &amp; l. 
+      <lb ed="#F" n="94"/>si foue. §. vlti. (nocuisse) sine culpa &amp; im. 
+      <lb ed="#F" n="95"/>pulsu alicuius hominis, &amp; contra sui 
+      natu<lb ed="#F" n="96" break="no"/>ram. ff. eod. l. 1. §. 1. (si fera) ff. eod. l. 1. §. hoc 
+      <lb ed="#F" n="97"/>autem(conmune) . 3. de homi. Petrus. in fi. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

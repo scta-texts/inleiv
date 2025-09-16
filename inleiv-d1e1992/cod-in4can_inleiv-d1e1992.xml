@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 28</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 28</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="522-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1992" type="decretales-l5t28">
+            <head xml:id="inleiv-d1e1992-Hd1e98">Titulus 28</head>
+            <p xml:id="inleiv-d1e1992-d1e100">
+               <lb ed="#F" n="69"/>TITVLVS XXVIII. 
+      <lb ed="#F" n="70"/>DE CLERICO NON 
+      <lb ed="#F" n="71"/>ORDINATO MINI 
+      <lb ed="#F" n="72"/>nicatus. 
+      <lb ed="#F" n="73"/>strante. 
+      </p>
+            <div xml:id="inleiv-d1e1992-Dd1e113" type="decretales-l5t28c1">
+               <head xml:id="inleiv-d1e1992-Hd1e115">Caput 1</head>
+               <p xml:id="inleiv-d1e1992-d1e117">
+                  <lb ed="#F" n="74"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e1992-d1e122">
+                  <lb ed="#F" n="75"/>QVIS BAPTILAVERIT. Ni, 
+      <lb ed="#F" n="76"/>si in necessitate. 30. q6n. 1. ad limina. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1992-Dd1e130" type="decretales-l5t28c2">
+               <head xml:id="inleiv-d1e1992-Hd1e132">Caput 2</head>
+               <p xml:id="inleiv-d1e1992-d1e134">
+                  <lb ed="#F" n="77"/>CAPVT II 
+      <lb ed="#F" n="78"/>1 Episcopus semper potest difpensare in benefacio. 
+      </p>
+               <p xml:id="inleiv-d1e1992-d1e141">
+                  <lb ed="#F" n="79"/>EX LITERIS. (Ei) tanquam 
+      <lb ed="#F" n="80"/>sacerdoti(Missarum) hic non 
+      <lb ed="#F" n="81"/>conficit. 68. dist. presby7. 1. q. 
+      <lb ed="#F" n="82"/>7. Daibertum. (debeneficio 
+      <lb ed="#F" n="83"/>autem) no. quod quasi 
+      sem<lb ed="#F" n="84" break="no"/>per in beneficio licet dispensare episcopo, 
+      <lb ed="#F" n="85"/>nam dispensat cum non ordinato 
+      cele<lb ed="#F" n="86" break="no"/>brante: vt hic. &amp; cum homicida. 3. de cler. 
+      <lb ed="#F" n="87"/>pug. in duel. c. fi. 30. distin. studeat. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

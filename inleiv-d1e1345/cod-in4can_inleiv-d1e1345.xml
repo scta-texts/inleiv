@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 42</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 42</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="454-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1345" type="decretales-l3t42">
+            <head xml:id="inleiv-d1e1345-Hd1e98">Titulus 42</head>
+            <p xml:id="inleiv-d1e1345-d1e100">
+               <lb ed="#F" n="97"/>TITVLVS XLII 
+      <lb ed="#F" n="98"/>DE EAPTISMO EI 
+      <lb ed="#F" n="99"/>EIVS EEFECTV. 
+      </p>
+            <div xml:id="inleiv-d1e1345-Dd1e109" type="decretales-l3t42c1">
+               <head xml:id="inleiv-d1e1345-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1345-d1e113">
+                  <lb ed="#F" n="100"/>CAPVT I. 
+      <lb ed="#F" n="101"/>1 Baptismi sacramentum in quo consistat. 
+      <lb ed="#F" n="102"/>2 In sacramento altaris tria sunt, sic etiam in 
+      ba<lb ed="#F" n="103" break="no"/>ptismo. 
+      <lb ed="#F" n="104"/>5 Quid sit character. 
+      <lb ed="#F" n="105"/>4 Si i flumine aliquis baptiaatur, ea sela aqua 
+      <lb ed="#F" n="106"/>quae corpus tangit est sacramentum. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e131">
+                  <lb ed="#F" n="107"/>LITERAS TVAS. (
+      Baptis<lb ed="#F" n="108" break="no"/>mus) baptismus a 
+      sacerdo<lb ed="#F" n="109" break="no"/>te debet conferri, &amp; si 
+      ne<lb ed="#F" n="110" break="no"/>cessitas est supplere, 
+      po<lb ed="#F" n="111" break="no"/>test vicem eius diaconus, 
+      <lb ed="#F" n="112"/>sed non alius, quamuis constat quod 
+      <pb ed="#F" n="454-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>a quocunque collatus non sit iterandus. 
+      <lb ed="#F" n="2"/>de conse. dist. 4. constat. 81. dist. si 
+      diaco<lb ed="#F" n="3" break="no"/>nus. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e157">
+                  <lb ed="#F" n="4"/>Consueuit autem queri, in quo 
+      consi<lb ed="#F" n="5" break="no"/>stat sacramentum baptismi. Super quo no. 
+      <lb ed="#F" n="6"/>triplicem opinionem. Quidam dicunt, 
+      <lb ed="#F" n="7"/>quod ipsa aqua abluens est baptismus, vel 
+      <lb ed="#F" n="8"/>sacramentum baptismi. Alii dicunt, quod 
+      <lb ed="#F" n="9"/>ablutio siue tinctio, passio est baptismus 
+      <lb ed="#F" n="10"/>vel sacramentum, &amp; non tinctio actus, 
+      <lb ed="#F" n="11"/>quae aliquando est peccatum, &amp; huic 
+      opi<lb ed="#F" n="12" break="no"/>nioni assentit Magister Sententiarum. Alii 
+      <lb ed="#F" n="13"/>dicunt quod character est sacramentum 
+      <lb ed="#F" n="14"/>vel baptismus, qud in baptiaato confertur. 
+      <lb ed="#F" n="15"/>de cons. dist. 4. tunc valere, &amp; non aqua, 
+      <lb ed="#F" n="16"/>a vel tinctio quae velociter transeunt. Et 
+      <lb ed="#F" n="17"/>exponunt id, quod hic dicitur, baptismus 
+      <lb ed="#F" n="18"/>est intinctio. i. character intinctione 
+      col<lb ed="#F" n="19" break="no"/>latus. Nos dicimus, quod sicut in 
+      sacra<lb ed="#F" n="20" break="no"/>mento altaris, sunt tria, vt sup. tit. proxi. 
+      <lb ed="#F" n="21"/>cummarthae. §. distinguendum. ita &amp; in 
+      <lb ed="#F" n="22"/>baptismo, vnum quod est sacramentum. 
+      <lb ed="#F" n="23"/>set aqua abluens, vel ablutio passio, 
+      secun<lb ed="#F" n="24" break="no"/>dum quod est tantum res sacramenti. lsc. 
+      <lb ed="#F" n="25"/>gratiae infusio, &amp; peccati remissio, &amp; ter. 
+      <lb ed="#F" n="26"/>tium, quod est sacramentum &amp; res. sc. 
+      eha<lb ed="#F" n="27" break="no"/>racter. Dicimus ergo, quod aqua verbo 
+      <lb ed="#F" n="28"/>domini sanctificata proprie est 
+      sacramen<lb ed="#F" n="29" break="no"/>tum, sicut &amp; species panis &amp; character 
+      se<lb ed="#F" n="30" break="no"/>cundario sicut &amp; verum corpus Christi. 
+      <lb ed="#F" n="31"/> Est autem character quaedam 
+      passi<lb ed="#F" n="32" break="no"/>bilis qualitas illuminans animam ad 
+      vi<lb ed="#F" n="33" break="no"/>dendum facilius quid sit credendum, &amp; 
+      <lb ed="#F" n="34"/>quid faciendum, &amp; quid non: vel potest 
+      <lb ed="#F" n="35"/>dici &amp; forte melius, quod est quedam 
+      qua<lb ed="#F" n="36" break="no"/>litas disponens &amp; habilitans animam ad 
+      <lb ed="#F" n="37"/>suscipiendum gratiam, &amp; haec qualitas a 
+      <lb ed="#F" n="38"/>quibusdam dicitur sanctitas, quia 
+      praepa<lb ed="#F" n="39" break="no"/>rat animam ad sanctificationem. lo. autem 
+      <lb ed="#F" n="40"/>Damasce. dicit, quod character est 
+      men<lb ed="#F" n="41" break="no"/>tis custodia, eo quod inseparabiliter 
+      cu<lb ed="#F" n="42" break="no"/>stodit mentem, &amp; quia eam praeparat &amp; 
+      <lb ed="#F" n="43"/>habilitatad gratiam per quem ipsa 
+      ani<lb ed="#F" n="44" break="no"/>ma custoditur. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e248">
+                  <lb ed="#F" n="45"/>Item no. quod si quoes baptixatur 
+      influ<lb ed="#F" n="46" break="no"/>mine illa solaaqua est sacramentum quae 
+      <lb ed="#F" n="47"/>corpus tangit, etiamsi quis eam biberet, 
+      <lb ed="#F" n="48"/>aquam sacramentalem biberet, &amp; hoc idem 
+      <lb ed="#F" n="49"/>esset, si quis biberet aquam consecratam 
+      <lb ed="#F" n="50"/>de fontibus baptismi. Tamem quidam 
+      di<lb ed="#F" n="51" break="no"/>cunt totam aquam, quae est in fontibus 
+      <lb ed="#F" n="52"/>baptismi sacramentum, ex quo secundum 
+      <lb ed="#F" n="53"/>ordinem ecclesiae consecrata est, etiam si 
+      <lb ed="#F" n="54"/>nullus ibi baptizaretur, quia verbum 
+      con<lb ed="#F" n="55" break="no"/>secrationis accessit ad totam aquam, quae 
+      <lb ed="#F" n="56"/>est in fontibus, &amp; eam totam consecrare 
+      in<lb ed="#F" n="57" break="no"/>tendit, sed secus est si baptizaretur in flu¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>mine, quia stultum esset, nec fieri posstt. 
+      <lb ed="#F" n="59"/>quod totum flumen consecraretur, bed me. 
+      <lb ed="#F" n="60"/>lius videtur qo etiam in fontibus, illa 
+      so<lb ed="#F" n="61" break="no"/>la aqua sit sacramentum, quae tangit corpus, 
+      <lb ed="#F" n="62"/>nec aqua fontium baptismalium fit 
+      sacra<lb ed="#F" n="63" break="no"/>mentum per verba consecratoria, quaeibi 
+      <lb ed="#F" n="64"/>dicuntur, nisi ibi puer baptizetm cum 
+      ver<lb ed="#F" n="65" break="no"/>bis ad hoc ordinatis, nam priora verba 
+      <lb ed="#F" n="66"/>sunt tantum de solennitate, &amp; ideom non 
+      fa<lb ed="#F" n="67" break="no"/>ciunt sacramentum. inf. e. prox. c. Item 
+      <lb ed="#F" n="68"/>cusus rei esset sacramentum, cumnulla 
+      <lb ed="#F" n="69"/>anima sit in aqua quae significet 
+      infusio<lb ed="#F" n="70" break="no"/>nem gratiae vel characterem infusum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e310" type="decretales-l3t42c2">
+               <head xml:id="inleiv-d1e1345-Hd1e312">Caput 2</head>
+               <p xml:id="inleiv-d1e1345-d1e314">
+                  <lb ed="#F" n="71"/>CAPVT II. 
+      <lb ed="#F" n="72"/>1 Forma baptismi data ab ecclesia intantumest 
+      <lb ed="#F" n="73"/>seruanda, quod eam etiam per 
+      aequipollen<lb ed="#F" n="74" break="no"/>tia verba mutare non licet. &amp; in nua &amp; 
+      <lb ed="#F" n="75"/>3. &amp; in nu. 1 
+      <lb ed="#F" n="76"/>4 Quae sint verba substantialiasformae. et inau 
+      <lb ed="#F" n="77"/>5. ev6. 
+      <lb ed="#F" n="78"/>7 Ecclesia non dicitur infigere ebaracterem, sed 
+      <lb ed="#F" n="79"/>solus Deus. 
+      <lb ed="#F" n="80"/>3 Quae requirantur de necessitate ad hoe vt 
+      ali<lb ed="#F" n="81" break="no"/>quis sit baptixatus. et in ni 
+      <lb ed="#F" n="82"/>10 Nunquid si baptixatus petpt baptismum, sea 
+      <lb ed="#F" n="83"/>tamen non intendebat baptiaari, dicatur 
+      <lb ed="#F" n="84"/>esse baptizatus. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e347">
+                  <lb ed="#F" n="85"/>SI QVISPVERVM. (Ter) 
+      <lb ed="#F" n="86"/>idem est si semel. de cons. dis. 
+      <lb ed="#F" n="87"/>4. c. de trina. (In nomine) &amp; 
+      <lb ed="#F" n="88"/>intantum seruanda est forma 
+      <lb ed="#F" n="89"/>data ab ecclesia, quod eam etiam 
+      <lb ed="#F" n="90"/>per equipollentia verba mutare non licet, 
+      <lb ed="#F" n="91"/>vt dicat, ego te baptiao in nomine 
+      gene<lb ed="#F" n="92" break="no"/>rantis, generati, &amp; procedentis. Item non 
+      <lb ed="#F" n="93"/>licet aliquod verbum, vel vulgariter, vel 
+      <lb ed="#F" n="94"/>literaliter praeponere, vel inserere, vel 
+      <lb ed="#F" n="95"/>postponere in forma intendens illud 
+      es<lb ed="#F" n="96" break="no"/>se de forma, &amp; sine ipso non esse formam, 
+      <lb ed="#F" n="97"/>vt verbi gratia: ego sacerdos baptiao ete. 
+      <lb ed="#F" n="98"/>vel, ego baptiaeo te loanmnem etc. vel, ego 
+      <lb ed="#F" n="99"/>baptiaxo te in nomine patris &amp; filii &amp; spis 
+      <lb ed="#F" n="100"/>ritus sancti &amp; beati loannis: alias autem, 
+      <lb ed="#F" n="101"/>si non crederet illam formam esse, vel 
+      ad<lb ed="#F" n="102" break="no"/>ditam esse de forma, sed ex simplicitate, 
+      <lb ed="#F" n="103"/>vel ex deuotione praedicta adderet, 
+      bapti<lb ed="#F" n="104" break="no"/>zatus est. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e393">
+                  <lb ed="#F" n="105"/>Idem dicendum est si ex malitia, vel 
+      hae<lb ed="#F" n="106" break="no"/>resi diceret, vt si adiiciat, &amp; diaboli &amp; 
+      hae<lb ed="#F" n="107" break="no"/>reticorum, dummodo hoc non credat de 
+      <lb ed="#F" n="108"/>forma, &amp; baptixare intendebat, &amp; haed 
+      <lb ed="#F" n="109"/>omnia contingunt propter formam 
+      ba<lb ed="#F" n="110" break="no"/>ptismi, quae inuiolabiliter est 
+      obseruan<lb ed="#F" n="111" break="no"/>da, vt alibi no. Item si formam veram dicat, 
+      <lb ed="#F" n="112"/>&amp; non credat illam veram formam, sed aliam 
+      <lb ed="#F" n="113"/>non erit baptiaeatus, &amp; hoc ideo, quia non 
+      in<lb ed="#F" n="114" break="no"/>tendit baptizare, quo ex eo apparet, quia for¬ 
+      <pb ed="#F" n="455-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>mnam vera dicere non intendit, cum tamen 
+      <lb ed="#F" n="2"/>sciat vel credat ad hoc certam formam 
+      sta<lb ed="#F" n="3" break="no"/>tutam, quia si non crederet certam formam 
+      <lb ed="#F" n="4"/>statutam &amp; baptizare intenderet, non 
+      ob<lb ed="#F" n="5" break="no"/>stantibus praedictis adiectionibus, 
+      bapti<lb ed="#F" n="6" break="no"/>eatus esset, quia recidit haee quaestio in 
+      pri<lb ed="#F" n="7" break="no"/>mum casum, quando ex malitia vel ex 
+      sim<lb ed="#F" n="8" break="no"/>plicitate ea addit.
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e439">
+                  <lb ed="#F" n="9"/>3 Sed si quis certus est certam forma 
+      <lb ed="#F" n="10"/>praescriptam in baptismo, &amp; praeter 
+      il<lb ed="#F" n="11" break="no"/>lam formam non conferri baptismum, 
+      <lb ed="#F" n="12"/>&amp; postea baptizaret, cum ea forma de 
+      <lb ed="#F" n="13"/>qua dubitat, an sit vera, nunquiderit 
+      ba<lb ed="#F" n="14" break="no"/>ptiaeatus: respond. sic, quialicet 
+      dubita<lb ed="#F" n="15" break="no"/>ret de forma, intendit eum baptixare 
+      se<lb ed="#F" n="16" break="no"/>cundum illam formam, si est vera, vnde 
+      <lb ed="#F" n="17"/>cum sit vera forma, vere baptixatus est. 
+      <lb ed="#F" n="18"/>Verba autem quae sunt de substantia 
+      for<lb ed="#F" n="19" break="no"/>mae sunt haec. ise. (Baptixo) nec esset 
+      bapti<lb ed="#F" n="20" break="no"/>eatus si diceret, baptieat te Christus, vel 
+      <lb ed="#F" n="21"/>Petrus, vel sacerdos se demonstrato, vel 
+      <lb ed="#F" n="22"/>baptiaeatur Petrus a tali, veruntame si 
+      ali<lb ed="#F" n="23" break="no"/>qua prouincia esset, quae nunquam nostram 
+      <lb ed="#F" n="24"/>formam accepisset, &amp; verba dicta vel alia 
+      <lb ed="#F" n="25"/>aequipollentia nostris diceret, debent 
+      ha<lb ed="#F" n="26" break="no"/>beri pro baptizatis. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e482">
+                  <lb ed="#F" n="27"/>Sed oppones quare non idem dicis, de 
+      <lb ed="#F" n="28"/>vna ciuitate, quae nunque accepit nostram 
+      <lb ed="#F" n="29"/>formam, vel de singulis sacerdotibusc 
+      <lb ed="#F" n="30"/>Resp. quia ibi est iustus &amp; probabilis 
+      er<lb ed="#F" n="31" break="no"/>ror, &amp; ideo ad illos constitutio ecclesiae 
+      <lb ed="#F" n="32"/>non extenditur, nisi ex quo sciunt formam, 
+      <lb ed="#F" n="33"/>&amp; sic fuit diffinitum de Graecis Calabriae, 
+      <lb ed="#F" n="34"/>qui hanc formam seruarunt, imo fuit eis 
+      <lb ed="#F" n="35"/>concessumilsct quod etiam in futurum 
+      bapti<lb ed="#F" n="36" break="no"/>zantur secundum primam formam, sed 
+      <lb ed="#F" n="37"/>in alijs non est probabilis error, &amp; ideo 
+      <lb ed="#F" n="38"/>extenditur ad eos constitutio. ar. §2. dist. 
+      <lb ed="#F" n="39"/>quod proposuisti. Et haec forma ex 
+      consti<lb ed="#F" n="40" break="no"/>tutione ecclesiae praedictas vires habet, 
+      <lb ed="#F" n="41"/>quod ex eo apparet, quia aliquando 
+      muta<lb ed="#F" n="42" break="no"/>ta est haec forma de cons. dist. 4. 
+      firmissi<lb ed="#F" n="43" break="no"/>me a quodam. &amp; c. seq. Item loco huius 
+      <lb ed="#F" n="44"/>verbi baptixo, non potest poni, lauo vel 
+      <lb ed="#F" n="45"/>balneo, &amp; hoc ea ratione, quia hoc verbum 
+      <lb ed="#F" n="46"/>baptixo plus importat ex institutione, quoad 
+      <lb ed="#F" n="47"/>sit eius propria significatio, nam 
+      baptixa<lb ed="#F" n="48" break="no"/>re, est in aquam constringere sub certa 
+      for<lb ed="#F" n="49" break="no"/>ma verborum. sup. e. c. 1. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e534">
+                  <lb ed="#F" n="50"/>5 Sequitur. In nomine patris &amp; filii &amp; 
+      <lb ed="#F" n="51"/>spiritus sancti, nam &amp; haec verba 
+      multi<lb ed="#F" n="52" break="no"/>pliciter sunt de substantia formae, nec 
+      pos<lb ed="#F" n="53" break="no"/>sent, mutari vt diceret in virtute, vel in 
+      <lb ed="#F" n="54"/>nominibus, nec liceret inde tollere 
+      co<lb ed="#F" n="55" break="no"/>pulatiuam coniunctionem. lsc. &amp; tamen satis 
+      <lb ed="#F" n="56"/>credendum est, quod valeret baptismus si 
+      di<lb ed="#F" n="57" break="no"/>ceretur, in nomine patris filiique spiritusque 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>sancti, quia nulla est differentla snter 
+      prae<lb ed="#F" n="59" break="no"/>dictas copulatiuas, sed diligens lector, 
+      <lb ed="#F" n="60"/>multas notabit differentias inter hoc 
+      no<lb ed="#F" n="61" break="no"/>men virtute, &amp; hoc nomen nomine, &amp; 
+      <lb ed="#F" n="62"/>inter singulare, quod indicat vnitatem 
+      es<lb ed="#F" n="63" break="no"/>sentiae, &amp; plurale, quod hoc non facit: &amp; 
+      <lb ed="#F" n="64"/>idem est fere inomnibus alijs verbis hic 
+      <lb ed="#F" n="65"/>positis. De hoc autem pronomine ego, cum 
+      <lb ed="#F" n="66"/>subintelligatur potest dici, quando non 
+      <lb ed="#F" n="67"/>est de substantia, sed hoc pronomen te, 
+      <lb ed="#F" n="68"/>bene est de substantia, nam expressio est 
+      <lb ed="#F" n="69"/>demonstratio per pronomen &amp; actum, 
+      <lb ed="#F" n="70"/>quam si loqueretur in tertia persona, vt 
+      <lb ed="#F" n="71"/>non diceret, ego baptiaeo in nomine 
+      pa<lb ed="#F" n="72" break="no"/>tris &amp; filii &amp; spiritus sancti, &amp; huiusmodi 
+      <lb ed="#F" n="73"/>verba sunt de forma verborum, sed in 
+      for<lb ed="#F" n="74" break="no"/>ma facti secus est, verbigratia: nam si quis 
+      <lb ed="#F" n="75"/>bis vel ter immergat, vel etiam quater, vel 
+      <lb ed="#F" n="76"/>pluries, semper baptizatus esset, 
+      dum<lb ed="#F" n="77" break="no"/>modo baptizare intendat, etiam si credat 
+      <lb ed="#F" n="78"/>vnam vel trinam immersionem non 
+      suf<lb ed="#F" n="79" break="no"/>ficere, sed quatuor necessatias esse. Et 
+      <lb ed="#F" n="80"/>haec ratio diuersitatis, quia in forma 
+      ver<lb ed="#F" n="81" break="no"/>bali certa verba sunt, quae sunt de 
+      substam<lb ed="#F" n="82" break="no"/>tia, &amp; etiam ipsa forma est de substantia, 
+      <lb ed="#F" n="83"/>sed in his quae facti sunt, nihil est de 
+      sub<lb ed="#F" n="84" break="no"/>stantia, nisi ipsa tinctio aquae, vnde etiam 
+      <lb ed="#F" n="85"/>sine immer sione. i. licet non immergatur 
+      <lb ed="#F" n="86"/>in aqua, sed tantum super eum proiiciatur 
+      <lb ed="#F" n="87"/>baptixatus est, &amp; ideo cum tantum ad 
+      solen<lb ed="#F" n="88" break="no"/>nitatem pertineat eorum omissio, non 
+      vi<lb ed="#F" n="89" break="no"/>tiat baptismum in sententia. de conse. di. 
+      <lb ed="#F" n="90"/>4. c. 1. &amp; 2. &amp; c. de immersione. &amp; eodem 
+      <lb ed="#F" n="91"/>modo non est curandum, quoties 
+      immer<lb ed="#F" n="92" break="no"/>gat, sed quicquid dicatur de 
+      possibilita<lb ed="#F" n="93" break="no"/>6te  semper tamen in verbis, &amp; in factis 
+      <lb ed="#F" n="94"/>exacte seruanda est forma. De his autem 
+      <lb ed="#F" n="95"/>qui corrumpunt verba formae, dicemus 
+      <lb ed="#F" n="96"/>inf. e. c. vl. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e641">
+                  <lb ed="#F" n="97"/>Et caue tibi, quia non dicimus, quod 
+      ecele<lb ed="#F" n="98" break="no"/>sia infigat characterem animae, sed solus 
+      <lb ed="#F" n="99"/>Deus, sed ecclesia potest facere 
+      consti<lb ed="#F" n="100" break="no"/>tutiones super baptismo, non quod non 
+      <lb ed="#F" n="101"/>sit, vel quod non credatur omnibus, tamen 
+      <lb ed="#F" n="102"/>circa baptismi collationem potest sacer. 
+      <lb ed="#F" n="103"/>dos constitutiones, &amp; prefigere formas, 
+      <lb ed="#F" n="104"/>quas quia Deus ratas habet, &amp; quia 
+      <lb ed="#F" n="105"/>bonae sunt, eis infigit characterem, qui 
+      se<lb ed="#F" n="106" break="no"/>cundum tales constitutiones baptizati 
+      <lb ed="#F" n="107"/>sunt. Idem facit ecclesia in matrimonio, 
+      <lb ed="#F" n="108"/>&amp; in alijs sacramentis, &amp; dispensat in 
+      vo<lb ed="#F" n="109" break="no"/>to &amp; iuramento: &amp; in omnibus alijs 
+      fe<lb ed="#F" n="110" break="no"/>re nisi contra fidem de quibus alias no.
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e674">
+                  <lb ed="#F" n="111"/>No. quod ad hoc quod aliquis 
+      ba<lb ed="#F" n="112" break="no"/>ptixeatus sit: necessarium est quod 
+      bapti<lb ed="#F" n="113" break="no"/>zans intendat baptizare non tantum 
+      bal<lb ed="#F" n="114" break="no"/>neare vel carnes lauare, nec tamen vi¬ 
+      <pb ed="#F" n="455-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>detur necesse, quon ad effectum bapusmi, 
+      <lb ed="#F" n="2"/>quod sciat quid sit baptismus.c sce. quod ibi 
+      <lb ed="#F" n="3"/>infundatur gratia, vel quod sit 
+      sacramen<lb ed="#F" n="4" break="no"/>tum, nec etiam oportet quod credat hoc 
+      <lb ed="#F" n="5"/>ipsum, imo &amp; si contrarium credit, &amp; 
+      to<lb ed="#F" n="6" break="no"/>tum reputat truffam &amp; deceptionem: 
+      ta<lb ed="#F" n="7" break="no"/>men baptismum suum habet effectum. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e705">
+                  <lb ed="#F" n="8"/>Item non est necesse quod baptizans 
+      <lb ed="#F" n="9"/>sciat quid sit ecclesia, quid baptixeatus vel 
+      <lb ed="#F" n="10"/>vnde scit, nec quod gerat in mente 
+      face<lb ed="#F" n="11" break="no"/>re quod facit ecclesia, imo si contrarium 
+      <lb ed="#F" n="12"/>gereret in menteclsict non facere quod facit 
+      <lb ed="#F" n="13"/>ecclesiased tamem facit: quia formam 
+      ser<lb ed="#F" n="14" break="no"/>uat, nihilominus baptiaeatus est, 
+      dum<lb ed="#F" n="15" break="no"/>modo baptixare intendat, vnde si 
+      ali<lb ed="#F" n="16" break="no"/>quis in casu necessitatis constitutus, vel 
+      <lb ed="#F" n="17"/>etiam sine necessitate vadat ad 
+      Sarrace<lb ed="#F" n="18" break="no"/>num, &amp; dicat baptiza me, &amp; doceat eum 
+      <lb ed="#F" n="19"/>formam, &amp; ille Sarracenus baptixet non 
+      <lb ed="#F" n="20"/>eredens, per immersionem aliquid aliud 
+      <lb ed="#F" n="21"/>fieri, nisi madefactionem, &amp; non 
+      inten<lb ed="#F" n="22" break="no"/>dat eum baptizare, vel etiam 
+      madeface<lb ed="#F" n="23" break="no"/>re secundum intentionem petentis 
+      ba<lb ed="#F" n="24" break="no"/>ptismum. i. vt baptismus operetur, quicquid 
+      <lb ed="#F" n="25"/>operari potest, &amp; ipse baptiaeans tanquam 
+      <lb ed="#F" n="26"/>minister conferat, quod alii baptiaantes 
+      <lb ed="#F" n="27"/>conferunt, licet non credat ipsum posse 
+      <lb ed="#F" n="28"/>aliquid operars, verem baptsaatus est, sed 
+      <lb ed="#F" n="29"/>si hoc non intenderet non baptixaret, 
+      <lb ed="#F" n="30"/>nec est necesse quod aliquis sciat, quid 
+      <lb ed="#F" n="31"/>in his ecclesiaintelligat, vel etiam quod 
+      <lb ed="#F" n="32"/>sciat vel credat ecclesiam esse. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e762">
+                  <lb ed="#F" n="33"/>Sed quid si baptixatus petiit 
+      baptis<lb ed="#F" n="34" break="no"/>mum, sed baptixari non intendebat, nec 
+      <lb ed="#F" n="35"/>aliquid per baptismum conferri, &amp; 
+      vi<lb ed="#F" n="36" break="no"/>detur quod non sit baptiaeatus, 
+      quianun<lb ed="#F" n="37" break="no"/>quam consensit baptiaari, sicut non est 
+      ma<lb ed="#F" n="38" break="no"/>trimonium, vbi non consentit, licet 
+      ver<lb ed="#F" n="39" break="no"/>ba consensus exprimat. infr. de spon. 
+      <lb ed="#F" n="40"/>tua. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e783">
+                  <lb ed="#F" n="41"/>Sed contra videtur, quia nedum 
+      frau<lb ed="#F" n="42" break="no"/>dulentus, sed etiam coactus accipit 
+      ba<lb ed="#F" n="43" break="no"/>ptismum in decre. 45. di. de ludaeis. &amp; 
+      fu<lb ed="#F" n="44" break="no"/>rsosus dormiens, si prius erat in 
+      volun<lb ed="#F" n="45" break="no"/>tate baptiaeandi. inf. e. tit. c. maiores. Sol. 
+      <lb ed="#F" n="46"/>hic qui sic ficte acceditad baptismum non 
+      <lb ed="#F" n="47"/>est baptiaatus, licet propter ignorantiam 
+      <lb ed="#F" n="48"/>ecclesia eum cogat seruare legem 
+      bapti<lb ed="#F" n="49" break="no"/>eatorum. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e805">
+                  <lb ed="#F" n="50"/>Nec obest de coacto, quia habuit 
+      vo<lb ed="#F" n="51" break="no"/>luntatem licet coactam, sed si nunquam 
+      <lb ed="#F" n="52"/>consensisset baptismo, licet illum verbo 
+      <lb ed="#F" n="53"/>petinsset, idem dicimus quod in casu 
+      su<lb ed="#F" n="54" break="no"/>periori. Furiosus autem &amp; dormiens 
+      vo<lb ed="#F" n="55" break="no"/>iuntatem creduntur haberein habitu, 
+      li<lb ed="#F" n="56" break="no"/>cet non in actu. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e823">
+                  <lb ed="#F" n="57"/>Baptisatus) ideo sic exacta forma 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>seruatur de iure positiuo, quae tamen 
+      <lb ed="#F" n="59"/>sumpta est de euangelio, quia si formam 
+      <lb ed="#F" n="60"/>mutare liceret de facto, in haereses quis 
+      <lb ed="#F" n="61"/>labi posset, tamen credimus quod 
+      eccle<lb ed="#F" n="62" break="no"/>sia posset ex causa aliam formam 
+      statue<lb ed="#F" n="63" break="no"/>re: sicut aliquando statutum fuit quod in 
+      <lb ed="#F" n="64"/>nomine Christi baptixarentur. de conse. 
+      <lb ed="#F" n="65"/>dist. 4. a quodam. sicut etiam posset sta. 
+      <lb ed="#F" n="66"/>tui, vt quidam dicunt, quod 
+      baptizare<lb ed="#F" n="67" break="no"/>tur in nomine patris, vel in nomine 
+      spi<lb ed="#F" n="68" break="no"/>ritussancti, quia in ex positione vnius 
+      <lb ed="#F" n="69"/>personae, &amp; aliae intelliguntur in 
+      senten<lb ed="#F" n="70" break="no"/>tia. de conse. dist. 5. c. pe. &amp; fin. de conse. 
+      <lb ed="#F" n="71"/>dist. 3. e. fin. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e861" type="decretales-l3t42c3">
+               <head xml:id="inleiv-d1e1345-Hd1e863">Caput 3</head>
+               <p xml:id="inleiv-d1e1345-d1e865">
+                  <lb ed="#F" n="72"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e870">
+                  <lb ed="#F" n="73"/>DE QVIBVS. (Dubium) de 
+      <lb ed="#F" n="74"/>facto, nam de iure non potest 
+      <lb ed="#F" n="75"/>esse dubium. (Dubium) 
+      ve<lb ed="#F" n="76" break="no"/>hementer: puta quia natus in 
+      <lb ed="#F" n="77"/>aptiuitate Sarracenorum, 
+      <lb ed="#F" n="78"/>si enim de parentibus &amp; inter fideles 
+      na<lb ed="#F" n="79" break="no"/>tus sit, praesumitur baptieatus. infr. tit. 
+      <lb ed="#F" n="80"/>prox. veniens. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e892" type="decretales-l3t42c4">
+               <head xml:id="inleiv-d1e1345-Hd1e894">Caput 4</head>
+               <p xml:id="inleiv-d1e1345-d1e896">
+                  <lb ed="#F" n="81"/>CAPVT IIII. 
+      <lb ed="#F" n="82"/>1 Tria esse dicuntur in anima pueri nondum 
+      bu<lb ed="#F" n="83" break="no"/>ptixati, quae bic habes. 
+      <lb ed="#F" n="84"/>2 De peccato originali bic nonnulla 
+      pulebrare<lb ed="#F" n="85" break="no"/>feruntur 
+      <lb ed="#F" n="86"/>Pueran sit dignus paena aeterna 
+      <lb ed="#F" n="87"/>3 Non est vllus compellendus fieri Cbristimnus. 
+      <lb ed="#F" n="88"/>4 Duplex est via quae ducit nos ad vitam 
+      <lb ed="#F" n="89"/>3 vvni liceat bellum indicere infidelibus et 
+      Sar<lb ed="#F" n="90" break="no"/>racenis. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e920">
+                  <lb ed="#F" n="91"/>MAIORES. (Eum) Petrum (Que: 
+      <lb ed="#F" n="92"/>Lrenti) id est interroganti Petrum. 
+      <lb ed="#F" n="93"/>Ipsum) Christum. Paruulis) inanima 
+      <lb ed="#F" n="94"/>pueri nondum baptizati sunt tria. 
+      Pro<lb ed="#F" n="95" break="no"/>nitas ad peccandum, quae est ex 
+      corru<lb ed="#F" n="96" break="no"/>ptione carnis, &amp; macula quae est quedam 
+      <lb ed="#F" n="97"/>sordes animae, quam contraxit in sua 
+      in<lb ed="#F" n="98" break="no"/>fusione ex commixtione carnis, &amp; 
+      pro<lb ed="#F" n="99" break="no"/>pter hanc sordem indignum est Dei 
+      con<lb ed="#F" n="100" break="no"/>spectui praesentari. Tertium est reatus, 
+      si<lb ed="#F" n="101" break="no"/>ue debitum poenae aeternae, &amp; magister 
+      <lb ed="#F" n="102"/>Pe. Lombardus in sententijs videtur 
+      fu<lb ed="#F" n="103" break="no"/>isse in ea opinione, quod praedicta 
+      proni<lb ed="#F" n="104" break="no"/>tas ad peccandum sit peccatum 
+      origina<lb ed="#F" n="105" break="no"/>le, quae etiam dicitur concupiscentia &amp; 
+      <lb ed="#F" n="106"/>fomes. Sed contra eum est, quia illa 
+      pro<lb ed="#F" n="107" break="no"/>nitas remanet post baptismum, &amp; Ita 
+      <lb ed="#F" n="108"/>videretur, quod etiam peccatum 
+      origi<lb ed="#F" n="109" break="no"/>nale remaneret post baptismum. sed 
+      re<lb ed="#F" n="110" break="no"/>spondebat illi pronitati accessorium esse, 
+      <pb ed="#F" n="456-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>quod esset peccatum, propter hoc ferem 
+      <lb ed="#F" n="2"/>omnes dicunt, quod peccatum 
+      origina<lb ed="#F" n="3" break="no"/>lenon est fomens, nec pronitas peccati, 
+      <lb ed="#F" n="4"/>sed quaedam macula animae annexa 
+      fomi<lb ed="#F" n="5" break="no"/>ti, &amp; illa macula in baptismo deletur, sed 
+      <lb ed="#F" n="6"/>qusa slla macula annexa est fomiti, ideo 
+      <lb ed="#F" n="7"/>aliquando fomes siue illa pronitas 
+      dici<lb ed="#F" n="8" break="no"/>tur originale peccatum. Et secundum 
+      <lb ed="#F" n="9"/>hoc intelligitur quod dicit Aug. quia 
+      pec<lb ed="#F" n="10" break="no"/>catum originale transit reatu, sed 
+      rema<lb ed="#F" n="11" break="no"/>net actu, quia macula quae facit hominem 
+      <lb ed="#F" n="12"/>reum poenae aeternae transit, vt decetero 
+      <lb ed="#F" n="13"/>ratione illius peccati originalis, non sit 
+      <lb ed="#F" n="14"/>poenae aeternae astrictus, sed idem pecca. 
+      <lb ed="#F" n="15"/>tum originale, licet minus propriem 
+      dici<lb ed="#F" n="16" break="no"/>tur remanere actu, quia ibi remanet 
+      pro<lb ed="#F" n="17" break="no"/>nitas, ex qua surgunt actuales 
+      concupi<lb ed="#F" n="18" break="no"/>scentiae. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1009">
+                  <lb ed="#F" n="19"/>Sed dices quomodo sine vllaculpa 
+      <lb ed="#F" n="20"/>voluntaria adiicitur poenae aeternaer R esp. 
+      <lb ed="#F" n="21"/>haec poena est tantum poena carentiae. ls. quia 
+      <lb ed="#F" n="22"/>caret visione Dei, &amp; non est poena 
+      actu<lb ed="#F" n="23" break="no"/>alis, &amp; ideo non puniuntur sine 
+      volun<lb ed="#F" n="24" break="no"/>tate poena actuali, nisi voluntate peccent,, 
+      <lb ed="#F" n="25"/>&amp; malunt sic esse, quam non esse. (Quem 
+      <lb ed="#F" n="26"/>per se sortiuntur) . i. qui sine alterius fide 
+      <lb ed="#F" n="27"/>vel operatione dant remissionem 
+      pecca<lb ed="#F" n="28" break="no"/>torum. (Sed ficti) id est adulti non verem 
+      <lb ed="#F" n="29"/>credentes. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1035">
+                  <lb ed="#F" n="30"/> (Compellantur A.) &amp; sic nullus est, 
+      <lb ed="#F" n="31"/>vt fiat Christianus compellendus. Nec obe 
+      <lb ed="#F" n="32"/>stat quod seruo dicitur, vt ad nuptias inuita 
+      <lb ed="#F" n="33"/>tos compellat intrare, Lucae. 14. 24. q. 4. 
+      dis<lb ed="#F" n="34" break="no"/>plicet. ver. repete. quia ibi intelligitur de 
+      <lb ed="#F" n="35"/>compuisione facta per instantiam 
+      ratio<lb ed="#F" n="36" break="no"/>nis, non per seueritatem gladii 
+      matersa<lb ed="#F" n="37" break="no"/>lis, seu per violentiam temporalem. 453. dist. 
+      <lb ed="#F" n="38"/>de ludaeis. quia executio talis gladii est 
+      <lb ed="#F" n="39"/>isti seruo. i. ordini praedicatorum, vel 
+      Apo<lb ed="#F" n="40" break="no"/>stolis in persona Petri a domino 
+      interdi<lb ed="#F" n="41" break="no"/>cta. 23. q. 1. §. item cum Petro. Vel dic, quod 
+      <lb ed="#F" n="42"/>primo praecepit seruo. i. ordini 
+      praedica<lb ed="#F" n="43" break="no"/>torum, qui magnus est in ecclesia Dei. inf. 
+      <lb ed="#F" n="44"/>de haered. cum ex insuncto. vt exiret in 
+      pla<lb ed="#F" n="45" break="no"/>teas, &amp; vicos ciuitatis, &amp; pauperes, &amp; 
+      de<lb ed="#F" n="46" break="no"/>biles, caecos &amp; claudos introduceret, &amp; 
+      <lb ed="#F" n="47"/>non compelleret ipsos intrare. 
+      Postmo<lb ed="#F" n="48" break="no"/>dum ei dixit vt exiret in vsas, &amp; sepes, &amp; 
+      <lb ed="#F" n="49"/>illos intrare compelleret, quos ibi 
+      inue<lb ed="#F" n="50" break="no"/>niret, vt in praeal. c. displicet. ver. repete. 
+      <lb ed="#F" n="51"/>habetur, innuens per hoc quod ludaei &amp; 
+      <lb ed="#F" n="52"/>similes, qui fidem non habent. non sunt 
+      <lb ed="#F" n="53"/>gladio materiali ad fidem cogendi, sed 
+      <lb ed="#F" n="54"/>introducendi per efficaciam rationis &amp; 
+      <lb ed="#F" n="55"/>legis, vt ex suis codicibus conuincantur, 
+      <lb ed="#F" n="56"/>vt in praeal. c. de ludaeis. sed illi qui a 
+      gre<lb ed="#F" n="57" break="no"/>mio ecclesiae diuerterunt, vt haeretici &amp; 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>schismatici, ad eam sunt redire cogendi, 
+      <lb ed="#F" n="59"/>cum sint de foro ecclesiae etiam per 
+      po<lb ed="#F" n="60" break="no"/>tentiam secularem, vt hic. Nam per hoc 
+      <lb ed="#F" n="61"/>quod dicit ipsum exire in plateas &amp; 
+      vi<lb ed="#F" n="62" break="no"/>cos ciuitatis, tangit ludaeos, quitanquam 
+      <lb ed="#F" n="63"/>ciues legem Prophetas, &amp; eloquia certa 
+      <lb ed="#F" n="64"/>habebant statuta supernae csuitatis, 
+      scsen<lb ed="#F" n="65" break="no"/>tes quos quidem de ciuitate ad nuptias 
+      <lb ed="#F" n="66"/>vult vocare sine compulsione, tamen quia 
+      <lb ed="#F" n="67"/>nihil ad nos de his qui foris sunt. inf. de 
+      <lb ed="#F" n="68"/>diuor. gaudemus. sed per hoe quod 
+      di<lb ed="#F" n="69" break="no"/>cit, quod exeat in vias &amp; sepes, notat 
+      he<lb ed="#F" n="70" break="no"/>reticos &amp; schismaticos. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1130">
+                  <lb ed="#F" n="71"/>Est enim duplex via, quae ducit ad 
+      <lb ed="#F" n="72"/>vitam. infr. de haere. cum ex iniuncto. &amp; 
+      <lb ed="#F" n="73"/>quae ducit ad mortem. inf. de spon. inter. 
+      <lb ed="#F" n="74"/>&amp; in hac sunt haeretici. Per sepes tamen 
+      <lb ed="#F" n="75"/>designat schismaticos, quod schismatici 
+      spi<lb ed="#F" n="76" break="no"/>nis inconsutilem domini tunicam, id est, 
+      <lb ed="#F" n="77"/>ecclesiae vnitatem lacerant, &amp; isti tanquam 
+      <lb ed="#F" n="78"/>de foro ecclesiae sunt cogendi intrare, &amp; 
+      <lb ed="#F" n="79"/>fidemtenere, quam in baptismo 
+      recepe<lb ed="#F" n="80" break="no"/>runt. vt hic. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1154">
+                  <lb ed="#F" n="81"/>Ex his ergo apparet Sarracenis, vt 
+      fi<lb ed="#F" n="82" break="no"/>ant Christiani bellum indicendum non 
+      <lb ed="#F" n="83"/>esse, si tamen terras Christianorum 
+      inua<lb ed="#F" n="84" break="no"/>sissent, vel occupatas tenerent, vel 
+      Chri<lb ed="#F" n="85" break="no"/>stianos hostiliter impugnarent: tunc tam 
+      <lb ed="#F" n="86"/>per ecelesiam, quam per principem 
+      cu<lb ed="#F" n="87" break="no"/>iusque terrae, cui vel subditis damna, vel 
+      <lb ed="#F" n="88"/>iniuriae inferuntur, potest eis iustum 
+      bel<lb ed="#F" n="89" break="no"/>lum indici. 23. q. §. dispar. sed si Sarraceni 
+      <lb ed="#F" n="90"/>tributum consuetum denegant reddere 
+      <lb ed="#F" n="91"/>principi Christiano, &amp; si tune ille 
+      prin<lb ed="#F" n="92" break="no"/>ceps eis iustum bellum indicit, non tamem 
+      <lb ed="#F" n="93"/>per eeclesiam sd fieri debet, si nec terram 
+      <lb ed="#F" n="94"/>Christianorum suis sordibus foedant, nec 
+      <lb ed="#F" n="95"/>ipsorum personas impugnant, illis tamem 
+      <lb ed="#F" n="96"/>Sarracenis, qui terram sanctam detinent 
+      <lb ed="#F" n="97"/>vel impugnant, non solum per ecclesiam, 
+      <lb ed="#F" n="98"/>sed per quemlibet principem 
+      Christia<lb ed="#F" n="99" break="no"/>num potest bellum indici, quia in 
+      omni<lb ed="#F" n="100" break="no"/>um fertur iniuriam, quod in nostri 
+      salua<lb ed="#F" n="101" break="no"/>toris committitur. C. de here. 
+      Maniehe<lb ed="#F" n="102" break="no"/>os. Qui vero verem poenitentes sunt, si 
+      oc<lb ed="#F" n="103" break="no"/>cubuerunt in talibus bellis, praeterquam 
+      <lb ed="#F" n="104"/>in illo quod pro tributo negato ad 
+      patri<lb ed="#F" n="105" break="no"/>ameuolant. 22. q. 8. omni B. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e1212" type="decretales-l3t42c5">
+               <head xml:id="inleiv-d1e1345-Hd1e1214">Caput 5</head>
+               <p xml:id="inleiv-d1e1345-d1e1216">
+                  <lb ed="#F" n="106"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1221">
+                  <lb ed="#F" n="107"/>DEBITVM. et inf. (Seipsum 
+      <lb ed="#F" n="108"/>immersit) Oportet enim ad 
+      <lb ed="#F" n="109"/>hoc vt sit baptieatus quod 
+      <lb ed="#F" n="110"/>alius baptizans immergat, 
+      <lb ed="#F" n="111"/>nec sufficit si ipse immergat, 
+      <pb ed="#F" n="456-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>&amp; alius verba apta dicat, quia qui non 
+      im<lb ed="#F" n="2" break="no"/>mergit, non potest dicere ergo, te 
+      bapti<lb ed="#F" n="3" break="no"/>2o. sup. e. c. 1. sed si non immergat, nec etu 
+      <lb ed="#F" n="4"/>sam eum tangat, sed aquam super eum 
+      <lb ed="#F" n="5"/>spargat, dummodo totum balneet, vel 
+      <lb ed="#F" n="6"/>maiorem partem, vel solum caput 
+      cor<lb ed="#F" n="7" break="no"/>poris sufficit. ar. ff. de rell. &amp; sump. fu. l. 
+      <lb ed="#F" n="8"/>cum in diuersis. Alii dicunt, &amp; forte 
+      me<lb ed="#F" n="9" break="no"/>lius, quod etiam si modica stilla aquae 
+      pro<lb ed="#F" n="10" break="no"/>iectae a baptixante eum tangat, 
+      baptixca<lb ed="#F" n="11" break="no"/>tus est, &amp; satis hoc videtur consonare 
+      iu<lb ed="#F" n="12" break="no"/>rl &amp; aequitati, licet primum sit tutiuns. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e1266" type="decretales-l3t42c6">
+               <head xml:id="inleiv-d1e1345-Hd1e1268">Caput 6</head>
+               <p xml:id="inleiv-d1e1345-d1e1270">
+                  <lb ed="#F" n="13"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1275">
+                  <lb ed="#F" n="14"/>NON VT APPONERES. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1345-Dd1e1281" type="decretales-l3t42c7">
+               <head xml:id="inleiv-d1e1345-Hd1e1283">Caput 7</head>
+               <p xml:id="inleiv-d1e1345-d1e1285">
+                  <lb ed="#F" n="15"/>CAPVT VII. 
+      <lb ed="#F" n="16"/>1 Derbalas formain baptisno est necessaria. &amp; 
+      <lb ed="#F" n="17"/>in num. 2. &amp;3 
+      <lb ed="#F" n="18"/>4 Quamuis intentio baptiaantis &amp; baptiaati 
+      <lb ed="#F" n="19"/>impediat sacramentum, non tamen 
+      patri<lb ed="#F" n="20" break="no"/>norum intentio vnquam impedit. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1301">
+                  <lb ed="#F" n="21"/>LICET GRAECOS. Idest 
+      <lb ed="#F" n="22"/>diuersas rationes 
+      conside<lb ed="#F" n="23" break="no"/>rando baptizare dubitasti &amp; 
+      <lb ed="#F" n="24"/>distuiisti, si enim introduces 
+      <lb ed="#F" n="25"/>re intenderet errorem: puta 
+      <lb ed="#F" n="26"/>quia nomine patris intenderet inuocare 
+      <lb ed="#F" n="27"/>virtutem diaboli &amp; patris carnalis, vel 
+      a<lb ed="#F" n="28" break="no"/>liquid huiusmodi non esset baptizatus. 
+      <lb ed="#F" n="29"/> Et idem dicerem si expresse diceret 
+      <lb ed="#F" n="30"/>verba Romanae ecclesiae. Sed dices idem 
+      <lb ed="#F" n="31"/>si dixisset innomine parietis tecti &amp; 
+      fun<lb ed="#F" n="32" break="no"/>di: cum per hec tria intendat inuocare 
+      vir<lb ed="#F" n="33" break="no"/>tutem patris &amp; filii &amp; spiritus sancti. 
+      Re<lb ed="#F" n="34" break="no"/>spon. non est baptiazatus, quia ad minus 
+      <lb ed="#F" n="35"/>oportet eum aliquas principales syllabas 
+      <lb ed="#F" n="36"/>retinere vt saltem si non bene: tamen 
+      ali<lb ed="#F" n="37" break="no"/>qualiter exprimere videat nomina 
+      per<lb ed="#F" n="38" break="no"/>sonarum. Sed idem dicendum videtur si 
+      <lb ed="#F" n="39"/>diceret in nomine patris &amp; filio &amp; 
+      spiri<lb ed="#F" n="40" break="no"/>tus sancto. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1347">
+                  <lb ed="#F" n="41"/>2 Quid si esset Latinus quo baptixaret: 
+      <lb ed="#F" n="42"/>sed illiteratus. R espond. idem quod de 
+      <lb ed="#F" n="43"/>Graeco: imo plus videtur quod etiam si 
+      <lb ed="#F" n="44"/>esset bonus clericus, &amp; sic baptixaret, 
+      ta<lb ed="#F" n="45" break="no"/>men vere baptizatus esset, tamen 
+      superi<lb ed="#F" n="46" break="no"/>or vehementer praesumet contra eum, 
+      <lb ed="#F" n="47"/>quod voluit introducere errorem, nisi 
+      <lb ed="#F" n="48"/>certis indicrjs contrarium constet. 
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1367">
+                  <lb ed="#F" n="49"/>3 Sed dices: haec non est forma eroo non 
+      <lb ed="#F" n="50"/>est baptizatus. R espon. forma verbalis 
+      <lb ed="#F" n="51"/>ex toto non est: sed est quasi forma, vel 
+      <lb ed="#F" n="52"/>iuxta formam verborum, &amp; insuper est 
+      <lb ed="#F" n="53"/>forma intellectualis integra: quia 
+      inno<lb ed="#F" n="54" break="no"/>mine earundem personarum intelligitur 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>baptizare sicut ille, qui verbaliter plent 
+      <lb ed="#F" n="56"/>formam exprimit, &amp; si aliter dieeres opor. 
+      <lb ed="#F" n="57"/>teret te dicere, quod mater quae bnptizat 
+      <lb ed="#F" n="58"/>filium in necessitate non baptizat, si pet 
+      <lb ed="#F" n="59"/>verba vulgaria dicat. Et etiam quod 
+      Grae<lb ed="#F" n="60" break="no"/>cus baptixaare non possit in sua lingua: 
+      <lb ed="#F" n="61"/>neque vulgari neque Latinaclisc. vt sacramen. 
+      <lb ed="#F" n="62"/>tum baptismi accipsant: sed vt sani sint.
+      </p>
+               <p xml:id="inleiv-d1e1345-d1e1403">
+                  <lb ed="#F" n="63"/>4 Et no. quod licet intentio 
+      baptican<lb ed="#F" n="64" break="no"/>tis &amp; baptixati impediat sacramentum: 
+      <lb ed="#F" n="65"/>vt alias no. sup. e. c. 1. tamen intentio 
+      pa<lb ed="#F" n="66" break="no"/>trinorum nunquam impedit. Sed etiam 
+      <lb ed="#F" n="67"/>hic potest dici, quod &amp; si baptizans &amp; 
+      ba<lb ed="#F" n="68" break="no"/>ptiaatus non crederent in baptismo ali. 
+      <lb ed="#F" n="69"/>quid conferri, nisi sanitatem dummodem 
+      <lb ed="#F" n="70"/>baptixare intenderent benem esset 
+      baptaea<lb ed="#F" n="71" break="no"/>tus. Sed quid si non intenderet aliud per 
+      <lb ed="#F" n="72"/>lauationem conferri nisi sanitatem, &amp; 
+      <lb ed="#F" n="73"/>tune idem dicerem, quia bapticeare 
+      inten<lb ed="#F" n="74" break="no"/>dit licet malam credulitatem &amp; 
+      intenti<lb ed="#F" n="75" break="no"/>onem habeat de viribus baptismi, sedsi 
+      <lb ed="#F" n="76"/>non intenderet conferre baptismum, sed 
+      <lb ed="#F" n="77"/>quandam medicinam facere contra 
+      in<lb ed="#F" n="78" break="no"/>firmitatem, sed verba formae, 
+      exprime<lb ed="#F" n="79" break="no"/>ret, tamen non crederem eum 
+      baptiza<lb ed="#F" n="80" break="no"/>tum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

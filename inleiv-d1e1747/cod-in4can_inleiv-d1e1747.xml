@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="505-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1747" type="decretales-l5t6">
+            <head xml:id="inleiv-d1e1747-Hd1e98">Titulus 6</head>
+            <p xml:id="inleiv-d1e1747-d1e100">
+               <lb ed="#F" n="62"/>TILVLVS VI 
+      <lb ed="#F" n="63"/>DE IVDAEIS ET 
+      SAR<lb ed="#F" n="64" break="no"/>RACENIS, ET EORVM 
+      <lb ed="#F" n="65"/>seruis. 
+      </p>
+            <div xml:id="inleiv-d1e1747-Dd1e111" type="decretales-l5t6c1">
+               <head xml:id="inleiv-d1e1747-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1747-d1e115">
+                  <lb ed="#F" n="66"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e120">
+                  <lb ed="#F" n="67"/>PRAESENTI 
+      CONCI<lb ed="#F" n="68" break="no"/>LIO. (12. soli.) quos si non 
+      <lb ed="#F" n="69"/>habet, aliunde ostiatim 
+      quae<lb ed="#F" n="70" break="no"/>rat. ff. de manu. etiam vel pro 
+      <lb ed="#F" n="71"/>eis quinquennio operas 
+      prae<lb ed="#F" n="72" break="no"/>stet. ff. de capti. &amp; postli. I. vlt. 36. q. 1. de 
+      <lb ed="#F" n="73"/>rap. hoc tamen. c. non loquitur, quod ipsi 
+      <lb ed="#F" n="74"/>seruo liceat aliquid dare pro sua redem. 
+      <lb ed="#F" n="75"/>ptione, sed alii Christiano, sed videtur 
+      du<lb ed="#F" n="76" break="no"/>cendus ad libertatem sine aliqua 
+      donatio<lb ed="#F" n="77" break="no"/>ne pecuniae. C. de epi. Deo. §. vlti. 34. dist. 
+      <lb ed="#F" n="78"/>mancipia. Ob hoc dixerunt aliqui hoc. c. 
+      <lb ed="#F" n="79"/>abrogatum. Vel dic, quod hoc. c. loquitur, 
+      <lb ed="#F" n="80"/>cum ludaeus paganum emit causa 
+      merci<lb ed="#F" n="81" break="no"/>monij, &amp; intra tres menses venalis 
+      expo<lb ed="#F" n="82" break="no"/>nitur, &amp; propter infirmitatem Christia. 
+      <lb ed="#F" n="83"/>nus factus est, tunc enim non debet Iudaei 
+      <lb ed="#F" n="84"/>vtilitas impediri. 34. dist. fraternitatem. 
+      <lb ed="#F" n="85"/>(Christianus) non tamen erit seruus 
+      redi<lb ed="#F" n="86" break="no"/>mentis, sed restituto pretio erit liber. insti. 
+      <lb ed="#F" n="87"/>de noxa. act. §. dominus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e169" type="decretales-l5t6c2">
+               <head xml:id="inleiv-d1e1747-Hd1e171">Caput 2</head>
+               <p xml:id="inleiv-d1e1747-d1e173">
+                  <lb ed="#F" n="88"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e178">
+                  <lb ed="#F" n="89"/>VLTORVM AD NoS. 
+      <lb ed="#F" n="90"/>(Seruetur) id est, in 
+      liberta<lb ed="#F" n="91" break="no"/>tem excipiantur. (Liberi) no. 
+      <lb ed="#F" n="92"/>originarios esse liberos, ergo 
+      <lb ed="#F" n="93"/>legitimis actibus non repel. 
+      <lb ed="#F" n="94"/>luntur. arg. ff. de test. l. C. de postu. l. vlti. 
+      <lb ed="#F" n="95"/>ad ordines tamen non promouentur. 34. 
+      <lb ed="#F" n="96"/>di. si quis obligatum. (debentes) id est, 
+      alle<lb ed="#F" n="97" break="no"/>gati &amp; astricti de his originarijs vel 
+      colo<lb ed="#F" n="98" break="no"/>nis (damnauit) id est, abstulit propter 
+      su<lb ed="#F" n="99" break="no"/>am improbitatem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e205" type="decretales-l5t6c3">
+               <head xml:id="inleiv-d1e1747-Hd1e207">Caput 3</head>
+               <p xml:id="inleiv-d1e1747-d1e209">
+                  <lb ed="#F" n="100"/>CAPVT III. 
+      <lb ed="#F" n="101"/>IVDAEI.(Legalis) C. de iudae. l. du 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e218" type="decretales-l5t6c4">
+               <head xml:id="inleiv-d1e1747-Hd1e220">Caput 4</head>
+               <p xml:id="inleiv-d1e1747-d1e222">
+                  <lb ed="#F" n="102"/>CAPVT IIII 
+      <lb ed="#F" n="103"/>QVIA SVPER RIS. infra, eod. in 
+      <lb ed="#F" n="104"/>&amp; nonnullis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e232" type="decretales-l5t6c5">
+               <head xml:id="inleiv-d1e1747-Hd1e234">Caput 5</head>
+               <p xml:id="inleiv-d1e1747-d1e236">
+                  <pb ed="#F" n="505-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e245">
+                  <lb ed="#F" n="2"/>IVDAEI SIVE SARRACENI. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e251" type="decretales-l5t6c6">
+               <head xml:id="inleiv-d1e1747-Hd1e253">Caput 6</head>
+               <p xml:id="inleiv-d1e1747-d1e255">
+                  <lb ed="#F" n="3"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e260">
+                  <lb ed="#F" n="4"/>IVDAEI. (Haereditatis) De 
+      <lb ed="#F" n="5"/>haereditate &amp; bonis, ideo 
+      in<lb ed="#F" n="6" break="no"/>tromittit se ecclesia, quia de 
+      <lb ed="#F" n="7"/>nouo conuersi sunt, &amp; 
+      fin<lb ed="#F" n="8" break="no"/>guntur miserabiles personae. 
+      <lb ed="#F" n="9"/>ff. de verbo. sig. super quibusdam. alias 
+      <lb ed="#F" n="10"/>enim se non intromitteret. i. qui fil. sint le. 
+      <lb ed="#F" n="11"/>Sicausam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e281" type="decretales-l5t6c7">
+               <head xml:id="inleiv-d1e1747-Hd1e283">Caput 7</head>
+               <p xml:id="inleiv-d1e1747-d1e285">
+                  <lb ed="#F" n="12"/> CAPVT VII. 
+      <lb ed="#F" n="13"/>TA QVORVNDAM. (Deferant) 
+      <lb ed="#F" n="14"/>C. quae res ex. non debent. l. 2. C. de 
+      <lb ed="#F" n="15"/>commer. &amp; mer. eam te. ff. de pub. &amp; vect. 
+      <lb ed="#F" n="16"/>coram. §. si enim (praecisos) canon est 
+      la<lb ed="#F" n="17" break="no"/>tae sententiae (mulctari) hoc potest statue¬ 1 
+      <lb ed="#F" n="18"/>re Papa propter commissum a laicis 
+      cri<lb ed="#F" n="19" break="no"/>men. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e306" type="decretales-l5t6c8">
+               <head xml:id="inleiv-d1e1747-Hd1e308">Caput 8</head>
+               <p xml:id="inleiv-d1e1747-d1e310">
+                  <lb ed="#F" n="20"/>CA2VT VIII. 
+      <lb ed="#F" n="21"/>CONSVLVIT. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e318" type="decretales-l5t6c9">
+               <head xml:id="inleiv-d1e1747-Hd1e320">Caput 9</head>
+               <p xml:id="inleiv-d1e1747-d1e322">
+                  <lb ed="#F" n="22"/>CAPVT IX
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e327">
+                  <lb ed="#F" n="23"/>AD HAEC OMNIBVS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e334" type="decretales-l5t6c10">
+               <head xml:id="inleiv-d1e1747-Hd1e336">Caput 10</head>
+               <p xml:id="inleiv-d1e1747-d1e338">
+                  <lb ed="#F" n="24"/>CAPVT X.
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e343">
+                  <lb ed="#F" n="25"/>SICVT IVDAEI. (Corpora) non 
+      <lb ed="#F" n="26"/>enim reputantur hostes. 23. q. 8. dispar. 
+      <lb ed="#F" n="27"/>alias enim liceret. C. de sepul. viola. 
+      se<lb ed="#F" n="28" break="no"/>pulchro. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e355" type="decretales-l5t6c11">
+               <head xml:id="inleiv-d1e1747-Hd1e357">Caput 11</head>
+               <p xml:id="inleiv-d1e1747-d1e359">
+                  <lb ed="#F" n="29"/>CAPVT XI. 
+      <lb ed="#F" n="30"/>1 Paganorum cibarpes vti an 
+      fncaliquarrant<lb ed="#F" n="31" break="no"/>gentia quis possit.
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e368">
+                  <lb ed="#F" n="32"/>QVAM SIT 
+      LAVDABI<lb ed="#F" n="33" break="no"/>LE. (Paganis) contra. 11. 
+      quae<lb ed="#F" n="34" break="no"/>stio. 3. ad mensam. vbi 
+      dici<lb ed="#F" n="35" break="no"/>tur, quod sine aliqua 
+      indul<lb ed="#F" n="36" break="no"/>gentia licet vti cibarijs 
+      paga<lb ed="#F" n="37" break="no"/>norum. Respon. illud olim quando pagani 
+      <lb ed="#F" n="38"/>non discernebant cibos, hodie autem cum 
+      <lb ed="#F" n="39"/>discernant cibos, non licet sine speciali 
+      in<lb ed="#F" n="40" break="no"/>indulgentia, sicut nec cum Iudaeis licet 
+      <lb ed="#F" n="41"/>communicare. 28. q. 1. omnes. 3. eo. ad hoc. 
+      <lb ed="#F" n="42"/>nisi de licentia, vt arg. hic. (Temporum) 
+      <lb ed="#F" n="43"/>quia tamen in quadragesima non licet vti 
+      <lb ed="#F" n="44"/>carnibus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e400" type="decretales-l5t6c12">
+               <head xml:id="inleiv-d1e1747-Hd1e402">Caput 12</head>
+               <p xml:id="inleiv-d1e1747-d1e404">
+                  <lb ed="#F" n="45"/>CAPVT XII. 
+      <lb ed="#F" n="46"/>1 Arma vetitaan liceat portare causa 
+      redem<lb ed="#F" n="47" break="no"/>ptionis, &amp; an possint vendi. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e413">
+                  <lb ed="#F" n="48"/>SIGNIFICAVIT. (
+      Re<lb ed="#F" n="49" break="no"/>demptionis) q. d. pro causa 
+      <lb ed="#F" n="50"/>redemptionis licet aliqua 
+      <lb ed="#F" n="51"/>portare, etiam ea quae vetita 
+      <lb ed="#F" n="52"/>ssent, non tamen possunt 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>
+                  <lb ed="#F" n="54"/>quia sine peccato fieri non posset, sed 
+      li<lb ed="#F" n="55" break="no"/>gna &amp; arma eis portare pro redemptione 
+      <lb ed="#F" n="56"/>licet, quia licet p ea possint offendi 
+      chri<lb ed="#F" n="57" break="no"/>stiani, tamen non est directo contraeos, 
+      <lb ed="#F" n="58"/>nam &amp; si directo contra Christianos 
+      vende<lb ed="#F" n="59" break="no"/>ret, &amp; in articulo, quando scilicet 
+      exerce<lb ed="#F" n="60" break="no"/>retur contra Christianos, incideret in 
+      ca<lb ed="#F" n="61" break="no"/>nonem. Alii tamen dicunt, quod arma&amp; 
+      <lb ed="#F" n="62"/>ligna, &amp; alia specialiter eis prohibita etiam 
+      <lb ed="#F" n="63"/>pro redemptione non licet eis vendere. 
+      <lb ed="#F" n="64"/>ar. I. eo. adliberandam. Treugam) 
+      videba<lb ed="#F" n="65" break="no"/>tur enim quod facta treuga liceret eis 
+      por<lb ed="#F" n="66" break="no"/>tare res vetitas Sarrace nis (
+      Excommuni<lb ed="#F" n="67" break="no"/>cationis) late contra ta les. 5. eod. ita. I. c. 
+      <lb ed="#F" n="68"/>proxi. (Pax) causa dubi tationis erat, quia 
+      <lb ed="#F" n="69"/>ex quo iurauerat, quod non portaret illuc 
+      <lb ed="#F" n="70"/>merces, nisi pax fieret, per consequens 
+      vi<lb ed="#F" n="71" break="no"/>debatur licitum portare si fieret pax. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e471" type="decretales-l5t6c13">
+               <head xml:id="inleiv-d1e1747-Hd1e473">Caput 13</head>
+               <p xml:id="inleiv-d1e1747-d1e475">
+                  <lb ed="#F" n="72"/>CAPVT XIII. 
+      <lb ed="#F" n="73"/>voD OLIM. (
+      Duraue<lb ed="#F" n="74" break="no"/>rit.) cessante illa guerra, non 
+      <lb ed="#F" n="75"/>durat canon latae sententiae. 
+      <lb ed="#F" n="76"/>nisi in ligaminibus &amp; alijs, 
+      <lb ed="#F" n="77"/>quae subsidium faciunt eis 
+      <lb ed="#F" n="78"/>ad pugnam. e. eod. ita. &amp; sic loquitur. 1. ca. 
+      <lb ed="#F" n="79"/>proxi. in fi. &amp; in dispendium terrae sanctae. 
+      <lb ed="#F" n="80"/>1. e. ad liberandam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e498" type="decretales-l5t6c14">
+               <head xml:id="inleiv-d1e1747-Hd1e500">Caput 14</head>
+               <p xml:id="inleiv-d1e1747-d1e502">
+                  <lb ed="#F" n="81"/>CAPVT XIIII. 
+      <lb ed="#F" n="82"/>ET SI IVDAEOS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e510" type="decretales-l5t6c15">
+               <head xml:id="inleiv-d1e1747-Hd1e512">Caput 15</head>
+               <p xml:id="inleiv-d1e1747-d1e514">
+                  <lb ed="#F" n="83"/>CAPVT XV. 
+      <lb ed="#F" n="84"/>POSTVLASTI (Iurisdictionis) 
+      tem<lb ed="#F" n="85" break="no"/>poralis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e525" type="decretales-l5t6c16">
+               <head xml:id="inleiv-d1e1747-Hd1e527">Caput 16</head>
+               <p xml:id="inleiv-d1e1747-d1e529">
+                  <lb ed="#F" n="86"/>CAPVT XVI 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e534">
+                  <lb ed="#F" n="87"/>IN NONNVLLIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e540" type="decretales-l5t6c17">
+               <head xml:id="inleiv-d1e1747-Hd1e542">Caput 17</head>
+               <p xml:id="inleiv-d1e1747-d1e544">
+                  <lb ed="#F" n="88"/>CAPVT XVII. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e549">
+                  <lb ed="#F" n="89"/>CVMSIT NIMIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e555" type="decretales-l5t6c18">
+               <head xml:id="inleiv-d1e1747-Hd1e557">Caput 18</head>
+               <p xml:id="inleiv-d1e1747-d1e559">
+                  <lb ed="#F" n="90"/>CAPVT XVIII. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e564">
+                  <lb ed="#F" n="91"/>AD LIBERANDAM. 
+      <lb ed="#F" n="92"/>(Galeas) quia cum his 
+      pos<lb ed="#F" n="93" break="no"/>sunt multum offendere 
+      Chri<lb ed="#F" n="94" break="no"/>stianos. (In piraticis) &amp; 
+      pira<lb ed="#F" n="95" break="no"/>ticam contra Christianos 
+      <lb ed="#F" n="96"/>exereentibus, secus si contra alios 
+      exerce<lb ed="#F" n="97" break="no"/>ant, vel forte nec contra alios, cum non 
+      <lb ed="#F" n="98"/>debeant in piratica per Christianos 
+      in<lb ed="#F" n="99" break="no"/>strui. Hoc autem non placet propter 
+      ver<lb ed="#F" n="100" break="no"/>bum sequens, in dispendium terrae sanctae. 
+      <lb ed="#F" n="101"/>(Ipsos) haec poenitentia imponitur per 
+      se<lb ed="#F" n="102" break="no"/>culares potestates. 5. eo. ita. (Aperiantur) 
+      <lb ed="#F" n="103"/>haec poenitentia imponitur per ecclesiam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e596" type="decretales-l5t6c19">
+               <head xml:id="inleiv-d1e1747-Hd1e598">Caput 19</head>
+               <p xml:id="inleiv-d1e1747-d1e600">
+                  <lb ed="#F" n="104"/>CAPVT XIX 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e605">
+                  <lb ed="#F" n="105"/>EX SPECIALI 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1747-Dd1e611" type="decretales-l5t6c20">
+               <head xml:id="inleiv-d1e1747-Hd1e613">Caput 20</head>
+               <p xml:id="inleiv-d1e1747-d1e615">
+                  <lb ed="#F" n="106"/>CAPVT XX. 
+      </p>
+               <p xml:id="inleiv-d1e1747-d1e620">
+                  <lb ed="#F" n="107"/>NVLLI IVDAEO. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

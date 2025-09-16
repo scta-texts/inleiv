@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="507-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1769" type="decretales-l5t8">
+            <head xml:id="inleiv-d1e1769-Hd1e98">Titulus 8</head>
+            <p xml:id="inleiv-d1e1769-d1e100">
+               <lb ed="#F" n="76"/>TITVLVS VIII 
+      <lb ed="#F" n="77"/>DE SCHISMATICIS. 
+      </p>
+            <div xml:id="inleiv-d1e1769-Dd1e107" type="decretales-l5t8c1">
+               <head xml:id="inleiv-d1e1769-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1769-d1e111">
+                  <lb ed="#F" n="78"/>CAPVT I 
+      <lb ed="#F" n="79"/>1 Schismnatici qui dicantur, &amp; an conferant ,uel 
+      <lb ed="#F" n="80"/>accipiant ordines, &amp; in num. 2. 
+      <lb ed="#F" n="81"/>3 lrregularitas ordinatoris uel ordinati, 
+      anim<lb ed="#F" n="82" break="no"/>pediat executionem. 
+      <lb ed="#F" n="83"/>4 Eacommunicati minori excommunicatione 
+      <lb ed="#F" n="84"/>conferunt sacramenta &amp; eorum 
+      executia<lb ed="#F" n="85" break="no"/>nem. 
+      <lb ed="#F" n="86"/>Suspensus an &amp; quando habeat exetutimnem 
+      <lb ed="#F" n="87"/>fuiefficii.
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e135">
+                  <lb ed="#F" n="88"/>QVOD A 
+      PRAEDECES<lb ed="#F" n="89" break="no"/>SO RE. Large dicuntur 
+      <lb ed="#F" n="90"/>schismatici, quilibet 
+      crimi<lb ed="#F" n="91" break="no"/>nosi. 1. q. 1. sacerdotes. 24. q. 3. 
+      <lb ed="#F" n="92"/>ectandum. itaque &amp; hi non 
+      <lb ed="#F" n="93"/>tenentur his poenitentijs. Aliquantulum 
+      <lb ed="#F" n="94"/>minus large schismatici dicuntur 
+      excom<lb ed="#F" n="95" break="no"/>municati. 24. q. 3. apostolice. tam 
+      sacer<lb ed="#F" n="96" break="no"/>dos. de excommunicationis, ex quibus 
+      ali<lb ed="#F" n="97" break="no"/>qui sunt qui non peccant in 
+      excommuni<lb ed="#F" n="98" break="no"/>catione manentes. 5. de senten. excom. 
+      <lb ed="#F" n="99"/>inquisitioni. de his no. 3. de excep. 
+      excepti<lb ed="#F" n="100" break="no"/>onem. Stricte dicuntur schismatici, qui 
+      <lb ed="#F" n="101"/>diuisi ab vnitate Romanae ecclesiae, 
+      co<lb ed="#F" n="102" break="no"/>nantur suos episcopos, &amp; presbyteros 
+      fa<lb ed="#F" n="103" break="no"/>cere, &amp; suas constitutiones. 7. q. 1. 
+      Nouati<lb ed="#F" n="104" break="no"/>anus. &amp; contemnunt constitutiones 
+      ec<lb ed="#F" n="105" break="no"/>clesiae. 19. dist. nulli. Idem dico, etiam si 
+      <lb ed="#F" n="106"/>velit contra episcopum aliquem 
+      assurge<lb ed="#F" n="107" break="no"/>re, &amp; episcopatum tenere, &amp; suos 
+      sacer<lb ed="#F" n="108" break="no"/>dotes facere. 7. q. 1. scire. 24. q. 3. inter 
+      schis<lb ed="#F" n="109" break="no"/>ma. &amp; in his habet locum haec decre. nam 
+      <lb ed="#F" n="110"/>excommunicati sunt, vt haeretici: vt hic. 
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e187">
+                  <pb ed="#F" n="508-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>Alii tamen dicunt contra in episcopis 
+      <lb ed="#F" n="2"/>schismaticis contra alios epos tantum, 
+      di<lb ed="#F" n="3" break="no"/>cuntur etiam schismatici, qui 
+      coniuratio<lb ed="#F" n="4" break="no"/>nes vel conspirationes faciunt contra 
+      epi<lb ed="#F" n="5" break="no"/>scopos vel praelatos, &amp; hi non sunt 
+      suspen<lb ed="#F" n="6" break="no"/>si ipso iure, sed suspendendi, &amp; horum 
+      or<lb ed="#F" n="7" break="no"/>dinationes non sunt irritae, sed ipsi 
+      depo<lb ed="#F" n="8" break="no"/>nendi sunt. 11. q. 1. coniurationum. &amp; 4. c. 
+      <lb ed="#F" n="9"/>sequentibus. Si autem aliqui de aliqua re 
+      <lb ed="#F" n="10"/>licita coniurarent, puta de non obediendo 
+      <lb ed="#F" n="11"/>alicui haeretico, vel etiam vt essent magis 
+      <lb ed="#F" n="12"/>fecuri, quod inuicem se non proderent de 
+      <lb ed="#F" n="13"/>facienda accusatione alicuius haeretici vel 
+      <lb ed="#F" n="14"/>perniciosi praelati, forte malum non esset. 
+      <lb ed="#F" n="15"/>16. qo. 7. sane. semper tamen praesumitur 
+      <lb ed="#F" n="16"/>contra coniuratores. 11. q. 1. si qui clerici. &amp; 
+      <lb ed="#F" n="17"/>maxime si coniurent in perpetuum, vel 
+      <lb ed="#F" n="18"/>generaliter, nam si contra potentem &amp; 
+      dif<lb ed="#F" n="19" break="no"/>famatum coniurarent, aliqui non mali, 
+      <lb ed="#F" n="20"/>sed boni viri crederem licere (
+      Haeresiar<lb ed="#F" n="21" break="no"/>chis) id est, schismaticis. (Ordinatis) &amp; idem 
+      <lb ed="#F" n="22"/>de ordinatis ab haeresiarchis, vel 
+      schisma<lb ed="#F" n="23" break="no"/>ticis in infinitum, nam cum non habeant 
+      <lb ed="#F" n="24"/>executionem, alijs dare non possunt. 1. q. 
+      <lb ed="#F" n="25"/>7. Daibertum. 
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e248">
+                  <lb ed="#F" n="26"/> Irritas) quo ad executionem, ordines 
+      <lb ed="#F" n="27"/>enim bene accipiunt, vt no. supra, de 
+      hae<lb ed="#F" n="28" break="no"/>reticis. cap. 2. executionem autem 
+      schis<lb ed="#F" n="29" break="no"/>matici isti non conferunt, quia 
+      excom<lb ed="#F" n="30" break="no"/>municati sunt ipso iure, cum haeretici 
+      no<lb ed="#F" n="31" break="no"/>minentur, vt hic, &amp; 24. quaestio. 1. alienus. 
+      <lb ed="#F" n="32"/>&amp; quaestio. 3. inter. &amp; haeretici ipso iure 
+      <lb ed="#F" n="33"/>excommunicati sunt. supra, de haereti. 
+      ex<lb ed="#F" n="34" break="no"/>communicamus. 24. quaestio. 1. cap. 2. 
+      Qui<lb ed="#F" n="35" break="no"/>dam tamen dicunt, quod tales non sunt 
+      <lb ed="#F" n="36"/>excommunicati, sed excommunicandi 
+      <lb ed="#F" n="37"/>tantum. 23. di. in nomine. in fi. vbi dicitur 
+      <lb ed="#F" n="38"/>damnetur, &amp; hi a Papa Alex. 
+      excommu<lb ed="#F" n="39" break="no"/>nicati fuerunt. llli autem schismatici, 
+      <lb ed="#F" n="40"/>qui ab vnione ecclesiae recedunt, vt Graeei, 
+      <lb ed="#F" n="41"/>bene sunt exconmmunicati ipso iure, vt in 
+      prae<lb ed="#F" n="42" break="no"/>cedentibe. c. &amp; 19. di. nulli. Nos dicimus, quod 
+      <lb ed="#F" n="43"/>propter nullum peccatum, quod sit in 
+      ordi<lb ed="#F" n="44" break="no"/>natore, vel ordinato impeditur, quomine 
+      <lb ed="#F" n="45"/>recipiat ordinatus executionem in 
+      habi<lb ed="#F" n="46" break="no"/>tu, licet exequi non debeat ordinator, vel 
+      <lb ed="#F" n="47"/>ordinatus ordinem suum, quia ligatam 
+      ha<lb ed="#F" n="48" break="no"/>bet executionem nexibus iuris, quod censet 
+      <lb ed="#F" n="49"/>tali crimine itretitum fore irregularem, 
+      sic<lb ed="#F" n="50" break="no"/>ut apparet in homicida, qud bene in 
+      ordina<lb ed="#F" n="51" break="no"/>tione sua recepit ordinis executionem, &amp; 
+      <lb ed="#F" n="52"/>etiam dat, sed tamen ligata est p 
+      constitutio<lb ed="#F" n="53" break="no"/>nem, quae dicit homicidam irregularem. 5. 
+      <lb ed="#F" n="54"/>de tempore ordi. c. vlti. &amp; ita propter praedictam 
+      <lb ed="#F" n="55"/>constitutionem ligata est executio eius, ita quod 
+      <lb ed="#F" n="56"/>per nullam poenitentiam pont sine peccato 
+      ce<lb ed="#F" n="57" break="no"/>lebrare, nisi secum per Papam fuerit 
+      dispen<lb ed="#F" n="58" break="no"/>satum, sed tamen confert ordinis execu¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="59"/>tionem &amp; dignitatis, &amp; etiam recipit vt 
+      exe<lb ed="#F" n="60" break="no"/>quatur quando erit dignus. Alii autem 
+      cri<lb ed="#F" n="61" break="no"/>minosi, vel adulteri, fures, piuri, &amp; huius. 
+      <lb ed="#F" n="62"/>modi, licet propter peccatum non debeant 
+      <lb ed="#F" n="63"/>celebrare, quodiu sunt in peccato, tamen 
+      ne<lb ed="#F" n="64" break="no"/>xibus constitutionum non habent ligatam 
+      <lb ed="#F" n="65"/>executionem sui ordinis, qun quandocumque 
+      <lb ed="#F" n="66"/>egerint poenitentiam, sine alia reconcilia. 
+      <lb ed="#F" n="67"/>tione liceat exequi suum ordinem, salua 
+      <lb ed="#F" n="68"/>tamem distinctione, quam not. 3. de temp. or. 
+      <lb ed="#F" n="69"/>ex tenore. 
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e349">
+                  <lb ed="#F" n="70"/>Idem dicendum videtur de 
+      irregu<lb ed="#F" n="71" break="no"/>laritate ordinatoris, vel ordinati, quod 
+      <lb ed="#F" n="72"/>non impedit executionem, quin 
+      confera<lb ed="#F" n="73" break="no"/>tur habitu &amp; exercitio. arg. 36. di. 
+      apostoli<lb ed="#F" n="74" break="no"/>ca. canon. &amp; c. vl. 3. de renunc. nisi cum. §. 
+      <lb ed="#F" n="75"/>personae. Idem dicendum videtur &amp; de 
+      in<lb ed="#F" n="76" break="no"/>famia, nam simoniaci etiam in beneficio 
+      <lb ed="#F" n="77"/>sunt infames. C. de epis. si quenquame. §. vl. &amp; 
+      <lb ed="#F" n="78"/>tamenexecutionem conferunt. 3. de simo. 
+      <lb ed="#F" n="79"/>per tuas. &amp; hoc dicendum videtur de 
+      ex<lb ed="#F" n="80" break="no"/>communicatis occultis, &amp; de omnib. alijs 
+      <lb ed="#F" n="81"/>praedictis, quod quandiu tolerantur ab 
+      ec<lb ed="#F" n="82" break="no"/>clesia executionem ordinum conferunt. 
+      <lb ed="#F" n="83"/>arg. 6. q. 2. c. 2. &amp; 3. q. 1. epis. &amp; etiam tales 
+      <lb ed="#F" n="84"/>recipiunt executionem, licet ligatam, vt 
+      <lb ed="#F" n="85"/>dictum est de homicida, si sunt indigni. de 
+      <lb ed="#F" n="86"/>conse. di. 2. non prohibeat. Nec est contra. 9. 
+      <lb ed="#F" n="87"/>q. 1. c. 1. &amp; 3. 5. de epis. qui renunc. epis. c. 2. 
+      <lb ed="#F" n="88"/>quia ibi loquitur, quando pr sententiam vel 
+      re<lb ed="#F" n="89" break="no"/>nunciationem non habebant executionem, 
+      <lb ed="#F" n="90"/>nec tolerabantur ab ecclesia, &amp; ideo alijs eam 
+      <lb ed="#F" n="91"/>dare non poterant. Hic autem plus est in 
+      <lb ed="#F" n="92"/>excommunicatis, quod etiam si 
+      toleren<lb ed="#F" n="93" break="no"/>tur, dummodo probari possit, si vocent 
+      ali<lb ed="#F" n="94" break="no"/>quem ad ordines, vel alia sacramenta, 
+      po<lb ed="#F" n="95" break="no"/>test ei dici, non recipiam hoc a te, quia ex 
+      <lb ed="#F" n="96"/>excommunicatus, vnde tibi participandum 
+      <lb ed="#F" n="97"/>non est, &amp; ex hac causa legitima est 
+      appel<lb ed="#F" n="98" break="no"/>latio, secus autem esset in alijs, puta 
+      irre<lb ed="#F" n="99" break="no"/>gularibus infamibus, &amp; alijs praedictis, &amp; 
+      <lb ed="#F" n="100"/>quia non esset contra eos admittenda 
+      ta<lb ed="#F" n="101" break="no"/>lis exceptio, non recipiam hoc a te, quia 
+      <lb ed="#F" n="102"/>es irregularis, sufficit enim quod 
+      tolere<lb ed="#F" n="103" break="no"/>tur. §. quaestio. fi. nonne. Ratio autem 
+      di<lb ed="#F" n="104" break="no"/>uersitatis est, quia huiusmodi 
+      excommu<lb ed="#F" n="105" break="no"/>nicatis communicari non potest sine 
+      pe<lb ed="#F" n="106" break="no"/>riculo, sed in alijs secus. Idem quod de 
+      <lb ed="#F" n="107"/>excommunicatis diximus, dicendum est 
+      <lb ed="#F" n="108"/>de notorio fornicatore, &amp; simoniaco, &amp; 
+      <lb ed="#F" n="109"/>hoc est ea ratione, quia ab eorum 
+      obedi<lb ed="#F" n="110" break="no"/>entia sua authoritate recedere licet. 32. 
+      <lb ed="#F" n="111"/>di. §. verum. suspensi ab officio, &amp; a 
+      col<lb ed="#F" n="112" break="no"/>latione sacramentorum per sententiam 
+      <lb ed="#F" n="113"/>hominis. Item depositi propter crimen, 
+      <lb ed="#F" n="114"/>quia ab officio remouentur, sine qua 
+      ordi<lb ed="#F" n="115" break="no"/>nes non conferuntur. 81. di. maximi. &amp; ar. ea. 
+      <pb ed="#F" n="508-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>di. si quis clerici. &amp; c. si quis presbyt. Item 
+      <lb ed="#F" n="2"/>qui renunciauerunm loco &amp; ordini epali. 1. 
+      <lb ed="#F" n="3"/>de or. ab epis. c. 1. omns isti non conferunt 
+      exe<lb ed="#F" n="4" break="no"/>cutionem. Item remoti ab ecclesia, vel 
+      ad<lb ed="#F" n="5" break="no"/>ministratione, vt quidam dicunt, sed melius 
+      <lb ed="#F" n="6"/>videtur, quod licet remoueatur ab 
+      eccle<lb ed="#F" n="7" break="no"/>sia, nisi suspendatur ab ordine, vel officio, 
+      <lb ed="#F" n="8"/>non est suspensus, &amp; bene conferret 
+      executio<lb ed="#F" n="9" break="no"/>nem, licet peccet, sicut videmus in 
+      renun<lb ed="#F" n="10" break="no"/>ciante loco, quia nisi renunciet ordini, 
+      exe<lb ed="#F" n="11" break="no"/>cutionem retinet, quia de alterius mandato 
+      <lb ed="#F" n="12"/>ordinare pont. 3. de or. ab epis. c. 1. Item omnes 
+      <lb ed="#F" n="13"/>qui a suspensis per sententiam hominis vel 
+      <lb ed="#F" n="14"/>caeteris, qui executionem non habent, 
+      ordi<lb ed="#F" n="15" break="no"/>nati sunt, vel ab ordinatis ab eis in infinitum 
+      <lb ed="#F" n="16"/>executionem non recipiunt, vt hic, nisi p 
+      <lb ed="#F" n="17"/>maneimpositionem vel dispensationem fuerint 
+      <lb ed="#F" n="18"/>reconciliati. Et quicquid alii dicant, non videm: 
+      <lb ed="#F" n="19"/>aliam rationem, quare non debent vel recipiant 
+      <lb ed="#F" n="20"/>executionem, nisi quia sic constitutum est. 32. di. 
+      <lb ed="#F" n="21"/>§. verum. super charactere autem, vel gratia 
+      <lb ed="#F" n="22"/>Dei conferenda, quae non sunt in potestate 
+      pa<lb ed="#F" n="23" break="no"/>pae, nihil statuere potuit sup non peccantes.
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e505">
+                  <lb ed="#F" n="24"/>Excommunicati autem minori 
+      excom<lb ed="#F" n="25" break="no"/>municatione propter participationem 
+      sa<lb ed="#F" n="26" break="no"/>cramentorum, licet sint suspensi 
+      participatio<lb ed="#F" n="27" break="no"/>ne, id est, perceptione sacramentorum, non 
+      ta<lb ed="#F" n="28" break="no"/>mem collatione, &amp; ideo omnia sacramenta, 
+      <lb ed="#F" n="29"/>&amp; eorum executionem conferunt. I. de cle. 
+      ex<lb ed="#F" n="30" break="no"/>com. mi. si ce. §. fi. intrusi autem, licet sint 
+      ine<lb ed="#F" n="31" break="no"/>ligibiles, &amp; suspendendi non sunt suspensi ipso 
+      <lb ed="#F" n="32"/>iure. Arg. contra. 62. di. c. 2. sed dic quod ibi 
+      loqui<lb ed="#F" n="33" break="no"/>tur, alias quod quando praelatus intrusus non 
+      <lb ed="#F" n="34"/>pont subditis quobe per intrusionem datus est 
+      pae<lb ed="#F" n="35" break="no"/>latus conferre sacramenta, &amp; conferendo non 
+      <lb ed="#F" n="36"/>confert executionem, non quia sit suspensus, 
+      <lb ed="#F" n="37"/>sed quia non suis subditis, non pont 
+      executio<lb ed="#F" n="38" break="no"/>nem conferre. Irritas) haec ple placent, quae quae 
+      <lb ed="#F" n="39"/>not. 5. de simo. pro tuas. &amp; . 3. de haere. 
+      frater<lb ed="#F" n="40" break="no"/>nitatis. Sed contra nos est. 1. q. 1. si quis a 
+      simo<lb ed="#F" n="41" break="no"/>nia. vbi dicit, quod si quis est ordinate a 
+      simo<lb ed="#F" n="42" break="no"/>niaco, non simoniace tamem de misericor dia 
+      <lb ed="#F" n="43"/>sustinetur. So. ibi loquit de notorio 
+      simo<lb ed="#F" n="44" break="no"/>niaco, &amp; hoc apparet p id, quod sequitur in e. 
+      <lb ed="#F" n="45"/>c. nisi probauerit se ignorasse eos 
+      simonia<lb ed="#F" n="46" break="no"/>cos, quia nullo modo cogeretur probare ignos 
+      <lb ed="#F" n="47"/>rantiam, nisi praesumptio esset contra eos, quia 
+      <lb ed="#F" n="48"/>non licebat eis ignorare, quod alii sciebant. Sed 
+      <lb ed="#F" n="49"/>contra nos est quod in e. c. licet quod tunc pro catholicis 
+      <lb ed="#F" n="50"/>habebantur, ex quo apparet, quod eorum simonia 
+      <lb ed="#F" n="51"/>non erat notoria. Sol. non dicit quod non 
+      haberen<lb ed="#F" n="52" break="no"/>tur pro simoniacis, sed pro haereticis, &amp; vult 
+      <lb ed="#F" n="53"/>hoc dicere illud. c. quod siue essent notorii 
+      si<lb ed="#F" n="54" break="no"/>moniaci, siue damnati haeretici, quod non 
+      <lb ed="#F" n="55"/>est cum eis dispensandum, nisi probarent 
+      <lb ed="#F" n="56"/>se ignorasse eos simoniacos. Hoc 
+      au<lb ed="#F" n="57" break="no"/>tem scitote, quod si contrarium 
+      dicereturcils<lb ed="#F" n="58" break="no"/>qud omnis suspensus ab honine, vel aiure, etiam 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="59"/>ignorans non habet executionem sui ordinis, 
+      <lb ed="#F" n="60"/>nec eam pont alijs dare, nec ordinati etiam 
+      <lb ed="#F" n="61"/>ab eis possunt in infinitum licentiam ordinandi 
+      <lb ed="#F" n="62"/>alijs dare, intolerabiles absurditates &amp; 
+      in<lb ed="#F" n="63" break="no"/>finitae sequerentur, vix enim esset aliquis, qui
+      <lb ed="#F" n="64"/>haberet ordinis executionem. Item si praelate 
+      me<lb ed="#F" n="65" break="no"/>us est homicida, vel excommunicatus, ita quod
+      <lb ed="#F" n="66"/>nullus scit, nisi ordinande, &amp; necessitas res 
+      <lb ed="#F" n="67"/>rit, quod ordinetur, nunquod recusabit 
+      ordinatio<lb ed="#F" n="68" break="no"/>nen huis suspensi, absit. 6. q. 2. c. 2. &amp; 3. Item 
+      quo<lb ed="#F" n="69" break="no"/>modo Christe misisset ludam, si vellet, quod 
+      <lb ed="#F" n="70"/>occulti suspensi, non haberent executionem sui 
+      <lb ed="#F" n="71"/>offi. &amp; in hac opi. fuit Iug. &amp; Mar. 
+      Hispa<lb ed="#F" n="72" break="no"/>no. vt no. 1. q. 1. si quis a fi. &amp; c. reperiuntur. Imo 
+      <lb ed="#F" n="73"/>plus dicunt aliqui, quod etiam si sit nominatim 
+      <lb ed="#F" n="74"/>excommunicatus, vel damnate haereticus, vel 
+      <lb ed="#F" n="75"/>depositus, tamem ordinatus ab eis ignoranter 
+      <lb ed="#F" n="76"/>recipit non tantum ordinem, sed etiam ordinis 
+      <lb ed="#F" n="77"/>executionem, &amp; hoc expraesse videtur 
+      dice<lb ed="#F" n="78" break="no"/>re. c. 9. q. 1. ordinationes. hoc etiam ipsum 
+      pro<lb ed="#F" n="79" break="no"/>batur ratione, quia ordinator nihil confert in 
+      <lb ed="#F" n="80"/>ordinatione, sed solus Der. 32. di. §. verum. 
+      <lb ed="#F" n="81"/>non enim dubium est, quod recepit ordinem, ergo 
+      <lb ed="#F" n="82"/>recepit potestatem ea faciendi, quae ptinent 
+      <lb ed="#F" n="83"/>ad illum ordinem, quia ordo est sacrum 
+      signacu<lb ed="#F" n="84" break="no"/>lum, quo confertur potestas spiritualis, &amp; 
+      offi<lb ed="#F" n="85" break="no"/>cium faciendi ea, quae ptinent ad illum 
+      ordi<lb ed="#F" n="86" break="no"/>nem, ergo iste ordinate habet potestatem 
+      exe<lb ed="#F" n="87" break="no"/>quendi suum officium, nisi propter aliam causam 
+      <lb ed="#F" n="88"/>impediatur. Probatur autem, quod semp etiam a 
+      <lb ed="#F" n="89"/>praeciso haeretico &amp; excommunicato, &amp; etiam 
+      <lb ed="#F" n="90"/>hoc sciens recipit executionem, quia secundum 
+      <lb ed="#F" n="91"/>omnes si conficiat corpo Christi confectum 
+      <lb ed="#F" n="92"/>erit, &amp; si ordinet or dinate erit, sed bene 
+      fa<lb ed="#F" n="93" break="no"/>temur, quod peccat exequendo ordinem, nec 
+      <lb ed="#F" n="94"/>inuenietis capitula antiqua, quae priuent 
+      <lb ed="#F" n="95"/>ordinatos huiusmodi, nisi sciuerint, sic 
+      <lb ed="#F" n="96"/>enim loquuntur. c. 1. q. 1. qui perfectionem. 
+      <lb ed="#F" n="97"/>ventum. 32. di. §. porro. Item cum haec 
+      poe<lb ed="#F" n="98" break="no"/>na non sit imposita a iure naturali, imo ius 
+      <lb ed="#F" n="99"/>naturale vult, quod eum solus Des in 
+      col<lb ed="#F" n="100" break="no"/>latione operetur, quare vicarius Christi 
+      <lb ed="#F" n="101"/>immeritam iniungeret poenitentiam 
+      igno<lb ed="#F" n="102" break="no"/>rantibus, licet enim ex causa decreuerit 
+      <lb ed="#F" n="103"/>poenitentiam scientibus contra contemptum, 
+      <lb ed="#F" n="104"/>tamen iniustum est imponere poenam 
+      igno<lb ed="#F" n="105" break="no"/>rantibus sine causa, sed decre. noua. 3. de 
+      <lb ed="#F" n="106"/>epi. qui renunc. c. fi. dicit contraclscet quod 
+      ordi<lb ed="#F" n="107" break="no"/>natus ignoranter ab excommunicato, 
+      in<lb ed="#F" n="108" break="no"/>diget dispensatione, sed certe cum illa 
+      de<lb ed="#F" n="109" break="no"/>cre. si intelligatur, vt iacet, sit contra 
+      anti<lb ed="#F" n="110" break="no"/>qua iura, &amp; contra naturalem aequita tem 
+      <lb ed="#F" n="111"/>debet recipere sanum intellectum, quia 
+      <lb ed="#F" n="112"/>non est praesumendum, quod &amp; iura alia, 
+      <lb ed="#F" n="113"/>&amp; naturalem aequitatem voluerit vno 
+      ver<lb ed="#F" n="114" break="no"/>bo tollere. supra, de elect. ecclesia vestra.
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e707">
+                  <lb ed="#F" n="115"/>Intellige ergo decre. quando ignorantia 
+      <lb ed="#F" n="116"/>erat supina, sed &amp; huic expositioni vide¬ 
+      <pb ed="#F" n="509-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>tur contradicere, sup. de epi. qui renunc. epi. 
+      <lb ed="#F" n="2"/>c. 1. vbi dicitur, quod si non sit supina 
+      igno<lb ed="#F" n="3" break="no"/>rantia, quod potest episcopus dispensare, 
+      <lb ed="#F" n="4"/>sed dic illud ideo esse, quia non potest esse 
+      <lb ed="#F" n="5"/>sine suspicione scientiae, postquam 
+      mani<lb ed="#F" n="6" break="no"/>feste renunciaret, &amp; nec probabat contra, 
+      <lb ed="#F" n="7"/>quia si probasset, nunquam esset 
+      necessa<lb ed="#F" n="8" break="no"/>ria dispensatio. 9. q. 1. ordinationes. potest 
+      <lb ed="#F" n="9"/>tamen diei, quod iusta causa fuit statuendi 
+      <lb ed="#F" n="10"/>nouum ius contra naturalem aequitatem, 
+      <lb ed="#F" n="11"/>nec in tam notorijs factis, sicut est contra 
+      <lb ed="#F" n="12"/>renunciantes, &amp; contra nominatim 
+      ex<lb ed="#F" n="13" break="no"/>communicatos &amp; praecisos, nullus 
+      admitte<lb ed="#F" n="14" break="no"/>retur ad executionem sine dispensatione, 
+      <lb ed="#F" n="15"/>nec illud videtur, quod potestas exequendi 
+      <lb ed="#F" n="16"/>tollatur omnibus ordinatis ab eis in 
+      infi<lb ed="#F" n="17" break="no"/>nitum, quia non extenditur, nisi ad 
+      ordina<lb ed="#F" n="18" break="no"/>tos a praecisis nominatim, nec etiam extem. 
+      <lb ed="#F" n="19"/>ditur ad alios ignorantes. de hoc no. 3. de 
+      <lb ed="#F" n="20"/>epi. qui renunc. epis. c. 1. (careant) no. 3. de 
+      <lb ed="#F" n="21"/>elect. nihil. Quid si aliqua quaesiuit 
+      nomi<lb ed="#F" n="22" break="no"/>ne eccle. arg. quod valeat. C. de legi. quod 
+      <lb ed="#F" n="23"/>fauore.
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e768">
+                  <lb ed="#F" n="24"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1769-d1e773">
+                  <lb ed="#F" n="25"/>FRATERNITATI. (Persona). Nam 
+      <lb ed="#F" n="26"/>schismatieus etiam receptus in 
+      hono<lb ed="#F" n="27" break="no"/>re suo cum ordinato, a se dispensare non 
+      <lb ed="#F" n="28"/>potest. argumentum. 1. qon. 5. praesentium. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

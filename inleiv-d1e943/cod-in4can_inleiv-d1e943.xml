@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 6</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 6</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="368-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e943" type="decretales-l3t6">
+            <head xml:id="inleiv-d1e943-Hd1e98">Titulus 6</head>
+            <p xml:id="inleiv-d1e943-d1e100">
+               <lb ed="#F" n="21"/>TITVLVS VI. 
+      <lb ed="#F" n="22"/>DE CLERICO 
+      AE<lb ed="#F" n="23" break="no"/>GROE. VEL 
+      DEBILI<lb ed="#F" n="24" break="no"/>tato. 
+      </p>
+            <div xml:id="inleiv-d1e943-Dd1e111" type="decretales-l3t6c1">
+               <head xml:id="inleiv-d1e943-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e943-d1e115">
+                  <lb ed="#F" n="25"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e943-d1e120">
+                  <lb ed="#F" n="26"/>CVM PERCVSSIO. (
+      lIor<lb ed="#F" n="27" break="no"/>tamur.) forte talis 
+      exhorta<lb ed="#F" n="28" break="no"/>tio necessitas est. (
+      Exiguita<lb ed="#F" n="29" break="no"/>te) &amp; sic videtur, quod 
+      habe<lb ed="#F" n="30" break="no"/>E&amp; bit de victualibus &amp; de 
+      quo<lb ed="#F" n="31" break="no"/>tidianis distributionibus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e943-Dd1e137" type="decretales-l3t6c2">
+               <head xml:id="inleiv-d1e943-Hd1e139">Caput 2</head>
+               <p xml:id="inleiv-d1e943-d1e141">
+                  <lb ed="#F" n="32"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e943-d1e146">
+                  <lb ed="#F" n="33"/>PRESBVTERVM. (
+      Abscis<lb ed="#F" n="34" break="no"/>sos) repete quae diximus. sup. 
+      <lb ed="#F" n="35"/>de cor. vit. c. ex parte. (
+      Pro<lb ed="#F" n="36" break="no"/>hibemus.) not. non esse 
+      irre<lb ed="#F" n="37" break="no"/>gularem corpore mutilatum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e943-Dd1e160" type="decretales-l3t6c3">
+               <head xml:id="inleiv-d1e943-Hd1e162">Caput 3</head>
+               <p xml:id="inleiv-d1e943-d1e164">
+                  <lb ed="#F" n="38"/>CAPVT III. 
+      <lb ed="#F" n="39"/>DE RECTORIBVS 
+      EC<lb ed="#F" n="40" break="no"/>clesiarum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e943-Dd1e175" type="decretales-l3t6c4">
+               <head xml:id="inleiv-d1e943-Hd1e177">Caput 4</head>
+               <p xml:id="inleiv-d1e943-d1e179">
+                  <lb ed="#F" n="41"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e943-d1e184">
+                  <lb ed="#F" n="42"/>TVA NOS. (Leprae) &amp; dicit 
+      <lb ed="#F" n="43"/>Lau. quod facerdos leprosus 
+      <lb ed="#F" n="44"/>priuat officio actualis 
+      admi<lb ed="#F" n="45" break="no"/>nistrationuis, dignitatem autem 
+      te<lb ed="#F" n="46" break="no"/>&amp; net siue officium, quod in ius 
+      <lb ed="#F" n="47"/>resonat, puta quia sibi obediet in his quae 
+      vti<lb ed="#F" n="48" break="no"/>liter mandabat. 5. eo. c. proxi. 7. q. 1. quia 
+      fra<lb ed="#F" n="49" break="no"/>ter. &amp; dandus est ei coadiutor. 3. eo. c. proxi. 
+      <lb ed="#F" n="50"/>Alijs videtur &amp; forte melius, quod 
+      omni<lb ed="#F" n="51" break="no"/>no sit ab administratione &amp; dignitate 
+      re<lb ed="#F" n="52" break="no"/>pellendus, &amp; respondetur. c. proxi. quod 
+      <lb ed="#F" n="53"/>ille non erat sic infectus, quod adhuc 
+      pos<lb ed="#F" n="54" break="no"/>set esse in collegio suo his casibus 
+      priua<lb ed="#F" n="55" break="no"/>tur quis iure suo sine culpa sua. Pauper¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>tas, odium, fauor, vitium, scelus, &amp; ordo. 
+      <lb ed="#F" n="57"/>Paupertas . 16. q. 2. &amp; temporis. odium. 25. 
+      <lb ed="#F" n="58"/>q. 2. ita nos. fauor. 22. distin. renouantes. 
+      vi<lb ed="#F" n="59" break="no"/>tium, vt hic. scelus. 22. q. 3. si habes. ordo. 
+      <lb ed="#F" n="60"/>i4. dist. frequens generaliter. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e943-Dd1e231" type="decretales-l3t6c5">
+               <head xml:id="inleiv-d1e943-Hd1e233">Caput 5</head>
+               <p xml:id="inleiv-d1e943-d1e235">
+                  <lb ed="#F" n="61"/>CAPVT V.
+      </p>
+               <p xml:id="inleiv-d1e943-d1e240">
+                  <lb ed="#F" n="62"/>EX PARTE. (Compellere) secus in 
+      <lb ed="#F" n="63"/>Ceproso. sup. c. proximo. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e943-Dd1e248" type="decretales-l3t6c6">
+               <head xml:id="inleiv-d1e943-Hd1e250">Caput 6</head>
+               <p xml:id="inleiv-d1e943-d1e252">
+                  <lb ed="#F" n="64"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e943-d1e257">
+                  <lb ed="#F" n="65"/>CONSVLTATIONIBVS. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

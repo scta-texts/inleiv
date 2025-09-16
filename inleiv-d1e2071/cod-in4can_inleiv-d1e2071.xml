@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="540-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e2071" type="decretales-l5t35">
+            <head xml:id="inleiv-d1e2071-Hd1e98">Titulus 35</head>
+            <p xml:id="inleiv-d1e2071-d1e100">
+               <lb ed="#F" n="70"/>TITVTVS XXXV. 
+      <lb ed="#F" n="71"/>DE PVRGAI IONE 
+      <lb ed="#F" n="72"/>VVLGARI. 
+      </p>
+            <div xml:id="inleiv-d1e2071-Dd1e109" type="decretales-l5t35c1">
+               <head xml:id="inleiv-d1e2071-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e2071-d1e113">
+                  <lb ed="#F" n="73"/>CAPVT I. 
+      <lb ed="#F" n="74"/>C VRA. (Suscepti. ) 2. q. 5. monomachiam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2071-Dd1e121" type="decretales-l5t35c2">
+               <head xml:id="inleiv-d1e2071-Hd1e123">Caput 2</head>
+               <p xml:id="inleiv-d1e2071-d1e125">
+                  <lb ed="#F" n="75"/>CAPVT II. 
+      <lb ed="#F" n="76"/>1 Sententia a qua non est appellatum, an &amp; 
+      <lb ed="#F" n="77"/>quando possit retractari 
+      </p>
+               <p xml:id="inleiv-d1e2071-d1e134">
+                  <lb ed="#F" n="78"/>SIGNIFICANTIBVS. 
+      <lb ed="#F" n="79"/>(Peccatis) quinimo defectus 
+      <lb ed="#F" n="80"/>iurium, vel alia causa. In 
+      man<lb ed="#F" n="81" break="no"/>datis) not. sententiam 
+      retra<lb ed="#F" n="82" break="no"/>ctari, a qua non est 
+      appella<lb ed="#F" n="83" break="no"/>tum, contra quia sententia ius facit inter 
+      <lb ed="#F" n="84"/>partes. e. de sen. &amp; re iudi. cum inter. Item 
+      <lb ed="#F" n="85"/>praetextu eorum, quae postea emergunt, 
+      <lb ed="#F" n="86"/>non est sententia retractanda. 5. de sen. &amp; 
+      <lb ed="#F" n="87"/>re iudi. inter. Item error defectus non 
+      re<lb ed="#F" n="88" break="no"/>tractat sententiam. ff. famil. ercis. cum pu. 
+      <lb ed="#F" n="89"/>C. de quaest. l. 1. ar. contra. 3. de frigidis. 
+      fra<lb ed="#F" n="90" break="no"/>ternitatis. 33. q. 1. c. 3. ff. quando ac. de pe. est 
+      <lb ed="#F" n="91"/>ann. l. 3. ff. de con. sine causa. l. si fullo. ff. de 
+      <lb ed="#F" n="92"/>iureiur. admo. sed dic, quod speciale est 
+      <lb ed="#F" n="93"/>propter veritatem superuenientis casus, vt 
+      <lb ed="#F" n="94"/>recedatur a sententia. simile. ff. de condit. 
+      <lb ed="#F" n="95"/>sine caus. l. 2. ff. commoda. in commodato. 
+      <lb ed="#F" n="96"/>§. vlt. &amp; si sententia non est mandata 
+      exe<lb ed="#F" n="97" break="no"/>cutioni excipitur contra eam. C. de re 
+      <lb ed="#F" n="98"/>iudi. l. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e2071-Dd1e183" type="decretales-l5t35c3">
+               <head xml:id="inleiv-d1e2071-Hd1e185">Caput 3</head>
+               <p xml:id="inleiv-d1e2071-d1e187">
+                  <lb ed="#F" n="99"/>CAPVT II. 
+      <lb ed="#F" n="100"/>DILECTI FILII. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

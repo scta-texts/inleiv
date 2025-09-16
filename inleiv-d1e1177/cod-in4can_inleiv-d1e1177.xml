@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 27</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 27</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="408-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1177" type="decretales-l3t27">
+            <head xml:id="inleiv-d1e1177-Hd1e98">Titulus 27</head>
+            <p xml:id="inleiv-d1e1177-d1e100">
+               <lb ed="#F" n="99"/>TITVLVS XXVII 
+      <lb ed="#F" n="100"/>DE SVCCESSIONIBVS 
+      <lb ed="#F" n="101"/>AB INT EST AT O. 
+      </p>
+            <div xml:id="inleiv-d1e1177-Dd1e109" type="decretales-l3t27c1">
+               <head xml:id="inleiv-d1e1177-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1177-d1e113">
+                  <lb ed="#F" n="102"/>CAPVT 1.
+      </p>
+               <p xml:id="inleiv-d1e1177-d1e118">
+                  <lb ed="#F" n="103"/>SED HOC 
+      DONA<lb ed="#F" n="104" break="no"/>re. Siue inter viuos, siue in 
+      <lb ed="#F" n="105"/>vltima voluntate. (
+      Sancti<lb ed="#F" n="106" break="no"/>ficentur) nisi consanguine 
+      <lb ed="#F" n="107"/>os habeant qui ab intestato 
+      <lb ed="#F" n="108"/>succedant. 12. quest. secunda. quicunque. 
+      <lb ed="#F" n="109"/>infr. eo. cum dilectus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1177-Dd1e137" type="decretales-l3t27c2">
+               <head xml:id="inleiv-d1e1177-Hd1e139">Caput 2</head>
+               <p xml:id="inleiv-d1e1177-d1e141">
+                  <pb ed="#F" n="408-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1177-d1e150">
+                  <lb ed="#F" n="2"/>SANCTO CONCILIO 
+      <lb ed="#F" n="3"/>(Ablatum) hoc. c. locale est, 
+      <lb ed="#F" n="4"/>&amp; non de iure loquitur, 
+      quan<lb ed="#F" n="5" break="no"/>do certum est sacerdotes 
+      a<lb ed="#F" n="6" break="no"/>liquid habuisse ante 
+      ordina<lb ed="#F" n="7" break="no"/>tionem, nam propter dubium 
+      diuiden<lb ed="#F" n="8" break="no"/>dae sunt res propriae a rebus ecclesiae, vt 
+      <lb ed="#F" n="9"/>hic dicitur, si autem distinctae essent res 
+      <lb ed="#F" n="10"/>propriae a rebus ecclesiae, res propriae 
+      <lb ed="#F" n="11"/>haeredibus consanguineis, aliae ecclesiae 
+      <lb ed="#F" n="12"/>darentur. 12. quaest. tertia. quicunque. si 
+      <lb ed="#F" n="13"/>autem dubitetur, an aliqua habuerit 
+      an<lb ed="#F" n="14" break="no"/>te ordinationem, praesumitur pro 
+      eecle<lb ed="#F" n="15" break="no"/>sia, nisi probet se antea habuisse. 12. quaest. 
+      <lb ed="#F" n="16"/>3. quicunqe. ff. de rebus dub. ciuilibus. 
+      a<lb ed="#F" n="17" break="no"/>lii intelligunt capitulum tantum, 
+      quan<lb ed="#F" n="18" break="no"/>do ex seruis fiunt sacerdotes. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1177-Dd1e190" type="decretales-l3t27c3">
+               <head xml:id="inleiv-d1e1177-Hd1e192">Caput 3</head>
+               <p xml:id="inleiv-d1e1177-d1e194">
+                  <lb ed="#F" n="19"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1177-d1e199">
+                  <lb ed="#F" n="20"/>CVM DILECTVS. 
+      <lb ed="#F" n="21"/>(Pro causa.) Erat enim 
+      cau<lb ed="#F" n="22" break="no"/>sa inter eos, vterque enim 
+      <lb ed="#F" n="23"/>ab altero petebat res, quae 
+      <lb ed="#F" n="24"/>fuerant archipresbvteri. 
+      v<lb ed="#F" n="25" break="no"/>terque enim de eis aliqua possidebat. (
+      Par<lb ed="#F" n="26" break="no"/>ticipationem) . i. vt particeps esset 
+      orati<lb ed="#F" n="27" break="no"/>onum. Asseruit) haec assertio, quae est 
+      <lb ed="#F" n="28"/>de praeterito, &amp; extra iudicium, non est 
+      <lb ed="#F" n="29"/>sufficiens probatio eius, quod dicebat. 
+      <lb ed="#F" n="30"/>Ss tamen solennsiter quis confiteretur 
+      <lb ed="#F" n="31"/>extraiudicium, si post conuenitur, non 
+      <lb ed="#F" n="32"/>est admittendus contra suam 
+      confessio<lb ed="#F" n="33" break="no"/>nem, nisi ostenderet se in alio casu 
+      intel<lb ed="#F" n="34" break="no"/>lexisse: vt no. supr. de elect. per 
+      inquisiti<lb ed="#F" n="35" break="no"/>onem. haec autem ideo confessio eius non 
+      <lb ed="#F" n="36"/>est sufficiens probatio: quia non 
+      viue<lb ed="#F" n="37" break="no"/>bat qui confessionem fecerat, &amp; ideo non 
+      <lb ed="#F" n="38"/>poterat dare intellectum confessioni. ar. 
+      <lb ed="#F" n="39"/>infr. de acc. cum dile. sed tame est ad 
+      ple<lb ed="#F" n="40" break="no"/>num praesumptio, vnde ei statur, vt hic 
+      <lb ed="#F" n="41"/>sequitur. &amp; non intelligas quod ex his 
+      <lb ed="#F" n="42"/>verbis probaretur eum fuisse oblatum 
+      mo<lb ed="#F" n="43" break="no"/>nasterio cum rebus suis, sed probatur quod 
+      <lb ed="#F" n="44"/>voluit bona sua peruenire ad monasterio 
+      <lb ed="#F" n="45"/>um, ad quod quasi quaelibet verba 
+      suffi<lb ed="#F" n="46" break="no"/>ciunt. ff. de fun. instr. cum delanionis. 
+      <lb ed="#F" n="47"/>§. asinam. ff. de sup. le. l. labeo. (Vnde) 
+      ex<lb ed="#F" n="48" break="no"/>press ius dicit, quod dixerat. (Probantes) 
+      <lb ed="#F" n="49"/>scilicet quod se &amp; sua obtulit, vni testi 
+      tan<lb ed="#F" n="50" break="no"/>tum non creditur, vt no. sup. de proc. ex 
+      <lb ed="#F" n="51"/>insinuatione. sed cum aliqua probatione. 
+      <lb ed="#F" n="52"/>s. confessione bene creditur, nisi 
+      probe<lb ed="#F" n="53" break="no"/>tur phreneticus vt sequitur. (
+      Adminicu<lb ed="#F" n="54" break="no"/>lantes) in tantum adminiculabatur 
+      archi<lb ed="#F" n="55" break="no"/>presbyteri confessio, quod se &amp; suadedit mo¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>nasterio, quia si condemnatur episcopus 
+      adre<lb ed="#F" n="57" break="no"/>stitutionem, ac si vere reditus essent. (
+      Con<lb ed="#F" n="58" break="no"/>potem) &amp; sic probatur negatiua. C. de codi, 
+      <lb ed="#F" n="59"/>nec codi. ff. de condi. insti. quodam. ff. de proba. 
+      <lb ed="#F" n="60"/>si filius. (Vltimam). q. q. &amp; si haec verbanom 
+      <lb ed="#F" n="61"/>expressisset, tamen tacite vim tenerent 
+      <lb ed="#F" n="62"/>vltimae voluntatis. (Imponatur) in eo quod 
+      <lb ed="#F" n="63"/>episcopus erat actor. (Compellatur) in eo 
+      <lb ed="#F" n="64"/>quod episcopus erat reus. (Ei) episcopo, 
+      <lb ed="#F" n="65"/>&amp; sic habes, quod vacante ecelesia subiecta 
+      <lb ed="#F" n="66"/>episcopo episcopus eius nomineagit, &amp; 
+      <lb ed="#F" n="67"/>sic forte est in quolibet superiore, qui pro 
+      <lb ed="#F" n="68"/>quolibet collegio sibi subiecto potest 
+      <lb ed="#F" n="69"/>agere. C. de epi. &amp; cle. nulli. &amp; l. si quis ad. 
+      <lb ed="#F" n="70"/>sup. de praescr. ex transmissa. de hoc no. sup. 
+      <lb ed="#F" n="71"/>derest. spo. olim. (Ab intestato) nec 
+      legi<lb ed="#F" n="72" break="no"/>timos agnatos, vel cognatos reliquerit. 
+      <lb ed="#F" n="73"/>ff. eo. c. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

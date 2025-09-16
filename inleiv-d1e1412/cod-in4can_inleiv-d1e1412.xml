@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 48</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 48</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="458-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1412" type="decretales-l3t48">
+            <head xml:id="inleiv-d1e1412-Hd1e98">Titulus 48</head>
+            <p xml:id="inleiv-d1e1412-d1e100">
+               <lb ed="#F" n="75"/>TI TVLVS XLVIII 
+      <lb ed="#F" n="76"/>E ECCL. 
+      AEDIEI<lb ed="#F" n="77" break="no"/>CANDIS VEL 
+      REPA<lb ed="#F" n="78" break="no"/>randis. 
+      </p>
+            <div xml:id="inleiv-d1e1412-Dd1e111" type="decretales-l3t48c1">
+               <head xml:id="inleiv-d1e1412-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1412-d1e115">
+                  <lb ed="#F" n="79"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e120">
+                  <lb ed="#F" n="80"/>CVNQVE ECCLESI. 
+      <lb ed="#F" n="81"/>asticum.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1412-Dd1e128" type="decretales-l3t48c2">
+               <head xml:id="inleiv-d1e1412-Hd1e130">Caput 2</head>
+               <p xml:id="inleiv-d1e1412-d1e132">
+                  <lb ed="#F" n="82"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e137">
+                  <lb ed="#F" n="83"/>CVM DICAT APOST. 
+      <lb ed="#F" n="84"/>&amp; inf. (Tot) &amp; tam diuites &amp; 
+      <lb ed="#F" n="85"/>ideo benem sequitur quod 
+      eccle<lb ed="#F" n="86" break="no"/>sia &amp;c. (constituere) &amp; de 
+      su<lb ed="#F" n="87" break="no"/>is facultatibus (Gaudere). i. 
+      <lb ed="#F" n="88"/>necesfaria proprio pres bytero 
+      ministra<lb ed="#F" n="89" break="no"/>re(Permittantur) . i. episcopus concedat 
+      <lb ed="#F" n="90"/>licentiam eis, ipsi autem authoritate 
+      cano<lb ed="#F" n="91" break="no"/>nis facere non poterant, sed cum superiore 
+      <lb ed="#F" n="92"/>agent vt cogantur. Tribuere) No. 
+      de<lb ed="#F" n="93" break="no"/>cimas laicis concedit tanquaem pauperibus, 
+      <lb ed="#F" n="94"/>&amp; quia est religiosum collegium &amp; licitum, 
+      <lb ed="#F" n="95"/>&amp; ob hoc videtur approbatum.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1412-Dd1e169" type="decretales-l3t48c3">
+               <head xml:id="inleiv-d1e1412-Hd1e171">Caput 3</head>
+               <p xml:id="inleiv-d1e1412-d1e173">
+                  <lb ed="#F" n="96"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e178">
+                  <lb ed="#F" n="97"/>AD AVDIENTIAM 
+      <lb ed="#F" n="98"/>nostram. (Sine magna) 63. di. 
+      <lb ed="#F" n="99"/>cum longe. ff. de iudi. si locus. 
+      <lb ed="#F" n="100"/>ff. de excep. si cum dies. §. si 
+      ar<lb ed="#F" n="101" break="no"/>biter. de cons. di. 1. si quis extra. 
+      <lb ed="#F" n="102"/>18. di. quoniam quidem (Prouentus) 
+      spiri<lb ed="#F" n="103" break="no"/>tuales, non enim credimus quo eis dare 
+      de<lb ed="#F" n="104" break="no"/>beret campos, vel alia bona quae haberet 
+      <lb ed="#F" n="105"/>in ipsa villa. (Fundatoris) &amp; ambo sunt 
+      <pb ed="#F" n="458-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>patroni, matrix ecclesia propter dotem, 
+      <lb ed="#F" n="2"/>quia de reditibus eius debitis dotatur 
+      ec<lb ed="#F" n="3" break="no"/>clesia, fundatoris propter fundationem, 
+      <lb ed="#F" n="4"/>&amp; quia pro parte dotat, vnde est, quod ex 
+      <lb ed="#F" n="5"/>dotatione possunt plures esse patroni, &amp; 
+      <lb ed="#F" n="6"/>similiter ex fundatione. (Honor) . lict 
+      annu<lb ed="#F" n="7" break="no"/>us census qui debetur, vel faciat 
+      scrutini<lb ed="#F" n="8" break="no"/>um baptismi. supr. de cap. mo. dilec. de 
+      <lb ed="#F" n="9"/>maio. &amp; obed. his. &amp; quod alia iura 
+      paro<lb ed="#F" n="10" break="no"/>chialia soluat in decimis, &amp; alijs quae de 
+      <lb ed="#F" n="11"/>iure, vel de consuetudine debentur 
+      ca<lb ed="#F" n="12" break="no"/>pellae matrici ecclesiae, &amp; hoc ratione 
+      pa<lb ed="#F" n="13" break="no"/>rochiae non iurep. debentur. (Honor) 
+      <lb ed="#F" n="14"/>matricis ecclesiae, in alijs ecclesijs in suam 
+      <lb ed="#F" n="15"/>parochiam constitutis, aliquando habent 
+      <lb ed="#F" n="16"/>certum ius statutum, vt hic. &amp; sup. de cons. 
+      <lb ed="#F" n="17"/>cum dilec. aliquando consuetudinarium 
+      <lb ed="#F" n="18"/>terrae, vel prouinciae, vt in vrbe 
+      baptis<lb ed="#F" n="19" break="no"/>mum scru. &amp; capitulum. sup. de capel. 
+      mo<lb ed="#F" n="20" break="no"/>na. dilectus. plebibus autem 
+      parochiali<lb ed="#F" n="21" break="no"/>bus ecclesijs, &amp; maxime conceditur, quod 
+      <lb ed="#F" n="22"/>cum habeant curam clericorum &amp; 
+      laico<lb ed="#F" n="23" break="no"/>rum in eadem parochia constitutorum. 
+      <lb ed="#F" n="24"/>sup. de offi. archipres. vt singulae. 
+      quam<lb ed="#F" n="25" break="no"/>uis in omnibus his praeualere debeat 
+      con<lb ed="#F" n="26" break="no"/>suetudo, vt no. sup. de offi. ord. c. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1412-Dd1e263" type="decretales-l3t48c4">
+               <head xml:id="inleiv-d1e1412-Hd1e265">Caput 4</head>
+               <p xml:id="inleiv-d1e1412-d1e267">
+                  <lb ed="#F" n="27"/>Caput IIII 
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e272">
+                  <lb ed="#F" n="28"/>DE HIS. (Et institutionem) 
+      <lb ed="#F" n="29"/>ad fundandum ecclesias de 
+      <lb ed="#F" n="30"/>nouo, si fortem populus 
+      cre<lb ed="#F" n="31" break="no"/>scat: vt inf. c. prox. inf. c. vl. 
+      <lb ed="#F" n="32"/>(Cogi) si percipiunt quartam, 
+      <lb ed="#F" n="33"/>fabricae. 10. q. 1. decernimus. &amp; q. 3. vnio. 
+      <lb ed="#F" n="34"/>&amp; si slla non sufficit de bonis proprijs 
+      con<lb ed="#F" n="35" break="no"/>ferre debent. 2. q. 3. pontifices. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1412-Dd1e293" type="decretales-l3t48c5">
+               <head xml:id="inleiv-d1e1412-Hd1e295">Caput 5</head>
+               <p xml:id="inleiv-d1e1412-d1e297">
+                  <lb ed="#F" n="36"/>CAPVT V. 
+      <lb ed="#F" n="37"/>1 priuilegium non subito fed cum 
+      desiberasia<lb ed="#F" n="38" break="no"/>ne concedi debet.
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e306">
+                  <lb ed="#F" n="39"/>AD AVDIENTIAM 
+      <lb ed="#F" n="40"/>nostram. (Priuile.) ff. de 
+      <lb ed="#F" n="41"/>sure codi. quidam referunt. 
+      <lb ed="#F" n="42"/>§. 1. ff. de ser. vrb. praed. si 
+      ser<lb ed="#F" n="43" break="no"/>uit. §. vlt. arg. contra. ff. si 
+      <lb ed="#F" n="44"/>ser. ven. l. vlt. ff. de ser. vrb. praed. Labeo. 
+      <lb ed="#F" n="45"/>Sol. futurae rei non potest constitui ser. 
+      <lb ed="#F" n="46"/>uitus, sed potest quis se obligare, vt facto 
+      <lb ed="#F" n="47"/>aedificio constituat. ff. fami. ercis. 
+      haere<lb ed="#F" n="48" break="no"/>des. §. an ea. vel ideo Papa non concedit 
+      <lb ed="#F" n="49"/>priuilegium futurae ecclesiae, quia non 
+      <lb ed="#F" n="50"/>subito, sed cum deliberatione 
+      con<lb ed="#F" n="51" break="no"/>cedi debet. 23: distin. 
+      com<lb ed="#F" n="52" break="no"/>munis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1412-Dd1e340" type="decretales-l3t48c6">
+               <head xml:id="inleiv-d1e1412-Hd1e342">Caput 6</head>
+               <p xml:id="inleiv-d1e1412-d1e344">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>CAPVT VI.
+      </p>
+               <p xml:id="inleiv-d1e1412-d1e351">
+                  <lb ed="#F" n="54"/>TVA NOS DVXIT.
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

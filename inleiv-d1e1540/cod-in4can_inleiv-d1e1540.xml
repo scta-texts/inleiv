@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="473-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1540" type="decretales-l4t9">
+            <head xml:id="inleiv-d1e1540-Hd1e98">Titulus 9</head>
+            <p xml:id="inleiv-d1e1540-d1e100">
+               <lb ed="#F" n="81"/>TITVLVS IX. 
+      <lb ed="#F" n="82"/>DE CONIVGIO 
+      <lb ed="#F" n="83"/>SERVORVM.
+      </p>
+            <div xml:id="inleiv-d1e1540-Dd1e109" type="decretales-l4t9c1">
+               <head xml:id="inleiv-d1e1540-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1540-d1e113">
+                  <lb ed="#F" n="84"/>CAPUT I. 
+      <lb ed="#F" n="85"/>1 Sruus anet quandodomuto 
+      priuebedirede<lb ed="#F" n="86" break="no"/>bet, quam vxori exigenti debitum carnalem. 
+      <lb ed="#F" n="87"/>8 Dominus non potest vendere seruum coniugatum. 
+      </p>
+               <p xml:id="inleiv-d1e1540-d1e124">
+                  <lb ed="#F" n="88"/>SIGNVM. (Seruitia) &amp; si 
+      <lb ed="#F" n="89"/>simul concurrat vxor ad 
+      pe<lb ed="#F" n="90" break="no"/>stendum debitum, &amp; 
+      domi<lb ed="#F" n="91" break="no"/>nus ad petendum seruitium, 
+      <lb ed="#F" n="92"/>quia de debito reddendo se 
+      <lb ed="#F" n="93"/>eito expedit, videtur dominus malitiose 
+      <lb ed="#F" n="94"/>facere, si nec modicum momentum det 
+      <lb ed="#F" n="95"/>seruo ad satis faciendum vxori, vnde eius 
+      <lb ed="#F" n="96"/>malitiae non est indulgendum. ff. de rei vem. 
+      <lb ed="#F" n="97"/>in fundo, quia tamen non potuit se 
+      obli<lb ed="#F" n="98" break="no"/>gare in praeiudicium prioris obligationis, 
+      <lb ed="#F" n="99"/>&amp; quares transit eumonere suo, primo obeo 
+      <lb ed="#F" n="100"/>diet domino, ar. su. de iureiur. tua. 
+      nisiti<lb ed="#F" n="101" break="no"/>meatur de adulterio, &amp; tenetur eum sequi, 
+      <pb ed="#F" n="473-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>quocunqe dfis miserit eum, si tamen 
+      vei<lb ed="#F" n="2" break="no"/>let eum vendere Graecis, forte non posset, 
+      <lb ed="#F" n="3"/>quia separari non debent. arg. C. comu. 
+      <lb ed="#F" n="4"/>vtri. iud. possessionum. 34. dist. 
+      fraternita<lb ed="#F" n="5" break="no"/>tem. sed alicui propinquo cogi poterit 
+      <lb ed="#F" n="6"/>ad vendendum bonis conditi. Interest 
+      <lb ed="#F" n="7"/>enim, ne quis re sua male vtatur. insti. de 
+      <lb ed="#F" n="8"/>his qui sunt sui vel alie. iur. §. pe. ff. eo. si 
+      <lb ed="#F" n="9"/>dunes. Item credimus si diuersorum serui 
+      <lb ed="#F" n="10"/>&amp; ancillae copulentur, quia non debent 
+      <lb ed="#F" n="11"/>ita diuidi, quod sibi aliquando debitum 
+      <lb ed="#F" n="12"/>reddere non possint. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1540-Dd1e188" type="decretales-l4t9c2">
+               <head xml:id="inleiv-d1e1540-Hd1e190">Caput 2</head>
+               <p xml:id="inleiv-d1e1540-d1e192">
+                  <lb ed="#F" n="13"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1540-d1e197">
+                  <lb ed="#F" n="14"/>PROpoSVIT. (
+      Camnaui<lb ed="#F" n="15" break="no"/>ter) pendente autem lite 
+      <lb ed="#F" n="16"/>non reddet sibi debitum, sed 
+      <lb ed="#F" n="17"/>prius exconmunicationem 
+      <lb ed="#F" n="18"/>Inquisitiomuim. secus est in adultera quam in 
+      <lb ed="#F" n="19"/>vxore. de quanot. inf. de sent. excom. 
+      in<lb ed="#F" n="20" break="no"/>quisitioni. (Audiuit) et credidit, non enim 
+      <lb ed="#F" n="21"/>cuilibet referenti credendum est. 23. q. 
+      <lb ed="#F" n="22"/>4. quam magnum. ff. quod cum fal. tut. l. 2. 
+      <lb ed="#F" n="23"/>&amp; titubans pro ignorante habendus est. 
+      <lb ed="#F" n="24"/>C. de cond. inde. l. vlti. ff. de lib. ho. exhi. 
+      <lb ed="#F" n="25"/>l. 3. §. his. (diuortum) &amp; quidem error 
+      dete<lb ed="#F" n="26" break="no"/>rioris conditionis impedit matrimonium 
+      <lb ed="#F" n="27"/>contrahendum, &amp; dirimit iam contractum, 
+      <lb ed="#F" n="28"/>vt si liber contrahat cum ancilla, vt hic 
+      <lb ed="#F" n="29"/>per totum. sed secus est si sit ibi error 
+      ma<lb ed="#F" n="30" break="no"/>ioris, vel paris conditionis, vt si seruus 
+      <lb ed="#F" n="31"/>cum libera contrahat, vel etiam cum 
+      an<lb ed="#F" n="32" break="no"/>cilla, etiam si credat eam liberam, quia non 
+      <lb ed="#F" n="33"/>habet quid sibi obiiciatur. 32. q. 7. per 
+      to<lb ed="#F" n="34" break="no"/>tum. argu. inf. de diuor. significasti. Item 
+      <lb ed="#F" n="35"/>alia ratione, quia edictum de 
+      matrimo<lb ed="#F" n="36" break="no"/>nio est prohibitorium, &amp; tenet 
+      matri<lb ed="#F" n="37" break="no"/>monium seruorum etiam dominis 
+      con<lb ed="#F" n="38" break="no"/>tradicentibus (Mulieri) id est dominomu 
+      <lb ed="#F" n="39"/>lieris, vel de equitate canonica loquitur. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1540-Dd1e257" type="decretales-l4t9c3">
+               <head xml:id="inleiv-d1e1540-Hd1e259">Caput 3</head>
+               <p xml:id="inleiv-d1e1540-d1e261">
+                  <lb ed="#F" n="40"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e1540-d1e266">
+                  <lb ed="#F" n="41"/>LICET. (Conditionem) 
+      ali<lb ed="#F" n="42" break="no"/>ter enim est de iure. 32. q. 4 
+      <lb ed="#F" n="43"/>liberi. C de rei ven. partus. 
+      <lb ed="#F" n="44"/>(Patris) quantum ad patrem 
+      <lb ed="#F" n="45"/>sufficiebat quinquennium. 
+      <lb ed="#F" n="46"/>C. ne de sta. de fun. l. 1. &amp; l. si pater. (
+      ludi<lb ed="#F" n="47" break="no"/>candum) non est diuortium facsendum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1540-Dd1e286" type="decretales-l4t9c4">
+               <head xml:id="inleiv-d1e1540-Hd1e288">Caput 4</head>
+               <p xml:id="inleiv-d1e1540-d1e290">
+                  <lb ed="#F" n="48"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e1540-d1e295">
+                  <lb ed="#F" n="49"/>AD NOSTRAM, (
+      Intei<lb ed="#F" n="50" break="no"/>lexit) &amp; credidit, vt no. sup. 
+      <lb ed="#F" n="51"/>eo. c. 1. (Consenserit) repete 
+      <lb ed="#F" n="52"/>quod diximus de eo qui duxit 
+      <lb ed="#F" n="53"/>in ma. c. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

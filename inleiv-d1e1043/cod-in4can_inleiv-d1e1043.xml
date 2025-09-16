@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 15</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 15</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="390-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1043" type="decretales-l3t15">
+            <head xml:id="inleiv-d1e1043-Hd1e98">Titulus 15</head>
+            <p xml:id="inleiv-d1e1043-d1e100">
+               <lb ed="#F" n="68"/>TITVLVS XV. 
+      <lb ed="#F" n="69"/>DE COMMODATO. 
+      </p>
+            <div xml:id="inleiv-d1e1043-Dd1e107" type="decretales-l3t15c1">
+               <head xml:id="inleiv-d1e1043-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1043-d1e111">
+                  <lb ed="#F" n="70"/>CAPVT 1. 
+      <lb ed="#F" n="71"/>CVM GRATIA. Si autem 
+      <lb ed="#F" n="72"/>commodaui gratia sui 
+      tan<lb ed="#F" n="73" break="no"/>tum, puta vxori, vel sponsae 
+      <lb ed="#F" n="74"/>suae, vt honestius viueret 
+      ve<lb ed="#F" n="75" break="no"/>nit tantum dolus &amp; lata 
+      cul<lb ed="#F" n="76" break="no"/>pa, si autem mei &amp; tuigratia 
+      commoda<lb ed="#F" n="77" break="no"/>ui, puta vt communis amicus inuitaretur, 
+      <lb ed="#F" n="78"/>venit dolus &amp; lata culpa, &amp; leuis. ff. com. 
+      <lb ed="#F" n="79"/>si vt certo. §. &amp; interdum. &amp; l. in rebus. 
+      <lb ed="#F" n="80"/>(Culpa) ff. eo. si vt certo. §. &amp; interdum. &amp; 
+      <lb ed="#F" n="81"/>§. vlti. ff. eod. si mei. &amp; l. si argentum. ff. si 
+      <lb ed="#F" n="82"/>men. fal. mo. dixe. (Pactum) de mora. &amp; 
+      <lb ed="#F" n="83"/>de pacto dic, vt tit. proxi. infra dona. (Post 
+      <lb ed="#F" n="84"/>vsum) haec est differentia inter 
+      commo<lb ed="#F" n="85" break="no"/>datum, &amp; precarium, quia precarium non 
+      <lb ed="#F" n="86"/>est ad certum vsum concessum. ff. de 
+      pre<lb ed="#F" n="87" break="no"/>ca. cum precario. commodatum autem 
+      <lb ed="#F" n="88"/>ad certum vsum. sic. ff. eo. l. 4. §. vlti. &amp; l. 4 
+      <lb ed="#F" n="89"/>l. siue. §. interdum. &amp; l. vlti. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

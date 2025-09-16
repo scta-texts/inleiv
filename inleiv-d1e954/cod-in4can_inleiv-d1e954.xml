@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 7</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 7</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="368-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e954" type="decretales-l3t7">
+            <head xml:id="inleiv-d1e954-Hd1e98">Titulus 7</head>
+            <p xml:id="inleiv-d1e954-d1e100">
+               <lb ed="#F" n="66"/>TITVLVS VII 
+      <lb ed="#F" n="67"/>DE 
+      INSTITVTIO<lb ed="#F" n="68" break="no"/>NIBVS. 
+      </p>
+            <div xml:id="inleiv-d1e954-Dd1e109" type="decretales-l3t7c1">
+               <head xml:id="inleiv-d1e954-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e954-d1e113">
+                  <lb ed="#F" n="69"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e118">
+                  <lb ed="#F" n="70"/>NON AMPLIVS. (
+      Rege<lb ed="#F" n="71" break="no"/>re) &amp; hospitalitatem seruare. 
+      <lb ed="#F" n="72"/>sup. de praeben. de monachis. 
+      <lb ed="#F" n="73"/>&amp; sup. de suppl. negligem. 
+      prae<lb ed="#F" n="74" break="no"/> lat. sicut. §. similiter. Sed si 
+      <lb ed="#F" n="75"/>plures quam sint ibi inde possint conmmode 
+      su<lb ed="#F" n="76" break="no"/>stentari, ibi plures ponendi sunt. inf. de censi. 
+      <lb ed="#F" n="77"/>quanto. 12. q. 1. percipimus. 16. q. 7. omnes. 
+      <lb ed="#F" n="78"/>tamen propter incrementum modicum, 
+      <lb ed="#F" n="79"/>non est augendus numetus. C. de alluuio. l. 
+      <lb ed="#F" n="80"/>penul. &amp; vlti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e145" type="decretales-l3t7c2">
+               <head xml:id="inleiv-d1e954-Hd1e147">Caput 2</head>
+               <p xml:id="inleiv-d1e954-d1e149">
+                  <lb ed="#F" n="81"/>CAPVT II. 
+      <lb ed="#F" n="82"/>1 canonici scire debent literas, &amp; scruire Dao 
+      <lb ed="#F" n="83"/>in ordinibus suia, &amp; in officiis. 
+      <lb ed="#F" n="84"/>2 lus monacbi in laicum cadere potect. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e160">
+                  <lb ed="#F" n="85"/>IN ECCLESIA. (Numero.) 
+      <lb ed="#F" n="86"/>Et ita ius canonici, &amp; 
+      cano<lb ed="#F" n="87" break="no"/>niae non cadit, nisi in clericum. 
+      <lb ed="#F" n="88"/>21. dist. cleros. vel in 
+      conuer<lb ed="#F" n="89" break="no"/>
+                  <!-- line coord error -->
+                  <lb ed="#F" n="90"/>sum habitu &amp; professioe. ar. 
+      <lb ed="#F" n="91"/>23. q. 1. paratus. 12. q. 1. cui portio. &amp; qui tale 
+      <lb ed="#F" n="92"/>ius emit, simoniam committit. 1. q. 3. saluator. 
+      <lb ed="#F" n="93"/>nam si in alios laicos ius canonici caderet, 
+      <lb ed="#F" n="94"/>ergo de rebus ecclesiae disponere possent, 
+      <lb ed="#F" n="95"/>&amp; essent in contrarium iura illa. 96. dist. bene 
+      <lb ed="#F" n="96"/>quidem. sup. de iudic. c. 2. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e191">
+                  <lb ed="#F" n="97"/>1 Nos credimus, quod vbi est certus 
+      nu<lb ed="#F" n="98" break="no"/>merus canonicorum, vel distinctae praebendae, 
+      <lb ed="#F" n="99"/>quod etiam per conuersos professos non 
+      <lb ed="#F" n="100"/>impletur numerus canonicorum. 
+      Cano<lb ed="#F" n="101" break="no"/>nici enim scire debent literas, &amp; seruire 
+      <lb ed="#F" n="102"/>Deo in ordinibus suis, &amp; in officijs. 21. dist. 
+      <lb ed="#F" n="103"/>cleros. &amp; per totum. 81. dis. eos. &amp; c. si quid. 
+      <lb ed="#F" n="104"/>quamuis aliter sint religiosae personae. 12. 
+      <lb ed="#F" n="105"/>quaest. 1. duo. &amp; incidat in canonem, qui 
+      <lb ed="#F" n="106"/>tales verberat. infra, de sen. excom. non 
+      <pb ed="#F" n="368-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>dubium. Quidam etiam dicunt in hos 
+      con<lb ed="#F" n="2" break="no"/>uersos, non residere ius canonici, vt 
+      vocen<lb ed="#F" n="3" break="no"/>tur ad electiones, vel alienationes, vel 
+      cae<lb ed="#F" n="4" break="no"/>teros contractus. 12. q. 2. sine exceptione. &amp; 
+      <lb ed="#F" n="5"/>c. placuit. 63. dist. c. 1. &amp; 2. inf. de statu 
+      mo<lb ed="#F" n="6" break="no"/>nac. c. vlti. §. praecipimus. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e233">
+                  <lb ed="#F" n="7"/>2 Ius autem monachi, bene cadit in 
+      lai<lb ed="#F" n="8" break="no"/>cum, vnde credimus, quod intererunt elex 
+      <lb ed="#F" n="9"/>ctionibus, alienationibus, &amp; caeteris 
+      contra<lb ed="#F" n="10" break="no"/>ctibus monasterii. ar. 16. q. 1. generaliter. 
+      <lb ed="#F" n="11"/>93. distin. a subdiacono. Item dicimus de 
+      <lb ed="#F" n="12"/>hospitalarijs. 5. de arbi. cum olim. Alii 
+      ta<lb ed="#F" n="13" break="no"/>men dicunt, quod si de consuetudine esset, 
+      <lb ed="#F" n="14"/>quod de aliquo religioso loco aliquis 
+      lai<lb ed="#F" n="15" break="no"/>corum, vel professorum vocaretur ad 
+      ele<lb ed="#F" n="16" break="no"/>ctionem in ecclesia seculari, vel etiam 
+      con<lb ed="#F" n="17" break="no"/>uersi ecclesiae, forte propter hoc, non esset 
+      <lb ed="#F" n="18"/>cassanda nulla electio, nec est contrarium. 
+      <lb ed="#F" n="19"/>sup. de elect. massana. quia ibi loquitur de 
+      <lb ed="#F" n="20"/>laicis puris non professis. Clerici tamem qui 
+      <lb ed="#F" n="21"/>praebendantur in ecclesijs, si non habent 
+      <lb ed="#F" n="22"/>ibi ius canonicatus, nullo modo ad 
+      electi<lb ed="#F" n="23" break="no"/>onem, vel ad alia canonica facta capituli 
+      <lb ed="#F" n="24"/>vocari debent, sed alias deberent deuotae 
+      <lb ed="#F" n="25"/>seruire. inf. de statu mona. c. vlti. &amp; pe. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e278" type="decretales-l3t7c3">
+               <head xml:id="inleiv-d1e954-Hd1e280">Caput 3</head>
+               <p xml:id="inleiv-d1e954-d1e282">
+                  <lb ed="#F" n="26"/>CAPVT III. 
+      <lb ed="#F" n="27"/>1 Laici licet possint praesentare, non tamen 
+      pos<lb ed="#F" n="28" break="no"/>sunt conferre: Et quid de elerieis sit 
+      di<lb ed="#F" n="29" break="no"/>cendum. 
+      <lb ed="#F" n="30"/>Archiepiscabi habent iurisdictionem in 
+      o<lb ed="#F" n="31" break="no"/>mnibus, quae generaliter tangunt statum 
+      <lb ed="#F" n="32"/>totius prouinciae.
+      </p>
+               <p xml:id="inleiv-d1e954-d1e300">
+                  <lb ed="#F" n="33"/>EX FREQVENTIPVS. 
+      <lb ed="#F" n="34"/>(officialium) Nomine talium 
+      <lb ed="#F" n="35"/>officialium intelligo hic 
+      con<lb ed="#F" n="36" break="no"/>prehendi omnes, ad quos de 
+      <lb ed="#F" n="37"/>iure, vel consuetudine 
+      appro<lb ed="#F" n="38" break="no"/>bata ptinet collatio, siue fuerit Archidiac. 
+      <lb ed="#F" n="39"/>siue alij, dummodo authoritate speciali 
+      <lb ed="#F" n="40"/>vel generali episcopi faciant. (Recipiutm) 
+      <lb ed="#F" n="41"/>&amp; male, licet enim patroni laici, vel etiam 
+      <lb ed="#F" n="42"/>alii possint praesentare, non tamen possunt 
+      <lb ed="#F" n="43"/>conferre, sed episcopus hoc facere debet. 
+      <lb ed="#F" n="44"/>sup. de praeben. &amp; digni. Lateranens. Imo 
+      <lb ed="#F" n="45"/>a idem dicimus a de clericis, qui licet possint 
+      <lb ed="#F" n="46"/>eligere, tamen beneficia habere non 
+      de<lb ed="#F" n="47" break="no"/>bent sine assensu episcoporum, nec 
+      insti<lb ed="#F" n="48" break="no"/>tuere, vel conferre, nec etiam eis prodest 
+      <lb ed="#F" n="49"/>consu: tudo. de hoc not. infra, de conces. 
+      <lb ed="#F" n="50"/>praeb. proposuit. (Institutionibus.) 16. q.7. 
+      <lb ed="#F" n="51"/>nullus. 71. dist. per totum. (Ex officio) 
+      <lb ed="#F" n="52"/>Not. Archiepiscopum habere 
+      iurisdictio<lb ed="#F" n="53" break="no"/>nem in omnibus quae generaliter tangunt 
+      <lb ed="#F" n="54"/>statum totius prouinciae. (In illos) tenet 
+      <lb ed="#F" n="55"/>haec sententia archiepiscopi in suibditos 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>suffraganeorum, quia negligentes erant 
+      <lb ed="#F" n="57"/>vel quia status totius prouinciae in ficie 
+      <lb ed="#F" n="58"/>bant. argumentum. 8. q. 3.eu. &amp; seq. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e363" type="decretales-l3t7c4">
+               <head xml:id="inleiv-d1e954-Hd1e365">Caput 4</head>
+               <p xml:id="inleiv-d1e954-d1e367">
+                  <lb ed="#F" n="59"/>CAPVT IIII. 
+      <lb ed="#F" n="60"/>AVTHORITATE. (Vltra quam 
+      <lb ed="#F" n="61"/>facultas) sup. eodem cap.1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e377" type="decretales-l3t7c5">
+               <head xml:id="inleiv-d1e954-Hd1e379">Caput 5</head>
+               <p xml:id="inleiv-d1e954-d1e381">
+                  <lb ed="#F" n="62"/>CAPVT V. 
+      <lb ed="#F" n="63"/>AD DECOREM. (
+      Acce<lb ed="#F" n="64" break="no"/>ptus) est Deo. 22. q. 4. c. his 
+      <lb ed="#F" n="65"/>ita. (Haereditario.) 7. q. 1. 
+      <lb ed="#F" n="66"/>apostoliea. (Dicitur, 
+      patri<lb ed="#F" n="67" break="no"/>archa. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e398" type="decretales-l3t7c6">
+               <head xml:id="inleiv-d1e954-Hd1e400">Caput 6</head>
+               <p xml:id="inleiv-d1e954-d1e402">
+                  <lb ed="#F" n="68"/>CAPVT VI. 
+      <lb ed="#F" n="69"/>1 Interlocutiora quae dicatur. 
+      <lb ed="#F" n="70"/>2 Non potest archie piscopus ex iuramtto agere 
+      <lb ed="#F" n="71"/>3 Nunquid ex coluntario iuramento, detur 
+      <lb ed="#F" n="72"/>actio secundum canones. 
+      <lb ed="#F" n="73"/>4 Exceptio abiurationis non admittitur 
+      eon<lb ed="#F" n="74" break="no"/>tra agentem interdicto vti possidetis. 
+      <lb ed="#F" n="75"/>5 Exceptio abiurationis dicitur esse dilatoria, 
+      <lb ed="#F" n="76"/>non autem fori declinatoria. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e424">
+                  <lb ed="#F" n="77"/>CVM VENISSENT. Potest 
+      <lb ed="#F" n="78"/>intelligi haec decre. quod 
+      so<lb ed="#F" n="79" break="no"/>lus archiepiscopus 
+      intenta<lb ed="#F" n="80" break="no"/>uit petitorium super iuribus 
+      <lb ed="#F" n="81"/>E3istis, contra archidiaconum. 
+      <lb ed="#F" n="82"/>set intentando negatoriam, negando ius 
+      cu<lb ed="#F" n="83" break="no"/>stodiae &amp; institutionem pertinere ad 
+      archi<lb ed="#F" n="84" break="no"/>diaconum, vel confessoriam, dicendo haec 
+      <lb ed="#F" n="85"/>iura ad se pertinere. Sed huic intellectui 
+      <lb ed="#F" n="86"/>videtur contradicere infra, vbi dicit 
+      statu<lb ed="#F" n="87" break="no"/>imus archidiaconum tuendum, per quod 
+      ap<lb ed="#F" n="88" break="no"/>paret, possessorio actum. Sed dic illam non 
+      <lb ed="#F" n="89"/>fuisse diffinitiuam sententiam, sed 
+      inter<lb ed="#F" n="90" break="no"/>locutoriam, vt ibi dicitur, nam pendente 
+      <lb ed="#F" n="91"/>primo iudicio, super proprietate, 
+      archie<lb ed="#F" n="92" break="no"/>piscopus molestabat eum, vel 
+      arehidia<lb ed="#F" n="93" break="no"/>conus timebat molestationem 
+      archiepi<lb ed="#F" n="94" break="no"/>scopi super possessorio, vnde Papa ex 
+      offi<lb ed="#F" n="95" break="no"/>cio suo, quod habet locum, in his, quae post 
+      <lb ed="#F" n="96"/>litem contestatam accidunt, praecipit 
+      e<lb ed="#F" n="97" break="no"/>um tuendum, supple lite pendente, &amp; hoc 
+      <lb ed="#F" n="98"/>innuit litera, quae sequitur, donec 
+      proba<lb ed="#F" n="99" break="no"/>tum etc. Potest etiam intelligi haec decre. 
+      <lb ed="#F" n="100"/>quod vterque agebat interdicto vti 
+      pos<lb ed="#F" n="101" break="no"/>sidetis. ff. vti possidetis. si duo. &amp; l. ambo 
+      <lb ed="#F" n="102"/>quoque. in fi. &amp; l. vlti. ff. de superfi. l. 
+      <lb ed="#F" n="103"/>1. §. proponitur. &amp; quia Archidiaconus 
+      <lb ed="#F" n="104"/>melius probauit, fertur pro eo 
+      senten<lb ed="#F" n="105" break="no"/>tia, &amp; est idem dicere eum tuendum, 
+      <lb ed="#F" n="106"/>sicut aduersarium cessare a 
+      molestatio<lb ed="#F" n="107" break="no"/>ne, quia dicitur prius. Nam iudex in 
+      <lb ed="#F" n="108"/>sententia, non debet condemnare id, 
+      <pb ed="#F" n="369-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>quod hic fecisse videtur dicendo eum 
+      tu<lb ed="#F" n="2" break="no"/>endum, quod per alium quam per 
+      iudi<lb ed="#F" n="3" break="no"/>cem fieri non debet, aduersarius tamen 
+      <lb ed="#F" n="4"/>condemnandus est, vt non molestet, non 
+      <lb ed="#F" n="5"/>vt iudex tueatur, &amp; idem esset, si ab altera 
+      <lb ed="#F" n="6"/>parte intentaretur, sed huic videtur 
+      con<lb ed="#F" n="7" break="no"/>tradicere, quod sequitur, donec ius etc. 
+      <lb ed="#F" n="8"/>quod habet locum tantum, cum de 
+      pro<lb ed="#F" n="9" break="no"/>prietate agitur. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e520">
+                  <lb ed="#F" n="10"/>Sed respondeo expone literam, 
+      do<lb ed="#F" n="11" break="no"/>nec probatum fuerit supple, cum agetur 
+      <lb ed="#F" n="12"/>de proprietate, postea non modo cum 
+      pos<lb ed="#F" n="13" break="no"/>sessorio tantum agitur, &amp; si huic 
+      archidi<lb ed="#F" n="14" break="no"/>acono non possessorio agenti obiectum 
+      es<lb ed="#F" n="15" break="no"/>set, quod precario possideret, ab eo 
+      audi<lb ed="#F" n="16" break="no"/>endus erat. ff. vti poss. l. 1. §. vlti. &amp; eodem 
+      <lb ed="#F" n="17"/>si obiiciatur, quod personalis est donatio, 
+      <lb ed="#F" n="18"/>sed vnum credimus, quod licet quando 
+      e<lb ed="#F" n="19" break="no"/>git possessorio, non potuit probare 
+      perso<lb ed="#F" n="20" break="no"/>nalem concessionem, nihilominus tamem 
+      <lb ed="#F" n="21"/>postea, cum agit de proprietate probare 
+      <lb ed="#F" n="22"/>poterit, quia alia est actio, &amp; ad aliud 
+      agi<lb ed="#F" n="23" break="no"/>tur. ff. de exceptione rei iudi. &amp; an 
+      ea<lb ed="#F" n="24" break="no"/>dem. &amp; not. sup. de elect. cum dilecti. inf. 
+      <lb ed="#F" n="25"/>de pur. can. cum dilectus. potest etiam 
+      di<lb ed="#F" n="26" break="no"/>ci &amp; leuius, quod simul intentabatur 
+      pos<lb ed="#F" n="27" break="no"/>sessorium ex parte archidiaconi, &amp; 
+      petito<lb ed="#F" n="28" break="no"/>rium ex parte archiepiscopi, &amp; quod simul 
+      <lb ed="#F" n="29"/>non fuit vtrunque finitum, ideo est, quia 
+      <lb ed="#F" n="30"/>de possessorio liquebat per confessionem, 
+      <lb ed="#F" n="31"/>&amp; de proprietate liquere non poterat de 
+      <lb ed="#F" n="32"/>facili. sup. de testi. significauerunt. &amp; 
+      secun<lb ed="#F" n="33" break="no"/>dum hoc videtur vera opi. dicentium, quod 
+      <lb ed="#F" n="34"/>in possessorio non dicitur dari diffinitiua 
+      <lb ed="#F" n="35"/>sententia, sed interlocutoria, cum dicat, 
+      <lb ed="#F" n="36"/>interlocuti, etc.
+      </p>
+               <p xml:id="inleiv-d1e954-d1e581">
+                  <lb ed="#F" n="37"/>Et dic quod interlocutoria dicitur, 
+      <lb ed="#F" n="38"/>quae fertur ante diffinitiuam sententiam 
+      <lb ed="#F" n="39"/>in petitorio proferendam, primo dictum 
+      <lb ed="#F" n="40"/>magis placet, licet &amp; alia possint de iure 
+      <lb ed="#F" n="41"/>defendi, quia tunc precarius non potest 
+      a<lb ed="#F" n="42" break="no"/>gere vti possidetis contra donationem 
+      pre<lb ed="#F" n="43" break="no"/>cario. vt. ff. de preca. l. si precario. vel dic, 
+      <lb ed="#F" n="44"/>quod ambae partes fuerunt coram Papa, 
+      <lb ed="#F" n="45"/>&amp; vtraque pars proposuit ibi ius suum, sed 
+      <lb ed="#F" n="46"/>non fuit ibi edita actio, nec modus 
+      agen<lb ed="#F" n="47" break="no"/>di, nec libellus datus, nec litis contestatio 
+      <lb ed="#F" n="48"/>facta, sed cum ex narratione facti 
+      consta<lb ed="#F" n="49" break="no"/>ret Papae, quud archidiaconus possidebat, 
+      <lb ed="#F" n="50"/>decreuit eum in possessione tuendum, 
+      do<lb ed="#F" n="51" break="no"/>nec archiepiscopus probaret coram 
+      com<lb ed="#F" n="52" break="no"/>petenti iudice, &amp; per legitimos tramites 
+      <lb ed="#F" n="53"/>iuris personalem tantum fuisse 
+      donatio<lb ed="#F" n="54" break="no"/>nem, vel abiurationem archidiaconi, 
+      di<lb ed="#F" n="55" break="no"/>cebat enim archiepiscopus, quod 
+      archi<lb ed="#F" n="56" break="no"/>diaconus iurauerat, quod huiusmodi 
+      li<lb ed="#F" n="57" break="no"/>bertatibus se non immisceret. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>Sed contra videtur, quod abiuratio 
+      nun<lb ed="#F" n="59" break="no"/>quam posset prodesse archiepiscopo, nec 
+      vn<lb ed="#F" n="60" break="no"/>quam eius probationes super ea sunt 
+      admit<lb ed="#F" n="61" break="no"/>tendae, quod archiepiscopus ex iuramento 
+      <lb ed="#F" n="62"/>non potest agere, quia ex iuramento nulla 
+      <lb ed="#F" n="63"/>prodita est actio, nisi ex iudiciali, vel 
+      ne<lb ed="#F" n="64" break="no"/>cessario. ff. de iureiur. si duo. §. si iurauerit. 
+      <lb ed="#F" n="65"/>&amp; §. Marcellus. Item non potest dici, quod forte 
+      <lb ed="#F" n="66"/>agente archidiacono archiepiscopus 
+      pos<lb ed="#F" n="67" break="no"/>sit excipere de abiuratione, quia cum 
+      ar<lb ed="#F" n="68" break="no"/>chiepiscopus possideat, non competit ei 
+      <lb ed="#F" n="69"/>actio, nisi interdictum retinendae 
+      possessi<lb ed="#F" n="70" break="no"/>onis, &amp; contra agentem illi non competeret 
+      <lb ed="#F" n="71"/>exceptio abiurationis: vt no. de renum. 
+      su<lb ed="#F" n="72" break="no"/>per eo. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e665">
+                  <lb ed="#F" n="73"/>Item si admitteretur contra ius, &amp; 
+      proba<lb ed="#F" n="74" break="no"/>ret abiurationem, non tantum 
+      interpone<lb ed="#F" n="75" break="no"/>retur silentium super libertatib. 
+      archidiaco<lb ed="#F" n="76" break="no"/>ni, sed archiepiscopus absoluetur 
+      abim<lb ed="#F" n="77" break="no"/>petitione rei. Sol. dicunt quidam, quod 
+      secun<lb ed="#F" n="78" break="no"/>dum canones etiam ex voluntario 
+      iuramen<lb ed="#F" n="79" break="no"/>to datur actio. ar. 12. q. 2. quicunque. &amp; q. 5. 
+      <lb ed="#F" n="80"/>loannes. 22. q. 5. iuramenti. Sed nobis 
+      vide<lb ed="#F" n="81" break="no"/>tur, quod ex iuramento non competit actio 
+      <lb ed="#F" n="82"/>ciuilis, sed archiepiscopus poterat 
+      denun<lb ed="#F" n="83" break="no"/>ciare crimen periurij, in quo 
+      archidiaco<lb ed="#F" n="84" break="no"/>nus manebat, miscendo se praedictis 
+      liber<lb ed="#F" n="85" break="no"/>tatibus contra proprium iuramentum, sicut 
+      <lb ed="#F" n="86"/>expresse innuitur. &amp; ar. 5. de iudi. nouit. 22. 
+      <lb ed="#F" n="87"/>q. 3. omnia. &amp;. 3. de iureiur. quemadmodum. 
+      <lb ed="#F" n="88"/>in fin. &amp; tunc bene consonaret sententia 
+      pe<lb ed="#F" n="89" break="no"/>titioni, scilicet quod imponeret 
+      archidi<lb ed="#F" n="90" break="no"/>acono silentium. i. quod decaetero non 
+      im<lb ed="#F" n="91" break="no"/>misceret se praedictis libertatibus, &amp; hoc 
+      <lb ed="#F" n="92"/>videtur verius, &amp; sic est in registro. Item non 
+      <lb ed="#F" n="93"/>videtur verum, quod hic proxime dictum est, 
+      <lb ed="#F" n="94"/>quod possessori non competit, nisi 
+      inter<lb ed="#F" n="95" break="no"/>dictum vti possidetis, quia 
+      proincorpora<lb ed="#F" n="96" break="no"/>libus bene competit, confessoria &amp; 
+      nega<lb ed="#F" n="97" break="no"/>toria: vt not. sup. de iudi. examinata. &amp; ea 
+      <lb ed="#F" n="98"/>proposita ab archidiacono, 
+      archiepisco<lb ed="#F" n="99" break="no"/>pus excipiet de personali concessione &amp; de 
+      <lb ed="#F" n="100"/>abiuratione. (Venissent) litigaturi super 
+      <lb ed="#F" n="101"/>iure instituendi personas &amp; custodiendi 
+      va<lb ed="#F" n="102" break="no"/>cantes ecclesias. (Iure communi). 5. de offi. 
+      <lb ed="#F" n="103"/>ordi. cum nos contrarium. arg. 70. dist. c. 2. ar. 
+      <lb ed="#F" n="104"/>63. dist. si in plebibus. (Consuetudinem) . 1. 
+      <lb ed="#F" n="105"/>q. 3. c. res. &amp; c. peruenit. 16. q. vlti. nulli. ar. 
+      <lb ed="#F" n="106"/>contra. 3. de app. bo. me. cum. sed illud est 
+      <lb ed="#F" n="107"/>de speciali consuetudine, vel illud est verum 
+      <lb ed="#F" n="108"/>in ecclesijs quae sunt de patronatu 
+      mona<lb ed="#F" n="109" break="no"/>chorum. (Libertatum) . Not. institutionem &amp; 
+      <lb ed="#F" n="110"/>custodiam vocari libertates. (Ipsum) scilia 
+      <lb ed="#F" n="111"/>cet archidiaconum. (Post concessionem) not. 
+      <lb ed="#F" n="112"/>concessionem liberam extitisse, licet post 
+      con<lb ed="#F" n="113" break="no"/>cessionem aliqua excepit, &amp; ex hoc non fuit 
+      <lb ed="#F" n="114"/>simoniaca receptio eius, nam cum ius haberet 
+      <pb ed="#F" n="369-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>licitum fuit per talem responsionem, &amp; 
+      <lb ed="#F" n="2"/>archiepiscopo deludere, &amp; suam 
+      vexati<lb ed="#F" n="3" break="no"/>onem redimere. infra, de simo. dilectus 
+      fi<lb ed="#F" n="4" break="no"/>lius. (Tuendum) perpetuo secundum 
+      <lb ed="#F" n="5"/>opi. quod actum fuit possessorio secundum 
+      <lb ed="#F" n="6"/>aliam opinionem, supple pendente hoc 
+      <lb ed="#F" n="7"/>iudicio coram Papa, vel suis delegatis, nam 
+      <lb ed="#F" n="8"/>post litem terminatam authoritate huius 
+      <lb ed="#F" n="9"/>mandati, non esset tuendus, cum hoc 
+      fe<lb ed="#F" n="10" break="no"/>cerit ex officio suo, quod finitur postquam 
+      <lb ed="#F" n="11"/>functus est officiosuo. sup. de offic. dele. 
+      <lb ed="#F" n="12"/>in literis. Item quia acta iudicii pereunt. 
+      <lb ed="#F" n="13"/>C. de iud. properandum. &amp; interea 
+      com<lb ed="#F" n="14" break="no"/>putanda sunt haec mandata, &amp; forte non 
+      <lb ed="#F" n="15"/>dicerem male, quod si interlocutoriam 
+      <lb ed="#F" n="16"/>istam protulisset cum causae cogintione, 
+      <lb ed="#F" n="17"/>scilicet auditis rationibus hinc &amp; inde, &amp; 
+      <lb ed="#F" n="18"/>interlocutoria solenniter sit lata, quod 
+      <lb ed="#F" n="19"/>perpetuo ei staretur, &amp; in rem iudicatam 
+      <lb ed="#F" n="20"/>transiret. arg. C. commi. vel epi. l. 3. C. 
+      <lb ed="#F" n="21"/>de sen. &amp; interlo. l. ex stipulatu. &amp; l. seq. &amp; 
+      <lb ed="#F" n="22"/>l. nemo iudex. &amp; ff. quod met. cau. l. 
+      me<lb ed="#F" n="23" break="no"/>tum. 2. &amp; sup. de sen. &amp; re iudic. c. quod ad 
+      <lb ed="#F" n="24"/>consultationem. non probatur hic 
+      praesu<lb ed="#F" n="25" break="no"/>mi concessionem realem, nisi probetur 
+      <lb ed="#F" n="26"/>personalis, cum hoc non dicatur hic, sed 
+      <lb ed="#F" n="27"/>quia est in possessione dicitur eum 
+      tuen<lb ed="#F" n="28" break="no"/>dum, donec probetur personalis, dicunt 
+      <lb ed="#F" n="29"/>enim quidam, quod quando fit personae, 
+      <lb ed="#F" n="30"/>personalis praesumitur, quando vero fit 
+      <lb ed="#F" n="31"/>dignitati, praesumitur realis. &amp; alii dicunt 
+      <lb ed="#F" n="32"/>quod etiam quando fit personae 
+      praesumi<lb ed="#F" n="33" break="no"/>tur realis: vt ff. de ann. leg. annua. §. Titia. 
+      <lb ed="#F" n="34"/>ff. de pac. iuregentium. §. pactorum. Alii 
+      <lb ed="#F" n="35"/>dicunt, quod quando est inquieta 
+      posses<lb ed="#F" n="36" break="no"/>sione archidiaconatus, incumbit 
+      proba<lb ed="#F" n="37" break="no"/>tio archiepiscopo, quod fuit personalis, 
+      <lb ed="#F" n="38"/>secus si autem archiepiscopus esset in 
+      pos<lb ed="#F" n="39" break="no"/>sessione pacifica. argumentum. ff. si 
+      vsus<lb ed="#F" n="40" break="no"/>fruct. pet. vti frui. iste archidiaconus 
+      age<lb ed="#F" n="41" break="no"/>bat nomine archidiaconatus, &amp; ideo 
+      suf<lb ed="#F" n="42" break="no"/>ficit, si archidiaconatus erat in 
+      possessio<lb ed="#F" n="43" break="no"/>ne horum iurium, etiam si archidi 
+      aco<lb ed="#F" n="44" break="no"/>nus, qui nunc est, numquam ea exercuisset.
+      </p>
+               <p xml:id="inleiv-d1e954-d1e858">
+                  <lb ed="#F" n="45"/>Ex aduerso) mirum videtur cum 
+      ar<lb ed="#F" n="46" break="no"/>chidiaconus hoc ipso quod confessus fuit, 
+      <lb ed="#F" n="47"/>ibi esse donatas libertates ab 
+      archiepisco<lb ed="#F" n="48" break="no"/>po confiteatur eas fuisse archiepiscopi, 
+      <lb ed="#F" n="49"/>quod archiepiscopo incumbit probatio, 
+      <lb ed="#F" n="50"/>quod donatio fuit personalis, cum adhuc 
+      <lb ed="#F" n="51"/>praesumatur apud eum perdurare, nisi 
+      con<lb ed="#F" n="52" break="no"/>tra probetur. ar. contra. 3. de praescri. si 
+      di<lb ed="#F" n="53" break="no"/>ligenti. C. de proba. siue post. 
+      Responde<lb ed="#F" n="54" break="no"/>mus duas praesumptiones esse contra istam, 
+      <lb ed="#F" n="55"/>vnam quo d arc hiepiscopus confiteatur se 
+      <lb ed="#F" n="56"/>donasse, licet personaliter, &amp; quia 
+      archi<lb ed="#F" n="57" break="no"/>diaconus erat in possessione: sed si archie¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>piscopus esset in possessione &amp; non confi. 
+      <lb ed="#F" n="59"/>teretur se donasse nec personaliter, nec 
+      <lb ed="#F" n="60"/>realiter, tunc non incumberet ei probatio, 
+      <lb ed="#F" n="61"/>quod donatio esset personalis, sed 
+      suffice<lb ed="#F" n="62" break="no"/>ret ad probationem domini archiepisco pi 
+      <lb ed="#F" n="63"/>confessio archidiatoni. (Hoc casu) cilice. 
+      quan<lb ed="#F" n="64" break="no"/>do personalis fuit donatio. (Antequam) 
+      <lb ed="#F" n="65"/>scilicet ante confessionem archidiaconi. 
+      <lb ed="#F" n="66"/>(Eas) libertates (Archidiaconus) qui 
+      a<lb ed="#F" n="67" break="no"/>gebat. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e913">
+                  <lb ed="#F" n="68"/> (Abiurasse) hic habes expresse secundum 
+      <lb ed="#F" n="69"/>secundam opinionem quae erat quod vterquoe 
+      <lb ed="#F" n="70"/>agebat possessorio retinendae possessionis, 
+      <lb ed="#F" n="71"/>quod exceptio abiurationis non est admittenda 
+      <lb ed="#F" n="72"/>contra agentem interdicto vti possidetis, 
+      <lb ed="#F" n="73"/>quia hic non fuit admissa haec exceptio, 
+      <lb ed="#F" n="74"/>quandiu actum fuit possessorio, sed modo 
+      ad<lb ed="#F" n="75" break="no"/>mittitur, quando agitur petitorio quod 
+      credi<lb ed="#F" n="76" break="no"/>mus. de hoc no. S. de renun. super hoc. &amp; 
+      <lb ed="#F" n="77"/>idem videtur, quod exceptio personalis 
+      con<lb ed="#F" n="78" break="no"/>cessionis ab eo facta, non sit admittenda, 
+      <lb ed="#F" n="79"/>qua hic admissa non fuit, nec impediunt 
+      sen<lb ed="#F" n="80" break="no"/>tentiam sup interdicto vti possidetis latam. Item 
+      <lb ed="#F" n="81"/>si admissa esset haec exceptio, cum tamen 
+      <lb ed="#F" n="82"/>contra eum erat sententia danda, &amp; est ea 
+      ra<lb ed="#F" n="83" break="no"/>tio, quia licet personaliter dicat se 
+      conces<lb ed="#F" n="84" break="no"/>sisse archiepiscopus, archidiaconus tamem 
+      <lb ed="#F" n="85"/>negabat, nec incontrarium probatum fuit, &amp; 
+      <lb ed="#F" n="86"/>etiam quia archidiaconus possessionem habet, 
+      <lb ed="#F" n="87"/>cui dicitur personaliter concessa, secus autem 
+      <lb ed="#F" n="88"/>esset, si exceptum esset, quod precario esset 
+      <lb ed="#F" n="89"/>archiepiscopo concessa. ff. de acqui. poss. 
+      <lb ed="#F" n="90"/>si quis postea. quia tunc precarius non 
+      po<lb ed="#F" n="91" break="no"/>test agere vti possidetis contra dantem 
+      <lb ed="#F" n="92"/>precario. ff. de preca. qui precario. (In hoc 
+      <lb ed="#F" n="93"/>casu) clcscet quando abiurauit. (Eboracens. ) 
+      cu<lb ed="#F" n="94" break="no"/>ius specialiter intererat iura omnium 
+      men<lb ed="#F" n="95" break="no"/>brorum sui corporis defendere, vel forte, 
+      <lb ed="#F" n="96"/>quia alienatio fuit quilibet admittitur: vt 
+      <lb ed="#F" n="97"/>no. 5. de testi. cum olim. (Consulemus) hoc 
+      <lb ed="#F" n="98"/>consilium non habet locum, nisi prius 
+      sen<lb ed="#F" n="99" break="no"/>tentia lata contra archidiaconum, ante 
+      senten<lb ed="#F" n="100" break="no"/>tiam enim archidiaconus iuuare se debet 
+      <lb ed="#F" n="101"/>suis rationibus, quia contra 
+      archidiaco<lb ed="#F" n="102" break="no"/>num tantum agebatur, &amp; personaliter 
+      <lb ed="#F" n="103"/>tantum contra eum, &amp; si ecclesia 
+      Ebora<lb ed="#F" n="104" break="no"/>cens. vellet causam eius agere, siue eo 
+      <lb ed="#F" n="105"/>volente, siue nolente non admitteretur, 
+      <lb ed="#F" n="106"/>quia eius non interest causam 
+      archidi<lb ed="#F" n="107" break="no"/>aconi personalem agere, sed si 
+      admittere<lb ed="#F" n="108" break="no"/>tur contra ius, excipere debet, cum causa 
+      <lb ed="#F" n="109"/>iam coepta esset non agere, &amp; hoc dicitur 
+      <lb ed="#F" n="110"/>infra, scilicet, ecclesia petente: sed 
+      quali<lb ed="#F" n="111" break="no"/>ter post sententiam habet locum, no. in gl. 
+      <lb ed="#F" n="112"/>Quid prodest consilium Papae dignitati 
+      <lb ed="#F" n="113"/>archidiaconi, cum plena sit ipsi 
+      archidia<lb ed="#F" n="114" break="no"/>cono praedictorum iurium adiudicata posses¬ 
+      <pb ed="#F" n="370-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>sio, imo si postea probetur 
+      archidiaco<lb ed="#F" n="2" break="no"/>num ab episcopo abiurasse, si erat 
+      conces<lb ed="#F" n="3" break="no"/>sio realis, non debent restitui iura 
+      praedi<lb ed="#F" n="4" break="no"/>cta archiepiscopo, nec sententiam proeis 
+      <lb ed="#F" n="5"/>restituendis ferri, quia non potest 
+      archi<lb ed="#F" n="6" break="no"/>diaconus dignitati suae praeiudicare, sed 
+      <lb ed="#F" n="7"/>tantum personae archidiaconi 
+      praecipi<lb ed="#F" n="8" break="no"/>tur, quod se non immisceat. argumem: sup. 
+      <lb ed="#F" n="9"/>de iureiu. peruenit. Sol. Licet non 
+      resti<lb ed="#F" n="10" break="no"/>tuantur archiepiscopo praedicta iura, ta. 
+      <lb ed="#F" n="11"/>men ipse exercebit, cum ipsi praesenti 
+      ar<lb ed="#F" n="12" break="no"/>chidiacono impositum sit silentium, nec 
+      <lb ed="#F" n="13"/>ei contradicere poterit archidiaconus, 
+      <lb ed="#F" n="14"/>propter iuramentum &amp; sententiam, qua 
+      <lb ed="#F" n="15"/>impositum est ei silentium, &amp; 
+      archiepisco<lb ed="#F" n="16" break="no"/>pus solus est, ad quem vacante 
+      archidia<lb ed="#F" n="17" break="no"/>conatu iura archidiaconalia pertinent, 
+      <lb ed="#F" n="18"/>vt not. inf. de hered. ad abolendam. &amp; 
+      mo<lb ed="#F" n="19" break="no"/>do quo ad haec iura abiurata vacare intelli 
+      <lb ed="#F" n="20"/>gitur, quod ea exercere non potest 
+      archidiaco<lb ed="#F" n="21" break="no"/>nus propter suam abiurationem, &amp; sic 
+      ar<lb ed="#F" n="22" break="no"/>chiepiscopus exercebit, vnde necesse est quod 
+      <lb ed="#F" n="23"/>vel agente Eboracens. ecclesia, vel per 
+      of<lb ed="#F" n="24" break="no"/>ficium Papae praeuideatur dignitati 
+      archi<lb ed="#F" n="25" break="no"/>diaconi, vt restituatur ad id, quod 
+      proces<lb ed="#F" n="26" break="no"/>sum erat de facto, scilicet, ad possessionem 
+      <lb ed="#F" n="27"/>restituendam dignitati archidiaconi quam 
+      <lb ed="#F" n="28"/>exerceat archiepiscopus sententia lata 
+      con<lb ed="#F" n="29" break="no"/>tra praesentem archidiaconum propter 
+      ab<lb ed="#F" n="30" break="no"/>iurationem, vel decernatur quod per vsum 
+      <lb ed="#F" n="31"/>archiepiscopi, vel per abiurationem 
+      archi<lb ed="#F" n="32" break="no"/>diaconi, nullum dignitati archidiaconi 
+      <lb ed="#F" n="33"/>praeiudicium generetur. Aux ilium autem 
+      <lb ed="#F" n="34"/>Papae in modico vel nullo necessarium 
+      vi<lb ed="#F" n="35" break="no"/>detur contra iuramentum, quod non 
+      distringe<lb ed="#F" n="36" break="no"/>bat, nisi personam, vel contra se ntentiam, quae 
+      <lb ed="#F" n="37"/>non tangebat dignitatem, quia praesenti 
+      ar<lb ed="#F" n="38" break="no"/>chidiacono tantum impositum erat 
+      silen<lb ed="#F" n="39" break="no"/>tium, quod praedicta non exerceret, vel potes 
+      <lb ed="#F" n="40"/>dicere, quod etiam contra iuramentum 
+      neces<lb ed="#F" n="41" break="no"/>sarium est auxilium. Posset enim 
+      succeden<lb ed="#F" n="42" break="no"/>tibus temporibus quando crederet 
+      aduer<lb ed="#F" n="43" break="no"/>sarii deficere probationes illicitae praestiti 
+      <lb ed="#F" n="44"/>iuramenti, vel etiam statim licet falso, vel 
+      <lb ed="#F" n="45"/>ficte diceret archiepiscopus, quod 
+      iura<lb ed="#F" n="46" break="no"/>mentum erat praestitum in casu licito 
+      ar<lb ed="#F" n="47" break="no"/>chidiacono, vnde &amp; praeiudicat 
+      successo<lb ed="#F" n="48" break="no"/>ribus, puta qui sciebat se nihil iuris 
+      habe<lb ed="#F" n="49" break="no"/>re, vnde sibi litigare non expediebat, vel 
+      <lb ed="#F" n="50"/>alia iura aequiualentia recipit pro istis 
+      iu<lb ed="#F" n="51" break="no"/>ribus, quae abiurauit. arg. ff. de pact. contra 
+      <lb ed="#F" n="52"/>iura. §. vlti. &amp; l. in persona. §. 1. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e1134">
+                  <lb ed="#F" n="53"/>Sed certe in istis casibus non petet 
+      <lb ed="#F" n="54"/>ecclesia in integrum restitui aduersus 
+      re<lb ed="#F" n="55" break="no"/>nunciationem archidiaconi, vel 
+      abiura<lb ed="#F" n="56" break="no"/>tionem archidiaconi, quia nulla 
+      abiura<lb ed="#F" n="57" break="no"/>tio, sed dicet eam nullam, &amp; petet eam de 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>factotolli, vel nullam pronunciari. ff. de 
+      <lb ed="#F" n="59"/>in integ. resti. in causae. ff. de fer. l. 1. Sed si 
+      <lb ed="#F" n="60"/>renunciatio propter praedictas causas 
+      te<lb ed="#F" n="61" break="no"/>neat de iure, tamen quia in aliquo 
+      proba<lb ed="#F" n="62" break="no"/>tur laesa dignitas, tunc necessarium est 
+      <lb ed="#F" n="63"/>auxilium Papae concessa resti. in integr. 
+      <lb ed="#F" n="64"/>ipse etiam Papa ex eis, quae acta fuerunt 
+      <lb ed="#F" n="65"/>coram eo, fuit ita motus, quod ipsemet ex 
+      <lb ed="#F" n="66"/>officio suo concederet hoc, vnde volens 
+      <lb ed="#F" n="67"/>incutere timorem archiepiscopo, vt a 
+      li<lb ed="#F" n="68" break="no"/>te quam Papa iniustam credebat 
+      discede<lb ed="#F" n="69" break="no"/>ret, comminatur ei, quod ipse suum 
+      impen<lb ed="#F" n="70" break="no"/>deret consilium, sed quando hoc faciet, 
+      <lb ed="#F" n="71"/>vocabit archiepiscopum, &amp; audiet 
+      ratio<lb ed="#F" n="72" break="no"/>nes suas etiam alias, quam illas quas 
+      alle<lb ed="#F" n="73" break="no"/>gauit agendo contra archidiaconum, quia 
+      <lb ed="#F" n="74"/>cum tunc ad imponendum silentium 
+      <lb ed="#F" n="75"/>personale archidia. sufficeret iuramentum, 
+      <lb ed="#F" n="76"/>etiam sine causa praestitum non 
+      illigabi<lb ed="#F" n="77" break="no"/>tur illa probatione tantum, vbi petitur 
+      <lb ed="#F" n="78"/>sententia pronunciari nulla, vbi eum 
+      opor<lb ed="#F" n="79" break="no"/>tet probare multa, vel etiam si petatur 
+      <lb ed="#F" n="80"/>contra sententiam, quae aliqua est resti. 
+      <lb ed="#F" n="81"/>in integ. quae non datur, nisi vbi 
+      contra<lb ed="#F" n="82" break="no"/>ctus teneret, &amp; tamen propter laesionem 
+      <lb ed="#F" n="83"/>datur restitutio. Et credimus hanc 
+      restitu<lb ed="#F" n="84" break="no"/>tionem posse peti viuente isto 
+      archidia<lb ed="#F" n="85" break="no"/>cono, sed si iurauit non exercere haec iura, 
+      <lb ed="#F" n="86"/>ille qui confert archidiaconatum 
+      exerce<lb ed="#F" n="87" break="no"/>bit non suo nomine, sed dignitas archidia. 
+      <lb ed="#F" n="88"/>vel Papa alicui committet, quod hoc 
+      ex<lb ed="#F" n="89" break="no"/>erceat, vt no. inf. tit. proxi. quia 
+      diuersita<lb ed="#F" n="90" break="no"/>tem. Vel dic, cum effectu nihil vtilitatis 
+      ac<lb ed="#F" n="91" break="no"/>cidit archiepiscopo, quia postea petita 
+      ra<lb ed="#F" n="92" break="no"/>tione vel sententiam pronunciari nullam 
+      <lb ed="#F" n="93"/>omnia iura restituantur archidiacono, &amp; 
+      <lb ed="#F" n="94"/>hoc satis innuit litera praecedens, quia nos 
+      <lb ed="#F" n="95"/>vel ad petitionem, etc. videtur alijs, quod 
+      ar<lb ed="#F" n="96" break="no"/>chiepiscopus contra archidiaconum 
+      spe<lb ed="#F" n="97" break="no"/>cialiter egerat proponens, quod iura 
+      prae<lb ed="#F" n="98" break="no"/>dicta, quae sibi renunciauerat idem 
+      archidia<lb ed="#F" n="99" break="no"/>conus, &amp; etiam iurauerat quod vlterius 
+      <lb ed="#F" n="100"/>non exerceret, quod super eorum 
+      exerci<lb ed="#F" n="101" break="no"/>tio non molestaret archiepiscopum. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e1245">
+                  <lb ed="#F" n="102"/> Vbi dominus Papa iuste mandat, 
+      <lb ed="#F" n="103"/>quod si ita est, vt imponatur 
+      archidiaco<lb ed="#F" n="104" break="no"/>no silentium, scilicet, quod decaetero non 
+      <lb ed="#F" n="105"/>exerceat praedicta, quod potest esse sine 
+      <lb ed="#F" n="106"/>praeiudicio dignitatis archidiaconatus, 
+      <lb ed="#F" n="107"/>non tamen complebit iuramentum in 
+      <lb ed="#F" n="108"/>alijs, scilicet, quod praedicta iura, vel 
+      pos<lb ed="#F" n="109" break="no"/>sessionem eorum, vel quasi transferat in 
+      <lb ed="#F" n="110"/>archiepiscopum, cum hoc sine peccato face 
+      <lb ed="#F" n="111"/>re non posset, &amp; sine praeiudicio ecclesiae. 3. 
+      <lb ed="#F" n="112"/>de iureiur. puenit. &amp; c. si vero. &amp; ideo 
+      be<lb ed="#F" n="113" break="no"/>ne dicit Papa, quod etiam si iurauerit consulet 
+      <lb ed="#F" n="114"/>dignitati, quia licet sit priuatus archidia¬ 
+      <pb ed="#F" n="370-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>eonus, exercitio illorum iurium 
+      persona<lb ed="#F" n="2" break="no"/>liter, non tamen dignitate priuabitur, nec 
+      <lb ed="#F" n="3"/>in archiepiscopum transferetur, imo licet 
+      <lb ed="#F" n="4"/>archidiaconus non exerceat, exercebit 
+      ta<lb ed="#F" n="5" break="no"/>men alius nomine dignitatis, vel forte ipse 
+      <lb ed="#F" n="6"/>archidiacons hoc non suo nomine, nec 
+      no<lb ed="#F" n="7" break="no"/>mine archiepiscopatus exercebit, sed 
+      no<lb ed="#F" n="8" break="no"/>mine archid. vel potes dicere, quod non 
+      <lb ed="#F" n="9"/>solum egit archiepiscopus, vt 
+      imponere<lb ed="#F" n="10" break="no"/>tur silentium personae, sed etiam 
+      dignita<lb ed="#F" n="11" break="no"/>ti, cui intendebat praeiudicare 
+      archidia<lb ed="#F" n="12" break="no"/>conus. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e1306">
+                  <lb ed="#F" n="13"/>Non obst. praedicta decre. peruenit, &amp; si 
+      <lb ed="#F" n="14"/>vero, quia hoc poterat fieri sine peccato, 
+      <lb ed="#F" n="15"/>&amp; sine praeiudicio dignitatis hoc modo, 
+      <lb ed="#F" n="16"/>quia postea agente ecclesia, vel Papa ex 
+      <lb ed="#F" n="17"/>officio suo restituet praedicta iura 
+      archi<lb ed="#F" n="18" break="no"/>diacono. argum. ad hunc processum. sup. 
+      <lb ed="#F" n="19"/>de iureiuran. debitores. &amp; c. ad nostram. 
+      <lb ed="#F" n="20"/>Et si his obiiciatur, quod ipsi capitulum 
+      <lb ed="#F" n="21"/>ante sententiam latam contra 
+      archiepi<lb ed="#F" n="22" break="no"/>scopum debebant se opponere? Respon. 
+      <lb ed="#F" n="23"/>quod non poterant, quia tantum ad 
+      archi<lb ed="#F" n="24" break="no"/>diaconum possessio pertinet sui 
+      archidia<lb ed="#F" n="25" break="no"/>conatus iura defendere, &amp; ad capitulum 
+      <lb ed="#F" n="26"/>pertinet postea, cum apparet 
+      archidiaco<lb ed="#F" n="27" break="no"/>num non posse agere. Haec opinio non 
+      pla<lb ed="#F" n="28" break="no"/>cet. (Alterutrum) siue fuerit concessio 
+      per<lb ed="#F" n="29" break="no"/>sonalis, siue abiuratio intercessit. (
+      Archi<lb ed="#F" n="30" break="no"/>dia.) id est, personae archidia. &amp; etiam ipsi 
+      <lb ed="#F" n="31"/>archidiaconatui. Sed in hoc casu vltimo, 
+      <lb ed="#F" n="32"/>scilicet, quando super abiuratione 
+      proui<lb ed="#F" n="33" break="no"/>debitur successoribus, si concessio fuerit 
+      <lb ed="#F" n="34"/>realis, melius dicitur, quod tantum 
+      archi<lb ed="#F" n="35" break="no"/>diacono imponitur silentium personale, 
+      <lb ed="#F" n="36"/>scilicet, quod tempore suo non se 
+      immisce<lb ed="#F" n="37" break="no"/>at, &amp; prudenter faciet iudex, si dicat in 
+      po<lb ed="#F" n="38" break="no"/>sterum, ex hac sententia nullum dignitati 
+      <lb ed="#F" n="39"/>praeiudicium generari. 
+      </p>
+               <p xml:id="inleiv-d1e954-d1e1368">
+                  <lb ed="#F" n="40"/>Sed oppones hanc exceptionem 
+      ab<lb ed="#F" n="41" break="no"/>iurationis ante litem coeptam contra 
+      ar<lb ed="#F" n="42" break="no"/>chidiaconum proponendam sicut falsi, 
+      <lb ed="#F" n="43"/>vel minus idonei procuratoris. C. de 
+      ex<lb ed="#F" n="44" break="no"/>cep. l. pe. &amp; vlti. Respondeo hanc 
+      exce<lb ed="#F" n="45" break="no"/>ptionem non esse declinatoriam fori, sicut 
+      <lb ed="#F" n="46"/>procuratoriam, sed dilatoriam, &amp; idcirco 
+      <lb ed="#F" n="47"/>sufficit proponere eam ante litem 
+      conte<lb ed="#F" n="48" break="no"/>statam, &amp; postea probabitur. ff. de except. 
+      <lb ed="#F" n="49"/>exceptiones. &amp; sic fuit hic factum, vel 
+      po<lb ed="#F" n="50" break="no"/>test dici peremptoria, quia quo ad 
+      perso<lb ed="#F" n="51" break="no"/>nam huiusmodi archidiaconus perimit 
+      <lb ed="#F" n="52"/>negotium, nec intelligas, quod Papa 
+      per<lb ed="#F" n="53" break="no"/>mittat consulere super sententiam, quae 
+      <lb ed="#F" n="54"/>nullo modo tangit archidiaconalem 
+      di<lb ed="#F" n="55" break="no"/>gnitatem, sed super abiuratione, quae erat 
+      <lb ed="#F" n="56"/>generalis, scilicet, quia archidiaconatus 
+      <lb ed="#F" n="57"/>nomine renunciabat &amp; iurabat, scilicetivt 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>ea non obstante libertates praedictae 
+      adiu<lb ed="#F" n="59" break="no"/>dicentur dignitati archidiaconus, vel 
+      in<lb ed="#F" n="60" break="no"/>telligas aliter, vt diximus in gloss. illa quid 
+      <lb ed="#F" n="61"/>prodest. (Neutrum ) id est, si concessio 
+      fue<lb ed="#F" n="62" break="no"/>rit realis, &amp; non est iuratum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e954-Dd1e1424" type="decretales-l3t7c7">
+               <head xml:id="inleiv-d1e954-Hd1e1426">Caput 7</head>
+               <p xml:id="inleiv-d1e954-d1e1428">
+                  <lb ed="#F" n="63"/>CAPVT VII. 
+      <lb ed="#F" n="64"/>CVM AD 
+      NOSTRAM<lb ed="#F" n="65" break="no"/>(Abbatiae.) Haec abbatia est 
+      <lb ed="#F" n="66"/>secularis. sic. sup. de renun. 
+      <lb ed="#F" n="67"/>ex transmissa. (Distinctio.) 
+      <lb ed="#F" n="68"/>4. quaestio. 1. c. didicimus. I. 
+      <lb ed="#F" n="69"/>de iurepa. per tuas. inf. de bap. &amp; eius 
+      effe<lb ed="#F" n="70" break="no"/>ctu debitum. ff. de actio. tut. l. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 20</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 20</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="483-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1663" type="decretales-l4t20">
+            <head xml:id="inleiv-d1e1663-Hd1e98">Titulus 20</head>
+            <p xml:id="inleiv-d1e1663-d1e100">
+               <lb ed="#F" n="67"/>TITVLVS XX 
+      <lb ed="#F" n="68"/>DE DONATIO 
+      <lb ed="#F" n="69"/>INTER VIRVM ET VX 
+      <lb ed="#F" n="70"/>rem, &amp; de dote post diuor 
+      <lb ed="#F" n="71"/>tium restituenda. 
+      </p>
+            <div xml:id="inleiv-d1e1663-Dd1e113" type="decretales-l4t20c1">
+               <head xml:id="inleiv-d1e1663-Hd1e115">Caput 1</head>
+               <p xml:id="inleiv-d1e1663-d1e117">
+                  <lb ed="#F" n="72"/>CAPVT 1. 
+      <lb ed="#F" n="73"/>MVLIERES CVMPRO ALIqVa. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e125" type="decretales-l4t20c2">
+               <head xml:id="inleiv-d1e1663-Hd1e127">Caput 2</head>
+               <p xml:id="inleiv-d1e1663-d1e129">
+                  <lb ed="#F" n="74"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e134">
+                  <lb ed="#F" n="75"/>SIGNIFICAVIT. (
+      Diuisio<lb ed="#F" n="76" break="no"/>nem) hoc non habet locum, 
+      <lb ed="#F" n="77"/>nisi ratione consuetudinis, 
+      <lb ed="#F" n="78"/>vel nisi vtriusque intuitu 
+      ali<lb ed="#F" n="79" break="no"/>qua quaesita sunt. Nam alias 
+      <lb ed="#F" n="80"/>omnia praesumuntur mariti. ff. de do. inter 
+      <lb ed="#F" n="81"/>vi. &amp; vxo. quintus Mutius. &amp; quisquis 
+      tan<lb ed="#F" n="82" break="no"/>tum sibi non alteri quaerit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e155" type="decretales-l4t20c3">
+               <head xml:id="inleiv-d1e1663-Hd1e157">Caput 3</head>
+               <p xml:id="inleiv-d1e1663-d1e159">
+                  <lb ed="#F" n="83"/>CAPVT III. 
+      <lb ed="#F" n="84"/>1 Iudex ecclesiasticus atcessorie potest de dote 
+      <lb ed="#F" n="85"/>cognoseere, sed non de baereditate. 
+      <lb ed="#F" n="86"/>2 Maior est coniunctio inter dotem &amp; 
+      mari<lb ed="#F" n="87" break="no"/>monium, quam inter filio: &amp; haereditatem.
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e172">
+                  <lb ed="#F" n="88"/>DE PRVDENTIA. (Accec 
+      <lb ed="#F" n="89"/>sorie.) Not. quod iudex 
+      eccle<lb ed="#F" n="90" break="no"/>asiasticus tam ordinarius, quam 
+      <lb ed="#F" n="91"/>delegatus cognoscit de dote 
+      <lb ed="#F" n="92"/>accessorie, scilicet, cum 
+      co<lb ed="#F" n="93" break="no"/>gnoscit etiam de matrimonio, &amp; in libello 
+      <lb ed="#F" n="94"/>petitur matrimonium separari, &amp; dotem 
+      re<lb ed="#F" n="95" break="no"/>stitui, vt hic. &amp; sup. eod. c. 1. &amp; 2. de coniu. 
+      <lb ed="#F" n="96"/>ser. proposuit. secus dicerem in 
+      successio<lb ed="#F" n="97" break="no"/>ne, nam licet cognoscat in matrimonio, non 
+      <lb ed="#F" n="98"/>tamen de haereditate. sup. qui fil. sint legi. 
+      <lb ed="#F" n="99"/>causam. &amp; c. lator. licet possit cogere 
+      par<lb ed="#F" n="100" break="no"/>tem, ne occasione illegitimi matrimonii 
+      <lb ed="#F" n="101"/>eum super haereditate molestet. sup. qui 
+      <lb ed="#F" n="102"/>afil. sint legit. c. 1. imo etiam principalitera 
+      <lb ed="#F" n="103"/>potest cognoscere de dote. inf. eod. pet 
+      <lb ed="#F" n="104"/>tuas. &amp; hic. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e211">
+                  <lb ed="#F" n="105"/>Nec obst. sup. qui fil. sint legit lator. 
+      <lb ed="#F" n="106"/>&amp; c. causam. quae loquuntur, quod iudex 
+      <lb ed="#F" n="107"/>ecclesiae non debet cognoscere de 
+      haeredi<lb ed="#F" n="108" break="no"/>tate, maior enim coniunctio est inter 
+      do<lb ed="#F" n="109" break="no"/>tem &amp; matrimonium, quam inter filios&amp;e¬ 
+      <pb ed="#F" n="484-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>haereditatem, cum dos non possit esse sine 
+      <lb ed="#F" n="2"/>matrimonio. inf. c. proxi. filii autt possunt  
+      <lb ed="#F" n="3"/>esse sine haereditate, &amp; exhaereditati non 
+      <lb ed="#F" n="4"/>retractarent etiam sententiam iudicis 
+      se<lb ed="#F" n="5" break="no"/>cularis super dote. Item specialiter ad ec. 
+      <lb ed="#F" n="6"/>clesiam pertinet cognoscere de dotibus, 
+      <lb ed="#F" n="7"/>quia ad ecclesiam pertinet defensio 
+      doti<lb ed="#F" n="8" break="no"/>um. inf. eo. nuper. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e248" type="decretales-l4t20c4">
+               <head xml:id="inleiv-d1e1663-Hd1e250">Caput 4</head>
+               <p xml:id="inleiv-d1e1663-d1e252">
+                  <lb ed="#F" n="9"/>CAPVT IIII. 
+      <lb ed="#F" n="10"/>1 Dos propter adulterium perdita, an possit 
+      recupe<lb ed="#F" n="11" break="no"/>rari, si adultera uult probare, matrimonium 
+      <lb ed="#F" n="12"/>non futisse legitimum allegans 
+      impedimen<lb ed="#F" n="13" break="no"/>tum consanguinitatis. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e265">
+                  <lb ed="#F" n="14"/>PLERVNQVE. (
+      Fornicatio<lb ed="#F" n="15" break="no"/>nis suae) . reconciliata, nan tunc 
+      <lb ed="#F" n="16"/>redit ad antiquum statum. ff. 
+      <lb ed="#F" n="17"/>de iur. dot. diuus. &amp; l. post 
+      <lb ed="#F" n="18"/>nulieris &amp; vel) pro id est, nam 
+      <lb ed="#F" n="19"/>idem dicitur dos &amp; dotalitium. ar. 36. q. 2. 
+      <lb ed="#F" n="20"/>si autem. vel dotalitium vocat donationem 
+      <lb ed="#F" n="21"/>propter nuptias. (Dotalitium). Sed quid 
+      <lb ed="#F" n="22"/>si lata sententia super diuisione tori 
+      pro<lb ed="#F" n="23" break="no"/>pter fornicationem, is qui adulterium 
+      per<lb ed="#F" n="24" break="no"/>petrauit, velit agere condictione sine 
+      cau<lb ed="#F" n="25" break="no"/>sa ad repetitionem dotis, dicens non fuisse 
+      ma<lb ed="#F" n="26" break="no"/>trimonia, &amp; propter hoc velit probare 
+      con<lb ed="#F" n="27" break="no"/>sanguinitatem, &amp; ita non fuisse 
+      matrimoni<lb ed="#F" n="28" break="no"/>um, nec adulterium, nec dotem, an 
+      pro<lb ed="#F" n="29" break="no"/>pter hoc non recuperabit dotem, ar. quod 
+      <lb ed="#F" n="30"/>sic. inf. c. proxi. ff. de condi. sine causa. 
+      ad<lb ed="#F" n="31" break="no"/>miniculo. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e307">
+                  <lb ed="#F" n="32"/>Sed contra res iudicata pro veritate 
+      ac<lb ed="#F" n="33" break="no"/>cipitur. 3. de sen. &amp; re iud. cum inter vos. 
+      <lb ed="#F" n="34"/>ff. fa. ercis. cum putarem. Item contra, quia 
+      <lb ed="#F" n="35"/>adulterium committere intendebat. 34. 
+      <lb ed="#F" n="36"/>q. 2. in lectum. Laur. dicit, quod dotem 
+      re<lb ed="#F" n="37" break="no"/>petere non potest. ar. ff. de adul. si vxor. 
+      re<lb ed="#F" n="38" break="no"/>spon. 1. C. de spon. mulier. §. is quoque. T. 
+      <lb ed="#F" n="39"/>dixit, quod si sit sententia lata super 
+      sepa<lb ed="#F" n="40" break="no"/>ratione tori, &amp; dote, nec sit 
+      appellatumvl<lb ed="#F" n="41" break="no"/>terius, petere non potest, setus autem si 
+      su<lb ed="#F" n="42" break="no"/>per adulterium tantum. Primum dictum 
+      <lb ed="#F" n="43"/>magis placet, quia condictione sine causa 
+      <lb ed="#F" n="44"/>non potest repetere dotem cum causa 
+      re<lb ed="#F" n="45" break="no"/>tinendae eius subsit, scilicet sententia si 
+      la<lb ed="#F" n="46" break="no"/>tasit, veladulterium quod saltem 
+      inten<lb ed="#F" n="47" break="no"/>tione commisit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e345" type="decretales-l4t20c5">
+               <head xml:id="inleiv-d1e1663-Hd1e347">Caput 5</head>
+               <p xml:id="inleiv-d1e1663-d1e349">
+                  <lb ed="#F" n="48"/>CAPVT V. 
+      <lb ed="#F" n="49"/>ET SI NECESSE. (Ob 
+      tur<lb ed="#F" n="50" break="no"/>pem) quia si ob turpem causam 
+      <lb ed="#F" n="51"/>data esset, potior esset conditio 
+      <lb ed="#F" n="52"/>possidentis. ff. de condi. ob tur. 
+      <lb ed="#F" n="53"/>cau. l. si ob turpem. in fi. Cob 
+      <lb ed="#F" n="54"/>nullam) id est, ob matrimonium, quod tamem inter 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>eos non tenebat propter 
+      consanguinita<lb ed="#F" n="56" break="no"/>tem, vt statim sequitur. (Restitui) 
+      quan<lb ed="#F" n="57" break="no"/>do inter consanguineos fit dotis datio, si 
+      <lb ed="#F" n="58"/>ignorabant se consanguineos, competit 
+      <lb ed="#F" n="59"/>repetitio dotis. ff. de condi. sine causa 
+      ad<lb ed="#F" n="60" break="no"/>miniculo. C. sol. mar. si igno. C. de incest. 
+      <lb ed="#F" n="61"/>nup. qui contra. ff. de rit. nup. praefectus. si 
+      <lb ed="#F" n="62"/>autem scienter contraxerint consanguinei, 
+      <lb ed="#F" n="63"/>ad fiscum dos deuoluitur. ff. de do. inter vi. 
+      <lb ed="#F" n="64"/>&amp; vxo. cum hic status. §. vlt. instit. de nup. 
+      <lb ed="#F" n="65"/>§. aduersus. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e393">
+                  <lb ed="#F" n="66"/>Sed haec decre. contradicit. hi enim 
+      con<lb ed="#F" n="67" break="no"/>sanguineos se sciebant. Ad hoc sic respon. 
+      <lb ed="#F" n="68"/>nam Rex Legion. non petebat hic dotem, 
+      <lb ed="#F" n="69"/>quia erat vir, &amp; ex parte mulieris tantum 
+      <lb ed="#F" n="70"/>competit petitio dotis. I. c. proxi. sed 
+      quae<lb ed="#F" n="71" break="no"/>dam castra, quae dederat pro 
+      conseruatio<lb ed="#F" n="72" break="no"/>ne matrimonii, quod non licet, sicut nec 
+      <lb ed="#F" n="73"/>poenam promittere licet. de ver. obli. Titia. 
+      <lb ed="#F" n="74"/>respon. 1. sed dicas cum esset data nomine 
+      <lb ed="#F" n="75"/>arrarum, ea retinere licet. C. de sponsa. 
+      mu<lb ed="#F" n="76" break="no"/>lier. respon. 1. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e419">
+                  <lb ed="#F" n="77"/>Sed illud verum est in licitis 
+      sponsali<lb ed="#F" n="78" break="no"/>bus, secus in illicitis, vt in eadem. l. dicitur, 
+      <lb ed="#F" n="79"/>vel dic quod bene applicabuntur fisco, quia 
+      <lb ed="#F" n="80"/>Res Legion. fiscum habebat. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e431" type="decretales-l4t20c6">
+               <head xml:id="inleiv-d1e1663-Hd1e433">Caput 6</head>
+               <p xml:id="inleiv-d1e1663-d1e435">
+                  <lb ed="#F" n="81"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e440">
+                  <lb ed="#F" n="82"/>SVPER A NOBIS. (
+      Indu<lb ed="#F" n="83" break="no"/>cit) ipse vsufructuarius (in 
+      <lb ed="#F" n="84"/>dotem) id est, vxorem suam 
+      <lb ed="#F" n="85"/>dotauit de illa possessione, 
+      <lb ed="#F" n="86"/>quod licet &amp; merito, &amp; 
+      cui<lb ed="#F" n="87" break="no"/>libet aliisin dotem) expone, vt inf. eod. c. 
+      <lb ed="#F" n="88"/>§. vlt. (possidere) nam indotem licet 
+      feu<lb ed="#F" n="89" break="no"/>duma alienare, alias non. sup. de feu. c. 2. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e461" type="decretales-l4t20c7">
+               <head xml:id="inleiv-d1e1663-Hd1e463">Caput 7</head>
+               <p xml:id="inleiv-d1e1663-d1e465">
+                  <lb ed="#F" n="90"/>CAPVT VII. 
+      <lb ed="#F" n="91"/>1 Sutisdatio morumpro doto quo casu teneat 
+      uel<lb ed="#F" n="92" break="no"/>non. 
+      <lb ed="#F" n="93"/>2 Vxor potest repetere dotem, si uidet maritum: 
+      <lb ed="#F" n="94"/>uergere ad inopiam. 
+      <lb ed="#F" n="95"/>2 Mulier si aliquod delictum committat, uel e 
+      <lb ed="#F" n="96"/>contrabat mutuum non cogitur illud sonl¬ i 
+      <lb ed="#F" n="97"/>uere de dote. 
+      <lb ed="#F" n="98"/>Mulier, soluto matrimonio, an sit alenda ap p 
+      <lb ed="#F" n="99"/>baeredibus mariti sui, uel extranei. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e489">
+                  <lb ed="#F" n="100"/>PER VESTRAS 
+      LITE<lb ed="#F" n="101" break="no"/>ras. (Conuenire) id est, in 
+      <lb ed="#F" n="102"/>iudicium euocare (quam) 
+      <lb ed="#F" n="103"/>pecuniam ( repulerat) haee 
+      <lb ed="#F" n="104"/>erat sufficiens exceptio, quia 
+      <lb ed="#F" n="105"/>si eam non sustentabat dotem habere non 
+      <lb ed="#F" n="106"/>debet, imo debet eum sustentare de dote. ff. 
+      <lb ed="#F" n="107"/>de do. inter virum &amp; vxorem. ex annuo. sed 
+      <pb ed="#F" n="484-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>licet eam proponeret non eratvera. (
+      Veri<lb ed="#F" n="2" break="no"/>tate) haec etiam erat sufficiens exceptio, 
+      <lb ed="#F" n="3"/>scilicet rei iudi. C. sent. rescin. non pos. l. vl. 
+      <lb ed="#F" n="4"/>sed quia appellatum fuit, idcirco auditur, 
+      <lb ed="#F" n="5"/>sed litera contradicit, vbi dicit, quod non 
+      <lb ed="#F" n="6"/>fecit mentionem de literis, ergo nec de 
+      ap<lb ed="#F" n="7" break="no"/>pellatione, vnde potest dicere, quod non fuit 
+      <lb ed="#F" n="8"/>appellatum, nec fuit necesse fieri mentioar 
+      <lb ed="#F" n="9"/>nem de priori sententia per quam non 
+      ab<lb ed="#F" n="10" break="no"/>soluebatur reus perpetuo, sed quandiu 
+      su<lb ed="#F" n="11" break="no"/>per ipsa dote mulieri cauetur, &amp; ideo non 
+      <lb ed="#F" n="12"/>obstabat sententia huic petitioni, cum 
+      of<lb ed="#F" n="13" break="no"/>ferret satisdationem, vel petebat quod 
+      da<lb ed="#F" n="14" break="no"/>retur mercatori(cautionem) haec 
+      senten<lb ed="#F" n="15" break="no"/>tia non erat sufficiens. Debuerunt enim 
+      <lb ed="#F" n="16"/>addere vel pecuniam mercatoris dare, vt 
+      <lb ed="#F" n="17"/>sequitur, &amp; hic idem defectus fuit in 
+      son<lb ed="#F" n="18" break="no"/>tentia delegati ( credi). C. de pac. conuen. 
+      <lb ed="#F" n="19"/>hac tamen non cogitur, vt in eadem. l. 
+      di<lb ed="#F" n="20" break="no"/>citur. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e557">
+                  <lb ed="#F" n="21"/>1 (Faciatis) quicquid dicant aliae gl. hic 
+      <lb ed="#F" n="22"/>positae, tu dic, quod siue vxor satisdet, quod 
+      do<lb ed="#F" n="23" break="no"/>tem dabit, siue maritus, quod donationem 
+      sa<lb ed="#F" n="24" break="no"/>tisdederit, tenet satisda. ff. de iur. do. 
+      pro<lb ed="#F" n="25" break="no"/>mittendo. &amp; l. cum dotis. si autem 
+      satisde<lb ed="#F" n="26" break="no"/>dit de restituenda, siue ante matrimonium, 
+      <lb ed="#F" n="27"/>siue constante matrimonio, non tenet 
+      sa<lb ed="#F" n="28" break="no"/>tisdatio, vt continetur in rubri. C. ne 
+      fide<lb ed="#F" n="29" break="no"/>ius. do. dem. l. 1. &amp; 2. Quidam tamen dicunt, 
+      <lb ed="#F" n="30"/>quod licet satisdare non cogatur, tamen tenet 
+      <lb ed="#F" n="31"/>si satisdederit, cum possit renunciare iuri 
+      <lb ed="#F" n="32"/>suo. argu. insti. de satisda. tut. C. de pac. si 
+      <lb ed="#F" n="33"/>quis. solutoautem matrimonio satisdare 
+      <lb ed="#F" n="34"/>potest. ff.sol. mati si constante. § quoties.
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e590">
+                  <lb ed="#F" n="35"/>Quomodo ergo excusabis hie 
+      senten<lb ed="#F" n="36" break="no"/>tiam Papae ? Respon. marito vergente ad 
+      <lb ed="#F" n="37"/>inopiam vxor dotem &amp; res obligatas pro 
+      <lb ed="#F" n="38"/>dote repetere potest. C. de iur. dot. nisi. &amp; 
+      <lb ed="#F" n="39"/>in Authent. de aqua. do. §. vlt. Item ab eo 
+      <lb ed="#F" n="40"/>sequestranda est possessio. ff. solu. matr. 
+      si<lb ed="#F" n="41" break="no"/>cut dotem. §. si dotem vero. sed si in isto casu, 
+      <lb ed="#F" n="42"/>de ea soluenda etiam constante matrimonio 
+      <lb ed="#F" n="43"/>possit cautionem sufficientem praestare, 
+      do<lb ed="#F" n="44" break="no"/>tis administrationem habebit, vt hic. Sed 
+      <lb ed="#F" n="45"/>adhuc est contra, quod hic dicitur, quod 
+      <lb ed="#F" n="46"/>si non praestiterit cautionem, quod res 
+      de<lb ed="#F" n="47" break="no"/>tur mercatori, cum vxor habere debeat ad 
+      <lb ed="#F" n="48"/>alendum se &amp; maritum &amp; liberos. C. de iur. 
+      <lb ed="#F" n="49"/>dot. vbi. sed dic hoc ideo, quia mulier erat 
+      <lb ed="#F" n="50"/>suspecta de minus idonea administratio. 
+      <lb ed="#F" n="51"/>ne, &amp; dilapidatione. arg. ff. de app. 
+      impe<lb ed="#F" n="52" break="no"/>ratores. C. quo ap. non re ab exec. Vel dic, 
+      <lb ed="#F" n="53"/>quod satis habebat vxor, quia mercator 
+      <lb ed="#F" n="54"/>habebat pro ea cautionem, quae tamen sit 
+      <lb ed="#F" n="55"/>sufficiens, alias incongrue sequeretur con¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>iunctio disiunctiua, cum semper 
+      cautie<lb ed="#F" n="57" break="no"/>nem iuratoriam dare posset. 
+      <lb ed="#F" n="58"/>3 (Onera) vnde si mulier co 
+      mmittatali<lb ed="#F" n="59" break="no"/>quod delictum, vel contrahat mutuum, 
+      <lb ed="#F" n="60"/>non cogitur illud soluere de dote. ff. sol 
+      <lb ed="#F" n="61"/>mat. quamuis. vir autem vxorem debet 
+      sub<lb ed="#F" n="62" break="no"/>stentare secundum vires dotis. ff. solut. mat. 
+      <lb ed="#F" n="63"/>sicut dotem. §. si maritus. &amp;. §. si autem. Sed 
+      <lb ed="#F" n="64"/>an mulier soluto matrimonio, sit alenda 
+      <lb ed="#F" n="65"/>ab haeredibus mariti sui, vel extranei, die 
+      <lb ed="#F" n="66"/>quod sic donec dotem rehabeat. C. dere 
+      <lb ed="#F" n="67"/>vxo. act. l. 1. §. exactio. &amp; ibi nota. sed &amp; si 
+      <lb ed="#F" n="68"/>nullam dotem recipit maritus tamen 
+      ale<lb ed="#F" n="69" break="no"/>re debet pro velle suo, quia personam suam 
+      <lb ed="#F" n="70"/>pro dote dat mulier. in Authent. quib. mo. 
+      <lb ed="#F" n="71"/>na. effi. leg. §. fi. ff. vt in possessione. l. pe. 
+      <lb ed="#F" n="72"/>vbi dicitur quod vxorem debet alere vt 
+      <lb ed="#F" n="73"/>filiam. Ad causas autem mulieris vir non 
+      <lb ed="#F" n="74"/>dabit ei expensas, nisi forte speciale 
+      di<lb ed="#F" n="75" break="no"/>cas, quando vir accusat matrimonium, 
+      <lb ed="#F" n="76"/>nam tunc forte cogetur ei dare expensas, 
+      <lb ed="#F" n="77"/>etiam si indotata sit mulier arginf. 
+      deac<lb ed="#F" n="78" break="no"/>entex perte: 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1663-Dd1e691" type="decretales-l4t20c8">
+               <head xml:id="inleiv-d1e1663-Hd1e693">Caput 8</head>
+               <p xml:id="inleiv-d1e1663-d1e695">
+                  <lb ed="#F" n="79"/>CAPVT VIII. 
+      <lb ed="#F" n="80"/>4 Aequalitas non solum in quantitateut non stt 
+      <lb ed="#F" n="81"/>maior quantitas dotis, quam donationis, 
+      <lb ed="#F" n="82"/>sed etiam in lueris ex pacto proueniendis, 
+      <lb ed="#F" n="83"/>seruanda est. 
+      <lb ed="#F" n="84"/>1 Pactum per quod fit deterior tonditio 
+      mullie<lb ed="#F" n="85" break="no"/>ris uolentis, iterum nubere, an ualeat. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e713">
+                  <lb ed="#F" n="86"/>DONATIO. (Si pauperior) 
+      <lb ed="#F" n="87"/>alias enim si non sit 
+      pauperi<lb ed="#F" n="88" break="no"/>or, puta quia rem alienam 
+      do<lb ed="#F" n="89" break="no"/>nauit, tenet donatio &amp; 
+      prae<lb ed="#F" n="90" break="no"/>scribit. ff. de iur. dot. &amp; si 
+      con<lb ed="#F" n="91" break="no"/>stiterit. idem &amp; si repudiauerit hereditatem, 
+      <lb ed="#F" n="92"/>vel legatum, quod &amp; ipsius repudiatione 
+      <lb ed="#F" n="93"/>ad vxorem peruenit. ff. de iur. dot. si 
+      spon<lb ed="#F" n="94" break="no"/>sus. §. si maritus. &amp; §. si quis. (obitu). C. de 
+      <lb ed="#F" n="95"/>do. inter vir. &amp; vxo. donationes. (tacite) 
+      <lb ed="#F" n="96"/>puta quia eandem rem alii donauit. (Expresse) 
+      <lb ed="#F" n="97"/>dicendo reuoco do. quam tibi feci. (
+      Qua<lb ed="#F" n="98" break="no"/>le) si fiat post nuptias. C. de do. ante nup. 
+      <lb ed="#F" n="99"/>l. vlt. &amp; debet esse aequalitas nonsolumin 
+      <lb ed="#F" n="100"/>quantitate, vt non maior sit quantitas 
+      do<lb ed="#F" n="101" break="no"/>tis, quam donatio, sed etiam in lucris ex 
+      <lb ed="#F" n="102"/>pacto proueniendis. Authent. de aequa. do. 
+      <lb ed="#F" n="103"/>§. hoc igitur. &amp; si maius pactum sit de 
+      lucran<lb ed="#F" n="104" break="no"/>da dote quam donatione, maius pactum 
+      <lb ed="#F" n="105"/>trahitur ad minus. ff. de pac. do. l. lege. si 
+      <lb ed="#F" n="106"/>autem pactum factum sit de lucrando dos 
+      <lb ed="#F" n="107"/>te, &amp; nullum pactum sit de lucranda 
+      do<lb ed="#F" n="108" break="no"/>natione, pactum dotis trahitur ad 
+      dona<lb ed="#F" n="109" break="no"/>tionem. C. de do. ante nup. l. vlti. §. si 
+      au<lb ed="#F" n="110" break="no"/>tem do. 
+      </p>
+               <p xml:id="inleiv-d1e1663-d1e770">
+                  <pb ed="#F" n="485-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>Quod intelligo hoc modo, quia si 
+      muli<lb ed="#F" n="2" break="no"/>er fecerat marito pactum, quod ipse maritus 
+      <lb ed="#F" n="3"/>lucraretur dotem, si superuenisset vxor 
+      ma<lb ed="#F" n="4" break="no"/>ritus dotem lucrabitur, si superuixerit vxori 
+      <lb ed="#F" n="5"/>secundum pactum: &amp; eodem modo, vt sit 
+      pari<lb ed="#F" n="6" break="no"/>tas in pactis, &amp; mulier lucrabitur 
+      donati<lb ed="#F" n="7" break="no"/>onem propter nuptias, si superuixerit viro, 
+      <lb ed="#F" n="8"/>&amp; si de donatione lucranda nullum pactum 
+      <lb ed="#F" n="9"/>interuenerit, &amp; idem est econuerso &amp; in 
+      <lb ed="#F" n="10"/>alijs pactis dos &amp; donatio ante nuptias &amp; 
+      <lb ed="#F" n="11"/>post. insti. de dona. §. est &amp; aliud. Similiter 
+      <lb ed="#F" n="12"/>fit augmentum dotis &amp; donationis ante 
+      <lb ed="#F" n="13"/>nup. &amp; post. C. de dona. ante nup. si 
+      con<lb ed="#F" n="14" break="no"/>stante. Ante nuptias autem potest esse 
+      dispa<lb ed="#F" n="15" break="no"/>ritas, &amp; in quantitate dotis &amp; donationis, 
+      <lb ed="#F" n="16"/>&amp; in pactis super lueris. C. de pac. conuen. 
+      <lb ed="#F" n="17"/>tam super do. quam super dona. ex morte, 
+      <lb ed="#F" n="18"/>post nuptias autem hoc non licet, ne 
+      ex<lb ed="#F" n="19" break="no"/>cogitaretur fraus contra prohibitionem 
+      <lb ed="#F" n="20"/>factam de donatione inter virum &amp; 
+      vxo<lb ed="#F" n="21" break="no"/>rem. Hic autem seias, quod non potest 
+      ap<lb ed="#F" n="22" break="no"/>poni pactum per quod deterior fiat 
+      con<lb ed="#F" n="23" break="no"/>ditio mulieris volentis iterum nubere, 
+      si<lb ed="#F" n="24" break="no"/>ue fiat ante nuptias, siue post. ff. de pact. 
+      <lb ed="#F" n="25"/>dot. l. 2. C. de pac. conuen. super do. quame 
+      <lb ed="#F" n="26"/>uis. ff. de dona. inter vir. &amp; vxo. per totum. 
+      <lb ed="#F" n="27"/>consuetudo autem varia potest esse in 
+      <lb ed="#F" n="28"/>quantitate &amp; in lueris. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

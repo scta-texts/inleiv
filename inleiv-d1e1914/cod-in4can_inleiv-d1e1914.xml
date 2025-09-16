@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="519-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1914" type="decretales-l5t21">
+            <head xml:id="inleiv-d1e1914-Hd1e98">Titulus 21</head>
+            <p xml:id="inleiv-d1e1914-d1e100">
+               <lb ed="#F" n="95"/>TITVLVS XXI. 
+      <lb ed="#F" n="96"/>DE SORIILEGIIS. 
+      </p>
+            <div xml:id="inleiv-d1e1914-Dd1e107" type="decretales-l5t21c1">
+               <head xml:id="inleiv-d1e1914-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1914-d1e111">
+                  <lb ed="#F" n="97"/>CAPVT I. 
+      <lb ed="#F" n="98"/>IN TAEVLIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1914-Dd1e119" type="decretales-l5t21c2">
+               <head xml:id="inleiv-d1e1914-Hd1e121">Caput 2</head>
+               <p xml:id="inleiv-d1e1914-d1e123">
+                  <lb ed="#F" n="99"/>CAPVT II. 
+        <!-- line coord error -->
+      <lb ed="#F" n="100"/>EX TVARVM 
+      TENO<lb ed="#F" n="101" break="no"/>RE. (Astrolabii.) Aliqui 
+      di<lb ed="#F" n="102" break="no"/>cunt, quod si tantum 
+      astrola<lb ed="#F" n="103" break="no"/>bium inspicerent, vt per 
+      astro<lb ed="#F" n="104" break="no"/>nomiam tantum quaererent 
+      <lb ed="#F" n="105"/>veritatem, non peccant. arg. hic a 
+      contra<lb ed="#F" n="106" break="no"/>rio sensu tamen, quia non sunt sententiae 
+      <lb ed="#F" n="107"/>quae ad pietatem ducant, imo facile indu¬ 
+      <pb ed="#F" n="519-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>cerent idololatriam dissuadendum est 
+      <lb ed="#F" n="2"/>vtendum eis &amp; studendum. arg. 57. dist. si 
+      <lb ed="#F" n="3"/>quis grammaticam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1914-Dd1e159" type="decretales-l5t21c3">
+               <head xml:id="inleiv-d1e1914-Hd1e161">Caput 3</head>
+               <p xml:id="inleiv-d1e1914-d1e163">
+                  <lb ed="#F" n="4"/>CAPVT III. 
+      <lb ed="#F" n="5"/>1 Sorte anprelatus vel dius superior, &amp; iudex 
+      <lb ed="#F" n="6"/>fit eligenars.
+      </p>
+               <p xml:id="inleiv-d1e1914-d1e172">
+                  <lb ed="#F" n="7"/>ECCLESIA VESTRA. 
+      <lb ed="#F" n="8"/>(Per sortem.) No. non solum 
+      <lb ed="#F" n="9"/>praelatum non eligendum 
+      <lb ed="#F" n="10"/>sorte, sed nec electores. (In 
+      <lb ed="#F" n="11"/>electionibus) alias autem pro 
+      <lb ed="#F" n="12"/>litibus dirimendis, licet vti sortibus. 36. q. 
+      <lb ed="#F" n="13"/>2. sors. (Perpetua) 26. q. 1. non statim. &amp; c. 
+      <lb ed="#F" n="14"/>seq. contra e. q. c. 1. Sol. est in §. 2. causa 
+      <lb ed="#F" n="15"/>prohibitionis est vt non per assiduitatem 
+      <lb ed="#F" n="16"/>sabantur in idololatriam, sicut prohibitum 
+      <lb ed="#F" n="17"/>est iuramentum, vt non labantur in 
+      periu<lb ed="#F" n="18" break="no"/>rium. §. de iureiu. &amp; si Christus. §. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

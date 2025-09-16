@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="387-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1021" type="decretales-l3t13">
+            <head xml:id="inleiv-d1e1021-Hd1e98">Titulus 13</head>
+            <p xml:id="inleiv-d1e1021-d1e100">
+               <lb ed="#F" n="83"/>TITVLVS XIII. 
+      <lb ed="#F" n="84"/>DE REBVS EC 
+      <lb ed="#F" n="85"/>ALIENANDIS, VEL NON. 
+      </p>
+            <div xml:id="inleiv-d1e1021-Dd1e109" type="decretales-l3t13c1">
+               <head xml:id="inleiv-d1e1021-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1021-d1e113">
+                  <lb ed="#F" n="86"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e118">
+                  <lb ed="#F" n="87"/>NON LICET. (Eeclesia 
+      <lb ed="#F" n="88"/>vertere) sibi subiectae, si tamem 
+      <lb ed="#F" n="89"/>iusta causa aedificet nouam 
+      <lb ed="#F" n="90"/>ecclesiam iura quae debentur 
+      <lb ed="#F" n="91"/>matrici ecclesiae ratione ec 
+      <lb ed="#F" n="92"/>clesiae vel ratione parochianorum, qui sibi 
+      de<lb ed="#F" n="93" break="no"/>putantur, dare potest ecclesiae de nouo 
+      aedi<lb ed="#F" n="94" break="no"/>ficatae: puta decimas, oblationes, mortuari a 
+      <lb ed="#F" n="95"/>&amp; consimilia. inf. de eccle. edi. ad 
+      audien<lb ed="#F" n="96" break="no"/>tiam. propriae autet ecclesiae quam fundauit 
+      tan<lb ed="#F" n="97" break="no"/>tum, dare potest si iusta causa subsit. 12. q. 
+      <lb ed="#F" n="98"/>2. bonae. sup. de his quae fiunt a praela. 
+      con<lb ed="#F" n="99" break="no"/>tinebatur ( commutare) 10. q. 2. hoc ius. §. 
+      <lb ed="#F" n="100"/>sed permutare. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e152" type="decretales-l3t13c2">
+               <head xml:id="inleiv-d1e1021-Hd1e154">Caput 2</head>
+               <p xml:id="inleiv-d1e1021-d1e156">
+                  <lb ed="#F" n="101"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e161">
+                  <lb ed="#F" n="102"/>QVI RES. (Aegentium) is. 
+      <lb ed="#F" n="103"/>quest. 1i. quoniam quicquam. 
+      <lb ed="#F" n="104"/>(quae obtinent) id est, 
+      dona<lb ed="#F" n="105" break="no"/>tiones a regibus factae, &amp; quas 
+      <lb ed="#F" n="106"/>obtinent bona ecclesiarum¬ 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e175" type="decretales-l3t13c3">
+               <head xml:id="inleiv-d1e1021-Hd1e177">Caput 3</head>
+               <p xml:id="inleiv-d1e1021-d1e179">
+                  <lb ed="#F" n="107"/>CAPVT III
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e184">
+                  <pb ed="#F" n="388-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CONSENSVS. (Acquirunt) 
+      <lb ed="#F" n="2"/>Etiam de bonis ecclesiae. (
+      Ali<lb ed="#F" n="3" break="no"/>quos) etiam non bene 
+      meri<lb ed="#F" n="4" break="no"/>tos, bene meritos enim 
+      pos<lb ed="#F" n="5" break="no"/>sunt manumittere, etiam si 
+      <lb ed="#F" n="6"/>nihil acquirant. 12. quaest. 2. si quos de 
+      ser<lb ed="#F" n="7" break="no"/>uis. (Manumittere) cum consensu tamen 
+      <lb ed="#F" n="8"/>episcopi. 12. q. 2. placuit. (Antiquae) 12. qon. 2. 
+      <lb ed="#F" n="9"/>episcopus. qui manet. (Et posterit ate) hoc 
+      <lb ed="#F" n="10"/>speciale est in libertis ecclesiae. 12. qo. 2. 
+      li<lb ed="#F" n="11" break="no"/>berti. (Longinquitate) &amp; no. sup. de ser. non 
+      <lb ed="#F" n="12"/>ordi. de famulis. (Vtilitates) operas 
+      manu<lb ed="#F" n="13" break="no"/>missionis tempore impositas. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e221" type="decretales-l3t13c4">
+               <head xml:id="inleiv-d1e1021-Hd1e223">Caput 4</head>
+               <p xml:id="inleiv-d1e1021-d1e225">
+                  <lb ed="#F" n="14"/>CAPVT IIII. 
+      <lb ed="#F" n="15"/>1 Quotuplex dicatur esse vis in rebus. 
+      <lb ed="#F" n="16"/>Alienatum non est, quando domiuium apud 
+      <lb ed="#F" n="17"/>me manet, &amp; alienare quid sit. &amp; nu. 2. 
+      <lb ed="#F" n="18"/>2 Nedum proprietas sed possessio in larga 
+      signi<lb ed="#F" n="19" break="no"/>ficatione alienari dicitur. 
+      <lb ed="#F" n="20"/>3 Rescripta latissime sunt interpretanda. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e243">
+                  <lb ed="#F" n="21"/>EPISCOPI. (Qui conferunt) 
+      <lb ed="#F" n="22"/>sup. c. proxi. 12. q. 1. episcopus 
+      <lb ed="#F" n="23"/>qui tuam. (
+      Condemnatio<lb ed="#F" n="24" break="no"/>nem) quia illicita datio 
+      liber<lb ed="#F" n="25" break="no"/>tatis est causa quare 
+      aeterna<lb ed="#F" n="26" break="no"/>liter condemnetur, &amp; etiam hoc a 
+      iudici<lb ed="#F" n="27" break="no"/>bus suis. (Successor) sed ipse coram iudice 
+      <lb ed="#F" n="28"/>delegato poterit reuocare. C. de agrico. 
+      <lb ed="#F" n="29"/>&amp; censit. quemadmodum. &amp; nota. sup. de 
+      <lb ed="#F" n="30"/>election. nosti. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e267">
+                  <lb ed="#F" n="31"/>Ad ius ecclesiae) id est, potestatem, 
+      <lb ed="#F" n="32"/>quasi dicat facias, quod illi, qui sunt 
+      alie<lb ed="#F" n="33" break="no"/>nati ab ecclesia, redeant ad suam 
+      potesta<lb ed="#F" n="34" break="no"/>tem, &amp; sic sumitur institu. de his qui sui 
+      <lb ed="#F" n="35"/>vel alieni iuris sunt, &amp; in titu. &amp; in tex. 
+      vn<lb ed="#F" n="36" break="no"/>de apparet, quod quando alicui mandatur, 
+      <lb ed="#F" n="37"/>quod ea quae de bonis alicuius ecclesiae 
+      in<lb ed="#F" n="38" break="no"/>uenerit alienata, studeat ad ius &amp; 
+      propri<lb ed="#F" n="39" break="no"/>etatem eiusdem ecclesiae reuocare, id est, 
+      <lb ed="#F" n="40"/>quod aliquae res intelliguntur ad ius 
+      ec<lb ed="#F" n="41" break="no"/>clesiae reuocari, id est, potestatem, etiam 
+      <lb ed="#F" n="42"/>si ecclesia non admiserit proprietatem, 
+      <lb ed="#F" n="43"/>sed possessionem tantum, nam &amp; duplex 
+      <lb ed="#F" n="44"/>ius habetur in rebus. l. proprietatis, &amp; 
+      pos<lb ed="#F" n="45" break="no"/>sessionis. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e302">
+                  <lb ed="#F" n="46"/>Sed iterum oppones, quia videtur quod 
+      <lb ed="#F" n="47"/>per praedictas literas, nullo modo agi 
+      pos<lb ed="#F" n="48" break="no"/>sit possessorio ab illo, qui habet 
+      proprieta<lb ed="#F" n="49" break="no"/>tem, quod sic probabitur, quia nunquam 
+      de<lb ed="#F" n="50" break="no"/>bet dici alienatum vel distractum, si 
+      do<lb ed="#F" n="51" break="no"/>minium apud eum remansit. ff. de 
+      verbo<lb ed="#F" n="52" break="no"/>signi. alienatum. ff. &amp; C. de distract. pig. 
+      <lb ed="#F" n="53"/>per totum. Item probabitur alia ratione, 
+      <lb ed="#F" n="54"/>quia non potest dici alienatum, nisi sit ab 
+      <lb ed="#F" n="55"/>aliquo alienatum, vel distractum, sed 
+      con<lb ed="#F" n="56" break="no"/>stat quod si agatur possessorio 
+      recuperan<lb ed="#F" n="57" break="no"/>dae possessionis, quod est inuasum a nemi¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>ne alienatum, &amp; hoc inquam quidam 
+      di<lb ed="#F" n="59" break="no"/>xerunt. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e338">
+                  <lb ed="#F" n="60"/>2 Sed alii dixerunt &amp; forte melius. 
+      <lb ed="#F" n="61"/>quod per huiusmodi literas, potest agi 
+      pe<lb ed="#F" n="62" break="no"/>titorio &amp; possessorio, quia non so lum in 
+      <lb ed="#F" n="63"/>larga significatione dicitur alienari 
+      pro<lb ed="#F" n="64" break="no"/>prietas, sed possessio. ff. de alie. iud. mu. 
+      <lb ed="#F" n="65"/>caus. fac. non solum. in princ. ff. quod me. 
+      <lb ed="#F" n="66"/>cau. si militer. §. 2. inf. eod. c. proxi. C. de re. 
+      <lb ed="#F" n="67"/>alie. sancimus. 5. de rescript. super literis. 
+      <lb ed="#F" n="68"/>contraria autem loquuntur in stricta 
+      si<lb ed="#F" n="69" break="no"/>gnificatione, &amp; quod dicitur, quod non 
+      di<lb ed="#F" n="70" break="no"/>citur alienatum inuasum, sed oportet quod 
+      <lb ed="#F" n="71"/>ab aliquo alienetur e Respon. hoc falsum 
+      <lb ed="#F" n="72"/>esse, quia proprie dicitur de praedio, quod 
+      <lb ed="#F" n="73"/>ecclesia amisit per occupationem 
+      alteri<lb ed="#F" n="74" break="no"/>us, quia idem praedium est alienatum ab 
+      <lb ed="#F" n="75"/>ecclesia, id est, alienum factum, &amp; sic 
+      sumi<lb ed="#F" n="76" break="no"/>tur, quando dicitur aliquis est alienatus 
+      <lb ed="#F" n="77"/>mente, id est, alienus factus mente. I. de suc. 
+      <lb ed="#F" n="78"/>ab int eg. c. fi. 15. q. 1. in prin. sic etiam sumit 
+      <lb ed="#F" n="79"/>in psal. vbi dicitur, alienati sunt 
+      peccato<lb ed="#F" n="80" break="no"/>res a vulua, id est, peccatores facti sunt 
+      ali<lb ed="#F" n="81" break="no"/>eni a veritate, id est, praeuisum est, quod 
+      fie<lb ed="#F" n="82" break="no"/>rent alieni ipsi dico peccatores a vulua. 1. 
+      <lb ed="#F" n="83"/>sua origine, &amp; in hoc sensu sumit ab 
+      Apo<lb ed="#F" n="84" break="no"/>stolo, vbi loquit ad Colossens. Et vos cum 
+      <lb ed="#F" n="85"/>essetis aliquando alienati, &amp; inimici. &amp; 
+      ali<lb ed="#F" n="86" break="no"/>bi etiam loquitur ad Ephesios, dicens, eos 
+      <lb ed="#F" n="87"/>alienatos a conuersione Israel, &amp; a gratia. 
+      <lb ed="#F" n="88"/>Ex his enim apparet, quod dicitur 
+      alie<lb ed="#F" n="89" break="no"/>natum, &amp; si a nemine esset alienatum. Item 
+      <lb ed="#F" n="90"/>non videtur nobis, quod per huiusmodi formam 
+      <lb ed="#F" n="91"/>literarum debeat iudex procedere 
+      inqui<lb ed="#F" n="92" break="no"/>rendo, sed in forma iudicij, &amp; hoc satis 
+      col<lb ed="#F" n="93" break="no"/>ligitur ex eo, quod dicitur. 5. eo. ad audientiam. 
+      <lb ed="#F" n="94"/>&amp;. I. de donat. fraternitatem. vbi dicit 
+      le<lb ed="#F" n="95" break="no"/>gitime reuocare. Nec mireris si aliquando 
+      <lb ed="#F" n="96"/>receditur a prima significatione verbi, 
+      <lb ed="#F" n="97"/>praeualet enim sensus verbo. ff. de haered. 
+      <lb ed="#F" n="98"/>insti. l. 4. C. de libe. praete. l. pen. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e425">
+                  <lb ed="#F" n="99"/>Item rescripta latissime sunt 
+      inter<lb ed="#F" n="100" break="no"/>pretanda. ff de iudi. solemus. sup. de causa 
+      <lb ed="#F" n="101"/>pos. cum ecclesia. circa fi. ff. de iudi. in 
+      am<lb ed="#F" n="102" break="no"/>bi. Alii tamen aliter dicunt, scilicet, quod 
+      <lb ed="#F" n="103"/>per huiusmodi literas, non potest agi 
+      pos<lb ed="#F" n="104" break="no"/>sessorio recuperandae possessionis. Idem 
+      <lb ed="#F" n="105"/>quod dictum est in hac forma, dicendum 
+      <lb ed="#F" n="106"/>est &amp; in illa, quicquid post arreptum iter 
+      <lb ed="#F" n="107"/>inueneris attentatum, vel post litem 
+      coe<lb ed="#F" n="108" break="no"/>ptam studeas in statum legitimum 
+      reuo<lb ed="#F" n="109" break="no"/>care, has formas habes sup. de peregri. c. 1. 
+      <lb ed="#F" n="110"/>sup. de consti. cum M. nam in istis formis, 
+      <lb ed="#F" n="111"/>sicut in prima procedendum est ordine 
+      <lb ed="#F" n="112"/>iudiciario, ita procedi potest secundum eas 
+      <lb ed="#F" n="113"/>&amp; possessorio &amp; petitorio, &amp; sic 
+      sententia<lb ed="#F" n="114" break="no"/>uit Papa in causa sanctae Mariae Eboracens. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e463" type="decretales-l3t13c5">
+               <head xml:id="inleiv-d1e1021-Hd1e465">Caput 5</head>
+               <p xml:id="inleiv-d1e1021-d1e467">
+                  <pb ed="#F" n="388-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT V. 
+      <lb ed="#F" n="2"/>1 Praedium conditionale quid sit. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e478">
+                  <lb ed="#F" n="3"/>NVLLI. (Alienare) nisi pro 
+      <lb ed="#F" n="4"/>vtilitate ecclesiae, &amp; cum 
+      iu<lb ed="#F" n="5" break="no"/>ris solennitate. 12. q. 2. sine ex. 
+      <lb ed="#F" n="6"/>&amp; 10. q. 2. hoc ius. Alii tamen 
+      <lb ed="#F" n="7"/>dicunt &amp; forte melius, cum 
+      <lb ed="#F" n="8"/>solennitate quae in ecclesia illa per 
+      consue<lb ed="#F" n="9" break="no"/>tudinem introducta est, &amp; si fit praeter ius, 
+      <lb ed="#F" n="10"/>dummodo non sit alias grauis, ne sit contra. 
+      <lb ed="#F" n="11"/>sup. de sen. &amp; re iu. cum causa. (immobilem) 
+      <lb ed="#F" n="12"/>secus in mobilibus. arg. C. de admi. tu. lex 
+      <lb ed="#F" n="13"/>quae. C. de prae. mi. inter omnes. (
+      Hvpo<lb ed="#F" n="14" break="no"/>thecae) insti. de ac. §. inter pignus. (
+      Aliena<lb ed="#F" n="15" break="no"/>tionis) hic large accipitur, alibi stricte. C. 
+      <lb ed="#F" n="16"/>de fun. do. l. 1. ff. de verbo. signi. 
+      alienatio<lb ed="#F" n="17" break="no"/>i nis. (Conditionem)  contractus 
+      conditio<lb ed="#F" n="18" break="no"/>nis dicitur, vbi praedium constituitur 
+      tri<lb ed="#F" n="19" break="no"/>butarium, &amp; vulgariter tale praedium 
+      di<lb ed="#F" n="20" break="no"/>citur conditionale, quia sub conditione 
+      <lb ed="#F" n="21"/>tale praedium cadit in commissum, 
+      scili<lb ed="#F" n="22" break="no"/>cet, si non soluat tributum, vel contractus 
+      <lb ed="#F" n="23"/>conditionis dicitur, vbi contractus 
+      cele<lb ed="#F" n="24" break="no"/>bratur sub conditione. Quidam tamen 
+      <lb ed="#F" n="25"/>non intelligentes, corrumpunt literam 
+      <lb ed="#F" n="26"/>hic, scilicet, conductionem ponendo, cum 
+      <lb ed="#F" n="27"/>conducere nullo modo sit alienare. (
+      Per<lb ed="#F" n="28" break="no"/>petuum) scilicet, quamdiu pensio soluitur 
+      <lb ed="#F" n="29"/>ab eo, vel ab haeredibus eius, si certum 
+      tem<lb ed="#F" n="30" break="no"/>pus apponatur. C. de reb. alie. non alie. 
+      <lb ed="#F" n="31"/>sancimus. intest. locati. §. ad hoc. vel 
+      quam<lb ed="#F" n="32" break="no"/>diu viuet conductor, si contrahentes hoc 
+      <lb ed="#F" n="33"/>volunt. ff. pro so. l. 3. argum. contrarium. 
+      <lb ed="#F" n="34"/>sup. de iure emphy. l. 1. (Comminauerunt.) 
+      <lb ed="#F" n="35"/>C. de epis. iubemus.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e553" type="decretales-l3t13c6">
+               <head xml:id="inleiv-d1e1021-Hd1e555">Caput 6</head>
+               <p xml:id="inleiv-d1e1021-d1e557">
+                  <lb ed="#F" n="36"/>CAPVT VI. 
+      <lb ed="#F" n="37"/>1 Anathema quid habeat nse viriutum 
+      cope<lb ed="#F" n="38" break="no"/>rationis. 
+      <lb ed="#F" n="39"/>Actio exempto competit ementi contraeum, 
+      <lb ed="#F" n="40"/>qui non ecclesiae, vel ciuitatis vendit, 
+      <lb ed="#F" n="41"/>nisi ecclesia vel ciuitas facta sit locupl 
+      <lb ed="#F" n="42"/>tior, &amp; quomodo hoc cesu actio sit 
+      insti<lb ed="#F" n="43" break="no"/>tuenda. 
+      <lb ed="#F" n="44"/>2 De euictione tenetur solus principalis 
+      alie<lb ed="#F" n="45" break="no"/>nator. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e581">
+                  <lb ed="#F" n="46"/>SI QVIS. (Defensorum) 
+      ad<lb ed="#F" n="47" break="no"/>uocatorum, vel 
+      procurato<lb ed="#F" n="48" break="no"/>rum. 16. quaest. 1. praesentium. 
+      <lb ed="#F" n="49"/>(A nathemate) id est, 
+      ana<lb ed="#F" n="50" break="no"/>thematizetur, quo 
+      anathe<lb ed="#F" n="51" break="no"/>mate non tantum fit corporalis separatio 
+      <lb ed="#F" n="52"/>a communione fratrum, sed etiam Deus 
+      <lb ed="#F" n="53"/>separat animas a custodia, &amp; gratia sua. 
+      <lb ed="#F" n="54"/>(Et alienator.) Sed nonne hic emptor 
+      ha<lb ed="#F" n="55" break="no"/>bet actionem ex contractu aduersus 
+      prae<lb ed="#F" n="56" break="no"/>latum vendentem, ad pretium reddendune: 
+      <lb ed="#F" n="57"/>Respondemus sic. 10. quest. 2. hoc ius. §. qui 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>rem. 12. qon. 2. vulterane. Authen. de non 
+      <lb ed="#F" n="59"/>alie. §. quia vero Leonis. lIdem etiam est in 
+      <lb ed="#F" n="60"/>illis, qui contrahunt nomine ciuitatis, quia 
+      <lb ed="#F" n="61"/>si ciuitas non sit facta locupletior, 
+      tenen<lb ed="#F" n="62" break="no"/>tur ipsi, qui contrahunt. ff. si cer. pe. 
+      ciui<lb ed="#F" n="63" break="no"/>tas. C. si cer. pe. eum. Sed dices, nonne 
+      prae<lb ed="#F" n="64" break="no"/>lato contra agentem dabitur exceptio 
+      do<lb ed="#F" n="65" break="no"/>li, scilicet, quia rem ecclesiae illicite emit, 
+      <lb ed="#F" n="66"/>vnde sibi imputare debet, si quod damnum 
+      <lb ed="#F" n="67"/>incurrit, potest responderi, quod non 
+      da<lb ed="#F" n="68" break="no"/>bit praelato haec exceptio, licet enim male 
+      <lb ed="#F" n="69"/>&amp; contra leges emerit, tamen venditor de 
+      <lb ed="#F" n="70"/>euictione tenetur. Vel dic, dari doli 
+      exce<lb ed="#F" n="71" break="no"/>ptionem praelato. Sed contra illam doli 
+      <lb ed="#F" n="72"/>exceptionem datur emptori doli 
+      replica<lb ed="#F" n="73" break="no"/>tio, quod licet quando excipiens de dolo, 
+      <lb ed="#F" n="74"/>incipit proponere, secundum quod not. I. 
+      <lb ed="#F" n="75"/>de adul. c. penul. &amp; hoc excipiens de do. 
+      <lb ed="#F" n="76"/>incipit proponere. Actio enim ex empto 
+      <lb ed="#F" n="77"/>competit ementi contra eum, qui 
+      nomi<lb ed="#F" n="78" break="no"/>ne ecclesiae, vel ciuitatis vendidit, nisi 
+      ec<lb ed="#F" n="79" break="no"/>clesia, vel ciuitas facta sit locupletior, &amp; si 
+      <lb ed="#F" n="80"/>nihil dolo fecerit venditor, vt in iuribus 
+      <lb ed="#F" n="81"/>praeallegatis, &amp; ita actor agens in 
+      propo<lb ed="#F" n="82" break="no"/>sitione actionis, nihil de dolo proponere 
+      <lb ed="#F" n="83"/>debet, sed tamen sic dicet. Talem rem 
+      <lb ed="#F" n="84"/>quam vendidisti mihi nomine talis 
+      eccle<lb ed="#F" n="85" break="no"/>siae, me oportuit ei restituere, quae non fuit 
+      <lb ed="#F" n="86"/>ex pretio facta locupletior, vel etiam per 
+      <lb ed="#F" n="87"/>haec verba, peto quod mihi pretium cum 
+      <lb ed="#F" n="88"/>interesse restituas, si enim a dolo 
+      incipe<lb ed="#F" n="89" break="no"/>ret agere, tunc praelato daretur doli 
+      exce<lb ed="#F" n="90" break="no"/>ptio, &amp; non competeret doli replicatio 
+      <lb ed="#F" n="91"/>emptori. ff. de do. excep. apud. §. 
+      Mar<lb ed="#F" n="92" break="no"/>cellus. vnde secundum hoc videtur, si 
+      di<lb ed="#F" n="93" break="no"/>ceret, peto pretium &amp; interesse, quia 
+      ven<lb ed="#F" n="94" break="no"/>didisti contra formam, quod non esset 
+      au<lb ed="#F" n="95" break="no"/>diendus, vel quod daretur exceptio, tu 
+      al<lb ed="#F" n="96" break="no"/>legas turpitudinem tuam, &amp; in pari causa 
+      <lb ed="#F" n="97"/>turpitudinis potior est conditio 
+      possiden<lb ed="#F" n="98" break="no"/>tis. ff. de condi. ob. turp. causam. l. penul.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e701">
+                  <lb ed="#F" n="99"/>Sed dices nonne quilibet potest 
+      ha<lb ed="#F" n="100" break="no"/>bere actionem, vbi non fiet mentio de 
+      do<lb ed="#F" n="101" break="no"/>lo, nam fere in omnibus casibus competit 
+      <lb ed="#F" n="102"/>certi condictio, vel triticaria, quae doli 
+      <lb ed="#F" n="103"/>mentionem non habet. ff. si cer. pet. certi 
+      <lb ed="#F" n="104"/>condictio. ff. de triti. vlti. Sed respondemus, 
+      <lb ed="#F" n="105"/>licet proponatur generalis actio, quae de 
+      <lb ed="#F" n="106"/>dolo non habet mentionem, tamen 
+      quan<lb ed="#F" n="107" break="no"/>do proponitur ex causa turpi, sicut ex 
+      <lb ed="#F" n="108"/>causa furti, non admittetur petitio vel 
+      li<lb ed="#F" n="109" break="no"/>bellus, nisi causam exprimat, vt no. sup. de 
+      <lb ed="#F" n="110"/>offic. ord. conquerente. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e730">
+                  <lb ed="#F" n="111"/>Item no. quod solus principalis 
+      alie<lb ed="#F" n="112" break="no"/>nator tenetur de euictione, &amp; si multi fuer 
+      <lb ed="#F" n="113"/>runt, qui simul fecerunt, omnes 
+      tenebun<lb ed="#F" n="114" break="no"/>tur, assentientes autem &amp; subscribentes, 
+      <pb ed="#F" n="389-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>alijs poenis subiacebunt. 12. quaestio. 2. non 
+      <lb ed="#F" n="2"/>licet. Qualiter autem, &amp; quando tutor, 
+      <lb ed="#F" n="3"/>vel curator, vel quilibet alius procurator 
+      <lb ed="#F" n="4"/>teneatur de his, quae agit nomine domini 
+      <lb ed="#F" n="5"/>sui. not. est in summa. C. de procu. Quidam 
+      <lb ed="#F" n="6"/>dicunt &amp; non male, sed leuius, quod 
+      hu<lb ed="#F" n="7" break="no"/>iusmodi conductores si sunt bonae fidei, 
+      <lb ed="#F" n="8"/>habent actionem contra locatores ad 
+      pe<lb ed="#F" n="9" break="no"/>cuniam repetendam. 12. quaestio. 2. 
+      Vulte<lb ed="#F" n="10" break="no"/>ran. Authen. de non alie. re. eccl. §. si quis 
+      <lb ed="#F" n="11"/>igitur. sed malae fidei non. 16. quaestio. 3. §. 
+      <lb ed="#F" n="12"/>vniuersos. 10. quaestio. 2. hoc ius in fi. nisi 
+      si<lb ed="#F" n="13" break="no"/>bi de euictione prospexerit. C. de euict. si 
+      <lb ed="#F" n="14"/>fundum. in casu tamen speciali agit 
+      ma<lb ed="#F" n="15" break="no"/>laefidei possessor ad pretium. §. communia 
+      <lb ed="#F" n="16"/>de leg. l. fi. §. fi. (Celeri) antequam 
+      excom<lb ed="#F" n="17" break="no"/>municetur, vel antequam ecclesia 
+      dam<lb ed="#F" n="18" break="no"/>nificetur (Restitutione) C. ne fiscus rem 
+      <lb ed="#F" n="19"/>quam ven. l. circa. lib. 10. ff. de ali. iu. mu. 
+      <lb ed="#F" n="20"/>causa. ex hoc. §. 3. (Sibi) de hoc not. sup. de 
+      <lb ed="#F" n="21"/>elect. nosti. (Remedium) scilicet, quod res 
+      <lb ed="#F" n="22"/>ecclesiae restituant. (Asscriptam) contra 
+      <lb ed="#F" n="23"/>alienatores &amp; assentientes &amp; 
+      subscriben<lb ed="#F" n="24" break="no"/>tes. (Vacuetur) id est, per sententiam 
+      pu<lb ed="#F" n="25" break="no"/>blice nuncietur. (Quibuscunque) 
+      maiori<lb ed="#F" n="26" break="no"/>bus &amp; minoribus conuersis &amp; patronis. 16. 
+      <lb ed="#F" n="27"/>q. vlt. filijs. imo &amp; laicis. arg. in Authen. de 
+      <lb ed="#F" n="28"/>ecc. ti. §. si autem sancimus. Quidam 
+      ta<lb ed="#F" n="29" break="no"/>men hoc negant, sed tu repete, quae 
+      dixi<lb ed="#F" n="30" break="no"/>mus sup. de testi. cum olim. (Reposcere) 
+      <lb ed="#F" n="31"/>nec satis dabit iste agens pro ecclesia, quod 
+      <lb ed="#F" n="32"/>rem deducit in iudicium, &amp; praeiudicat 
+      <lb ed="#F" n="33"/>ecclesiae sententia contra hunc lata, si 
+      sci<lb ed="#F" n="34" break="no"/>uit causam agi. ff. de accu. si tibi. §. iisdem. 
+      <lb ed="#F" n="35"/>ff. de administ. tut. vulgo. C. de administ. 
+      <lb ed="#F" n="36"/>tut. l. fin. §. defen. qualiter autem 
+      conci<lb ed="#F" n="37" break="no"/>pere debet libellum. not. sup. de testi. cum 
+      <lb ed="#F" n="38"/>olim. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e829" type="decretales-l3t13c7">
+               <head xml:id="inleiv-d1e1021-Hd1e831">Caput 7</head>
+               <p xml:id="inleiv-d1e1021-d1e833">
+                  <lb ed="#F" n="39"/>CAPVT VII.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e838">
+                  <lb ed="#F" n="40"/>AD AVRES. (Extirpare) 1o. 
+      <lb ed="#F" n="41"/>quaestio. 2. hoc ius. §. 
+      perpe<lb ed="#F" n="42" break="no"/>tua. &amp; §. si qua. (Haereditatis) 
+      <lb ed="#F" n="43"/>id est, in perpetuam 
+      emphy<lb ed="#F" n="44" break="no"/>teosim. (Concedere) cum 
+      <lb ed="#F" n="45"/>consensu tamen capituli. 10. quaest. 2. hoc 
+      <lb ed="#F" n="46"/>ius. §. perpetua. (Tunc possunt) tempore 
+      <lb ed="#F" n="47"/>locationis, quasi dicat, quamuis primo 
+      <lb ed="#F" n="48"/>potuerit plus locari, hoc non debet obesse 
+      <lb ed="#F" n="49"/>conductori. argu. C. locati. ibidemque. &amp; 
+      <lb ed="#F" n="50"/>l. quidam. &amp; C. de alluui. l. vlt. (Alijs) &amp; 
+      ta<lb ed="#F" n="51" break="no"/>men sibi non liceret locare alijs, sicut nec 
+      <lb ed="#F" n="52"/>alienare. sup. eod. nulli. in hoc ergo 
+      ha<lb ed="#F" n="53" break="no"/>bet priuil. quod ei locari licet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e872" type="decretales-l3t13c8">
+               <head xml:id="inleiv-d1e1021-Hd1e874">Caput 8</head>
+               <p xml:id="inleiv-d1e1021-d1e876">
+                  <lb ed="#F" n="54"/>CAPVT VIII. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e881">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>VT SVPER. (Si possessiones) 
+      <lb ed="#F" n="56"/>quocunque modo ad manus 
+      <lb ed="#F" n="57"/>praedecessoris deuolutae, &amp; 
+      <lb ed="#F" n="58"/>quamdiu vixerit possesse. 
+      <lb ed="#F" n="59"/>Vel dic, quod genitiui, qui 
+      <lb ed="#F" n="60"/>sequuntur, scilicet, regalium reguntur ab 
+      <lb ed="#F" n="61"/>hoc nomine reditus, seu etiam ab hoc 
+      no<lb ed="#F" n="62" break="no"/>mine, possessiones. Reges enim saepe 
+      sole<lb ed="#F" n="63" break="no"/>bant pro decimis retentis dare 
+      possessio<lb ed="#F" n="64" break="no"/>nes, vel reditus. (Prouenientes) scilicet, 
+      re<lb ed="#F" n="65" break="no"/>ditus, vel possessiones de mensa(De 
+      men<lb ed="#F" n="66" break="no"/>sa.) quia enim praedecessor toto tempore 
+      <lb ed="#F" n="67"/>vitae suae possedit eas, videbatur quod 
+      de<lb ed="#F" n="68" break="no"/>berent dici de mensa episcopi, quia vero 
+      <lb ed="#F" n="69"/>de nouo erant ad ecclesiam deuolutae, 
+      vi<lb ed="#F" n="70" break="no"/>debatur, quod non deberent dici de 
+      men<lb ed="#F" n="71" break="no"/>sa episcopi, &amp; sic per consequens possent 
+      <lb ed="#F" n="72"/>alienari. arg. inf. de feudis. c. vlt. Sed quia 
+      <lb ed="#F" n="73"/>in tutiorem partem interpretandum est, 
+      <lb ed="#F" n="74"/>consuluit non alienandum, &amp; est sanum, 
+      <lb ed="#F" n="75"/>&amp; necessarium consilium, cum iurat non 
+      <lb ed="#F" n="76"/>alienare ea, quae de mensa sunt, 
+      intelligi<lb ed="#F" n="77" break="no"/>tur, vt non solum teneatur non alienare, 
+      <lb ed="#F" n="78"/>quae antiquitus assignata sunt mensae, sed 
+      <lb ed="#F" n="79"/>etiam quae de nouo. Nec enim videmus, 
+      <lb ed="#F" n="80"/>quare plus de quibusdam, quam de alijs 
+      in<lb ed="#F" n="81" break="no"/>telligitur, secus autem est in illis rebus, quae 
+      <lb ed="#F" n="82"/>ecclesiae sunt, sed alii datur vtile dominium, 
+      <lb ed="#F" n="83"/>&amp; etiam quandoqe ad ecclesiam 
+      reuertum<lb ed="#F" n="84" break="no"/>tur, quia illa non sic de mensa intelligunt, 
+      <lb ed="#F" n="85"/>vt sunt feuda, vt. i. de feudis. c. fi. sed quasi 
+      <lb ed="#F" n="86"/>videtur ordinatum de eis, quod si sit licitum 
+      <lb ed="#F" n="87"/>eis in feudum dare, sed si hodie de nouo 
+      <lb ed="#F" n="88"/>dentur, videntur data, vt in bonis &amp; in 
+      vti<lb ed="#F" n="89" break="no"/>litatem ecclesiae perseuerent, vnde non 
+      <lb ed="#F" n="90"/>licet ordinare, quod aliquid exeat de 
+      men<lb ed="#F" n="91" break="no"/>sa. Minus) 12. qon. 2. terrulas contrarium. 
+      <lb ed="#F" n="92"/>Sol. ibi possessiones vero appellantur 
+      mi<lb ed="#F" n="93" break="no"/>nus vtiles, id est, inutiles, vel quasi, hic autm 
+      <lb ed="#F" n="94"/>dicuntur minus vtiles, non quod sint 
+      inu<lb ed="#F" n="95" break="no"/>tiles, vel quasi, sed quia sunt minus vtiles, 
+      <lb ed="#F" n="96"/>quam aliae. (Concedimus) de speciali gratia. 
+      <lb ed="#F" n="97"/>de iure enim communi non pont alienare sine 
+      <lb ed="#F" n="98"/>consensu superioris, nisi obstante iuramento. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e982" type="decretales-l3t13c9">
+               <head xml:id="inleiv-d1e1021-Hd1e984">Caput 9</head>
+               <p xml:id="inleiv-d1e1021-d1e986">
+                  <lb ed="#F" n="99"/>CAPVT IX.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e991">
+                  <lb ed="#F" n="100"/>AD AVDIENTIAM. (
+      Pro<lb ed="#F" n="101" break="no"/>cures.) De facto de iure enim 
+      <lb ed="#F" n="102"/>non tenebat contractus. 12. 
+      <lb ed="#F" n="103"/>quaestio. 2. sine ex. (
+      Reuoca<lb ed="#F" n="104" break="no"/>ri) de facto, vel sine 
+      scanda<lb ed="#F" n="105" break="no"/>lo. Conductoribus) si conductores fuerint 
+      <lb ed="#F" n="106"/>bonaefidei in conducendo habent actionem 
+      <lb ed="#F" n="107"/>contra locatores. 12. quaest. 2. Vulteran. in 
+      <lb ed="#F" n="108"/>Authen. de reb. ecc. non alie. §. si quis 
+      ser<lb ed="#F" n="109" break="no"/>uus. si essent malaefi. non. 16. q. 3. §. potest. 
+      <lb ed="#F" n="110"/>vet. vniuersitas. 10. q. 2. hoc ius in fin. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e1019" type="decretales-l3t13c10">
+               <head xml:id="inleiv-d1e1021-Hd1e1021">Caput 10</head>
+               <p xml:id="inleiv-d1e1021-d1e1023">
+                  <lb ed="#F" n="111"/>CAPVT X.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1028">
+                  <pb ed="#F" n="389-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>POSSESSIONES. (Alienare) 
+      <lb ed="#F" n="2"/>sine authoritate superioris. 
+      <lb ed="#F" n="3"/>(Assignare) nisi fuerint 
+      re<lb ed="#F" n="4" break="no"/>gulares. infra, de religio. do. 
+      <lb ed="#F" n="5"/>inter. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e1047" type="decretales-l3t13c11">
+               <head xml:id="inleiv-d1e1021-Hd1e1049">Caput 11</head>
+               <p xml:id="inleiv-d1e1021-d1e1051">
+                  <lb ed="#F" n="6"/>CAPVT XI. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1056">
+                  <lb ed="#F" n="7"/>AD NOSTRAM. (
+      Necessi<lb ed="#F" n="8" break="no"/>tate) debitorum. (
+      Monaste<lb ed="#F" n="9" break="no"/>rium) hic intelligitur, 
+      quan<lb ed="#F" n="10" break="no"/>do contractus tenebat, nec 
+      <lb ed="#F" n="11"/>aliqua solennitas deerat, &amp; 
+      <lb ed="#F" n="12"/>tamen propter enorme damnum 
+      mona<lb ed="#F" n="13" break="no"/>sterii datur restitutio, &amp; non propter leue. 
+      <lb ed="#F" n="14"/>ff. de mino. si ex causa. 1. respon. Recepta) 
+      <lb ed="#F" n="15"/>de gratia, quia de iure compensare 
+      debe<lb ed="#F" n="16" break="no"/>bat. Vel dic, de iure esse, ex quo in feudum 
+      <lb ed="#F" n="17"/>tenebat, &amp; ex hoc vtile dominium 
+      habe<lb ed="#F" n="18" break="no"/>bat, quod faceret suos fructus, &amp; maxime, 
+      <lb ed="#F" n="19"/>quia bonafide possidebat, &amp; non est vis siue 
+      <lb ed="#F" n="20"/>contractus non teneret propter defectum 
+      <lb ed="#F" n="21"/>solennitatis, siue tenebat, sed propter 
+      lae<lb ed="#F" n="22" break="no"/>sionem dabatur in integrum restitutio. 
+      <lb ed="#F" n="23"/>Item praedicta villa non est pignus, scilicet, 
+      <lb ed="#F" n="24"/>quod sola conuentione constituatur. 
+      pe<lb ed="#F" n="25" break="no"/>cuniam autem reddere tenentur, siue 
+      mu<lb ed="#F" n="26" break="no"/>tui contractum fecerint, siue actionem 
+      <lb ed="#F" n="27"/>mandati, siue mandato ecclesiae soluit. 
+      <lb ed="#F" n="28"/>(Dimittat) petita in integ. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e1107" type="decretales-l3t13c12">
+               <head xml:id="inleiv-d1e1021-Hd1e1109">Caput 12</head>
+               <p xml:id="inleiv-d1e1021-d1e1111">
+                  <lb ed="#F" n="29"/>CAPVT XII. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1116">
+                  <lb ed="#F" n="30"/>CVM LAICIS. priuilegijs.) 16 quest. 1. 
+      <lb ed="#F" n="31"/>generaliter. 7. dist S hine etiam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1021-Dd1e1124" type="decretales-l3t13c13">
+               <head xml:id="inleiv-d1e1021-Hd1e1126">Caput 13</head>
+               <p xml:id="inleiv-d1e1021-d1e1128">
+                  <lb ed="#F" n="32"/>CAPVT XIII. 
+      <lb ed="#F" n="33"/>1 Quando imminet alienatio rerum pupilli 
+      fa<lb ed="#F" n="34" break="no"/>cienda si non babet, vel habet minus 
+      bo<lb ed="#F" n="35" break="no"/>num defensorem, debet ei bonus 
+      defen<lb ed="#F" n="36" break="no"/>sor, vel aduocatus per iudicem dari. 
+      <lb ed="#F" n="37"/>3 Rer pupilli pretiosae alienari non debent, nisi 
+      <lb ed="#F" n="38"/>praemissam cognitione &amp; interpositione 
+      de<lb ed="#F" n="39" break="no"/>creti. quid autem de rebus eeclesiae 
+      pre<lb ed="#F" n="40" break="no"/>tiosis. in nu.5 
+      <lb ed="#F" n="41"/>3 Quae sit differentiainater decretum, 
+      autborita<lb ed="#F" n="42" break="no"/>tem, &amp; consensum. &amp; etiam in nu. 6. 
+      <lb ed="#F" n="43"/>4 Mlienationis contractus substantiam capit 
+      <lb ed="#F" n="44"/>ex seriptura. 
+      <lb ed="#F" n="45"/> Contractus an &amp; quando valeat sine 
+      scriptu<lb ed="#F" n="46" break="no"/>ra &amp; subscriptione.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1163">
+                  <lb ed="#F" n="47"/>DVDVM. Et inf. Defensor) 
+      <lb ed="#F" n="48"/>idem est in pupillo, quia 
+      quan<lb ed="#F" n="49" break="no"/>do imminet alienatio rerum 
+      <lb ed="#F" n="50"/>pupilli facienda, si non habet, 
+      <lb ed="#F" n="51"/>el habet minus bonum 
+      defen<lb ed="#F" n="52" break="no"/>sorem, debet ei bonus defensor, vel 
+      aduoca<lb ed="#F" n="53" break="no"/>tusdari per iudicem. ff. de rebus eorum qui 
+      <lb ed="#F" n="54"/>fab tu. l. magis. §. non passim. in fin. hic 
+      au<lb ed="#F" n="55" break="no"/>tem defensortam rerum minorum, quam 
+      <lb ed="#F" n="56"/>rerum ecclesiasticarum docebit, quare 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>alienatio debet fieri, vel denegari, &amp; 
+      prael<lb ed="#F" n="58" break="no"/>piet episcopus alienationem fieri per ipsum 
+      <lb ed="#F" n="59"/>defensorem, vel ipse episcopus alienabit. 
+      <lb ed="#F" n="60"/>nam de iure canonum episcopus ex causa 
+      <lb ed="#F" n="61"/>potest vnam ecclesiam, &amp; res eius dare 
+      al<lb ed="#F" n="62" break="no"/>teri. 12. quaestio. 2. si episcopus. &amp; c. seq. inf. 
+      <lb ed="#F" n="63"/>de donat. pa. sup. de his quae fi. a praela. 
+      pa<lb ed="#F" n="64" break="no"/>sto. &amp; not. sup. vt ec. bene. c. 1. Nec 
+      mire<lb ed="#F" n="65" break="no"/>ris quod idem est alienator, &amp; praestans 
+      au<lb ed="#F" n="66" break="no"/>thoritatem alienationi, quia 
+      alienatio<lb ed="#F" n="67" break="no"/>nem facit nomine ecclesiae, quae vel cuius 
+      <lb ed="#F" n="68"/>res alienantur authoritatem praestat, vt 
+      <lb ed="#F" n="69"/>episcopus. Nec obest si laeditur ecclesia, 
+      <lb ed="#F" n="70"/>cuius res donantur, quia praeferri debet 
+      <lb ed="#F" n="71"/>communis vtilitas priuatae, vel maius 
+      bo<lb ed="#F" n="72" break="no"/>num minori. 7. quo. mutationes. &amp; c. seque. si 
+      <lb ed="#F" n="73"/>autem episcopus aliquid de iure suo 
+      alie<lb ed="#F" n="74" break="no"/>naret. tunc secundum quosdam necessaria 
+      es<lb ed="#F" n="75" break="no"/>set authoritas archiepiscopi, vt no. de 
+      trans<lb ed="#F" n="76" break="no"/>act. c. 2. &amp; sup. de his quae fiunt abepisc. c. 1. 
+      <lb ed="#F" n="77"/>Defensore) vel perpetuo, vt est legitimus 
+      <lb ed="#F" n="78"/>minister illius ecclesiae, vel temporali, vt 
+      <lb ed="#F" n="79"/>est defensor, vel curator datus ecclesiae ad 
+      <lb ed="#F" n="80"/>ostendendas rationes, quare alienatio 
+      hu<lb ed="#F" n="81" break="no"/>iusmodi esset fienda, vel deneganda, nam 
+      <lb ed="#F" n="82"/>sine tali defensore alienatio facta non 
+      va<lb ed="#F" n="83" break="no"/>let. C. si ob. publ. pen. l. fi. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1248">
+                  <lb ed="#F" n="84"/>2 Tractatus) 12. quaest. 2. fine ex. 10. q. 2. 
+      <lb ed="#F" n="85"/>c. 1. simile est in rebus pretiosis pupilli, quae 
+      <lb ed="#F" n="86"/>non debent alienari, nisi praemissa 
+      cogni<lb ed="#F" n="87" break="no"/>tione &amp; interpositione decreti. C. de prae. 
+      <lb ed="#F" n="88"/>mi. minorum. &amp; l. si minores. ff. de rebus 
+      <lb ed="#F" n="89"/>eorum quae sub. tu. l. magis. §. non passim. 
+      <lb ed="#F" n="90"/>&amp; §. si eos. Imo etiam si interuenerit 
+      co<lb ed="#F" n="91" break="no"/>gnitio, &amp; decretum tamen, non valet 
+      alie<lb ed="#F" n="92" break="no"/>natio, nec transfertur dominium ex tali 
+      <lb ed="#F" n="93"/>alienatione, nisi in veritate subfit iusta 
+      <lb ed="#F" n="94"/>causa alienationis, vnde ea non 
+      constan<lb ed="#F" n="95" break="no"/>te, datur minori rei vendicatio contra 
+      pos<lb ed="#F" n="96" break="no"/>sidentem, &amp; etiam personalis actio 
+      tute<lb ed="#F" n="97" break="no"/>lae, vel negotii ge. contra tutorem, vel 
+      cu<lb ed="#F" n="98" break="no"/>ratorem. ff. de rebus eorum. magis. §. &amp; eos. 
+      <lb ed="#F" n="99"/>&amp; §. seq. &amp; l. quamuis. C. de prae. mi. si 
+      prae<lb ed="#F" n="100" break="no"/>ses. sed si iusta causa subesset alienationis, 
+      <lb ed="#F" n="101"/>licet alias minor laederetur in pretio, vel 
+      <lb ed="#F" n="102"/>alijs non subueniretur, nisi per beneficium 
+      <lb ed="#F" n="103"/>in integ. resti. C. de prae. mi. si quis. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1294">
+                  <lb ed="#F" n="104"/>Et haec omnia dicunt quidam in 
+      alie<lb ed="#F" n="105" break="no"/>natione rerum ecclesiae obtinere, quae 
+      pu<lb ed="#F" n="106" break="no"/>pillo comparatur. ff. quibus ex causis ma. 
+      <lb ed="#F" n="107"/>in inte. re pupilli. sed alii dicunt vt videtur 
+      <lb ed="#F" n="108"/>melius, quod in alienationibus rerum 
+      ec<lb ed="#F" n="109" break="no"/>clesiae, non est necessarium decretum, sed 
+      <lb ed="#F" n="110"/>sufficit sola cognitio causarum alienati 
+      o<lb ed="#F" n="111" break="no"/>nis, cum expresso consensu episcopi &amp; 
+      sub<lb ed="#F" n="112" break="no"/>scriptione ipsius. 10. quaestio. 2. casellas hoc 
+      <lb ed="#F" n="113"/>ius. 12. quaestio. secunda. Abbatibus siue ex. 
+      <pb ed="#F" n="390-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>licet enim leges praecipiant interponi 
+      de<lb ed="#F" n="2" break="no"/>cretum in alienationibus minorum, 
+      nun<lb ed="#F" n="3" break="no"/>quam tamen dicunt necessarium 
+      decre<lb ed="#F" n="4" break="no"/>tum in alienationibus rerum ecclesiae. Imo 
+      <lb ed="#F" n="5"/>dicunt, quod consensus suorum 
+      ordinato<lb ed="#F" n="6" break="no"/>rum interuenire deberet. 10. quaest. 2. hoc 
+      <lb ed="#F" n="7"/>ius. nec canones etiam vnquam decretum 
+      <lb ed="#F" n="8"/>praecipiunt interuenire, sed de solo 
+      con<lb ed="#F" n="9" break="no"/>sensu dicunt, vt in praealleg. c. sine. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1343">
+                  <lb ed="#F" n="10"/>Nec credimus neceffaria alia, quae 
+      <lb ed="#F" n="11"/>leges statuerunt in forma alienationis, vt 
+      <lb ed="#F" n="12"/>est de iuramento ordinatoris, scilicet, quod 
+      <lb ed="#F" n="13"/>nihil est mobile, vnde debitum solui possit, 
+      <lb ed="#F" n="14"/>item quod inscribatur nihil fieri in 
+      laesio<lb ed="#F" n="15" break="no"/>nem domus factae. 10. quaestio. 2. hoc ius. 
+      <lb ed="#F" n="16"/>item quod ad similitudinem pupilli 
+      mit<lb ed="#F" n="17" break="no"/>tatur nuncius, qui rescribat pretium 
+      solu<lb ed="#F" n="18" break="no"/>tum in vtilitatem domus. ff. de reb. eorum 
+      <lb ed="#F" n="19"/>magis. §. ne tamen. nam statuta legalia 
+      <lb ed="#F" n="20"/>super rebus ecclesiasticis non ligant 
+      ec<lb ed="#F" n="21" break="no"/>clesiam, nisi ea acceptauerit. 96. distin. 
+      be<lb ed="#F" n="22" break="no"/>ne quidem. circa fin. in decreti autem 
+      in<lb ed="#F" n="23" break="no"/>terposione, &amp; alijs praedictis, ecclesia 
+      <lb ed="#F" n="24"/>non acceptauit leges seculares, nec alio 
+      <lb ed="#F" n="25"/>modo, &amp; ideo si praedicta non 
+      interueni<lb ed="#F" n="26" break="no"/>ant, nihilominus valet contractus 
+      aliena<lb ed="#F" n="27" break="no"/>tionis. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1385">
+                  <lb ed="#F" n="28"/>Et not. quod aliud est decretum, 
+      <lb ed="#F" n="29"/>aliud authoritas, aliud consensus, siue 
+      col<lb ed="#F" n="30" break="no"/>laudatio, decretum enim est sententia, &amp; 
+      <lb ed="#F" n="31"/>non interponitur sine causae cognitione, 
+      <lb ed="#F" n="32"/>&amp; ideo in rescriptis dandum est. C. de 
+      sen<lb ed="#F" n="33" break="no"/>tentijs experire. l. 1. &amp; 2. ff. de rebus eo. qui 
+      <lb ed="#F" n="34"/>sub tu. l. 1. &amp; l. magis. §. si es. C. de prae. mi. 
+      <lb ed="#F" n="35"/>minorum. saepe tamen decretum in iure 
+      <lb ed="#F" n="36"/>dicitur authoritas. C. de prae. mi. l. 1. C. 
+      <lb ed="#F" n="37"/>quando decre. op. non est. l. 1. item 
+      decre<lb ed="#F" n="38" break="no"/>tum debet interponi ante alienationem. 
+      <lb ed="#F" n="39"/>ff. de rebus eorum qui sub tu. l. magis. §. non 
+      <lb ed="#F" n="40"/>passim. &amp; d. §. se authoritatem autem 
+      prae<lb ed="#F" n="41" break="no"/>stare in tutoribus &amp; curatoribo est 
+      autho<lb ed="#F" n="42" break="no"/>rem facere in his, quibus authoritatem 
+      prae<lb ed="#F" n="43" break="no"/>stat. ff. de authori. prae. etiam. quae praestat 
+      <lb ed="#F" n="44"/>etiam sine scriptis. arg. ff. de Authen. prae. 
+      <lb ed="#F" n="45"/>obligari. §. fi. hanc secundum canones debent 
+      <lb ed="#F" n="46"/>praestare Abbates &amp; Praepositi, &amp; alii 
+      vni<lb ed="#F" n="47" break="no"/>uersitatum rectores conuenientibus &amp; 
+      vni<lb ed="#F" n="48" break="no"/>uersitatibus, quando debent agere, vel se 
+      <lb ed="#F" n="49"/>obligare. argu. C. de Authen. prae. clarum. 
+      <lb ed="#F" n="50"/>ff. de confessis. certum. §. in pupillo. sup. 
+      <lb ed="#F" n="51"/>de iudi. c. causam. 1. de procu. consulti. &amp; 
+      <lb ed="#F" n="52"/>c. 1. &amp; interponitur authoritas, dum agit 
+      <lb ed="#F" n="53"/>ipsum negotium, vel parum post. inst. de 
+      <lb ed="#F" n="54"/>authoritate. tu. §. tutor. ff. de Authen. prae. 
+      <lb ed="#F" n="55"/>oblig. §. tutor. ff. de acquiren. haered. qui 
+      <lb ed="#F" n="56"/>bona. §. iussu. episcopi autem dicuntur 
+      prae<lb ed="#F" n="57" break="no"/>stare authoritatem alienationibus &amp; con¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>tractibus obligationibus, id est, consensum, 
+      <lb ed="#F" n="59"/>&amp; tamem plus, quia eorum consensus est 
+      ne<lb ed="#F" n="60" break="no"/>cessarius, sed aliorum canonicorum 
+      con<lb ed="#F" n="61" break="no"/>sensus non est necessarius, licet 
+      necessa<lb ed="#F" n="62" break="no"/>rium sit requiti, &amp; sufficit consensus 
+      ma<lb ed="#F" n="63" break="no"/>ioris partis. 10. quaestio. 2. hoc ius. 
+      consen<lb ed="#F" n="64" break="no"/>sum autem praestare minus est, &amp; valet 
+      fie<lb ed="#F" n="65" break="no"/>ri sine scriptis, nisi vbi expressum est, quod 
+      <lb ed="#F" n="66"/>scriptura est necessaria, vt not. sup. de his 
+      <lb ed="#F" n="67"/>quae fi. a praela. c. 1. Item praestatur ante 
+      <lb ed="#F" n="68"/>contractum &amp; post, quantum ad hoc, vt 
+      <lb ed="#F" n="69"/>postea non possit contradicere, sed non 
+      <lb ed="#F" n="70"/>quantum ad hoc, quod est factum, quod 
+      <lb ed="#F" n="71"/>non valet a principio, conualescere 
+      pos<lb ed="#F" n="72" break="no"/>sit. sup. de elect. auditis. quod sicut 
+      eccle<lb ed="#F" n="73" break="no"/>sia vestra, quod videtur habere locum in 
+      <lb ed="#F" n="74"/>contractibus, vbi certa forma requiritur, 
+      <lb ed="#F" n="75"/>sicut est in electionibus, de quibus 
+      prae<lb ed="#F" n="76" break="no"/>dictum est &amp; in sententijs, sed in alijs 
+      con<lb ed="#F" n="77" break="no"/>tractibus, qui pendent ex solo consensu 
+      <lb ed="#F" n="78"/>videtur, quod si etiam ab initio non 
+      te<lb ed="#F" n="79" break="no"/>neant, tamen ex post facto per 
+      subsequen<lb ed="#F" n="80" break="no"/>tes consensus confirmantur. ff. de ser. ru. 
+      <lb ed="#F" n="81"/>praed. per fundum. ff. communia praedi. 
+      re<lb ed="#F" n="82" break="no"/>ceptum. &amp; not. sup. de offi. deleg. 
+      pruden<lb ed="#F" n="83" break="no"/>tiam. Item consensus est etiam minorum. 
+      <lb ed="#F" n="84"/>sed authoritas tantum maiorum. 
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1513">
+                  <lb ed="#F" n="85"/>Item not. quod quidam Legistae 
+      di<lb ed="#F" n="86" break="no"/>cunt, quod alienatio rerum ecclesiae 
+      de<lb ed="#F" n="87" break="no"/>bet fieri tantum in scriptis, id est, ita quod 
+      <lb ed="#F" n="88"/>contractus alienationis substantiam 
+      ca<lb ed="#F" n="89" break="no"/>piat ex scriptura. Decretistae tamen 
+      di<lb ed="#F" n="90" break="no"/>cunt, quod alienationes rerum pretiosarum 
+      <lb ed="#F" n="91"/>ecclesiae debent redigi in scripturam, quia 
+      <lb ed="#F" n="92"/>ex eo apparet, quod clerici eiusdem 
+      eccle<lb ed="#F" n="93" break="no"/>si ae debent subscribere, &amp; praelatus in 
+      scri<lb ed="#F" n="94" break="no"/>ptis authoritatem praestare. 12. quaestio. 2. 
+      <lb ed="#F" n="95"/>Abbatibus. 5. de his quae fi. a praela. c. 1. sed 
+      <lb ed="#F" n="96"/>tamen ipse contractus non capit 
+      substan<lb ed="#F" n="97" break="no"/>tiam a scriptura, sed a consensu 
+      contrahen<lb ed="#F" n="98" break="no"/>tium. Vnde dicunt, quod bene tenet 
+      con<lb ed="#F" n="99" break="no"/>tractus, postquam partes consenserint, 
+      et<lb ed="#F" n="100" break="no"/>iam antequam scribatur contractus, vel 
+      <lb ed="#F" n="101"/>subscribant praelati, vel clerici, sed datur 
+      <lb ed="#F" n="102"/>exceptio contra illum, antequam scribat 
+      <lb ed="#F" n="103"/>contractus, &amp; subscribat, sed quandocunque 
+      <lb ed="#F" n="104"/>fuerit scriptus, &amp; subscriptus siue tempore, 
+      <lb ed="#F" n="105"/>quo consensus interuenit, siue postea 
+      lici<lb ed="#F" n="106" break="no"/>te agetur, ex illo contractu, imo quidam 
+      De<lb ed="#F" n="107" break="no"/>cretistae dicunt, quod sine vlla scriptura &amp; 
+      <lb ed="#F" n="108"/>subscriptione valet contractus 
+      alienatio<lb ed="#F" n="109" break="no"/>nis rerum eccle. subscribere autem quis 
+      <lb ed="#F" n="110"/>potest per se &amp; per alium. C. de test. hac 
+      <lb ed="#F" n="111"/>consul. in prin. &amp; l. antiquitas. §. fi.
+      </p>
+               <p xml:id="inleiv-d1e1021-d1e1574">
+                  <lb ed="#F" n="112"/>Contractus) in huiusmodi autem 
+      alie<lb ed="#F" n="113" break="no"/>nationibus dicunt quidam necessarium 
+      <lb ed="#F" n="114"/>decretum, licet quam saepe vniuoce sumatur 
+      <pb ed="#F" n="390-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>decretum &amp; sententia, inter ea tamen est 
+      <lb ed="#F" n="2"/>differentia, quia sententia absolutionis &amp; 
+      <lb ed="#F" n="3"/>condemnationis fertur inter aliquos, 
+      quo<lb ed="#F" n="4" break="no"/>rum vnus ab alio aliud petit. inf. de verbo. 
+      <lb ed="#F" n="5"/>sig. in his. ff. de re iud. in summa. §. de sent. 
+      <lb ed="#F" n="6"/>&amp; inter. l. 3. decretum autem dicitur, quod 
+      <lb ed="#F" n="7"/>non a parte, sed a iudice aliquid petitur, &amp; 
+      <lb ed="#F" n="8"/>ipse concedit illud cognitione praeuisa. C. 
+      <lb ed="#F" n="9"/>de prae. mi. ob es. ff. de suc. edi. l. 1. 
+      decreta<lb ed="#F" n="10" break="no"/>lis. ff. quod cuiusque vni. item eorum. §. fin. 
+      <lb ed="#F" n="11"/>(Perpetuis) secus est de temporalibus. sup. 
+      <lb ed="#F" n="12"/>vt eccles. bene. si. di. confe. c. 1. vbi not. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

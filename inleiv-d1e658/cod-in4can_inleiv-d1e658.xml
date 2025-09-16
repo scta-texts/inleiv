@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="219-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e658" type="decretales-l2t11">
+            <head xml:id="inleiv-d1e658-Hd1e98">Titulus 11</head>
+            <p xml:id="inleiv-d1e658-d1e100">
+               <lb ed="#F" n="28"/>TITVLVS XI. 
+      <lb ed="#F" n="29"/>DE PLVS 
+      PETI<lb ed="#F" n="30" break="no"/>TIONIBVS
+      </p>
+            <div xml:id="inleiv-d1e658-Dd1e109" type="decretales-l2t11c1">
+               <head xml:id="inleiv-d1e658-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e658-d1e113">
+                  <lb ed="#F" n="31"/>CAPVT I. 
+      <lb ed="#F" n="32"/>1 Quam paenam incurrat bodie, qui plus petit. 
+      <lb ed="#F" n="33"/>2 Caereditatis petitio non competit contra 
+      de<lb ed="#F" n="34" break="no"/>bitorem in diem. 
+      </p>
+               <p xml:id="inleiv-d1e658-d1e124">
+                  <lb ed="#F" n="35"/>CONSLLIVM. ( Prouidentiae 
+      <lb ed="#F" n="36"/>persistendum) quousque dame 
+      <lb ed="#F" n="37"/>num, vel expensas patiatur 
+      <lb ed="#F" n="38"/>aduersarius. insti. de ac. §. 
+      tri<lb ed="#F" n="39" break="no"/>pli. (Re.) vbi autem super 
+      <lb ed="#F" n="40"/>maiori quantitate, quam sibi deberet 
+      fe<lb ed="#F" n="41" break="no"/>cit sibi creditor caueri scienter, &amp; dolose 
+      <lb ed="#F" n="42"/>a debitore, si postea plus petat, &amp; 
+      perseue<lb ed="#F" n="43" break="no"/>ret vsque ad litis contestationem totum 
+      de<lb ed="#F" n="44" break="no"/>bitum amittat. C. eo. l. 1. 
+      </p>
+               <p xml:id="inleiv-d1e658-d1e148">
+                  <lb ed="#F" n="45"/>2 In expensis) secundum leges olim 
+      <lb ed="#F" n="46"/>amittebat totum, quocunque modo quisque 
+      <lb ed="#F" n="47"/>plus peteret. inst. de excep. §. temporalis. 
+      <lb ed="#F" n="48"/>hodie secundum leges, qui plus petit, vel 
+      <lb ed="#F" n="49"/>causa, vel loco, si aliquod damnum in 
+      da<lb ed="#F" n="50" break="no"/>tione sportularum ex hoc senserit, triplum 
+      <lb ed="#F" n="51"/>reddit, &amp; nihilominus expensas propter 
+      <lb ed="#F" n="52"/>regulam generalem, quod victus victori 
+      <lb ed="#F" n="53"/>condemnatur in expensis. C. de iud. pro¬
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>perandum. §. sin autem. Cum autem in 
+      <lb ed="#F" n="55"/>foro ecclesiastico hae sportulae non 
+      acci<lb ed="#F" n="56" break="no"/>piantur. inf. de vi. &amp; ho. cle. cum ab omni. 
+      <lb ed="#F" n="57"/>non condemnatur secundum canones ad 
+      <lb ed="#F" n="58"/>hoc triplum, sed ad ex pensas tantum, vt 
+      <lb ed="#F" n="59"/>hic, quas, scilicet, fecit occasione 
+      petitio<lb ed="#F" n="60" break="no"/>nis plus continentis. (Loco) hic potest 
+      con<lb ed="#F" n="61" break="no"/>ueniri, vbi soluere tenetur, si inueniatur 
+      <lb ed="#F" n="62"/>ibi. sup. de foro compe. dilect. &amp; etiam 
+      ali<lb ed="#F" n="63" break="no"/>bi, vbi de iure communi habet forum, non 
+      <lb ed="#F" n="64"/>autem vbi fecit promissionem. ff. de iud. 
+      <lb ed="#F" n="65"/>haeres. ff. de eo quod cer. lo. l. prima. C. de 
+      <lb ed="#F" n="66"/>bo. autho. iud. po. l. tertia. (Petitur.) Haec 
+      <lb ed="#F" n="67"/>litera habet duplicem intellectum, potest 
+      <lb ed="#F" n="68"/>enim legi quod debitor non cogetur 
+      in<lb ed="#F" n="69" break="no"/>cipere litem super principali debito, nisi 
+      <lb ed="#F" n="70"/>post finitas duplicatas inducias, &amp; 
+      expen<lb ed="#F" n="71" break="no"/>sas solutas, &amp; habet hoc locum, quando 
+      <lb ed="#F" n="72"/>debitor a principio ante litis 
+      contestatio<lb ed="#F" n="73" break="no"/>nem opposuit, &amp; probauit declinatoriam 
+      <lb ed="#F" n="74"/>fori, scilicet, pactum quod non possit ante 
+      <lb ed="#F" n="75"/>certum tempus conueniri, &amp; sic loquitur 
+      <lb ed="#F" n="76"/>insti. de excep. §. temporales. vel quando 
+      <lb ed="#F" n="77"/>ante litis contestationem opposuit, &amp; 
+      pro<lb ed="#F" n="78" break="no"/>bauit parte consentiente dilatoriam 
+      solu<lb ed="#F" n="79" break="no"/>tionis, scilicet, quod non tenebatur 
+      solue<lb ed="#F" n="80" break="no"/>re ante certum tempus, &amp; etiam iudex ex 
+      <lb ed="#F" n="81"/>officio suo debitori duplicauit inducias, 
+      <lb ed="#F" n="82"/>&amp; expensas adiudicauit, nam in his 
+      casi<lb ed="#F" n="83" break="no"/>bus non cogetur debitor litem inchoare, 
+      <lb ed="#F" n="84"/>nisi praedictis perfectis. insti. de excep. §. 
+      <lb ed="#F" n="85"/>hodie. Item potest intelligi, quod 
+      debi<lb ed="#F" n="86" break="no"/>tor non cogetur suscipere litem de re iud. 
+      <lb ed="#F" n="87"/>vel officio iud. super executione 
+      senten<lb ed="#F" n="88" break="no"/>tiae latae super principali debito, nisi 
+      prae<lb ed="#F" n="89" break="no"/>dictis impletis. aliqui etiam intellexerunt, 
+      <lb ed="#F" n="90"/>quod etiam litem coeptam per litis 
+      conte<lb ed="#F" n="91" break="no"/>stationem non tenetur debitor exequi, 
+      <lb ed="#F" n="92"/>nec ad sententiam procedetur, nisi 
+      praedi<lb ed="#F" n="93" break="no"/>ctis perfectis, imo aliqui dixerunt, quod 
+      <lb ed="#F" n="94"/>statim postquam apparuit debitum ante 
+      <lb ed="#F" n="95"/>tempus petitum absoluet debitorem ab 
+      <lb ed="#F" n="96"/>instantia iudicii. argumen. pro eis. ff. de 
+      <lb ed="#F" n="97"/>peti. haere. quod si in diem. sed hic non 
+      vi<lb ed="#F" n="98" break="no"/>detur, quod cum constet de debito in diem, 
+      <lb ed="#F" n="99"/>quod condemnari debeat praedictis poenis 
+      <lb ed="#F" n="100"/>pro sua temeritate impositis. ff. de iud. de 
+      <lb ed="#F" n="101"/>qua. argumen. ff. ad l. Aquil. l. in lege. ff. de 
+      <lb ed="#F" n="102"/>fur. quidam. nec. l. praealle. quod si in diem 
+      <lb ed="#F" n="103"/>contradicit, quia ibi non agebatur ad 
+      de<lb ed="#F" n="104" break="no"/>bitum in diem soluendo, sed ad cautionem 
+      <lb ed="#F" n="105"/>praestandam, ad quam bene fuit 
+      condem<lb ed="#F" n="106" break="no"/>natus. ff. de iudi. in omnibus. 
+      </p>
+               <p xml:id="inleiv-d1e658-d1e287">
+                  <lb ed="#F" n="107"/>Vel dic illud ideo est, quia petitio 
+      <lb ed="#F" n="108"/>haereditatis non competit contra 
+      debito<lb ed="#F" n="109" break="no"/>rem in diem, quia non possidet pro 
+      haere<lb ed="#F" n="110" break="no"/>de, vel possessore, sed actio ex mutuo vel 
+      <pb ed="#F" n="219-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>consimiles bene competunt contra 
+      debi<lb ed="#F" n="2" break="no"/>torem in diem, licet male agat. ff. quando 
+      <lb ed="#F" n="3"/>dies leg. ce. l. prima. in fin. Item not. 
+      <lb ed="#F" n="4"/>quod poena ista tenetur non tantum qui 
+      <lb ed="#F" n="5"/>contra pactum factum petit ante 
+      tem<lb ed="#F" n="6" break="no"/>pus, sed etiam qui petit ante tempus a 
+      le<lb ed="#F" n="7" break="no"/>ge praefixum. insti. de excep. §. hodie. &amp; 
+      <lb ed="#F" n="8"/>pone exempla in dote. C. de rei vxo. act. 
+      <lb ed="#F" n="9"/>§. cum autem. &amp; in constituta. ff. de 
+      con<lb ed="#F" n="10" break="no"/>sti. promis. §. si siue. &amp; in condemnatione. 
+      <lb ed="#F" n="11"/>ff. de iudi. debitori. &amp; in multis alijs. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

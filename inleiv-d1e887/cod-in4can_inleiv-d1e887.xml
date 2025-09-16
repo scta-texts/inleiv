@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 1</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 1</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="348-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e887" type="decretales-l3t1">
+            <head xml:id="inleiv-d1e887-Hd1e98">Titulus 1</head>
+            <p xml:id="inleiv-d1e887-d1e100">
+               <pb ed="#F" n="348-r"/>
+               <cb ed="#F" n="a"/>
+               <lb ed="#F" n="1"/>TITVLVS I. 
+      <lb ed="#F" n="2"/>DE VITA ET 
+      LIONE<lb ed="#F" n="3" break="no"/>STATE 
+      CLERI<lb ed="#F" n="4" break="no"/>corum. 
+      </p>
+            <div xml:id="inleiv-d1e887-Dd1e116" type="decretales-l3t1c1">
+               <head xml:id="inleiv-d1e887-Hd1e118">Caput 1</head>
+               <p xml:id="inleiv-d1e887-d1e120">
+                  <lb ed="#F" n="5"/>CAPVT I. 
+      <lb ed="#F" n="6"/>1 Peccatum mortaliter non est, si inter clerites 
+      <lb ed="#F" n="7"/>staret laicus, maxime vbi non est contraria 
+      <lb ed="#F" n="8"/>consutetudo. 
+      <lb ed="#F" n="9"/>
+                  <!-- line coord error -->
+               </p>
+               <p xml:id="inleiv-d1e887-d1e135">
+                  <lb ed="#F" n="10"/>VT LAICI. Supple. 
+      Statui<lb ed="#F" n="11" break="no"/>mus. de consec. dist. 3. 
+      sacer<lb ed="#F" n="12" break="no"/>dotum. 23. distin. sacratas. 
+      <lb ed="#F" n="13"/>hoc. c. loquitur de 
+      honesta<lb ed="#F" n="14" break="no"/>1 beosor te, non enim crederem 
+      ali<lb ed="#F" n="15" break="no"/>quem peccare mortaliter, si inter clericos 
+      <lb ed="#F" n="16"/>staret, maxime vbi non est contraria 
+      con<lb ed="#F" n="17" break="no"/>suetudo. (Sed pars) id est, chorus. 
+      <lb ed="#F" n="18"/>(oancta.) idest, maior parsecclesiae siue 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e158" type="decretales-l3t1c2">
+               <head xml:id="inleiv-d1e887-Hd1e160">Caput 2</head>
+               <p xml:id="inleiv-d1e887-d1e162">
+                  <lb ed="#F" n="19"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e167">
+                  <lb ed="#F" n="20"/>CLERICIC ARMA.) 23. q. 5. 
+      cle<lb ed="#F" n="21" break="no"/>ici. (Portantes) nisi ex causa. 23. q. 8. 
+      <lb ed="#F" n="22"/>Maximianus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e177" type="decretales-l3t1c3">
+               <head xml:id="inleiv-d1e887-Hd1e179">Caput 3</head>
+               <p xml:id="inleiv-d1e887-d1e181">
+                  <lb ed="#F" n="23"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e887-d1e186">
+                  <lb ed="#F" n="24"/>VT QVISQVE. Honeste 
+      <lb ed="#F" n="25"/>loquitur hoc. c. sed non 
+      pec<lb ed="#F" n="26" break="no"/>cat mortaliter si contra 
+      fa<lb ed="#F" n="27" break="no"/>ciat propter paupertatem. 
+      <lb ed="#F" n="28"/>ser) (Plebem) . i. populum. (Clericum.) 
+      <lb ed="#F" n="29"/>Not. in minoribus ordinibus constitutos 
+      <lb ed="#F" n="30"/>legere epistolam.
+      </p>
+               <p xml:id="inleiv-d1e887-d1e204">
+                  <lb ed="#F" n="31"/>Et hoc verum quando non est ibi 
+      subdi<lb ed="#F" n="32" break="no"/>aconus, nec debet cantare cum 
+      solenni<lb ed="#F" n="33" break="no"/>tate, in qua cantat subdiaconus &amp; 
+      orna<lb ed="#F" n="34" break="no"/>mentis subdia. 23. dist. subdia. 73. dist. si qui 
+      <lb ed="#F" n="35"/>clerici. Scholas tenere) docendo primo 
+      <lb ed="#F" n="36"/>rudimenta &amp; psalterium, qui autem 
+      ma<lb ed="#F" n="37" break="no"/>iores scholas regit, de quo habes. 3S dist. 
+      <lb ed="#F" n="38"/>de quibusdam. non legit de officio 
+      episto<lb ed="#F" n="39" break="no"/>las, vel lectiones. (Ad fidem) id est, 
+      sym<lb ed="#F" n="40" break="no"/>bolum, quod est credo in vnum Deum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e230" type="decretales-l3t1c4">
+               <head xml:id="inleiv-d1e887-Hd1e232">Caput 4</head>
+               <p xml:id="inleiv-d1e887-d1e234">
+                  <lb ed="#F" n="41"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e239">
+                  <lb ed="#F" n="42"/>SI QVIS. (Relaxauerit.) 
+      <lb ed="#F" n="43"/> Nisi ex causa. inf. eo. clericis. 
+      <lb ed="#F" n="44"/>(Sit) id est, fiat. non enim ipso 
+      <lb ed="#F" n="45"/>iure est exconmmunicatus. sic. 
+      <lb ed="#F" n="46"/>&amp;l: e. unct per tetun. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e253" type="decretales-l3t1c5">
+               <head xml:id="inleiv-d1e887-Hd1e255">Caput 5</head>
+               <p xml:id="inleiv-d1e887-d1e257">
+                  <lb ed="#F" n="47"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e262">
+                  <lb ed="#F" n="48"/>CLERICVS. (Nutriat) 20. q. 1.
+      pro<lb ed="#F" n="49" break="no"/>cliuis. 23. dist. non liceat. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e270" type="decretales-l3t1c6">
+               <head xml:id="inleiv-d1e887-Hd1e272">Caput 6</head>
+               <p xml:id="inleiv-d1e887-d1e274">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="50"/>CAPVT VI. 
+      <lb ed="#F" n="51"/>1 Debet elericus toniugatus tonsuram ferre. 
+      <lb ed="#F" n="52"/>Clericus quando possit ducere vxorem. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e285">
+                  <lb ed="#F" n="53"/>CLERICVS. (Sit sine gradu) 
+      <lb ed="#F" n="54"/>Sacri ordinis. 32. dist. si quis 
+      <lb ed="#F" n="55"/>eorum. (Traditus) si dicto, 
+      <lb ed="#F" n="56"/>vel facto approbauit esse eum 
+      <lb ed="#F" n="57"/> in monasterio. 20. q. 1. quam 
+      <lb ed="#F" n="58"/>progenitores, alias secus, infra de regu. &amp; 
+      <lb ed="#F" n="59"/>trans. ad reli. cum simus. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e303">
+                  <lb ed="#F" n="60"/>1 (Et iterum) refert sead primum 
+      ea<lb ed="#F" n="61" break="no"/>sum de clerico vxorem ducente, &amp; habes 
+      <lb ed="#F" n="62"/>hic, quod clericus coniugatus portare 
+      de<lb ed="#F" n="63" break="no"/>bet tonsuram. 23. dist. de ecclesiastica. 32. 
+      <lb ed="#F" n="64"/>dist. si qui vero. in Auhent. quomodo 
+      o<lb ed="#F" n="65" break="no"/>por. episc. §. qui semel. 20. q. 3. eos. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e319">
+                  <lb ed="#F" n="66"/>Et hoc intellige verum, si percipiunt. 
+      <lb ed="#F" n="67"/>inf. de cle. coniug. Ioannes. &amp; si iterum 
+      vo<lb ed="#F" n="68" break="no"/>luerint ad ordinem clericalem redire, 
+      ali<lb ed="#F" n="69" break="no"/>as omnino sunt omni priuilegio clericali 
+      <lb ed="#F" n="70"/>priuandi, vel mandandi. 84. dist. si quis. inf. 
+      <lb ed="#F" n="71"/>eo. c. vlti. vel lege planius &amp; verius hoc. c. 
+      <lb ed="#F" n="72"/>sit clericus. si tonsura dimissa vxorem 
+      ac<lb ed="#F" n="73" break="no"/>ceperit, qui quidem sit sine gradu. i. si 
+      prae<lb ed="#F" n="74" break="no"/>dictus clericus non habet gradum sacri 
+      <lb ed="#F" n="75"/>ordinis, nec a parentibus monasterio 
+      tra<lb ed="#F" n="76" break="no"/>ditus est, &amp; semper vsque ad hunc locum 
+      <lb ed="#F" n="77"/>lege suspensiue, &amp; est sensus. Si clericus 
+      <lb ed="#F" n="78"/>non habet sacrum ordinem, nec est 
+      mo<lb ed="#F" n="79" break="no"/>nachus, licite potest accipere vxorem, 
+      ta<lb ed="#F" n="80" break="no"/>men tonsuram portet, si vult gaudere 
+      pri<lb ed="#F" n="81" break="no"/>uilegio clericorum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e357" type="decretales-l3t1c7">
+               <head xml:id="inleiv-d1e887-Hd1e359">Caput 7</head>
+               <p xml:id="inleiv-d1e887-d1e361">
+                  <lb ed="#F" n="82"/>CAPVT VII.
+      </p>
+               <p xml:id="inleiv-d1e887-d1e366">
+                  <lb ed="#F" n="83"/>CLERICIS. cEtiam inuiti.) nec in 
+      <lb ed="#F" n="84"/>hoc casu incidunt in canonem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e374" type="decretales-l3t1c8">
+               <head xml:id="inleiv-d1e887-Hd1e376">Caput 8</head>
+               <p xml:id="inleiv-d1e887-d1e378">
+                  <lb ed="#F" n="85"/>CAPVT VIII.
+      </p>
+               <p xml:id="inleiv-d1e887-d1e383">
+                  <lb ed="#F" n="86"/>MONASTERIA. (Et 
+      rati<lb ed="#F" n="87" break="no"/>onabili) ambo comuiuncti sunt, 
+      <lb ed="#F" n="88"/>scilicet rationabili &amp; 
+      neces<lb ed="#F" n="89" break="no"/>psaria. 11. q. 3. non sunt. non 
+      ta<lb ed="#F" n="90" break="no"/>SVSM&amp; men ad loquendum cum 
+      e<lb ed="#F" n="91" break="no"/>is, nec domos suas frequentare quis 
+      de<lb ed="#F" n="92" break="no"/>bet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e402" type="decretales-l3t1c9">
+               <head xml:id="inleiv-d1e887-Hd1e404">Caput 9</head>
+               <p xml:id="inleiv-d1e887-d1e406">
+                  <lb ed="#F" n="93"/>CAPVT IX. 
+      <lb ed="#F" n="94"/>VONIAM. (Et expensis.) 
+      <lb ed="#F" n="95"/>12. q. 5. nobis. C. de. fruc. &amp; lit. 
+      <lb ed="#F" n="96"/>expen. l. (Valeatis) 
+      episco<lb ed="#F" n="97" break="no"/>pis seribit Grego. &amp; sic est in 
+      <lb ed="#F" n="98"/>&amp; registris. 
+      
+      <pb ed="#F" n="348-v"/>
+                  <cb ed="#F" n="a"/>
+               </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e428" type="decretales-l3t1c10">
+               <head xml:id="inleiv-d1e887-Hd1e430">Caput 10</head>
+               <p xml:id="inleiv-d1e887-d1e432">
+                  <lb ed="#F" n="1"/>CAPVT X. 
+      <lb ed="#F" n="2"/>1 Ecclesiastici iudices expensas petere possunt 
+      <lb ed="#F" n="3"/>licet alias gratis iudicare debeant. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e441">
+                  <lb ed="#F" n="4"/>CVM AE OMNI (
+      Expen<lb ed="#F" n="5" break="no"/>sas) has enim licite 
+      accipi<lb ed="#F" n="6" break="no"/>unt delegati de quibus hic 
+      <lb ed="#F" n="7"/>loquitur, cum nemo cogatur 
+      <lb ed="#F" n="8"/>E suis stipendijs militare, 
+      ordi<lb ed="#F" n="9" break="no"/>narii autem suis expensis causas agere 
+      de<lb ed="#F" n="10" break="no"/>bent, secus autem in visitatione: vt not. inf. 
+      <lb ed="#F" n="11"/>de censi. romana. (In fraudem) sibi 
+      reti<lb ed="#F" n="12" break="no"/>nendo, si certum salarium accessoribus 
+      <lb ed="#F" n="13"/>dari facerent, licitum est. C. de accesso. l. 1. 
+      <lb ed="#F" n="14"/>ff. eodem. l. diem. arg. 11. q. 3. non licet. 14. q. 
+      <lb ed="#F" n="15"/>6. venales. sententia autem arbitri venalis 
+      <lb ed="#F" n="16"/>tenet, licet contra eam excipiatur. C. de 
+      <lb ed="#F" n="17"/>arbi. l. 3. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e475" type="decretales-l3t1c11">
+               <head xml:id="inleiv-d1e887-Hd1e477">Caput 11</head>
+               <p xml:id="inleiv-d1e887-d1e479">
+                  <lb ed="#F" n="18"/>CAPVT XI. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e484">
+                  <lb ed="#F" n="19"/>DEVS QVI (Conformetis.) 
+      <lb ed="#F" n="20"/>Sic habes quod in 
+      professio<lb ed="#F" n="21" break="no"/>ne circa solennitates 
+      intelli<lb ed="#F" n="22" break="no"/>gitur exempta authoritas 
+      Pa<lb ed="#F" n="23" break="no"/> pae, secus in substantialibus. 
+      <lb ed="#F" n="24"/>inf. de sta. mona. cum ad monasterium. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e501" type="decretales-l3t1c12">
+               <head xml:id="inleiv-d1e887-Hd1e503">Caput 12</head>
+               <p xml:id="inleiv-d1e887-d1e505">
+                  <lb ed="#F" n="25"/>CAPVT XII. 
+      <lb ed="#F" n="26"/>1 tistriones suns infames, &amp; nuuo tempore 
+      <lb ed="#F" n="27"/>sunt promouendi: intelligitur tamem vt hic. 
+      <lb ed="#F" n="28"/>2 Infamia &amp; vilitas persouarum impedit 
+      pro<lb ed="#F" n="29" break="no"/>motionem. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e518">
+                  <lb ed="#F" n="30"/>CVM DECOREM. (
+      The<lb ed="#F" n="31" break="no"/>atrales.) Mimi enim &amp; 
+      hi<lb ed="#F" n="32" break="no"/>striones nullo tempore etiam 
+      <lb ed="#F" n="33"/>post poenitentiam sunt 
+      promo<lb ed="#F" n="34" break="no"/>uendi, nisi per 
+      dispensatio<lb ed="#F" n="35" break="no"/>nem Papae. 31. di. c. 1. &amp; c. praeterea. 4. q. 1. c. 1. 
+      <lb ed="#F" n="36"/>sunt enim infames. de conse. dist. 2. pro 
+      di<lb ed="#F" n="37" break="no"/>lectione. ff. de his qui no. infa. l. 2. §. ait 
+      prae<lb ed="#F" n="38" break="no"/>tor. &amp; de postu. l. 1. 
+      <lb ed="#F" n="39"/>Et hoc intelligo de his, qui publice 
+      co<lb ed="#F" n="40" break="no"/>ram populis faciunt gesticulationes sui 
+      <lb ed="#F" n="41"/>corporis, vt ex praedictis. ll. apparet. Si 
+      e<lb ed="#F" n="42" break="no"/>nim in occulto etiam coram pluribus alijs 
+      <lb ed="#F" n="43"/>saltaret, vel chorizaret, non prohiberetur 
+      <lb ed="#F" n="44"/>a promotione post poenitentiam. Idem 
+      et<lb ed="#F" n="45" break="no"/>iam videtur si semel tantum vel etiam 
+      plu<lb ed="#F" n="46" break="no"/>ries fecisset coram populo, dummodo non 
+      <lb ed="#F" n="47"/>assuefecisset, nec esset infamis. Infamia 
+      <lb ed="#F" n="48"/>enim &amp; vilitas personarum, est causa 
+      qua<lb ed="#F" n="49" break="no"/>re promoueri prohibentur, &amp; non 
+      pecca<lb ed="#F" n="50" break="no"/>tum, quia sine peccato haec fieri possent, 
+      <lb ed="#F" n="51"/>quia Dauid &amp; plures alii saltauerunt sine 
+      <lb ed="#F" n="52"/>peccato, qui etiam hoc faceret ad 
+      consola<lb ed="#F" n="53" break="no"/>tionem alicu:us infirmi, vel ex alia iusta 
+      <lb ed="#F" n="54"/>causa non peccaret, sed assuescere in his, non 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>posset esse sine infamia. Et no. vilitatis, &amp; 
+      <lb ed="#F" n="56"/>maxime in his, qui quaerunt inde luerum. 
+      <lb ed="#F" n="57"/>Illud autem certum est, quod si quis habet 
+      <lb ed="#F" n="58"/>beneficium alias officium histrionis in 
+      a<lb ed="#F" n="59" break="no"/>liqua curia, quod ille promoueri non 
+      po<lb ed="#F" n="60" break="no"/>test, &amp; sic loquitur. 51. di. c. 1. &amp; c. praeterea. 
+      <lb ed="#F" n="61"/>(Theatrales) sic dicti, quia fiunt in 
+      thea<lb ed="#F" n="62" break="no"/>tro. i. loco ad theorandum, siue ad 
+      specu<lb ed="#F" n="63" break="no"/>landum apto. (Laruarum) laruae dicuntur 
+      <lb ed="#F" n="64"/>deformitates hominum, siue per 
+      appositio<lb ed="#F" n="65" break="no"/>nes pellium, siue colorum. (Ludibria) 
+      ne<lb ed="#F" n="66" break="no"/>dum quod monachi vel alii clerici 
+      exer<lb ed="#F" n="67" break="no"/>ceant ludibria, sed etiam in eorum habitu 
+      <lb ed="#F" n="68"/>exercere prhibentur. in Authen. de san. epis. 
+      <lb ed="#F" n="69"/>§. vlti. col. 9. C. de epis. aud. minime. 
+      Ali<lb ed="#F" n="70" break="no"/>qua autem ad compunctionem fieri non 
+      <lb ed="#F" n="71"/>prohibentur, puta praesepe domini, &amp; 
+      se<lb ed="#F" n="72" break="no"/>pultura &amp; consimilia. ar. de conse. dist. 2 
+      <lb ed="#F" n="73"/>semel. &amp;de consecra. dist. 3. quaeris. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e619" type="decretales-l3t1c13">
+               <head xml:id="inleiv-d1e887-Hd1e621">Caput 13</head>
+               <p xml:id="inleiv-d1e887-d1e623">
+                  <lb ed="#F" n="74"/>CAPVT XIII. 
+      <lb ed="#F" n="75"/>VT CLERICORVM &amp;c. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e631" type="decretales-l3t1c14">
+               <head xml:id="inleiv-d1e887-Hd1e633">Caput 14</head>
+               <p xml:id="inleiv-d1e887-d1e635">
+                  <lb ed="#F" n="76"/>CAPVT XIIII. 
+      <lb ed="#F" n="77"/> CRAPVLA ET ebrietate &amp;c. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e643" type="decretales-l3t1c15">
+               <head xml:id="inleiv-d1e887-Hd1e645">Caput 15</head>
+               <p xml:id="inleiv-d1e887-d1e647">
+                  <lb ed="#F" n="78"/>CAPVT XV. 
+      <lb ed="#F" n="79"/>CLERICI. (Officia. Non 
+      cre<lb ed="#F" n="80" break="no"/>limus hoc. c. loqui de 
+      praece<lb ed="#F" n="81" break="no"/>pto, sed de consilio &amp; 
+      hone<lb ed="#F" n="82" break="no"/>state. (Commercia. ) 91. di. 
+      <lb ed="#F" n="83"/>&amp; clericus. de conse. di. §. 
+      nun<lb ed="#F" n="84" break="no"/>quam. (Tabernas. ) 44. dist. clerici. (
+      Ta<lb ed="#F" n="85" break="no"/>xillos) 35. dist. c. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e887-Dd1e669" type="decretales-l3t1c16">
+               <head xml:id="inleiv-d1e887-Hd1e671">Caput 16</head>
+               <p xml:id="inleiv-d1e887-d1e673">
+                  <lb ed="#F" n="86"/>CAPVT XVI. 
+      </p>
+               <p xml:id="inleiv-d1e887-d1e678">
+                  <lb ed="#F" n="87"/>EX LITERIS. (Quibus) 
+      <lb ed="#F" n="88"/>statutis patriae. (Moniti) hi 
+      e<lb ed="#F" n="89" break="no"/>nim primo monendi sunt, vt 
+      <lb ed="#F" n="90"/>negotiationes clericis non 
+      <lb ed="#F" n="91"/>conuenientes dimittant, &amp; 
+      <lb ed="#F" n="92"/>si eas non dimiserint: &amp; cum eas forte 
+      <lb ed="#F" n="93"/>si ne peccato facere possent clericatu 
+      di<lb ed="#F" n="94" break="no"/>misso spoliabuntur beneficio &amp; 
+      ecclesi<lb ed="#F" n="95" break="no"/>is si habent: &amp; dimittentur domino seculari 
+      <lb ed="#F" n="96"/>hoc modo quod ecclesia non defendet eos, 
+      <lb ed="#F" n="97"/>vt hic in fi. (Ab huiusmodi) id est, 
+      secula<lb ed="#F" n="98" break="no"/>rib. negotiationib. (Praetermissis) idem etiam si 
+      <lb ed="#F" n="99"/>non praetermissis, dummodo comuiugati sint, &amp; 
+      <lb ed="#F" n="100"/>negotiationib. intendant. ar. inf. de cle. 
+      con<lb ed="#F" n="101" break="no"/>iug. c. pe. &amp; c. loamnes. (Priuilegium) excepto 
+      <lb ed="#F" n="102"/>priuilegio canonis. 17. q. 4. si quis suadente. 
+      <lb ed="#F" n="103"/>alii contra. de hoc no. de cle. comuiug. c. pe. &amp; 
+      <lb ed="#F" n="104"/>c. loamnes. &amp; inf. de aposta. c. 1. (Priuilegium) 
+      <lb ed="#F" n="105"/>quia quo ad iudicium vel forum &amp; 
+      fun<lb ed="#F" n="106" break="no"/>ctiones municipales perdunt. infra de cle. 
+      <lb ed="#F" n="107"/>coniu. c. pe. (Dum his) ergo eis dimissis 
+      <lb ed="#F" n="108"/>possunt vti priuilegio clericali. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

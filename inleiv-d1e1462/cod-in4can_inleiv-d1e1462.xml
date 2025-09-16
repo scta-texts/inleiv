@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="466-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1462" type="decretales-l4t2">
+            <head xml:id="inleiv-d1e1462-Hd1e98">Titulus 2</head>
+            <p xml:id="inleiv-d1e1462-d1e100">
+               <lb ed="#F" n="39"/>TITVLVS II. 
+      <lb ed="#F" n="40"/>DE DESPONSATIO. 
+      <lb ed="#F" n="41"/>NE IMPVBERVM. 
+      </p>
+            <div xml:id="inleiv-d1e1462-Dd1e109" type="decretales-l4t2c1">
+               <head xml:id="inleiv-d1e1462-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1462-d1e113">
+                  <lb ed="#F" n="42"/>CAPVT I. 
+      <lb ed="#F" n="43"/>1 Consensus tacitus in ponsalibus non habet 
+      <lb ed="#F" n="44"/>locum, nisi in parte. 
+      <lb ed="#F" n="45"/>2 Honestas publica impedit matrimonium eum 
+      <lb ed="#F" n="46"/>consanguineis. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e126">
+                  <lb ed="#F" n="47"/>TVA NOS. (Adulto) id est, 
+      <lb ed="#F" n="48"/> pubere f. (Contrahere) 
+      matri<lb ed="#F" n="49" break="no"/>monium vel sponsalia, si 
+      au<lb ed="#F" n="50" break="no"/>tem esset maior septennio, 
+      <lb ed="#F" n="51"/>ed impubes etiam si contra¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="52"/>cta sponsalia sint ea inscia, tamen publici 
+      <lb ed="#F" n="53"/>honestatis iustitia impedit matrimonium 
+      <lb ed="#F" n="54"/>cum consanguineis. inf. eo. accessit. Alii 
+      <lb ed="#F" n="55"/>contra eum, non enim non fuerunt 
+      spon<lb ed="#F" n="56" break="no"/>salia, nisi tacite vel expresse consenserit, 
+      <lb ed="#F" n="57"/>ideo nec pu. ho. iusti. impedit contrahere 
+      <lb ed="#F" n="58"/>cum consanguineis, &amp; hoc magis placet. 
+      <lb ed="#F" n="59"/>(Consentit) tacite saltem non 
+      contradi<lb ed="#F" n="60" break="no"/>cendo cum praesens esset. ff. de spo. hocsi. 
+      <lb ed="#F" n="61"/>dic necessarium esse quod in matrimonio 
+      <lb ed="#F" n="62"/>expresse consentiat. sup. titu. proxi. tuae. 
+      <lb ed="#F" n="63"/>2Item in sponsalibus tacitus consensus 
+      <lb ed="#F" n="64"/>non videtur habere locum, nisi in parte. 
+      <lb ed="#F" n="65"/>arg. sup. de spon. §. vlt. &amp; §. sed quae. in alijs 
+      <lb ed="#F" n="66"/>autem, &amp; si pro alijs cont rahere possunt, 
+      <lb ed="#F" n="67"/>est tamen necessarius con sensus expressus 
+      <lb ed="#F" n="68"/>vel ratihabitio. sup. tit. proxi. ad id 
+      praeal<lb ed="#F" n="69" break="no"/>leg. l. hoc si. &amp; not. inf. de ma. con. contra 
+      <lb ed="#F" n="70"/>interdi. ec. c. 1. imo nac ratihabitio tacita 
+      <lb ed="#F" n="71"/>sufficit. sup. de resti. spo. ex parte. (posse) &amp; 
+      <lb ed="#F" n="72"/>ferte in hoc casu non impediente pu. ho. 
+      <lb ed="#F" n="73"/>iustitia, poterit cum consanguineis 
+      con<lb ed="#F" n="74" break="no"/>trahere. (Filius) adultus. (Voluntas) puta 
+      <lb ed="#F" n="75"/>quia si minor 14. an. quod in matrimonium 
+      <lb ed="#F" n="76"/>consentire non potest. (Tradere) id est, 
+      <lb ed="#F" n="77"/>tradendum promittere, &amp; sic 
+      contrahun<lb ed="#F" n="78" break="no"/>tur sponsalia. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e201" type="decretales-l4t2c2">
+               <head xml:id="inleiv-d1e1462-Hd1e203">Caput 2</head>
+               <p xml:id="inleiv-d1e1462-d1e205">
+                  <lb ed="#F" n="79"/>CAPVT 11. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e210">
+                  <lb ed="#F" n="80"/>VBI NON EST CON- 
+      <lb ed="#F" n="81"/>sensus. (Legibus) puta in 
+      spon<lb ed="#F" n="82" break="no"/>salibus vsque ad 7. ann. &amp; vsque 
+      <lb ed="#F" n="83"/>ad 14. in matrimonio (
+      con<lb ed="#F" n="84" break="no"/>iungant) contrahendo 
+      spon<lb ed="#F" n="85" break="no"/>salia vel matrimonium, ideo fit haec 
+      pro<lb ed="#F" n="86" break="no"/>hibitio, quia cum possint postea variare, 
+      <lb ed="#F" n="87"/>&amp; cum faciles sint pueri ad dissentiendum 
+      <lb ed="#F" n="88"/>tenentur ne transeant ad alia 
+      matrimo<lb ed="#F" n="89" break="no"/>nia, tamen facta tenent. (Coniungantur) 
+      <lb ed="#F" n="90"/>carnaliter, &amp; fit ista prohibitio propter 
+      <lb ed="#F" n="91"/>dubitationem, ne per talem 
+      commixtio<lb ed="#F" n="92" break="no"/>nem ratificentur sponsalia. sup. tit. proxi. 
+      <lb ed="#F" n="93"/>iuuenis. vel matrimonium. inf. eod. 
+      con<lb ed="#F" n="94" break="no"/>tinebatur. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e246" type="decretales-l4t2c3">
+               <head xml:id="inleiv-d1e1462-Hd1e248">Caput 3</head>
+               <p xml:id="inleiv-d1e1462-d1e250">
+                  <lb ed="#F" n="95"/>CAPVT III. 
+      <lb ed="#F" n="96"/>PVBERES A PVBE. (
+      Existi<lb ed="#F" n="97" break="no"/>mant) &amp; bene (certum) qud d. 
+      <lb ed="#F" n="98"/>habente 14. an. &amp; non 
+      poten<lb ed="#F" n="99" break="no"/>te coire, fuit dubitatum, an 
+      <lb ed="#F" n="100"/>possit contrahere 
+      matrimo<lb ed="#F" n="101" break="no"/>nium, sed de potente coire licet sit minor 
+      <lb ed="#F" n="102"/>13. ann. certum est quod contrahere 
+      po<lb ed="#F" n="103" break="no"/>test. Ex habitu) secus quando agiturde 
+      <lb ed="#F" n="104"/>tutela, quia ibi sufficit habere ann. 14. &amp; 
+      <lb ed="#F" n="105"/>si generare non possit. C. quando tut vel 
+      <lb ed="#F" n="106"/>cur. de indecora. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e279">
+                  <pb ed="#F" n="467-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>Sed hoc verum est, quod in hac decre. 
+      <lb ed="#F" n="2"/>dicitur, etiam si ante 14. ann. possit 
+      genera<lb ed="#F" n="3" break="no"/>re, nam in 14. an. &amp; si generare non possit, 
+      <lb ed="#F" n="4"/>tamen matrimonium contrahere potest. 
+      <lb ed="#F" n="5"/>arg. inf. eod. titu. c. vlti. Alii tamen dicunt, 
+      <lb ed="#F" n="6"/>quod etiam si habeat 2o. ann. &amp; non possit 
+      <lb ed="#F" n="7"/>cognoscere mulierem, nec contrahere 
+      <lb ed="#F" n="8"/>poterit. argum. hic. &amp; idcirco ponit 
+      aeta<lb ed="#F" n="9" break="no"/>tem 12. vel 14. ann. quia tunc praesumitur 
+      <lb ed="#F" n="10"/>potens generare, nisi probetur contrarium. 
+      <lb ed="#F" n="11"/>argum. ad hoc. &amp; de frigi. &amp; male. c. 2. sed 
+      <lb ed="#F" n="12"/>aliud est in frigidis, vt ibi not. prius 
+      di<lb ed="#F" n="13" break="no"/>ctum placet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e316" type="decretales-l4t2c4">
+               <head xml:id="inleiv-d1e1462-Hd1e318">Caput 4</head>
+               <p xml:id="inleiv-d1e1462-d1e320">
+                  <lb ed="#F" n="14"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e325">
+                  <lb ed="#F" n="15"/>LITERAS TVAE. (Post quam) 
+      <lb ed="#F" n="16"/>licet enim a principio non 
+      <lb ed="#F" n="17"/>tenuerint sponsalia, nisi 
+      ta<lb ed="#F" n="18" break="no"/>mem post contradixerunt si 
+      sci<lb ed="#F" n="19" break="no"/>uerunt in 7. confirmantur. inf. 
+      <lb ed="#F" n="20"/>c. proxi. &amp; c. duo. Filiam) filiam enim 
+      he<lb ed="#F" n="21" break="no"/>bere non potest, impediente affinitate. 30. 
+      <lb ed="#F" n="22"/>quaestio. 3. nec eam. nec matrem propter 
+      <lb ed="#F" n="23"/>publicae honestatis iustitiam. S. e. iuuenis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e348" type="decretales-l4t2c5">
+               <head xml:id="inleiv-d1e1462-Hd1e350">Caput 5</head>
+               <p xml:id="inleiv-d1e1462-d1e352">
+                  <lb ed="#F" n="24"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e357">
+                  <lb ed="#F" n="25"/>ACCESSIT. (Non 
+      consense<lb ed="#F" n="26" break="no"/>rit) expresse vel tacite lapso 
+      <lb ed="#F" n="27"/>enim septennio si sciuit, nisi 
+      <lb ed="#F" n="28"/>contradicat consensisse 
+      vi<lb ed="#F" n="29" break="no"/> detur in sponsalia. inf. e. duo. 
+      <lb ed="#F" n="30"/>(Absolutus) antequam ad 7. an. 
+      peruenis<lb ed="#F" n="31" break="no"/>set, sed &amp; sine absolutione crederetur 
+      suf<lb ed="#F" n="32" break="no"/>ficere, si in septennio alter protestetur se 
+      <lb ed="#F" n="33"/>nolle consentire. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e380" type="decretales-l4t2c6">
+               <head xml:id="inleiv-d1e1462-Hd1e382">Caput 6</head>
+               <p xml:id="inleiv-d1e1462-d1e384">
+                  <lb ed="#F" n="34"/>CAPVT VI. 
+      <lb ed="#F" n="35"/>1 Statur semper dicto viri dicentis se 
+      cognouif<lb ed="#F" n="36" break="no"/>se vxorem maiorem 11. ann. 
+      <lb ed="#F" n="37"/>1 Qua sit aetas legit ima ad contrahendum. 
+      <lb ed="#F" n="38"/>3 Sola cognitio non sufficit ad boc, vt sit 
+      matri<lb ed="#F" n="39" break="no"/>monium. 
+      <lb ed="#F" n="40"/>4 Nunquid ex hoc quod mulier sit cognita, 
+      di<lb ed="#F" n="41" break="no"/>catur esse in aetate pubertatis. &amp; vide in 
+      <lb ed="#F" n="42"/>num. 5. &amp; 6. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e406">
+                  <lb ed="#F" n="43"/>CONTINEBATVR. (
+      Con<lb ed="#F" n="44" break="no"/>sensisse) supple etiam si vir 
+      <lb ed="#F" n="45"/>contradicat eam se 
+      carnali<lb ed="#F" n="46" break="no"/>ter cognouisse. (Standum) 
+      <lb ed="#F" n="47"/>24. quaest. 1. c. 2. contra. 27. q. 2. 
+      <lb ed="#F" n="48"/>qui inter. contra. Sol. vir dicit se cognouisse 
+      <lb ed="#F" n="49"/>vxorem maiorem 11. an. siue illa 
+      confitea<lb ed="#F" n="50" break="no"/>tur, siue neget, semper stabitur iuramento 
+      <lb ed="#F" n="51"/>viri, vt hic, nisi per aspectum corporis 
+      mu<lb ed="#F" n="52" break="no"/>lier aliud probaret, id est, virginitate. 
+      Qui<lb ed="#F" n="53" break="no"/>dam tamen dicunt, cum saepe oculus fal¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>latur, nisi contrarium expresse 
+      indubitan<lb ed="#F" n="55" break="no"/>ter per testes appareret, semper est standum 
+      <lb ed="#F" n="56"/>pro eo, qui dicit se cognouissessi autem) quo. 
+      <lb ed="#F" n="57"/>d. dictum est in praecedenti parte huius c. 
+      <lb ed="#F" n="58"/>quid iuris sit, si mulier peruenit ad nubiles 
+      <lb ed="#F" n="59"/>annos, nunc autem dicendum est, quid iuris 
+      <lb ed="#F" n="60"/>sit, quando nondum peruenit ad annos 
+      <lb ed="#F" n="61"/>nubiles, sed tamen vicina est eis. 
+      <lb ed="#F" n="62"/>2 Vndecim) ita quod distet a 12. ann. id 
+      <lb ed="#F" n="63"/>est, an. 12. coeptum vltra sex menses. arg. ff. 
+      <lb ed="#F" n="64"/>ade excus. tut. notandum nos dicimus a eam 
+      <lb ed="#F" n="65"/>esse circa 11. an. si habet 11. completos &amp; 
+      di<lb ed="#F" n="66" break="no"/>midium, &amp; hoc est ea ratione, quia 
+      legiti<lb ed="#F" n="67" break="no"/>ma aetas ad contrahendum est 11. an. 
+      com<lb ed="#F" n="68" break="no"/>pleti, non coepti. sup. eo. puberes. &amp; hic 
+      ta<lb ed="#F" n="69" break="no"/>men tene, quicquid dicant gl. aliae. sed 
+      et<lb ed="#F" n="70" break="no"/>iam si ante 12. vel 11. ann. essent coniuncti, 
+      <lb ed="#F" n="71"/>&amp; aliqua praesumptio apparet pubertatis 
+      <lb ed="#F" n="72"/>iudicarem pro matrimonio. arg. inf. eod. 
+      <lb ed="#F" n="73"/>a nobis. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e478">
+                  <lb ed="#F" n="74"/>Cognita) hoc solum, scilicet, 
+      cogni<lb ed="#F" n="75" break="no"/>tio non sufficit, vt matrimonium sit, &amp; 
+      si<lb ed="#F" n="76" break="no"/>ne hoc sola desponsatio cum verbis aptis 
+      <lb ed="#F" n="77"/>matrimonio sufficit, si est proxima 
+      puber<lb ed="#F" n="78" break="no"/>tati, &amp; ex aspectu corporis potest aliquo 
+      <lb ed="#F" n="79"/>modo deprehendi eam esse potentem ad 
+      <lb ed="#F" n="80"/>generandum. Vel dic, quod nunquam suf. 
+      <lb ed="#F" n="81"/>ficit, quod sit proxima pubertati, quando 
+      <lb ed="#F" n="82"/>in solis verbis matrimonij, vel sponsalia stes 
+      <lb ed="#F" n="83"/>terunt ad hoc, vt matrimonium 
+      praesuma<lb ed="#F" n="84" break="no"/>tur, nisi 12. an. habeat completos. 3. eo. 
+      pu<lb ed="#F" n="85" break="no"/>beres. vel nisi ex aspectu corporis 
+      appare<lb ed="#F" n="86" break="no"/>at eam pubescere. sup. eod puberes. quare 
+      <lb ed="#F" n="87"/>enim posuisset decre. 12. an. si sufficeret 11. 
+      <lb ed="#F" n="88"/>vel 10. &amp; dimidium non video, sed si sit vel 
+      <lb ed="#F" n="89"/>dicatur cognita a viro, tunc habet locum 
+      <lb ed="#F" n="90"/>haec decre. sed quia sufficit quod sit in u1. 
+      <lb ed="#F" n="91"/>vel etiam amplius eircaia. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e520">
+                  <lb ed="#F" n="92"/>Sed dices nonne si cognouit eam 
+      ap<lb ed="#F" n="93" break="no"/>paret esse puberem eame Respon. non 
+      po<lb ed="#F" n="94" break="no"/>test esse, quod lanuginem in femore non 
+      <lb ed="#F" n="95"/>producit, quae sola est signum pubertatis, 
+      <lb ed="#F" n="96"/>&amp; tamen elaustra pudoris aperta sunt, &amp; 
+      <lb ed="#F" n="97"/>sic cognita apparet, vel praesumitur, licet 
+      <lb ed="#F" n="98"/>signa pubertatis non appareant. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e539">
+                  <lb ed="#F" n="99"/>Sed oppones, nonne &amp; si in 10. vel 11. 
+      <lb ed="#F" n="100"/>ann. aperta essent claustra pudoris idem 
+      <lb ed="#F" n="101"/>praesumeres. sup. de spon. iuuenis ? Responm. 
+      <lb ed="#F" n="102"/>non, quia ibi non loquitur, quod 
+      praesu<lb ed="#F" n="103" break="no"/>matur carnalis copula interuenisse, sed 
+      <lb ed="#F" n="104"/>consensus vel cognitio aliqua sponsalium 
+      <lb ed="#F" n="105"/>ante 11. ann. licet aperta sint claustra 
+      pu<lb ed="#F" n="106" break="no"/>doris, non praesumitur matrimonium vel 
+      <lb ed="#F" n="107"/>carnalis copula interuenisse de facili, nisi 
+      <lb ed="#F" n="108"/>apertioni claustrorum alia indicia 
+      ad<lb ed="#F" n="109" break="no"/>minicularentur, forte magnitudo 
+      per<lb ed="#F" n="110" break="no"/>sonae, vel alia quae mulieres melius no¬ 
+      <pb ed="#F" n="467-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>runt, nec expedit dicere vel literis 
+      adno<lb ed="#F" n="2" break="no"/>tare. Vel dic, hanc decre. locum habere, 
+      <lb ed="#F" n="3"/>vbi in minoribus annis contraxerunt, sed 
+      <lb ed="#F" n="4"/>postea puenientes ad maiorem aetatem, si 
+      <lb ed="#F" n="5"/>vnus petat separari, &amp; alter dicat 
+      cogno<lb ed="#F" n="6" break="no"/>ui eam dum erat in 11. ann. vel magis 
+      vici<lb ed="#F" n="7" break="no"/>na 12. non separabitur matrimonium, quia 
+      <lb ed="#F" n="8"/>potest dubitari, quod tunc fuerit potens, 
+      <lb ed="#F" n="9"/>cum permisit super se virum ascendere, &amp; 
+      <lb ed="#F" n="10"/>ideo in tutiorem partem interpretandum 
+      <lb ed="#F" n="11"/>est. sup. de spons. iuuenis. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e596">
+                  <lb ed="#F" n="12"/> Sed de hoc oportet constare, quod 
+      <lb ed="#F" n="13"/>visus sit eam cognoscere, non enim sola 
+      <lb ed="#F" n="14"/>aetas 11. ann. sufficeret, sed haec opinio in 
+      <lb ed="#F" n="15"/>hoc contradixit proxi. quia dicunt quod 
+      <lb ed="#F" n="16"/>licet hi in 11. ann. visi sint commisceri, si 
+      <lb ed="#F" n="17"/>tamen de hoc potest constare mulierem 
+      <lb ed="#F" n="18"/>non esse puberem, scilicet, quia lanuginem 
+      <lb ed="#F" n="19"/>non habet, non iudicabitur matrimonium, 
+      <lb ed="#F" n="20"/>nisi peruenerit ad ann. 12. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e619" type="decretales-l4t2c7">
+               <head xml:id="inleiv-d1e1462-Hd1e621">Caput 7</head>
+               <p xml:id="inleiv-d1e1462-d1e623">
+                  <lb ed="#F" n="21"/>CAPVT VII. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e628">
+                  <lb ed="#F" n="22"/>DE ILLIS. Hic primo 
+      loqui<lb ed="#F" n="23" break="no"/>tur, quando ambo sunt intra 
+      <lb ed="#F" n="24"/>annos pubertatis, nam tunc 
+      <lb ed="#F" n="25"/>vterque eorum ad pubertatem 
+      <lb ed="#F" n="26"/>perueniens iudicio ecclesiae 
+      <lb ed="#F" n="27"/>de iure petit separationem, ante autem 
+      <lb ed="#F" n="28"/>petere non potest. Secundo ponit quando 
+      <lb ed="#F" n="29"/>tempore quo contrahunt alter est maior, 
+      <lb ed="#F" n="30"/>alter minor, nam tunc minor cum ad 
+      pu<lb ed="#F" n="31" break="no"/>bertatem venerit, separationem petit, 
+      ma<lb ed="#F" n="32" break="no"/>ior autem nullo tempore iudicio ecclesiae 
+      <lb ed="#F" n="33"/>petet separationem, quamuis si contrahat 
+      <lb ed="#F" n="34"/>matrimonium tenet. s. tit. proxi. c. pen. &amp; 
+      <lb ed="#F" n="35"/>secundum hoc intelligo. c. seq. (Si vero) 
+      <lb ed="#F" n="36"/>extunc loquitur quando tempore quo 
+      con<lb ed="#F" n="37" break="no"/>trahunt vnus est pubes, &amp; alter impubes. 
+      <lb ed="#F" n="38"/>Iudicio ecclesiae) hoc iudicium est 
+      neces<lb ed="#F" n="39" break="no"/>sarium, vbi sponsalia tenent, sed postea ex 
+      <lb ed="#F" n="40"/>aliqua causa separantur, sed si non tenerent, 
+      <lb ed="#F" n="41"/>puta quia inter consanguineos vel quia 
+      <lb ed="#F" n="42"/>prius cum alia contraxisset, veletiam quia 
+      <lb ed="#F" n="43"/>sub conditione erant celebrata, vel 
+      quo<lb ed="#F" n="44" break="no"/>cunque alio modo sint nulla, non est 
+      neces<lb ed="#F" n="45" break="no"/>sarium hoc iudicium ecclesiae, licet 
+      quodam<lb ed="#F" n="46" break="no"/>modo sit honestum. Item dicimus etiam 
+      <lb ed="#F" n="47"/>si matrimonium sit nullum, quod tunc non 
+      <lb ed="#F" n="48"/>est necessarium huiusmodi iudicium, si forte 
+      <lb ed="#F" n="49"/>coniuncti essent matrimonialiter, quia 
+      <lb ed="#F" n="50"/>tunc si recederet ab eo sine iudicio 
+      eccle<lb ed="#F" n="51" break="no"/>siae daretur sibi restitutio vxoris. inf. de 
+      di<lb ed="#F" n="52" break="no"/>uor. porro. Dissentire) ita quod ecclesia 
+      <lb ed="#F" n="53"/>approbet, sed si contraxit cum alio 
+      matri<lb ed="#F" n="54" break="no"/>monium tenet, &amp; hoc est verum, vbi tenent 
+      <lb ed="#F" n="55"/>sponsalia, secus autm si non tenerent, quia 
+      <lb ed="#F" n="56"/>tunc maior posset separationem petere per 
+      <lb ed="#F" n="57"/>iudicium ecclesiae. s. eo. c. accessit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e710" type="decretales-l4t2c8">
+               <head xml:id="inleiv-d1e1462-Hd1e712">Caput 8</head>
+               <p xml:id="inleiv-d1e1462-d1e714">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>CAPVT VIII 
+      <lb ed="#F" n="59"/>A NOBIS TVA. (His) scilicet. 
+      <lb ed="#F" n="60"/>ambobus contrahentibus. 
+      <lb ed="#F" n="61"/>(Matrimonij) scilicet, 
+      futu<lb ed="#F" n="62" break="no"/>ri. (Eorum) scilicet, 
+      contra<lb ed="#F" n="63" break="no"/>hentium. Assensum) vnde 
+      <lb ed="#F" n="64"/>dicunt quidam, quod si impuberes per 
+      ver<lb ed="#F" n="65" break="no"/>ba matrimonio apta contrahant 
+      matri<lb ed="#F" n="66" break="no"/>monium, &amp; hoc etiam intendant, non est 
+      <lb ed="#F" n="67"/>matrimonium, quia illud contraherenon 
+      <lb ed="#F" n="68"/>possunt, nec sponsalia, quia ad alia non 
+      in<lb ed="#F" n="69" break="no"/>tendunt. ar. ff. de spon. quaesitum. ff. de rit. 
+      <lb ed="#F" n="70"/>nup. minorem. veruntamem nisi vsque ad 
+      le<lb ed="#F" n="71" break="no"/>gitimam aetatem in eadem voluntate 
+      per<lb ed="#F" n="72" break="no"/>sistant, ratificatur matrimonium. arg. I. c. 
+      <lb ed="#F" n="73"/>proxi. &amp; l. minorem. Potest tamen 
+      proba<lb ed="#F" n="74" break="no"/>biliter dici, quod sponsalia contrahunt iuris 
+      <lb ed="#F" n="75"/>potestate, licet illud contrahere non 
+      inten<lb ed="#F" n="76" break="no"/>dant, vel verba non dicant. arg. 5. de condi. 
+      <lb ed="#F" n="77"/>appo. super eo. 5. e. c. vlt. Tenentur) 
+      neu<lb ed="#F" n="78" break="no"/>ter enim ante pubertatem petet 
+      separati<lb ed="#F" n="79" break="no"/>onem, sed postquam ambo, vel alter 
+      tan<lb ed="#F" n="80" break="no"/>tum ad pubertatem peruenerit petere 
+      po<lb ed="#F" n="81" break="no"/>test. sup. c. proxi. (Anticipare) malitia 
+      sup<lb ed="#F" n="82" break="no"/>plente aetatem. inf. c. proxi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e774" type="decretales-l4t2c9">
+               <head xml:id="inleiv-d1e1462-Hd1e776">Caput 9</head>
+               <p xml:id="inleiv-d1e1462-d1e778">
+                  <lb ed="#F" n="83"/>CAPVT IX 
+      <lb ed="#F" n="84"/>DE ILLIS. Quod apparet ex 
+      <lb ed="#F" n="85"/>lanugine, vel facti, vel 
+      expe<lb ed="#F" n="86" break="no"/>rientia. (Carnali) hoc 
+      vide<lb ed="#F" n="87" break="no"/>tur satis innui in 
+      matrimo<lb ed="#F" n="88" break="no"/>nijs illam solandici proximam 
+      <lb ed="#F" n="89"/>pubertati, quae cognoscipotest. arg. sup. c. 
+      <lb ed="#F" n="90"/>puberes. In tutelis autem secus dicerem, 
+      <lb ed="#F" n="91"/>vt not. in decre. puberes. &amp; idem quod in 
+      <lb ed="#F" n="92"/>matrimonio dicam in ingressu 
+      monaste<lb ed="#F" n="93" break="no"/>rij, alii contra. (Consensisse) vel dicendo 
+      <lb ed="#F" n="94"/>verba apta matrimonio, vel cognoscendo 
+      <lb ed="#F" n="95"/>eam. &amp; hoc innuit litera sequens 
+      con<lb ed="#F" n="96" break="no"/>iugete. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e813" type="decretales-l4t2c10">
+               <head xml:id="inleiv-d1e1462-Hd1e815">Caput 10</head>
+               <p xml:id="inleiv-d1e1462-d1e817">
+                  <lb ed="#F" n="97"/>CAPVT X. 
+      <lb ed="#F" n="98"/>1 In tausa matrimonii non solum pul licatums 
+      at<lb ed="#F" n="99" break="no"/>testationibus, sed etiam post sententiam 
+      <lb ed="#F" n="100"/>anditar. 
+      <lb ed="#F" n="101"/>2 Impuberes licet contrabant non tamen 
+      dici<lb ed="#F" n="102" break="no"/>tur matrimonium contractum, nisi per 
+      <lb ed="#F" n="103"/>carnalem copulam ratificetur. 
+      <lb ed="#F" n="104"/>2 Licet sponsaliauniter insantes minores 
+      sepren<lb ed="#F" n="105" break="no"/>nio contracta non teneant, ratifitantur 
+      <lb ed="#F" n="106"/>tamen niss in septimo anno 
+      contrudixe<lb ed="#F" n="107" break="no"/>rint verbo vel facto. 
+      <lb ed="#F" n="108"/>4 Verba sunt de necessitate in matrimonio 
+      ta<lb ed="#F" n="109" break="no"/>trabendo. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e848">
+                  <lb ed="#F" n="110"/>ATTESTATIONES. (
+      Cre<lb ed="#F" n="111" break="no"/>dit) hic creditur confessioni 
+      <lb ed="#F" n="112"/>mulieris, quia est contra se, 
+      <lb ed="#F" n="113"/>&amp; vir non dicebat 
+      contrari<lb ed="#F" n="114" break="no"/>um, aliter enim eius dicto sta¬ 
+      <pb ed="#F" n="468-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>retur. sup. eo. continebatur. vel dic, quod 
+      <lb ed="#F" n="2"/>etiam si mulier fuisset corrupta, &amp; non vir, 
+      <lb ed="#F" n="3"/>non tamen esset matrimonium 
+      consum<lb ed="#F" n="4" break="no"/>matum. de hoc not. inf. de eo qui cog. 
+      con<lb ed="#F" n="5" break="no"/>1 san. vxo. suae fraternitatis. (Testes) 
+      spe<lb ed="#F" n="6" break="no"/>ciale est in causa matrimonii, quod non 
+      <lb ed="#F" n="7"/>solum post publicatas attestationes, sed 
+      <lb ed="#F" n="8"/>etiam post sententiam auditur. sup. de 
+      <lb ed="#F" n="9"/>sent. &amp; re iudi. lator. &amp; c. consan. Vel dic, 
+      <lb ed="#F" n="10"/>quod hic erat nouus articulus, super quo 
+      <lb ed="#F" n="11"/>licet post publicatas attestationes de 
+      no<lb ed="#F" n="12" break="no"/>uo producere testes. sup. de testa. ex 
+      te<lb ed="#F" n="13" break="no"/>nore. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e894">
+                  <lb ed="#F" n="14"/>Probare) no. quod si impuberes con 
+      <lb ed="#F" n="15"/>trahant quantocunque tempore steterint 
+      <lb ed="#F" n="16"/>post pubertatem, non tamen de 
+      sponsali<lb ed="#F" n="17" break="no"/>bus fit matrimonium, nisi de nouo 
+      con<lb ed="#F" n="18" break="no"/>senserint per carnalem copulam, quae 
+      secu<lb ed="#F" n="19" break="no"/>ta inducit praesumptum matrimonium. 
+      <lb ed="#F" n="20"/>sup. titu. proxi. is qui. In sponsalibus 
+      ta<lb ed="#F" n="21" break="no"/>men dicimus, quod si infantes minores 
+      se<lb ed="#F" n="22" break="no"/>ptennio contrahant sponsalia, licet ea non 
+      <lb ed="#F" n="23"/>teneant, tamen ratificant, nisi in septimo 
+      <lb ed="#F" n="24"/>anno contradixerint verbo vel facto, puta 
+      <lb ed="#F" n="25"/>cum alio contrahendo. sup. c. literas. &amp; c. 
+      <lb ed="#F" n="26"/>accessit. inf. eo. duo. Et est mirabile, quod 
+      <lb ed="#F" n="27"/>de nihilo lapsu temporis fit aliquid, puta 
+      <lb ed="#F" n="28"/>de non sponsalibus, sponsalia, sed id quod 
+      <lb ed="#F" n="29"/>aliquid est, non mutat naturam, quia non 
+      <lb ed="#F" n="30"/>fit de sponsalibus matrimonium. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e933">
+                  <lb ed="#F" n="31"/>Alii tamen contrarium dicunt hic 
+      in<lb ed="#F" n="32" break="no"/>cumbere probationem mulieri, quia signa 
+      <lb ed="#F" n="33"/>apparebant dissensus, puta quia vir 
+      dis<lb ed="#F" n="34" break="no"/>cesserat ab ea, secus si nec signa dissensus 
+      <lb ed="#F" n="35"/>vel consensus apparebant, quia tunc 
+      de<lb ed="#F" n="36" break="no"/>beret praesumi de sponsalibus factum esse 
+      <lb ed="#F" n="37"/>matrimonium, primum dictum magis 
+      ple<lb ed="#F" n="38" break="no"/>cet. (Consensisset) cognoscendo vel de 
+      <lb ed="#F" n="39"/>nouo contrahendo, alias enim &amp; si 
+      oscu<lb ed="#F" n="40" break="no"/>latus est eam, vel si habitaret cum ea, non 
+      <lb ed="#F" n="41"/>praesumerem matrimonium. inf. de ma. 
+      <lb ed="#F" n="42"/>con. contra interdi. ecc. c. 1. (Iuramento) 
+      <lb ed="#F" n="43"/>speciale est in hoc casu, vt actore nihil 
+      pro<lb ed="#F" n="44" break="no"/>bante, reus iurare cogatur. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e967">
+                  <lb ed="#F" n="45"/>(Consensit) si enim vir confiteretur, 
+      <lb ed="#F" n="46"/>quod post ann. 14. consensit, &amp; voluit, quod 
+      <lb ed="#F" n="47"/>ipsa esset vxor eius, licet non interuenerit 
+      <lb ed="#F" n="48"/>carnalis copula vel signum consensus 
+      exte<lb ed="#F" n="49" break="no"/>rioris, tamen matrimonium debet inter 
+      <lb ed="#F" n="50"/>eos iudicari, cum sponsalia praecesserint 
+      <lb ed="#F" n="51"/>quae propter consensum sequentem 
+      trans<lb ed="#F" n="52" break="no"/>ierunt in matrimonium, secus autem 
+      es<lb ed="#F" n="53" break="no"/>set, si non praecessissent sponsalia, quia 
+      <lb ed="#F" n="54"/>tunc licet adinuicem eodem tempore 
+      <lb ed="#F" n="55"/>consensus occultus sine verbis, vel aliquo 
+      <lb ed="#F" n="56"/>tractatu praecedente interuenisset inter 
+      <lb ed="#F" n="57"/>aliquos, non faceret matrimonium, cum 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>in eo contrahendo in potentibus loqui 
+      <lb ed="#F" n="59"/>necessaria fint verba, vel tractatus 
+      praece<lb ed="#F" n="60" break="no"/>dens, vt no. sup. tit. proxi. tuae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e1007" type="decretales-l4t2c11">
+               <head xml:id="inleiv-d1e1462-Hd1e1009">Caput 11</head>
+               <p xml:id="inleiv-d1e1462-d1e1011">
+                  <lb ed="#F" n="61"/>CAPVT XI.
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1016">
+                  <lb ed="#F" n="62"/>EX LITERIS. (Liberam 
+      tri<lb ed="#F" n="63" break="no"/>buas) sup. eod. de illis. a nobis 
+      <lb ed="#F" n="64"/>contra. Sol. haec mulier 
+      nun<lb ed="#F" n="65" break="no"/>quam consensit sponsalibus 
+      <lb ed="#F" n="66"/>parentum, vnde cum esset 
+      <lb ed="#F" n="67"/>pubes, non tenuerunt sponsalia. 3. eod. c. 1. 
+      <lb ed="#F" n="68"/>vnde contradicere potest, &amp; ibi ipsa libera 
+      <lb ed="#F" n="69"/>voluntate contraxerat, vnde 
+      contradice<lb ed="#F" n="70" break="no"/>re non potest, hoc tamen not. quod licet 
+      <lb ed="#F" n="71"/>non teneant sponsalia, si tamen postea 
+      co<lb ed="#F" n="72" break="no"/>gnoscat rata habere videtur sponsalia suo 
+      <lb ed="#F" n="73"/>nomine contracta, vel hic de equitate, vel 
+      <lb ed="#F" n="74"/>ibi interuenerat iuramentam, hic non¬ 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e1048" type="decretales-l4t2c12">
+               <head xml:id="inleiv-d1e1462-Hd1e1050">Caput 12</head>
+               <p xml:id="inleiv-d1e1462-d1e1052">
+                  <lb ed="#F" n="75"/>CAPVT XII 
+      <lb ed="#F" n="76"/>1 Sponsalia infantium lapsa temporis 
+      rutifi<lb ed="#F" n="77" break="no"/>cantur. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1061">
+                  <lb ed="#F" n="78"/>DVO PVERI. (Per tres 
+      an<lb ed="#F" n="79" break="no"/>nos) No. sponsalia infantum 
+      <lb ed="#F" n="80"/>lapsu temporis ratificari(
+      co<lb ed="#F" n="81" break="no"/>pulauit) hoc matrimonium 
+      <lb ed="#F" n="82"/>tenuit siue statim peruenerit 
+      <lb ed="#F" n="83"/>ad pubertatem, siue post, cum eam 
+      cogno<lb ed="#F" n="84" break="no"/>uit. (Reliquit) &amp; male (Accepit) &amp; male 
+      <lb ed="#F" n="85"/>impediente publicae ho. iustitia. (
+      Compu<lb ed="#F" n="86" break="no"/>lit) &amp; male, cum alium virum haberet, &amp; 
+      <lb ed="#F" n="87"/>si copula interuenisset propter affinitatem. 
+      <lb ed="#F" n="88"/>(Dabitur) haec inhibitio fit propter 
+      deli<lb ed="#F" n="89" break="no"/>ctum vtriusqe. sic. 27. qon. 1. §. Christus. vel 
+      <lb ed="#F" n="90"/>propter scandalum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e1093" type="decretales-l4t2c13">
+               <head xml:id="inleiv-d1e1462-Hd1e1095">Caput 13</head>
+               <p xml:id="inleiv-d1e1462-d1e1097">
+                  <lb ed="#F" n="91"/>CAPVT XIII. 
+      <lb ed="#F" n="92"/>1 Aecusationis &amp;o denunciationis differentia. 
+      <lb ed="#F" n="93"/>2 Comparatio matrimonii spiritualis ad 
+      carna<lb ed="#F" n="94" break="no"/>le, quo ad denunciationem, &amp; de virtute 
+      <lb ed="#F" n="95"/>denunciationis. in nu. 3. 4. &amp;5. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1110">
+                  <lb ed="#F" n="96"/>AD DISSOLVENDVM. 
+      <lb ed="#F" n="97"/>(Remouere) &amp; sup hoc 
+      sen<lb ed="#F" n="98" break="no"/>tentiatur. (Denunciari.) 
+      <lb ed="#F" n="99"/>Not. accusationem non 
+      ha<lb ed="#F" n="100" break="no"/>bere locum, nisi super 
+      crimi<lb ed="#F" n="101" break="no"/>ne iam perpetrato, denunciatio autem 
+      <lb ed="#F" n="102"/>super perpetratis, vt poenitentia agatur, 
+      <lb ed="#F" n="103"/>&amp; super perpetrandis, vt cessetur locum 
+      <lb ed="#F" n="104"/>habet. inf. de accu. qualiter. 22. qon. 5. hic 
+      vi<lb ed="#F" n="105" break="no"/>detur. 93. di. diaconi. ff. de dam. infec. l. 2. 
+      <lb ed="#F" n="106"/>Denunciari) hoc eodem modo dicimus 
+      pos<lb ed="#F" n="107" break="no"/>se agi in matrimonio spirituali, nam electo 
+      <lb ed="#F" n="108"/>non petente confirmationem, vel 
+      consecratio<lb ed="#F" n="109" break="no"/>nem, possum denunciare superiori. Domine 
+      <lb ed="#F" n="110"/>talis est in tali peccato, vnde non potest, 
+      <lb ed="#F" n="111"/>nec debet confirmari &amp; consecrari. 22. q. 5. 
+      <pb ed="#F" n="468-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>hoc videtur. sed caueat sibi ille, qui 
+      denun<lb ed="#F" n="2" break="no"/>ciat, quia non potest denunciare 
+      pecca<lb ed="#F" n="3" break="no"/>tum, quod sit in forma electionis, si eius 
+      <lb ed="#F" n="4"/>executionem non impedit, nec de crimine 
+      <lb ed="#F" n="5"/>de quo egit poenitentiam, nisi sit tale, quod 
+      <lb ed="#F" n="6"/>post poenitentiam impediat executionem 
+      <lb ed="#F" n="7"/>ordinis. 3. de renun. nisi cum pridem. §. 1. 
+      <lb ed="#F" n="8"/>&amp; no. 2. q. 1. si peccauerit. Ar. contra. 31. di. 
+      <lb ed="#F" n="9"/>ex poe. sed illud loquitur in irregularitate, 
+      <lb ed="#F" n="10"/>&amp; criminibus vbi dispensatio est 
+      necessa<lb ed="#F" n="11" break="no"/>ria. Item contra. . de cle. ex. mi. si celebrat, 
+      <lb ed="#F" n="12"/>sed expone vt ibi. Item denunciatione 
+      agi<lb ed="#F" n="13" break="no"/>tur contra electum post confirmationem. 
+      <lb ed="#F" n="14"/>sup. de app. constitutis. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1182">
+                  <lb ed="#F" n="15"/>3 Item no. quod licet denunciatio 
+      im<lb ed="#F" n="16" break="no"/>pediat confirmandum &amp; consecrandum, 
+      <lb ed="#F" n="17"/>non tamen debet tantum operari, vt 
+      ele<lb ed="#F" n="18" break="no"/>ctores reuocet ab electione, nisi credant 
+      <lb ed="#F" n="19"/>verum esse, quod dicitur, nec propter hoc 
+      <lb ed="#F" n="20"/>est impedienda vel prohibenda 
+      asuperio<lb ed="#F" n="21" break="no"/>re celebratio electionis, nisi forte 
+      inconti<lb ed="#F" n="22" break="no"/>nenti haberet paratas probationes. sup. de 
+      <lb ed="#F" n="23"/>his quae fi. a ma. par. c. cum in cunctis. 
+      <lb ed="#F" n="24"/>4Alii dicunt &amp; forte melius, quod non est 
+      <lb ed="#F" n="25"/>differentia inter ordinationem &amp; 
+      conse<lb ed="#F" n="26" break="no"/>crationem &amp; electionem, quia vtrobique 
+      <lb ed="#F" n="27"/>&amp; ordinator &amp; consecrator, &amp; elector 
+      di<lb ed="#F" n="28" break="no"/>ligentes debent esse, vt inquirant de 
+      perso<lb ed="#F" n="29" break="no"/>na ordinandi, &amp; consecrandi, &amp; eligendi. 
+      <lb ed="#F" n="30"/>si. 24. dist. c. quando. 61. dist. miramur. §. q. 2. 
+      <lb ed="#F" n="31"/>dilectissimi. Et denunciationes audire 
+      de<lb ed="#F" n="32" break="no"/>bent contra praedictos, si credunt 
+      denun<lb ed="#F" n="33" break="no"/>ciantes bona intentione moueri, &amp; verum 
+      <lb ed="#F" n="34"/>esse quod obiiciunt, si autem non credant, 
+      <lb ed="#F" n="35"/>nihilominus possunt procedere ad 
+      ordi<lb ed="#F" n="36" break="no"/>nationem &amp; consecrationem, &amp; 
+      electio<lb ed="#F" n="37" break="no"/>nem, &amp; tenebit quod factum est, etiam si 
+      <lb ed="#F" n="38"/>denunciator appellet, &amp; etiam si dicat se 
+      <lb ed="#F" n="39"/>habere paratas probationes, quia haec 
+      prae<lb ed="#F" n="40" break="no"/>dicta, scilicet, ordinatio, consecratio, &amp; 
+      ele<lb ed="#F" n="41" break="no"/>ctio non fiunt in forma iudicij, sed officia 
+      <lb ed="#F" n="42"/>vel ministeria sunt. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1245">
+                  <lb ed="#F" n="43"/>Hoc tamen fatemur, quod si coram 
+      <lb ed="#F" n="44"/>superiore probauerit veras causas, ex 
+      qui<lb ed="#F" n="45" break="no"/>bus appellauit quod totum cassabitur qued 
+      <lb ed="#F" n="46"/>factum est ad minus, quo ad executionem. 
+      <lb ed="#F" n="47"/>sup. de elect. cum inter. &amp; sup. de app. 
+      con<lb ed="#F" n="48" break="no"/>stitutus. posset etiam superior ordinatori 
+      <lb ed="#F" n="49"/>&amp; consecratori imponere poenam, si 
+      in<lb ed="#F" n="50" break="no"/>ueniret praedictos perperam processisse, 
+      <lb ed="#F" n="51"/>videtur tamenquod si sit omissa 
+      denunci<lb ed="#F" n="52" break="no"/>atio, &amp; procedatur ordine suo, quod postea 
+      <lb ed="#F" n="53"/>praecedente denunciatione, nec ipse qui in 
+      <lb ed="#F" n="54"/>denunciatione procedit, nec alius ad 
+      or<lb ed="#F" n="55" break="no"/>dinationem vel consecrationem 
+      proce<lb ed="#F" n="56" break="no"/>dat. arg. hic, licet in electione forte est 
+      ali<lb ed="#F" n="57" break="no"/>ud, de hoc autem no. i. de simo. accusatum. 
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1281">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>In confirmatione autem cum 
+      pro<lb ed="#F" n="59" break="no"/>ceditur in forma iudicij, &amp; cum causae 
+      co<lb ed="#F" n="60" break="no"/>gnitione bene admitteretur talis 
+      appella<lb ed="#F" n="61" break="no"/>tio, &amp; cassaretur quiequid fieret post talem 
+      <lb ed="#F" n="62"/>appellationem, etiam si non probaret 
+      ve<lb ed="#F" n="63" break="no"/>ras causas appellationis. sup. de ap. 
+      inter<lb ed="#F" n="64" break="no"/>posita. &amp; quod dictum est in ordinatore, 
+      <lb ed="#F" n="65"/>consecratore, &amp; electoreclict quod non 
+      ob<lb ed="#F" n="66" break="no"/>stante contradictione &amp; 
+      appellationecu<lb ed="#F" n="67" break="no"/>iusque tenet quod abeo fit. idem videtur eta 
+      <lb ed="#F" n="68"/>iam in eo, cui mandatum est, quod 
+      proui<lb ed="#F" n="69" break="no"/>deat in aliquo beneficio alicui, &amp; eo qui 
+      <lb ed="#F" n="70"/>deputatus est executor ad dandum, &amp; hoc 
+      <lb ed="#F" n="71"/>dicimus praedicta ratione, quia iudex non 
+      <lb ed="#F" n="72"/>est, nec in forma iudicii procedere debet, 
+      <lb ed="#F" n="73"/>imo etiam idem dicimus, si alias haberet 
+      <lb ed="#F" n="74"/>iurisdictionem, vt episcopus, &amp; ad eum 
+      pet<lb ed="#F" n="75" break="no"/>tinet collatio beneficiorum, quia non 
+      tene<lb ed="#F" n="76" break="no"/>retur admittere huiusmodi exceptiones, 
+      <lb ed="#F" n="77"/>vel denunciationes, nec appellatio ob hoc 
+      <lb ed="#F" n="78"/>interposita impediret processum eius, nisi 
+      <lb ed="#F" n="79"/>probaretur veritas causarum. sup. de app. 
+      <lb ed="#F" n="80"/>constitutus. &amp; c. seq. Imo si prouisor vel 
+      <lb ed="#F" n="81"/>executor vult audire exceptiones vel 
+      de<lb ed="#F" n="82" break="no"/>nunciationes huiusmodi, ille qui debet 
+      <lb ed="#F" n="83"/>prouidere, posset dicere non pertinet ad te, 
+      <lb ed="#F" n="84"/>quia tantum executor es. 5. de sen. &amp; re iud. 
+      <lb ed="#F" n="85"/>decaetero. licet secus esset in ordinario. Si 
+      <lb ed="#F" n="86"/>autem prouisor haberet causae 
+      cognitio<lb ed="#F" n="87" break="no"/>nem, vt si mandatur, quod prouideat, si est 
+      <lb ed="#F" n="88"/>idoneus, vel quod alias compellat, tunc 
+      <lb ed="#F" n="89"/>oppositam exceptionem vel 
+      denunciatio<lb ed="#F" n="90" break="no"/>nem audiet &amp; appellari potest, &amp; quicqud 
+      <lb ed="#F" n="91"/>fieret post talem appellationem si offerret 
+      <lb ed="#F" n="92"/>probationem causarum cassaret. 3. de ap. 
+      <lb ed="#F" n="93"/>interposita. Prudenter tamen faciet 
+      me<lb ed="#F" n="94" break="no"/>rus executor, si audierit quod eum monet 
+      <lb ed="#F" n="95"/>&amp; si consuluerit superiorem. (
+      Contrahen<lb ed="#F" n="96" break="no"/>dum) maxime vbi de eorum sponsalibus 
+      <lb ed="#F" n="97"/>agitur, quia tunc sunt vicini praecipitio. 
+      <lb ed="#F" n="98"/>22. q. 5. hoc videtur. (Exceptionibus) quia 
+      <lb ed="#F" n="99"/>non praecessit monitio. I. de accu. qualiter. 
+      <lb ed="#F" n="100"/>vel quia est criminosus denunciator. 2. q. 
+      <lb ed="#F" n="101"/>7. accusator. 3. qon. 7. in grauibus. (
+      Attente<lb ed="#F" n="102" break="no"/>tur) id est, ne sponsa lia de nouo 
+      contrahan<lb ed="#F" n="103" break="no"/>tur. (Censetur) quia apparebit lapso 
+      ter<lb ed="#F" n="104" break="no"/>mino denunciationi praefixo. (
+      Attenta<lb ed="#F" n="105" break="no"/>tum) per extorsionem vel violentiam. (
+      ir<lb ed="#F" n="106" break="no"/>ritum) id est, puellae non praeiudicat. Vel 
+      <lb ed="#F" n="107"/>dic, quod ideo dicitur itritum, quia 
+      pen<lb ed="#F" n="108" break="no"/>dente causa separabitur, vel dic quod hoc 
+      <lb ed="#F" n="109"/>obtinet in sponsalibus non in matrimonio. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1462-Dd1e1399" type="decretales-l4t2c14">
+               <head xml:id="inleiv-d1e1462-Hd1e1401">Caput 14</head>
+               <p xml:id="inleiv-d1e1462-d1e1403">
+                  <lb ed="#F" n="110"/>CAPVT XIIII.
+      </p>
+               <p xml:id="inleiv-d1e1462-d1e1408">
+                  <lb ed="#F" n="111"/>TVAE NOPIS. (Mutuo) pet 
+      <lb ed="#F" n="112"/>verba de praesenti (aetatis) id 
+      <lb ed="#F" n="113"/>est, 12. ann. compleuerit. 
+      <lb ed="#F" n="114"/>(AEtatis) quia 12. ann. non 
+      <pb ed="#F" n="469-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>habebat. (Aetatem) hic satis colligitur quod 
+      <lb ed="#F" n="2"/>siue mulier habeat 12. an. siue 
+      cognosci<lb ed="#F" n="3" break="no"/>bilis sit potest contrahere matrimonium. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

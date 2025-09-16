@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 45</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 45</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="457-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1378" type="decretales-l3t45">
+            <head xml:id="inleiv-d1e1378-Hd1e98">Titulus 45</head>
+            <p xml:id="inleiv-d1e1378-d1e100">
+               <lb ed="#F" n="20"/>TITVLVS XLV. 
+      <lb ed="#F" n="21"/>DE RELIQVIIS ET 
+      <lb ed="#F" n="22"/>VENERATIONE SAN. 
+      <lb ed="#F" n="23"/>ctorum. 
+      </p>
+            <div xml:id="inleiv-d1e1378-Dd1e111" type="decretales-l3t45c1">
+               <head xml:id="inleiv-d1e1378-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1378-d1e115">
+                  <lb ed="#F" n="24"/>CAPVT I. 
+      <lb ed="#F" n="25"/>1 Canonigare quid st, &amp; quando fiat, &amp; de quo 
+      <lb ed="#F" n="26"/>fiat, &amp; a quo fieri debeat. in nu. 2. &amp; quid 
+      <lb ed="#F" n="27"/>consequatur ecclesia per huiusmodi 
+      cano<lb ed="#F" n="28" break="no"/>nixationem. in nu. 3. 
+      <lb ed="#F" n="29"/>4 Etiam fi ecclesia erraret, tame preces 
+      bonafi<lb ed="#F" n="30" break="no"/>de porreclas Deus acceptaret.
+      </p>
+               <p xml:id="inleiv-d1e1378-d1e133">
+                  <lb ed="#F" n="31"/>AVDIVIMVS. (Quod quis 
+      <lb ed="#F" n="32"/>dam) venerandi sunt omnes 
+      <lb ed="#F" n="33"/>sancti canonixati. 
+      Canoni<lb ed="#F" n="34" break="no"/>2aret est sanctos canonice 
+      <lb ed="#F" n="35"/>et regulariter statuere, quod 
+      a<lb ed="#F" n="36" break="no"/>liquis sanctus honoretur pro sancto, puta 
+      <lb ed="#F" n="37"/>solenne officium pro eo facere, sicut fit 
+      <lb ed="#F" n="38"/>pro alijs sanctis, qui sunt eiusdem 
+      condi<lb ed="#F" n="39" break="no"/>tionis, vt si canonixetur confessor, fiat pro 
+      <lb ed="#F" n="40"/>eo officium confessorum, &amp; si martyvr, 
+      fi<lb ed="#F" n="41" break="no"/>at pro eo officiummartyrum, &amp; sic de 
+      <lb ed="#F" n="42"/>alijs. Et fit regulariter haec canonixatio 
+      <lb ed="#F" n="43"/>quando per probationes constat de fide, 
+      <lb ed="#F" n="44"/>&amp; excellentia vitae, &amp; miraculis eius qui 
+      <lb ed="#F" n="45"/>petitur canonizari. ar. sup. de testi. 
+      vene<lb ed="#F" n="46" break="no"/>rabili. Et oportet tantam esse 
+      excellenti<lb ed="#F" n="47" break="no"/>am vitae, &amp; talia esse miracula, quae sint 
+      <lb ed="#F" n="48"/>vltra vires &amp; potentiam naturae. Item non 
+      <lb ed="#F" n="49"/>debet esse vnica tantum excellentia vitae, 
+      <lb ed="#F" n="50"/>imo oportet esse multas &amp; continuas, vt 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="51"/>habes in Ecclesias. c. 44. vbidicitur: 
+      Lau<lb ed="#F" n="52" break="no"/>demus viros gloriosos, &amp; parentes 
+      no<lb ed="#F" n="53" break="no"/>stros in generatione sua, multam gloria 
+      fe<lb ed="#F" n="54" break="no"/>cit dominus sua magnificentia in seculo. 
+      <lb ed="#F" n="55"/>Per hoc quod dicit, Laudemus viros 
+      glo<lb ed="#F" n="56" break="no"/>riosos, ostendit quod canoniaati erant, 
+      <lb ed="#F" n="57"/>quia aliter nonmandaretur ecclesiae, quod 
+      <lb ed="#F" n="58"/>eos laudaret: Per hoc quod dicit parentes 
+      <lb ed="#F" n="59"/>nostros, ostendit quod nullus 
+      canoni<lb ed="#F" n="60" break="no"/>andus est, nisi fidem habeat, soli enim 
+      <lb ed="#F" n="61"/>parentes esus erant ludaei, &amp; penes quos 
+      <lb ed="#F" n="62"/>solos erat fides canonizandi erant. Per 
+      <lb ed="#F" n="63"/>hoc autem quod sequitur, multam 
+      glori<lb ed="#F" n="64" break="no"/>am fecit dominus, supple cum eis, 
+      appa<lb ed="#F" n="65" break="no"/>ret quod non sufficit, quod in vno fuerit 
+      glo<lb ed="#F" n="66" break="no"/>riosus, vel semel tantum, sed quod in 
+      mul<lb ed="#F" n="67" break="no"/>tis &amp; multoties: imo quod continuem eius 
+      <lb ed="#F" n="68"/>vita fuerit gloriosa. Per hoc quod dicit, 
+      <lb ed="#F" n="69"/>sua magnificentia. i. sua magna potentia, 
+      <lb ed="#F" n="70"/>ostendit quod excellentia vitae &amp; 
+      mira<lb ed="#F" n="71" break="no"/>eula talia esse debent, quae excedant vsres 
+      <lb ed="#F" n="72"/>&amp; potentias naturales, non sufficiunt 
+      mi<lb ed="#F" n="73" break="no"/>racula sine vitae excellentia, cum magi 
+      <lb ed="#F" n="74"/>Pharaonis multa fecerint, quae supra nas 
+      <lb ed="#F" n="75"/>turam esse videntur. &amp; in Euangelio 
+      le<lb ed="#F" n="76" break="no"/>gitur, Quia multi dicturi sunt, nonne in 
+      <lb ed="#F" n="77"/>nomine tuo daemonia esieimus etc. &amp; 
+      ta<lb ed="#F" n="78" break="no"/>men dominus respondebit eis: Non 
+      no<lb ed="#F" n="79" break="no"/>ui vos, vitam tamem sine miraculis 
+      crede<lb ed="#F" n="80" break="no"/>re sufficeret, quo ad virtutem, tamen 
+      ec<lb ed="#F" n="81" break="no"/>clesianon debet tales canonizare propter 
+      <lb ed="#F" n="82"/>hoc, quia in secreto potuerunt laxiorem 
+      <lb ed="#F" n="83"/>vitam ducere. 
+      </p>
+               <p xml:id="inleiv-d1e1378-d1e253">
+                  <lb ed="#F" n="84"/>2 Solus autem Papa potest sanctos 
+      ca<lb ed="#F" n="85" break="no"/>nonixare, quod ex eo apparet, quia cum con. 
+      <lb ed="#F" n="86"/>stituatur omnibus fidelibus adorandum, 
+      <lb ed="#F" n="87"/>&amp; nullus omnibus praesit, nisi Papa 
+      ap<lb ed="#F" n="88" break="no"/>paret, quod solus Papa hoc potest, nec 
+      <lb ed="#F" n="89"/>valet si dicas quod saltem cusque debet 
+      es<lb ed="#F" n="90" break="no"/>selicitum, quond in suadioc. faciat, quia 
+      <lb ed="#F" n="91"/>oratio tis facta debet esse communis, &amp; 
+      <lb ed="#F" n="92"/>ecclesia vbi debet venerari debet esse 
+      <lb ed="#F" n="93"/>communis. Item per hoc incideremus in 
+      <lb ed="#F" n="94"/>illam reprehensionem, qua quidam 
+      repre<lb ed="#F" n="95" break="no"/>hensi sunt ab Apostolo, qui dicebant: 
+      <lb ed="#F" n="96"/>Ego sum Petri, ego Pauli. Per hanc 
+      au<lb ed="#F" n="97" break="no"/>tem canonixationem consequitur, quod 
+      <lb ed="#F" n="98"/>ecclesia solenniter dicit officium pro eo 
+      <lb ed="#F" n="99"/>sicut pro sancto: &amp; in letanijs in numero 
+      <lb ed="#F" n="100"/>sanctorum licite enumeretur: vnde in 
+      su<lb ed="#F" n="101" break="no"/>pradicto cap. Ecclesiastici legitur: 
+      Sapi<lb ed="#F" n="102" break="no"/>entiam sanctorum narrent populi, &amp; 
+      lau<lb ed="#F" n="103" break="no"/>dem eorum annunciet ecclessa. Ex prae. 
+      <lb ed="#F" n="104"/>dictis apparet, quod pueri baptizati &amp; 
+      in<lb ed="#F" n="105" break="no"/>continenti mortui non sunt 
+      canonixan<lb ed="#F" n="106" break="no"/>di: quia nec multam glorsam fecit cum 
+      <lb ed="#F" n="107"/>eis dominus sua magnificentia: speciale 
+      <pb ed="#F" n="457-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>tamen est in innocentibus qui vice Christi 
+      <lb ed="#F" n="2"/>mortui sunt. Item dicimus quod etiam si 
+      <lb ed="#F" n="3"/>ecclesia erraret quod non est credendum: 
+      <lb ed="#F" n="4"/>ramen preces per talem bona fide 
+      porre<lb ed="#F" n="5" break="no"/>ctas Deus acceptaret. arg. 32. dist. §. 
+      ve<lb ed="#F" n="6" break="no"/>rum. 15. quaest. fin. c. fin. Item non 
+      ne<lb ed="#F" n="7" break="no"/>gamus quin cuilibet liceat alicui 
+      defun<lb ed="#F" n="8" break="no"/>cto quem credebat bonum virum 
+      porri<lb ed="#F" n="9" break="no"/>gere preces vt pro eo inter cedat ad 
+      De<lb ed="#F" n="10" break="no"/>um: qusa Deus fidem eorum attendit: 
+      <lb ed="#F" n="11"/>non tamen pro ess licet facere officium 
+      <lb ed="#F" n="12"/>solenne, vel preces solennes. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1378-Dd1e339" type="decretales-l3t45c2">
+               <head xml:id="inleiv-d1e1378-Hd1e341">Caput 2</head>
+               <p xml:id="inleiv-d1e1378-d1e343">
+                  <lb ed="#F" n="13"/>CAPVT II. 
+      <lb ed="#F" n="14"/>CVM EX EO QVOD 
+      QVI<lb ed="#F" n="15" break="no"/>DAMI. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 11</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 11</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="473-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1563" type="decretales-l4t11">
+            <head xml:id="inleiv-d1e1563-Hd1e98">Titulus 11</head>
+            <p xml:id="inleiv-d1e1563-d1e100">
+               <lb ed="#F" n="62"/>TITVLVS XI 
+      <lb ed="#F" n="63"/>DE COGNATIONE 
+      <lb ed="#F" n="64"/>SPIRITVALI 
+      </p>
+            <p xml:id="inleiv-d1e1563-d1e109">
+               <lb ed="#F" n="65"/>Cognatio spiritualis diuiditur in 
+      pa<lb ed="#F" n="66" break="no"/>ternitatem, &amp; filiationemm, &amp; 
+      fraternita<lb ed="#F" n="67" break="no"/>tem sororitatemque, non enim procedit 
+      <lb ed="#F" n="68"/>sustinebit. inf. de sen. exconm. adnepotes &amp; vlteriores, filia enim 
+      spiti<lb ed="#F" n="69" break="no"/>tualis mea potest contrahere cum filio 
+      <lb ed="#F" n="70"/>filii mei, licet non cum filio meo. arg. 30. 
+      <lb ed="#F" n="71"/>q. 3. c. 1. &amp; sufficit ea sola ratio, quia 
+      pro<lb ed="#F" n="72" break="no"/>hibitum non inuenitur matrimonium 
+      <lb ed="#F" n="73"/>inter tales, &amp; credimus quod non solum 
+      <lb ed="#F" n="74"/>filio legitimo non potest copulari filia 
+      <lb ed="#F" n="75"/>spiritualis, sed necillegitimo, filio autem 
+      <lb ed="#F" n="76"/>adoptiuo filia spiritualis legitime 
+      copu<lb ed="#F" n="77" break="no"/>latur. 
+      </p>
+            <div xml:id="inleiv-d1e1563-Dd1e140" type="decretales-l4t11c1">
+               <head xml:id="inleiv-d1e1563-Hd1e142">Caput 1</head>
+               <p xml:id="inleiv-d1e1563-d1e144">
+                  <lb ed="#F" n="78"/>CAPVT I 
+      <lb ed="#F" n="79"/>1 Consuetudo in matrimonio contrahendo 
+      vd<lb ed="#F" n="80" break="no"/>let, sed in contracto minime.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e153">
+                  <lb ed="#F" n="81"/>VTRVM AVTEM. (
+      Ma<lb ed="#F" n="82" break="no"/>trimonium) forte illi qui sunt. 
+      <lb ed="#F" n="83"/>30. q. 4. super quibus. (Post 
+      <lb ed="#F" n="84"/>q susceptum) sed contra videtur, 
+      <lb ed="#F" n="85"/>s(oAA quia primus canon 
+      intitu<lb ed="#F" n="86" break="no"/>latus est nomine Pascali 3. qui fuit post 
+      <lb ed="#F" n="87"/>Vrbanum, qui est secundus intitulatus, 
+      <lb ed="#F" n="88"/>sed potest dicere, quod Gra. errauitin 
+      ti<lb ed="#F" n="89" break="no"/>tulo, debuit enim dicere Pascali 1. vel 
+      <lb ed="#F" n="90"/>loquitur de alijs canonibus, qui non sunt 
+      <lb ed="#F" n="91"/>in nostris compilationibus. 
+      Consue<lb ed="#F" n="92" break="no"/>tudo) quae in contrahendo matrimonio 
+      <lb ed="#F" n="93"/>valet, sed in contracto minime. ar. supr. 
+      <lb ed="#F" n="94"/>de spon. duo. licet. &amp;. c. tuas. inf. eo. super 
+      <lb ed="#F" n="95"/>contra. ibi sol. quamuis dici posset, quod 
+      <lb ed="#F" n="96"/>cum ista impedimenta sint per 
+      constitu<lb ed="#F" n="97" break="no"/>tionem ecclesiae inducta per contrariam 
+      <lb ed="#F" n="98"/>constitutionem, vel consuetudinem 
+      le<lb ed="#F" n="99" break="no"/>gitime incoductam poterit conuratium 
+      <lb ed="#F" n="100"/>inutoduer. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e200" type="decretales-l4t11c2">
+               <head xml:id="inleiv-d1e1563-Hd1e202">Caput 2</head>
+               <p xml:id="inleiv-d1e1563-d1e204">
+                  <lb ed="#F" n="101"/>CAPVT II 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e209">
+                  <lb ed="#F" n="102"/>IVIR VEL MVLIER 
+      SCIEN<lb ed="#F" n="103" break="no"/>TER 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e218" type="decretales-l4t11c3">
+               <head xml:id="inleiv-d1e1563-Hd1e220">Caput 3</head>
+               <p xml:id="inleiv-d1e1563-d1e222">
+                  <pb ed="#F" n="474-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e231">
+                  <lb ed="#F" n="2"/>SVpER EO. (Ita quoq) nit 
+      <lb ed="#F" n="3"/>redit ad primum casum, 
+      sci<lb ed="#F" n="4" break="no"/>licet quod quando filius per 
+      <lb ed="#F" n="5"/>quem contracta est 
+      compa<lb ed="#F" n="6" break="no"/>ternitas contrahit. Alii 
+      in<lb ed="#F" n="7" break="no"/>telligunt de alijs filijs, &amp; exponunt 
+      ver<lb ed="#F" n="8" break="no"/>bum separare ad poenitentiam agedam: 
+      <lb ed="#F" n="9"/>non ad torum, vel in perpetuum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e252" type="decretales-l4t11c4">
+               <head xml:id="inleiv-d1e1563-Hd1e254">Caput 4</head>
+               <p xml:id="inleiv-d1e1563-d1e256">
+                  <lb ed="#F" n="10"/>CAPVT IIII. 
+      <lb ed="#F" n="11"/>1 An possit quis ducere in axorem comatrem. 
+      <lb ed="#F" n="12"/>2 Item quae commaternitas impediat matrimonium. 
+      <lb ed="#F" n="13"/>3 An fornicarius possit accipere in vxorem com. 
+      <lb ed="#F" n="14"/>matrem fornicariae suae.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e269">
+                  <lb ed="#F" n="15"/>MARTINVS. (Bertam 
+      su<lb ed="#F" n="16" break="no"/>scepit) postquam contraxit 
+      <lb ed="#F" n="17"/>cum T. &amp; eam cognouit, 
+      <lb ed="#F" n="18"/>quia tunc ei 
+      compaternita<lb ed="#F" n="19" break="no"/>temquaestuit. 30. q. 4. si quis 
+      <lb ed="#F" n="20"/>vnus. secus autem si copula secuta esset 
+      <lb ed="#F" n="21"/>compaternitatem. 30. q. 4. c. 1. 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e287">
+                  <lb ed="#F" n="22"/>(Qui spiritualem post susceptum) 
+      <lb ed="#F" n="23"/>tunc enim non sunt effecti vna caro ante 
+      <lb ed="#F" n="24"/>compater nitatem, licet esset sponsa de 
+      prae<lb ed="#F" n="25" break="no"/>senti, tamen non quaereret cognationem 
+      <lb ed="#F" n="26"/>spiritualem, vnde non prohibetur aliquis 
+      <lb ed="#F" n="27"/>commatrem, quam vxor quaesiuit, dum 
+      <lb ed="#F" n="28"/>sponsa erat ducere in vxorem, alii tamen 
+      <lb ed="#F" n="29"/>a dicunt contra. Quibus autem casibus 
+      <lb ed="#F" n="30"/>quis possit habere duas commatres 
+      vxo<lb ed="#F" n="31" break="no"/>res, &amp; quae commaternitas hic impedsat 
+      <lb ed="#F" n="32"/>matrimonium, ee citae non hiss versibus 
+      <lb ed="#F" n="33"/>notatur. 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e316">
+                  <lb ed="#F" n="34"/>Quae mihi, vel culus meanatu 
+      son<lb ed="#F" n="35" break="no"/>te leuauit.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e324">
+                  <lb ed="#F" n="36"/>Haec mater commater ferimeanon 
+      <lb ed="#F" n="37"/>valet vxor.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e331">
+                  <lb ed="#F" n="38"/>Si quae meae natum, non ex me 
+      fon<lb ed="#F" n="39" break="no"/>te leuauit.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e338">
+                  <lb ed="#F" n="40"/>Hanc post fata meae, non inde 
+      veta<lb ed="#F" n="41" break="no"/>bor habere. 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e345">
+                  <lb ed="#F" n="42"/>3 De fornicaria dicunt quidam, quod 
+      <lb ed="#F" n="43"/>si leuauit filium alterius de sacro fonte, 
+      ni<lb ed="#F" n="44" break="no"/>hilominus fornicarius potest accipere 
+      <lb ed="#F" n="45"/>in vxorem commatrem fornicariae suae, quia 
+      <lb ed="#F" n="46"/>spiritualem proximitatem non potest 
+      quae<lb ed="#F" n="47" break="no"/>rere fornicaria. Alii dicunt quod sicut 
+      quae<lb ed="#F" n="48" break="no"/>ritur carnalis affinitas per fornicarium 
+      <lb ed="#F" n="49"/>coitum. inf. de eo qui cog. consan. vxo. suae. 
+      <lb ed="#F" n="50"/>discretionem. &amp; eadem ratione &amp; spiritualis 
+      <lb ed="#F" n="51"/>proximitas. maxime cum canones idem 
+      <lb ed="#F" n="52"/>constituant in vnione carnali, quantum 
+      <lb ed="#F" n="53"/>ad inquirendum spiritualem proximitatem, si 
+      <lb ed="#F" n="54"/>autem duo leuauerunt eundem de sacro 
+      fon<lb ed="#F" n="55" break="no"/>te, ipsi duo non prohibentur contrahere. 
+      <lb ed="#F" n="56"/>Item si Martinus prohibetur accipere 
+      <lb ed="#F" n="57"/>Thebergam, cuius filiumBerta suscepit de 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>sacro fonte, multo fortius prohibetur 
+      <lb ed="#F" n="59"/>accipere filsam spiritualem vxoris suae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e390" type="decretales-l4t11c5">
+               <head xml:id="inleiv-d1e1563-Hd1e392">Caput 5</head>
+               <p xml:id="inleiv-d1e1563-d1e394">
+                  <lb ed="#F" n="60"/>CAPVT V. 
+      <lb ed="#F" n="61"/>1 Compaternitas per tria sacramenta 
+      contrahi<lb ed="#F" n="62" break="no"/>tur, Et quae impediat matrimonium. 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e403">
+                  <lb ed="#F" n="63"/>CONTRACIO. (Salis.) 
+      <lb ed="#F" n="64"/>de cons. dist. 4. sal. coelestis. 
+      <lb ed="#F" n="65"/>(Pabulo) ar. ex his que 
+      prae<lb ed="#F" n="66" break="no"/>cedunt baptisma, non 
+      con<lb ed="#F" n="67" break="no"/>trahi compaternitatem. 32. dist. 
+      <lb ed="#F" n="68"/>in §. verum contra. in fi. 30. q. 3. non oportet. 
+      <lb ed="#F" n="69"/>super quibus. &amp; q. 1. peruenit. de conse. 
+      <lb ed="#F" n="70"/>di. 4. de hinc. &amp;. c. in cathecismo. Sol. hic 
+      <lb ed="#F" n="71"/>dixit per 7. sacramenta quae sunt a primo 
+      <lb ed="#F" n="72"/>pabulo sacrati salis vsque ad 
+      confirmatio<lb ed="#F" n="73" break="no"/>nem contrahi compaternitatem, quae &amp; 
+      im<lb ed="#F" n="74" break="no"/>pedit &amp; dirimit matrimonium. &amp; haec 
+      de<lb ed="#F" n="75" break="no"/>cre. respondet, quod puer erat tantum 
+      <lb ed="#F" n="76"/>filius concubinae, non Petri, vel quod 
+      <lb ed="#F" n="77"/>haec non sit decre. 
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e438">
+                  <lb ed="#F" n="78"/>Ear. dixit quia per tria tantum 
+      sacra<lb ed="#F" n="79" break="no"/>menta contrahitur compaternitas, per 
+      ca<lb ed="#F" n="80" break="no"/>thecismum, baptismum, &amp; confirmationem. 
+      <lb ed="#F" n="81"/>de conse. dist. 4. in cathecismis. &amp; hec 
+      de<lb ed="#F" n="82" break="no"/>cre. respondet, vt FI. vel non tenuit ad 
+      to<lb ed="#F" n="83" break="no"/>tum cathecismum, sed ad missionem salis 
+      tan<lb ed="#F" n="84" break="no"/>tum. Ideo G. dicit, quod per dictatria 
+      sacra<lb ed="#F" n="85" break="no"/>menta tantum contrahitur compaternitas, 
+      <lb ed="#F" n="86"/>quorum duo, scilicet baptismus, &amp; 
+      confir<lb ed="#F" n="87" break="no"/>matio, dirimunt matrimonium, sed 
+      cathe<lb ed="#F" n="88" break="no"/>cismus tantum impedit, &amp; non dirimit, 
+      <lb ed="#F" n="89"/>&amp; est ratio quia praecedit baptismum, qui 
+      <lb ed="#F" n="90"/>est ianua omnium sacramentorum. 22. dist. c. 
+      <lb ed="#F" n="91"/>verum. su. de pres. non bap. c. 1. &amp; 3. Item est 
+      <lb ed="#F" n="92"/>alia ratio, quia ante baptismum non est filius 
+      <lb ed="#F" n="93"/>ecclesiae, quia sine baptismo nullus 
+      salua<lb ed="#F" n="94" break="no"/>tur. 13. q. 1. firmiss ime. &amp; si non est filius 
+      <lb ed="#F" n="95"/>ecclesiae non est filius spiritualis, &amp; sic non 
+      <lb ed="#F" n="96"/>est spiritualis cognatio contracta, non ergo 
+      <lb ed="#F" n="97"/>propter hoedebet matrimonium separari. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e485" type="decretales-l4t11c6">
+               <head xml:id="inleiv-d1e1563-Hd1e487">Caput 6</head>
+               <p xml:id="inleiv-d1e1563-d1e489">
+                  <lb ed="#F" n="98"/>CAPVT VI.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e494">
+                  <lb ed="#F" n="99"/>VENIENS AD 
+      APOSTOLI<lb ed="#F" n="100" break="no"/>CAM SEDEM. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e502" type="decretales-l4t11c7">
+               <head xml:id="inleiv-d1e1563-Hd1e504">Caput 7</head>
+               <p xml:id="inleiv-d1e1563-d1e506">
+                  <lb ed="#F" n="101"/>CAPVT VII.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e511">
+                  <lb ed="#F" n="102"/>TVA NOS. (Filiam) Per quam 
+      con<lb ed="#F" n="103" break="no"/>4 tracta est compaternitas. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1563-Dd1e519" type="decretales-l4t11c8">
+               <head xml:id="inleiv-d1e1563-Hd1e521">Caput 8</head>
+               <p xml:id="inleiv-d1e1563-d1e523">
+                  <lb ed="#F" n="104"/>CAPVT VIII.
+      </p>
+               <p xml:id="inleiv-d1e1563-d1e528">
+                  <lb ed="#F" n="105"/>EX LITERIS VESTRIS. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

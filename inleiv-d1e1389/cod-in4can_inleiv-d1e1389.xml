@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 46</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 46</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="457-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1389" type="decretales-l3t46">
+            <head xml:id="inleiv-d1e1389-Hd1e98">Titulus 46</head>
+            <p xml:id="inleiv-d1e1389-d1e100">
+               <lb ed="#F" n="16"/>TITVLVS XLVI. 
+      <lb ed="#F" n="17"/>DE OESERVATIO. 
+      <lb ed="#F" n="18"/>NE IEIVNIORVM. 
+      </p>
+            <div xml:id="inleiv-d1e1389-Dd1e109" type="decretales-l3t46c1">
+               <head xml:id="inleiv-d1e1389-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1389-d1e113">
+                  <lb ed="#F" n="19"/>CAPVT I. 
+      <lb ed="#F" n="20"/>2 Ieiunium quid sit, &amp; vnde dicatur. 
+      <lb ed="#F" n="21"/>2 Quotuplex sit ieiunium. 
+      <lb ed="#F" n="22"/>3 leiuniorum quaedam dicuntur generaliter. 
+      <lb ed="#F" n="23"/>quaedam specialiter indicta. 
+      <lb ed="#F" n="24"/>4 Qualiter dicatur quis soluere ieiunium. &amp; in 
+      <lb ed="#F" n="25"/>nu. 3. G v7. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e131">
+                  <lb ed="#F" n="26"/>EX PARTE VESTRA. 
+      <lb ed="#F" n="27"/>lesunium est parsimonsa 
+      vi<lb ed="#F" n="28" break="no"/>ctus, &amp; abstinentia ciborum, 
+      <lb ed="#F" n="29"/>&amp; dscitur ieiunium a quodam 
+      <lb ed="#F" n="30"/>intestino, quod vocatur 
+      se<lb ed="#F" n="31" break="no"/>iunsum, quod semper est vacuum &amp; 
+      sub<lb ed="#F" n="32" break="no"/>tile, &amp; iesunum siue medsa viscera vacua, 
+      <lb ed="#F" n="33"/>&amp; exinansta dimittit. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e151">
+                  <lb ed="#F" n="34"/>2 Et est triplex ieiunium. Primum est 
+      <lb ed="#F" n="35"/>cuius libet diei, &amp; cuiualibet res aedibilis 
+      <lb ed="#F" n="36"/>abstinentsa, secundum propriam 
+      volun<lb ed="#F" n="37" break="no"/>tatem, &amp; non secundumaliquod statutum, 
+      <lb ed="#F" n="38"/>vel scriptum, vel consuetudinarium, &amp; 
+      se<lb ed="#F" n="39" break="no"/>cundum hoc etiam, si quater in die 
+      come<lb ed="#F" n="40" break="no"/>dat &amp; abundanter, tamen si ab aliquo 
+      ci<lb ed="#F" n="41" break="no"/>bo placito abstineat, dicitur facere 
+      leiu<lb ed="#F" n="42" break="no"/>nium. i. cibi abstinentsam. Secundum set 
+      <lb ed="#F" n="43"/>iunium est, quando quis abstinet a eibis 
+      <lb ed="#F" n="44"/>humectantibus, vt si tantum comedat 
+      sic<lb ed="#F" n="45" break="no"/>ca, vt panem, &amp; nuces, &amp; poma, non 
+      car<lb ed="#F" n="46" break="no"/>nes, non pisces, non olera, &amp; hoc sesunium 
+      <lb ed="#F" n="47"/>dicitur xerophagia, a xeron quod est sica 
+      <lb ed="#F" n="48"/>cum, &amp; phagin quod est comedere. Tera 
+      <lb ed="#F" n="49"/>tium iesunium est abstinentia victus 
+      se<lb ed="#F" n="50" break="no"/>cundum ordinationem ecclesiae, siue 
+      scri<lb ed="#F" n="51" break="no"/>pto, siue consuetudine approbata. Hloc 
+      ie<lb ed="#F" n="52" break="no"/>iunium est necessarium omnibus sanae 
+      men<lb ed="#F" n="53" break="no"/>tis &amp; doli capacibus potentibus 
+      ieiuna<lb ed="#F" n="54" break="no"/>re, cum ipsi peccare possint, &amp; peccata de¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>ferre. inf. de deli. pue. c. 1. dispensatiue 
+      ta<lb ed="#F" n="56" break="no"/>men cum impuberibus, &amp; etiam in masoti 
+      <lb ed="#F" n="57"/>etate poterit dispensari, vt ab indictis 
+      ie<lb ed="#F" n="58" break="no"/>iunines absoluantur, &amp; idem dicimus in se. 
+      <lb ed="#F" n="59"/>nibus, sicut &amp; infirmis &amp; debilibus. 
+      Mu<lb ed="#F" n="60" break="no"/>lseres ensm propter prohibitionem 
+      viro<lb ed="#F" n="61" break="no"/>rum indicta sesunia non debent 
+      dimitte<lb ed="#F" n="62" break="no"/>re, licet votiua &amp; voluntaria dimittere 
+      de<lb ed="#F" n="63" break="no"/>beant. 33. q. vl. manifestum. licet cumhis 
+      <lb ed="#F" n="64"/>forte propter scandalum vitandum 
+      pos<lb ed="#F" n="65" break="no"/>set sacerdos dispensare etiam in indictis, 
+      <lb ed="#F" n="66"/>nam propter scandalum vitandum 
+      legl<lb ed="#F" n="67" break="no"/>tima est dispenfatio. 50. di. vt 
+      constituere<lb ed="#F" n="68" break="no"/>tur. inf. de cler. excom. mi. latores. non 
+      <lb ed="#F" n="69"/>credimus quod ista iesunia possint 
+      redi<lb ed="#F" n="70" break="no"/>mi pecunia, vel alio modo, nisi causa vel 
+      <lb ed="#F" n="71"/>necessitas in seiunante subsit, 
+      volunta<lb ed="#F" n="72" break="no"/>ria autem iesunsa etsam sine causa quae in 
+      <lb ed="#F" n="73"/>sesunante subsit, dummodo sit alias 
+      vti<lb ed="#F" n="74" break="no"/>le, redimi possunt authoritate 
+      superio<lb ed="#F" n="75" break="no"/>ris. 22. di. c. fin. Sunt autem seiunia 
+      indi<lb ed="#F" n="76" break="no"/>cta &amp; necessaria quatuor temporum, quae 
+      <lb ed="#F" n="77"/>a vetersbus initium habuere. 76. di. c. 
+      se<lb ed="#F" n="78" break="no"/>iunium. Item in vigilijs natiuitatum, 
+      na<lb ed="#F" n="79" break="no"/>tiuitatis Domini &amp; beati loannis. Item 
+      <lb ed="#F" n="80"/>in vigslsa omnium Sanctorum. Item in 
+      <lb ed="#F" n="81"/>vigslia Assumptlonis. Item in 
+      vigi<lb ed="#F" n="82" break="no"/>lia beati Laurentij. ltem in quadragesima. 
+      <lb ed="#F" n="83"/>Item in sexta fersa praeter exceptuatas, quae 
+      <lb ed="#F" n="84"/>sunt post Pascha, etiam si natiuitas 
+      Domi<lb ed="#F" n="85" break="no"/>ni in ea venire contingat. inf. eod. cap. fi. 
+      <lb ed="#F" n="86"/>76. di. non autem. Dicunt tamen quidam 
+      <lb ed="#F" n="87"/>&amp; non male, quod hoc non est iesunium 
+      <lb ed="#F" n="88"/>necessitatis, quia si esset, non liceret 
+      Ci<lb ed="#F" n="89" break="no"/>sterciens. illud mutare nisi quo ad carnes. 
+      <lb ed="#F" n="90"/>Voluntaria autem ieiunia sunt, ad quae aliqui 
+      <lb ed="#F" n="91"/>voto vel proposito se astringunt, vel 
+      et<lb ed="#F" n="92" break="no"/>iam quae sacerdos praeter indicta propter 
+      <lb ed="#F" n="93"/>magnitudinem peccati imponit. e2. ds. c. 
+      <lb ed="#F" n="94"/>fi. &amp; hoc licet commutare &amp; redimere, 
+      <lb ed="#F" n="95"/>etiam si nulla causa subsit in seiunante, 
+      <lb ed="#F" n="96"/>dummodo vtilior sit compensatso. ar. de 
+      <lb ed="#F" n="97"/>vo. &amp; vo. redem. c. 1. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e294">
+                  <lb ed="#F" n="98"/>Item no. quod inter indicta ieiunsa, 
+      <lb ed="#F" n="99"/>quedam sunt indicta generaliter, vt 
+      prae<lb ed="#F" n="100" break="no"/>dicta, alia specialiter, vt seiunium 
+      aduen<lb ed="#F" n="101" break="no"/>tus, quod nee in omnibus prouinciijs 
+      ce<lb ed="#F" n="102" break="no"/>lebratur, nec ab omnibus illius 
+      prouin<lb ed="#F" n="103" break="no"/>clae fit. inf. eodem cap. 2. tale etsam erat, 
+      <lb ed="#F" n="104"/>quod matronae Romae consueuerant 
+      ie<lb ed="#F" n="105" break="no"/>iunare in Sabbato. 11. di illa. Item no. quod 
+      <lb ed="#F" n="106"/>licet ieiunia indicta non debeant 
+      com<lb ed="#F" n="107" break="no"/>mutari, vel redimi sine causa, tamen ea 
+      <lb ed="#F" n="108"/>possunt mutari, sicut ieiunium festi quod 
+      <lb ed="#F" n="109"/>est die lunae fit in sabbato. Et dicitur, quod 
+      <lb ed="#F" n="110"/>in quibusdam locis Franciae scilicet  vbi sunt 
+      ec<lb ed="#F" n="111" break="no"/>clesiae sancti Quintini non ieiunatm in vigua 
+      <pb ed="#F" n="458-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>lia omnium Sanctorum, sed tertia 
+      praece<lb ed="#F" n="2" break="no"/>denti die. Item circa haec indicta ieiunia 
+      <lb ed="#F" n="3"/>ci edimus posse statui, quod bis, sed parum 
+      <lb ed="#F" n="4"/>comedatur in die, sicut etiam faciunt 
+      Ci<lb ed="#F" n="5" break="no"/>sterclenm. quiad remouendumscandalum 
+      <lb ed="#F" n="6"/>&amp; charitatem conseruandam statuerunt, 
+      <lb ed="#F" n="7"/>quod illi qui faciunt aliquid praegustent, 
+      <lb ed="#F" n="8"/>nec soluunt ieiunium ab ecclesia indictum. 
+      <lb ed="#F" n="9"/>Item ex causa liceret statuere, quod etiam 
+      <lb ed="#F" n="10"/>cibis quadragesimalibus non vterentur. 
+      <lb ed="#F" n="11"/>inf. e. c. 2. §. cum autem. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e356">
+                  <lb ed="#F" n="12"/>4 Item credimus, quod si carnibus 
+      vta<lb ed="#F" n="13" break="no"/>tur, quos in ieiunio indicto soluit ieiunium, 
+      <lb ed="#F" n="14"/>&amp; eodem modo, si plus quam semel 
+      co<lb ed="#F" n="15" break="no"/>medat, nisi vbi aliter est ex causa statutum, 
+      <lb ed="#F" n="16"/>sicut est in Cistercienm. tamem &amp; hoc ea 
+      ra<lb ed="#F" n="17" break="no"/>tione dicimus, quia sic vsu ieiunantium 
+      <lb ed="#F" n="18"/>approbatum est, sed si alias vel horam 
+      an<lb ed="#F" n="19" break="no"/>ticipat, vel latius capiat, vel si belluas 
+      <lb ed="#F" n="20"/>marinas comedat, vel si nimis ardenter 
+      <lb ed="#F" n="21"/>comedat, non credimus quod propter 
+      <lb ed="#F" n="22"/>hoc soluatur ieiunium, sed in his &amp; alijs 
+      <lb ed="#F" n="23"/>excessibus eum peccare credimus, &amp; sic 
+      <lb ed="#F" n="24"/>intelligitur de cons. dist. 1. solent. &amp; dist. 
+      <lb ed="#F" n="25"/>3. quicunqu. Item licet ieiunium sit 
+      absti<lb ed="#F" n="26" break="no"/>nentia victus, tamem credimus eum 
+      ieiu<lb ed="#F" n="27" break="no"/>nare qui in praedsctis consuetudinem 
+      ob<lb ed="#F" n="28" break="no"/>seruat, licet ad ingurgitationem comedat, 
+      <lb ed="#F" n="29"/>&amp; quiequid sibi placet, quia in ieiunio 
+      <lb ed="#F" n="30"/>non tantum abstinentia attenditur, sed 
+      <lb ed="#F" n="31"/>consuetudo ecclesiae. Alii tamen dicunt, 
+      <lb ed="#F" n="32"/>nunquam esse ieiunium, nisi &amp; ibi sit 
+      vi<lb ed="#F" n="33" break="no"/>ctus abstinentia. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e406">
+                  <lb ed="#F" n="34"/>Item non credimus solui ieiunium 
+      <lb ed="#F" n="35"/>indictum, si quis comedat in ieiunijs 
+      in<lb ed="#F" n="36" break="no"/>dictis, nisi in quadragesima oua &amp; caseum, 
+      <lb ed="#F" n="37"/>sed tamen peccat, &amp; sic intelligitur dist. 
+      <lb ed="#F" n="38"/>4. deniquo. alii tamen contradicunt. 
+      Cre<lb ed="#F" n="39" break="no"/>dimus tamem, quod ex causa in aliquibus 
+      <lb ed="#F" n="40"/>prouincijs possit prouideri, quod &amp; his 
+      <lb ed="#F" n="41"/>vtantur sine peccato, cum haec tantum ex 
+      <lb ed="#F" n="42"/>constitutionibus &amp; obseruationibus 
+      ho<lb ed="#F" n="43" break="no"/>minum processerint. Electuarijs autem 
+      <lb ed="#F" n="44"/>dedicatis non credimus, quod aliter liceat 
+      <lb ed="#F" n="45"/>vti, nisi sicut alio cibo delicato. 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e435">
+                  <lb ed="#F" n="46"/>5 Medicinam autem pro remouenda 
+      infir<lb ed="#F" n="47" break="no"/>mitate, vel fugienda accipere licet sine 
+      <lb ed="#F" n="48"/>peccato in die ieiunij, sed pro 
+      conseruan<lb ed="#F" n="49" break="no"/>da sanitate tantum, vbi non est signum 
+      in<lb ed="#F" n="50" break="no"/>firmitatis, non credo. Alii tamen dicunt 
+      <lb ed="#F" n="51"/>quod pro nulla medicina, nec pro 
+      electua<lb ed="#F" n="52" break="no"/>rijs soluetur ieiunium. Pro potu autnt 
+      <lb ed="#F" n="53"/>vel ante cibum vel post cibum non 
+      cre<lb ed="#F" n="54" break="no"/>dimus solui seiunium, sicut videmus 
+      con<lb ed="#F" n="55" break="no"/>stitutum esse in consuetudine ecclesiae 
+      <lb ed="#F" n="56"/>ieiunantis. Senescalos vel portantes 
+      <lb ed="#F" n="57"/>encoenia, vel quoscunque alios seruien¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>tes praegustantes cibos ante dominos 
+      ti<lb ed="#F" n="59" break="no"/>mentes de toxico, non credimus soluere 
+      <lb ed="#F" n="60"/>ieiunium, &amp; idem credimus de medicis 
+      <lb ed="#F" n="61"/>praegustantibus medicinas: &amp; in his 
+      ca<lb ed="#F" n="62" break="no"/>sibus credimus, quod monachis licet 
+      <lb ed="#F" n="63"/>praegustare carnes, &amp; hoc dicimus 
+      pro<lb ed="#F" n="64" break="no"/>pter generalem consuetudinem, quae sic 
+      <lb ed="#F" n="65"/>obtinet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1389-Dd1e484" type="decretales-l3t46c2">
+               <head xml:id="inleiv-d1e1389-Hd1e486">Caput 2</head>
+               <p xml:id="inleiv-d1e1389-d1e488">
+                  <lb ed="#F" n="66"/>CAPVT II 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e493">
+                  <lb ed="#F" n="67"/>CONSILIVM NOSTRVM 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1389-Dd1e499" type="decretales-l3t46c3">
+               <head xml:id="inleiv-d1e1389-Hd1e501">Caput 3</head>
+               <p xml:id="inleiv-d1e1389-d1e503">
+                  <lb ed="#F" n="68"/>CAPVT III 
+      </p>
+               <p xml:id="inleiv-d1e1389-d1e508">
+                  <lb ed="#F" n="69"/>EXPLICARI PER SEDEM. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

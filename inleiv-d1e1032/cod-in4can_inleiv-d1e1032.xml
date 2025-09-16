@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 14</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 14</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="390-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1032" type="decretales-l3t14">
+            <head xml:id="inleiv-d1e1032-Hd1e98">Titulus 14</head>
+            <p xml:id="inleiv-d1e1032-d1e100">
+               <lb ed="#F" n="13"/>TITVLVS XIIII. 
+      <lb ed="#F" n="14"/>DE PRECARIIS. 
+      </p>
+            <div xml:id="inleiv-d1e1032-Dd1e107" type="decretales-l3t14c1">
+               <head xml:id="inleiv-d1e1032-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1032-d1e111">
+                  <lb ed="#F" n="15"/>CAPVT I. 
+      <lb ed="#F" n="16"/>PRECARIAE (De quinquem 
+      <lb ed="#F" n="17"/>nio.) Loquitur secundum 
+      con<lb ed="#F" n="18" break="no"/>suetudinem patriae, ibi enim 
+      <lb ed="#F" n="19"/>sic fiebat, alibi enim fit vsque 
+      <lb ed="#F" n="20"/>ad mortem recipientis. 10. 
+      <lb ed="#F" n="21"/>quaestio. 2. precariae. &amp; potest dici, quodex 
+      <lb ed="#F" n="22"/>hoc contractu nascitur conditio ex hac 
+      <lb ed="#F" n="23"/>decret. ficutin emphyteosi, vbi est haec 
+      <lb ed="#F" n="24"/>consuetudo. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1032-Dd1e136" type="decretales-l3t14c2">
+               <head xml:id="inleiv-d1e1032-Hd1e138">Caput 2</head>
+               <p xml:id="inleiv-d1e1032-d1e140">
+                  <lb ed="#F" n="25"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1032-d1e145">
+                  <lb ed="#F" n="26"/>DE PRECARIIS (
+      Irrationa<lb ed="#F" n="27" break="no"/>biliter) id est, contra 
+      vtilita<lb ed="#F" n="28" break="no"/>tem ecclesiae. (Sit obligatus) 
+      <lb ed="#F" n="29"/>hoc ideo dicitur, quia non 
+      <lb ed="#F" n="30"/>tenet hic contractus, vel 
+      re<lb ed="#F" n="31" break="no"/>uocatur principale, &amp; per consequens 
+      ac<lb ed="#F" n="32" break="no"/>cessorium. C. de legib. non dubium. 15. qom. 
+      <lb ed="#F" n="33"/>6. c. 1. &amp; 2. secus autem si contractus esset 
+      <lb ed="#F" n="34"/>legitimus, &amp; ex appositione poenae aliquid 
+      <lb ed="#F" n="35"/>commodi consequeretur ecclesia, vel si 
+      <lb ed="#F" n="36"/>consuetum est apponi. argum. ff. de pig. 
+      <lb ed="#F" n="37"/>act. si pignore. §. vlti. ff. de euict. illud. §. 
+      vl<lb ed="#F" n="38" break="no"/>ti. argum. contra. C. de iur. fis. si 
+      procura<lb ed="#F" n="39" break="no"/>tor caesa. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1032-Dd1e179" type="decretales-l3t14c3">
+               <head xml:id="inleiv-d1e1032-Hd1e181">Caput 3</head>
+               <p xml:id="inleiv-d1e1032-d1e183">
+                  <lb ed="#F" n="40"/>CAPVT III. 
+      <lb ed="#F" n="41"/>1 Eaeres rogantis pretarium, non tenetur 
+      prt<lb ed="#F" n="42" break="no"/>cario ex persona sua, cum iam defecerit 
+      <lb ed="#F" n="43"/>brecarium, nisi ad hoc, vt restituat, si 
+      ba<lb ed="#F" n="44" break="no"/>bet. 
+      </p>
+               <p xml:id="inleiv-d1e1032-d1e196">
+                  <lb ed="#F" n="45"/>PRECARIVM. Supra agitur 
+      <lb ed="#F" n="46"/>de precaria, hic agitur de 
+      <lb ed="#F" n="47"/>precario, ex quo oritur 
+      inter<lb ed="#F" n="48" break="no"/>dictum, quod competit 
+      con<lb ed="#F" n="49" break="no"/>tra precarium rogantem ei, 
+      <lb ed="#F" n="50"/>qui vult reuocare contra precarium. ff. 
+      <lb ed="#F" n="51"/>eo. l. 2. Soluitur) haeres enim rogantis 
+      pre<lb ed="#F" n="52" break="no"/>carium, non tenetur precario ex persona 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>sua, cum iam defecerit precarium, nisi ad 
+      <lb ed="#F" n="54"/>hoc, vt restituat, si habet, vel dolo fecit, 
+      <lb ed="#F" n="55"/>quominus haberet. ff. eo. quaesitum. §. vlt. 
+      <lb ed="#F" n="56"/>haereditaria autem actione de precario 
+      <lb ed="#F" n="57"/>semper tenetur. ff. de temp. prae. cum 
+      hae<lb ed="#F" n="58" break="no"/>res. Obitu) ff. de preca. cum precariae. Item 
+      <lb ed="#F" n="59"/>si debitor soluat debitum pignoris. ff. de 
+      <lb ed="#F" n="60"/>preca. debitor. Item si in diem concedatur 
+      <lb ed="#F" n="61"/>precarium. ff. de preca. cum precario. nam 
+      <lb ed="#F" n="62"/>vt ibidem dicitur ante diem reuocari 
+      po<lb ed="#F" n="63" break="no"/>test. (Alienare) ff. e. quod a Titio. §. 
+      quaesi<lb ed="#F" n="64" break="no"/>tum. &amp; §. illud. (Per conuentionem) 
+      scili<lb ed="#F" n="65" break="no"/>cet, quod non possit ante certum diem 
+      <lb ed="#F" n="66"/>reuocari. (Precarie) de quibus loquitur. 
+      <lb ed="#F" n="67"/>sup. eod. capi. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

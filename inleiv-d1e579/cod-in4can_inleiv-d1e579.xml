@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 4</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 4</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="203-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e579" type="decretales-l2t4">
+            <head xml:id="inleiv-d1e579-Hd1e98">Titulus 4</head>
+            <p xml:id="inleiv-d1e579-d1e100">
+               <lb ed="#F" n="107"/>TITVLVS III 
+      <lb ed="#F" n="108"/>DE MVTVIS 
+      PETI<lb ed="#F" n="109" break="no"/>TIONIBVS. 
+      </p>
+            <div xml:id="inleiv-d1e579-Dd1e109" type="decretales-l2t4c1">
+               <head xml:id="inleiv-d1e579-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e579-d1e113">
+                  <lb ed="#F" n="110"/>CAPVT I 
+      <lb ed="#F" n="111"/>1 In criminalibus an &amp; quando babet locnm 
+      <lb ed="#F" n="112"/>reconuentie 
+      <pb ed="#F" n="203-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>2 Non potest in una &amp; cadem re simul 
+      ciuili<lb ed="#F" n="2" break="no"/>ter &amp; criminaliter agi. 
+      <lb ed="#F" n="3"/>3 Contra agcutem possesorio agipotest &amp; 
+      peti<lb ed="#F" n="4" break="no"/>
+      torio<lb ed="#F" n="5" break="no"/>Contraagentem criminaliter, non potest 
+      re<lb ed="#F" n="6" break="no"/>conueniendo agi ciuiliter. 
+      <lb ed="#F" n="7"/>4 Coram delegatu, non autem arbitris fieri 
+      po<lb ed="#F" n="8" break="no"/>test reconnentio. 
+      <lb ed="#F" n="9"/>Reconueniri an &amp; quando quus possit. 
+      <lb ed="#F" n="10"/>Reconuentio locum non habet, vbi 
+      summa<lb ed="#F" n="11" break="no"/>rie est procedendum. 
+      <lb ed="#F" n="12"/>cog. c. 1. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e152">
+                  <lb ed="#F" n="13"/>EX LITERIS. &amp; inf. (
+      Pro<lb ed="#F" n="14" break="no"/>ponunt) in modum actionis, 
+      <lb ed="#F" n="15"/>si enim in modum 
+      exceptio<lb ed="#F" n="16" break="no"/>nis proponerent, tunc 
+      proce<lb ed="#F" n="17" break="no"/>derent: vt C. de excep. si 
+      qui<lb ed="#F" n="18" break="no"/>dem. &amp; l. It. &amp; l. exceptione. infr. de ordi. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e168">
+                  <lb ed="#F" n="19"/>1 Respondere) reconuentio non habet 
+      <lb ed="#F" n="20"/>locum in criminalibus, quia non 
+      relatio<lb ed="#F" n="21" break="no"/>ne criminis, sed purgatione desinit esse 
+      in<lb ed="#F" n="22" break="no"/>nocens. ff. de public. iudic. qui. 3. quaestio. 
+      <lb ed="#F" n="23"/>11. neganda. quamuis ex illis. ll. dici possit 
+      <lb ed="#F" n="24"/>locum habere reconueneionem, cum ibi 
+      <lb ed="#F" n="25"/>dicat, quod deponere debet inscriptionem. 
+      <lb ed="#F" n="26"/>Item quia de maiori potest recusare, vel si 
+      <lb ed="#F" n="27"/>suam prosequatur iniuriam, sed hoc satis 
+      <lb ed="#F" n="28"/>verum est, quod simul ambae accusationes 
+      <lb ed="#F" n="29"/>non procedunt, vt ibidem not. Item non 
+      <lb ed="#F" n="30"/>habet locum reconuentio, vbicunque 
+      iu<lb ed="#F" n="31" break="no"/>dex sub quo fit conuentio de reconuentione 
+      <lb ed="#F" n="32"/>iudicare non potest, vt si coram laico fiat 
+      re<lb ed="#F" n="33" break="no"/>conuentio de spiritualibus, vel sub 
+      inferi<lb ed="#F" n="34" break="no"/>ori iudice de libertate. sup. de iud. quanto. 
+      <lb ed="#F" n="35"/>C. de ord. in l. 1. inf. de ordi. cog. c. tuam.
+      </p>
+               <p xml:id="inleiv-d1e579-d1e207">
+                  <lb ed="#F" n="36"/> Item cum generaliter dicat lex cuius 
+      <lb ed="#F" n="37"/>in agenda etc. C. de sent. &amp; in terloc. om. 
+      <lb ed="#F" n="38"/>iud. l. cum Papinianus. in fin. 3. quaestio. 8. 
+      <lb ed="#F" n="39"/>cuius non videtur iniquum, si conuentus 
+      <lb ed="#F" n="40"/>ciuiliter, reaccusasset criminaliter, 
+      dum<lb ed="#F" n="41" break="no"/>modo competens iudex sit, vel 
+      econuer<lb ed="#F" n="42" break="no"/>so non, &amp; idem ciuiliter potest conueniri 
+      <lb ed="#F" n="43"/>&amp; criminaliter, &amp; potest contra alium 
+      <lb ed="#F" n="44"/>agere, cum non inueniatur prohibitum 
+      <lb ed="#F" n="45"/>super diuersis rebus, super eodem autem non 
+      <lb ed="#F" n="46"/>potest simul &amp; ciuiliter &amp; criminaliter 
+      a<lb ed="#F" n="47" break="no"/>g1. C. de vi pri. l. si quis aliquid. sed finita vna 
+      <lb ed="#F" n="48"/>q. vel ciuili vel criminali, bene transibit ad 
+      <lb ed="#F" n="49"/>aliam: vt in eadem. l. C. de inoffi. test. cum 
+      <lb ed="#F" n="50"/>qui. insti. de excu. tut. §. qui autem. sed qui 
+      <lb ed="#F" n="51"/>de vno crimine agens condemnatus est 
+      <lb ed="#F" n="52"/>de calumnia, vlterius accusare non 
+      pote<lb ed="#F" n="53" break="no"/>rit, nec priorem accusatum, nec alium, 
+      <lb ed="#F" n="54"/>quia infamis est. 3. quaestio. 4. nulli. &amp; q. 9. 
+      <lb ed="#F" n="55"/>c. 1. Item dicunt quidam, quod coeptam 
+      <lb ed="#F" n="56"/>accusationem prosequi non potest, sed 
+      <lb ed="#F" n="57"/>melius dicitur, quod possit prosequi, nam 
+      <lb ed="#F" n="58"/>de qua re cognoscit, etc. ff. de iudi. de qua 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="59"/>re. argumen. inf. de cal. c. 2. argumen. ad 
+      <lb ed="#F" n="60"/>hoc quod etiam condemnatus, qui 
+      inscri<lb ed="#F" n="61" break="no"/>ptionem deposuit, &amp; si condemnetur, 
+      po<lb ed="#F" n="62" break="no"/>test prosequi accusationem. 3. q. 10. 
+      negan<lb ed="#F" n="63" break="no"/>da. alii dicunt quod nunquam in praedictis 
+      <lb ed="#F" n="64"/>admittitur reaccusatio. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e276">
+                  <lb ed="#F" n="65"/>Item contra agentem possessorio 
+      be<lb ed="#F" n="66" break="no"/>ne agitur petitorio, sed potest repelli per 
+      <lb ed="#F" n="67"/>exceptionem spoliationis, &amp; sic 
+      intelligi<lb ed="#F" n="68" break="no"/>tur. inf. de or. cog. super. contra agentem 
+      <lb ed="#F" n="69"/>autem criminaliter, non potest 
+      reconue<lb ed="#F" n="70" break="no"/>niendo agi ciuiliter, quod sic probatur, quia 
+      <lb ed="#F" n="71"/>quod plus est etiam si aliquis prius 
+      mouis<lb ed="#F" n="72" break="no"/>set actionem ciuilem, &amp; conuentus 
+      con<lb ed="#F" n="73" break="no"/>tra actorem moueret criminalem, 
+      superse<lb ed="#F" n="74" break="no"/>dendum esset ciuili, &amp; tantum in criminali 
+      <lb ed="#F" n="75"/>procedendum est. C. de or. iu. l. vlt. Quidam 
+      <lb ed="#F" n="76"/>tamen dicunt illam legem loqui, quando 
+      <lb ed="#F" n="77"/>criminalis accusatio simul contingebat 
+      <lb ed="#F" n="78"/>propositam actionem, vt si quis petebat 
+      cen<lb ed="#F" n="79" break="no"/>tum, &amp; reus accusabat actorem de 
+      violen<lb ed="#F" n="80" break="no"/>tia facta in promissione illorum centum. 
+      <lb ed="#F" n="81"/>Item hanc accusationem non videtur posse 
+      <lb ed="#F" n="82"/>proponere, nisi ante litis contestationem in 
+      <lb ed="#F" n="83"/>ciuili actione factam, nam lite contestata 
+      <lb ed="#F" n="84"/>non videtur, quod iudex impediri debeat, 
+      <lb ed="#F" n="85"/>quin diffiniat de re, de qua cognouit. ar. ff. 
+      <lb ed="#F" n="86"/>de iud. de qua re coram iudice appellationis 
+      <lb ed="#F" n="87"/>non habent locum reconuentio. ff. de iud. l. 
+      <lb ed="#F" n="88"/>2. §. legatum. ff. de eo qui app. in prouin. l. 1. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e331">
+                  <lb ed="#F" n="89"/>Delegatis) No. coram delegatis fieri 
+      <lb ed="#F" n="90"/>reconuentionem, sed coram arbitris non. 
+      <lb ed="#F" n="91"/>sup. de arbi. cum dilec. (Actione) sic fit litis 
+      <lb ed="#F" n="92"/>contestatio. C. de lit. conte. l. 1. tit. prox. c. 1. 
+      <lb ed="#F" n="93"/>(Responsione facta prius) nam qui prius, etc. 
+      <lb ed="#F" n="94"/>ff. de iud. qui prior. inf. de or. cog. cum dilec. 
+      <lb ed="#F" n="95"/>Incontinenti) . i. antequam ad alia 
+      proce<lb ed="#F" n="96" break="no"/>datur, &amp; debet protestari de reconuentios 
+      <lb ed="#F" n="97"/>ne. ante hit. contestationem, vt quidam dicunt, 
+      <lb ed="#F" n="98"/>&amp; sic intelligo Authen. de excu. tut. §. 
+      san<lb ed="#F" n="99" break="no"/>cimus. Alii dicunt idem. &amp; si ante non fuerit 
+      <lb ed="#F" n="100"/>protestatus, dummodo incontinenti post lit. 
+      <lb ed="#F" n="101"/>contest. i. antequam terminus ad alia 
+      assi<lb ed="#F" n="102" break="no"/>gnetur, reconueniatur. ar. ff. si cer. pe. l. 
+      le<lb ed="#F" n="103" break="no"/>cta. Alii tamem dicunt, quod vsque ad 
+      sententi<lb ed="#F" n="104" break="no"/>am etiam sine protestatione super 
+      principa<lb ed="#F" n="105" break="no"/>li. q. lata potest reconuenire, sed tunc non 
+      si<lb ed="#F" n="106" break="no"/>mul procedet vtraque lis, nam si aliter 
+      dicere<lb ed="#F" n="107" break="no"/>tur, sequeretur absurditas quia sub nullo 
+      iu<lb ed="#F" n="108" break="no"/>dice pendente lite, &amp; ea conte. poterat 
+      con<lb ed="#F" n="109" break="no"/>ueniri actor, quod absurdum est. Item quod si de 
+      in<lb ed="#F" n="110" break="no"/>iuria quae lite pendente contingit, vel alia 
+      <lb ed="#F" n="111"/>actione cum recoueniat nunquid potest, &amp; cera 
+      <lb ed="#F" n="112"/>te vtiqe, quia quae de nouo emergunt, auxilio 
+      in<lb ed="#F" n="113" break="no"/>digent. sup. de off. del. insinuante. inf. de iuras 
+      <lb ed="#F" n="114"/>mento calumniae. caeterum. Item quae causa imo 
+      ve<lb ed="#F" n="115" break="no"/>ris insania foret abstulisse huic reo iudices 
+      <pb ed="#F" n="204-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>ordinarios actores, coram quibus reus 
+      a<lb ed="#F" n="2" break="no"/>ctorem conuenire peterat, nisi alium 
+      il<lb ed="#F" n="3" break="no"/>lum, coram quo conuenitur subrogasset. 
+      <lb ed="#F" n="4"/>Item in antiquo iure. C. de sent. interlo. 
+      <lb ed="#F" n="5"/>om. iudi. l. cum Papinianus. dicitur 
+      indi<lb ed="#F" n="6" break="no"/>stincte, cuius in agendo quis sequitur. 
+      ar<lb ed="#F" n="7" break="no"/>gument. eundem contra se habere non 
+      de<lb ed="#F" n="8" break="no"/>dignetur, ita quod non facit mentionem 
+      <lb ed="#F" n="9"/>de litis contestatione, si autem 
+      proteste<lb ed="#F" n="10" break="no"/>tur, nihil facit protestatio, nisi quia 
+      indu<lb ed="#F" n="11" break="no"/>bitanter est verum, quod post litis 
+      conte<lb ed="#F" n="12" break="no"/>stationem incontinenti possit 
+      reconueni<lb ed="#F" n="13" break="no"/>ri, &amp; secundum praedicta patet, quod 
+      et<lb ed="#F" n="14" break="no"/>iam vbi intentatur officium iudicis, locum 
+      <lb ed="#F" n="15"/>habet reconuentio. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e429">
+                  <lb ed="#F" n="16"/>Quod intelligo, si principaliter 
+      inten<lb ed="#F" n="17" break="no"/>tetur, lecus si incidenter, quia tunc non 
+      <lb ed="#F" n="18"/>habet locum reconuentio. argumen. sup. 
+      <lb ed="#F" n="19"/>de offic. iudic. c. vltim. Item non habet 
+      lo<lb ed="#F" n="20" break="no"/>cum reconuentio, vbicunque locum 
+      ha<lb ed="#F" n="21" break="no"/>bet summaria cognitio, quod sic 
+      proba<lb ed="#F" n="22" break="no"/>tur, quia de iure vtraque lis simul 
+      tractan<lb ed="#F" n="23" break="no"/>da est, sed cum in vna sit summaria 
+      cogni<lb ed="#F" n="24" break="no"/>tio habenda, in alia plena quaestio vtraque 
+      <lb ed="#F" n="25"/>tractabitur. Item vna exigit 
+      acceleratio<lb ed="#F" n="26" break="no"/>nem, alia non. 
+      </p>
+               <p xml:id="inleiv-d1e579-d1e455">
+                  <lb ed="#F" n="27"/>Sed oppones, leue est cuilibet facere, 
+      <lb ed="#F" n="28"/>quod nullus possit conueniri, nisi sub 
+      iu<lb ed="#F" n="29" break="no"/>dice quem malit, cum sit leue impetrare 
+      <lb ed="#F" n="30"/>literas ad aliquem delegatum, &amp; facta 
+      ci<lb ed="#F" n="31" break="no"/>tatione vlterius sub alio iudice non 
+      pote<lb ed="#F" n="32" break="no"/>rit conueniri, cum sub eodem iudice 
+      de<lb ed="#F" n="33" break="no"/>beat fieri conuentio &amp; reconuentio: vt 
+      <lb ed="#F" n="34"/>sup. de rescrip. dispendia. Respon. sub alio 
+      <lb ed="#F" n="35"/>iudice reconueniri non potest, nisi lata 
+      fue<lb ed="#F" n="36" break="no"/>rit sententia, vel nisi fuerit appellatum, 
+      <lb ed="#F" n="37"/>vel nisi faciat se absolui ab instantia 
+      iudi<lb ed="#F" n="38" break="no"/>cii: vt not. sup. de offic. deleg. consuluit. &amp; 
+      <lb ed="#F" n="39"/>sic contra hanc fraudem altero 
+      praedicto<lb ed="#F" n="40" break="no"/>rum modorum prouideri potest. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e579-Dd1e489" type="decretales-l2t4c2">
+               <head xml:id="inleiv-d1e579-Hd1e491">Caput 2</head>
+               <p xml:id="inleiv-d1e579-d1e493">
+                  <lb ed="#F" n="41"/>CAPVT II 
+      <lb ed="#F" n="42"/>DRVDENTIAM ET INERA 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

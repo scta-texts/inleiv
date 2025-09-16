@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 35</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 35</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="161-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e440" type="decretales-l1t35">
+            <head xml:id="inleiv-d1e440-Hd1e98">Titulus 35</head>
+            <p xml:id="inleiv-d1e440-d1e100">
+               <lb ed="#F" n="10"/>TITVLVS XXXV 
+      <lb ed="#F" n="11"/>DE PACTIS. 
+      </p>
+            <div xml:id="inleiv-d1e440-Dd1e107" type="decretales-l1t35c1">
+               <head xml:id="inleiv-d1e440-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e440-d1e111">
+                  <lb ed="#F" n="12"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e440-d1e116">
+                  <lb ed="#F" n="13"/>ANTIGONVS. (
+      Episco<lb ed="#F" n="14" break="no"/>pus) conuentus coram 
+      ec<lb ed="#F" n="15" break="no"/>clesiastico iudice ille qui 
+      pa<lb ed="#F" n="16" break="no"/>ctum si seruat. (Cohibuerit) 
+      <lb ed="#F" n="17"/>id est, nisi pacta seruet, 
+      ex<lb ed="#F" n="18" break="no"/>communicabitur. (Pacta) legitima. 20. q. 
+      <lb ed="#F" n="19"/>1. puellae. 1§. q. 2. Eleut herius. ff. de pact. 
+      iu<lb ed="#F" n="20" break="no"/>risgentium. ait praetor. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e137" type="decretales-l1t35c2">
+               <head xml:id="inleiv-d1e440-Hd1e139">Caput 2</head>
+               <p xml:id="inleiv-d1e440-d1e141">
+                  <lb ed="#F" n="21"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e440-d1e146">
+                  <lb ed="#F" n="22"/>QVOTIES IN 
+      CONVEN<lb ed="#F" n="23" break="no"/>TIONIBVS. (Ecclesijs) &amp; 
+      <lb ed="#F" n="24"/>loquitur de ecclesijs 
+      exem<lb ed="#F" n="25" break="no"/>ptis, vel etiam alijs fi qui 
+      or<lb ed="#F" n="26" break="no"/>dinarii denegant praebere ass 
+      <lb ed="#F" n="27"/>sensum( Solidare) id est, confirmare. &amp; 
+      in<lb ed="#F" n="28" break="no"/>tellige hoc de confirmatione, quae fit cum 
+      <lb ed="#F" n="29"/>causae cognitione. inf. de confir. vti. c. 1. &amp; 
+      <lb ed="#F" n="30"/>2. alias nec dubitatiue auferet, nec ius 
+      tri<lb ed="#F" n="31" break="no"/>buet. inf. de confir. vti. cum dilecta. &amp; not. 
+      <lb ed="#F" n="32"/>sup. de offi. lega. studuisti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e173" type="decretales-l1t35c3">
+               <head xml:id="inleiv-d1e440-Hd1e175">Caput 3</head>
+               <p xml:id="inleiv-d1e440-d1e177">
+                  <lb ed="#F" n="33"/>CAPVT III. 
+      <lb ed="#F" n="34"/>QVALITER IN SARDINIA. 
+      <lb ed="#F" n="35"/>Et inf. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e188" type="decretales-l1t35c4">
+               <head xml:id="inleiv-d1e440-Hd1e190">Caput 4</head>
+               <p xml:id="inleiv-d1e440-d1e192">
+                  <lb ed="#F" n="36"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e440-d1e197">
+                  <lb ed="#F" n="37"/>CVM PRIDEM. (Pro 
+      <lb ed="#F" n="38"/>causa) isti enim fratres 
+      age<lb ed="#F" n="39" break="no"/>bant contra monasterium, 
+      <lb ed="#F" n="40"/>&amp; petebant restitu:i onem 
+      <lb ed="#F" n="41"/>tuiu dam ecclesiae, quia 
+      sem<lb ed="#F" n="42" break="no"/>per se per ipsos monachos spoliates 
+      dice<lb ed="#F" n="43" break="no"/>bant (Eos) monachos (Liti) hoc non fuit 
+      <lb ed="#F" n="44"/>licitum, scilicet, renunciare iura quae 
+      ha<lb ed="#F" n="45" break="no"/>bebant in ecclesia pro pecunia. (Prauam) 
+      <lb ed="#F" n="46"/>inf. de transac. statuimus. contra. Sol. hic erat 
+      <lb ed="#F" n="47"/>suspicio turpis peccati, ibi non, quod 
+      sem<lb ed="#F" n="48" break="no"/>per praesumitur, nisi per aliam 
+      praesumpti<lb ed="#F" n="49" break="no"/>onem tollatur. (Prauam) inf. de praeben. 
+      <lb ed="#F" n="50"/>nisi contra. Sol. ibi dicitur licitum 
+      iussio<lb ed="#F" n="51" break="no"/>ne iud. sine vllo pacto aliquid dare. hic 
+      au<lb ed="#F" n="52" break="no"/>tem illicitum ex pacto, caueant tamen, 
+      <lb ed="#F" n="53"/>quia nec hoc ipsum in intentione gerere 
+      <lb ed="#F" n="54"/>debet. inf. de simo. tua nos. (Fratre) C. de 
+      <lb ed="#F" n="55"/>protu. mandato. C. de transac. in transa¬
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>cticni. (Renuncians) pure &amp; sine pacto. 
+      <lb ed="#F" n="57"/>Resignauit) &amp; sic ius resignasse videtur, quod 
+      <lb ed="#F" n="58"/>in illis instrumentis habebat. ff. de pact. l. 
+      <lb ed="#F" n="59"/>Labeo. &amp; not. sup. de renun. veniens. sed 
+      <lb ed="#F" n="60"/>quomodo prodest haec resignatio, nisi 
+      per<lb ed="#F" n="61" break="no"/>sonis inter quas perfecta est. ff. de pac. si 
+      v<lb ed="#F" n="62" break="no"/>nus. §. pacta. Respon. q. publica persona est 
+      <lb ed="#F" n="63"/>Papa. ff. rem pu. fal. fo. l. 2. in fi. &amp; l. non 
+      qua<lb ed="#F" n="64" break="no"/>si, &amp; quia singulariter &amp; vniuersaliter 
+      su<lb ed="#F" n="65" break="no"/>per omnes ecclesias habet plenitudinem 
+      <lb ed="#F" n="66"/>potestatis. 2. q. 6. decreto multofortius quam 
+      <lb ed="#F" n="67"/>alii praelati singulis ecclesijs acquirere 
+      po<lb ed="#F" n="68" break="no"/>terit. ar. C. de transact. praesens. &amp; ff. quod 
+      <lb ed="#F" n="69"/>cuiusque vni. l. fi. Vel cum negotium hoc fit 
+      <lb ed="#F" n="70"/>in ratihabitione monasterii de ac. ratam 
+      <lb ed="#F" n="71"/>habendo receptionem instrumentorum 
+      <lb ed="#F" n="72"/>sibi prodest. ff. de nego. gest. si pu. §. sed si 
+      <lb ed="#F" n="73"/>ego. &amp; §. item quare. dummodo nomine 
+      <lb ed="#F" n="74"/>monasterii sit gestum, alias non prodesset. 
+      <lb ed="#F" n="75"/>ff. de praeto. sti. si seruus.
+      </p>
+               <p xml:id="inleiv-d1e440-d1e286">
+                  <lb ed="#F" n="76"/>Et haec vera sunt nisi renunciauerit 
+      li<lb ed="#F" n="77" break="no"/>teris, sed renunciatio litis potest fieri etiam 
+      <lb ed="#F" n="78"/>parte absente. C. de pac. postquam. &amp; fit 
+      <lb ed="#F" n="79"/>hoc in odium litis, sic &amp; hic. (Restitui) sup. 
+      <lb ed="#F" n="80"/>de elect. cum inter R. contra. Sol. ibi 
+      resti<lb ed="#F" n="81" break="no"/>tui rigore iuris inspecto, non videtur, quod 
+      <lb ed="#F" n="82"/>debet restitui ad interdictum, cum ei 
+      re<lb ed="#F" n="83" break="no"/>nunciauerit. ff. de pac. si vnus. §. pac. &amp; ideo 
+      <lb ed="#F" n="84"/>dicimus loqui de gratia, vnde si alias esset 
+      <lb ed="#F" n="85"/>institutus non remoueretur. 8. q. 1. 
+      praesen<lb ed="#F" n="86" break="no"/>tium. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e313" type="decretales-l1t35c5">
+               <head xml:id="inleiv-d1e440-Hd1e315">Caput 5</head>
+               <p xml:id="inleiv-d1e440-d1e317">
+                  <lb ed="#F" n="87"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e440-d1e322">
+                  <lb ed="#F" n="88"/>ACCEPIMVS. (
+      Nomina<lb ed="#F" n="89" break="no"/>tim) C. de pac. l. vlt. sup. de fi. 
+      <lb ed="#F" n="90"/>presby terorum ad 
+      extirpan<lb ed="#F" n="91" break="no"/>dum conquestum. CEt 
+      ina<lb ed="#F" n="92" break="no"/>nes) ipso iure. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e336" type="decretales-l1t35c6">
+               <head xml:id="inleiv-d1e440-Hd1e338">Caput 6</head>
+               <p xml:id="inleiv-d1e440-d1e340">
+                  <lb ed="#F" n="93"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e440-d1e345">
+                  <lb ed="#F" n="94"/>CVM CLERICI. (Ex ipsis 
+      <lb ed="#F" n="95"/>ecclesijs) ecclesiae sunt 
+      obli<lb ed="#F" n="96" break="no"/>xatae, pro pensionibus. ff. de 
+      <lb ed="#F" n="97"/>iudi. fideicom. §. fi. ff. de vsu. 
+      <lb ed="#F" n="98"/>actenus contra. ff. de 
+      con<lb ed="#F" n="99" break="no"/>trahen. em. l. fi. §. fi. sed ibi interuenit 
+      tan<lb ed="#F" n="100" break="no"/>tum personalis obligatio, &amp; non fuerunt res 
+      <lb ed="#F" n="101"/>obligataec Detestabile) inf. de censi. 
+      pro<lb ed="#F" n="102" break="no"/>hibemus. inf. de praeben. auaritiae. imo 
+      sa<lb ed="#F" n="103" break="no"/>cramentum super hoc praestitum, non 
+      te<lb ed="#F" n="104" break="no"/>net. inf. de censi. grauis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e372" type="decretales-l1t35c7">
+               <head xml:id="inleiv-d1e440-Hd1e374">Caput 7</head>
+               <p xml:id="inleiv-d1e440-d1e376">
+                  <lb ed="#F" n="105"/>CAPVT VII.
+      </p>
+               <p xml:id="inleiv-d1e440-d1e381">
+                  <lb ed="#F" n="106"/>PLERIQVE. (Sicut accepi. 
+      <lb ed="#F" n="107"/>mus reprobamus) hoc non est 
+      <lb ed="#F" n="108"/>seruandum decernimus, quia 
+      con<lb ed="#F" n="109" break="no"/>tra canones. 16. q. 1. si quis laice. 
+      <lb ed="#F" n="110"/>&amp; c. decimas. &amp; c. quaesti. &amp; ideo 
+      <pb ed="#F" n="162-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>si poena pacto adiungatur, nec pactum 
+      te<lb ed="#F" n="2" break="no"/>net nec iusiurandum super hoc praestitum. 
+      <lb ed="#F" n="3"/>ff. de pac. l. iurisgem. §. vlt. &amp; l. seq. ff. de 
+      ver<lb ed="#F" n="4" break="no"/>bor. obl. si stipuletur. &amp; l. si stipu. hoc 
+      <lb ed="#F" n="5"/>modo. Si vero pactum est praeter legem, 
+      pa<lb ed="#F" n="6" break="no"/>ctum non valet &amp; poena valet. ff. de verb. 
+      <lb ed="#F" n="7"/>obli. stipulatio ista. §. alteri. si vero pactum 
+      <lb ed="#F" n="8"/>est secundum leges &amp; pactum tenet &amp; 
+      poe<lb ed="#F" n="9" break="no"/>na, ita tamen quod alterum tantum pe tat 
+      <lb ed="#F" n="10"/>quod velit. ff. de pac. rescriptum. §. si 
+      pa<lb ed="#F" n="11" break="no"/>cto. &amp; C. de pac. si pacto. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e440-Dd1e424" type="decretales-l1t35c8">
+               <head xml:id="inleiv-d1e440-Hd1e426">Caput 8</head>
+               <p xml:id="inleiv-d1e440-d1e428">
+                  <lb ed="#F" n="12"/>CAPVT VIII. 
+      </p>
+               <p xml:id="inleiv-d1e440-d1e433">
+                  <lb ed="#F" n="13"/>PACTIONES EACTAE. 
+      <lb ed="#F" n="14"/>(Spiritualibus) siue 
+      benefici<lb ed="#F" n="15" break="no"/>is, de quibus no. sup. de ele. 
+      si<lb ed="#F" n="16" break="no"/>gnificasti. siue quibuscunque 
+      <lb ed="#F" n="17"/>lijs, nisi forte spirituale 
+      ve<lb ed="#F" n="18" break="no"/>niret in pactum permutationis. inf. de 
+      re<lb ed="#F" n="19" break="no"/>rum permu. ad quaestiones (omnis. ) 1. q. 2. 
+      <lb ed="#F" n="20"/>quam pio. (De alijs) conuentionibus. (
+      Ver<lb ed="#F" n="21" break="no"/>gunt) inf. de iureiurand. si vero. (Turpe) 
+      <lb ed="#F" n="22"/>id est, turpe factum, scilicet, dolo vel 
+      simo<lb ed="#F" n="23" break="no"/>niacec Turpec ff. de pac. iur. §. dolo. ff. de 
+      <lb ed="#F" n="24"/>inuti. stipu. dolo. (Vel rei turpis) scilicet, 
+      <lb ed="#F" n="25"/>de faciendo homicidio, vel consimili. (
+      Iu<lb ed="#F" n="26" break="no"/>re) ff. de pac. iure. §. praetor. quod 
+      consan<lb ed="#F" n="27" break="no"/>guineam duceret in vxorem( De facto) ff. 
+      <lb ed="#F" n="28"/>de reiur impossibilium: vt qnod celam 
+      <lb ed="#F" n="29"/>pedibus corporeis ascendet. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

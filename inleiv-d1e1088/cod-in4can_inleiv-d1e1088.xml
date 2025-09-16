@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 19</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 19</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="394-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1088" type="decretales-l3t19">
+            <head xml:id="inleiv-d1e1088-Hd1e98">Titulus 19</head>
+            <p xml:id="inleiv-d1e1088-d1e100">
+               <pb ed="#F" n="394-v"/>
+               <cb ed="#F" n="a"/>
+               <lb ed="#F" n="1"/>TVLVS XIX. 
+      <lb ed="#F" n="2"/>DE RERVM PER. 
+      <lb ed="#F" n="3"/>MVT ATIONE.
+      </p>
+            <div xml:id="inleiv-d1e1088-Dd1e113" type="decretales-l3t19c1">
+               <head xml:id="inleiv-d1e1088-Hd1e115">Caput 1</head>
+               <p xml:id="inleiv-d1e1088-d1e117">
+                  <lb ed="#F" n="4"/>C APVT I. 
+      <lb ed="#F" n="5"/>SI PRINCEPS. (
+      Pragmati<lb ed="#F" n="6" break="no"/>ca). id est, confirmatione 
+      fa<lb ed="#F" n="7" break="no"/>cta a principe cum causae 
+      co<lb ed="#F" n="8" break="no"/>gnitione, alias autem 
+      pra<lb ed="#F" n="9" break="no"/>gma dicitur causa 
+      pragma<lb ed="#F" n="10" break="no"/>tica ascientia constitutio super causa 
+      ali<lb ed="#F" n="11" break="no"/>qua promulgata. (Promulgata) supple &amp; 
+      <lb ed="#F" n="12"/>reliquae solennitates iuris interuenerint. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e140" type="decretales-l3t19c2">
+               <head xml:id="inleiv-d1e1088-Hd1e142">Caput 2</head>
+               <p xml:id="inleiv-d1e1088-d1e144">
+                  <lb ed="#F" n="13"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e149">
+                  <lb ed="#F" n="14"/>VT COMMVTATIONES. 
+      <lb ed="#F" n="15"/>Successor.) &amp; etiam ab ipso 
+      <lb ed="#F" n="16"/>faciente commutationem si 
+      <lb ed="#F" n="17"/>sustineatur in 
+      administratio<lb ed="#F" n="18" break="no"/>eoMN nem. supra, de reb. eccle. non 
+      <lb ed="#F" n="19"/>alie. si quis pre. &amp; nota. doeloct nosti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e166" type="decretales-l3t19c3">
+               <head xml:id="inleiv-d1e1088-Hd1e168">Caput 3</head>
+               <p xml:id="inleiv-d1e1088-d1e170">
+                  <lb ed="#F" n="20"/>CAPVT III. 
+      <lb ed="#F" n="21"/>MANCIPIA. (Conuenit) de 
+      <lb ed="#F" n="22"/>honesto, si enim aliter fiat tet 
+      <lb ed="#F" n="23"/>net. 12. q. 2. ecclesiasticis. (Ad 
+      <lb ed="#F" n="24"/>humanos) id est, seculares 
+      <lb ed="#F" n="25"/>E (non decet) de honesto, vel 
+      <lb ed="#F" n="26"/>de facili, id est, sine manifesta causa.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e190" type="decretales-l3t19c4">
+               <head xml:id="inleiv-d1e1088-Hd1e192">Caput 4</head>
+               <p xml:id="inleiv-d1e1088-d1e194">
+                  <lb ed="#F" n="27"/>CAPVT IIII
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e199">
+                  <lb ed="#F" n="28"/>QVAESITVM (Mancipio.) id 
+      <lb ed="#F" n="29"/>est, collatione (fugitiuos) id 
+      <lb ed="#F" n="30"/>est, qui fuerunt fugitiui, sed 
+      <lb ed="#F" n="31"/>modo desierunt. 12. quaest. 2. 
+      <lb ed="#F" n="32"/>P fugitiui. &amp; sic non est 
+      con<lb ed="#F" n="33" break="no"/>trarium. C. ad. l. fal. de pla. in fuga debet 
+      <lb ed="#F" n="34"/>tamen denunciari emptori vitium serui, 
+      <lb ed="#F" n="35"/>ne redhibitioni subiaceat. ff. de 
+      contrahen<lb ed="#F" n="36" break="no"/>emp. quod saepe. §. si quis amico. (Est 
+      ab<lb ed="#F" n="37" break="no"/>surdum) de honesto, vel sine causa. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e224" type="decretales-l3t19c5">
+               <head xml:id="inleiv-d1e1088-Hd1e226">Caput 5</head>
+               <p xml:id="inleiv-d1e1088-d1e228">
+                  <lb ed="#F" n="38"/>CAPVT V.
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e233">
+                  <lb ed="#F" n="39"/>QVAESITVM. (
+      Praebenda<lb ed="#F" n="40" break="no"/>rum.) quae in diuersis 
+      ecclesi<lb ed="#F" n="41" break="no"/>is sunt, vel etiam in eadem 
+      ec<lb ed="#F" n="42" break="no"/>clesia, sed diuerso iure 
+      censen<lb ed="#F" n="43" break="no"/>tur, puta, quia vni praebendae 
+      <lb ed="#F" n="44"/>aliquod speciale onus incumbit quod non 
+      <lb ed="#F" n="45"/>incumbit alii, vel si sunt in eadem 
+      eccle<lb ed="#F" n="46" break="no"/>sia diuersae dignitates, vel diuersorum 
+      of<lb ed="#F" n="47" break="no"/>ficiorum praebendae, forte, quia aliquae 
+      de<lb ed="#F" n="48" break="no"/>putatae sunt cantoribus, aliae alijs 
+      offici<lb ed="#F" n="49" break="no"/>is, alias autem bene potest vnus canoni¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="50"/>cus vnam praebendam cum alio 
+      permu<lb ed="#F" n="51" break="no"/>tare, dummodo collatio praebendae non 
+      <lb ed="#F" n="52"/>pertineret ad inuestituram alicuius: quia tune 
+      <lb ed="#F" n="53"/>videtur quod eius debet requiri 
+      consen<lb ed="#F" n="54" break="no"/>sus. Simoniae) . 7. c. proxi. 1. q. 2. quam pio. 
+      be<lb ed="#F" n="55" break="no"/>ne potest dicere quod ex quo non possim 
+      <lb ed="#F" n="56"/>secure in mea ecclesia morari, vel 
+      profi<lb ed="#F" n="57" break="no"/>cere ibi diuersitatem linguae, vel alia 
+      iu<lb ed="#F" n="58" break="no"/>sta de causa. Supplico vt de mea 
+      praeben<lb ed="#F" n="59" break="no"/>da, vel ecclesia alii prouideatis, &amp; mihi 
+      <lb ed="#F" n="60"/>prouideatis in alia, credimus etiam quod 
+      <lb ed="#F" n="61"/>possit ei dicere, &amp; tali melius competeret 
+      <lb ed="#F" n="62"/>mea ecclesia: &amp; mihi sua. arg. sup. de 
+      prae<lb ed="#F" n="63" break="no"/>ben. inter caetera. sed ipsis qui commutare 
+      <lb ed="#F" n="64"/>debent hoc inter se pacisei, &amp; tractarenen 
+      <lb ed="#F" n="65"/>licet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e297" type="decretales-l3t19c6">
+               <head xml:id="inleiv-d1e1088-Hd1e299">Caput 6</head>
+               <p xml:id="inleiv-d1e1088-d1e301">
+                  <lb ed="#F" n="66"/>CAPVT VI.
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e306">
+                  <lb ed="#F" n="67"/>AD QVAESTIONES. (
+      Ha<lb ed="#F" n="68" break="no"/>bet) ad mensam suam 
+      depu<lb ed="#F" n="69" break="no"/>tatam, alias non liceret. 
+      su<lb ed="#F" n="70" break="no"/>pra, de reb. eccle. non alie. c. 
+      <lb ed="#F" n="71"/>1. vel non solum ecclesia erat 
+      <lb ed="#F" n="72"/>maioris ecclesiae: sed etiam possessiones. 
+      <lb ed="#F" n="73"/>26. q. 2. c. 1. &amp; not. sup. de praeben. de 
+      mona<lb ed="#F" n="74" break="no"/>chis. vel duinc, quod permutatio potest fieri 
+      <lb ed="#F" n="75"/>de ecclesijs non solum ad mensam 
+      perti<lb ed="#F" n="76" break="no"/>nentibus, sed etiam de alijs, in quibus 
+      quan<lb ed="#F" n="77" break="no"/>tumcunque iuris habet, non enim 
+      prohi<lb ed="#F" n="78" break="no"/>betur permutationem fieri iurium 
+      spiri<lb ed="#F" n="79" break="no"/>tualium inter se, vt hic dicit. (Ecclesijs) cum 
+      <lb ed="#F" n="80"/>ecclesijs transibunt alia spiritualia, vt sunt 
+      <lb ed="#F" n="81"/>decimae &amp; mortuaria. Misceantur) id est, 
+      <lb ed="#F" n="82"/>separatim fiat contractus ecclesiarum a 
+      con<lb ed="#F" n="83" break="no"/>tractu possessionum, vel hic vult dicere, 
+      <lb ed="#F" n="84"/>quod caueant permutantes, ne occasione 
+      <lb ed="#F" n="85"/>spiritualium iurium, de quibus plus habet 
+      <lb ed="#F" n="86"/>vna eclesia, quam alia plus, vel minus 
+      pe<lb ed="#F" n="87" break="no"/>cuniae, vel alterius rei temporalis 
+      tribu<lb ed="#F" n="88" break="no"/>ant. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e357" type="decretales-l3t19c7">
+               <head xml:id="inleiv-d1e1088-Hd1e359">Caput 7</head>
+               <p xml:id="inleiv-d1e1088-d1e361">
+                  <lb ed="#F" n="89"/>CAPVT VII. 
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e366">
+                  <lb ed="#F" n="90"/>CVM OLIM. (
+      Commutas<lb ed="#F" n="91" break="no"/>sent.) &amp; male. sup. eo. 
+      quaesi<lb ed="#F" n="92" break="no"/>tum (Inficiabatur) sed 
+      post<lb ed="#F" n="93" break="no"/>ea fuit probatum alio modo, 
+      <lb ed="#F" n="94"/>vt statim sequitur. (
+      Resigna<lb ed="#F" n="95" break="no"/>uit) mentitur, vt statim sequitur: &amp; per 
+      ali<lb ed="#F" n="96" break="no"/>as probationes constituit. (Constaret) 
+      fot<lb ed="#F" n="97" break="no"/>te per testes. confessio enim 
+      contradice<lb ed="#F" n="98" break="no"/>bat vt statim dixit. (Errorem) ist 
+      permu<lb ed="#F" n="99" break="no"/>tationem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e391" type="decretales-l3t19c8">
+               <head xml:id="inleiv-d1e1088-Hd1e393">Caput 8</head>
+               <p xml:id="inleiv-d1e1088-d1e395">
+                  <lb ed="#F" n="100"/>CAPVT VIII. 
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e400">
+                  <lb ed="#F" n="101"/>CVM 
+      VNIVERSORVM<lb ed="#F" n="102" break="no"/>(Praebenda) hoc enim 
+      con<lb ed="#F" n="103" break="no"/>uenerat inter eos, quod G. 
+      <lb ed="#F" n="104"/>praebendam suam daret cui¬ 
+      <pb ed="#F" n="395-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>dam consanguineo ipsius L. &amp; L. 
+      praeben<lb ed="#F" n="2" break="no"/>dam suam daret G. (Consanguineo) qui 
+      <lb ed="#F" n="3"/>etiam illicite permutationis conscius &amp; 
+      <lb ed="#F" n="4"/>fauor erat. (De iure) . 3. eo. quesitum. (
+      Sim<lb ed="#F" n="5" break="no"/>plicitati) hic enim de benignitate 
+      loqui<lb ed="#F" n="6" break="no"/>tur, secus de iure. Amoto) resignauerat 
+      <lb ed="#F" n="7"/>enim de causa, quae non fuerat secuta, 
+      ta<lb ed="#F" n="8" break="no"/>men iustius videtur, quod L. qui fuerat 
+      de<lb ed="#F" n="9" break="no"/>ceptor priuaretur. sed &amp; hoc iustum erat, 
+      <lb ed="#F" n="10"/>licet enim G. esset puniendus, ex eo, quod 
+      <lb ed="#F" n="11"/>simoniace resignauerat, vel renunciauerat. 
+      <lb ed="#F" n="12"/>renunciatio tamen non tenebat, quia 
+      si<lb ed="#F" n="13" break="no"/>moniace, sicut nec collatio beneficii 
+      si<lb ed="#F" n="14" break="no"/>moniace facta tenet. arg. 1. q. 1. 
+      ordinatio<lb ed="#F" n="15" break="no"/>nes. &amp; quia ex causa renuneiauit quae non 
+      <lb ed="#F" n="16"/>fuit secuta. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1088-Dd1e451" type="decretales-l3t19c9">
+               <head xml:id="inleiv-d1e1088-Hd1e453">Caput 9</head>
+               <p xml:id="inleiv-d1e1088-d1e455">
+                  <lb ed="#F" n="17"/>CAPVT IX. 
+      </p>
+               <p xml:id="inleiv-d1e1088-d1e460">
+                  <lb ed="#F" n="18"/>EXHIBITA. (Ipse) capellanus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

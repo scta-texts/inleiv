@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="395-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1110" type="decretales-l3t21">
+            <head xml:id="inleiv-d1e1110-Hd1e98">Titulus 21</head>
+            <p xml:id="inleiv-d1e1110-d1e100">
+               <lb ed="#F" n="60"/>TITVLVS XXI. 
+      <lb ed="#F" n="61"/>E PIGNORIBVS 
+      <lb ed="#F" n="62"/>ET AL1IS 
+      CAVTIO<lb ed="#F" n="63" break="no"/>emp. arg. 
+      <lb ed="#F" n="64"/>nibus. 
+      </p>
+            <div xml:id="inleiv-d1e1110-Dd1e113" type="decretales-l3t21c1">
+               <head xml:id="inleiv-d1e1110-Hd1e115">Caput 1</head>
+               <p xml:id="inleiv-d1e1110-d1e117">
+                  <lb ed="#F" n="65"/>CAPVT 1. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e122">
+                  <lb ed="#F" n="66"/>NVLLVS PRESPYTER. (
+      Li<lb ed="#F" n="67" break="no"/>brum) hic prohibetur 
+      obli<lb ed="#F" n="68" break="no"/>gari propter honestatem, quia 
+      <lb ed="#F" n="69"/>alias consecratus non est. 
+      ca<lb ed="#F" n="70" break="no"/> is autem certam recipit 
+      con<lb ed="#F" n="71" break="no"/>secrationem, &amp; ad minus cum ibi 
+      confe<lb ed="#F" n="72" break="no"/>ctum sit corpus &amp; sanguis domini lesu 
+      <lb ed="#F" n="73"/>Christi, non debet a prophanis tangi, vestis 
+      <lb ed="#F" n="74"/>etiam benedictionem recipit. arg. 12. q. 2. 
+      <lb ed="#F" n="75"/>aurum. Necessitate.) no. necessitate 
+      immi<lb ed="#F" n="76" break="no"/>nente vasa &amp; alia sacra obligari pignori. 
+      <lb ed="#F" n="77"/>ar. inf. c. 2. secundum legem. contrarium. 
+      <lb ed="#F" n="78"/>C. de sacrosan. eccl. sancimus. ff. quae res 
+      <lb ed="#F" n="79"/>pig obli. l. eam. ff. de pis sed &amp; quod. § qui 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e156" type="decretales-l3t21c2">
+               <head xml:id="inleiv-d1e1110-Hd1e158">Caput 2</head>
+               <p xml:id="inleiv-d1e1110-d1e160">
+                  <lb ed="#F" n="80"/>CAPVT II 
+      <lb ed="#F" n="81"/>LATOR (Liber.) contra. sup. de 
+      iure<lb ed="#F" n="82" break="no"/>iuran. ex rescripto. Solu. ibi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e170" type="decretales-l3t21c3">
+               <head xml:id="inleiv-d1e1110-Hd1e172">Caput 3</head>
+               <p xml:id="inleiv-d1e1110-d1e174">
+                  <lb ed="#F" n="83"/>CAPVT III. 
+      <lb ed="#F" n="84"/>EX PRAESENTIVM. (Pro 
+      <lb ed="#F" n="85"/>sua) . i. propria non ecclesiae, 
+      cre<lb ed="#F" n="86" break="no"/>ditor tamen haec nesciebat, 
+      <lb ed="#F" n="87"/>sed pro vtilitate ecclesiae 
+      ac<lb ed="#F" n="88" break="no"/>cipi credebat, &amp; sic etiam 
+      con<lb ed="#F" n="89" break="no"/>tractus nomine ecclesiae celebratur, alias 
+      <lb ed="#F" n="90"/>enim res ecclesiae obligatae non essent, nec 
+      <lb ed="#F" n="91"/>cogeretur aliquis pro earum liberatione 
+      <lb ed="#F" n="92"/>soluere pretium. C. si res alie. pi. da. l. 
+      cu<lb ed="#F" n="93" break="no"/>rator. C. quae res pig. ob. poss. qui filios &amp; 
+      <lb ed="#F" n="94"/>ecclesia libere petere pot est. 10. q. 2. hoc 
+      <lb ed="#F" n="95"/>ius. in ver. qui vero res. 3. de rebus eccl. non 
+      <lb ed="#F" n="96"/>alie. si quis vel hoc de facto recuperare non 
+      <lb ed="#F" n="97"/>poterat, nisi pretium reddi faceret, si. sup. 
+      <lb ed="#F" n="98"/>de rebus eccle. non alie. ad audientiam. 
+      <lb ed="#F" n="99"/>Vel dic contractum factum nomine 
+      ec<lb ed="#F" n="100" break="no"/>clesiae, &amp; seruata fuit forma, sed non 
+      con<lb ed="#F" n="101" break="no"/>stat fuisse conuersum in vtilitatem ipsius 
+      <lb ed="#F" n="102"/>ecclesiae, &amp; quia non cogebatur ecclesia, 
+      <lb ed="#F" n="103"/>non cogitur sacerdos. 10. q. 2. hoc ius. &amp; no. 
+      <lb ed="#F" n="104"/>hic quod non solum habet ecclesia rei 
+      ven<lb ed="#F" n="105" break="no"/>dicationem contra deceptionem, sed 
+      <pb ed="#F" n="395-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>etiam actionem negotiorum gestorum 
+      con<lb ed="#F" n="2" break="no"/>tra sacerdotem, qui male administrauit. ff. 
+      <lb ed="#F" n="3"/>de neg. gest. l. 3. §. vlt. 12. q. 2. si qua de rebus. 
+      <lb ed="#F" n="4"/>&amp; c. si quis quenlibet. non solum habet 
+      acti<lb ed="#F" n="5" break="no"/>onem contra sacerdotem administratorem, 
+      <lb ed="#F" n="6"/>sed etiam contra haeredes. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e244">
+                  <lb ed="#F" n="7"/>Quod tamen intelligimus quando 
+      do<lb ed="#F" n="8" break="no"/>lo &amp; lata culpa aliquid gessit sacerdos, vel 
+      <lb ed="#F" n="9"/>si quid ad eum peruenit, vel haeredes suos, 
+      <lb ed="#F" n="10"/>alias enim haeredes non tenentur, nec de 
+      <lb ed="#F" n="11"/>leui culpa. ff. de here. tuto. non ostendimus. 
+      <lb ed="#F" n="12"/>C. de haere. tu. l. 1. &amp; vlt. (Et ea) pignora 
+      <lb ed="#F" n="13"/>(Ipsius) sacerdotis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e264" type="decretales-l3t21c4">
+               <head xml:id="inleiv-d1e1110-Hd1e266">Caput 4</head>
+               <p xml:id="inleiv-d1e1110-d1e268">
+                  <lb ed="#F" n="14"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e273">
+                  <lb ed="#F" n="15"/>ILLO VOS. (Causam 
+      age<lb ed="#F" n="16" break="no"/>bant enim H. &amp; E. contraC. 
+      <lb ed="#F" n="17"/>pig. actione. (Praedictae G.) 
+      <lb ed="#F" n="18"/>primo enim hic G. proposuit 
+      <lb ed="#F" n="19"/> dum viuebat, &amp; postea ea 
+      <lb ed="#F" n="20"/>mortua, hoc ipsum proposueruntm haeredes 
+      <lb ed="#F" n="21"/>eius. (Propositum) tanquam exceptio 
+      perempto<lb ed="#F" n="22" break="no"/>ria post li. con. (Pignus) quia si pignus ex 
+      <lb ed="#F" n="23"/>pacto non potest facere, quod dominium 
+      <lb ed="#F" n="24"/>transeat in venditorem, vel quod non possit 
+      <lb ed="#F" n="25"/>redimere. C. de pact. pi. l. vlt. (Ex duobus) 
+      <lb ed="#F" n="26"/>no. ex plurib. praesumptionib. iudicarii. sic. 
+      <lb ed="#F" n="27"/>5. de emp. ad nostram. (Numerari) si enim 
+      <lb ed="#F" n="28"/>venditor esset emptor, fructus faceret suos. 
+      <lb ed="#F" n="29"/>(Emptorem) ilset quod simulate egerit 
+      con<lb ed="#F" n="30" break="no"/>tractum sub specie venditionis, cum in 
+      ve<lb ed="#F" n="31" break="no"/>ritate ageretur, vt esset pignus, &amp; plus 
+      va<lb ed="#F" n="32" break="no"/>let quod agitur, quam quod simulate 
+      con<lb ed="#F" n="33" break="no"/>cipitur. C. plus valere quod agitur, quam 
+      <lb ed="#F" n="34"/>quod si. con. per totum. &amp; ita fiat 
+      conden<lb ed="#F" n="35" break="no"/>natio in pignoratitia actione in qua actum 
+      <lb ed="#F" n="36"/>est. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e324" type="decretales-l3t21c5">
+               <head xml:id="inleiv-d1e1110-Hd1e326">Caput 5</head>
+               <p xml:id="inleiv-d1e1110-d1e328">
+                  <lb ed="#F" n="37"/>CAPVT V. 
+      <lb ed="#F" n="38"/>1 Mulierin repetitione dotum quibus 
+      praeftra<lb ed="#F" n="39" break="no"/>tur. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e337">
+                  <lb ed="#F" n="40"/>EX LITERIS. (Distractio). 
+      <lb ed="#F" n="41"/>Iustum est dummodo primo 
+      <lb ed="#F" n="42"/>extractum esset debitum 
+      vxo<lb ed="#F" n="43" break="no"/>ris, &amp; omnium aliorum habentium 
+      <lb ed="#F" n="44"/>hypothecas tacitas vel 
+      ex<lb ed="#F" n="45" break="no"/>pressas. (Dicit) id est, petit in libello suo. 
+      <lb ed="#F" n="46"/>1Cum mulieribus) mulier in repetitione 
+      <lb ed="#F" n="47"/>dotis, praefertur omnibus habentibus 
+      per<lb ed="#F" n="48" break="no"/>sonales actiones, vel tacitas hypothecas. 
+      <lb ed="#F" n="49"/>C. qui potio. in pig. ha. assiduis habentibus 
+      <lb ed="#F" n="50"/>autem expressas non praefertur. ar. eius quod 
+      <lb ed="#F" n="51"/>dicitur in fisco, qui simile priuilegium 
+      ha<lb ed="#F" n="52" break="no"/>bet. C. de priuile. fi. quamuis. ff. qui po. in 
+      <lb ed="#F" n="53"/>pig. l. vlt. hoc autem priuilegium non habet 
+      <lb ed="#F" n="54"/>
+                  <!-- line coord error -->
+                  <lb ed="#F" n="55"/>mulier in reb. paraphernalibus. C. de pac. 
+      <lb ed="#F" n="56"/>conuen. l. vlti. nec in donationibus propter 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>
+                  <lb ed="#F" n="58"/>nuptias. C. qui po. in pig. ha. l. vlti. in his 
+      <lb ed="#F" n="59"/>enim bene habet tacitas hypothecas, sed 
+      <lb ed="#F" n="60"/>praefertur tantum posterioribus 
+      credito<lb ed="#F" n="61" break="no"/>ribus, &amp; habentibus hypothecas, sed non 
+      <lb ed="#F" n="62"/>prioribus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e395" type="decretales-l3t21c6">
+               <head xml:id="inleiv-d1e1110-Hd1e397">Caput 6</head>
+               <p xml:id="inleiv-d1e1110-d1e399">
+                  <lb ed="#F" n="63"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e404">
+                  <lb ed="#F" n="64"/>CVM CONTRA. (
+      Quaestio<lb ed="#F" n="65" break="no"/>nem.) Petendo restitutionem 
+      <lb ed="#F" n="66"/>pignoris, &amp; intentando 
+      pi<lb ed="#F" n="67" break="no"/>gnoratitiam actionem, hoc 
+      ta<lb ed="#F" n="68" break="no"/>men non videtur, cum 
+      pigno<lb ed="#F" n="69" break="no"/>ratitia actio sit personalis, &amp; non detur in 
+      <lb ed="#F" n="70"/>rem. (Annullassent) repete quod diximus 
+      <lb ed="#F" n="71"/>supra, de iureiuran. ad nostram. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e425" type="decretales-l3t21c7">
+               <head xml:id="inleiv-d1e1110-Hd1e427">Caput 7</head>
+               <p xml:id="inleiv-d1e1110-d1e429">
+                  <lb ed="#F" n="72"/>CAPVT VII. 
+      <lb ed="#F" n="73"/>1 Debitor non debet expectare, vt creditor 
+      pe<lb ed="#F" n="74" break="no"/>tat, send ire debet ad locum vbi creditor 
+      ba<lb ed="#F" n="75" break="no"/>bitat, ibiquod se offerre 
+      <lb ed="#F" n="76"/>Periurus non est, qui credit pecuniam esse 
+      si<lb ed="#F" n="77" break="no"/>lutam creditori per eius nuncium, secur si 
+      <lb ed="#F" n="78"/>scit pecuniam non esse selutam, &amp; tamen 
+      <lb ed="#F" n="79"/>cito non solueret. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e449">
+                  <lb ed="#F" n="80"/>SIGNITICANTE. (Commiss 
+      <lb ed="#F" n="81"/>soriae). C. de pac. pig. l. 1. &amp; 2. 
+      <lb ed="#F" n="82"/>quia non obstante pacto 
+      ta<lb ed="#F" n="83" break="no"/>li. scet quod res pignorata 
+      pro<lb ed="#F" n="84" break="no"/>pria sit creditoris, vel quo 
+      vlte<lb ed="#F" n="85" break="no"/>rius non reddatur pignus debitori, poterit 
+      <lb ed="#F" n="86"/>agere pignoratitia actione, ad recuperandum 
+      <lb ed="#F" n="87"/>pignus, sed iuramentum bene obstaret sibi, si 
+      <lb ed="#F" n="88"/>in culpa fuisset. (Nuncium) not. malitiam 
+      pro<lb ed="#F" n="89" break="no"/>curatoris non obesse domino, dummodo 
+      <lb ed="#F" n="90"/>in culpa eligendi non fuerit. ff. 
+      commoda<lb ed="#F" n="91" break="no"/>ti. argentum. C. qui pe. tut. vel cu. a 
+      ma<lb ed="#F" n="92" break="no"/>ioribus. 
+      </p>
+               <p xml:id="inleiv-d1e1110-d1e480">
+                  <lb ed="#F" n="93"/>1 Remiserit) quicunque enim aliquid 
+      <lb ed="#F" n="94"/>alicui debet, non debet expectare quod 
+      <lb ed="#F" n="95"/>is cui debetur illud petat, sed debitor 
+      de<lb ed="#F" n="96" break="no"/>bet ire ad locum, vbi creditor habet 
+      domi<lb ed="#F" n="97" break="no"/>cilium, &amp; ibi sibi offerre, &amp; si non est ibi, 
+      <lb ed="#F" n="98"/>coram iudice loci hoc protestetur. 
+      argu<lb ed="#F" n="99" break="no"/>mentum hic. C. de vsuris. fi creditricis.C. 
+      <lb ed="#F" n="100"/>de so. ob. &amp; idem est dicendum, quando 
+      <lb ed="#F" n="101"/>aliquis promisit alicui facere cessionem 
+      <lb ed="#F" n="102"/>actione vel renunciationem. argu. 
+      su<lb ed="#F" n="103" break="no"/>pra, de offi. or. pasto. §. fi. Captione) nam 
+      <lb ed="#F" n="104"/>licet permissionem nuncii excusetur, quod 
+      <lb ed="#F" n="105"/>non incurrerit periurium, quia credebat 
+      <lb ed="#F" n="106"/>solutam esse pecuniam creditori, non 
+      ta<lb ed="#F" n="107" break="no"/>men excusaretur, si cito non solueret, 
+      <lb ed="#F" n="108"/>postquam sciuit pecuniam non 
+      solu<lb ed="#F" n="109" break="no"/>lum iuramenti, quia licet ex pacto non 
+      te<lb ed="#F" n="110" break="no"/>neretur, quin posset recuperare pignus, ex 
+      <pb ed="#F" n="396-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>iuramento autem sic obligatus est, vt 
+      vl<lb ed="#F" n="2" break="no"/>terius petere non posset, nisi praedictis 
+      ex<lb ed="#F" n="3" break="no"/>cusationibus defenderetur. (Cogatis) hoc 
+      <lb ed="#F" n="4"/>est, de iure sine aliqua dispensatione. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1110-Dd1e536" type="decretales-l3t21c8">
+               <head xml:id="inleiv-d1e1110-Hd1e538">Caput 8</head>
+               <p xml:id="inleiv-d1e1110-d1e540">
+                  <lb ed="#F" n="5"/>CAPVT VIII. 
+      <lb ed="#F" n="6"/>CVM CONSTET. (
+      Mulie<lb ed="#F" n="7" break="no"/>rem.) Ista l. habuerat filium &amp; 
+      <lb ed="#F" n="8"/>filiam nomine M. de primo 
+      <lb ed="#F" n="9"/>matrimonio, quae ad secunda 
+      <lb ed="#F" n="10"/>vota conuolauit, mortuo autem 
+      <lb ed="#F" n="11"/>filio successit ista cum sorore defuncti in 
+      <lb ed="#F" n="12"/>viriles portiones, sed in omnibus, quae ad 
+      <lb ed="#F" n="13"/>filium nomine defuncti prouenerunt a 
+      pa<lb ed="#F" n="14" break="no"/>tre non habebat lI mulier, nisi vsumfructum 
+      <lb ed="#F" n="15"/>in donatione propter nuptias. Authent. 
+      <lb ed="#F" n="16"/>de nup. §. huic nos. §. &amp; quoniam mulier. 
+      <lb ed="#F" n="17"/>sed M. habebit proprietatem tanquam 
+      he<lb ed="#F" n="18" break="no"/>res proximior ab intestato, &amp; ideo ipsi 
+      ca<lb ed="#F" n="19" break="no"/>ueri debet, vt sequitur, potest etiam poni 
+      <lb ed="#F" n="20"/>casus, quando vsusfructus erat relictus I. 
+      <lb ed="#F" n="21"/>mulieri &amp; proprietas. Item potest poni, 
+      quan<lb ed="#F" n="22" break="no"/>do in iudicio communi diuidundo, vel 
+      fa<lb ed="#F" n="23" break="no"/>miliae. ercis. vni erat adiudicatus 
+      vsusfru<lb ed="#F" n="24" break="no"/>ctus, &amp; alii proprietas, sed primo dictum 
+      <lb ed="#F" n="25"/>magis placet. (Mulierem) sororem. 
+      defun<lb ed="#F" n="26" break="no"/>cti filii. (Salua) . ff. de vsuf. l. 1. (Pecuniam). 
+      <lb ed="#F" n="27"/>ff. de rebus quae vsu. con. per totum. insti. 
+      <lb ed="#F" n="28"/>de vsufr. §. 1. &amp; 2. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

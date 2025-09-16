@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 5</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 5</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="204-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e591" type="decretales-l2t5">
+            <head xml:id="inleiv-d1e591-Hd1e98">Titulus 5</head>
+            <p xml:id="inleiv-d1e591-d1e100">
+               <lb ed="#F" n="43"/>TITVLVS) IIII 
+      <lb ed="#F" n="44"/>DE LITIS 
+      CON<lb ed="#F" n="45" break="no"/>ESIAT IONE. 
+      </p>
+            <div xml:id="inleiv-d1e591-Dd1e109" type="decretales-l2t5c1">
+               <head xml:id="inleiv-d1e591-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e591-d1e113">
+                  <lb ed="#F" n="46"/>CAPVT I 
+      <lb ed="#F" n="47"/>1 Litis contestatio ad hoc at aleat oportet 
+      <lb ed="#F" n="48"/>quod animo contestandi litem fiat, &amp; 
+      et<lb ed="#F" n="49" break="no"/>iam sufficit, quod respondeatur de iure 
+      <lb ed="#F" n="50"/>libello, vel pet itioni in num.: 
+      <lb ed="#F" n="51"/>3 contestari luem ilaliud esb nu cestari. 
+      <lb ed="#F" n="52"/>1 Lis quando dicatur finiri. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>2 luramentum de non petendo, an retardet litae 
+      <lb ed="#F" n="54"/>contestationem. 
+      <lb ed="#F" n="55"/>3 Pactum de non agendo non liberat debitorem. 
+      <lb ed="#F" n="56"/>quim maneat obligatus, licet contra eum 
+      <lb ed="#F" n="57"/>agi non possit, secus est in pacto de non 
+      <lb ed="#F" n="58"/>petendo. 
+      </p>
+               <p xml:id="inleiv-d1e591-d1e146">
+                  <lb ed="#F" n="59"/>OLIM IXTER 
+      CPISCO<lb ed="#F" n="60" break="no"/>PVM. (Non per positiones 
+      <lb ed="#F" n="61"/>up. de elect. c. dudum. Ad 
+      <lb ed="#F" n="62"/>hoc enim vt teneat litis 
+      con<lb ed="#F" n="63" break="no"/>statio, oportet quod animo 
+      <lb ed="#F" n="64"/>contestandi litem fiat, sed vbi sunt apta 
+      <lb ed="#F" n="65"/>contestationi praesumitur animus 
+      conte<lb ed="#F" n="66" break="no"/>standi, nisi contra appareat per 
+      protestati<lb ed="#F" n="67" break="no"/>onem: vt no. sup. de consti. cum M. Item 
+      in<lb ed="#F" n="68" break="no"/>tentio animi non sufficit, nisi sint verba 
+      <lb ed="#F" n="69"/>apta, vt hic, &amp; est ea ratione, quia in 
+      positio<lb ed="#F" n="70" break="no"/>nibus non sit aliqua petitio quae est 
+      neces<lb ed="#F" n="71" break="no"/>saria, nam quomodo posset ferri sententia 
+      <lb ed="#F" n="72"/>absolutionis a petitione &amp; 
+      condemnati<lb ed="#F" n="73" break="no"/>one ad petita, si nihil esset petitum. sup. de 
+      <lb ed="#F" n="74"/>iudi. examinata. sententia enim 
+      respon<lb ed="#F" n="75" break="no"/>dere debet petitioni. inf. de simo. licet 
+      he<lb ed="#F" n="76" break="no"/>l7. nisi causa coram Papa ageretur, tunc 
+      e<lb ed="#F" n="77" break="no"/>nim sine petitione crederem sufficere 
+      nar<lb ed="#F" n="78" break="no"/>rationes partium sine petitione aliqua. infr. 
+      <lb ed="#F" n="79"/>de insti. cum venissent. &amp; ar. quod prae 
+      sen<lb ed="#F" n="80" break="no"/>tia Papae supplet has solenitates. C. de test. 
+      <lb ed="#F" n="81"/>om. sup. de trans. c. 1. Item licet aliquid 
+      po<lb ed="#F" n="82" break="no"/>nam factum, vel dictum propter hoc non 
+      <lb ed="#F" n="83"/>testor, vel contestor me velle litigare, ergo 
+      <lb ed="#F" n="84"/>attenta verbi significatione non est lit. 
+      con<lb ed="#F" n="85" break="no"/>testatio facta, a qua nisi aliud appareat, rea 
+      <lb ed="#F" n="86"/>cedere non oportet. ff. de leg. 3. non aliter. 
+      <lb ed="#F" n="87"/>Item ipsum hic manifeste apparet, quod 
+      <lb ed="#F" n="88"/>quaedam positiones &amp; responsiones siunt 
+      <lb ed="#F" n="89"/>ante lit. contestationem ff. de interro. act. 
+      <lb ed="#F" n="90"/>per totum.
+      </p>
+               <p xml:id="inleiv-d1e591-d1e218">
+                  <lb ed="#F" n="91"/>2 Item no. quod ad hoc vt lis contestetur 
+      <lb ed="#F" n="92"/>sufficit quod respondeatur de iure libello vel 
+      <lb ed="#F" n="93"/>petitiomui. VERtBI GRATIA. Peto a te 
+      fun<lb ed="#F" n="94" break="no"/>dum, quem mihi promisisti, vel vendidisti, 
+      <lb ed="#F" n="95"/>nam recte respondetur, non competit 
+      ti<lb ed="#F" n="96" break="no"/>bi petitio praedicti fundi, vel non debet 
+      ti<lb ed="#F" n="97" break="no"/>bi dari praedictus fundus, quem tu petis, 
+      <lb ed="#F" n="98"/>nam cum actio sit ius petendi, quod 
+      debe<lb ed="#F" n="99" break="no"/>tur actori, scilicet, de iure. insti. de act. in 
+      <lb ed="#F" n="100"/>princip. eadem ratio &amp; defensio siue 
+      re<lb ed="#F" n="101" break="no"/>sponsio rei legitima est, quod petis tibi 
+      <lb ed="#F" n="102"/>non debetur de iure. Item dicunt 
+      ali<lb ed="#F" n="103" break="no"/>qui non sufficere respondere ad causam, 
+      <lb ed="#F" n="104"/>nisi respondeat petitioni. VERBI 
+      GRA<lb ed="#F" n="105" break="no"/>TIA: Peto centum, quia mutuaui, 
+      respon<lb ed="#F" n="106" break="no"/>det reus, non mutuasti. ar. quia cum 
+      peti<lb ed="#F" n="107" break="no"/>tio sit necessaria, &amp; responsio petitioni 
+      <lb ed="#F" n="108"/>necessaria est. Item causa non est actio, 
+      <lb ed="#F" n="109"/>sed vinculum. Nos dicimus respondere 
+      <pb ed="#F" n="204-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>causae, nam cum causa talis debeat esse, quae 
+      <lb ed="#F" n="2"/>necessario inferret ius petendi, quam 
+      ne<lb ed="#F" n="3" break="no"/>cessarie est probari, quia nec petenti 
+      pro<lb ed="#F" n="4" break="no"/>dest, si ex alia causa sibi debeat, &amp; eodem 
+      <lb ed="#F" n="5"/>modo nec sibi obest, si alia vice ex 
+      aliacau<lb ed="#F" n="6" break="no"/>sa agat: vt not. sup. de offi. ordi. 
+      conqueren<lb ed="#F" n="7" break="no"/>te. qui respondet non veram esse causam, 
+      <lb ed="#F" n="8"/>sc. mutuum interuenisse necessario dicit 
+      <lb ed="#F" n="9"/>se ex mutuo non teneri, &amp; ita per cosequens 
+      <lb ed="#F" n="10"/>petitioni respondet. 
+      </p>
+               <p xml:id="inleiv-d1e591-d1e288">
+                  <lb ed="#F" n="11"/>Item attende verba litem contestati 
+      <lb ed="#F" n="12"/>nihil aliud est, nisi testari, qui vult cum 
+      ad<lb ed="#F" n="13" break="no"/>uersario litigare. Sufficit ergo si animo 
+      li<lb ed="#F" n="14" break="no"/>tigandi petitioni aduersarii contradicat. 
+      <lb ed="#F" n="15"/>Cde iud. rem non nouam. tamem si diceret 
+      <lb ed="#F" n="16"/>volo litigare cum aduersario, &amp; non 
+      contra<lb ed="#F" n="17" break="no"/>diceret petitioni, non sufficeret. ar. pre. l. &amp; 
+      <lb ed="#F" n="18"/>quia nesciretur, an confiteretur vel 
+      nega<lb ed="#F" n="19" break="no"/>ret petita. Quidam tamen dicuntm &amp; forte non 
+      <lb ed="#F" n="20"/>male, quod si etiam in libello non fiat peti¬ p 
+      <lb ed="#F" n="21"/>tio, sed tantum narretur factum, &amp; reus 
+      om<lb ed="#F" n="22" break="no"/>nino litem contestando respondeat, quod 
+      <lb ed="#F" n="23"/>bona est, vel saltem toleranda huiusmodi 
+      <lb ed="#F" n="24"/>lit. contestatio, vt res magis valeat quam peat. 
+      <lb ed="#F" n="25"/>inf. de verb. sig. abbatem. ar. ad hoc. inf. de 
+      <lb ed="#F" n="26"/>insti. cum venissent. infr. de causa post cum 
+      <lb ed="#F" n="27"/>ecclesia. sup. de consue. cum dilectus. &amp; 
+      vide<lb ed="#F" n="28" break="no"/>tur maxime hoc posse tolerari, vbi de 
+      iuri<lb ed="#F" n="29" break="no"/>bus agiturcilicet negatoria vel confessoria 
+      inten<lb ed="#F" n="30" break="no"/>tatur. ff. si vsufr. pe. l. vl. in prin. &amp; l. 1. in 
+      de<lb ed="#F" n="31" break="no"/>cre. praealleg. tutius est tamen in omnibus 
+      <lb ed="#F" n="32"/>aliquid peterec &amp; responsiones) C. de 
+      iu<lb ed="#F" n="33" break="no"/>reiur. l. 2. C. de iudi. rem non nouam. C. de 
+      <lb ed="#F" n="34"/>lit. contest. l. 1. sup. ti. prox. c. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e591-Dd1e344" type="decretales-l2t5c2">
+               <head xml:id="inleiv-d1e591-Hd1e346">Caput 2</head>
+               <p xml:id="inleiv-d1e591-d1e348">
+                  <lb ed="#F" n="35"/>CAPVT II. 
+      <lb ed="#F" n="36"/>EXCEPTIONIS 
+      PER<lb ed="#F" n="37" break="no"/>EMPTORIAE. (
+      Con<lb ed="#F" n="38" break="no"/>tingentis causam) hoc ideo 
+      <lb ed="#F" n="39"/>dico, quia si exceptio talis 
+      es<lb ed="#F" n="40" break="no"/>set, quae pariter afficeret, &amp; 
+      <lb ed="#F" n="41"/>literas, &amp; quod in eis conceditur, tunc illa 
+      <lb ed="#F" n="42"/>exceptio competeret etiam contra 
+      rescri<lb ed="#F" n="43" break="no"/>ptum ante litis contestationem, vt si 
+      ha<lb ed="#F" n="44" break="no"/>bens beneficium, impetret super alio 
+      be<lb ed="#F" n="45" break="no"/>neficio, nam cum vitium taciturnitatis hic 
+      si<lb ed="#F" n="46" break="no"/>mul affecerit, &amp; rescriptum &amp; gratiam in 
+      <lb ed="#F" n="47"/>rescripto contentam iustum est, quod 
+      con<lb ed="#F" n="48" break="no"/>tra vtrunque competat. sup. de rescrip. c. ad 
+      <lb ed="#F" n="49"/>aures. &amp; c. constitutus. secus esset si gratia 
+      <lb ed="#F" n="50"/>simul cum literis data non esset, vt si primo 
+      <lb ed="#F" n="51"/>donaret beneficium Papa, &amp; postea 
+      man<lb ed="#F" n="52" break="no"/>daret, quod in possessione induceretur, 
+      <lb ed="#F" n="53"/>nam hoc crederem, quod contra 
+      huiusmo<lb ed="#F" n="54" break="no"/>di literas posset obiici, quod obreptitiae 
+      <lb ed="#F" n="55"/>obtinuerit, licet gratia coilationis 
+      obre<lb ed="#F" n="56" break="no"/>ptitiae obtinuerit, quia habebat aliud bene¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>ficium, vel alia causa suberat, quam si 
+      Pa<lb ed="#F" n="58" break="no"/>pa sciuisset, beneficium non dedisset, &amp; 
+      con<lb ed="#F" n="59" break="no"/>tra hanc bene competit exceptio. infr. de 
+      <lb ed="#F" n="60"/>sent. &amp; re iudi. c. olim. inf. de accu. c. 
+      acce<lb ed="#F" n="61" break="no"/>dens. alii tamen aliter dicunt. 
+      Contingen<lb ed="#F" n="62" break="no"/>tis) id est, ad principale negotium 
+      pertinen<lb ed="#F" n="63" break="no"/>tis, ficut est exceptio pacti de non petendo 
+      <lb ed="#F" n="64"/>vel debiti soluti contra eum, qui 
+      pecuni<lb ed="#F" n="65" break="no"/>am petit. de hoc plene vt sup. de rescri. 
+      su<lb ed="#F" n="66" break="no"/>per literis. negotium autem principale non 
+      <lb ed="#F" n="67"/>tangunt, quae sunt de processu, vt quia non 
+      <lb ed="#F" n="68"/>fecit mentionem de processu, infr. de sen. 
+      <lb ed="#F" n="69"/>&amp; re iud. c. inter. (Obiectus) id est, 
+      exce<lb ed="#F" n="70" break="no"/>ptioni peremptoria. (De re iudicata) nam 
+      <lb ed="#F" n="71"/>exceptio rei iudicatae contra rescriptum 
+      op<lb ed="#F" n="72" break="no"/>ponitur. C. sent. rescin. non pos. l. vltim. 
+      <lb ed="#F" n="73"/>(Translata) quia exceptio transactionis 
+      an<lb ed="#F" n="74" break="no"/>te litem contestatam admittitur. ff. de 
+      con<lb ed="#F" n="75" break="no"/>di. inde. l. eleganter. §. si quis. 
+      </p>
+               <p xml:id="inleiv-d1e591-d1e442">
+                  <lb ed="#F" n="76"/> Finita) sed quomodo potest finiri lis, 
+      <lb ed="#F" n="77"/>nisi vel sententia vel transactione: Potes 
+      <lb ed="#F" n="78"/>respon dere, quod haec dictio SEV, non notat 
+      <lb ed="#F" n="79"/>hic diuersitatem, sed multiplicatis verbis, 
+      <lb ed="#F" n="80"/>idem repetitio VEL, quod hicdicit rem 
+      fi<lb ed="#F" n="81" break="no"/>nitam, de qua non est transactum, neque 
+      iu<lb ed="#F" n="82" break="no"/>dicatum, sed tamen lis finita dicitur, puta 
+      <lb ed="#F" n="83"/>quia iurauit se in perpetuum non acturum 
+      <lb ed="#F" n="84"/>nam tunc nisi ex causa noua vlterius 
+      age<lb ed="#F" n="85" break="no"/>re non potest. ff. de iureiur. l. admonendi. 
+      <lb ed="#F" n="86"/>C. de pact. l. postquam. ff. de condic. ob can. 
+      <lb ed="#F" n="87"/>l. 2. ar. sup. de rescri. constitutus. Idem 
+      vi<lb ed="#F" n="88" break="no"/>detur etiam si solum pactum fecisset de non 
+      <lb ed="#F" n="89"/>agendo vlterius de aliquo debito, nam 
+      hu<lb ed="#F" n="90" break="no"/>iusmodi exceptio contra rescriptum 
+      re<lb ed="#F" n="91" break="no"/>cte opponitur, &amp; litis contestationem 
+      re<lb ed="#F" n="92" break="no"/>tardat, quia si hoc expressisset nullas 
+      lite<lb ed="#F" n="93" break="no"/>ras habuisset, secus autem si pactum de non 
+      <lb ed="#F" n="94"/>petendo fecisset, quia tunc non 
+      retarda<lb ed="#F" n="95" break="no"/>retur litis contestatio. Iuramentum 
+      au<lb ed="#F" n="96" break="no"/>tem de non petendo an tardet litis 
+      conte<lb ed="#F" n="97" break="no"/>stationem. Respondemus quod sic, vt 
+      im<lb ed="#F" n="98" break="no"/>pediatur periurium. Quare autem aliud 
+      <lb ed="#F" n="99"/>sit, quando paciscitur de non petendo, &amp; 
+      <lb ed="#F" n="100"/>aliud quando paciscitur de non agendot 
+      <lb ed="#F" n="101"/>Respondeo quando paciscitur de non 
+      a<lb ed="#F" n="102" break="no"/>gendo, nihilominus extra iudicium 
+      pete<lb ed="#F" n="103" break="no"/>re potest, &amp; nihilominus debitor manet 
+      <lb ed="#F" n="104"/>obligatus ex promisso, licet agere non 
+      pos<lb ed="#F" n="105" break="no"/>sit, &amp; econuerso. ff. de condi. inde. l. 
+      natu<lb ed="#F" n="106" break="no"/>raliter. ff. de iudi. l. ius. &amp; ita si promitteret 
+      <lb ed="#F" n="107"/>contra se litem contestari non opposita 
+      con<lb ed="#F" n="108" break="no"/>tra literas praedicta exceptione post lit. 
+      con<lb ed="#F" n="109" break="no"/>testationem opponere non posset, cum sit 
+      <lb ed="#F" n="110"/>declinatoria fori, sed vbi paciscitur de non 
+      <lb ed="#F" n="111"/>petendo nullo modo remanet obligatus, 
+      <lb ed="#F" n="112"/>&amp; ita post litis contestationem poterit 
+      <lb ed="#F" n="113"/>recipere. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

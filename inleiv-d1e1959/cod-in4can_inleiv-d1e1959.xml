@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 25</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 25</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="520-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1959" type="decretales-l5t25">
+            <head xml:id="inleiv-d1e1959-Hd1e98">Titulus 25</head>
+            <p xml:id="inleiv-d1e1959-d1e100">
+               <lb ed="#F" n="3"/>TITVLVS XXV.
+      </p>
+            <p xml:id="inleiv-d1e1959-d1e105">
+               <lb ed="#F" n="4"/>DE CLERICO 
+      PER<lb ed="#F" n="5" break="no"/>CVSSORE. 
+      </p>
+            <div xml:id="inleiv-d1e1959-Dd1e112" type="decretales-l5t25c1">
+               <head xml:id="inleiv-d1e1959-Hd1e114">Caput 1</head>
+               <p xml:id="inleiv-d1e1959-d1e116">
+                  <lb ed="#F" n="6"/>CAPVT I. 
+      <lb ed="#F" n="7"/>SI QVIS IN ALIQVO. (
+      Percus<lb ed="#F" n="8" break="no"/>sor ) consuetudine, alias enim se semel. 
+      <lb ed="#F" n="9"/>35. dist. c. si euangelica. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1959-Dd1e128" type="decretales-l5t25c2">
+               <head xml:id="inleiv-d1e1959-Hd1e130">Caput 2</head>
+               <p xml:id="inleiv-d1e1959-d1e132">
+                  <lb ed="#F" n="10"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1959-d1e137">
+                  <lb ed="#F" n="11"/>PRAETEREA QVONIAM. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1959-Dd1e144" type="decretales-l5t25c3">
+               <head xml:id="inleiv-d1e1959-Hd1e146">Caput 3</head>
+               <p xml:id="inleiv-d1e1959-d1e148">
+                  <lb ed="#F" n="12"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1959-d1e153">
+                  <lb ed="#F" n="13"/>PRAESENTIVM LATOR. 
+      <lb ed="#F" n="14"/>(Non percussit) &amp; hoc 
+      con<lb ed="#F" n="15" break="no"/>stabat, alias enim si dubium 
+      <lb ed="#F" n="16"/>esset, repelleretur. 24. qo. vlt. 
+      <lb ed="#F" n="17"/>c. vlt. imo suae conscientiae 
+      re<lb ed="#F" n="18" break="no"/>linquendum est. 2. de homi. petitio. &amp; c. 
+      <lb ed="#F" n="19"/>tua. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1959-Dd1e172" type="decretales-l5t25c4">
+               <head xml:id="inleiv-d1e1959-Hd1e174">Caput 4</head>
+               <p xml:id="inleiv-d1e1959-d1e176">
+                  <lb ed="#F" n="20"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e1959-d1e181">
+                  <lb ed="#F" n="21"/>PONTINENTIAM. (
+      Con<lb ed="#F" n="22" break="no"/>silio) tamen non potest dici, 
+      <lb ed="#F" n="23"/>quin praestiterit auxilium, 
+      <lb ed="#F" n="24"/>quia eo ipso, quod armatus 
+      <lb ed="#F" n="25"/>erat cum occisoribus, aliquod 
+      <lb ed="#F" n="26"/>auxilium praestari dicendum est, &amp; quia 
+      <lb ed="#F" n="27"/>pugnauit cum alijs, si autem non 
+      pugnas<lb ed="#F" n="28" break="no"/>set, sed a longe stetisset, cum iusta esset 
+      <lb ed="#F" n="29"/>pugna, nullatens teneretur. Vel dic, quod 
+      <lb ed="#F" n="30"/>hic nullo casu dicitur irregularitatem 
+      <lb ed="#F" n="31"/>contraxisse. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

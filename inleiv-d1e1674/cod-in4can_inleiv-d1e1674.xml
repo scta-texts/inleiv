@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 21</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 21</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="485-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1674" type="decretales-l4t21">
+            <head xml:id="inleiv-d1e1674-Hd1e98">Titulus 21</head>
+            <p xml:id="inleiv-d1e1674-d1e100">
+               <lb ed="#F" n="29"/>TITVLVS XXI 
+      <lb ed="#F" n="30"/>DE SECVNDIS 
+      <lb ed="#F" n="31"/>NVPTIIS. 
+      </p>
+            <div xml:id="inleiv-d1e1674-Dd1e109" type="decretales-l4t21c1">
+               <head xml:id="inleiv-d1e1674-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1674-d1e113">
+                  <lb ed="#F" n="32"/>CAPVT 1 
+      </p>
+               <p xml:id="inleiv-d1e1674-d1e118">
+                  <lb ed="#F" n="33"/>CAPELLANVM QVEM.
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1674-Dd1e124" type="decretales-l4t21c2">
+               <head xml:id="inleiv-d1e1674-Hd1e126">Caput 2</head>
+               <p xml:id="inleiv-d1e1674-d1e128">
+                  <lb ed="#F" n="34"/>CAPVT II
+      </p>
+               <p xml:id="inleiv-d1e1674-d1e133">
+                  <lb ed="#F" n="35"/>DOMINVS AC 
+      REDEM<lb ed="#F" n="36" break="no"/>ptor. (Certitudine) &amp; 
+      infal<lb ed="#F" n="37" break="no"/>slibili, fedhabita 
+      praesumptio<lb ed="#F" n="38" break="no"/>ne propter longinquitatem 
+      <lb ed="#F" n="39"/>temporis, testimonium 
+      ma<lb ed="#F" n="40" break="no"/>gistri exercitus, &amp; militum in his requi¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="41"/>rendum est. ff. de diuor. vxores. C. de repu. 
+      <lb ed="#F" n="42"/>Authent. hodie. 3. de sponsa. in praesentia. 5. 
+      <lb ed="#F" n="43"/>vt lit. non conte. quoniam. §. quod sic. Vel 
+      <lb ed="#F" n="44"/>dic quod nunquam licet nubere, nisi 
+      pri<lb ed="#F" n="45" break="no"/>us receperit certum nuncium de morte 
+      <lb ed="#F" n="46"/>viri, vt in praecedenti decre. (Seruauit) in 
+      <lb ed="#F" n="47"/>praeterito, in futurum enim non habet, 
+      ni<lb ed="#F" n="48" break="no"/>si habito certo nuncio de morte viri. sup. 
+      <lb ed="#F" n="49"/>de spons. in praesentia. sed &amp; si in futurum 
+      <lb ed="#F" n="50"/>fieret idem seruandum esset (dubitandum)
+      <lb ed="#F" n="51"/>probabiliter. inf. de sen. excom. 
+      inquisi<lb ed="#F" n="52" break="no"/>tioni. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1674-Dd1e178" type="decretales-l4t21c3">
+               <head xml:id="inleiv-d1e1674-Hd1e180">Caput 3</head>
+               <p xml:id="inleiv-d1e1674-d1e182">
+                  <lb ed="#F" n="53"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1674-d1e187">
+                  <lb ed="#F" n="54"/>VIR AVTEM VEL MVLIER. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1674-Dd1e194" type="decretales-l4t21c4">
+               <head xml:id="inleiv-d1e1674-Hd1e196">Caput 4</head>
+               <p xml:id="inleiv-d1e1674-d1e198">
+                  <lb ed="#F" n="55"/>CAPVT IIII. 
+      <lb ed="#F" n="56"/>SVPER ILLA OVAESTIONE. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1674-Dd1e206" type="decretales-l4t21c5">
+               <head xml:id="inleiv-d1e1674-Hd1e208">Caput 5</head>
+               <p xml:id="inleiv-d1e1674-d1e210">
+                  <lb ed="#F" n="57"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1674-d1e215">
+                  <lb ed="#F" n="58"/>CVM SECVNDVM 
+      Apo<lb ed="#F" n="59" break="no"/>stolum. (Infamia) non 
+      so<lb ed="#F" n="60" break="no"/>lum credimus non teneri 
+      in<lb ed="#F" n="61" break="no"/>famia, sed nec alijs poenis, 
+      <lb ed="#F" n="62"/>quae irrogantur, quia nupsit 
+      <lb ed="#F" n="63"/>intra tempus luctus, quae continentur. C. 
+      <lb ed="#F" n="64"/>de secun. nup. l. 1. &amp; 2. sed poenas quas 
+      susti<lb ed="#F" n="65" break="no"/>net, quia secundo nupsit, non euitat quae 
+      <lb ed="#F" n="66"/>continentur. C. de secun. nup. hac aedictali. 
+      <lb ed="#F" n="67"/>&amp; l. vlti. &amp; l. foeminae. &amp; expresse habes. 5. 
+      <lb ed="#F" n="68"/>de pig. cum constet. Authent. de nup. §. 
+      <lb ed="#F" n="69"/>quia vero hactenus. &amp;. §. si vero ex. Ratio 
+      <lb ed="#F" n="70"/>diuersitatis est, quia poenae impositae 
+      nu<lb ed="#F" n="71" break="no"/>bentibus intra tempus luctus sunt merae 
+      <lb ed="#F" n="72"/>poenae, &amp; ideo omnes poenas a legibus 
+      pro<lb ed="#F" n="73" break="no"/>pter hoc inflictas, tolli credimus, sicut in¬t 
+      <lb ed="#F" n="74"/>famiam, sed poena quae imponitur 
+      secun<lb ed="#F" n="75" break="no"/>do nubentibus non est mera poena, imo est 
+      <lb ed="#F" n="76"/>prouisio illorum, &amp; ideo non tollitur hec 
+      <lb ed="#F" n="77"/>poena per canonem, sic etiam non credimus c 
+      <lb ed="#F" n="78"/> atolli poenas impositas illi qui contra 
+      pro<lb ed="#F" n="79" break="no"/>prium iuramentum nubit, recepta tutele 
+      <lb ed="#F" n="80"/>filiinon reddita ratione. C. ad Tertul. omnem. 
+      <lb ed="#F" n="81"/>in Authent. de nup. §. sin autem tutelis. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

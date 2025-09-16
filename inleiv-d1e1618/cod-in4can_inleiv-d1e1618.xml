@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 16</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 16</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="478-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1618" type="decretales-l4t16">
+            <head xml:id="inleiv-d1e1618-Hd1e98">Titulus 16</head>
+            <p xml:id="inleiv-d1e1618-d1e100">
+               <lb ed="#F" n="8"/>TITVLVS XVI. 
+      <lb ed="#F" n="9"/>DE MATRIMONIO 
+      <lb ed="#F" n="10"/>CONTRACTO CONTRA 
+      <lb ed="#F" n="11"/>interdictum ecclesiae. 
+      </p>
+            <div xml:id="inleiv-d1e1618-Dd1e111" type="decretales-l4t16c1">
+               <head xml:id="inleiv-d1e1618-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1618-d1e115">
+                  <lb ed="#F" n="12"/>CAPVT 1. 
+      <lb ed="#F" n="13"/>1 Pater nominefuliorum an posuit sponsilia 
+      con<lb ed="#F" n="14" break="no"/>trabere. 
+      </p>
+               <p xml:id="inleiv-d1e1618-d1e124">
+                  <lb ed="#F" n="15"/>LITERAE QVAS. (
+      Consen<lb ed="#F" n="16" break="no"/>tiente) expresse. iam tunc 
+      si<lb ed="#F" n="17" break="no"/>cut per quemlibet 
+      procura<lb ed="#F" n="18" break="no"/>torem sponsalia contrahi 
+      <lb ed="#F" n="19"/>possunt. ff. de spon. l. vlti. ibi 
+      <lb ed="#F" n="20"/>per fratrem, aliter autem, nisi consentiret 
+      <lb ed="#F" n="21"/>soror non crederem contracta sponsalia. 
+      <lb ed="#F" n="22"/>Arg. contra. sup. de spons. ad id. sed 
+      expo<lb ed="#F" n="23" break="no"/>t ne vt ibi. Pater autem nomine filiorum tam 
+      <lb ed="#F" n="24"/>constitutorum in potestate, quam 
+      eman<lb ed="#F" n="25" break="no"/>cipatorum sponsalia contrahere potest, 
+      <lb ed="#F" n="26"/>dummodo praesens sit filius, &amp; non 
+      contra<lb ed="#F" n="27" break="no"/>dicat. ff. de spon. sed quae. &amp; l. seq. C. de nup. 
+      <lb ed="#F" n="28"/>viduae. sup. de spon. sicut. &amp; c. dilectus. inf. 
+      <lb ed="#F" n="29"/>c. proxi. in tutore autem secus. C. de spon. 
+      <lb ed="#F" n="30"/>si pater. (firmasset) ista sunt sponsalia de 
+      <lb ed="#F" n="31"/>futuro (amplexata) No. per signa 
+      consen<lb ed="#F" n="32" break="no"/>sus non praesumi sponsalia fieri 
+      matrimo<lb ed="#F" n="33" break="no"/>nium, nisi cognosceret eam. sup. de spon. 
+      <lb ed="#F" n="34"/>is qui. &amp; not. de despon. impub. 
+      attestatio<lb ed="#F" n="35" break="no"/>nes. (contemptibile) argument. multa 
+      fa<lb ed="#F" n="36" break="no"/>cienda pro vilitate vitanda. 34. distin. c. 1. 
+      <lb ed="#F" n="37"/>8. quaestio. 1. sciendum. 11. quaestio. 3. si 
+      au<lb ed="#F" n="38" break="no"/>tem. &amp; c. quid ergo. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1618-Dd1e180" type="decretales-l4t16c2">
+               <head xml:id="inleiv-d1e1618-Hd1e182">Caput 2</head>
+               <p xml:id="inleiv-d1e1618-d1e184">
+                  <lb ed="#F" n="39"/>CAPVT II. 
+      <lb ed="#F" n="40"/>EX LITERIS. (Desponsasset) 
+      <lb ed="#F" n="41"/>haec fuerunt sponsalia de 
+      fu<lb ed="#F" n="42" break="no"/>turo. (Interdixit) Not. 
+      iudi<lb ed="#F" n="43" break="no"/>cem a quo appellatum est, 
+      <lb ed="#F" n="44"/>post appellationem suam 
+      in<lb ed="#F" n="45" break="no"/>terdicta ponere, &amp; super eo de quo 
+      appel<lb ed="#F" n="46" break="no"/>latum est, &amp; est hoc propter periculum 
+      ani<lb ed="#F" n="47" break="no"/>marum, &amp; in fauorem matrimonij, aliter 
+      <lb ed="#F" n="48"/>enim secus, nisi in casibus, quos not. sup. 
+      <lb ed="#F" n="49"/>de appel. cum teneamur. Alii 
+      con<lb ed="#F" n="50" break="no"/>tradicunt quod hoc tantum 
+      <lb ed="#F" n="51"/>potest ordinarius, &amp; non 
+      <lb ed="#F" n="52"/>delegatus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

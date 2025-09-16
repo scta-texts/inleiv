@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 34</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 34</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="161-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e428" type="decretales-l1t34">
+            <head xml:id="inleiv-d1e428-Hd1e98">Titulus 34</head>
+            <p xml:id="inleiv-d1e428-d1e100">
+               <lb ed="#F" n="81"/>TITVLVS XXXIIII. 
+      <lb ed="#F" n="82"/>DE TREVGA ET PAC 
+      </p>
+            <div xml:id="inleiv-d1e428-Dd1e107" type="decretales-l1t34c1">
+               <head xml:id="inleiv-d1e428-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e428-d1e111">
+                  <lb ed="#F" n="83"/>CAPVT I. 
+      <lb ed="#F" n="84"/>Treuga canonica conuentionalis semper est 
+      <lb ed="#F" n="85"/>seruanda.
+      </p>
+               <p xml:id="inleiv-d1e428-d1e120">
+                  <lb ed="#F" n="86"/>TREVGAS. Haec treuga 
+      ca<lb ed="#F" n="87" break="no"/> nonica conuentionalis semper 
+      <lb ed="#F" n="88"/>seruanda est. 24. q. 1. noli. ff. de 
+      <lb ed="#F" n="89"/>pac. conuen. &amp; intelligo hoc 
+      <lb ed="#F" n="90"/>de iusto bello, quod licet 
+      om<lb ed="#F" n="91" break="no"/>ni tempore, licite possit fieri, non tamem his 
+      <lb ed="#F" n="92"/>temporibus est cessandum, nisi vrgeat 
+      ne<lb ed="#F" n="93" break="no"/>cessitas. 23. q. vlti. si nulla. vel loquitur de 
+      <lb ed="#F" n="94"/>bello iniusto, a quo licet sit semper 
+      absti<lb ed="#F" n="95" break="no"/>nendum, quia tamen de facto non semper 
+      <lb ed="#F" n="96"/>prohibetur, tamem his diebus fortius 
+      insta<lb ed="#F" n="97" break="no"/>bunt praelati pro treugis, nec peccant 
+      ho<lb ed="#F" n="98" break="no"/>die praelati, qui non seruant istam 
+      consti<lb ed="#F" n="99" break="no"/>tutionem, quia non fuit moribus 
+      vtenti<lb ed="#F" n="100" break="no"/>um approbata. 4. distinct. §. leges. potest 
+      <lb ed="#F" n="101"/>etiam dici hic loqui quando est dubium, 
+      <lb ed="#F" n="102"/>an sit iustum, vel iniustum bellum. 23. q. 4 
+      <lb ed="#F" n="103"/>illi qui. (Confirmet) id est, publice denum 
+      <lb ed="#F" n="104"/>ciet. sup. de offic. leg. studuisti. vbi de hoc 
+      <lb ed="#F" n="105"/>no. (Triplex) primus est proprii episcopi 
+      <lb ed="#F" n="106"/>excommunicatio. Secundus 
+      episcopo<lb ed="#F" n="107" break="no"/>rum vicinorum confirmatio. Tertius 
+      au<lb ed="#F" n="108" break="no"/>xilii eorundem adiectio (rumpitur) C. de 
+      <lb ed="#F" n="109"/>suc. Authen. itaque. ff. de lib. leg. l. 3. in fi. 
+      <lb ed="#F" n="110"/>(Praebeant) 9o. dist. c. pen. &amp; vlti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e428-Dd1e178" type="decretales-l1t34c2">
+               <head xml:id="inleiv-d1e428-Hd1e180">Caput 2</head>
+               <p xml:id="inleiv-d1e428-d1e182">
+                  <pb ed="#F" n="161-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e428-d1e191">
+                  <lb ed="#F" n="2"/>NNOVAMVS. (Vt 
+      presby<lb ed="#F" n="3" break="no"/>teri.) 24. quaestio. 3. si quis 
+      <lb ed="#F" n="4"/>Romipetas. (Existentes) in 
+      <lb ed="#F" n="5"/>agricultura enim tantum 
+      exi<lb ed="#F" n="6" break="no"/>stentes gaudent priuilegio. 
+      <lb ed="#F" n="7"/>C. quibus non ob. lon. temp. prae. l. vlt. 
+      ani<lb ed="#F" n="8" break="no"/>malia autem semper. argumen. C. quaeres 
+      <lb ed="#F" n="9"/>pigno. l. pignorum. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

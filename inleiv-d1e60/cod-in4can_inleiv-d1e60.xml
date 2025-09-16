@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 1</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 1</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="1-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e60" type="decretales-l1t1">
+        <head xml:id="inleiv-d1e60-Hd1e98">Titulus 1</head>
+        <p xml:id="inleiv-d1e60-d1e100">
+          <lb ed="#F" n="55"/>TITVLVS I 
+          <lb ed="#F" n="56"/>DE SVMMA 
+          TRI<lb ed="#F" n="57" break="no"/>NITATE ET FIDE 
+          <lb ed="#F" n="58"/>catholica. 
+        </p>
+        <div xml:id="inleiv-d1e60-Dd1e111" type="decretales-l1t1c1">
+          <head xml:id="inleiv-d1e60-Hd1e113">Caput 1</head>
+          <p xml:id="inleiv-d1e60-d1e115">
+            <lb ed="#F" n="59"/>CAPVT I. 
+            <lb ed="#F" n="60"/>1 Fidei mensura quaedam est, ad quam quilibet 
+            <lb ed="#F" n="61"/>tenetur, sicut est credere Deum esse: 
+            ar<lb ed="#F" n="62" break="no"/>ticulos autem fidei implicite tenentur 
+            <lb ed="#F" n="63"/>credere rudes. 
+            <lb ed="#F" n="64"/>2 Ecclesiarum praelati &amp; animarum rectores 
+            <lb ed="#F" n="65"/>fidei articulos explicite scire debent, deo 
+            <lb ed="#F" n="66"/>eis omni poscenti rationem reddere. 
+            <lb ed="#F" n="67"/>3 Papa &amp; superiores praeleti possunt 
+            dispensa<lb ed="#F" n="68" break="no"/>tiue, certis ex causis minus literatos in 
+            <lb ed="#F" n="69"/>temporalibus sustinere. 
+            <lb ed="#F" n="70"/>Clericis ab paupertatem non ualentibus 
+            <lb ed="#F" n="71"/>studio pvcere, an sufficiat scire sicut 
+            <lb ed="#F" n="72"/>simplicibus laicis: &amp; in quibus casibus 
+            <lb ed="#F" n="73"/>non excusentur. 
+            <lb ed="#F" n="74"/>5 An liceat clericis iuris scientiam seu 
+            quam<lb ed="#F" n="75" break="no"/>libet aliam, fidei cognitioni 
+            praepo<lb ed="#F" n="76" break="no"/>nere 
+            <lb ed="#F" n="77"/>6 Laici melius faciunt, si intendunt ingenium 
+            <lb ed="#F" n="78"/>fidei cognitioni, quam caeteris scientiis, 
+            <lb ed="#F" n="79"/>licet non peccent vacando aliis 
+            discipli<lb ed="#F" n="80" break="no"/>nis. 
+            <lb ed="#F" n="81"/>2 Fides implicita quantum &amp; qualem habeas 
+            <lb ed="#F" n="82"/>vim.
+          </p>
+          <p xml:id="inleiv-d1e60-d1e170">
+            <lb ed="#F" n="83"/>IRMITER CREDIMVS. 
+            <lb ed="#F" n="84"/>De fide teneas, quia 
+            quae<lb ed="#F" n="85" break="no"/>dam est fidei mensura ad quam 
+            <lb ed="#F" n="86"/>quilibet tenetur, &amp; quae 
+            suf<lb ed="#F" n="87" break="no"/>ficit simplicibus, &amp; etiam forte 
+            <lb ed="#F" n="88"/>omnibus laicis, scilicet, quia oportet 
+            quem<lb ed="#F" n="89" break="no"/>libet adultum accedentem ad fidem 
+            cre<lb ed="#F" n="90" break="no"/>dere quia Deus est, &amp; quod est 
+            remunera<lb ed="#F" n="91" break="no"/>tor omnium bonorum. Item oporter 
+            ali<lb ed="#F" n="92" break="no"/>os articulos credere implicite, id est, 
+            cre<lb ed="#F" n="93" break="no"/>dere verum esse, quicquis credit ecclesia 
+            <lb ed="#F" n="94"/>catholica.
+          </p>
+          <p xml:id="inleiv-d1e60-d1e199">
+            <lb ed="#F" n="95"/>Hanc autem mensuram extendere 
+            <lb ed="#F" n="96"/>debent praelati ecclesiarum, quicunque 
+            cu<lb ed="#F" n="97" break="no"/>ram animarum habent, quia debent scire 
+            <lb ed="#F" n="98"/>articulos fidei explicite &amp; distincte, qui 
+            <lb ed="#F" n="99"/>continentur in symbolo, scilicet credo in 
+            <lb ed="#F" n="100"/>vnum Deum, &amp; quicunq vult. 38 dist. c. 1 
+            <lb ed="#F" n="101"/>&amp; 2. &amp; c. seq. Episcopi enim plus scire 
+            de<lb ed="#F" n="102" break="no"/>bent, quia de eis scire debent reddere 
+            rati<lb ed="#F" n="103" break="no"/>onem omni poscenti, 36. dist. §. ecce. 38 
+            <lb ed="#F" n="104"/>dist. omnes non tamen dicimus, quod 
+            in<lb ed="#F" n="105" break="no"/>continenti teneantur praedicti de omnibus 
+            <lb ed="#F" n="106"/>respondere, sed praehabita deliberatione, 
+            <lb ed="#F" n="107"/>&amp; etiam si oportuerit cum consilio 
+            alio<lb ed="#F" n="108" break="no"/>rum. 
+          </p>
+          <p xml:id="inleiv-d1e60-d1e232">
+            <lb ed="#F" n="109"/>3 Non negamus tamen, quin Papa &amp; 
+            <lb ed="#F" n="110"/>alii superiores praelati, possint 
+            dispen<lb ed="#F" n="111" break="no"/>satiue ex certis causis, minus literatos, 
+            <lb ed="#F" n="112"/>&amp; minus industrioso: in temporalibus 
+            <pb ed="#F" n="2-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>sustinere. inf. de renun. nisi cum. §. pro 
+            de<lb ed="#F" n="2" break="no"/>fectu. De clericis autem inferioribus satis 
+            <lb ed="#F" n="3"/>videtur, quod si essent pauperes, qui non 
+            <lb ed="#F" n="4"/>possent intendere studio, qui non habent 
+            <lb ed="#F" n="5"/>magistros vel expensas, quia oportet eis 
+            <lb ed="#F" n="6"/>propriis manibus quaerere victum, quod eis 
+            <lb ed="#F" n="7"/>sufficiat scire sicut simplicibus laicis, 
+            <lb ed="#F" n="8"/>&amp; aliquantulum plus sicut de 
+            sacramen<lb ed="#F" n="9" break="no"/>to altaris, quia oportet eos credere quod 
+            <lb ed="#F" n="10"/>in sacramento altaris conficitur verum 
+            <lb ed="#F" n="11"/>corpus Christi, &amp; hoc ideo, quia circa 
+            il<lb ed="#F" n="12" break="no"/>lud quotidie &amp; continue versantur plus, 
+            <lb ed="#F" n="13"/>quam laici. Si autem haberent magistros 
+            <lb ed="#F" n="14"/>&amp; expensas ad discendum, tunc 
+            pecca<lb ed="#F" n="15" break="no"/>rent, nisi plus proficerent in cognitione 
+            <lb ed="#F" n="16"/>distincta fidei, quam laici, debent tamen 
+            <lb ed="#F" n="17"/>ab eo qui imponit eis poenitentiam de 
+            <lb ed="#F" n="18"/>ignorantia, vel potius de negligentia 
+            sci<lb ed="#F" n="19" break="no"/>endi scrutari, vt diligenter attendant, 
+            <lb ed="#F" n="20"/>quare in eis non proficiunt, vel propter, 
+            <lb ed="#F" n="21"/>duritiam ingenii, vel quia eos oportuit 
+            <lb ed="#F" n="22"/>circa alia opera charitatis intendere, 
+            pu<lb ed="#F" n="23" break="no"/>ta circa exhibita necessaria confratribus 
+            <lb ed="#F" n="24"/>suis, vel pauperibus, vel hospitibus, &amp; idem 
+            <lb ed="#F" n="25"/>dicendum est de alijs operibus bonis. Nam 
+            <lb ed="#F" n="26"/>eum non teneantur ad explicitam 
+            cogni<lb ed="#F" n="27" break="no"/>tionem articulorum. bene licet clericis 
+            il<lb ed="#F" n="28" break="no"/>lis explicite cognitioni postponere alia 
+            <lb ed="#F" n="29"/>opera pietatis. 
+          </p>
+          <p xml:id="inleiv-d1e60-d1e311">
+            <lb ed="#F" n="30"/>Item etiam ex causa possunt illi 
+            sci<lb ed="#F" n="31" break="no"/>entiae praeponere alias sententias, vt si 
+            ve<lb ed="#F" n="32" break="no"/>lint addiscere scientiam iuris, vt 
+            paupe<lb ed="#F" n="33" break="no"/>res in iudicio defendant, ne opprimantur, 
+            <lb ed="#F" n="34"/>non peccant, tamen reperimus, quod non 
+            <lb ed="#F" n="35"/>debent ita praeponere scientiam 
+            cogni<lb ed="#F" n="36" break="no"/>tioni fidei quin in ea proficiant, &amp; bene 
+            <lb ed="#F" n="37"/>videtur quod semper plus deberent 
+            inten<lb ed="#F" n="38" break="no"/>dere circa cognitionem praedictorum, quam 
+            <lb ed="#F" n="39"/>circa cognitionem iuris, postquam 
+            expen<lb ed="#F" n="40" break="no"/>sas habeant ab ecclesia, nisi in 
+            contrari<lb ed="#F" n="41" break="no"/>um eos iusta causa moueat. 
+          </p>
+          <p xml:id="inleiv-d1e60-d1e340">
+            <lb ed="#F" n="42"/>Item videtur, quod etiam laici 
+            qui<lb ed="#F" n="43" break="no"/>bus Deus dat talentum subtilis ingenij, quod 
+            <lb ed="#F" n="44"/>melius faciunt, si suum ingenium 
+            impen<lb ed="#F" n="45" break="no"/>dant in cognitione praedictorum, 
+            quam<lb ed="#F" n="46" break="no"/>uis non videatur, quod peccant etiamsi 
+            <lb ed="#F" n="47"/>eis non intendant. Videtur autem eis 
+            suf<lb ed="#F" n="48" break="no"/>ficere quod talenta sibi credita non 
+            abscon<lb ed="#F" n="49" break="no"/>dant in terra, id est, in terrenis, sed bonis 
+            <lb ed="#F" n="50"/>operibus, insistant in tantum autem 
+            va<lb ed="#F" n="51" break="no"/>let implicita fides vt dicunt quidam, 
+            <lb ed="#F" n="52"/>quod si aliquis eam habet, scilicet, 
+            <lb ed="#F" n="53"/>quod credit quicquid ecclesia credit, sed 
+            <lb ed="#F" n="54"/>falso opinatur ratione naturali motus, quod 
+            <lb ed="#F" n="55"/>pater maior vel prior sit filio, vel quod 
+            <lb ed="#F" n="56"/>personae sunt, tres res a se inuicem 
+            di<lb ed="#F" n="57" break="no"/>stinctae, quod non est haereticus, nec pec¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="58"/>cat, dum modo hunc errore suum non 
+            defen<lb ed="#F" n="59" break="no"/>dat, &amp; hoc ipsum credit, quia credit 
+            eccle<lb ed="#F" n="60" break="no"/>siam sic credere, &amp; suam opinionem fidei 
+            ec<lb ed="#F" n="61" break="no"/>clesiae supponit, quia licet male opinetur,  
+            <lb ed="#F" n="62"/>tamen non est fide sua, imo fides sua fides  
+            <lb ed="#F" n="63"/>est ecclesiae, inf. eo. damnatus. circa finem.  
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e60-Dd1e393" type="decretales-l1t1c2">
+          <head xml:id="inleiv-d1e60-Hd1e395">Caput 2</head>
+          <p xml:id="inleiv-d1e60-d1e397">
+            <lb ed="#F" n="64"/>CAPVT II. 
+            <lb ed="#F" n="65"/>De fide publice disceptare non licet, 
+            excusa<lb ed="#F" n="66" break="no"/>retur tamen quia, si ad haereticorum confusionem, 
+            <lb ed="#F" n="67"/>vel ad veritatem elucidandum disputaret.
+          </p>
+          <p xml:id="inleiv-d1e60-d1e408">
+            <lb ed="#F" n="68"/>DAMNAMVS ERGO. 
+            (De<lb ed="#F" n="69" break="no"/>fendere) hoc enim 
+            nullate<lb ed="#F" n="70" break="no"/>nus licet, imo quod plus est, nec  
+            <lb ed="#F" n="71"/>disputare de fide licet 
+            publi<lb ed="#F" n="72" break="no"/>ce turbis coadunatis causa 
+            <lb ed="#F" n="73"/>tumultus, vel suae profidiae defendendae. C. de 
+            <lb ed="#F" n="74"/>fide catho. l. penul. Si autem ad 
+            confusio<lb ed="#F" n="75" break="no"/>nem haereticorum, vel ad veritatem 
+            clarifican<lb ed="#F" n="76" break="no"/>dam disputaret aliquis, non crederem 
+            ma<lb ed="#F" n="77" break="no"/>lum vt fecit Siluester Papa. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

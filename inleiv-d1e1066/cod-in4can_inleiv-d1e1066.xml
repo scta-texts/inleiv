@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 17</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 17</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="391-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1066" type="decretales-l3t17">
+            <head xml:id="inleiv-d1e1066-Hd1e98">Titulus 17</head>
+            <p xml:id="inleiv-d1e1066-d1e100">
+               <lb ed="#F" n="95"/>TITVLVS XVII 
+      <lb ed="#F" n="96"/>DE EMPTIONE 
+      <lb ed="#F" n="97"/>VENDITIONE 
+      </p>
+            <div xml:id="inleiv-d1e1066-Dd1e109" type="decretales-l3t17c1">
+               <head xml:id="inleiv-d1e1066-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1066-d1e113">
+                  <lb ed="#F" n="98"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e118">
+                  <lb ed="#F" n="99"/>PLACVIT. (Admoneant) &amp; 
+      <lb ed="#F" n="100"/>si necesse fuerit compellant. 
+      <lb ed="#F" n="101"/>42. distin. §. hic etiam 
+      secun<lb ed="#F" n="102" break="no"/>dum Alanum, sed nos 
+      con<lb ed="#F" n="103" break="no"/>ra, nisi esset notorium, quia 
+      <lb ed="#F" n="104"/>tunc posset excommunicare, nisi 
+      emen<lb ed="#F" n="105" break="no"/>daretur, vel interdiceret nocentes. (Iussu) 
+      <lb ed="#F" n="106"/>nota defensionem peregrinorum 
+      perti<lb ed="#F" n="107" break="no"/>nere ad ecclesiam &amp; ad quoslibet 
+      sacer<lb ed="#F" n="108" break="no"/>dotes. Alii contra. de episcop. audi. l. 
+      <lb ed="#F" n="109"/>prima. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e145" type="decretales-l3t17c2">
+               <head xml:id="inleiv-d1e1066-Hd1e147">Caput 2</head>
+               <p xml:id="inleiv-d1e1066-d1e149">
+                  <pb ed="#F" n="392-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e158">
+                  <lb ed="#F" n="2"/>ET MENSVRAE. (Poeniteat) Et 
+      pn<lb ed="#F" n="3" break="no"/>nitur per l. Cor. de fal. &amp; ff. de var. &amp;c 
+      <lb ed="#F" n="4"/>extraor. cog. nouerit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e168" type="decretales-l3t17c3">
+               <head xml:id="inleiv-d1e1066-Hd1e170">Caput 3</head>
+               <p xml:id="inleiv-d1e1066-d1e172">
+                  <lb ed="#F" n="5"/>CAPVT III. 
+      <lb ed="#F" n="6"/>1 contratuus ftnt non potest freri ab initio fne 
+      <lb ed="#F" n="7"/>solennitate, ita nec ratum haberi. 
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e181">
+                  <lb ed="#F" n="8"/>CVM DILECTI. (Tunc. 
+      <lb ed="#F" n="9"/>Tempore venditionis, quod 
+      <lb ed="#F" n="10"/>spectandum est. ff. de euict. 
+      <lb ed="#F" n="11"/>ex mille. §. 3. C. de rei vendi. 
+      <lb ed="#F" n="12"/>si voluntate. (arbitrio) C. de 
+      <lb ed="#F" n="13"/>rei vend. l. 2. Contrariam) sed nonne hoc 
+      <lb ed="#F" n="14"/>ipso, quod capitulo ignorante factum est, 
+      <lb ed="#F" n="15"/>nulla erat venditio, &amp; sic non erat 
+      neces<lb ed="#F" n="16" break="no"/>saria restitutio in integrum: 
+      Responde<lb ed="#F" n="17" break="no"/>mus licet dicetur capitulum ignorasse non 
+      <lb ed="#F" n="18"/>probabatur, vel non fuit actum, nisi ex hac 
+      <lb ed="#F" n="19"/>causa, quia deceptus erat vltra medium 
+      <lb ed="#F" n="20"/>iusti pretij, vnde primo soluatur capitulo, 
+      <lb ed="#F" n="21"/>si velit dicere contractum nullum propter 
+      <lb ed="#F" n="22"/>consensum capituli non habitum, quod 
+      <lb ed="#F" n="23"/>dicere possunt. Qui enim quod ex vna 
+      <lb ed="#F" n="24"/>causa petit, non prohibetur petere ex alia. 
+      <lb ed="#F" n="25"/>ff. de excep. rei iudi. &amp; an eadem. C. de 
+      in<lb ed="#F" n="26" break="no"/>offi. test. eum qui. Sed dices nonne 
+      agen<lb ed="#F" n="27" break="no"/>do ex empto videtur ratum habuisse 
+      con<lb ed="#F" n="28" break="no"/>tractum, ergo decaetero non potest dicere 
+      <lb ed="#F" n="29"/>nullum. C. de furt. l. 1. ff. de tribu. quod in 
+      hae<lb ed="#F" n="30" break="no"/>1 red. S.eligere. Sed respondemus,  quod 
+      sic<lb ed="#F" n="31" break="no"/>ut ab initio non potest fieri contractus 
+      <lb ed="#F" n="32"/>sine solennitate, quae est. 12. questio. 2. sine 
+      <lb ed="#F" n="33"/>ex. sic nec ratum haberi, haec sententia 
+      <lb ed="#F" n="34"/>fuit iusta, quia non constabat de pretii 
+      <lb ed="#F" n="35"/>quantitate, si enim de ea constitisset, tunc 
+      <lb ed="#F" n="36"/>debuisset mandare, quod sententiaretur 
+      <lb ed="#F" n="37"/>in optione esse emptoris, an vellet pretium 
+      <lb ed="#F" n="38"/>recipere, &amp; rem emptam dimittere 
+      ven<lb ed="#F" n="39" break="no"/>ditori, an vellet rem retinere, &amp; pretium 
+      <lb ed="#F" n="40"/>supplere, vt hic dicit, &amp; ideo expone 
+      ver<lb ed="#F" n="41" break="no"/>bum, quod sequitur, salua quaestione 
+      ca<lb ed="#F" n="42" break="no"/>nonis super deceptione pretij, id est, super 
+      <lb ed="#F" n="43"/>quantitate pretij. argument. sup. de test. 
+      <lb ed="#F" n="44"/>cum causa. iudex enim supplere, &amp; 
+      emen<lb ed="#F" n="45" break="no"/>dare debet sententiam. inf. de test. 
+      Rainu<lb ed="#F" n="46" break="no"/>tius. in fi. de consensu autem capituli 
+      be<lb ed="#F" n="47" break="no"/>ne facit, quod illud reseruat, quia de illo 
+      <lb ed="#F" n="48"/>non potuit iudicare, quia non fuit petita 
+      <lb ed="#F" n="49"/>reuocatio contractus ex illa causa, per 
+      of<lb ed="#F" n="50" break="no"/>ficium autem iudices, antequam 
+      incipe<lb ed="#F" n="51" break="no"/>ret cognoscere de appellatione, an esset 
+      <lb ed="#F" n="52"/>iusta, vel iniusta, bene poterat mandare, 
+      <lb ed="#F" n="53"/>quod res translata in alterutram partium, 
+      <lb ed="#F" n="54"/>post appellationem reuocaretur in 
+      pri<lb ed="#F" n="55" break="no"/>mum statum, vt not. sup. de excep. 
+      di<lb ed="#F" n="56" break="no"/>lectae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e292" type="decretales-l3t17c4">
+               <head xml:id="inleiv-d1e1066-Hd1e294">Caput 4</head>
+               <p xml:id="inleiv-d1e1066-d1e296">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e303">
+                  <lb ed="#F" n="58"/>PERVENIT AD NOS. 
+      <lb ed="#F" n="59"/>(Vero.) C. ad velle. Authen. 
+      <lb ed="#F" n="60"/>siue a me. (per 30.) hoc enim 
+      <lb ed="#F" n="61"/>non prodest, cum tempore 
+      <lb ed="#F" n="62"/>matrimonii non currat ei 
+      <lb ed="#F" n="63"/>praescriptio in rebus mariti. C. de iure do. 
+      <lb ed="#F" n="64"/>in rebus. C. de praescrip. 30. anno. cum not. 
+      <lb ed="#F" n="65"/>§. illum. C. de anna. excep. l. 1. §. vlti. nec 
+      <lb ed="#F" n="66"/>possunt alienari, nec etiam consentiente 
+      <lb ed="#F" n="67"/>vxore. C. ad velle. Authen. siue a me. In 
+      <lb ed="#F" n="68"/>communes) similiter nec hoc sufficit, cum 
+      <lb ed="#F" n="69"/>saltem pro parte viri, vel id, quod in vsum 
+      <lb ed="#F" n="70"/>viri cesserat, non debuerit computari. C. 
+      <lb ed="#F" n="71"/>ad velle. Authen. si qua mulier. &amp; nec 
+      et<lb ed="#F" n="72" break="no"/>iam pro parte mulieris, quia maritus de 
+      <lb ed="#F" n="73"/>suo, non de bonis mulieris eam alere 
+      de<lb ed="#F" n="74" break="no"/>bet. Consulere) nec hoc etiam ei 
+      prode<lb ed="#F" n="75" break="no"/>rat. argumen. inf. de dol. post di. re. per 
+      ve<lb ed="#F" n="76" break="no"/>stras. licet enim agere possit tunc. C. de 
+      <lb ed="#F" n="77"/>iure do. vbi non tamen cogitur. Dic ergo 
+      <lb ed="#F" n="78"/>mulierem ideo non potuisse venire 
+      con<lb ed="#F" n="79" break="no"/>tra eam, quia non debet de iure eam 
+      lu<lb ed="#F" n="80" break="no"/>crari post mortem mariti. C. de pact. com. 
+      <lb ed="#F" n="81"/>super do. l. pen. &amp; vlt. &amp; Aut hen. qualitas. 
+      <lb ed="#F" n="82"/>nisi pactum interuenisset. C. de rei vxo. 
+      <lb ed="#F" n="83"/>act. l. 1. §. illo proculdu. &amp; sic intelligitur. 
+      <lb ed="#F" n="84"/>Authen. C. ad velle. Authen. siue a me. Vel 
+      <lb ed="#F" n="85"/>dic, quod ratificauit eam per secundam 
+      <lb ed="#F" n="86"/>confessionem. ff. ad velle. siue me. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e369" type="decretales-l3t17c5">
+               <head xml:id="inleiv-d1e1066-Hd1e371">Caput 5</head>
+               <p xml:id="inleiv-d1e1066-d1e373">
+                  <lb ed="#F" n="87"/>CAPVT V.
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e378">
+                  <lb ed="#F" n="88"/>AD NOSTRAM. (Patet) 
+      <lb ed="#F" n="89"/>Praesumptiue sic. inf. de 
+      pi<lb ed="#F" n="90" break="no"/>gno. illo. (Dimidiam) haec 
+      so<lb ed="#F" n="91" break="no"/>la praesumptio sufficiebat, vt 
+      <lb ed="#F" n="92"/>iudicaretur fraudulenta, vel 
+      <lb ed="#F" n="93"/>vsura. argum. ff. de transact. cum hi. §. 
+      mo<lb ed="#F" n="94" break="no"/>dus. C. mandati. per diuersas. tamen hoc 
+      <lb ed="#F" n="95"/>sine prima nihil valet, scilicet, quod infra 
+      <lb ed="#F" n="96"/>certum tempus debet restituere empta 
+      <lb ed="#F" n="97"/>(pretii) praedictarum rerum venditarum. 
+      <lb ed="#F" n="98"/>(Poenam) inf. de vsur. quia in omnibus, sed 
+      <lb ed="#F" n="99"/>alias, &amp; poenas imponere potest. sup. de 
+      iu<lb ed="#F" n="100" break="no"/>reiur. ad nostram. inf. de vsuris. 
+      conque<lb ed="#F" n="101" break="no"/>stus. &amp; c. tuas. sed ab ista incipiendum est 
+      <lb ed="#F" n="102"/>sic. sup. vt lit. non contestat. quoniam. 
+      <lb ed="#F" n="103"/>infi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e416" type="decretales-l3t17c6">
+               <head xml:id="inleiv-d1e1066-Hd1e418">Caput 6</head>
+               <p xml:id="inleiv-d1e1066-d1e420">
+                  <lb ed="#F" n="104"/>CAPVT vI. 
+      <lb ed="#F" n="105"/>1 Deceptus vltra dimidium quis dicatur
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e427">
+                  <lb ed="#F" n="106"/>CVM CAVSA. (Recepto) C 
+      <lb ed="#F" n="107"/>de rei ven. l. 2. (Restituerent) 
+      <lb ed="#F" n="108"/>cum quis decipitur vltra 
+      di<lb ed="#F" n="109" break="no"/>midiam iusti pretii agi 
+      po<lb ed="#F" n="110" break="no"/>test, vt vel rescindatur 
+      con<lb ed="#F" n="111" break="no"/>tractus, vel suppleatur pretium actum ex 
+      
+      <pb ed="#F" n="392-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>contractu, &amp; sic agit perpetuo, quiaoens 
+      <lb ed="#F" n="2"/>actiones personales sunt perpetuae, vel 
+      con<lb ed="#F" n="3" break="no"/>dictione ex lege quae est. C. de rei vend. l. 2. 
+      <lb ed="#F" n="4"/>vel officio iudicis petita restitutione in 
+      <lb ed="#F" n="5"/>integrum intra quadriennium. tantum. 
+      <lb ed="#F" n="6"/>C. ex quibus caus. in contractibus. C. de 
+      <lb ed="#F" n="7"/>temp. re. superuacuam. 
+      </p>
+               <p xml:id="inleiv-d1e1066-d1e462">
+                  <lb ed="#F" n="8"/>Et habet hoc locum in contractibus 
+      <lb ed="#F" n="9"/>bonae fidei, secus in contractibus stricti 
+      iu<lb ed="#F" n="10" break="no"/>ris, licet tunc habeat locum exceptio 
+      se<lb ed="#F" n="11" break="no"/>cundum quosdam. ff. de verbo. oblig. qui 
+      <lb ed="#F" n="12"/>vsum. cum aliter in transactione non 
+      ha<lb ed="#F" n="13" break="no"/>bet locum deceptio vltra dimidiam. inf. 
+      <lb ed="#F" n="14"/>de reli. do. constitutus. ff. ad Trebel. 
+      Lu<lb ed="#F" n="15" break="no"/>cius. §. vlti. est autem deceptus vltra 
+      di<lb ed="#F" n="16" break="no"/>midiam, qui rem valentem 9. dedit pro 
+      <lb ed="#F" n="17"/>quatuor, alii dicunt qui rem valentem 
+      se<lb ed="#F" n="18" break="no"/>ptem, dedit pro quatuor. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1066-Dd1e489" type="decretales-l3t17c7">
+               <head xml:id="inleiv-d1e1066-Hd1e491">Caput 7</head>
+               <p xml:id="inleiv-d1e1066-d1e493">
+                  <lb ed="#F" n="19"/>CAPVT VII. 
+      <lb ed="#F" n="20"/>SI VENDITOR. (
+      Institu<lb ed="#F" n="21" break="no"/>tum.) In his casibus 
+      repelli<lb ed="#F" n="22" break="no"/>tur actor agens de euictione. 
+      <lb ed="#F" n="23"/>ff. de euict. si rem quam. §. 
+      vl<lb ed="#F" n="24" break="no"/>ti. &amp; l. si dictum. §. si 
+      praesen<lb ed="#F" n="25" break="no"/>te. &amp; l. Herennius. &amp; l. si dictum. §. si 
+      promis<lb ed="#F" n="26" break="no"/>sio. &amp; l. si rem. §. si duple. &amp; l. si seruum 
+      <lb ed="#F" n="27"/>cum. &amp; l. si mancipium. &amp; l. si ideo. &amp; l. 
+      <lb ed="#F" n="28"/>quae aliam. &amp; l. mandati. &amp; l. si 
+      procura<lb ed="#F" n="29" break="no"/>tor. §. si ignorans. &amp; l. si per imprudentiam. 
+      <lb ed="#F" n="30"/>respon. 1. &amp; §. si quis. &amp; l. vlti. ff. quarum 
+      <lb ed="#F" n="31"/>re. ac. non datur. l. vlti. §. 1. (Affuit) &amp; eum 
+      <lb ed="#F" n="32"/>determinauerat. Per iniuriam) talem, 
+      sci<lb ed="#F" n="33" break="no"/>licet, ex qua iudex litem suam facit, quia 
+      <lb ed="#F" n="34"/>tunc ipse iudex tenetur. C. de poena iud. 
+      <lb ed="#F" n="35"/>qui ma. iu. l. 1. ff. de iudi. filius. si autem 
+      ta<lb ed="#F" n="36" break="no"/>lis esset casus, quod iudex non teneretur. 
+      <lb ed="#F" n="37"/>vel si non sufficientes probationes 
+      indu<lb ed="#F" n="38" break="no"/>xisset emptor, sine dolo malo, tune bene 
+      <lb ed="#F" n="39"/>teneretur venditor, qui de probationibus 
+      <lb ed="#F" n="40"/>illius rei, quam vendidit debet esse 
+      solici<lb ed="#F" n="41" break="no"/>tus, &amp; vt hic apparet venditori imputatur 
+      <lb ed="#F" n="42"/>defectus probationum, &amp; emptori 
+      cul<lb ed="#F" n="43" break="no"/>pa sua, vel malitia iudicis, vel 
+      impru<lb ed="#F" n="44" break="no"/>dentia. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

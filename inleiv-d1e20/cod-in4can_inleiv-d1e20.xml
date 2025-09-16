@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title/>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="1-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e20" type="decretales-prooemium">
+            <p xml:id="inleiv-d1e20-d1e98">
+               <pb ed="#F" n="1-r"/>
+               <cb ed="#F" n="a"/>
+               <lb ed="#F" n="1"/>P I A AL AA  V D AL AV  N 
+      <lb ed="#F" n="2"/>IDDLL C L a VV EX A  L L  L 
+      <lb ed="#F" n="3"/> IT ICIO IVAAA IIl l, LL DOCLOR IO OVB I 
+      ILlO<lb ed="#F" n="4" break="no"/>SIMI, SVPER QVINQVE LIBRIS DECRETALIVM NVPER 
+      <lb ed="#F" n="5"/>RECOGNITVS, CVNCTISAVE MENPIS (CVO AD FIERI 
+      LI<lb ed="#F" n="6" break="no"/>cuit) expurgatus. Additis insuper a d. L Paulo Rhosello non 
+      <lb ed="#F" n="7"/>minus vtilibus quam necessarijs Summarijs, quae 
+      <lb ed="#F" n="8"/>in alijs hucusque impressis 
+      mini<lb ed="#F" n="9" break="no"/>me reperies. 
+      <lb ed="#F" n="10"/>PROOEMIVM. 
+   </p>
+            <p xml:id="inleiv-d1e20-d1e127">
+               <cb ed="#F" n="b"/>
+               <lb ed="#F" n="11"/> Ventris appellatione cvenit mens, apud 
+      Exe<lb ed="#F" n="12" break="no"/>cbielem secundum Innoc. 
+      <lb ed="#F" n="13"/>2 Qs impulerint Innocentium ad glossandas 
+      <lb ed="#F" n="14"/>Decretales. 
+      <lb ed="#F" n="15"/>3 Negotiorum intricatio &amp; casuum varietas 
+      <lb ed="#F" n="16"/>reddit Decretales intellectu difficiles. 
+      <lb ed="#F" n="17"/>4 Decretales antea corrupta, &amp;ab Innoc. 
+      eme<lb ed="#F" n="18" break="no"/>datae quae sint. 
+      <lb ed="#F" n="19"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="inleiv-d1e20-d1e153">
+               <lb ed="#F" n="20"/>LEGITVR IN 
+      E<lb ed="#F" n="21" break="no"/>zechiele 3. c. Venter 
+      <lb ed="#F" n="22"/>tuus comedet, &amp; 
+      vis<lb ed="#F" n="23" break="no"/>ceratua complebuntur 
+      <lb ed="#F" n="24"/>volumine isto, quod 
+      <lb ed="#F" n="25"/>ego do tibi. IPer 
+      ven<lb ed="#F" n="26" break="no"/>trem qui escas 
+      reci<lb ed="#F" n="27" break="no"/>pit, mens intelligitur, quae rerum ac 
+      scri<lb ed="#F" n="28" break="no"/>pturarum notitias recipit, coquit &amp; 
+      di<lb ed="#F" n="29" break="no"/>gerit meditatione solicita &amp; frequenti. 
+      <lb ed="#F" n="30"/>Viscera autem implentur, cum 
+      deside<lb ed="#F" n="31" break="no"/>rium, voluntas, &amp; intentio intimo sapore 
+      <lb ed="#F" n="32"/>scripturarum satiantur. Sunt enim multi 
+      <lb ed="#F" n="33"/>qui multa legunt, sed vacui recedunt, qui 
+      <lb ed="#F" n="34"/>mente quidem intellectum percipiunt, 
+      <lb ed="#F" n="35"/>sed in cordis desiderio seruanda non 
+      po<lb ed="#F" n="36" break="no"/>nunt similes illis, qui vt dicit Hiere. 
+      vene<lb ed="#F" n="37" break="no"/>runt ad hauriendum aquam, sed vasa sua 
+      <lb ed="#F" n="38"/>vacua report aeuerunt, &amp; ideo confusi sunt 
+      <lb ed="#F" n="39"/>pariter &amp; afflicti. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e199">
+               <lb ed="#F" n="40"/>vos igitur harum scripturarum &amp; 
+      sa<lb ed="#F" n="41" break="no"/>crarum constitutionum lectores, earum 
+      <lb ed="#F" n="42"/>intellectum sanum in ventre mentis vestrae 
+      <lb ed="#F" n="43"/>percipite, coquite, &amp; frequenti 
+      meditatio<lb ed="#F" n="44" break="no"/>ne digerite, &amp; mentis desiderio intra 
+      men<lb ed="#F" n="45" break="no"/>tis viscera seruanda reponite, non ad vanam 
+      <lb ed="#F" n="46"/>gloriam, non ad thesauros congregandos, 
+      <lb ed="#F" n="47"/>sed vt recte causas tractetis, &amp; iusto libra 
+      <lb ed="#F" n="48"/>mine terminetis. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e221">
+               <lb ed="#F" n="49"/>Quas vt facilius intelligere possitis, 
+      <lb ed="#F" n="50"/>quasdam glossas apposuimus, sicut ex 
+      dif<lb ed="#F" n="51" break="no"/>finitionibus quotidie, &amp; continue apud 
+      <lb ed="#F" n="52"/>sedem Apostolicam emergentibus, ac 
+      et<lb ed="#F" n="53" break="no"/>iam ex necessitate text. quarundam 
+      Decre<lb ed="#F" n="54" break="no"/>talium corruptarum, in registro eiusdem 
+      <pb ed="#F" n="1-r"/>
+               <cb ed="#F" n="c"/>
+               <lb ed="#F" n="55"/>
+               <lb ed="#F" n="56"/>sedis, vigilanti studio inquisitarum 
+      pleni<lb ed="#F" n="57" break="no"/>us colligi potuerunt, cuius text. corruptio 
+      <lb ed="#F" n="58"/>&amp; veritas, ad eiusdem loca 
+      transmittun<lb ed="#F" n="59" break="no"/>tur per ordinem annotata.
+    </p>
+            <p xml:id="inleiv-d1e20-d1e253">
+               <lb ed="#F" n="60"/>3 Nec miremini, si alicubi sunt diffici 
+      <lb ed="#F" n="61"/>les ad intelligendum, quia hoc facit 
+      intri<lb ed="#F" n="62" break="no"/>catio negotiorum &amp; casuum varietas, qui 
+      <lb ed="#F" n="63"/>in eis vt melius potuimus extricantur. 
+      Igi<lb ed="#F" n="64" break="no"/>tur tam Doctor quam auditor dum in 
+      scho<lb ed="#F" n="65" break="no"/>lis legunt, multa de praedictis glossis 
+      po<lb ed="#F" n="66" break="no"/>terunt omittere, &amp; studio camerae pro 
+      <lb ed="#F" n="67"/>discutionibus &amp; diffinitionibus causarum 
+      <lb ed="#F" n="68"/>pro tempore reseruare, &amp; sic comestum 
+      <lb ed="#F" n="69"/>volumen istud diuisum efficiatur in ore 
+      <lb ed="#F" n="70"/>ipsorum facile &amp; delectabile ficut mel. 
+      <lb ed="#F" n="71"/>quod prius videbatur difficile, solicite 
+      at<lb ed="#F" n="72" break="no"/>tendentes, quod in hoc volumine multi 
+      <lb ed="#F" n="73"/>casus, &amp; articuli vtiles &amp; necessarii, tam in 
+      <lb ed="#F" n="74"/>consilijs animarum &amp; poenitentiali foro, 
+      <lb ed="#F" n="75"/>quam in regendis &amp; disponendis 
+      eccle<lb ed="#F" n="76" break="no"/>sijis, &amp; rebus ecclesiasticis &amp; praelatis, &amp; 
+      et<lb ed="#F" n="77" break="no"/>iam qualiter circa personam suam &amp; 
+      sub<lb ed="#F" n="78" break="no"/>ditorum ipsi praelati se habere debeant 
+      ad<lb ed="#F" n="79" break="no"/>uerfitatis tempore, sunt expressi quos glo. 
+      <lb ed="#F" n="80"/>alii omiserunt. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e301">
+               <lb ed="#F" n="81"/>Istae sunt Decretales quae corruptae 
+      <pb ed="#F" n="1-v"/>
+               <cb ed="#F" n="a"/>
+               <lb ed="#F" n="1"/>erant, &amp; sunt secundum veram literam 
+      <lb ed="#F" n="2"/>registri emendatae. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e314">
+      Prima est de 
+      e<lb ed="#F" n="3" break="no"/>lect. bonae memoriae M. in fin. vbi dice— 
+      <lb ed="#F" n="4"/>batur, confirmantes: debet dicere, 
+      duxi<lb ed="#F" n="5" break="no"/>mus confirmandam, scilicet, quondam:, 
+      <lb ed="#F" n="6"/>secundum quod in pe. gloss ibi not. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e325">
+      
+      Se<lb ed="#F" n="7" break="no"/>cunda est eo. titulo, auditis in princ. &amp; 
+      et<lb ed="#F" n="8" break="no"/>iam in fi. In principio vbi dicebatur, vnam 
+      <lb ed="#F" n="9"/>de G. Archi. &amp; alteram de R. Subdia, 
+      de<lb ed="#F" n="10" break="no"/>bet dicere, vnam de R. Archid. &amp; alteram 
+      <lb ed="#F" n="11"/>de magistro R. Subdia. Item vbi sequitur, 
+      <lb ed="#F" n="12"/>Decanus eum paucioribus in ipsum R, &amp; 
+      <lb ed="#F" n="13"/>cantor eum pluribus in dictum Archid. 
+      <lb ed="#F" n="14"/>conuenissenti debet dicere, &amp; cantorcum 
+      <lb ed="#F" n="15"/>pluribus in G. Archid. conuenissent. Item: 
+      <lb ed="#F" n="16"/>vbi sequitur cirea finem, a nominatione. 
+      <lb ed="#F" n="17"/>dicti Archid. recedentes: debet dicere, a 
+      <lb ed="#F" n="18"/>nominatione dicti V. Archidia, 
+      receden<lb ed="#F" n="19" break="no"/>tes. Item vbi sequitur, de nouo praesatum 
+      <lb ed="#F" n="20"/>Subdia, debet dicere, de nouo magistrum 
+      <lb ed="#F" n="21"/>R. Subdia. cum esset Subdia. eligere 
+      prae<lb ed="#F" n="22" break="no"/>sumpserunt. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e362">
+      Tertia est de effi. ordi.  
+      <lb ed="#F" n="23"/>quanto, vltra medium vbi dicebatur, 
+      se<lb ed="#F" n="24" break="no"/>eundum Abba, consilium: debet dicere, 
+      <lb ed="#F" n="25"/>secundum arbitri tui consilium Item 
+      <lb ed="#F" n="26"/>corrigitur decre, de sen. &amp; re iudi. cum 
+      <lb ed="#F" n="27"/>inter nos. alia eod. titu. cum I. &amp; A. 
+      corri<lb ed="#F" n="28" break="no"/>guntur, sicut apparet inferius, vbi 
+      super<lb ed="#F" n="29" break="no"/>eisdem decre. not. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e380">
+      Quarta est de 
+      ape<lb ed="#F" n="30" break="no"/>pel. cum speciali. circa fin. vbi dicebatur, 
+      <lb ed="#F" n="31"/>iudex ex officio suo procedet: debet 
+      dice<lb ed="#F" n="32" break="no"/>re, procedit. Item corrigitur text. de 
+      ap<lb ed="#F" n="33" break="no"/>pel. constitutus, vt apparet inferius, vbi 
+      <lb ed="#F" n="34"/>super eadem decre. not. Quinta est, 
+      <lb ed="#F" n="35"/>de cleri, non resi. in eccles. vel praeben. ex 
+      <lb ed="#F" n="36"/>tuae. in pluribus locis. primo deest text. vbi 
+      <lb ed="#F" n="37"/>dicebatur, suas deseruerunt ecclesias, 
+      de<lb ed="#F" n="38" break="no"/>bet addi, vt iuxta sanctiones canonicas, 
+      <lb ed="#F" n="39"/>eis debent merito spoliari, &amp; sequitur, 
+      con<lb ed="#F" n="40" break="no"/>tra eos procedatur: debet addi hoc modo 
+      <lb ed="#F" n="41"/>vt ipsos, &amp;c. Item vbi sequitur, ab 
+      Episco<lb ed="#F" n="42" break="no"/>pali administratione: debet dicere, ab 
+      E<lb ed="#F" n="43" break="no"/>piscopatuum. Sexta de praeben. &amp; 
+      <lb ed="#F" n="44"/>digni. pro illorum. circa medium, &amp; est 
+      <lb ed="#F" n="45"/>ibi defectus literae. Nam vbi dicitur 
+      prae<lb ed="#F" n="46" break="no"/>dictum magistrum de praebenda &amp; 
+      cano<lb ed="#F" n="47" break="no"/>nicatu Santonens. ecclesiae, &amp;c. debet ibi 
+      <lb ed="#F" n="48"/>addi, praedictum magistrum cum 
+      consen<lb ed="#F" n="49" break="no"/>su &amp; voluntate tua frater Episcopo de 
+      prae<lb ed="#F" n="50" break="no"/>benda &amp; canonicatu Santonens. 
+      ecele<lb ed="#F" n="51" break="no"/>siae, &amp;c. 
+    </p>
+            <p xml:id="inleiv-d1e20-d1e431">
+               <lb ed="#F" n="52"/>REGORIVS EPISCOPVS, 
+      SER<lb ed="#F" n="53" break="no"/>uus seruorum Dei, &amp;c. 
+      <lb ed="#F" n="54"/>REX PACIFICVS. 
+      
+      <cb ed="#F" n="b"/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

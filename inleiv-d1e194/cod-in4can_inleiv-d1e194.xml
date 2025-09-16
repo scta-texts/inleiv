@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 13</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 13</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="101-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e194" type="decretales-l1t13">
+        <head xml:id="inleiv-d1e194-Hd1e98">Titulus 13</head>
+        <p xml:id="inleiv-d1e194-d1e100">
+          <lb ed="#F" n="91"/>TITVLVS XIII 
+          <lb ed="#F" n="92"/>DE ORDINATIS AE 
+          <lb ed="#F" n="93"/>EPISCOPO QVI 
+          RESIGNA<lb ed="#F" n="94" break="no"/>uit episcopatui. 
+        </p>
+        <div xml:id="inleiv-d1e194-Dd1e111" type="decretales-l1t13c1">
+          <head xml:id="inleiv-d1e194-Hd1e113">Caput 1</head>
+          <p xml:id="inleiv-d1e194-d1e115">
+            <lb ed="#F" n="95"/>CAPVT I
+            <lb ed="#F" n="96"/>
+            <!-- line coord error -->
+            <lb ed="#F" n="97"/>1 Ncesfriaest dipenctio. ali qui orduatus 
+            <lb ed="#F" n="98"/>esteb eo, qut ordinare non potuit.
+          </p>
+          <p xml:id="inleiv-d1e194-d1e128">
+            <lb ed="#F" n="99"/>REQVISIVIT. (
+            Dignita<lb ed="#F" n="100" break="no"/>ti.) Idem quod hic appellat 
+            <lb ed="#F" n="101"/>renunciare dignitati. supra, 
+            <lb ed="#F" n="102"/>de ren. post transsationem. vel 
+            <lb ed="#F" n="103"/>ppellauit renunciare ordini 
+            <lb ed="#F" n="104"/>id est, executioni ordinis, vel dignitatis, &amp; 
+            <pb ed="#F" n="101-v"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>sub hoc continetur collatio ordinum 
+            sa<lb ed="#F" n="2" break="no"/>crorum, vbi ei renunciasse videatur: quia 
+            <lb ed="#F" n="3"/>non potest conferre sacros ordines, qui 
+            di<lb ed="#F" n="4" break="no"/>gnitati, vel ordini renunciauit(episcopis) 
+            <lb ed="#F" n="5"/>69. distinct. quoniam videmus. (
+            Executi<lb ed="#F" n="6" break="no"/>onem) sed characterem sicCCrassa) ff. de 
+            <lb ed="#F" n="7"/>iur. &amp; fac. igno. regula. §. 1. 
+            <lb ed="#F" n="8"/>Dispensate) est necessaria 
+            dispensa<lb ed="#F" n="9" break="no"/>tio, licet nullo modo culpabilis fuerit 
+            or<lb ed="#F" n="10" break="no"/>dinatus propter executionem, quam 
+            da<lb ed="#F" n="11" break="no"/>re non potuit, quia non habebat. 1. q. 1. 
+            sta<lb ed="#F" n="12" break="no"/>tuimus. 1. q. 7. Daibertum. hoc non placet, 
+            <lb ed="#F" n="13"/>sed ideo est necessaria dispensatio, quia 
+            <lb ed="#F" n="14"/>non poterat esse sine suspicione scientiae. 
+            <lb ed="#F" n="15"/>Vel dic, quod hic ordinatus ignoranter, 
+            pa<lb ed="#F" n="16" break="no"/>titur poenam sine culpa, sed non sine 
+            cau<lb ed="#F" n="17" break="no"/>sa, vt homines sint cauti, a quibus 
+            recipi<lb ed="#F" n="18" break="no"/>unt ordines, &amp; in vituperium 
+            ordinanti<lb ed="#F" n="19" break="no"/>um, &amp; de hoc notat. inf. de schismat. c. 1. 
+            <lb ed="#F" n="20"/>plus placet, quod in his necessaria est 
+            dis<lb ed="#F" n="21" break="no"/>pensatio, quia semper suspecti sunt de 
+            <lb ed="#F" n="22"/>scientia, si certum esset de ignorantia, non 
+            <lb ed="#F" n="23"/>est necessaria a dispensatio. 9. q. 1. 
+            ordina<lb ed="#F" n="24" break="no"/>tiones. inf. de cle. ex. mi. apostolicae. Vel dic, 
+            <lb ed="#F" n="25"/>quod hoc non statuitur sine causa, licet 
+            <lb ed="#F" n="26"/>sine culpa ordinati causa est, vt cauti sint 
+            <lb ed="#F" n="27"/>clerici, a quibus ordinatur &amp; in 
+            vitupe<lb ed="#F" n="28" break="no"/>rium ordinantium &amp; etiam dispensatio 
+            <lb ed="#F" n="29"/>est facilis. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e194-Dd1e212" type="decretales-l1t13c2">
+          <head xml:id="inleiv-d1e194-Hd1e214">Caput 2</head>
+          <p xml:id="inleiv-d1e194-d1e216">
+            <lb ed="#F" n="30"/>CAPVT II.
+          </p>
+          <p xml:id="inleiv-d1e194-d1e221">
+            <lb ed="#F" n="31"/>CVM CLERICIS. 
+            cpi<lb ed="#F" n="32" break="no"/>spensari repete quae dixiin fi. 
+            <lb ed="#F" n="33"/>proxi. deceret. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 29</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 29</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="345-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e859" type="decretales-l2t29">
+            <head xml:id="inleiv-d1e859-Hd1e98">Titulus 29</head>
+            <p xml:id="inleiv-d1e859-d1e100">
+               <lb ed="#F" n="71"/>TITVLVS XXIX. 
+      <lb ed="#F" n="72"/>DE CLERICIS 
+      PERE<lb ed="#F" n="73" break="no"/>GRINANT IBVS. 
+      </p>
+            <div xml:id="inleiv-d1e859-Dd1e109" type="decretales-l2t29c1">
+               <head xml:id="inleiv-d1e859-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e859-d1e113">
+                  <lb ed="#F" n="74"/>CAPVT I. 
+      <lb ed="#F" n="75"/>1 clerician &amp; quando possint peregrinari.
+      </p>
+               <p xml:id="inleiv-d1e859-d1e120">
+                  <lb ed="#F" n="76"/>CONQVERENTE. (Acca: 
+      <lb ed="#F" n="77"/>dunt) Nam cum omnes 
+      pe<lb ed="#F" n="78" break="no"/>regrini sint sub protectione 
+      <lb ed="#F" n="79"/>domini Papae. Specialius 
+      ta<lb ed="#F" n="80" break="no"/>men venientes ad sedem 
+      A<lb ed="#F" n="81" break="no"/>posto. 24. questio. 3. si quis Ro. Clericus 
+      ta<lb ed="#F" n="82" break="no"/>men non licet peregrinari sine 
+      authorita<lb ed="#F" n="83" break="no"/>te superioris. de conse. distin. 3. non 
+      opor<lb ed="#F" n="84" break="no"/>tet. nec etiam episcopis. inf. de vo. &amp; vo 
+      <lb ed="#F" n="85"/>re. magnae. Si autem non causa 
+      peregri<lb ed="#F" n="86" break="no"/>nationis, sed prosecutione appellationie 
+      <lb ed="#F" n="87"/>suae, vel etiam pro vitanda oppressione 
+      po<lb ed="#F" n="88" break="no"/>test ire ad Papam, vel alium superiorem 
+      <lb ed="#F" n="89"/>inuito episcopo, vel praelato suo. 2. q6n. 6. 
+      <lb ed="#F" n="90"/>omnis oppressus. &amp; tribus. c. sequen. 
+      Cre<lb ed="#F" n="91" break="no"/>dimus tamen, quod semper debet ad 
+      mi<lb ed="#F" n="92" break="no"/>nus de honestate petere licentiam, sine 
+      <lb ed="#F" n="93"/>necessaria autem causa, sed pro aliqua vtio 
+      <lb ed="#F" n="94"/>litate tantum non licet ad Papam 
+      accede<lb ed="#F" n="95" break="no"/>re, sine authoritate sui prelati, vel domini 
+      <lb ed="#F" n="96"/>Papae. Authen. de episcopis. §. 
+      interdici<lb ed="#F" n="97" break="no"/>mus. &amp; hoc intelligimus saluo, quod de 
+      <lb ed="#F" n="98"/>Regibus dixi. sup. tit. proxi. c. cum parati. 
+      <lb ed="#F" n="99"/>C. si per vim. l. 1. C. de man. iubemus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

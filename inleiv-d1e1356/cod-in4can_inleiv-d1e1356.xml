@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 43</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 43</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="456-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1356" type="decretales-l3t43">
+            <head xml:id="inleiv-d1e1356-Hd1e98">Titulus 43</head>
+            <p xml:id="inleiv-d1e1356-d1e100">
+               <lb ed="#F" n="81"/>TITVLVS XLIII 
+      <lb ed="#F" n="82"/>DE PRESBVTERO 
+      <lb ed="#F" n="83"/>NON PAPTIXATO. 
+      </p>
+            <div xml:id="inleiv-d1e1356-Dd1e109" type="decretales-l3t43c1">
+               <head xml:id="inleiv-d1e1356-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1356-d1e113">
+                  <lb ed="#F" n="84"/>CAPVT I. 
+      <lb ed="#F" n="85"/>SI QVIS. (Presbyter 
+      bapti<lb ed="#F" n="86" break="no"/>eatum.) Si autem aliquis nul. 
+      <lb ed="#F" n="87"/>lum inferiorum ordinum 
+      ha<lb ed="#F" n="88" break="no"/>bens, ordinetur in facerdo. 
+      <lb ed="#F" n="89"/>tem, dicunt aliqui eum non 
+      <lb ed="#F" n="90"/>accipere ordinem. arg. 40. di. sicut. Sed 
+      <lb ed="#F" n="91"/>contrarium videtur verius. ar. quiaa 
+      prin<lb ed="#F" n="92" break="no"/>cipio tempore Apostolorum non erant 
+      <lb ed="#F" n="93"/>minores ordines, ecclesia enim eos 
+      pri<lb ed="#F" n="94" break="no"/>mo constituit. 21. dist. §. 1. &amp; tamen ipsi 
+      <lb ed="#F" n="95"/>Apostoli sacerdotes fuerunt. 21. dist. 
+      no<lb ed="#F" n="96" break="no"/>uo. Sed posset responderi ecclesiam 
+      con<lb ed="#F" n="97" break="no"/>stituisse minores ordines, antequam all. 
+      <lb ed="#F" n="98"/>quis Apostolus ordinaretur, &amp; hoc etiam 
+      <lb ed="#F" n="99"/>sonare videtur illa litera. (Ordinetur) cum 
+      <lb ed="#F" n="100"/>enim baptismus sit ianua omnium 
+      sacra<lb ed="#F" n="101" break="no"/>mentorum. 32. dist. §. verum. sine 
+      bapti<lb ed="#F" n="102" break="no"/>smo non recipit characterem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1356-Dd1e158" type="decretales-l3t43c2">
+               <head xml:id="inleiv-d1e1356-Hd1e160">Caput 2</head>
+               <p xml:id="inleiv-d1e1356-d1e162">
+                  <lb ed="#F" n="103"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1356-d1e167">
+                  <lb ed="#F" n="104"/>APOSTOLICAM SEDEM 
+      <lb ed="#F" n="105"/>(Deo offerri) fuit enim baptixatua 
+      <lb ed="#F" n="106"/>baptismo ffaminis. sup. tit. prox. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1356-Dd1e177" type="decretales-l3t43c3">
+               <head xml:id="inleiv-d1e1356-Hd1e179">Caput 3</head>
+               <p xml:id="inleiv-d1e1356-d1e181">
+                  <pb ed="#F" n="457-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1356-d1e190">
+                  <lb ed="#F" n="2"/>VENIENS AD APOSTOLI. 
+      <lb ed="#F" n="3"/>CAM. (Quod ambigitur) etiamde 
+      <lb ed="#F" n="4"/>iure. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

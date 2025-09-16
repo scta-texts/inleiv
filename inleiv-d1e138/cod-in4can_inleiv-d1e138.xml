@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 8</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 8</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="88-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e138" type="decretales-l1t8">
+            <head xml:id="inleiv-d1e138-Hd1e98">Titulus 8</head>
+            <p xml:id="inleiv-d1e138-d1e100">
+               <lb ed="#F" n="89"/>TITVLPS VIII 
+      <lb ed="#F" n="90"/>DE AVTFORITATE 
+      <lb ed="#F" n="91"/>ET VSV PALLII.
+      </p>
+            <div xml:id="inleiv-d1e138-Dd1e109" type="decretales-l1t8c1">
+               <head xml:id="inleiv-d1e138-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e138-d1e113">
+                  <lb ed="#F" n="92"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e138-d1e118">
+                  <lb ed="#F" n="93"/>CVM SVPER. Prouinciae. inf. 
+      <lb ed="#F" n="94"/>de verb. signi. cum clerici. 
+      <lb ed="#F" n="95"/>contrascommissae) cum inter 
+      <lb ed="#F" n="96"/>missarum solennia tantum. c. 
+      <lb ed="#F" n="97"/>dist. contra morem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e132" type="decretales-l1t8c2">
+               <head xml:id="inleiv-d1e138-Hd1e134">Caput 2</head>
+               <p xml:id="inleiv-d1e138-d1e136">
+                  <lb ed="#F" n="98"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e138-d1e141">
+                  <lb ed="#F" n="99"/>AD HOC. (Sepeliri) de 
+      con<lb ed="#F" n="100" break="no"/>se. dist. 1. nemo clericus. arg. 
+      <lb ed="#F" n="101"/>contra. si habuit duo pallia 
+      <lb ed="#F" n="102"/>nomine duarum ecclesiarum, 
+      <lb ed="#F" n="103"/>quarum Archiepiscopus fuit, 
+      <lb ed="#F" n="104"/>cum ambobus debet sepeliri. arg. sup. de 
+      <lb ed="#F" n="105"/>postu. bonae. 2. in fi. tamen pallium vltimae 
+      <lb ed="#F" n="106"/>ecclesiae erit desuper. aliud enim 
+      intelli<lb ed="#F" n="107" break="no"/>gitur sepultum ab eo die, quo priori 
+      eccle<lb ed="#F" n="108" break="no"/>siae cessit, imo quidam dicunt, quod 
+      pri<lb ed="#F" n="109" break="no"/>mum pallium non induetur in sepultura, 
+      <lb ed="#F" n="110"/>sed tantum secundum, &amp; primum ponetur 
+      <lb ed="#F" n="111"/>super eo, vel sub capite eius, &amp; hoc eodem 
+      <lb ed="#F" n="112"/>modo debet fieri, si aliquando contingit 
+      <lb ed="#F" n="113"/>alicui dari duo pallia. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e177" type="decretales-l1t8c3">
+               <head xml:id="inleiv-d1e138-Hd1e179">Caput 3</head>
+               <p xml:id="inleiv-d1e138-d1e181">
+                  <pb ed="#F" n="88-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e138-d1e190">
+                  <lb ed="#F" n="2"/>NISI SPECIALIS. (
+      plenitu<lb ed="#F" n="3" break="no"/>do) c. dist. quoniam quidem. 
+      <lb ed="#F" n="4"/>id est, plena executio in his 
+      <lb ed="#F" n="5"/>quae ordinis sunt, &amp; etiam in 
+      <lb ed="#F" n="6"/>his quae sunt iurisdictionis, si 
+      <lb ed="#F" n="7"/>maxima negotia sunt, vt est consilium 
+      con<lb ed="#F" n="8" break="no"/>uocare. sup. de elect. quod sicut. §. penul. 
+      <lb ed="#F" n="9"/>(re confundi) 23. quaest. 3. si non licet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e212" type="decretales-l1t8c4">
+               <head xml:id="inleiv-d1e138-Hd1e214">Caput 4</head>
+               <p xml:id="inleiv-d1e138-d1e216">
+                  <lb ed="#F" n="10"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e138-d1e221">
+                  <lb ed="#F" n="11"/>AD HoNoREM. (In patre.) 2. 
+      quae<lb ed="#F" n="12" break="no"/>stio 6. de caetero. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e229" type="decretales-l1t8c5">
+               <head xml:id="inleiv-d1e138-Hd1e231">Caput 5</head>
+               <p xml:id="inleiv-d1e138-d1e233">
+                  <lb ed="#F" n="13"/>CAPVT v. 
+      <lb ed="#F" n="14"/>1 An maliena diotesi celebrare vel pradicare 
+      <lb ed="#F" n="15"/>liceat. 
+      <lb ed="#F" n="16"/>2 Ambitiosa priuilegia restringi debent.
+      </p>
+               <p xml:id="inleiv-d1e138-d1e244">
+                  <lb ed="#F" n="17"/>EX TVARVM. (
+      Corrupte<lb ed="#F" n="18" break="no"/>la) ff. de offic. procu. l. 1. 21. dis. 
+      <lb ed="#F" n="19"/>cleros. 26. dist. §. ecce. (
+      dum<lb ed="#F" n="20" break="no"/>modo is) episcopus. alii 
+      di<lb ed="#F" n="21" break="no"/>cunt, quod in hac licentia 
+      <lb ed="#F" n="22"/>danda, necessaria est authoritas 
+      Archie<lb ed="#F" n="23" break="no"/>piscopi, cum de suis insigniis agatur. 
+      PPer<lb ed="#F" n="24" break="no"/>mittat) nulli enim licet in aliena 
+      prouin<lb ed="#F" n="25" break="no"/>cia, vel diocesi celebrare vel praedicare. 7. 
+      <lb ed="#F" n="26"/>quaestio. prima. Episcopi. 9. quaestio. 2. 
+      nul<lb ed="#F" n="27" break="no"/>lus primas. 6. q. 3. scriptum. &amp; not. quod 
+      li<lb ed="#F" n="28" break="no"/>cet Papa det priuilegium, vult tamen quod 
+      <lb ed="#F" n="29"/>priuilegium intelligatur sine praeiudicio 
+      <lb ed="#F" n="30"/>alicuius . inf. de offic. ordi. licet. inf. de 
+      of<lb ed="#F" n="31" break="no"/>fic. deleg. super eod. si tamen Papa hanc 
+      <lb ed="#F" n="32"/>clausulam non adiecisset, crederem quod 
+      <lb ed="#F" n="33"/>sine licentia eius vti pallio non posset, vel 
+      <lb ed="#F" n="34"/>verius non dicitur hic, quod habeat 
+      li<lb ed="#F" n="35" break="no"/>centiam vtendi pallio, sed ordines 
+      facien<lb ed="#F" n="36" break="no"/>di, vel consecrandi super quo nullum 
+      pri<lb ed="#F" n="37" break="no"/>uilegium habebat. Item dic, quod 
+      Epi<lb ed="#F" n="38" break="no"/>scopus sine authoritate sua non potest 
+      da<lb ed="#F" n="39" break="no"/>re licentiam alii Arc hiepiscopo, quod 
+      vta<lb ed="#F" n="40" break="no"/>tur pallio in sua ecclesia, cum sit signum 
+      <lb ed="#F" n="41"/>2praelationis. sup. eo. nisi. &amp; c. seq. Vnde 
+      <lb ed="#F" n="42"/>non crederem, quod etiam Episcopus qui 
+      <lb ed="#F" n="43"/>habet pallium, nisi esset exemptus hanc 
+      <lb ed="#F" n="44"/>licentiam, possit dare alii Archiepiscopo, 
+      <lb ed="#F" n="45"/>nisi ille cui dat licentiam, priuilegium 
+      ha<lb ed="#F" n="46" break="no"/>beat, sicut hic habebat. arg. ad hoc. quia 
+      <lb ed="#F" n="47"/>non habet potestatem vtendi pallio, nisi 
+      <lb ed="#F" n="48"/>intra ecclesiam. item ar. quia priuilegium 
+      <lb ed="#F" n="49"/>ambitiosum restringendum est, de quo 
+      <lb ed="#F" n="50"/>no. sup. de transla. Episcopi. c. fi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e321" type="decretales-l1t8c6">
+               <head xml:id="inleiv-d1e138-Hd1e323">Caput 6</head>
+               <p xml:id="inleiv-d1e138-d1e325">
+                  <lb ed="#F" n="51"/>CAPVT VI. 
+      <lb ed="#F" n="52"/>CVM SIS (vbicunque.) Intra 
+      <lb ed="#F" n="53"/>tuam prouinciam vel fuit 
+      <lb ed="#F" n="54"/>priuilegium speciale. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e138-Dd1e337" type="decretales-l1t8c7">
+               <head xml:id="inleiv-d1e138-Hd1e339">Caput 7</head>
+               <p xml:id="inleiv-d1e138-d1e341">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>CAPVT VII
+      </p>
+               <p xml:id="inleiv-d1e138-d1e348">
+                  <lb ed="#F" n="56"/>QVIA SIS. (In alia) 
+      dum<lb ed="#F" n="57" break="no"/>modo intra prouinciam vel 
+      <lb ed="#F" n="58"/>etiam in alia de licentia 
+      Epi<lb ed="#F" n="59" break="no"/>scopi dicere, vel etiam 
+      sacer<lb ed="#F" n="60" break="no"/>dotis: dummodo ibi celebret 
+      <lb ed="#F" n="61"/>sine Pontificalibus. Soluta) quia ex 
+      <lb ed="#F" n="62"/>quo non potest, nisi in solennitatibus 
+      pri<lb ed="#F" n="63" break="no"/>uileg. apparet quod non potest quando 
+      <lb ed="#F" n="64"/>celebrat pro defanetis, cam non fit 
+      folen<lb ed="#F" n="65" break="no"/>nitas. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

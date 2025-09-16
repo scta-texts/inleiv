@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 39</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 39</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="172-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e484" type="decretales-l1t39">
+            <head xml:id="inleiv-d1e484-Hd1e98">Titulus 39</head>
+            <p xml:id="inleiv-d1e484-d1e100">
+               <lb ed="#F" n="104"/>TITVLVS XXXIX. 
+      <lb ed="#F" n="105"/>DE SYNDICO. 
+      <lb ed="#F" n="106"/>sndieus quis sit.
+      </p>
+            <p xml:id="inleiv-d1e484-d1e109">
+               <lb ed="#F" n="107"/>SICVT STVDII. Syndicus 
+      <lb ed="#F" n="108"/>est, qui pro vniuersitate agit 
+      <lb ed="#F" n="109"/>&amp; iurabit de calumnia, cum 
+      ha<lb ed="#F" n="110" break="no"/>beat liberam administrationem. 
+      <lb ed="#F" n="111"/>lC. de iur. calum. l. 2. §. 1. (a 
+      liti<lb ed="#F" n="112" break="no"/>gijs) dicunt quidam hoc esse consilium, vnde 
+      <lb ed="#F" n="113"/>monachus de mandato debet causas 
+      tra<lb ed="#F" n="114" break="no"/>ctareuo qur iimonachi, &amp; c. qui vere: 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

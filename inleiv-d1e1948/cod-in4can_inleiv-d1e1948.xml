@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="520-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1948" type="decretales-l5t24">
+            <head xml:id="inleiv-d1e1948-Hd1e98">Titulus 24</head>
+            <p xml:id="inleiv-d1e1948-d1e100">
+               <lb ed="#F" n="100"/>TITVLVS XXIIIr 
+      <lb ed="#F" n="101"/>DE CLERICO 
+      VE<lb ed="#F" n="102" break="no"/>NATORE. 
+      </p>
+            <div xml:id="inleiv-d1e1948-Dd1e109" type="decretales-l5t24c1">
+               <head xml:id="inleiv-d1e1948-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1948-d1e113">
+                  <lb ed="#F" n="103"/>CAPVT 1. 
+      <lb ed="#F" n="104"/>EPISCOPVM. (
+      Presbyte<lb ed="#F" n="105" break="no"/>rum voluptate) secus si 
+      cau<lb ed="#F" n="106" break="no"/>sa recreationis, vel 
+      acquiren<lb ed="#F" n="107" break="no"/>di victum. 34. dist. 
+      quorun<lb ed="#F" n="108" break="no"/>dam. de hoc no. 86. dist. qui 
+      <lb ed="#F" n="109"/>venatoribus. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1948-Dd1e132" type="decretales-l5t24c2">
+               <head xml:id="inleiv-d1e1948-Hd1e134">Caput 2</head>
+               <p xml:id="inleiv-d1e1948-d1e136">
+                  <pb ed="#F" n="520-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II. 
+      <lb ed="#F" n="2"/>VMNIBVS SERVIS DEI. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

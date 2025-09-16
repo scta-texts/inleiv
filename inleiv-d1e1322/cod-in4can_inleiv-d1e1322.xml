@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 40</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 40</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="452-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1322" type="decretales-l3t40">
+            <head xml:id="inleiv-d1e1322-Hd1e98">Titulus 40</head>
+            <p xml:id="inleiv-d1e1322-d1e100">
+               <lb ed="#F" n="46"/>TITVLVS XL. 
+      <lb ed="#F" n="47"/>E CONSECRATIO. 
+      <lb ed="#F" n="48"/>NE ECCIESlat vEr 
+      <lb ed="#F" n="49"/>altaris. 
+      <lb ed="#F" n="50"/>1 ln quibis casibus sit ecclesia eonsecranda, &amp; 
+      <lb ed="#F" n="51"/>quando altare &amp; non ecclesia consecretur. 
+      <lb ed="#F" n="52"/>in num 2. 
+      </p>
+            <p xml:id="inleiv-d1e1322-d1e118">
+               <lb ed="#F" n="53"/>DE 
+      CONSECRATIO<lb ed="#F" n="54" break="no"/>NE. De hac materia 
+      quae<lb ed="#F" n="55" break="no"/>re de conse. dist. 1. ecclesijs. 
+      <lb ed="#F" n="56"/>um. 3. c. seq. De conse¬ 
+      <cb ed="#F" n="b"/>
+               <lb ed="#F" n="57"/>cratione.) In tribus casibus est ecclesia 
+      <lb ed="#F" n="58"/>reconsecranda. Primus si dubitatur, an 
+      <lb ed="#F" n="59"/>sit consecrata, quia non apparet aliqua 
+      <lb ed="#F" n="60"/>scriptura, vel in libro ecclesiae, vel colum. 
+      <lb ed="#F" n="61"/>na, vel tabula marmorea, vel etiam vnus 
+      <lb ed="#F" n="62"/>testis de visu, &amp; quidam idem dicunt de 
+      <lb ed="#F" n="63"/>auditu. ar. de conse. di. 1. solennitates. &amp; 
+      <lb ed="#F" n="64"/>dist. 4. paruulos. 24. q. 2. sane. 22. q. 5. hic 
+      <lb ed="#F" n="65"/>videtur. &amp; intelligas has semiplenas 
+      pro<lb ed="#F" n="66" break="no"/>bationes sufficere, quia alijs non fit 
+      prae<lb ed="#F" n="67" break="no"/>iudicium. Secundus, si sit exusta 
+      eccle<lb ed="#F" n="68" break="no"/>sia, ita quod sit decrustata. &amp; de conse. dist. 1. 
+      <lb ed="#F" n="69"/>ecclesis. quod forte intelligendum est, 
+      <lb ed="#F" n="70"/>etiam si non tota, sed pro maiori parte si 
+      <lb ed="#F" n="71"/>decrustata. ar. ff. de contrahen. emp. 
+      do<lb ed="#F" n="72" break="no"/>mum. Tertius est, si funditus sit diruta 
+      <lb ed="#F" n="73"/>&amp; ex toto reparata, siue de eisdem 
+      lapi<lb ed="#F" n="74" break="no"/>dibus, siue de alijs. de conse. di. 1. de fabris 
+      <lb ed="#F" n="75"/>ca. Et est ratio, quia consecratio ecclesiae 
+      <lb ed="#F" n="76"/>maxime consistit in vnctione exteriori, 
+      <lb ed="#F" n="77"/>&amp; coniunctione &amp; dispositione lapidum. 
+      <lb ed="#F" n="78"/>de conse. di. 1. ecclesias. si autem non simul 
+      <lb ed="#F" n="79"/>sed suecessiue omnes parietes ruerent &amp; 
+      <lb ed="#F" n="80"/>reaedificarentur, non esset 
+      reconsecran<lb ed="#F" n="81" break="no"/>da ecclesia, sed reconcilianda tantum. de 
+      <lb ed="#F" n="82"/>conse. di. 1. si motum. Alii tamen dicunt 
+      <lb ed="#F" n="83"/>ecclesiam reconsecrandam in praedicto 
+      <lb ed="#F" n="84"/>casu, propter homicidium autem, vel 
+      adul<lb ed="#F" n="85" break="no"/>terium, non reconsecranda, sed 
+      reconci<lb ed="#F" n="86" break="no"/>lianda esset ecclesia. infr. e. proposuisti. 
+      <lb ed="#F" n="87"/>inf. deadul. significasti. Et sic etiam 
+      dici<lb ed="#F" n="88" break="no"/>mus, reconciliandam ecclesiam etiam si 
+      <lb ed="#F" n="89"/>prius non fuerat consecrata, ne in diuinis 
+      <lb ed="#F" n="90"/>laudibus taceatur. ar. inf. e. c. vlt. 
+      <lb ed="#F" n="91"/>Propter altaris autem 
+      destructio<lb ed="#F" n="92" break="no"/>nem, vel mensae amotionem, solum altare 
+      <lb ed="#F" n="93"/>non ecclesia reconsecrabitur. inf. e. c. 1. &amp; 
+      <lb ed="#F" n="94"/>c. quod in dubiis. quod auiem dictum est 
+      <lb ed="#F" n="95"/>de mensa, intelligendum est, si mensa 
+      fue<lb ed="#F" n="96" break="no"/>rat penitus destructa, vel enormiter 
+      fra<lb ed="#F" n="97" break="no"/>cta, vel iunctura mota, quae stipiti 
+      adhae<lb ed="#F" n="98" break="no"/>ret, nam in illa coniunctione praecipuem 
+      <lb ed="#F" n="99"/>intelligitur esse consecratio altaris. vnde 
+      <lb ed="#F" n="100"/>si aliquid de lapidibus stipitis tangens 
+      <lb ed="#F" n="101"/>ipsam mensam esset motum 
+      reconsecra<lb ed="#F" n="102" break="no"/>bitur altare. inf. e. ad haec. &amp;. c. quod in 
+      <lb ed="#F" n="103"/>dubijs. Idem etiam dicunt Doc. vbi fieret 
+      <lb ed="#F" n="104"/>altari tantum augmentum quod 
+      amitte<lb ed="#F" n="105" break="no"/>ret formam, quia forma est quae dat esse 
+      <lb ed="#F" n="106"/>rei. arg. 10. q. 1. §. huiusmodi. 
+      </p>
+            <div xml:id="inleiv-d1e1322-Dd1e240" type="decretales-l3t40c1">
+               <head xml:id="inleiv-d1e1322-Hd1e242">Caput 1</head>
+               <p xml:id="inleiv-d1e1322-d1e244">
+                  <lb ed="#F" n="107"/>CAPVT I
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e249">
+                  <lb ed="#F" n="108"/>AD HAEC SI 
+      ALTA<lb ed="#F" n="109" break="no"/>RE. (Sigillum) No. quod 
+      <lb ed="#F" n="110"/>in altari est, quoddam 
+      fora<lb ed="#F" n="111" break="no"/>men, in quo ponuntur 
+      reli<lb ed="#F" n="112" break="no"/>quiae: &amp; dicitur illud fora¬ 
+      <pb ed="#F" n="452-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>men sepulchrum, &amp; hoc foramen 
+      quan<lb ed="#F" n="2" break="no"/>doque ponitur in superiori parte, &amp; 
+      clau<lb ed="#F" n="3" break="no"/>ditur quandoque paruo lapide, 
+      quan<lb ed="#F" n="4" break="no"/>doque tabula magni altaris, &amp; tunc 
+      <lb ed="#F" n="5"/>si moueatur tabula illa non est dubium 
+      <lb ed="#F" n="6"/>quod reconsecrandum est altare. Item 
+      <lb ed="#F" n="7"/>fit quandoque praedictum sepulchrum in 
+      <lb ed="#F" n="8"/>latere altaris, &amp; clauditur tantum paruo 
+      <lb ed="#F" n="9"/>fapide, &amp; non magna tabula, &amp; in isto 
+      <lb ed="#F" n="10"/>casu credimus, quod si ille paruus lapis 
+      <lb ed="#F" n="11"/>moueretur, quod reconsecrandum esset 
+      <lb ed="#F" n="12"/>altare, quia ille est lapis qui continet 
+      si<lb ed="#F" n="13" break="no"/>gillum sepulchri, &amp; sic loquitur hic. Item 
+      <lb ed="#F" n="14"/>credimus, quod etiam si in isto casu, sit 
+      <lb ed="#F" n="15"/>tabula superior moueatur, vel rumpatur, 
+      <lb ed="#F" n="16"/>quod eodem modo reconsecrandum est 
+      <lb ed="#F" n="17"/>altare, &amp; sic loquitur. infr. c. quod in 
+      du<lb ed="#F" n="18" break="no"/>bijs. in altari etiam viatico si moueatur 
+      <lb ed="#F" n="19"/>lapis, vbi est sigillum reconsecrandum 
+      <lb ed="#F" n="20"/>est, sed bene licet spsum portare, &amp; 
+      mo<lb ed="#F" n="21" break="no"/>uere de licentia episcopi, &amp; ideo dicitur 
+      <lb ed="#F" n="22"/>viaticum. ar. de conse. dist. 1. missarum. 
+      <lb ed="#F" n="23"/>sed innuit quod non licet celebrare, nisi 
+      <lb ed="#F" n="24"/>in locis sacratis, vel dic locum 
+      consecra<lb ed="#F" n="25" break="no"/>tum appellari altare viaticum, ex quo per 
+      <lb ed="#F" n="26"/>episcopum consecratum est. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e324" type="decretales-l3t40c2">
+               <head xml:id="inleiv-d1e1322-Hd1e326">Caput 2</head>
+               <p xml:id="inleiv-d1e1322-d1e328">
+                  <lb ed="#F" n="27"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e333">
+                  <lb ed="#F" n="28"/>TVA FRATERNITAS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e340" type="decretales-l3t40c3">
+               <head xml:id="inleiv-d1e1322-Hd1e342">Caput 3</head>
+               <p xml:id="inleiv-d1e1322-d1e344">
+                  <lb ed="#F" n="29"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e349">
+                  <lb ed="#F" n="30"/>QVOD IN DVBIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e355" type="decretales-l3t40c4">
+               <head xml:id="inleiv-d1e1322-Hd1e357">Caput 4</head>
+               <p xml:id="inleiv-d1e1322-d1e359">
+                  <lb ed="#F" n="31"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e364">
+                  <lb ed="#F" n="32"/>PROSVISTI ET INFRA. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e370" type="decretales-l3t40c5">
+               <head xml:id="inleiv-d1e1322-Hd1e372">Caput 5</head>
+               <p xml:id="inleiv-d1e1322-d1e374">
+                  <lb ed="#F" n="33"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e379">
+                  <lb ed="#F" n="34"/>CVM SIS. ET INFRA. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e385" type="decretales-l3t40c6">
+               <head xml:id="inleiv-d1e1322-Hd1e387">Caput 6</head>
+               <p xml:id="inleiv-d1e1322-d1e389">
+                  <lb ed="#F" n="35"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e394">
+                  <lb ed="#F" n="36"/>LIGNEIS AEDITICIIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e400" type="decretales-l3t40c7">
+               <head xml:id="inleiv-d1e1322-Hd1e402">Caput 7</head>
+               <p xml:id="inleiv-d1e1322-d1e404">
+                  <lb ed="#F" n="37"/>CAPVT VII. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e409">
+                  <lb ed="#F" n="38"/>CONSVLVISTI. (In 
+      de<lb ed="#F" n="39" break="no"/>dicationibus) id est, quod sic 
+      <lb ed="#F" n="40"/>aspergatur cimiterium aqua 
+      <lb ed="#F" n="41"/>benedicta, sicut aspergitur 
+      <lb ed="#F" n="42"/>Idem cimiterium, quando 
+      <lb ed="#F" n="43"/>ecclesia consecratur. Item aqua ista 
+      de<lb ed="#F" n="44" break="no"/>bet benedici cum ea solennitate, cum 
+      <lb ed="#F" n="45"/>qua benedicitur aqua consecrationis 
+      ec<lb ed="#F" n="46" break="no"/>clesiarum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e432" type="decretales-l3t40c8">
+               <head xml:id="inleiv-d1e1322-Hd1e434">Caput 8</head>
+               <p xml:id="inleiv-d1e1322-d1e436">
+                  <lb ed="#F" n="47"/>CAPVT VIII. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e441">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="48"/>CVM SICVT (Ex rela. 
+      <lb ed="#F" n="49"/>debito.) No. contra 
+      con<lb ed="#F" n="50" break="no"/>secrationem competere 
+      con<lb ed="#F" n="51" break="no"/>dictio. ex hac decre. vt 
+      do<lb ed="#F" n="52" break="no"/>cet ecclesiam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e459" type="decretales-l3t40c9">
+               <head xml:id="inleiv-d1e1322-Hd1e461">Caput 9</head>
+               <p xml:id="inleiv-d1e1322-d1e463">
+                  <lb ed="#F" n="53"/>CAPVT IX. 
+      </p>
+               <p xml:id="inleiv-d1e1322-d1e468">
+                  <lb ed="#F" n="54"/>QVA PER 
+      Episco<lb ed="#F" n="55" break="no"/>PVM. Audiuimus ante, 
+      <lb ed="#F" n="56"/>quod Papa pluribus episcopis 
+      <lb ed="#F" n="57"/>indulsit, quod per simplices 
+      <lb ed="#F" n="58"/>sacerdotes possent 
+      reconci<lb ed="#F" n="59" break="no"/>liare ecclesias, aqua tamen primum per 
+      <lb ed="#F" n="60"/>episcopum benedieta. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1322-Dd1e487" type="decretales-l3t40c10">
+               <head xml:id="inleiv-d1e1322-Hd1e489">Caput 10</head>
+               <p xml:id="inleiv-d1e1322-d1e491">
+                  <lb ed="#F" n="61"/>CAPVT X 
+      <lb ed="#F" n="62"/>SI ECCLESIA NON 
+      CONSE<lb ed="#F" n="63" break="no"/>CRATA. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

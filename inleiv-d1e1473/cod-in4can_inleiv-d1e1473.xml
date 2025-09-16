@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 3</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 3</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="469-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1473" type="decretales-l4t3">
+            <head xml:id="inleiv-d1e1473-Hd1e98">Titulus 3</head>
+            <p xml:id="inleiv-d1e1473-d1e100">
+               <lb ed="#F" n="4"/>TITVLVS IIII.
+      </p>
+            <p xml:id="inleiv-d1e1473-d1e105">
+               <lb ed="#F" n="5"/>DE CLANDESTINA 
+      <lb ed="#F" n="6"/>DESPONSATIONE. 
+      </p>
+            <p xml:id="inleiv-d1e1473-d1e112">
+               <lb ed="#F" n="7"/>Clandestinum matrimonium dicitur, 
+      <lb ed="#F" n="8"/>quod non potest probari per testes. infr. c. 1. 
+      <lb ed="#F" n="9"/>&amp; 2. Item quod non fit cum solennitate. 
+      <lb ed="#F" n="10"/>inf. e. c. 3. 30. q. 5. aliter quae licet non 
+      de<lb ed="#F" n="11" break="no"/>beant fieri, tamem facta tenent. 30. q. 5. 
+      no<lb ed="#F" n="12" break="no"/>strates. 
+      </p>
+            <div xml:id="inleiv-d1e1473-Dd1e128" type="decretales-l4t3c1">
+               <head xml:id="inleiv-d1e1473-Hd1e130">Caput 1</head>
+               <p xml:id="inleiv-d1e1473-d1e132">
+                  <lb ed="#F" n="13"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e1473-d1e137">
+                  <lb ed="#F" n="14"/>SI QVIS CLAMI. Idest non 
+      publi<lb ed="#F" n="15" break="no"/>ce: sed tamen si tot fuerint praesentes 
+      <lb ed="#F" n="16"/>quot sufficiebant ad probationem, alias 
+      <lb ed="#F" n="17"/>male sequeretur, viro incumbit 
+      proba<lb ed="#F" n="18" break="no"/>tio. (Viro) petenti vxorem, &amp; si mulier 
+      <lb ed="#F" n="19"/>petat virum: quia negantis factum etc. 6. 
+      <lb ed="#F" n="20"/>q. 3. actor. ff. de probat. ei incumbit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1473-Dd1e157" type="decretales-l4t3c2">
+               <head xml:id="inleiv-d1e1473-Hd1e159">Caput 2</head>
+               <p xml:id="inleiv-d1e1473-d1e161">
+                  <lb ed="#F" n="21"/>CAPVT II. 
+      <lb ed="#F" n="22"/>QVOD NOBIS. (
+      Compei<lb ed="#F" n="23" break="no"/>lendD) vt se habeant pro 
+      con<lb ed="#F" n="24" break="no"/>iugibus. (Rationabilis) vt 
+      <lb ed="#F" n="25"/>cosanguinitas vel aliud 
+      im<lb ed="#F" n="26" break="no"/>edimentum, puta quia fiat 
+      <lb ed="#F" n="27"/>praeiudicium alii matrimonio, vel aliae 
+      <lb ed="#F" n="28"/>consimiles. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1473-Dd1e182" type="decretales-l4t3c3">
+               <head xml:id="inleiv-d1e1473-Hd1e184">Caput 3</head>
+               <p xml:id="inleiv-d1e1473-d1e186">
+                  <lb ed="#F" n="29"/>CAPVT III. 
+      <lb ed="#F" n="30"/>2 cur fuerit statutum, quod siat publitatio 
+      fa<lb ed="#F" n="31" break="no"/>lennis in ecclesia, cum quis vult 
+      contrahe<lb ed="#F" n="32" break="no"/>re matrimonium cum aliqua, &amp; in quibus 
+      <lb ed="#F" n="33"/>ecclesus fieri debeat. in nu. 2. 3. 4. 5. &amp; 6. 
+      <lb ed="#F" n="34"/>4 Bigamiaan &amp; quando excusat, &amp; liberi inde 
+      <lb ed="#F" n="35"/>nati amn sint legitimu Et nu. 5. 
+      </p>
+               <p xml:id="inleiv-d1e1473-d1e204">
+                  <lb ed="#F" n="36"/>CVM INHIBITIO. (
+      Inec<lb ed="#F" n="37" break="no"/>clesijs) non in vna tantum, 
+      <lb ed="#F" n="38"/>sed in omnibus ecclesijs 
+      il<lb ed="#F" n="39" break="no"/>lius leci, vbi habitat, vel 
+      sal<lb ed="#F" n="40" break="no"/> tem in pluribus. 
+      Propo<lb ed="#F" n="41" break="no"/>nantur) cum periculosum sit illicita 
+      ma<lb ed="#F" n="42" break="no"/>trimonia contrahere, &amp; propter 
+      pecca<lb ed="#F" n="43" break="no"/>tum, &amp; propter illegitimitatem 
+      filio<lb ed="#F" n="44" break="no"/>rum, dignum est quod haec solennis 
+      pu<lb ed="#F" n="45" break="no"/>blicatio in ecclesia fiat. Ad idem. inf. qui 
+      <lb ed="#F" n="46"/>mat. ac. pos. cum in tua. nam circa 
+      maio<lb ed="#F" n="47" break="no"/>ra, maius periculum vertitur. 42. di. 
+      qui<lb ed="#F" n="48" break="no"/>escamus. &amp; hoc eadem ratione potest 
+      di<lb ed="#F" n="49" break="no"/>ci, quod haec publicatio debet fieri in 
+      ec<lb ed="#F" n="50" break="no"/>clesijs, vbi antiqua habitatio est parentum 
+      <lb ed="#F" n="51"/>vtriusque, illi enim sunt, qui melius norunt 
+      <lb ed="#F" n="52"/>consanguineos suos. sup. de test. c. licet 
+      <lb ed="#F" n="53"/>ex quadam. inf. quimat. accu. pos. videtur. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>Item quaerendum est de 
+      confanguinita<lb ed="#F" n="55" break="no"/>te, vbi melius veritas sciri potest. sup. de 
+      <lb ed="#F" n="56"/>elec. scriptum. inf. de pur. c. cum P. 
+      <lb ed="#F" n="57"/>2 Item derisio esset dicere, quod 
+      publi<lb ed="#F" n="58" break="no"/>catio haec alibi fieret, si enim Scotus vel 
+      <lb ed="#F" n="59"/>Ibernicus vult contrahere Bononiae cum 
+      <lb ed="#F" n="60"/>aliqua, siue Scota siue Lombarda, quis 
+      <lb ed="#F" n="61"/>erit, qui de eorum consanguinitate sciat 
+      <lb ed="#F" n="62"/>testificari, cumnec terram nouerit, &amp; si 
+      <lb ed="#F" n="63"/>alibi esset eorum antiqua habitatio alibi 
+      <lb ed="#F" n="64"/>moderna vtrobique fieri deberet, nam in 
+      <lb ed="#F" n="65"/>primo loco, quia melius sciunt gradus 
+      <lb ed="#F" n="66"/>consanguinitatis. In secundo, quia 
+      meli<lb ed="#F" n="67" break="no"/>us sciunt, si cum alio contraxisset. Tame 
+      <lb ed="#F" n="68"/>dicunt quidam &amp; non male, quia licet 
+      bo<lb ed="#F" n="69" break="no"/>num sit vtrobique nunciare, tamen si 
+      so<lb ed="#F" n="70" break="no"/>lummodo fiat, vbi est eorumantiqua 
+      ha<lb ed="#F" n="71" break="no"/>bitatio, sufficit ad hoc, vt filii eorumnon 
+      <lb ed="#F" n="72"/>iudicentur illegitimi, quia haec 
+      constitu<lb ed="#F" n="73" break="no"/>tio non iudicat illegitimos propter 
+      ces<lb ed="#F" n="74" break="no"/>sationem denunciationis, nisi illos, qui 
+      <lb ed="#F" n="75"/>in casu prohibito sunt coniuncti, tamen 
+      <lb ed="#F" n="76"/>quidam credunt idem, &amp; si aliud 
+      impe<lb ed="#F" n="77" break="no"/>dimentumadsit. infr. qui fil. sint legi. ex 
+      <lb ed="#F" n="78"/>tenore. nam ibi dicitur, quod ad hoc vt 
+      <lb ed="#F" n="79"/>filii sint legitimi, oportet quod 
+      matri<lb ed="#F" n="80" break="no"/>monium contractum post aliud 
+      matri<lb ed="#F" n="81" break="no"/>monium sit contractum in facie ecclesiae 
+      <lb ed="#F" n="82"/>&amp; ignorante altero comuiugum, sed vbi non 
+      <lb ed="#F" n="83"/>fit publicatio secundum tenorem huius 
+      <lb ed="#F" n="84"/>decr. non fit in facie ecclesiae, ergo nec 
+      fi<lb ed="#F" n="85" break="no"/>lii sunt legitimi. Alii dicunt quod in 
+      fa<lb ed="#F" n="86" break="no"/>cie ecclesiae fit, si fit publice etiam sine 
+      so<lb ed="#F" n="87" break="no"/>lemnitate huius decr. &amp; ideo sufficit, quod 
+      <lb ed="#F" n="88"/>tantum publice contrahatur, &amp; erunt 
+      fi<lb ed="#F" n="89" break="no"/>lii legitimi, dummodo sit alterius 
+      igno<lb ed="#F" n="90" break="no"/>rantia. 
+      </p>
+               <p xml:id="inleiv-d1e1473-d1e328">
+                  <lb ed="#F" n="91"/>Sed quid si vbi est eorum antiqua 
+      ha<lb ed="#F" n="92" break="no"/>bitatio, non habeat consanguineos, sed 
+      <lb ed="#F" n="93"/>alibi &amp; in pluribus locis, nunquid vbiquue 
+      <lb ed="#F" n="94"/>erit necesse fieri publicationem R espon. 
+      <lb ed="#F" n="95"/>non, non enim oportet circa hoc nimis 
+      <lb ed="#F" n="96"/>subtilixaare propter periculum 
+      illegitimi<lb ed="#F" n="97" break="no"/>tatis filiorum, licet ab initio multum sit 
+      di<lb ed="#F" n="98" break="no"/>ligentia adhibenda, sed ex post facto 
+      p<lb ed="#F" n="99" break="no"/>pter causam praedictam quantum potest 
+      de<lb ed="#F" n="100" break="no"/>bet negligentia tolerari, vel potius 
+      ex<lb ed="#F" n="101" break="no"/>cusari. 
+      </p>
+               <p xml:id="inleiv-d1e1473-d1e354">
+                  <lb ed="#F" n="102"/>4 Sed quid si publiee contraxit, &amp; 
+      te<lb ed="#F" n="103" break="no"/>nuit aliam.ilicet primam pro vxore, nunquid 
+      <lb ed="#F" n="104"/>haec publicatio facta in ecclesijs sufficit, 
+      <lb ed="#F" n="105"/>vt sine peccato coniungatur sibi alia. scil. 
+      <lb ed="#F" n="106"/>secunda, an debet querere sententiam 
+      di<lb ed="#F" n="107" break="no"/>uortij, &amp; etiam iustitiam sententiae. i. quod 
+      <lb ed="#F" n="108"/>iuste separatus sit a prima. Respon. quod 
+      <lb ed="#F" n="109"/>haec mulier quae sciuit prius 
+      matrimoni<lb ed="#F" n="110" break="no"/>um,non excusatur am peccato, nec eius fi¬ 
+      <pb ed="#F" n="469-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>lii erunt legitimi, si posteaappareat 
+      legi<lb ed="#F" n="2" break="no"/>timum primum matrimonsum, &amp; nunquam 
+      <lb ed="#F" n="3"/>per ecclesiam separatum, debuit enim 
+      quae<lb ed="#F" n="4" break="no"/>rere sententiam diuortij, negligene enim 
+      <lb ed="#F" n="5"/>fuit, &amp; ideo non debet excusari, quin 
+      sci<lb ed="#F" n="6" break="no"/>uerit impedimentum. Debuit enim 
+      dili<lb ed="#F" n="7" break="no"/>gentius inquirere, quam per solam 
+      publi<lb ed="#F" n="8" break="no"/>catsonem. arg. sup. vt lit. non cont. 
+      quo<lb ed="#F" n="9" break="no"/>niam. sup. despon. in praesentia. 35. q. 1. cum 
+      <lb ed="#F" n="10"/>per bellicam. quo ad alia impedimenta 
+      <lb ed="#F" n="11"/>praeter consanguinitatem modicum 
+      ope<lb ed="#F" n="12" break="no"/>ratur, nisi quia facit aliquando praesumi, 
+      <lb ed="#F" n="13"/>quia si crederet aliquod impedimentum 
+      <lb ed="#F" n="14"/>esse suo matrimonio, non fecisset suum 
+      <lb ed="#F" n="15"/>matrimonium per ecclesias publicari, sed 
+      <lb ed="#F" n="16"/>hanc praesumptionem tollit, si publice 
+      <lb ed="#F" n="17"/>credebatur, vel sciebatur, quod cum alio 
+      con<lb ed="#F" n="18" break="no"/>traxisset. ff. de iur. &amp; fa. igno. regularia. 
+      <lb ed="#F" n="19"/>Discat igitur cautius negotiari. C. de fur. 
+      <lb ed="#F" n="20"/>in ciuilem. 
+      </p>
+               <p xml:id="inleiv-d1e1473-d1e425">
+                  <lb ed="#F" n="21"/>Et haec vera sunt, si erant personae 
+      no<lb ed="#F" n="22" break="no"/>tae sibi adinuicem, nam si esset vnus de vna 
+      <lb ed="#F" n="23"/>prouincia, &amp; alius de alia, ibi facilius 
+      prae<lb ed="#F" n="24" break="no"/>sumeretur probabilis ignorantia. Si 
+      <lb ed="#F" n="25"/>autem nihil sciret de priorimatrimonio, 
+      <lb ed="#F" n="26"/>licet publice contraxisset, nec ipsa esset 
+      <lb ed="#F" n="27"/>in peccato, nec filii illegitimi, quia ab 
+      im<lb ed="#F" n="28" break="no"/>pedimento excusat eos contractum 
+      ma<lb ed="#F" n="29" break="no"/>trimonium publice, &amp; ignorantia quae 
+      <lb ed="#F" n="30"/>ambo interuenire oportet, vt excusetur, 
+      <lb ed="#F" n="31"/>vt expresse colligitur. inf. in praeall. decr. 
+      <lb ed="#F" n="32"/>qui fi. sint leg. ex tenore. Item &amp; si 
+      senten<lb ed="#F" n="33" break="no"/>tia lata sit, dummodo non sit appellatum 
+      <lb ed="#F" n="34"/>sufficit ad excusationem matrimonii &amp; 
+      <lb ed="#F" n="35"/>legitimationis filiorum, quamuis possit 
+      <lb ed="#F" n="36"/>postea ipsa sententia retractari, &amp; etiam 
+      re<lb ed="#F" n="37" break="no"/>tractetur. sup. de senten. &amp; re iud. tenor. 
+      <lb ed="#F" n="38"/>qusa probabilem causam habent erroris, 
+      <lb ed="#F" n="39"/>imo videtur etiam, quod si sciuerunt 
+      ma<lb ed="#F" n="40" break="no"/>trimonium primum, &amp; ignorante altero 
+      <lb ed="#F" n="41"/>contrahant secundum quod credebant 
+      <lb ed="#F" n="42"/>primum matrimonsum separatum 
+      probabili<lb ed="#F" n="43" break="no"/>ter, quod sine peccato sunt, &amp; filii sunt 
+      le<lb ed="#F" n="44" break="no"/>gitimi, etiam si nulla fiat publicatio in 
+      ec<lb ed="#F" n="45" break="no"/>clesijs. sup. de spon. cum in apostolica. Sed 
+      <lb ed="#F" n="46"/>hoc non credo, nam ex quo mulier sciuit 
+      <lb ed="#F" n="47"/>virum habere aliam vxorem, non debet cum 
+      <lb ed="#F" n="48"/>eo contrahere, vel ei credere super 
+      separa<lb ed="#F" n="49" break="no"/>tione primi matrimonqum, nisi per veritatem 
+      <lb ed="#F" n="50"/>hoc sciat. ar. sup. de spon. in praesentia. Nec 
+      <lb ed="#F" n="51"/>contradicit decr. cum in apostolica, qusa 
+      li<lb ed="#F" n="52" break="no"/>cet ignorantia illa excuset, vt postea 
+      pos<lb ed="#F" n="53" break="no"/>sit cum ea contrahere, non obstante quod de ea 
+      <lb ed="#F" n="54"/>ducenda fidem dedit prima viuente, non 
+      ta<lb ed="#F" n="55" break="no"/>men filios defendit ab illegitimitate. 
+      <lb ed="#F" n="56"/>(Probabilis) no. propter probabilem 
+      eomue<lb ed="#F" n="57" break="no"/>cturam interdici matrimonia. sup. de spon. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>cum intua. (Interdicat) per ipsos presby. 
+      <lb ed="#F" n="59"/>teros, alii dicunt per solos ordinarios. 
+      <lb ed="#F" n="60"/>(Si ambo) secus sialter. inf. qui fil. sint 
+      le<lb ed="#F" n="61" break="no"/>gl. ex tenore. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

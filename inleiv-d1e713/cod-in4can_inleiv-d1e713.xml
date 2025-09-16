@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 16</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 16</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="245-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e713" type="decretales-l2t16">
+            <head xml:id="inleiv-d1e713-Hd1e98">Titulus 16</head>
+            <p xml:id="inleiv-d1e713-d1e100">
+               <lb ed="#F" n="8"/>TITVLVS XVI. 
+      <lb ed="#F" n="9"/>I LITE PENDENTE 
+      <lb ed="#F" n="10"/>NIIL. INNOVETVE. 
+      </p>
+            <div xml:id="inleiv-d1e713-Dd1e109" type="decretales-l2t16c1">
+               <head xml:id="inleiv-d1e713-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e713-d1e113">
+                  <lb ed="#F" n="11"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e118">
+                  <lb ed="#F" n="12"/>MEMORIA. Hoc 
+      ver<lb ed="#F" n="13" break="no"/>bum est rubricae (innouetur) 
+      <lb ed="#F" n="14"/>id est, nullum ius nouum 
+      im<lb ed="#F" n="15" break="no"/>petretur, &amp; sic loquitur. C. 
+      <lb ed="#F" n="16"/>e lit. pen. per totum. infra, 
+      <lb ed="#F" n="17"/>de test. causam. 2. posseisione antem sua 
+      <lb ed="#F" n="18"/>potest vti, quia illud non est innouare, sed 
+      <lb ed="#F" n="19"/>veteri iure vti, imo plus dicimus, quod 
+      ali<lb ed="#F" n="20" break="no"/>qua noua potest facere, &amp; ante litis 
+      con<lb ed="#F" n="21" break="no"/>test. &amp; post, dummodo non faciat in 
+      prae<lb ed="#F" n="22" break="no"/>iudicium iuris aduersarii. infra, de appel. 
+      <lb ed="#F" n="23"/>significante. vbi not. Praeiudicium) forte 
+      <lb ed="#F" n="24"/>mandauerat ei, quod crucem non 
+      defer<lb ed="#F" n="25" break="no"/>ret ante se extra suam prouinciam, quia 
+      <lb ed="#F" n="26"/>rescriptum priuilegio Eboracens. vel 
+      con<lb ed="#F" n="27" break="no"/>suetudini approbatae non potuit 
+      praeiudi<lb ed="#F" n="28" break="no"/>care: vt supra, de praescri. cum ordinem. 
+      <lb ed="#F" n="29"/>C. si contra ius praescriptione. C. de 
+      con<lb ed="#F" n="30" break="no"/>sue. c. vl. &amp; . interpretatio rescriptorum 
+      iu<lb ed="#F" n="31" break="no"/>ri communi concordare debet. supra, de 
+      <lb ed="#F" n="32"/>transla. Episcopi. vel electi. c. licet. supra, 
+      <lb ed="#F" n="33"/>de rescrip. causam. (Consueuistis) etiam si 
+      <lb ed="#F" n="34"/>consuetudo praescripta non esset: nam lite 
+      <lb ed="#F" n="35"/>pendente non debet exui possessione. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e713-Dd1e174" type="decretales-l2t16c2">
+               <head xml:id="inleiv-d1e713-Hd1e176">Caput 2</head>
+               <p xml:id="inleiv-d1e713-d1e178">
+                  <lb ed="#F" n="36"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e183">
+                  <lb ed="#F" n="37"/>T AVDAPILEM. (Probatam) supra, 
+      <lb ed="#F" n="38"/>de offi. deleg. causam. infra, de diuor. 
+      <lb ed="#F" n="39"/>porro. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e713-Dd1e193" type="decretales-l2t16c3">
+               <head xml:id="inleiv-d1e713-Hd1e195">Caput 3</head>
+               <p xml:id="inleiv-d1e713-d1e197">
+                  <lb ed="#F" n="40"/>CAPVT III. 
+      <lb ed="#F" n="41"/>1 Res litigiosa an l. ceat ex causa transactionia 
+      <lb ed="#F" n="42"/>alienare. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e206">
+                  <lb ed="#F" n="43"/>ECCLESIA SANCTAE 
+      <lb ed="#F" n="44"/>MARIAE. (Successerunt) 
+      <lb ed="#F" n="45"/>sntellexerat enim Papa, quod 
+      <lb ed="#F" n="46"/>nonasterium sancti Siluestri 
+      <lb ed="#F" n="47"/>ossederat &amp; transtulerat in 
+      <lb ed="#F" n="48"/>alium titulo permutationis possessionis, 
+      <lb ed="#F" n="49"/>de quibus ecclesia sanctae Mariae mouerat 
+      <lb ed="#F" n="50"/>litem contra loan. de Ateia, &amp; quas 
+      eas<lb ed="#F" n="51" break="no"/>dem possess iones idem loannes 
+      transtule<lb ed="#F" n="52" break="no"/>rat ad monasterium sancti Siluestri post 
+      <lb ed="#F" n="53"/>lit. contestationem, sed non erat verum: 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="54"/>sed locauerunt tantum vt in sequenti 
+      ea<lb ed="#F" n="55" break="no"/>pitulo dicitur, &amp; secundum hoc quod 
+      in<lb ed="#F" n="56" break="no"/>tellexerat mandat, scilicet, quod non 
+      ali<lb ed="#F" n="57" break="no"/>enent possessiones, quas intellexit 
+      mona<lb ed="#F" n="58" break="no"/>sterium recepisse pro permutatione 
+      illa<lb ed="#F" n="59" break="no"/>rum, quarum litigium acceperat a loanne 
+      <lb ed="#F" n="60"/>de Ateia. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e250">
+                  <lb ed="#F" n="61"/>Sed dices quomodo potuit agere 
+      ec<lb ed="#F" n="62" break="no"/>clesia sanctae Mariae de vitio litigii contra 
+      <lb ed="#F" n="63"/>monasterium, cum nunquam fuit actum 
+      <lb ed="#F" n="64"/>contra illude Respondemus, si 
+      monasteri<lb ed="#F" n="65" break="no"/>um possideret, posset contra eum agi, si 
+      <lb ed="#F" n="66"/>scienter recepisset. C. de liti. l. vlti. eodem 
+      <lb ed="#F" n="67"/>modo si dolo fecit, quo minus possideret 
+      <lb ed="#F" n="68"/>posset contra id agi si scienter 
+      recepis<lb ed="#F" n="69" break="no"/>set. ff. de peti. haere. nec vllam. §. Item si 
+      <lb ed="#F" n="70"/>quis dolo. C. de alie. iud. mut. cau. fac. l. 1. 
+      <lb ed="#F" n="71"/>&amp; monasterium in fraudem alienasse 
+      di<lb ed="#F" n="72" break="no"/>cebatur, vnde tenebatur de vitio litigiosi, 
+      <lb ed="#F" n="73"/>&amp; rei vendicatione similiter, vt eisdem 
+      <lb ed="#F" n="74"/>legibus probatur. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e283">
+                  <lb ed="#F" n="75"/>1 Sed dices quare prohibeat alienare 
+      <lb ed="#F" n="76"/>tantum res, quae successerant in ius litigii, 
+      <lb ed="#F" n="77"/>cum de alijs etiam sit satis faciendum: vt 
+      <lb ed="#F" n="78"/>in seq. c. sequitur. nec illae plus, quam aliae 
+      <lb ed="#F" n="79"/>sint obligataet Respondemus quod 
+      mona<lb ed="#F" n="80" break="no"/>sterium erat Papae speciale, vnde debet ei 
+      <lb ed="#F" n="81"/>cauere, quantumcunque potest, ne sua 
+      im<lb ed="#F" n="82" break="no"/>mobilia alienet. Alii dicunt, quod sicut 
+      <lb ed="#F" n="83"/>pro re litigiosa datae sunt, ita iure illarum 
+      <lb ed="#F" n="84"/>censetur. inf. de vsur. cum tu. 93. di. c. vlt. 
+      <lb ed="#F" n="85"/>ff. de le. 3. fideicommissa. §. si rem. ff. de fur. 
+      <lb ed="#F" n="86"/>qui vas. §. vlti. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e313">
+                  <lb ed="#F" n="87"/>Sed oppones, nonne ex causa 
+      trans<lb ed="#F" n="88" break="no"/>actionis licet rem litigiosam alienare. C 
+      <lb ed="#F" n="89"/>de liti. l. vlt. Respondemus, verum esse, nisi 
+      <lb ed="#F" n="90"/>in fraudem fieret, sicut hic fiebat. Item 
+      li<lb ed="#F" n="91" break="no"/>cet super eis transigere liceat, non tamen 
+      <lb ed="#F" n="92"/>eas permutare licet. Item Papa in talibus 
+      <lb ed="#F" n="93"/>negotijs quasi semper ex prouisione 
+      pro<lb ed="#F" n="94" break="no"/>cedet. Laboret) quo ad rem litigiosam 
+      re<lb ed="#F" n="95" break="no"/>cuperandam, siue de iure, scilicet, 
+      litigan<lb ed="#F" n="96" break="no"/>do, siue de facto propter potentiam 
+      deten<lb ed="#F" n="97" break="no"/>toris, quo ad ecclesiam siue inonasterium, 
+      <lb ed="#F" n="98"/>tamen nunquam in vanum laborauit: vt 
+      <lb ed="#F" n="99"/>in seq. c. apparet: vel quia ecclesia sancti 
+      <lb ed="#F" n="100"/>Siluestri non sentiret luerum propter praea 
+      <lb ed="#F" n="101"/>lati contractum, non debet sustinere 
+      dam<lb ed="#F" n="102" break="no"/>num. 16. q. 6. si Episcopum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e713-Dd1e352" type="decretales-l2t16c4">
+               <head xml:id="inleiv-d1e713-Hd1e354">Caput 4</head>
+               <p xml:id="inleiv-d1e713-d1e356">
+                  <lb ed="#F" n="103"/>CAPVT IIII
+      </p>
+               <p xml:id="inleiv-d1e713-d1e361">
+                  <lb ed="#F" n="104"/>ECCLESIA SANCTAE 
+      <lb ed="#F" n="105"/>MARIAE. (Restitui) agendo 
+      <lb ed="#F" n="106"/>contra monasterium condict. 
+      <lb ed="#F" n="107"/>ex decre. quae est sup. de resti. 
+      <lb ed="#F" n="108"/>spol. saepe. dicebatur enim 
+      <lb ed="#F" n="109"/>monasterium scienter recepisse res, de 
+      <lb ed="#F" n="110"/>quibus agitur a loan. de Ateia spoliatore, 
+      <pb ed="#F" n="245-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>vel agendo de vitio litigij, siue de eisdem 
+      <lb ed="#F" n="2"/>possessionibus ageretur in hac decret. &amp; 
+      <lb ed="#F" n="3"/>in praece. siue de alijs. Item quod 
+      praeces<lb ed="#F" n="4" break="no"/>serit vel hoc, vel illud, &amp; etiam quod 
+      pro<lb ed="#F" n="5" break="no"/>cessus habiti fuerint dicere non expedit: 
+      <lb ed="#F" n="6"/>sufficit enim intellectum ex decret. 
+      habe<lb ed="#F" n="7" break="no"/>re, licet plene non sciamus qualiter 
+      fa<lb ed="#F" n="8" break="no"/>ctum fuit. Et inane) cum causa 
+      verte<lb ed="#F" n="9" break="no"/>retur inter clericos &amp; laicos, forte multi 
+      <lb ed="#F" n="10"/>processus habiti fuerunt per laicos 
+      iu<lb ed="#F" n="11" break="no"/>dices, &amp; etiam forte ecclesiasticos, de 
+      <lb ed="#F" n="12"/>quibus hic non dicitur, sed opponebatur 
+      <lb ed="#F" n="13"/>contra eccclesiam sanctae Mariae, quae 
+      re<lb ed="#F" n="14" break="no"/>stitutionem cuiusdam possessionis 
+      pete<lb ed="#F" n="15" break="no"/>bat a monachis sancti Siluestri, &amp; hanc
+      <lb ed="#F" n="56"/>
+                  <!-- line coord error -->possessionem lo. in dictum monasterium
+      <lb ed="#F" n="16"/>transtulerat, postquam super eandem 
+      pos<lb ed="#F" n="17" break="no"/>sessionem contra eum lis mota fuerit. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e713-Dd1e425" type="decretales-l2t16c5">
+               <head xml:id="inleiv-d1e713-Hd1e427">Caput 5</head>
+               <p xml:id="inleiv-d1e713-d1e429">
+                  <lb ed="#F" n="18"/>CAPVT V. 
+      <lb ed="#F" n="19"/>1 Non potest quis priuilegium lite pendente 
+      <lb ed="#F" n="20"/>impetrare. 
+      <lb ed="#F" n="21"/>Priuilegium lite pendente impetratum an 
+      <lb ed="#F" n="22"/>&amp; quando valeat: Et num. 2. 
+      <lb ed="#F" n="23"/>2 Lis pendere dicitur etiam si sola citatio 
+      prae<lb ed="#F" n="24" break="no"/>cessit. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e447">
+                  <lb ed="#F" n="25"/>DILECTVS FILIVS. 
+      <lb ed="#F" n="26"/>(Contendunt) &amp; male. C. 
+      <lb ed="#F" n="27"/>vt lit. pen. l. 1. &amp; 2. supra 
+      eo<lb ed="#F" n="28" break="no"/>dem, a memoria. &amp; idem est 
+      <lb ed="#F" n="29"/>in iure, quod in priui. 
+      scili<lb ed="#F" n="30" break="no"/>cet, vt nouum ius non praeiudicet. Authe. 
+      <lb ed="#F" n="31"/>vt cum de app. cog. in princ. &amp; Authen. 
+      <lb ed="#F" n="32"/>vt in medio litis. per totum. 
+      <lb ed="#F" n="33"/>Et intelligo hoc verum, scilicet, quod 
+      <lb ed="#F" n="34"/>non valet priuilegium super nouo iure 
+      <lb ed="#F" n="35"/>concessum, quia non praesumitur Papa, 
+      <lb ed="#F" n="36"/>vel quilibet alius superior vel aequalis, vel 
+      <lb ed="#F" n="37"/>etiam inferior hoc ius concedere 
+      pen<lb ed="#F" n="38" break="no"/>dente lite, sed si constaret contrarium, 
+      <lb ed="#F" n="39"/>tunc bene valeret, vt hic apparet, vbi 
+      di<lb ed="#F" n="40" break="no"/>cit, quod ideo non valet, quia non fecit 
+      <lb ed="#F" n="41"/>mentionem de lite, vnde apparet, quod 
+      <lb ed="#F" n="42"/>si de lite mentionem fecisset, quod bene 
+      <lb ed="#F" n="43"/>valeret priuilegium.
+      </p>
+               <p xml:id="inleiv-d1e713-d1e491">
+                  <lb ed="#F" n="44"/>Mentio) no. quod priuilegium a non 
+      <lb ed="#F" n="45"/>a potest quis impetrare lite pendente a 
+      <lb ed="#F" n="46"/>communi domino vel praelato, tamen ius 
+      <lb ed="#F" n="47"/>alterius potest acquirere lite pendente 
+      <lb ed="#F" n="48"/>per vsuca. &amp; alijs modis. ff. de rei vend. si 
+      <lb ed="#F" n="49"/>post acceptam. &amp; l. si autem. §. 1. ff. de 
+      pe<lb ed="#F" n="50" break="no"/>ti. haere. si non mortis. §. fi. ff. de pig. act. 
+      <lb ed="#F" n="51"/>si rem. §. fi. ff. depo. l. 1. §. idem Trebatius. 
+      <lb ed="#F" n="52"/>ff. man. l. si mandauero. Item communis 
+      <lb ed="#F" n="53"/>dominus etiam lite pendente, vel iure suo 
+      <lb ed="#F" n="54"/>de nouo alicui dat aliquid iuris. infra, de 
+      <lb ed="#F" n="55"/>confir. vti. cum dilec. §. vlt. De alio autem 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="57"/>quam de communi domino, vel praelate 
+      <lb ed="#F" n="58"/>non est praesumendum, quod propter lit. 
+      <lb ed="#F" n="59"/>pen. alicui daret priuilegium, vel ius 
+      su<lb ed="#F" n="60" break="no"/>um, &amp; a tali priuilegio datum bene valet 
+      <lb ed="#F" n="61"/>etiam lit. pen. 
+      </p>
+               <p xml:id="inleiv-d1e713-d1e533">
+                  <lb ed="#F" n="62"/>2 Et not. quod lis dicitur pendere 
+      et<lb ed="#F" n="63" break="no"/>iam si sola citatio praecessit, vbi 
+      contine<lb ed="#F" n="64" break="no"/>bantur principi oblatae, vel libellus etiam 
+      <lb ed="#F" n="65"/>ante litis contestationem in Authen. vt in 
+      <lb ed="#F" n="66"/>medio li. non fi. sa. iu. circa fi. &amp; est 
+      ve<lb ed="#F" n="67" break="no"/>rum, quod nulla innouatio impedit, quin 
+      <lb ed="#F" n="68"/>feratur sententia secundum iura quae 
+      ob<lb ed="#F" n="69" break="no"/>tinebant tempore litis motae, vnde si 
+      pri<lb ed="#F" n="70" break="no"/>uilegium impetretur lite pendente, &amp; 
+      <lb ed="#F" n="71"/>postea pereat instantia iudicii, vel etiam 
+      <lb ed="#F" n="72"/>sententia feratur pro impetrante priui. 
+      <lb ed="#F" n="73"/>bene valebit priuilegium. Si autem sola 
+      <lb ed="#F" n="74"/>citatio interuenit, oportet ad hoc, vt 
+      vale<lb ed="#F" n="75" break="no"/>at priuilegium postea impetratum, quod 
+      <lb ed="#F" n="76"/>sententia feratur diffinitina, vel quod 
+      ab<lb ed="#F" n="77" break="no"/>soluatur ab instantia iudicij, etiam si 
+      non<lb ed="#F" n="78" break="no"/>dum sit lis contestata, vel quod renunciet 
+      <lb ed="#F" n="79"/>liti coeptae expresse, vel saltem tacite, puta 
+      <lb ed="#F" n="80"/>quia alios iudices impetrat super eadem 
+      <lb ed="#F" n="81"/>lite, non quod eis succedant in causae 
+      pri<lb ed="#F" n="82" break="no"/>oris cognitione, sed de nouo procedant. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

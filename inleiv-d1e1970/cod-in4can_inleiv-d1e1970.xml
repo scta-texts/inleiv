@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 26</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 26</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="520-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1970" type="decretales-l5t26">
+            <head xml:id="inleiv-d1e1970-Hd1e98">Titulus 26</head>
+            <p xml:id="inleiv-d1e1970-d1e100">
+               <lb ed="#F" n="32"/>TITVLVS XXVI. 
+      </p>
+            <p xml:id="inleiv-d1e1970-d1e105">
+               <lb ed="#F" n="33"/>DE MALEDICIS. 
+      </p>
+            <div xml:id="inleiv-d1e1970-Dd1e110" type="decretales-l5t26c1">
+               <head xml:id="inleiv-d1e1970-Hd1e112">Caput 1</head>
+               <p xml:id="inleiv-d1e1970-d1e114">
+                  <lb ed="#F" n="34"/>CAPVT 1. 
+      </p>
+               <p xml:id="inleiv-d1e1970-d1e119">
+                  <lb ed="#F" n="35"/>INNOTVIT NOBIS. (
+      De<lb ed="#F" n="36" break="no"/>pressionem) ex pertinacia. 10. 
+      <lb ed="#F" n="37"/>quaestio. 1. si quis sa. si autem 
+      <lb ed="#F" n="38"/>ex temeritate veniam 
+      mere<lb ed="#F" n="39" break="no"/>tur. 2. quaestio. 3. si quis iratus. 
+      <lb ed="#F" n="40"/>&amp; §. notandum. C. de iureiur. l. 2. quod 
+      au<lb ed="#F" n="41" break="no"/>tem fit ex insania, miseratione dignum 
+      <lb ed="#F" n="42"/>est. C. si quis imp. male. l. 1. sed qui dicit, 
+      <lb ed="#F" n="43"/>quodex leuitate dixit, hoc probare debet. 
+      <lb ed="#F" n="44"/>C. de iureiu. si sine. ( Beneficii) dicebat 
+      <lb ed="#F" n="45"/>enim, quod Papa multa faciebat, de 
+      qui<lb ed="#F" n="46" break="no"/>bus nullam potestatem habebat. Item 
+      <lb ed="#F" n="47"/>dicebat, quod priuilegia &amp; beneficia, 
+      qui<lb ed="#F" n="48" break="no"/>bus dominus muniuerat &amp; decorauerat 
+      <lb ed="#F" n="49"/>ecclesiam Romanam, non erat digna 
+      Ro<lb ed="#F" n="50" break="no"/>man. eccle. habere, vel quod non dispen¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="51"/>sabat eccl. Rom. sua beneficia per 
+      subieet<lb ed="#F" n="52" break="no"/>eeclesia: 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1970-Dd1e164" type="decretales-l5t26c2">
+               <head xml:id="inleiv-d1e1970-Hd1e166">Caput 2</head>
+               <p xml:id="inleiv-d1e1970-d1e168">
+                  <lb ed="#F" n="53"/>CAPVT II. 
+      <lb ed="#F" n="54"/>STATVIMVS VT SI QVIS. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

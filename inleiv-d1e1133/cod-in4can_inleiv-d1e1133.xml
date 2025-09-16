@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="397-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1133" type="decretales-l3t23">
+            <head xml:id="inleiv-d1e1133-Hd1e98">Titulus 23</head>
+            <p xml:id="inleiv-d1e1133-d1e100">
+               <lb ed="#F" n="38"/>TITVLVS XXIII. 
+      <lb ed="#F" n="39"/>DE 
+      SOLVTIO<lb ed="#F" n="40" break="no"/>NIBVS. 
+      </p>
+            <div xml:id="inleiv-d1e1133-Dd1e109" type="decretales-l3t23c1">
+               <head xml:id="inleiv-d1e1133-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1133-d1e113">
+                  <lb ed="#F" n="41"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1133-d1e118">
+                  <lb ed="#F" n="42"/>AD LOC. (
+      praedecesso<lb ed="#F" n="43" break="no"/>ris) 12. q. 5. quia lex. (Haeres). 
+      <lb ed="#F" n="44"/>16. q. 6. illud. (Necessitate). si 
+      <lb ed="#F" n="45"/>versa sint in vtilitatem 
+      eccle<lb ed="#F" n="46" break="no"/>siae. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1133-Dd1e132" type="decretales-l3t23c2">
+               <head xml:id="inleiv-d1e1133-Hd1e134">Caput 2</head>
+               <p xml:id="inleiv-d1e1133-d1e136">
+                  <lb ed="#F" n="47"/>CAPVT II
+      </p>
+               <p xml:id="inleiv-d1e1133-d1e141">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="48"/>SI QVORVNDAM 
+      <lb ed="#F" n="49"/>(Obligari) alienis debitis, 
+      <lb ed="#F" n="50"/>nam pro suis debitis liceret 
+      <lb ed="#F" n="51"/>dare literas &amp; sigilla. (
+      Sus<lb ed="#F" n="52" break="no"/>pensum) hanc absolutionem 
+      <lb ed="#F" n="53"/>non seruat sibi Papa, &amp; ideo cuilibet 
+      epi<lb ed="#F" n="54" break="no"/>scopo licet. argum. infra, de sen. excom. 
+      <lb ed="#F" n="55"/>nuper. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1133-Dd1e164" type="decretales-l3t23c3">
+               <head xml:id="inleiv-d1e1133-Hd1e166">Caput 3</head>
+               <p xml:id="inleiv-d1e1133-d1e168">
+                  <lb ed="#F" n="56"/>CAPVT III. 
+      <lb ed="#F" n="57"/>ODOARDVS. (Relaxe. 
+      <lb ed="#F" n="58"/>tis.) Videtur quod hoc locum 
+      <lb ed="#F" n="59"/>habet, siue ex contractu, siue 
+      <lb ed="#F" n="60"/>ex maleficio conueniatur, 
+      <lb ed="#F" n="61"/>egenus ad interesse alicui 
+      <lb ed="#F" n="62"/>reddendum tantum, si vero non agitur 
+      <lb ed="#F" n="63"/>ad interesse tantum, sed ad poenam, &amp; 
+      in<lb ed="#F" n="64" break="no"/>teresse, vt est in furto, tunc si placet 
+      acto<lb ed="#F" n="65" break="no"/>ri, quod est ibi, bene poterit computari in 
+      <lb ed="#F" n="66"/>poenam corporalem, ar. 12. q. 2. fraternitas. 
+      <lb ed="#F" n="67"/>sed pro puro interesse non subiicitur poe. 
+      <lb ed="#F" n="68"/>nitentiae, sed reseruabitur es habenda
+      <lb ed="#F" n="69"/>tempore prosperioris fortunae. Si autem 
+      <lb ed="#F" n="70"/>conueniatur quis actione iniuriarum, quae 
+      <lb ed="#F" n="71"/>est tantum ad vindictam, vel etiam si 
+      ali<lb ed="#F" n="72" break="no"/>as conueniatur criminaliter, vbi debet 
+      <lb ed="#F" n="73"/>quis condemnari pecunialiter, fiat 
+      cem<lb ed="#F" n="74" break="no"/>mutatio poenae etiam inuitis actoribus. ff. 
+      <lb ed="#F" n="75"/>de poe. l. 1. inf. de sen. excommu. et famae. 
+      <lb ed="#F" n="76"/>Alii tamen dicunt, quod haec 
+      commuta<lb ed="#F" n="77" break="no"/>tio locum habet tantum, vbi poenae 
+      appli<lb ed="#F" n="78" break="no"/>cantur fisco, quod est semper, nisi in 
+      casi<lb ed="#F" n="79" break="no"/>bus exceptis, sed vbi applicantur certis 
+      <lb ed="#F" n="80"/>personis, non fit commutatio eis 
+      inui<lb ed="#F" n="81" break="no"/>fis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1133-Dd1e229" type="decretales-l3t23c4">
+               <head xml:id="inleiv-d1e1133-Hd1e231">Caput 4</head>
+               <p xml:id="inleiv-d1e1133-d1e233">
+                  <lb ed="#F" n="82"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1133-d1e238">
+                  <lb ed="#F" n="83"/>IS QVI. (Indebitam). 
+      <lb ed="#F" n="84"/>ff. de probat. cum 
+      deindebi<lb ed="#F" n="85" break="no"/>to, etc. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

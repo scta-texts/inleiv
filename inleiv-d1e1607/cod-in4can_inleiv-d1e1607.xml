@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 15</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 15</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="475-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1607" type="decretales-l4t15">
+            <head xml:id="inleiv-d1e1607-Hd1e98">Titulus 15</head>
+            <p xml:id="inleiv-d1e1607-d1e100">
+               <lb ed="#F" n="27"/>TITVLVS XV. 
+      <lb ed="#F" n="28"/>DE FRIGIDIS E  
+      <lb ed="#F" n="29"/>MALEEICIATIS ET 
+      IMPo<lb ed="#F" n="30" break="no"/>tentia coeundi. 
+      </p>
+            <div xml:id="inleiv-d1e1607-Dd1e111" type="decretales-l4t15c1">
+               <head xml:id="inleiv-d1e1607-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1607-d1e115">
+                  <lb ed="#F" n="31"/>CAPVT I. 
+      <lb ed="#F" n="32"/>1 Impotentia coeundi quibus modis probetur. 
+      <lb ed="#F" n="33"/>2 Frigiditas uiri quotupliciter probetur. 
+      <lb ed="#F" n="34"/>3 An admittatur probatio mulieris uolentis per 
+      <lb ed="#F" n="35"/>aspectum corporis probare se uirginem. 
+      <lb ed="#F" n="36"/>4 Cuiusmodi iuramentum requiratur contra 
+      <lb ed="#F" n="37"/>matrimonium. 
+      <lb ed="#F" n="38"/> Quando probationes uiri &amp; mulierus sunt 
+      pa<lb ed="#F" n="39" break="no"/>res circa impotentiam cocundi, quae 
+      prae<lb ed="#F" n="40" break="no"/>ferantur. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e139">
+                  <lb ed="#F" n="41"/>ACCEPISTI MVLIEREM. 
+      <lb ed="#F" n="42"/>(Per mensem) idem est si per 
+      <lb ed="#F" n="43"/>annum vel diem, idem est si 
+      <lb ed="#F" n="44"/>per centum annos. (Per 
+      ve<lb ed="#F" n="45" break="no"/>um) per iuramentum 
+      vtri<lb ed="#F" n="46" break="no"/>usque cum septima manu propinquorum, 
+      <lb ed="#F" n="47"/>33. quaest. 1. cap. 2. vel quia membrum 
+      ha<lb ed="#F" n="48" break="no"/>bet aridum, &amp; est tutius, quod tunc etiam 
+      <lb ed="#F" n="49"/>per triennium expectent, cum finale 
+      iudi<lb ed="#F" n="50" break="no"/>cium de futuro pendeat. inf. eod. lauda. &amp; 
+      <lb ed="#F" n="51"/>cap. fraternitatis. in fi. tamen non 
+      credi<lb ed="#F" n="52" break="no"/>tur necessarium, quod tantum expectent, 
+      <lb ed="#F" n="53"/>si aliter constet indubitabiliter de eius 
+      im<lb ed="#F" n="54" break="no"/>potentia, puta quia iam plene adultus esset, 
+      <lb ed="#F" n="55"/>&amp; indubitabiliter ariditas appareret. inf. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>eod. lauda in princi. &amp; c. fraterni. ibi sed 
+      <lb ed="#F" n="57"/>per errorem. Vel potest dicere, quod 
+      prin<lb ed="#F" n="58" break="no"/>cipium huius decre. loquitur, quando con 
+      <lb ed="#F" n="59"/>fitetur ambo impotentiam viri, &amp; tunesi 
+      <lb ed="#F" n="60"/>per vnum mensem simul dederint operam 
+      <lb ed="#F" n="61"/>copulae coniugali, etiam si non apparteat 
+      <lb ed="#F" n="62"/>impotens propter paruitatem &amp; aridita. 
+      <lb ed="#F" n="63"/>tem membri, &amp; etiam quia mulier 
+      incor<lb ed="#F" n="64" break="no"/>rupta ostenditur, &amp; etiam si hoc non 
+      ap<lb ed="#F" n="65" break="no"/>pareat, sed virum impotentem dicunt, 
+      <lb ed="#F" n="66"/>tamen necesse est, quod sept ima manu 
+      pro<lb ed="#F" n="67" break="no"/>pinquorum hoc probetur, vt hic, quia 
+      <lb ed="#F" n="68"/>potest esse, quod licet membrum sit 
+      <lb ed="#F" n="69"/>paruum &amp; aridum, tamen semen potest 
+      <lb ed="#F" n="70"/>emittere, sicut &amp; vrinam emittit, &amp; 
+      <lb ed="#F" n="71"/>propter hoc dubium, non sufficit 
+      proba<lb ed="#F" n="72" break="no"/>tio aspectus corporis vel concessio, nisi ad. 
+      <lb ed="#F" n="73"/>sint iuramenta propinquorum. Item non 
+      <lb ed="#F" n="74"/>suf ficit, quod vna die manserit mulier cum 
+      <lb ed="#F" n="75"/>viro, imo necesse est, quod ad minus per 
+      <lb ed="#F" n="76"/>mensem fuerit in experientia copulae 
+      con<lb ed="#F" n="77" break="no"/>iugalis. Item si steterit cum viro plusquam 
+      <lb ed="#F" n="78"/>per annum quod non reclamet, etiam si 
+      <lb ed="#F" n="79"/>postea omnia indicia frigiditatis viri 
+      osten<lb ed="#F" n="80" break="no"/>dere velit, &amp; etiam iuramenta praestare 
+      <lb ed="#F" n="81"/>vlterius non audiuntur, quia omnibus 
+      mo<lb ed="#F" n="82" break="no"/>dis praesumitur carnalis copula 
+      interue<lb ed="#F" n="83" break="no"/>nisse, quamuis in hoc casu posset dici 
+      pro<lb ed="#F" n="84" break="no"/>babiliter, quod etiam post annum &amp; semper, si 
+      <lb ed="#F" n="85"/>confitentur impotentem virum separari 
+      de<lb ed="#F" n="86" break="no"/>bent iuramentis praestitis, &amp; maxime si 
+      prae<lb ed="#F" n="87" break="no"/>dicta iudicia frigiditatis apparent. Sed 
+      vi<lb ed="#F" n="88" break="no"/>detur quod deberent esse triennio in 
+      pro<lb ed="#F" n="89" break="no"/>batione copulae coniugalis. inf. eo lauda. 
+      <lb ed="#F" n="90"/>So. illa loquitur, quando nulla vel pauca 
+      <lb ed="#F" n="91"/>signa frigiditatis apparent, &amp; tuncerit 
+      ne<lb ed="#F" n="92" break="no"/>cessarium triennium, vel intelligitur, 
+      quan<lb ed="#F" n="93" break="no"/>do fuerint simul plusquam per annum, 
+      <lb ed="#F" n="94"/>quia &amp; tunc potest mulier petere 
+      separa<lb ed="#F" n="95" break="no"/>tionem, sed triennio erunt in probatione, 
+      <lb ed="#F" n="96"/>vel illud habet locum, quando prius non 
+      <lb ed="#F" n="97"/>potest probari frigiditas viri, quia tunc 
+      da<lb ed="#F" n="98" break="no"/>dum est triennium, &amp; hoc ipsum sonat 
+      lite<lb ed="#F" n="99" break="no"/>ra illius. c. Sed quia hic ante probatur 
+      fri<lb ed="#F" n="100" break="no"/>giditas, non est necessarium triennium, vel 
+      <lb ed="#F" n="101"/>hic loquitur, quando vterque confitetur, ibi 
+      <lb ed="#F" n="102"/>quando alter tantum, sed &amp; quando ambo 
+      <lb ed="#F" n="103"/>confitentur videtur nece sse hoc triennium. 
+      <lb ed="#F" n="104"/>inf. eo. c. fi. sed dic ibi loqui vltra annum 
+      <lb ed="#F" n="105"/>quando cum eo manserat. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e285">
+                  <lb ed="#F" n="106"/>Secunda autem pars huius decr. loquitur, 
+      <lb ed="#F" n="107"/>quando muliet dicit maritum frigidum, sed 
+      <lb ed="#F" n="108"/>ipse negat. In hoc casu enim si per sex 
+      men<lb ed="#F" n="109" break="no"/>ses steterit cum marito sine reclamatione, 
+      <lb ed="#F" n="110"/>nunquam decaetero praetextu 
+      frigidita<lb ed="#F" n="111" break="no"/>tis poterunt separari, &amp; hoc ideo quia 
+      <lb ed="#F" n="112"/>praesumitur ab eo cognita, nec prode¬ 
+      <pb ed="#F" n="476-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>runt ei praedicta indiciafrigiditatis viri &amp; 
+      <lb ed="#F" n="2"/>suae virginitatis, quia potest esse, quod 
+      pro<lb ed="#F" n="3" break="no"/>pter modicum membrum viri, mulier 
+      ad<lb ed="#F" n="4" break="no"/>hue apparet integra, vel aliter timet oculi 
+      <lb ed="#F" n="5"/>deceptio. Tertia pars dicit, quod si tantum 
+      <lb ed="#F" n="6"/>per duos menses, vel per minus spatium 
+      <lb ed="#F" n="7"/>sex mensium fuerit cum viro, &amp; tunc 
+      recla<lb ed="#F" n="8" break="no"/>mauerit de frigiditate viri, etiam si vir 
+      ne<lb ed="#F" n="9" break="no"/>get, tamem si probauerit per iuramenta 
+      frigi<lb ed="#F" n="10" break="no"/>ditatem viri, &amp; nihilominus per alia 
+      indi<lb ed="#F" n="11" break="no"/>cia viri, vel per aspectum sui corporis, 
+      se<lb ed="#F" n="12" break="no"/>parabitur matrimonium, sed in hoc casu, 
+      <lb ed="#F" n="13"/>non est necesse triennium experientiae 
+      co<lb ed="#F" n="14" break="no"/>pulae coniugalis, vt in illa decre. 
+      lauda<lb ed="#F" n="15" break="no"/>bilem. &amp; hoc ideo, quia cito reclamauit, 
+      <lb ed="#F" n="16"/>sed in secundo casu hic. sup. proxi. not. 
+      pos<lb ed="#F" n="17" break="no"/>set dici succurri mulieri, quae nimis tacuit 
+      <lb ed="#F" n="18"/>per experientiam triennii, ad hoc facit 
+      de<lb ed="#F" n="19" break="no"/>cre. laudabilem, &amp; hoc magis literae 
+      con<lb ed="#F" n="20" break="no"/>sonare videtur quicquid dicat glo. not. in 
+      <lb ed="#F" n="21"/>hoc casu, &amp; in c. laudabilem. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e353">
+                  <lb ed="#F" n="22"/>2 Et no. quod tria argumenta inuenta sunt 
+      <lb ed="#F" n="23"/>ad probationam frigiditatis, scilicet 
+      aspe<lb ed="#F" n="24" break="no"/>ctus corporis, iuramenta septimae manus 
+      <lb ed="#F" n="25"/>propinquorum, &amp; triennium, sed 
+      discre<lb ed="#F" n="26" break="no"/>tus iudex prouidebit, &amp; vtrum vnum solum, 
+      <lb ed="#F" n="27"/>vel duo, vel omnia tria argumenta faciat 
+      <lb ed="#F" n="28"/>praestari, &amp; cum in sententia separationis 
+      <lb ed="#F" n="29"/>matrimonii periculum animae vertatur, 
+      <lb ed="#F" n="30"/>melius est quod superabundent 
+      probatio<lb ed="#F" n="31" break="no"/>nes, quam deficiant. (reparare) not. 
+      con<lb ed="#F" n="32" break="no"/>tra sententiam veniri veritate manifesta 
+      <lb ed="#F" n="33"/>(reparare). 33. quaest. 1. si per sor. contra 
+      so<lb ed="#F" n="34" break="no"/>lu. illud tenet quando propter maleficium 
+      <lb ed="#F" n="35"/>separatur, sed hoc quando propter 
+      frigi<lb ed="#F" n="36" break="no"/>ditatem. Alii dicunt illud derogatum &amp; 
+      <lb ed="#F" n="37"/>melius (dimidium) idem si post duos 
+      men<lb ed="#F" n="38" break="no"/>ses, vt inf. sequitur. hoc non placet. 
+      <lb ed="#F" n="39"/>(Credendum) nisi mulier per aspectum 
+      <lb ed="#F" n="40"/>corporis velit probare se virginem, quae 
+      <lb ed="#F" n="41"/>probatio praefertur, sup. de proba. 
+      propo<lb ed="#F" n="42" break="no"/>suisti. Aliqui tamen dicunt, quod in hoc 
+      <lb ed="#F" n="43"/>casu etiam si mulier per aspectum 
+      corpo<lb ed="#F" n="44" break="no"/>ris velit probare se virginem, nec 
+      admitti<lb ed="#F" n="45" break="no"/>tur, cum possit &amp; consensisse videatur 
+      <lb ed="#F" n="46"/>eum habere vt fratrem, &amp; si non possit 
+      <lb ed="#F" n="47"/>eum habere vt maritum. inf. eod. 
+      consul<lb ed="#F" n="48" break="no"/>ta. &amp; quia si propter frigiditatem viri 
+      se<lb ed="#F" n="49" break="no"/>pararetur, daretur mulieri licentia 
+      nu<lb ed="#F" n="50" break="no"/>bendi alij, sed potest esse, quod mulierest 
+      <lb ed="#F" n="51"/>virgo, non quia vir sit impotens, sed quia 
+      <lb ed="#F" n="52"/>sibi coniungi non vult, &amp; tunc non est 
+      li<lb ed="#F" n="53" break="no"/>centia sibi danda nubendi alteri, sed vir 
+      <lb ed="#F" n="54"/>cogendus est ad eam accedere, si autem 
+      <lb ed="#F" n="55"/>ambo confiterentur virum impotentem, 
+      lici<lb ed="#F" n="56" break="no"/>teseparari possent, cum solennitate 
+      su<lb ed="#F" n="57" break="no"/>pradicta. sup. eod. in princi. (caput) . 33. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>quaest. 1. si quis vxo. &amp; sunt hae rationes, 
+      <lb ed="#F" n="59"/>quia tractu temporis praesumitur contra 
+      <lb ed="#F" n="60"/>eam. sup. de spon. ad id. &amp; quia quilibet 
+      <lb ed="#F" n="61"/>praesumitur potens. 50. di. quia. Et quia stat 
+      <lb ed="#F" n="62"/>pro matrimonio quod est fauorabile. 32. 
+      <lb ed="#F" n="63"/>quaest. 1. dixit. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e450">
+                  <lb ed="#F" n="64"/> (Perrectum) id est, iuramentum cum 
+      <lb ed="#F" n="65"/>septima manu propinquorum mulieris, 
+      <lb ed="#F" n="66"/>nam quando aliqui confitentut contra 
+      <lb ed="#F" n="67"/>matrimonium, ne colludant hoc iuramen. 
+      <lb ed="#F" n="68"/>tum est necessarium. sup. de eo. qui cog. 
+      con<lb ed="#F" n="69" break="no"/>san. vxo. suae. super. 33. quaest. 1. si quis. 
+      ni<lb ed="#F" n="70" break="no"/>si fama eorum assertionem adiuuet, quia 
+      <lb ed="#F" n="71"/>tunc exoneratur probationibus horum 
+      <lb ed="#F" n="72"/>iuramentorum. 35. quaest. 6. si duo. hoc non 
+      <lb ed="#F" n="73"/>placet, quando petitur separatio propter 
+      <lb ed="#F" n="74"/>frigiditatem, vbi parum aut nihil fama 
+      va<lb ed="#F" n="75" break="no"/>lere potest. Sed secus est in 
+      consangui<lb ed="#F" n="76" break="no"/>nitate, vbi multum valet fama, sed de hoc 
+      <lb ed="#F" n="77"/>plenius no. sup. de praesum. tertio. sed licet 
+      <lb ed="#F" n="78"/>non credatur contra matrimonium, vt 
+      <lb ed="#F" n="79"/>hic dicitur, pro matrimonio bene 
+      credi<lb ed="#F" n="80" break="no"/>tur, nisi esset impedimentum alterius 
+      ma<lb ed="#F" n="81" break="no"/>trimonii. 31. quaest. 2. Lotharius. vel nisi 
+      <lb ed="#F" n="82"/>de falso suspecti essent, &amp; quod dicitur non 
+      <lb ed="#F" n="83"/>credi eis contra matrimonium 
+      intelligen<lb ed="#F" n="84" break="no"/>dum est separandum, secus si vellent 
+      sepa<lb ed="#F" n="85" break="no"/>rare torum propter continentiam: 33. d. 5. 
+      <lb ed="#F" n="86"/>qued Deo. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e502">
+                  <lb ed="#F" n="87"/>5 Contra id quod hic dicitur cilicet quod 
+      <lb ed="#F" n="88"/>creditur mulieris iuramento cum 7. 
+      ma<lb ed="#F" n="89" break="no"/>nu. Sicopponitur. Quid erit si maritus 
+      <lb ed="#F" n="90"/>cum totidem sit paratus iurare, quod coire 
+      <lb ed="#F" n="91"/>potest, vel quod cognouit eam, dico quod 
+      <lb ed="#F" n="92"/>tunc praefertur probatio viri propter 
+      rati<lb ed="#F" n="93" break="no"/>ones, quas hic notaui. Habet ergo locum, 
+      <lb ed="#F" n="94"/>quod hic dicitur, quod vir tantum &amp; 
+      sim<lb ed="#F" n="95" break="no"/>pliciter dicit, quod cognouit eam, mulier 
+      <lb ed="#F" n="96"/>autem &amp; dicit, &amp; iurat cum septima 
+      ma<lb ed="#F" n="97" break="no"/>nu propinquorum aliqua etiam 
+      praesum<lb ed="#F" n="98" break="no"/>ptione ariditatis vel alia praecedente. Potest 
+      <lb ed="#F" n="99"/>etiam intelligi, quia si mulier dicit se 
+      incogni<lb ed="#F" n="100" break="no"/>tam &amp; virginem, &amp; vir dicit se cognouisse, 
+      <lb ed="#F" n="101"/>si post duos menses hoc dicat mulier, non 
+      <lb ed="#F" n="102"/>admittetur probatio mulieris volentis se 
+      <lb ed="#F" n="103"/>probare virginem per aspectum corporis, 
+      <lb ed="#F" n="104"/>sed tantum viro creditur, cum saepe 
+      falla<lb ed="#F" n="105" break="no"/>tur oculus. 27. q. 1. nec aliqua. Idem etiam si 
+      <lb ed="#F" n="106"/>vellent eum probare maleficiatum non 
+      <lb ed="#F" n="107"/>admittetur mulieris probatio, &amp; hoc 
+      pro<lb ed="#F" n="108" break="no"/>pter rationes in alia glossa assignatas, 
+      se<lb ed="#F" n="109" break="no"/>cus autem si vellent probare per aspectum 
+      <lb ed="#F" n="110"/>corporis maritum frigidum, vel maritus 
+      <lb ed="#F" n="111"/>mulierem arctam, quia in hoc bene 
+      admitte<lb ed="#F" n="112" break="no"/>ret eius probatio, cum haec satis de facili 
+      <lb ed="#F" n="113"/>cognoscantur, secus autem si ante duos 
+      men<lb ed="#F" n="114" break="no"/>ses protestetur de impotentia mariti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e566" type="decretales-l4t15c2">
+               <head xml:id="inleiv-d1e1607-Hd1e568">Caput 2</head>
+               <p xml:id="inleiv-d1e1607-d1e570">
+                  <pb ed="#F" n="476-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II. 
+      <lb ed="#F" n="2"/>1 Senei an &amp; quando contrapere possint.
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e581">
+                  <lb ed="#F" n="3"/>QVOD SEDEM. (
+      Impoten<lb ed="#F" n="4" break="no"/>tes) propter frigiditatem, 
+      vel<lb ed="#F" n="5" break="no"/>alio perpetuo impedimento, 
+      <lb ed="#F" n="6"/>nam senes licet sint 
+      impoten<lb ed="#F" n="7" break="no"/>tes propter defectum caloris, 
+      <lb ed="#F" n="8"/>quia tamen beneficio medicinae coire 
+      pos<lb ed="#F" n="9" break="no"/>sunt, &amp; contrahere possunt. ar. C. de nup. 
+      <lb ed="#F" n="10"/>sancimus. 31. q. 1. apparuit. &amp; c. quod si 
+      <lb ed="#F" n="11"/>dormierit. De paruulis autem dic vt no. 3. de 
+      <lb ed="#F" n="12"/>despon. impu. puberes. &amp; c. continebatur. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e606" type="decretales-l4t15c3">
+               <head xml:id="inleiv-d1e1607-Hd1e608">Caput 3</head>
+               <p xml:id="inleiv-d1e1607-d1e610">
+                  <lb ed="#F" n="13"/>CAPVT III 
+      <lb ed="#F" n="14"/>1 Vitium de nono contingent non debet 
+      scpa<lb ed="#F" n="15" break="no"/>rare matrimonium.
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e619">
+                  <lb ed="#F" n="16"/>EX LITERIS TVIS. (
+      Con<lb ed="#F" n="17" break="no"/>traxit) id est, contraxisse 
+      ap<lb ed="#F" n="18" break="no"/>paruit, si enim certum esset, 
+      <lb ed="#F" n="19"/>quod infirmitatem propter 
+      <lb ed="#F" n="20"/>impotentiam mariti 
+      contra<lb ed="#F" n="21" break="no"/>xisset, non bene sequeretur, quod sit vitium, 
+      <lb ed="#F" n="22"/>ete: nec propter vitium de nouo 
+      contin<lb ed="#F" n="23" break="no"/>gens debet separari matrimonium. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e641" type="decretales-l4t15c4">
+               <head xml:id="inleiv-d1e1607-Hd1e643">Caput 4</head>
+               <p xml:id="inleiv-d1e1607-d1e645">
+                  <lb ed="#F" n="24"/>CAPVT IIII. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e650">
+                  <lb ed="#F" n="25"/>CONSVLTATIONI Tuae. 
+      <lb ed="#F" n="26"/>Incredibile) satis apparet 
+      <lb ed="#F" n="27"/>nic hanc decr. loqui in eo 
+      ca<lb ed="#F" n="28" break="no"/>su, quando quis contraxit 
+      sci<lb ed="#F" n="29" break="no"/>enter cum impotente, 
+      ope<lb ed="#F" n="30" break="no"/>ratur enim scientia eius, quod eam teneat 
+      <lb ed="#F" n="31"/>in sororem, si autem ignorantor 
+      contraxis<lb ed="#F" n="32" break="no"/>set cum arcta, non cogeretur eam habere 
+      <lb ed="#F" n="33"/>vt sororem, licet posset fi vellet. inf. c. 
+      pro<lb ed="#F" n="34" break="no"/>xi. potens autem si cum alia contrahat 
+      sem<lb ed="#F" n="35" break="no"/>per tenet matrimonium quamuis in 
+      pri<lb ed="#F" n="36" break="no"/>mo casu arctam vt sororem tenere 
+      coga<lb ed="#F" n="37" break="no"/>tur &amp; alere. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e682" type="decretales-l4t15c5">
+               <head xml:id="inleiv-d1e1607-Hd1e684">Caput 5</head>
+               <p xml:id="inleiv-d1e1607-d1e686">
+                  <lb ed="#F" n="38"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e691">
+                  <lb ed="#F" n="39"/>LAVDABILEM. (Requisisti). 
+      <lb ed="#F" n="40"/>Prima pars decre. loquitur, 
+      <lb ed="#F" n="41"/>quando vnus coniugum 
+      di<lb ed="#F" n="42" break="no"/>cit se cognouisse, alter 
+      diffi<lb ed="#F" n="43" break="no"/>tetur, quia tunc debet dari 
+      <lb ed="#F" n="44"/>triennium &amp; iuramentum 7. manus 
+      pro<lb ed="#F" n="45" break="no"/>pinquorum alterius coniugis, scilicet 
+      ne<lb ed="#F" n="46" break="no"/>gantis copulam. Secunda autem pars 
+      lo<lb ed="#F" n="47" break="no"/>quitur, quando vterque confitetur, &amp; tunc 
+      <lb ed="#F" n="48"/>non est necesse dari triennium, sed sufficit 
+      <lb ed="#F" n="49"/>septima manus parentum vtriusque 
+      con<lb ed="#F" n="50" break="no"/>iugis. Intellectus huius decre. satis 
+      decla<lb ed="#F" n="51" break="no"/>ratur. sup. eod. c. 1. in glos. quae inoipit, per 
+      <lb ed="#F" n="52"/>iuramentum(naturaliter) i. in his qui nar 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>turaliter frigidi dicuntur ( celebrati con. 
+      <lb ed="#F" n="54"/>iugii) &amp; cohabitationis, ex quo 
+      dederun<lb ed="#F" n="55" break="no"/>opera copulae carnali. 33. q. 1. si quis: (
+      pri<lb ed="#F" n="56" break="no"/>us) nam si primo probari possit, puta quia 
+      <lb ed="#F" n="57"/>habet membrum siceum &amp; aridum, 
+      sta<lb ed="#F" n="58" break="no"/>tim petenti dabitur licentia contrahendi. 
+      <lb ed="#F" n="59"/>inf. c. proxi. quando autem est dubium 
+      ex<lb ed="#F" n="60" break="no"/>pectat per triennium. Authent. de nup. §. 
+      <lb ed="#F" n="61"/>per occasionem. vel melius si confitentur 
+      <lb ed="#F" n="62"/>&amp; multa indicia frigiditatis apparerent, &amp; 
+      <lb ed="#F" n="63"/>insuper praestaret iuramenta parentum, vel 
+      <lb ed="#F" n="64"/>aliter vt not. sup. eod. c. 1. in glo. per 
+      iura<lb ed="#F" n="65" break="no"/>mem. (Triennium) tanto tempore 
+      expecta<lb ed="#F" n="66" break="no"/>bit maleficiatus, nam fi hoc tempus 
+      suffi<lb ed="#F" n="67" break="no"/>cit naturaliter frigidis, multo fortius illis 
+      <lb ed="#F" n="68"/>qui non contraxerunt a primis 
+      componen<lb ed="#F" n="69" break="no"/>tibus vitium. inf. c. vlti. Nos dicimus, quod 
+      <lb ed="#F" n="70"/>propter maleficium, nunquam separatur 
+      <lb ed="#F" n="71"/>matrimonium, vt no. inf. eo. c. proxi. (
+      vo<lb ed="#F" n="72" break="no"/>luerint) . i. non potuerint(decretum)33. q. 
+      <lb ed="#F" n="73"/>1. quod autem(per iudicium). i. aspectum 
+      <lb ed="#F" n="74"/>corporis vel testes. sup. de proba. 
+      proposu<lb ed="#F" n="75" break="no"/>isti. erat enim virgo, nec habet necesse 
+      ha<lb ed="#F" n="76" break="no"/>bere septimam manum propinquorum, 
+      <lb ed="#F" n="77"/>vel dic cum saepe oculus fallatur. 27. quest. 
+      <lb ed="#F" n="78"/>1. nec aliqua. semper necessaria est 
+      septi<lb ed="#F" n="79" break="no"/>ma manus. inf. eod. c. vlti. in arcta tamen 
+      <lb ed="#F" n="80"/>secus dicerem inf. c. proxi. quaeest 
+      infalli<lb ed="#F" n="81" break="no"/>bilis probatio, nec placet. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e789">
+                  <lb ed="#F" n="82"/>Alii dicunt, id est, per aspectum corporis 
+      <lb ed="#F" n="83"/>viri, quod siccum &amp; aridum membrum 
+      ha<lb ed="#F" n="84" break="no"/>bet, &amp; non est hic necessarium habere 7. 
+      <lb ed="#F" n="85"/>manum propinquorum, sicut &amp; vbi 
+      pro<lb ed="#F" n="86" break="no"/>batur arcta . inf. c. proxi. (separentur) tam 
+      <lb ed="#F" n="87"/>vir quam mulier, secus si propter 
+      malefici<lb ed="#F" n="88" break="no"/>um, quia potest esse maleficiatus cum vna, 
+      <lb ed="#F" n="89"/>&amp; non cum altera. 33. quaest. 1. super 
+      sortia<lb ed="#F" n="90" break="no"/>rias. hoc non placet (vxorem) vxor enim 
+      <lb ed="#F" n="91"/>esse non potest, cum non ibi esse duo bona 
+      <lb ed="#F" n="92"/>matrimonii, proles &amp; sacramentum. 27. q. 
+      2<lb ed="#F" n="93" break="no"/>omneccognouerint) nec per aspectum 
+      cor<lb ed="#F" n="94" break="no"/>poris probare possint, cum sit mulier 
+      cor<lb ed="#F" n="95" break="no"/>rupta, &amp; vir habeat membrum aptum 
+      <lb ed="#F" n="96"/>(vterque) Quid si alter iurare nolit? 
+      Re<lb ed="#F" n="97" break="no"/>spon. vt dixi sup. eod. c. in gl. per 
+      iuramem<lb ed="#F" n="98" break="no"/>tum (effecti) hic iurabunt principales, 
+      <lb ed="#F" n="99"/>purgatores autem quod credunt eos 
+      ve<lb ed="#F" n="100" break="no"/>rum iurare. argu. inf. de purg. ca. quotam e2. 
+      <lb ed="#F" n="101"/>Quales autem debeant esse purgator es. 
+      <lb ed="#F" n="102"/>dicitur de pur. c. inter. (tunc) scilicet 
+      prim<lb ed="#F" n="103" break="no"/>cipales &amp; sacramentales, si scienter 
+      maa<lb ed="#F" n="104" break="no"/>ilrars. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e842" type="decretales-l4t15c6">
+               <head xml:id="inleiv-d1e1607-Hd1e844">Caput 6</head>
+               <p xml:id="inleiv-d1e1607-d1e846">
+                  <lb ed="#F" n="105"/>CAPVT VI. 
+      <lb ed="#F" n="106"/> Mulier non apta patiuirum, si pestea, vaet 
+      per<lb ed="#F" n="107" break="no"/>opus medici, uel per concubitum ae l ee ranzaae 
+      <lb ed="#F" n="108"/>uiri reddatur apta, semper est restinre2a 
+      ema<lb ed="#F" n="109" break="no"/>primo, &amp; de hoc uide in num. 3. 4 &amp; e. 
+      <pb ed="#F" n="477-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>2 Id quod non nisi illicite fieri potest, dicitur non 
+      <lb ed="#F" n="2"/>posse fier. 
+      <lb ed="#F" n="3"/>5 Quando sententia ualeat contra rem prius 
+      iu<lb ed="#F" n="4" break="no"/>dicatam. 
+      <lb ed="#F" n="5"/>Votum an &amp; quando impediat matrimonium. 
+      <lb ed="#F" n="6"/>6 Ecclesia saepe in his, quae sunt de iure 
+      natura<lb ed="#F" n="7" break="no"/>li, &amp; specialiter super matrimonio, &amp; 
+      con<lb ed="#F" n="8" break="no"/>tra matrimonium constatuit. 
+      <lb ed="#F" n="9"/>comparatur arcta frigido. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e883">
+                  <lb ed="#F" n="10"/>FRATERNITATIS. (
+      Proui<lb ed="#F" n="11" break="no"/>das) id est, peritas. inf. eod. c. 
+      <lb ed="#F" n="12"/>si haec autem duo in eis 
+      requi<lb ed="#F" n="13" break="no"/>runtur, quod sint honestae &amp; 
+      <lb ed="#F" n="14"/>peritae. ff. de vent. inspi. l. 1. I. 
+      <lb ed="#F" n="15"/>c. vlt. &amp; sup. de proba. proposuisti (sub 
+      pe<lb ed="#F" n="16" break="no"/>riculo) imo iurare debent. sup. de proba. 
+      <lb ed="#F" n="17"/>proposuisti. &amp; hoc modus est iurandi(
+      de<lb ed="#F" n="18" break="no"/>erat) id est, inutilis erat ad matrimonium 
+      <lb ed="#F" n="19"/>contrahendum (qui) non dicitur autem, 
+      <lb ed="#F" n="20"/>quod hic fuit medicus, vel concubitor, &amp; 
+      <lb ed="#F" n="21"/>ideo hinc orta est causa dubitationis (
+      solen<lb ed="#F" n="22" break="no"/>ni) deuouendo se alicui religioni in manu 
+      <lb ed="#F" n="23"/>eius qui potestatem habeat ordini 
+      aggre<lb ed="#F" n="24" break="no"/>gandi. Nos tamem dicimus idem, &amp; si nulli 
+      reli<lb ed="#F" n="25" break="no"/>gioni se deuoueat, sed aliter solennizet 
+      <lb ed="#F" n="26"/>votum, quod qualiter esse possit, not. de 
+      <lb ed="#F" n="27"/>reg. &amp; transe. (porrectum. (Religionem) quia 
+      <lb ed="#F" n="28"/>transeundo ad religionem, &amp; solummodo 
+      <lb ed="#F" n="29"/>habitum nouitii suscipiendo, simplex 
+      vo<lb ed="#F" n="30" break="no"/>tum solennizatur. sup. de reg. &amp; trans. 
+      con<lb ed="#F" n="31" break="no"/>sulti. &amp; c. statuimus. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e933">
+                  <lb ed="#F" n="32"/>Miraculum) melius placet, quod 
+      si<lb ed="#F" n="33" break="no"/>ue per opus medici etiam cum corporali 
+      <lb ed="#F" n="34"/>periculo, siue per concubitum alterius 
+      vi<lb ed="#F" n="35" break="no"/>ri, etiam dissimilis in genitalibus reddatur 
+      <lb ed="#F" n="36"/>apta primo, semper restituenda est 
+      pri<lb ed="#F" n="37" break="no"/>mo, &amp; hoc satis apparet, vbi dicit propter 
+      <lb ed="#F" n="38"/>diuinum miraculum, etc. hoc ipsum etiam 
+      <lb ed="#F" n="39"/>probatur rationabiliter, quia si mulier est 
+      <lb ed="#F" n="40"/>arcta vni omnibus arcta est, &amp; si vni est 
+      co<lb ed="#F" n="41" break="no"/>gnoscibilis, &amp; omnibus est cognoscibilis. 
+      <lb ed="#F" n="42"/>Item si vni est cognoscibilis, non est 
+      ar<lb ed="#F" n="43" break="no"/>cta. Item si aliquando est cognoscibilis, non 
+      <lb ed="#F" n="44"/>habet neque naturale, neque perpetuum 
+      <lb ed="#F" n="45"/>impedimentum, &amp; si ita non est a primo 
+      <lb ed="#F" n="46"/>viro separanda, &amp; si separata fuit per 
+      erro<lb ed="#F" n="47" break="no"/>rem, comperta veritate debet primo viro 
+      <lb ed="#F" n="48"/>restitui, vt hic. Item quod dixi de 
+      corpo<lb ed="#F" n="49" break="no"/>rali periculo, sic probo, quia si ante 
+      inci<lb ed="#F" n="50" break="no"/>sionem in corporali impedimento 
+      contra<lb ed="#F" n="51" break="no"/>xerat cum vno solo, nulla ratio est, quare 
+      <lb ed="#F" n="52"/>non debeat complere promissionem 
+      fa<lb ed="#F" n="53" break="no"/>ctam de matrimonio contrahendo cum 
+      <lb ed="#F" n="54"/>eo, &amp; etiam imputandum esset mulieri, si 
+      <lb ed="#F" n="55"/>postea cum alio contraheret, si vero ante 
+      in<lb ed="#F" n="56" break="no"/>cisionem cum pluribus contraxisset, sicut 
+      <lb ed="#F" n="57"/>cum primo non tenet matrimonium, 
+      sic<lb ed="#F" n="58" break="no"/>ut falso asserunt, multo fortius nec cum seo 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="59"/>eundo, vnde secundo nullo modo 
+      restitu<lb ed="#F" n="60" break="no"/>enda est, restat ergo, quod semper est 
+      pri<lb ed="#F" n="61" break="no"/>mo restit uenda in hoc tamen articulo scilicet 
+      <lb ed="#F" n="62"/>quando per incisionem periculosam red. 
+      <lb ed="#F" n="63"/>ditur apta primo, videtur contraria litera 
+      <lb ed="#F" n="64"/>praesens.ilsce absque corporali periculo, sed 
+      <lb ed="#F" n="65"/>expone. i. absque morte. q. d. si mors non 
+      <lb ed="#F" n="66"/>fuerit subsecuta ex medicamine, semper 
+      <lb ed="#F" n="67"/>restituenda est primo viro, &amp; hoc innuit 
+      <lb ed="#F" n="68"/>quod sequitur. inf. §. per hoc tam grauis. vt 
+      <lb ed="#F" n="69"/>ex ea mortis peri. etc. haec glos. placet. (
+      Hu<lb ed="#F" n="70" break="no"/>manum) siue medici siue mariti tam 
+      cogno<lb ed="#F" n="71" break="no"/>scentis etiam cum aliqua violentia, sed 
+      <lb ed="#F" n="72"/>absque periculo corporis, nam licet per 
+      <lb ed="#F" n="73"/>assuefactionem alterius posset reddi, 
+      ha<lb ed="#F" n="74" break="no"/>bilis marito, vel etiam mariti, sed non nisi 
+      <lb ed="#F" n="75"/>cum corporali periculo, non crederem 
+      ma<lb ed="#F" n="76" break="no"/>trimonium tenere, vnde si nubat alij, non 
+      si<lb ed="#F" n="77" break="no"/>mili tenebit matrimonium, hoc non placet. 
+      <lb ed="#F" n="78"/> (HIumanum) licitum, nam quod non 
+      <lb ed="#F" n="79"/>nisi licite fieri potest, dicitur non posse 
+      fi<lb ed="#F" n="80" break="no"/>eri. 22. q. 2. faciat. non enim crederem 
+      lice<lb ed="#F" n="81" break="no"/>re per assuefactionem alicuius iuuenis, 
+      <lb ed="#F" n="82"/>qui &amp; paruum &amp; durum membrum 
+      ha<lb ed="#F" n="83" break="no"/>beret aliquam inhabilem ad 
+      cognoscen<lb ed="#F" n="84" break="no"/>dum ab aliquo, qui haberet maius &amp; 
+      debi<lb ed="#F" n="85" break="no"/>lius membrum habilitari eidem. Imo etiam 
+      <lb ed="#F" n="86"/>si postea fieret habilis per vsum talis 
+      adul<lb ed="#F" n="87" break="no"/>terii, non tamen est inter eos 
+      matrimoni<lb ed="#F" n="88" break="no"/>um, sed sponsalia tantum, sicut in 
+      impu<lb ed="#F" n="89" break="no"/>beribus. sup. de despon. impu. puberes. hoc 
+      <lb ed="#F" n="90"/>quod dicitur de impuberibus non placet, 
+      <lb ed="#F" n="91"/>vt no. sup. eo. c. 1. &amp; sup. de despon. impu. 
+      <lb ed="#F" n="92"/>puberes. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1070">
+                  <lb ed="#F" n="93"/> (Humanum) hinc colligitur so. pe. 
+      <lb ed="#F" n="94"/>quaestionis huius. c. nam licet aliqua arcta 
+      <lb ed="#F" n="95"/>est, cum graui periculo artificio medici 
+      <lb ed="#F" n="96"/>possit fieri apta, non tamen est idonea ad 
+      <lb ed="#F" n="97"/>matrimonium contrahendum, &amp; si 
+      con<lb ed="#F" n="98" break="no"/>traxisset postea reddita apta opera 
+      medi<lb ed="#F" n="99" break="no"/>ci, &amp; nubat alij, tenebit matrimonium cum 
+      <lb ed="#F" n="100"/>secundo, secus autem si leni incisione apta 
+      <lb ed="#F" n="101"/>reddi, hoc placet, sed dic vt glo. melius (
+      pro<lb ed="#F" n="102" break="no"/>babilem) quia contra veritatem fuit lata 
+      <lb ed="#F" n="103"/>sententia, licet probabiliter contra 
+      verita<lb ed="#F" n="104" break="no"/>tem fecerit(simili) per omnia, quo ad 
+      coe<lb ed="#F" n="105" break="no"/>undum, nam posset alii similis in statura, 
+      <lb ed="#F" n="106"/>esset tamen ei dissimilis in genitalib. 
+      men<lb ed="#F" n="107" break="no"/>bris, vnde in hoc casu teneret 
+      matrimoni<lb ed="#F" n="108" break="no"/>um cum secundo, nec restituetur primo, 
+      <lb ed="#F" n="109"/>licet per vsum secundi ei apta redderetur, 
+      <lb ed="#F" n="110"/>&amp; per hoc intelligitur solutio vlti. 
+      quaesti<lb ed="#F" n="111" break="no"/>onis, hoc non placet. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1115">
+                  <lb ed="#F" n="112"/>(Commiscetur) forte quia primus non 
+      <lb ed="#F" n="113"/>dedit operam tantam copulae quantam 
+      <lb ed="#F" n="114"/>secundus, vel etiam modicam angustiam 
+      <lb ed="#F" n="115"/>in coenundo noluit sustinere, vel calida ele¬ 
+      <pb ed="#F" n="477-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>ctuaria sumere, vel etiam noluit 
+      expecta<lb ed="#F" n="2" break="no"/>re aliquantum temporis, vt crescente 
+      per<lb ed="#F" n="3" break="no"/>sona, cresceret &amp; membrum, quae omnia 
+      <lb ed="#F" n="4"/>fecit secundus, &amp; ideo separatur a 
+      secun<lb ed="#F" n="5" break="no"/>do, &amp; restituitur primo.
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1141">
+                  <lb ed="#F" n="6"/>(Dicimus) not. sententiam valere 
+      <lb ed="#F" n="7"/>contra rem prius iudicatam, dicunt quidam 
+      <lb ed="#F" n="8"/>hoc ideo tenere, quia speciale in 
+      matri<lb ed="#F" n="9" break="no"/>monio. Vel dic, veritate manifesta in 
+      iu<lb ed="#F" n="10" break="no"/>dicio, cum non fuerit ante sententiam 
+      ex<lb ed="#F" n="11" break="no"/>ceptum valere sententiam circa rem 
+      pri<lb ed="#F" n="12" break="no"/>us iudicatam. argu. sup. de sent. &amp; re iudi. 
+      <lb ed="#F" n="13"/>cum Bertholdus. vbi de hoc &amp; idem est etiam 
+      <lb ed="#F" n="14"/>si notorie appareret sententiam iniustam, 
+      <lb ed="#F" n="15"/>vt hic. &amp; inf. de purg. vulg. c. 2. nam 
+      veri<lb ed="#F" n="16" break="no"/>tas valet &amp; inualescit. 8. distin. 
+      consuetu<lb ed="#F" n="17" break="no"/>do. (Religionem) sine voto solenni, nam 
+      <lb ed="#F" n="18"/>de eo sequitur, sed tamen simplex votum 
+      <lb ed="#F" n="19"/>emiserat, quod fuit solennizatum per 
+      ha<lb ed="#F" n="20" break="no"/>bitus susceptionem, vel per ingressum in 
+      <lb ed="#F" n="21"/>religionem. Nobis videtur idem, si 
+      solen<lb ed="#F" n="22" break="no"/>niter vouit, &amp; hic loquitur de solenni 
+      vo<lb ed="#F" n="23" break="no"/>uente, &amp; postea ingrediente monasterium 
+      <lb ed="#F" n="24"/>(authoritate) sup. de conuer. coniug. c. ex 
+      <lb ed="#F" n="25"/>publico. (alioquin) id est, si non transiuit, 
+      <lb ed="#F" n="26"/>tamen ex hac decre. satis manifeste 
+      colli<lb ed="#F" n="27" break="no"/>gitur, quod etiam si mulier vouerit 
+      solen<lb ed="#F" n="28" break="no"/>niter, &amp; etiam consentiente viro, &amp; etiam 
+      <lb ed="#F" n="29"/>quod plus est, etiam si vir nupserit post votum 
+      <lb ed="#F" n="30"/>vxoris, nisi mulier monasterium 
+      ingredia<lb ed="#F" n="31" break="no"/>tur, tamen matrimonium primo 
+      contra<lb ed="#F" n="32" break="no"/>ctum reintegratur, sicut hic plene probat, 
+      <lb ed="#F" n="33"/>vbi dicit, quod vir iste cogendus est redire 
+      <lb ed="#F" n="34"/>ad hanc mulierem, a qua per arctationem 
+      <lb ed="#F" n="35"/>separatus est, nisi ipsa post votum solenne 
+      <lb ed="#F" n="36"/>nupsisset viro, qui tunc non cogitur ad eam 
+      <lb ed="#F" n="37"/>redire, quia est adultera. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1213">
+                  <lb ed="#F" n="38"/>Et sic apparet, quod causa diuortii 
+      <lb ed="#F" n="39"/>quo ad votum est inter istos, non votum 
+      so<lb ed="#F" n="40" break="no"/>lenne, sed adulterium. Sed huic multum 
+      vi<lb ed="#F" n="41" break="no"/>detur contradicere decre. 3. de conuer. 
+      con<lb ed="#F" n="42" break="no"/>iu. ex parte. in fi. sed certe si bene intelligit, 
+      <lb ed="#F" n="43"/>non contradicit, imo potius concordat, nam 
+      <lb ed="#F" n="44"/>hic &amp; ibi innuit, quod aliud est ingredi 
+      mona<lb ed="#F" n="45" break="no"/>sterium, vel voto obligare se ad 
+      obseruan<lb ed="#F" n="46" break="no"/>tiam regularem de praesenti, &amp; istud votum non 
+      <lb ed="#F" n="47"/>tantum impedit contrahendum 
+      matrimo<lb ed="#F" n="48" break="no"/>nium, &amp; dirimit iam contractumclisct post votum, 
+      <lb ed="#F" n="49"/>sed etiam dirimit contractum ante votum, 
+      <lb ed="#F" n="50"/>dumodo non interuenerit, carnalis 
+      copu<lb ed="#F" n="51" break="no"/>la, vt hic plene habes. &amp;. 3. de conuer. comuiu. 
+      <lb ed="#F" n="52"/>c. ex publico. &amp; c. ex parte. &amp; aliud est 
+      vo<lb ed="#F" n="53" break="no"/>uere solenniter continentiam, quod qualiter 
+      <lb ed="#F" n="54"/>sit, no. 5. de reg. &amp; transe. porrectum. &amp; istud 
+      <lb ed="#F" n="55"/>votum non dirimit matrimonium 
+      contra<lb ed="#F" n="56" break="no"/>ctum ante votum. 3. de conuer. coniu. ex 
+      <lb ed="#F" n="57"/>parte sed impedit contrahendum, &amp; diri¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>mit etiam contractum post votum, &amp; hoc ex 
+      <lb ed="#F" n="59"/>presse habes hic. &amp;. 3. qui cle. vel vo. c. infi. 
+      <lb ed="#F" n="60"/>nuante. vbi loquit de vouente 
+      continen<lb ed="#F" n="61" break="no"/>tiam, &amp; non de professa aliquam religionem, 
+      <lb ed="#F" n="62"/>alioquin male ibi diceret, quod sibi domus 
+      <lb ed="#F" n="63"/>propria remansisset, quod esset contra 
+      substa<lb ed="#F" n="64" break="no"/>tiam professionis. 3. de stat. mon. cum ad. 
+      <lb ed="#F" n="65"/>&amp; aliud est vouere simpliciter, &amp; istud vot 
+      <lb ed="#F" n="66"/>tum tantum impedit contrahendum. 5. qui 
+      <lb ed="#F" n="67"/>cle. vel vo. rursus (voto) solenni etiam sine 
+      <lb ed="#F" n="68"/>transitu ad religionem, si enim solenniter 
+      <lb ed="#F" n="69"/>vouit, cogenda est mo nasterium intrare. 5. 
+      <lb ed="#F" n="70"/>de conuer. coniu. ex parte. in fi. (alij) 
+      prae<lb ed="#F" n="71" break="no"/>terquam V. de quo sibi non imputatur, cum 
+      <lb ed="#F" n="72"/>intenderet sibi matrim onialiter copulari. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1294">
+                  <lb ed="#F" n="73"/>6 (Dubitabilis) scilicet, de facto, scilicet, 
+      <lb ed="#F" n="74"/>an posset cognosci a primo, somniat qui 
+      <lb ed="#F" n="75"/>sic exponunt, &amp; dicunt, quod non solum 
+      <lb ed="#F" n="76"/>semel, sed etiam manens cum secundo 
+      <lb ed="#F" n="77"/>centies concedenda est primo viro, vt 
+      ex<lb ed="#F" n="78" break="no"/>piatur, an possit eam cognoscere, quod 
+      <lb ed="#F" n="79"/>quam sit absurdum exponere eos 
+      extraor<lb ed="#F" n="80" break="no"/>dinariae pollutioni, &amp; quod aliena vxor ita 
+      <lb ed="#F" n="81"/>ab alio contractetur quilibet etiam 
+      insipi<lb ed="#F" n="82" break="no"/>ens videret. Alii autem sic exponunt &amp; 
+      be<lb ed="#F" n="83" break="no"/>ne, id est, quamdiu dubitat, an sententia 
+      <lb ed="#F" n="84"/>sit reuocanda, vel an secundus sit similis 
+      <lb ed="#F" n="85"/>primo, nec cognoscet, ansit apta per 
+      co<lb ed="#F" n="86" break="no"/>gnitionem viri primi, sed per aspectum 
+      cor<lb ed="#F" n="87" break="no"/>poris viri vtriusque, si enim similia membra 
+      <lb ed="#F" n="88"/>haberent, praesumit quod ei cognoscibilis sit, 
+      <lb ed="#F" n="89"/>&amp; sic reddetur ei. Alii dicunt, quod quamdiu 
+      <lb ed="#F" n="90"/>de iure dubitabile erat, an sit separata 
+      pro<lb ed="#F" n="91" break="no"/>pter arctationem, &amp; propter sententiam ecclesiae, 
+      <lb ed="#F" n="92"/>posset alii nubere, &amp; an etiam 
+      possetproba<lb ed="#F" n="93" break="no"/>re, si inueniret quempiam sibi aptum, ante 
+      <lb ed="#F" n="94"/>tempus enim huius decre. de hoc dubitabat 
+      <lb ed="#F" n="95"/>a surisperitis, nec erat adhuc iste articulus 
+      <lb ed="#F" n="96"/>per ecclesiam terminatus, nec est iudicanda 
+      <lb ed="#F" n="97"/>haec mulier fornicari, nec peccare cum p 
+      <lb ed="#F" n="98"/>ecclesiam mulier soluta a primo viro, licite 
+      <lb ed="#F" n="99"/>poterat cum alio contrahere. Est enim 
+      pro<lb ed="#F" n="100" break="no"/>hibitorium aedictum de matrimonio. 2. de 
+      <lb ed="#F" n="101"/>spons. cum apud. Nec valet si dicas 
+      matri<lb ed="#F" n="102" break="no"/>monium esse de iure naturali, ergo ibi 
+      igno<lb ed="#F" n="103" break="no"/>rantia iuris non excusat, si quis illud 
+      vio<lb ed="#F" n="104" break="no"/>lat: Responm. quia in his quae sunt de iure 
+      na<lb ed="#F" n="105" break="no"/>turali, &amp; specialiter super matrimonio, &amp; 
+      <lb ed="#F" n="106"/>contra matrimonium saepe constituit 
+      eccle<lb ed="#F" n="107" break="no"/>sia, sicut apparet, quia quandoque prohibet 
+      <lb ed="#F" n="108"/>vsque ad septimum gradum contrahi, 
+      aliquan<lb ed="#F" n="109" break="no"/>do vsque ad quartum. 5. de consan. &amp; affi. non 
+      <lb ed="#F" n="110"/>debet. 3. de conuer. coniu. ex publico. &amp; c. 
+      <lb ed="#F" n="111"/>ex parte. &amp; no. 3. de biga. c. 1. Alii tamen 
+      di<lb ed="#F" n="112" break="no"/>cunt, quod licet non debeat iudicari 
+      fornica<lb ed="#F" n="113" break="no"/>ria, tamen in veritate peccabat, quia haec 
+      <lb ed="#F" n="114"/>dubitatio iutis, non tollit peccatum, cam in 
+      <pb ed="#F" n="478-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>iure naturali maxime errare non liceat, sed 
+      <lb ed="#F" n="2"/>a poena constitutionis humanae bene 
+      excu<lb ed="#F" n="3" break="no"/>sat, quae non extenditur vltra intentionem 
+      con<lb ed="#F" n="4" break="no"/>stitutionis, quae videtur fuisse talis, &amp; 
+      de<lb ed="#F" n="5" break="no"/>buisse esse, quod si aliquis faceret contra 
+      <lb ed="#F" n="6"/>constitutionem ecclesiae, quae est quod 
+      con<lb ed="#F" n="7" break="no"/>iuges caueant ab adulterijs, &amp; si aliquis 
+      con<lb ed="#F" n="8" break="no"/>miserit adulterium, licite dimittitur, quod sic 
+      <lb ed="#F" n="9"/>intelligi debet, si commiserit adulterium 
+      <lb ed="#F" n="10"/>declaratum per constitutiones ecclesiae, 
+      <lb ed="#F" n="11"/>sed cum in hoc casu non esset diffinitum, 
+      <lb ed="#F" n="12"/>quinimo apud sapientes plurimum 
+      dubi<lb ed="#F" n="13" break="no"/>tabatur, etc. plures in eam opinionem 
+      de<lb ed="#F" n="14" break="no"/>inabant, quod esset matrimonium cum 
+      secun<lb ed="#F" n="15" break="no"/>co, &amp; ita non debet iudicari adultera, vel 
+      <lb ed="#F" n="16"/>eccare. Vel melius dicamus, non debet 
+      iu<lb ed="#F" n="17" break="no"/>dicari teneri poena decre. quae dicit, quod 
+      <lb ed="#F" n="18"/>fornicaria punitur in separationem tori, si 
+      <lb ed="#F" n="19"/>alii tanquam marito commiscetur, cum 
+      <lb ed="#F" n="20"/>hoc ante constitutionem istam non esset 
+      <lb ed="#F" n="21"/>diffinitum a iure, &amp; probabilem causam 
+      <lb ed="#F" n="22"/>dubitationis haberet, nam &amp; quidam 
+      di<lb ed="#F" n="23" break="no"/>cebant, quod maleficiatus si contraxit cum 
+      <lb ed="#F" n="24"/>alia, non fornicatur, nec peccat, vt in 
+      se<lb ed="#F" n="25" break="no"/>quent. c. dicere videtur licet non dicat. Sic 
+      <lb ed="#F" n="26"/>per simile eis videbatur de arcta, quod 
+      nu<lb ed="#F" n="27" break="no"/>bendo alteri, nec fornicatur, nec peccat, 
+      <lb ed="#F" n="28"/>ecclesia tamen contrarium statuit, quod 
+      <lb ed="#F" n="29"/>non posset cum alio contrahere decaanero, 
+      <lb ed="#F" n="30"/>scilicet, post hanc decre. sed si ante hanc 
+      <lb ed="#F" n="31"/>constitutionem sic separata per 
+      probabi<lb ed="#F" n="32" break="no"/>lem errorem nupsisset, alii non tenet 
+      ma<lb ed="#F" n="33" break="no"/>trimonium cum secundo, &amp; restituenda est 
+      <lb ed="#F" n="34"/>primo. Nec obstat exceptio adulterii, cum 
+      <lb ed="#F" n="35"/>ante hane constitutionem non erat 
+      prohi<lb ed="#F" n="36" break="no"/>bitum, nec praeceptum quod restitueretur 
+      <lb ed="#F" n="37"/>primo vito, si post sententiam primo viro 
+      <lb ed="#F" n="38"/>apta fieret. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1474">
+                  <lb ed="#F" n="39"/>Comparatur enim arcta frigido, cum 
+      <lb ed="#F" n="40"/>frigiditas &amp; arctatio sint naturalia vitia, 
+      <lb ed="#F" n="41"/>&amp; non maleficiatio, quae est vnum vitium 
+      <lb ed="#F" n="42"/>accidentale. Et debes scire, quod post 
+      con<lb ed="#F" n="43" break="no"/>stitutionem istam, si postea etiam 
+      matri<lb ed="#F" n="44" break="no"/>monialiter alii adhaereret fornicaretur, &amp; 
+      <lb ed="#F" n="45"/>peccaret, &amp; poena fornicaria teneret, cum 
+      <lb ed="#F" n="46"/>iam huiusmodi dubitatio hic sit soluta. Et 
+      <lb ed="#F" n="47"/>hanc opin. probat prima sententia, quam 
+      <lb ed="#F" n="48"/>tulit diuortii inter hanc mulierem, &amp; 
+      se<lb ed="#F" n="49" break="no"/>cundum maritum, ita quod nec quaeri 
+      fe<lb ed="#F" n="50" break="no"/>cit, an esset apta primo, necne, vel vtrum 
+      <lb ed="#F" n="51"/>vir secundus in genitalibus similis esset 
+      pri<lb ed="#F" n="52" break="no"/>mo, nencne secundo probatur vera, quia 
+      im<lb ed="#F" n="53" break="no"/>pedimentum eius remotum fuit absque 
+      cor<lb ed="#F" n="54" break="no"/>porali periculo, &amp; sine diuino miraculo 
+      <lb ed="#F" n="55"/>hoc etiam ipsum probat finis decr. vbi 
+      di<lb ed="#F" n="56" break="no"/>cit, de talibus autem non facile est 
+      iudican<lb ed="#F" n="57" break="no"/>dum, cum finale iudicium pendeatex fu¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>turo, &amp; hoc magis placet (per hoc autem) 
+      <lb ed="#F" n="59"/>scilicet, quod. 5. dictum est, quod illud 
+      im<lb ed="#F" n="60" break="no"/>pedimentum non erat prope, etc. (per hoc) 
+      <lb ed="#F" n="61"/>id est, per sententiam quam tulimus in hoc 
+      <lb ed="#F" n="62"/>negotio, in qua non discussimus de 
+      corpo<lb ed="#F" n="63" break="no"/>rali periculo, neque de simili viro, sed 
+      tan<lb ed="#F" n="64" break="no"/>tum quia nobis constitit, mulierem non 
+      ar<lb ed="#F" n="65" break="no"/>ctam esse primo, eam sibi restituendam 
+      de<lb ed="#F" n="66" break="no"/>creuimus. sic ergo decaetero faciendum est, 
+      <lb ed="#F" n="67"/>quia non est curandum de periculo, neqe 
+      <lb ed="#F" n="68"/>de similitudine virorum. hoc 
+      placetsido<lb ed="#F" n="69" break="no"/>nea) &amp; est respondendum, quod non est 
+      <lb ed="#F" n="70"/>idonea, quia per opus humanum absque 
+      <lb ed="#F" n="71"/>corporali periculo non redditur apta 
+      pri<lb ed="#F" n="72" break="no"/>mo, plus placet quod idonea sit, quia 
+      per<lb ed="#F" n="73" break="no"/>petuum impedimentum non habet, vnde 
+      <lb ed="#F" n="74"/>dicimus quod separata a viro propter 
+      ar<lb ed="#F" n="75" break="no"/>ctationem si incidatur etiam cum 
+      pericu<lb ed="#F" n="76" break="no"/>lo tamen priori viro restituenda est, &amp; hoc 
+      <lb ed="#F" n="77"/>satis apparet ex sententia Papae, licet olim 
+      <lb ed="#F" n="78"/>aliter distingueretur (de talibus) scilicet, 
+      <lb ed="#F" n="79"/>de his duabus quaestionibusclicet de 
+      diuiden<lb ed="#F" n="80" break="no"/>dis vxoribus propter arctationem 
+      mulie<lb ed="#F" n="81" break="no"/>ris, vel frigiditatem viri(ex futuro) quia si 
+      <lb ed="#F" n="82"/>fuerit apta secundo reddetur primo, &amp; 
+      <lb ed="#F" n="83"/>constat primum matrimonium fuisse. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1607-Dd1e1577" type="decretales-l4t15c7">
+               <head xml:id="inleiv-d1e1607-Hd1e1579">Caput 7</head>
+               <p xml:id="inleiv-d1e1607-d1e1581">
+                  <lb ed="#F" n="84"/>CAPVT VII. 
+      <lb ed="#F" n="85"/>1 Maleficium si est temporale, non 
+      dirimutma<lb ed="#F" n="86" break="no"/>trimonium, si uero est perpetuum dirimit. 
+      <lb ed="#F" n="87"/>2 Potest quis cum una, non autem cum altera 
+      <lb ed="#F" n="88"/>esse maleficiatus. 
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1594">
+                  <lb ed="#F" n="89"/>LITERAE VESTRAE. Al. 
+      <lb ed="#F" n="90"/>hic conuincitur, quod haec 
+      <lb ed="#F" n="91"/>decre. loquitur in 
+      malefici<lb ed="#F" n="92" break="no"/>ato, vbi distinguendum est, 
+      <lb ed="#F" n="93"/>quod si maleficium est 
+      tem<lb ed="#F" n="94" break="no"/>porale, non dirimit matrimonium, si vero 
+      <lb ed="#F" n="95"/>est perpetuum dirimit. 33. q. 1. si per sor. &amp; 
+      <lb ed="#F" n="96"/>dicimus perpetuum, quod intra triennium 
+      <lb ed="#F" n="97"/>per exorcismos, &amp; orationes non cessat, vt 
+      <lb ed="#F" n="98"/>hic. 33. q. 1. si prsor. alias enim non videt esse 
+      <lb ed="#F" n="99"/>perpetuum, cum maleficiator illud 
+      destrue<lb ed="#F" n="100" break="no"/>re posset. Item ad hoc quod maleficium 
+      di<lb ed="#F" n="101" break="no"/>rimat matrimonium, necesse est quod 
+      prae<lb ed="#F" n="102" break="no"/>cesserit, si autem sequitur nunquam 
+      diri<lb ed="#F" n="103" break="no"/>mit, sicut nec alia impedimenta 
+      sequen<lb ed="#F" n="104" break="no"/>tia. 32. qo. 7. is qui. 5. de eo qui cogno. 
+      con<lb ed="#F" n="105" break="no"/>san. vxor. suae. discretionem. &amp; c. tuae.
+      </p>
+               <p xml:id="inleiv-d1e1607-d1e1633">
+                  <lb ed="#F" n="106"/>Item not. quod quis potest esse 
+      ma<lb ed="#F" n="107" break="no"/>leficiatus cum vna, &amp; non cum altera. 
+      <lb ed="#F" n="108"/>vnde non separatur secundum 
+      matrimo<lb ed="#F" n="109" break="no"/>nium, vt primum restituatur, melius 
+      vi<lb ed="#F" n="110" break="no"/>detur quod propter maleficium nullum 
+      <lb ed="#F" n="111"/>matrimonium separandum sit, etc. 33. 
+      <lb ed="#F" n="112"/>quaestio. prima. si per sor. non tenet. Sed 
+      <lb ed="#F" n="113"/>haec decre. loquitur in frigido naturaliter, 
+      <lb ed="#F" n="114"/>haec verba hic contradicunt, quia licet 
+      <pb ed="#F" n="478-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>ipse diceret, se habere potentiam 
+      cogno<lb ed="#F" n="2" break="no"/>scendi aliam, non credit sibi, nec verum 
+      <lb ed="#F" n="3"/>erat. (Triennium) Not. quod non est 
+      ne<lb ed="#F" n="4" break="no"/>cesse hic triennium specialiter assignari 
+      <lb ed="#F" n="5"/>propter experientiam copulae coniugalis, 
+      <lb ed="#F" n="6"/>sed sufficit quomodocunque simul 
+      trien<lb ed="#F" n="7" break="no"/>nio cohabitauerint. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 17</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 17</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="245-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e725" type="decretales-l2t17">
+            <head xml:id="inleiv-d1e725-Hd1e98">Titulus 17</head>
+            <p xml:id="inleiv-d1e725-d1e100">
+               <lb ed="#F" n="83"/>TITVLVS XVII. 
+      <lb ed="#F" n="84"/>DE SEQVESTRATI. 
+      <lb ed="#F" n="85"/>ONE POSSESSIONVM 
+      <lb ed="#F" n="86"/>&amp; fructuum. 
+      </p>
+            <div xml:id="inleiv-d1e725-Dd1e111" type="decretales-l2t17c1">
+               <head xml:id="inleiv-d1e725-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e725-d1e115">
+                  <lb ed="#F" n="87"/>CAPVT I. 
+      <lb ed="#F" n="88"/>1 causa simpliciter committitur, &amp; finita lite. 
+      <lb ed="#F" n="89"/>sitper possessiome poterit cognoseere de 
+      pe<lb ed="#F" n="90" break="no"/>titorio 
+      <lb ed="#F" n="91"/>2 De non commisso non agitur, nisi ratione 
+      con<lb ed="#F" n="92" break="no"/>nexitatis, vel 
+      accessorii<lb ed="#F" n="93" break="no"/>3 Sequestratio in quibus sit contessa. 
+      <lb ed="#F" n="94"/>4 De quibus rebus fiat sequestratio.
+      </p>
+               <p xml:id="inleiv-d1e725-d1e135">
+                  <lb ed="#F" n="95"/>AD HOC. (Asserens) &amp; 
+      ma<lb ed="#F" n="96" break="no"/>le, quod ex eo apparet, quod 
+      <lb ed="#F" n="97"/>missio in possessionem rata 
+      <lb ed="#F" n="98"/>manet, vt habetur in finet 
+      <lb ed="#F" n="99"/>quia condemnatur 
+      archie<lb ed="#F" n="100" break="no"/>piscopus in expensis, &amp; in cautione 
+      prae<lb ed="#F" n="101" break="no"/>standa. Item &amp; hoc ex eo apparet, quod 
+      <lb ed="#F" n="102"/>Papa reducit negotium in eum statum, in 
+      <lb ed="#F" n="103"/>quo erat tempore commissionis factae 
+      Mu<lb ed="#F" n="104" break="no"/>tinen. &amp; Reginen. Episcopis, &amp; sic apparet 
+      <lb ed="#F" n="105"/>Veronens. Episcopum bene processisse, &amp; 
+      <lb ed="#F" n="106"/>intelligimus hoc verum, quando 
+      petitori<lb ed="#F" n="107" break="no"/>um &amp; possessorium erant sibi commissa, vel 
+      <lb ed="#F" n="108"/>causa simpliciter, quia tunc vtrunque 
+      com<lb ed="#F" n="109" break="no"/>1 missum intelligitur. Et no. hic, quod si 
+      <lb ed="#F" n="110"/>causa committitur simpliciter &amp; finita lite, 
+      <lb ed="#F" n="111"/>super possessione poterit cognoscere de 
+      <lb ed="#F" n="112"/>petitorio, sed conuersus casus non potest 
+      <lb ed="#F" n="113"/>habere locum. quod si petitorium primo fini¬ 
+      <pb ed="#F" n="246-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>tur non est amplius de possessione 
+      quae<lb ed="#F" n="2" break="no"/>rendum. supra, de causa poss. &amp; proprie. 
+      <lb ed="#F" n="3"/>cum dilectus. si autem tantum 
+      possessori<lb ed="#F" n="4" break="no"/>um vel petitorium esset commissum, 
+      pen<lb ed="#F" n="5" break="no"/>dente lite super commisso potest vtraque 
+      <lb ed="#F" n="6"/>pars agere de non commisso secundum 
+      <lb ed="#F" n="7"/>quosdam propter connexitatem. C. de 
+      iu<lb ed="#F" n="8" break="no"/>di. nulli. supra, de causa pos. &amp; proprie. c. 
+      <lb ed="#F" n="9"/>2. &amp; hoc non placet, vt not. in glos. illa in 
+      <lb ed="#F" n="10"/>quo. sed de hoc concordant omnes, finito 
+      <lb ed="#F" n="11"/>iudicio super commisso non potest 
+      in<lb ed="#F" n="12" break="no"/>choare aliqua pars super non commisso, 
+      <lb ed="#F" n="13"/>nisi reconueniendo praemissa 
+      protestatio<lb ed="#F" n="14" break="no"/>ne. C. de sen. &amp; interlo. om. iud. Authen. 
+      <lb ed="#F" n="15"/>&amp; consequenter. 
+      </p>
+               <p xml:id="inleiv-d1e725-d1e216">
+                  <lb ed="#F" n="16"/>2 Et est ratio, quia de non commisso 
+      <lb ed="#F" n="17"/>non agitur, nisi ratione connexitatis vel 
+      <lb ed="#F" n="18"/>accessorii, sed principale iam effugit 
+      co<lb ed="#F" n="19" break="no"/>gnitionem eius per sententiam, ergo &amp; 
+      <lb ed="#F" n="20"/>connexum vel accessorium. (Functus) 
+      <lb ed="#F" n="21"/>supra, de offi. deleg. in literis. (Actorem) 
+      <lb ed="#F" n="22"/>abbatem &amp; monachos. (Decreuit) &amp; 
+      be<lb ed="#F" n="23" break="no"/>ne. (Eiecit) &amp; male. supra, de do. &amp; 
+      con<lb ed="#F" n="24" break="no"/>tu. contingit. fi. de bo. autho. iudi. possi. 
+      <lb ed="#F" n="25"/>quamuis.  (Rescriptum) in quo 
+      conti<lb ed="#F" n="26" break="no"/>nebatur, quod causam quae vertebatur 
+      <lb ed="#F" n="27"/>inter archiepiscopum Mediolanens. &amp; 
+      <lb ed="#F" n="28"/>abbatem de Stregula audiret &amp; 
+      diffini<lb ed="#F" n="29" break="no"/>ret, &amp; sic per haec verba intelligebatur 
+      <lb ed="#F" n="30"/>committi tam causa possessionis, quam 
+      <lb ed="#F" n="31"/>proprietatis, vt hic dicit, sed si tantum in 
+      <lb ed="#F" n="32"/>literis commissionis diceres audias 
+      cau<lb ed="#F" n="33" break="no"/>sam possessionis vel proprietatis, non 
+      pos<lb ed="#F" n="34" break="no"/>set delegatus cognoscere, nisi de eo quod 
+      <lb ed="#F" n="35"/>commissum sibi fuit, nisi ille contra quem 
+      <lb ed="#F" n="36"/>impetratae essent literae, super altero 
+      tan<lb ed="#F" n="37" break="no"/>tum vellet super altero reconuenire 
+      acto<lb ed="#F" n="38" break="no"/>rem. Alii tamen aliter dicunt, scilicet, 
+      <lb ed="#F" n="39"/>quod facta commissione super vno, super 
+      <lb ed="#F" n="40"/>alio cognoscet. argum. C. si a non 
+      com<lb ed="#F" n="41" break="no"/>pe. iudi. l. 3. (Continentia) C. de iud. 
+      <lb ed="#F" n="42"/>nulli. Sequestrari) fit sequestratio. C. 
+      <lb ed="#F" n="43"/>quorum appel. non rec. ab executore. ff. 
+      <lb ed="#F" n="44"/>qui satisda. cog. si fideiussor. §. vlti. ff. de 
+      <lb ed="#F" n="45"/>appel. imperator. in fi. C. de asser. tol. l. 1. 
+      <lb ed="#F" n="46"/>C. de agri. &amp; censi. l. vlti. lib. 11. ff. solu. 
+      <lb ed="#F" n="47"/>matri. si cum dotem. Authen. de aequa. 
+      <lb ed="#F" n="48"/>do. §. illud quoque. supra, de do. &amp; 
+      con<lb ed="#F" n="49" break="no"/>tu. ex literis. vt no. ff. de dolo. &amp; 
+      elegan<lb ed="#F" n="50" break="no"/>ter. supra, de resti. spo. literas. in fi. &amp; c. 
+      <lb ed="#F" n="51"/>transmissa. st. de offic. praesi. senatus. 
+      <lb ed="#F" n="52"/>(Arbitrio) quasi non de iure, nam cum 
+      le<lb ed="#F" n="53" break="no"/>gitime fuerit missus in possessionem 
+      se<lb ed="#F" n="54" break="no"/>questratam non debeat ab ea sine causa 
+      <lb ed="#F" n="55"/>sequestrari. (Possessionem) sequestratam. 
+      <lb ed="#F" n="56"/>(Proprietate) supra, de causa posses. ad 
+      <lb ed="#F" n="57"/>vtimum. (Reducimus) hoc fecit Innoc. 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>quia Celestinus malefecerat qui 
+      possesei<lb ed="#F" n="59" break="no"/>onem datam per veronens. Episcopum 
+      <lb ed="#F" n="60"/>male reuocauit.
+      </p>
+               <p xml:id="inleiv-d1e725-d1e318">
+                  <lb ed="#F" n="61"/>3 Reuocato) reuocatur sequestratio, 
+      <lb ed="#F" n="62"/>quia generaliter est prohibita, nisi in 
+      ca<lb ed="#F" n="63" break="no"/>sibus: vt C. de prohi. seque. l. 1. nec erat 
+      <lb ed="#F" n="64"/>hic aliquis de casibus illis. Primus casus 
+      <lb ed="#F" n="65"/>est, si de voluntate partium procedat. ff. 
+      <lb ed="#F" n="66"/>de solu. si soluturus. &amp; ff. de verb. figni. 
+      <lb ed="#F" n="67"/>sequester. ff. depo. licet. 1. respon. &amp; §. 1. 
+      <lb ed="#F" n="68"/>Et secundus vbi sit controuersia de re 
+      mo<lb ed="#F" n="69" break="no"/>bili, &amp; suspectus possidens quod cum ea 
+      <lb ed="#F" n="70"/>fugiat. ff. de offi. prae. senatus. §. vlti. ff. 
+      <lb ed="#F" n="71"/>qui satisda. cog. si fideiussor. §. vlti. C. de 
+      <lb ed="#F" n="72"/>agri. &amp; censi. litibus. lib. 11. Tertius est, si 
+      <lb ed="#F" n="73"/>suspectus sit possessor de dilapidatione 
+      <lb ed="#F" n="74"/>fructuum, vel quod sit rem dissipaturus. 
+      <lb ed="#F" n="75"/>ff. sol. matri. si cum dotem. §. sin autem. 
+      <lb ed="#F" n="76"/>ff. de appel. imperatoris. 11. quaestio. 1. quia 
+      <lb ed="#F" n="77"/>res. Quarto, si nolit cauere de collatione 
+      <lb ed="#F" n="78"/>facienda. ff. de colla. bo. l. 1. §. si super. &amp; 
+      <lb ed="#F" n="79"/>idem intelligo, etiam si contumax sit in 
+      <lb ed="#F" n="80"/>parendo vel sistendo iudicio. supra, de 
+      <lb ed="#F" n="81"/>dolo. cap. 2. quando est sic sequestrata 
+      <lb ed="#F" n="82"/>causa custodiae non auferetur possessio 
+      <lb ed="#F" n="83"/>possessori. ff. de acqui. pos. interesse. alias 
+      <lb ed="#F" n="84"/>secus. ff. depo. licet. §. 1.
+      </p>
+               <p xml:id="inleiv-d1e725-d1e374">
+                  <lb ed="#F" n="85"/>Si dicas quare cum fuit reuocata 
+      se<lb ed="#F" n="86" break="no"/>questratio e Respondemus quod cum 
+      mis<lb ed="#F" n="87" break="no"/>sio in pos. esset legitime facta, non 
+      debe<lb ed="#F" n="88" break="no"/>bat misso in posses. auferri possessio &amp; 
+      se<lb ed="#F" n="89" break="no"/>questrari. 
+      </p>
+               <p xml:id="inleiv-d1e725-d1e387">
+                  <lb ed="#F" n="90"/>Sed videtur secundum hoc, quod 
+      <lb ed="#F" n="91"/>possessio sequestrata debuisset reddi 
+      mis<lb ed="#F" n="92" break="no"/>so in pos. non domino. Respondeo hoc 
+      <lb ed="#F" n="93"/>verum esse, nisi dominus paratus esset 
+      ca<lb ed="#F" n="94" break="no"/>uere de stando iuri, &amp; reficere expensas. 
+      <lb ed="#F" n="95"/>Quintus est, cum de conditione personae 
+      <lb ed="#F" n="96"/>agitur, vbi si proclamet quis in 
+      liberta<lb ed="#F" n="97" break="no"/>tem, &amp; contra eius dominum 
+      pronuncia<lb ed="#F" n="98" break="no"/>tum est, fit enim sequestratio earum 
+      re<lb ed="#F" n="99" break="no"/>rum, de quibus dubitatur an sint domini, 
+      <lb ed="#F" n="100"/>an eius qui dicit se liberum. C. qui ad 
+      li<lb ed="#F" n="101" break="no"/>ber. prouo. non licet. l. vlti. C. de asser. tol. 
+      <lb ed="#F" n="102"/>l. 1. §. super peculio. (Mloderatas) propter 
+      <lb ed="#F" n="103"/>hoc intelligo quod processit taxatio. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e725-Dd1e421" type="decretales-l2t17c2">
+               <head xml:id="inleiv-d1e725-Hd1e423">Caput 2</head>
+               <p xml:id="inleiv-d1e725-d1e425">
+                  <lb ed="#F" n="104"/>CAPVT II
+      </p>
+               <p xml:id="inleiv-d1e725-d1e430">
+                  <lb ed="#F" n="105"/>DILECTVS EILIVS. 
+      <lb ed="#F" n="106"/>(Distrahunt) non agebatut 
+      <lb ed="#F" n="107"/>de proprietate ecclesiae, sed 
+      <lb ed="#F" n="108"/>de praebenda, &amp; ideo non 
+      <lb ed="#F" n="109"/>erat verus possessor, melius 
+      <lb ed="#F" n="110"/>videtur quod de proprietate tantum agebatur. 
+      <lb ed="#F" n="111"/>sed non fuit verus possessor, quia non erat 
+      <lb ed="#F" n="112"/>lapsus annus, nec faciebat fructus suos, 
+      <pb ed="#F" n="246-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>imo si in rem ageretur, tamen intra 
+      an<lb ed="#F" n="2" break="no"/>num non faciet fructus suos: vt not. supra, 
+      <lb ed="#F" n="3"/>vt lit. non contesta. quoniam frequenter. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e725-Dd1e462" type="decretales-l2t17c3">
+               <head xml:id="inleiv-d1e725-Hd1e464">Caput 3</head>
+               <p xml:id="inleiv-d1e725-d1e466">
+                  <lb ed="#F" n="4"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e725-d1e471">
+                  <lb ed="#F" n="5"/>AB EO. Reo &amp; possessore. 
+      <lb ed="#F" n="6"/>(Dissipentur) dissipari 
+      di<lb ed="#F" n="7" break="no"/>cuntur, si eos in suos vsus 
+      <lb ed="#F" n="8"/>conuertat vel etiam si 
+      distra<lb ed="#F" n="9" break="no"/>at. supra, c. proxi. nisi essent 
+      <lb ed="#F" n="10"/>fructus, qui non possunt seruari, quia tunc 
+      <lb ed="#F" n="11"/>liceret distrahere. arg. ff. de petitio. 
+      haere<lb ed="#F" n="12" break="no"/>di. Diuus. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

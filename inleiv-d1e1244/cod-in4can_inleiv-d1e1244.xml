@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 33</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 33</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="428-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1244" type="decretales-l3t33">
+            <head xml:id="inleiv-d1e1244-Hd1e98">Titulus 33</head>
+            <p xml:id="inleiv-d1e1244-d1e100">
+               <lb ed="#F" n="7"/>TITVLVS XXXIII. 
+      <lb ed="#F" n="8"/>DE CONVERSIONE 
+      <lb ed="#F" n="9"/>INEIDELIVM. 
+      </p>
+            <div xml:id="inleiv-d1e1244-Dd1e109" type="decretales-l3t33c1">
+               <head xml:id="inleiv-d1e1244-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1244-d1e113">
+                  <lb ed="#F" n="10"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e1244-d1e118">
+                  <lb ed="#F" n="11"/>LAVDABILEM. (Damnum) 14. dist. quod 
+      <lb ed="#F" n="12"/>ait. 34. q. 5. si dicat. (Tales mulieres. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1244-Dd1e126" type="decretales-l3t33c2">
+               <head xml:id="inleiv-d1e1244-Hd1e128">Caput 2</head>
+               <p xml:id="inleiv-d1e1244-d1e130">
+                  <lb ed="#F" n="13"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1244-d1e135">
+                  <lb ed="#F" n="14"/>1 fili post factum duortium, a quibus alendi 
+      <lb ed="#F" n="15"/>sunt. 
+      </p>
+               <p xml:id="inleiv-d1e1244-d1e142">
+                  <lb ed="#F" n="16"/>EX LITERIS. Potestate) c. 
+      <lb ed="#F" n="17"/>de pa. pot. per totum. C. de 
+      <lb ed="#F" n="18"/>eman. per totum. (Matris) C. 
+      <lb ed="#F" n="19"/>de adop. mulierem. (Tali) 
+      <lb ed="#F" n="20"/>maiores triennio apud patrem 
+      <lb ed="#F" n="21"/>nutriuntur, minores apud matrem 
+      diuor<lb ed="#F" n="22" break="no"/>tio facto propter consanguinitatem. C. 
+      di<lb ed="#F" n="23" break="no"/>uor. fac. apud. l. 1. &amp; C. de pa. po. l. nec filium. 
+      <lb ed="#F" n="24"/>nec iudex ex certis causis aliud arbitretur, 
+      <lb ed="#F" n="25"/>quia eius interesset circa talia arbitrari, &amp; 
+      <lb ed="#F" n="26"/>eius arbitrio. 5. de eo qui dux. in matr. c. cum 
+      <lb ed="#F" n="27"/>haberet. ver. solicitudinis tuae etc. Si vero 
+      <lb ed="#F" n="28"/>propter adulterium vxoris, vel quia noluit 
+      <lb ed="#F" n="29"/>conuerti ad fidem catholicam, vel ob aliam 
+      <lb ed="#F" n="30"/>suam culpam separetur matrimonium, siue 
+      <lb ed="#F" n="31"/>per ecclesiam, siue de facto, apud virum 
+      <lb ed="#F" n="32"/>sunt alendi cum expensis matris, &amp; idem 
+      <lb ed="#F" n="33"/>econuerso, si per culpam mariti sint 
+      <lb ed="#F" n="34"/>separati, apud mulierem erunt educandi 
+      <lb ed="#F" n="35"/>expensis patris. in Authen. vt lice. ma. &amp; 
+      <lb ed="#F" n="36"/>auiae. §. illud quoqe. filii etiam naturales 
+      alen<lb ed="#F" n="37" break="no"/>di sunt a parentibus &amp; consanguineis. in 
+      <lb ed="#F" n="38"/>Authen. qui. mo. na. fi. effi. le. l. 1. si quis 
+      igi<lb ed="#F" n="39" break="no"/>tur habens. (Suspicio) haec est melior ratio, 
+      <lb ed="#F" n="40"/>quia &amp; si mater conuersa erit ipsi, &amp; non 
+      <lb ed="#F" n="41"/>patri assignaretur puer. (Baptizabitur) nam 
+      <lb ed="#F" n="42"/>bona est ratio quae pro religione christiana 
+      <lb ed="#F" n="43"/>facit. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

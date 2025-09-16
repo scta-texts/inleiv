@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="509-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1780" type="decretales-l5t9">
+            <head xml:id="inleiv-d1e1780-Hd1e98">Titulus 9</head>
+            <p xml:id="inleiv-d1e1780-d1e100">
+               <lb ed="#F" n="29"/>TITVLVS IX. 
+      <lb ed="#F" n="30"/>DE APOSTATIS EI 
+      <lb ed="#F" n="31"/>REITERANTIPVS 
+      <lb ed="#F" n="32"/>baptisma. 
+      </p>
+            <div xml:id="inleiv-d1e1780-Dd1e111" type="decretales-l5t9c1">
+               <head xml:id="inleiv-d1e1780-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1780-d1e115">
+                  <lb ed="#F" n="33"/>CAPVT I. 
+      <lb ed="#F" n="34"/>1 Qotuplex sit apostasia, &amp; qualiter puniatur 
+      <lb ed="#F" n="35"/>apostata. in nume. 2. 
+      <lb ed="#F" n="36"/>2 Psalmista &amp; lector, an gaudeant priuilegio 
+      <lb ed="#F" n="37"/>clericali. Et quando tale priuilegium 
+      <lb ed="#F" n="38"/>amittatur. 
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e131">
+                  <lb ed="#F" n="39"/>PRAETEREA CLERICI 
+      <lb ed="#F" n="40"/>Triplex est apostasia, 
+      Pri<lb ed="#F" n="41" break="no"/>ma perfidiae. lsc. quando quis 
+      re<lb ed="#F" n="42" break="no"/>cedit a fide. 2. q. 7. non potest. 
+      <lb ed="#F" n="43"/>Secunda inobedientiaeclicet 
+      quan<lb ed="#F" n="44" break="no"/>do transgreditur praeceptum praelati, vel 
+      <lb ed="#F" n="45"/>sacris canonibus non obedit. 3. q. 4. alieni. 
+      <lb ed="#F" n="46"/>5. de ma. &amp; obe. si quis. &amp; tamen 
+      obedien<lb ed="#F" n="47" break="no"/>dum credit, alioqun est haereticus &amp; 
+      schis<lb ed="#F" n="48" break="no"/>maticus. 19. di. nulli. Tertia 
+      irregularita<lb ed="#F" n="49" break="no"/>tiscilice. cum quis a statu sumptae religionis 
+      re<lb ed="#F" n="50" break="no"/>cedit, de qua hic. 5. c. vl. &amp; no. 5. de temp. 
+      <lb ed="#F" n="51"/>or. ex parte. Hoc autem fit multis modis, 
+      <lb ed="#F" n="52"/>dimittendo tonsuram, vel coronam, 
+      acci<lb ed="#F" n="53" break="no"/>piendo vxorem, abiiciendo religionis 
+      ve<lb ed="#F" n="54" break="no"/>stem vel clericalem, redeundo ad seculum. 
+      <lb ed="#F" n="55"/>20. q. 3. c. 1. 2. &amp; 3. 27. q. 1. omnes. &amp; hic. c. 1. 
+      <lb ed="#F" n="56"/>Apostata perfidiae punitur &amp; 
+      destitui<lb ed="#F" n="57" break="no"/>tur, vt haereticus, quia in veritate hereticus 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>&amp; excommunicatus est. Apostata 
+      inobe<lb ed="#F" n="59" break="no"/>dientiae, id est, qui non obedit praelato, vel 
+      <lb ed="#F" n="60"/>canonibus, repellitur ab accusatione &amp; 
+      <lb ed="#F" n="61"/>testimonio, &amp; excommunicatur, &amp; etiam 
+      <lb ed="#F" n="62"/>deponitur, &amp; iudici seculari aliquando 
+      tra<lb ed="#F" n="63" break="no"/>ditur. 3. q. 4. si quis a suo. 11. q. 3. si autem 
+      vo<lb ed="#F" n="64" break="no"/>bis apostata irregularitatis easdem poenas 
+      <lb ed="#F" n="65"/>patitur. 16. q. 1. le. 30. di. c. vl. 21. q. 5. c. si quis 
+      <lb ed="#F" n="66"/>a proprio. &amp; etiamsi non se emendauerit 
+      <lb ed="#F" n="67"/>post monitionem caret priuilegio 
+      cleri<lb ed="#F" n="68" break="no"/>3eali. vt no. inf. Item no. H. dixit quod 
+      <lb ed="#F" n="69"/>nedum alij, sed etiam psalmista &amp; lector semp 
+      <lb ed="#F" n="70"/>gaudebunt priuilegio clericali, &amp; vlterius 
+      <lb ed="#F" n="71"/>non possunt viuere seculariter, nec fieri 
+      <lb ed="#F" n="72"/>milites. 21. q. 3. eos. Sed aliicontradicunt, cum 
+      <lb ed="#F" n="73"/>quibe &amp; nos sentimus distinguentes, si 
+      sum<lb ed="#F" n="74" break="no"/>psit aliquid penitus contrarium ordini, vt si 
+      <lb ed="#F" n="75"/>accepit secundam vxorem, vel corruptam, vel 
+      <lb ed="#F" n="76"/>fecit se militem, &amp; seua exercuerit, tunc 
+      <lb ed="#F" n="77"/>priuatur omni priuilegio clericali. 34. dis: 
+      <lb ed="#F" n="78"/>quisquis. Si vero non fecit penitus aliquid 
+      <lb ed="#F" n="79"/>contrarium ordini. licet ducendo virginem, vel 
+      fien<lb ed="#F" n="80" break="no"/>do miles, dummodo non exerceat seua, ponet 
+      <lb ed="#F" n="81"/>viuere clericaliter, &amp; priuilegio clericali 
+      <lb ed="#F" n="82"/>gaudere. 31. dist. seriatim. si qui vero. Sed si 
+      <lb ed="#F" n="83"/>velit viuere seculariter negotiando, tabernam 
+      <lb ed="#F" n="84"/>tenendo, vel tonsuram dimittendo, tunc nullo 
+      <lb ed="#F" n="85"/>gaudebit priuilegio. 5. de cle. comnu. loamnes. 
+      <lb ed="#F" n="86"/>&amp; c. seq. Alii tamen dicunt, quod gaudebit 
+      <lb ed="#F" n="87"/>priuilegio canonis, si quis suadente, quod in 
+      <lb ed="#F" n="88"/>fauorem ordinis clericorum est introductum, 
+      <lb ed="#F" n="89"/>&amp; ideo illi renunciare non pont. 3. de fo. compe. 
+      <lb ed="#F" n="90"/>si diligenti. &amp; hoc satis verum credo, 
+      ante<lb ed="#F" n="91" break="no"/>quam moneatur, sed postea non gaudebit, 
+      <lb ed="#F" n="92"/>sed in omnibe laicaliter se habet. c. autem. 
+      <lb ed="#F" n="93"/>20. q. 3. eos. Non ob. quia loquitur de 
+      constitu<lb ed="#F" n="94" break="no"/>tis in sacris ordinibus, quod ex eo apparet, 
+      <lb ed="#F" n="95"/>quod in eodem. c. dicit, eos qui semel taxati, 
+      <lb ed="#F" n="96"/>ante sacrum autem ordinem taxari non 
+      pos<lb ed="#F" n="97" break="no"/>sunt. Item ex fine eiusdem. c. hoc apparet, vbi 
+      <lb ed="#F" n="98"/>dicitur, quod coguntur redire ad ordinem, quod non 
+      <lb ed="#F" n="99"/>fieret, si in sacris non essent, &amp; secundum 
+      prae<lb ed="#F" n="100" break="no"/>missam distinctionem erit de foro seculari, 
+      <lb ed="#F" n="101"/>vel clericali, nisi contradicat consuetudo 
+      <lb ed="#F" n="102"/>quae iurisdictionem tribuit. C. de emam. lib. 
+      li<lb ed="#F" n="103" break="no"/>cet. (Clerici) de religiosis loquitur, vel de 
+      <lb ed="#F" n="104"/>constitutis in sacris ordinibus. (Liberari). I. 
+      <lb ed="#F" n="105"/>de sen. exconm. si vero. 2. contra. Sol. hic loquit, 
+      <lb ed="#F" n="106"/>quando p omnia habebant se vt laici, illud 
+      <lb ed="#F" n="107"/>quando dimissa corona in alijs agebant vt 
+      cle<lb ed="#F" n="108" break="no"/>rici, vel etiam causa leuitatis. Vel hoc non 
+      ne<lb ed="#F" n="109" break="no"/>gatur, quin capientes tales sint 
+      excommunica<lb ed="#F" n="110" break="no"/>ti, sed quod talibe clericis p ecclesiam non 
+      succur<lb ed="#F" n="111" break="no"/>rebat, vel illud habet locum, quando non est 
+      <lb ed="#F" n="112"/>monitus, quod habitum portet, hic autem 
+      <lb ed="#F" n="113"/>quando est monit2. 5. de sen. exc. in 
+      audien<lb ed="#F" n="114" break="no"/>tia. prima solutio probatur. inf. de priuil. ex 
+      <lb ed="#F" n="115"/>parte tua, 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1780-Dd1e304" type="decretales-l5t9c2">
+               <head xml:id="inleiv-d1e1780-Hd1e306">Caput 2</head>
+               <p xml:id="inleiv-d1e1780-d1e308">
+                  <pb ed="#F" n="509-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>CAPVT II
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e317">
+                  <lb ed="#F" n="2"/>EX LITERARVM 
+      TVA<lb ed="#F" n="3" break="no"/>RVM. (Publicum) repete quae 
+      <lb ed="#F" n="4"/>diximus supra, de temp. ordi. ex tenore. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1780-Dd1e327" type="decretales-l5t9c3">
+               <head xml:id="inleiv-d1e1780-Hd1e329">Caput 3</head>
+               <p xml:id="inleiv-d1e1780-d1e331">
+                  <lb ed="#F" n="5"/>CAPVT III. 
+      <lb ed="#F" n="6"/>1 Apostatare non dicitur in, qui non est in sacris 
+      <lb ed="#F" n="7"/>ordinibus constitutus, &amp; clericatum dimittat. 
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e340">
+                  <lb ed="#F" n="8"/>QVAE FRATERNITATIS. 
+      <lb ed="#F" n="9"/>(De apostasiae crimine). haec 
+      <lb ed="#F" n="10"/>decre. loquitur, quando 
+      con<lb ed="#F" n="11" break="no"/>stabat aliquem clericalem 
+      ha<lb ed="#F" n="12" break="no"/>bitum deposuisse, &amp; cum esset 
+      <lb ed="#F" n="13"/>monitus, quod resumeret. Respon. quod 
+      <lb ed="#F" n="14"/>hoc ei licebat cum esset in minoribus 
+      or<lb ed="#F" n="15" break="no"/>dinibus constitutus, econtra dicebatur, 
+      <lb ed="#F" n="16"/>constat quod habitum dimisit, &amp; fama est 
+      <lb ed="#F" n="17"/>quod erat in sacris ordinibus constitutus, 
+      <lb ed="#F" n="18"/>vel quod erat canonicus regularis, vnde 
+      <lb ed="#F" n="19"/>statim vel habitum resumere, vel se 
+      pur<lb ed="#F" n="20" break="no"/>gare debebat, &amp; dominus Papa pro hoc 
+      <lb ed="#F" n="21"/>vltimo propter infamiam sententiat. 
+      Fa<lb ed="#F" n="22" break="no"/>temur tamen quod non in sacris ordinibe 
+      <lb ed="#F" n="23"/>constituti, non dicuntur apostatare, si 
+      cle<lb ed="#F" n="24" break="no"/>ricatum dimittunt. sup. de vita &amp; ho. cle. 
+      <lb ed="#F" n="25"/>c. ex literis. supra, de cleri. coniu. loannes. 
+      <lb ed="#F" n="26"/>84. dist. quisquis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1780-Dd1e386" type="decretales-l5t9c4">
+               <head xml:id="inleiv-d1e1780-Hd1e388">Caput 4</head>
+               <p xml:id="inleiv-d1e1780-d1e390">
+                  <lb ed="#F" n="27"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e395">
+                  <lb ed="#F" n="28"/>QVID AM. (Ritus) forte in 
+      obserua<lb ed="#F" n="29" break="no"/>tionibus festiuitatum, vel in 
+      discer<lb ed="#F" n="30" break="no"/>nendis cibariijs. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1780-Dd1e405" type="decretales-l5t9c5">
+               <head xml:id="inleiv-d1e1780-Hd1e407">Caput 5</head>
+               <p xml:id="inleiv-d1e1780-d1e409">
+                  <lb ed="#F" n="31"/>CAPVT V. 
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e414">
+                  <lb ed="#F" n="32"/>A NOBIS EXPETIIT 
+      <lb ed="#F" n="33"/>(Apostatis) quod relicto 
+      ha<lb ed="#F" n="34" break="no"/>bitu religionis viuunt 
+      secula<lb ed="#F" n="35" break="no"/>riter, si autem apostatarent 
+      <lb ed="#F" n="36"/>deuiando a fide, punirentur 
+      <lb ed="#F" n="37"/>vt haeretici. sup. de haereti. 
+      excommunica<lb ed="#F" n="38" break="no"/>tus. §. 1. si autem per inobedientiam 
+      apo<lb ed="#F" n="39" break="no"/>statarent, punirentur: vt 19. dist. nulli. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1780-Dd1e435" type="decretales-l5t9c6">
+               <head xml:id="inleiv-d1e1780-Hd1e437">Caput 6</head>
+               <p xml:id="inleiv-d1e1780-d1e439">
+                  <lb ed="#F" n="40"/>CAPVT VI. 
+      </p>
+               <p xml:id="inleiv-d1e1780-d1e444">
+                  <lb ed="#F" n="41"/>CONSVLTATIONI. (In 
+      aposta<lb ed="#F" n="42" break="no"/>a) si antequam sumeret dimitteret 
+      <lb ed="#F" n="43"/>apostasiam, &amp; reconciliatus postea 
+      reci<lb ed="#F" n="44" break="no"/>peret ordinem, sine dispensatione in eo 
+      re<lb ed="#F" n="45" break="no"/>maneret. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

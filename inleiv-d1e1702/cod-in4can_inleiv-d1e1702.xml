@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 2</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 2</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="498-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1702" type="decretales-l5t2">
+            <head xml:id="inleiv-d1e1702-Hd1e98">Titulus 2</head>
+            <p xml:id="inleiv-d1e1702-d1e100">
+               <lb ed="#F" n="6"/>TITVLVS II 
+      <lb ed="#F" n="7"/>DE CALVMNIA. 
+      <lb ed="#F" n="8"/>TORIBVS. 
+      </p>
+            <div xml:id="inleiv-d1e1702-Dd1e109" type="decretales-l5t2c1">
+               <head xml:id="inleiv-d1e1702-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1702-d1e113">
+                  <lb ed="#F" n="9"/>CAPVT I. 
+      </p>
+               <p xml:id="inleiv-d1e1702-d1e118">
+                  <lb ed="#F" n="10"/>CVM TORTIVS. (Quam) i. 
+      <lb ed="#F" n="11"/>quantum (sacratis) . 1. sacris 
+      <lb ed="#F" n="12"/>ordinibus constitutis (
+      culpa<lb ed="#F" n="13" break="no"/>biles). 2. q. 8. quisquis (
+      crimi<lb ed="#F" n="14" break="no"/>atorem). i. calumniosum 
+      <lb ed="#F" n="15"/>accusatorem (iubemus) contra ius est, ex 
+      <lb ed="#F" n="16"/>quo in sententia non fuit ei poenitentia 
+      <lb ed="#F" n="17"/>imposita. ff. de calum. l. 1. sed hoc fecit ex 
+      <lb ed="#F" n="18"/>plenitudine potestatis, vnde non est 
+      tra<lb ed="#F" n="19" break="no"/>hendum ad consequentiam. insti. de iu. na. 
+      <lb ed="#F" n="20"/>§. plane. vel dic, quod condemnatus fuit 
+      <lb ed="#F" n="21"/>calumniator, sed poenitentia non erat ei 
+      <lb ed="#F" n="22"/>imposita. 2. q. 3. §. notandum. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1702-Dd1e150" type="decretales-l5t2c2">
+               <head xml:id="inleiv-d1e1702-Hd1e152">Caput 2</head>
+               <p xml:id="inleiv-d1e1702-d1e154">
+                  <lb ed="#F" n="23"/>CAPVT II. 
+      <lb ed="#F" n="24"/>1 Calumniator puniri potest nen solum in 
+      aecu<lb ed="#F" n="25" break="no"/>sationex sed etiam in denunenatione, &amp; est 
+      <lb ed="#F" n="26"/>grauior paenitentia calumniantis, quam 
+      <lb ed="#F" n="27"/>eius qui denunciatur.
+      </p>
+               <p xml:id="inleiv-d1e1702-d1e167">
+                  <lb ed="#F" n="28"/>CVM DILECTVS 
+      <lb ed="#F" n="29"/>filius. (Purgauerit) per 
+      iu<lb ed="#F" n="30" break="no"/>ramentum suum &amp; compur. 
+      <lb ed="#F" n="31"/>gatorem, sed videtur etiam 
+      <lb ed="#F" n="32"/>quod post purgationem 
+      de<lb ed="#F" n="33" break="no"/>bet puniri de tergiuersatione. 2. quaest. 3. 
+      <lb ed="#F" n="34"/>§. notandum. circa fi. respon. hic non 
+      ne<lb ed="#F" n="35" break="no"/>gatur, quin puniatur, vel dic quod 
+      tan<lb ed="#F" n="36" break="no"/>tum in accusatione dicitur quis 
+      tergi<lb ed="#F" n="37" break="no"/>uersari, non in denunciatione, 
+      quam<lb ed="#F" n="38" break="no"/>uis non impetrata absolutione desistat, 
+      <lb ed="#F" n="39"/>vel hic dicitur tergiuersari, quia vsque 
+      <lb ed="#F" n="40"/>ad sinem perstitit, licet succubuerit, &amp; 
+      <lb ed="#F" n="41"/>quicquid potuit fecit. 
+      </p>
+               <p xml:id="inleiv-d1e1702-d1e200">
+                  <lb ed="#F" n="42"/>Ab officio). No. grauiorem 
+      poeni<lb ed="#F" n="43" break="no"/>tentiam calumniantis, quam eius qui 
+      <lb ed="#F" n="44"/>denunciatur, qui non punitur, sed 
+      tan<lb ed="#F" n="45" break="no"/>tum cogitur ad poenitentiam. sup. de 
+      ac<lb ed="#F" n="46" break="no"/>cu. qualiter super his. Et est no. quod 
+      <lb ed="#F" n="47"/>non solum in accusatione, sed etiam 
+      <lb ed="#F" n="48"/>in denunciatione punitur 
+      ca<lb ed="#F" n="49" break="no"/>lumniator 
+      extraordina<lb ed="#F" n="50" break="no"/>ria poena. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

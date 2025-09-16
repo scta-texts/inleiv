@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 23</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 23</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="520-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1937" type="decretales-l5t23">
+            <head xml:id="inleiv-d1e1937-Hd1e98">Titulus 23</head>
+            <p xml:id="inleiv-d1e1937-d1e100">
+               <lb ed="#F" n="78"/>TITVLVS XXIII
+      <lb ed="#F" n="79"/>DE DELICTIS 
+      PVE<lb ed="#F" n="80" break="no"/>RORVM. 
+      </p>
+            <div xml:id="inleiv-d1e1937-Dd1e109" type="decretales-l5t23c1">
+               <head xml:id="inleiv-d1e1937-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e1937-d1e113">
+                  <lb ed="#F" n="81"/>CAPVT 1. 
+      </p>
+               <p xml:id="inleiv-d1e1937-d1e118">
+                  <lb ed="#F" n="82"/>PVERIS GRANDIVS 
+      <lb ed="#F" n="83"/>CVLIS. (Genitalibus) 
+      im<lb ed="#F" n="84" break="no"/>mundicia enim carnis ante 
+      <lb ed="#F" n="85"/>hos annos, non praesumitur 
+      <lb ed="#F" n="86"/>(Eurta) . ff. ad Silla. l1. (Aetas) 
+      <lb ed="#F" n="87"/>aetas enim excusat. ff. de mino. auxilium. 
+      <lb ed="#F" n="88"/>§. 1. de conse. dist. 4. eos. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1937-Dd1e137" type="decretales-l5t23c2">
+               <head xml:id="inleiv-d1e1937-Hd1e139">Caput 2</head>
+               <p xml:id="inleiv-d1e1937-d1e141">
+                  <lb ed="#F" n="89"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1937-d1e146">
+                  <lb ed="#F" n="90"/>REFERENT E. (Inultum). 
+      <lb ed="#F" n="91"/>id est, non perfecte vltum. 1. 
+      <lb ed="#F" n="92"/>c. proxi. ff. de mino. auxilium. 
+      <lb ed="#F" n="93"/>§. 1. punitur tamen 
+      aliquan<lb ed="#F" n="94" break="no"/>tulum. C. si aduer. deli. l. 1. &amp; 
+      <lb ed="#F" n="95"/>1. C. de poe. impunitas. ff. de mino. si ex 
+      <lb ed="#F" n="96"/>causa. §. 2. ff. de dam. infect. damnum. §. si 
+      <lb ed="#F" n="97"/>pupillus. 21. q. 5. si quis cuiuslibet. (Centum 
+      <lb ed="#F" n="98"/>soli). aliquando tamen minorem paenam 
+      <lb ed="#F" n="99"/>exigere potest. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 14</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 14</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="513-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1836" type="decretales-l5t14">
+            <head xml:id="inleiv-d1e1836-Hd1e98">Titulus 14</head>
+            <p xml:id="inleiv-d1e1836-d1e100">
+               <lb ed="#F" n="26"/>TITVLVS XIIII 
+      </p>
+            <p xml:id="inleiv-d1e1836-d1e105">
+               <lb ed="#F" n="27"/>DE CLERICIS 
+      PV<lb ed="#F" n="28" break="no"/>GNANTIBVS IN 
+      <lb ed="#F" n="29"/>duello. 
+      </p>
+            <div xml:id="inleiv-d1e1836-Dd1e114" type="decretales-l5t14c1">
+               <head xml:id="inleiv-d1e1836-Hd1e116">Caput 1</head>
+               <p xml:id="inleiv-d1e1836-d1e118">
+                  <lb ed="#F" n="30"/>CAPVT I. 
+      <lb ed="#F" n="31"/>1 Irregnlaritas contrabitur non falam per pa 
+      <lb ed="#F" n="32"/>micidium, sed etiam propter diminutionem 
+      <lb ed="#F" n="33"/>membrorum. 
+      </p>
+               <p xml:id="inleiv-d1e1836-d1e129">
+                  <lb ed="#F" n="34"/>PORRO SI CLERICVS 
+      <lb ed="#F" n="35"/>(Sponte) idem si coacte, cum 
+      <lb ed="#F" n="36"/>potius debet omnia mala 
+      to<lb ed="#F" n="37" break="no"/>lerare, quam malo 
+      consenti<lb ed="#F" n="38" break="no"/>re. 32. qo. 5. ita ne. 22. qom. 2. ita 
+      <lb ed="#F" n="39"/>faciat. 2. q. 5. mona. Alii contra. ff. de iusti. 
+      <lb ed="#F" n="40"/>i &amp; iure. nonvero. (Membrorum) No. 
+      irre<lb ed="#F" n="41" break="no"/>gularitatem contrahi non solum 
+      pro<lb ed="#F" n="42" break="no"/>pter homicidium, sed etiam propter 
+      diminutio<lb ed="#F" n="43" break="no"/>nem membrorum. ar. 3. ne cle. vel mo. 
+      sen<lb ed="#F" n="44" break="no"/>tentiam. 55. dist. si euangelica. I. de rapto. in 
+      <lb ed="#F" n="45"/>archidi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1836-Dd1e159" type="decretales-l5t14c2">
+               <head xml:id="inleiv-d1e1836-Hd1e161">Caput 2</head>
+               <p xml:id="inleiv-d1e1836-d1e163">
+                  <lb ed="#F" n="46"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1836-d1e168">
+                  <lb ed="#F" n="47"/>HENRICVS. (In sacris) 
+      ma<lb ed="#F" n="48" break="no"/>xime, quia idem est in non 
+      <lb ed="#F" n="49"/>sacris (Canonum). 30. dist. si 
+      <lb ed="#F" n="50"/>quis viduam. (Defensione) 
+      <lb ed="#F" n="51"/>uitabili, nos dicimus quod 
+      <lb ed="#F" n="52"/>idem est, &amp; si aliter se defendere non 
+      pos<lb ed="#F" n="53" break="no"/>sit, nisi occidat. arg. contra. 2. de homi. si. 
+      <lb ed="#F" n="54"/>gnificasti, 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

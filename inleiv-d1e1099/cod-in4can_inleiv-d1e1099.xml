@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 20</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 20</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="395-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1099" type="decretales-l3t20">
+            <head xml:id="inleiv-d1e1099-Hd1e98">Titulus 20</head>
+            <p xml:id="inleiv-d1e1099-d1e100">
+               <lb ed="#F" n="19"/>TITVLVS XX. 
+      <lb ed="#F" n="20"/>
+               <!-- line coord error -->
+               <lb ed="#F" n="21"/>DE FEVDIS. 
+      </p>
+            <div xml:id="inleiv-d1e1099-Dd1e111" type="decretales-l3t20c1">
+               <head xml:id="inleiv-d1e1099-Hd1e113">Caput 1</head>
+               <p xml:id="inleiv-d1e1099-d1e115">
+                  <lb ed="#F" n="22"/>CAPVT I.
+      </p>
+               <p xml:id="inleiv-d1e1099-d1e120">
+                  <lb ed="#F" n="23"/>INSINVATIONE. (
+      Gage<lb ed="#F" n="24" break="no"/>ria) villae vel possessiones. 
+      <lb ed="#F" n="25"/>(Ecclesiae). id est, 
+      episcopa<lb ed="#F" n="26" break="no"/>tus. (Recepisse) in causa 
+      pi<lb ed="#F" n="27" break="no"/>Egnoris c computandos) &amp; est 
+      <lb ed="#F" n="28"/>hoc forte in odium feudorum, sicut inf. de 
+      <lb ed="#F" n="29"/>vsuca. c. 1. nam cum non liceat res 
+      eccle<lb ed="#F" n="30" break="no"/>siae alienare sine necessitate. 12. q. 2. 
+      neces<lb ed="#F" n="31" break="no"/>sitatem. &amp; c. sine ex. &amp; feuda de gratia 
+      con<lb ed="#F" n="32" break="no"/>cedantur, &amp; contra ius facilis est eorum 
+      re<lb ed="#F" n="33" break="no"/>uocatio. arg. sup. de his quae fi. a praela. sine 
+      <lb ed="#F" n="34"/>con. ca. cum apostolica. vel hic vocat 
+      feu<lb ed="#F" n="35" break="no"/>datarios rusticos, qui teneant aliquas 
+      pos<lb ed="#F" n="36" break="no"/>sessiones, quarum ratione debent aliqua 
+      <lb ed="#F" n="37"/>seruitia exhibere, &amp; non excedant multum 
+      <lb ed="#F" n="38"/>fructus valorem seruitii, alioquin esset 
+      con<lb ed="#F" n="39" break="no"/>tra mandatum Dei, mutuum dantes etc. 
+      <lb ed="#F" n="40"/>dic nanc decre. &amp; consimiles loqui in eo 
+      <lb ed="#F" n="41"/>casu, quando illicite tenentcilicet quia in 
+      feu<lb ed="#F" n="42" break="no"/>do datae fuerunt in casu illicito, si cut si 
+      de<lb ed="#F" n="43" break="no"/>cimae in feudo darentur, quae tamen sine 
+      <lb ed="#F" n="44"/>scandalo recuperari non possunt: &amp; hoc 
+      <lb ed="#F" n="45"/>innuitur. inf. de vsur. e. 1. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1099-Dd1e173" type="decretales-l3t20c2">
+               <head xml:id="inleiv-d1e1099-Hd1e175">Caput 2</head>
+               <p xml:id="inleiv-d1e1099-d1e177">
+                  <lb ed="#F" n="46"/>CAPVT II.
+      </p>
+               <p xml:id="inleiv-d1e1099-d1e182">
+                  <lb ed="#F" n="47"/>EX PARTE. (De nouo.) Hoc 
+      <lb ed="#F" n="48"/>enim iuramentum intelligitur vt rem 
+      <lb ed="#F" n="49"/>ceudatariam constituat. (Alienare) &amp; 
+      <lb ed="#F" n="50"/>propter hoc debeat amittere feudum. (
+      Re<lb ed="#F" n="51" break="no"/>cuperare) de facto: quia de iure ipso facto 
+      <lb ed="#F" n="52"/>cadit a feudo vel a iure feudi. (Concedas) 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="53"/>in nullo enim casuum praedictorum erant 
+      pos<lb ed="#F" n="54" break="no"/>sessiones de mensa, vnde iuramento non 
+      <lb ed="#F" n="55"/>astringebatur, quod tantum loquitur de 
+      <lb ed="#F" n="56"/>
+                  <!-- line coord error -->
+                  <lb ed="#F" n="57"/>possessionibus ad mensam pertinentibus. 
+      <lb ed="#F" n="58"/>ar sup. de rebus eccle. non alie. vt super 
+      pos<lb ed="#F" n="59" break="no"/>ses. vbi not. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

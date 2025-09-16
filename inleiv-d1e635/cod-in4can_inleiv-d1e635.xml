@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 9</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 9</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="214-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e635" type="decretales-l2t9">
+            <head xml:id="inleiv-d1e635-Hd1e98">Titulus 9</head>
+            <p xml:id="inleiv-d1e635-d1e100">
+               <lb ed="#F" n="99"/>TITVLVS IX.
+      <lb ed="#F" n="100"/>DE FERIIS
+      </p>
+            <div xml:id="inleiv-d1e635-Dd1e107" type="decretales-l2t9c1">
+               <head xml:id="inleiv-d1e635-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e635-d1e111">
+                  <lb ed="#F" n="101"/>CAPXT 1 
+      <lb ed="#F" n="102"/>OMNES DIES. (
+      Dom<lb ed="#F" n="103" break="no"/>nicos) quidam hoc 
+      capitu<lb ed="#F" n="104" break="no"/>lum dicunt loqui de 
+      consi<lb ed="#F" n="105" break="no"/>lio, vel esse locale, vel 
+      abro<lb ed="#F" n="106" break="no"/>gatum per tacitum 
+      consen<lb ed="#F" n="107" break="no"/>sum. Alii dicunt, quod hodie 
+      seruan<lb ed="#F" n="108" break="no"/>dum est. C. eodem, omnes. 15. quaestio. 
+      <lb ed="#F" n="109"/>quarta. placita. 33. quaestio. quarta. non 
+      <lb ed="#F" n="110"/>oportet. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e635-Dd1e136" type="decretales-l2t9c2">
+               <head xml:id="inleiv-d1e635-Hd1e138">Caput 2</head>
+               <p xml:id="inleiv-d1e635-d1e140">
+                  <pb ed="#F" n="214-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>
+                  <lb ed="#F" n="2"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e151">
+                  <lb ed="#F" n="3"/>QVONIAM. (Eorum 
+      festi<lb ed="#F" n="4" break="no"/>uitatum) nam non solum in 
+      <lb ed="#F" n="5"/>die resurrectionis, sed 
+      ali<lb ed="#F" n="6" break="no"/>cubi tribus diebus post 
+      ali<lb ed="#F" n="7" break="no"/> cubi octo feriamur. (
+      Prae<lb ed="#F" n="8" break="no"/>cepimus) de conse. dist. 3. c. 1. (Flexio) ex 
+      <lb ed="#F" n="9"/>edicto ecclesiae. 76. dist. scire. contra. 2o, 
+      <lb ed="#F" n="10"/>distinct. c. vltimo. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e635-Dd1e172" type="decretales-l2t9c3">
+               <head xml:id="inleiv-d1e635-Hd1e174">Caput 3</head>
+               <p xml:id="inleiv-d1e635-d1e176">
+                  <lb ed="#F" n="11"/>CAPVT III. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e181">
+                  <lb ed="#F" n="12"/>LICET TAM. (Veteris) 
+      <lb ed="#F" n="13"/>deputatos dies natiuitatis, 
+      <lb ed="#F" n="14"/>circumcisionis, &amp; alios. C. 
+      <lb ed="#F" n="15"/>de fur. omnes. (Mari vrum) 
+      <lb ed="#F" n="16"/>quae episcopi 
+      concordanti<lb ed="#F" n="17" break="no"/>bus populis in suis episcopatibus 
+      cele<lb ed="#F" n="18" break="no"/>branda statuerint. de consec. dist. 3. c. 1. 
+      <lb ed="#F" n="19"/>(Necessitate). ff. de fetiis. l. solet. &amp; l. pe. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e635-Dd1e203" type="decretales-l2t9c4">
+               <head xml:id="inleiv-d1e635-Hd1e205">Caput 4</head>
+               <p xml:id="inleiv-d1e635-d1e207">
+                  <lb ed="#F" n="20"/>CAPVT IIII
+      </p>
+               <p xml:id="inleiv-d1e635-d1e212">
+                  <lb ed="#F" n="21"/>CAPELLANVS TVVS. 
+      <lb ed="#F" n="22"/>(Statuta.) 33. quaest. 4. non 
+      <lb ed="#F" n="23"/>oportet. 2. (Continuandas) 
+      <lb ed="#F" n="24"/>ipsi festo. (Interuallum) 
+      <lb ed="#F" n="25"/>hoc vult dicere, quia licet 
+      <lb ed="#F" n="26"/>Interuallum sit inter tres septimanas 
+      di<lb ed="#F" n="27" break="no"/>ctas, &amp; festum beati loannis, puta quia 
+      <lb ed="#F" n="28"/>aliquae septimanae intermediae in tribus 
+      <lb ed="#F" n="29"/>sllis septimanis non celebrabuntur 
+      nu<lb ed="#F" n="30" break="no"/>ptlae, sed in alijs, quae sunt in interuallo 
+      <lb ed="#F" n="31"/>licet celebrare. (Contrahatur) id est, 
+      con<lb ed="#F" n="32" break="no"/>trahi liceat. (Non sinuntur) de facto &amp; 
+      <lb ed="#F" n="33"/>de consuetudine ecclesiae. (Celebrantur) 
+      <lb ed="#F" n="34"/>de consuetudine ecclesiae &amp; sine eius: 
+      <lb ed="#F" n="35"/>prohibitione. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e635-Dd1e248" type="decretales-l2t9c5">
+               <head xml:id="inleiv-d1e635-Hd1e250">Caput 5</head>
+               <p xml:id="inleiv-d1e635-d1e252">
+                  <lb ed="#F" n="36"/>CAPVT V. 
+      <lb ed="#F" n="37"/>1 Non debetiudes diebus fariatis 
+      procederei<lb ed="#F" n="38" break="no"/>tausa, nec etiam citare ad eum diem. 
+      <lb ed="#F" n="39"/>2 Causa spiritualer, &amp; causae necessitatis, etiam 
+      <lb ed="#F" n="40"/>tempore feriali tractari possunt. 
+      <lb ed="#F" n="41"/>Qua de causa inductae sunt feriae aestiuales: &amp; 
+      <lb ed="#F" n="42"/>pide in num. 4 
+      <lb ed="#F" n="43"/> Si qui de remotis partibus in curia agentes 
+      <lb ed="#F" n="44"/>causam, occurrant feriae, si ex bis non lae 
+      <lb ed="#F" n="45"/>derentur, cogi possunt 
+      litigare<lb ed="#F" n="46" break="no"/>6 Debet iudex seruare ferias 
+      <lb ed="#F" n="47"/>unquid in terris vbi non bibitur vinum 
+      <lb ed="#F" n="48"/>sint dandae induciae pro vindemiis. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e283">
+                  <lb ed="#F" n="49"/>CONQVESTVS EST 
+      <lb ed="#F" n="50"/>nobis. &amp; infra. C. eodem. 
+      <lb ed="#F" n="51"/>omnes. &amp; l. vltima.
+      </p>
+               <p xml:id="inleiv-d1e635-d1e292">
+                  <lb ed="#F" n="52"/>(Conquiescere) nom 
+      <lb ed="#F" n="53"/>soium in diebus 
+      solenni<lb ed="#F" n="54" break="no"/>bus ad honorem Dei dedicatia, sed etiam 
+      <lb ed="#F" n="55"/>in aliis feriis, non debet sudeaprexedte 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="56"/>re in causis, nec etiam citare ad sllum dr 
+      <lb ed="#F" n="57"/>em. ff. de ferijs. l. 1. Vnde iudices 
+      pru<lb ed="#F" n="58" break="no"/>denter faciunt, si quando citant, dicunt 
+      <lb ed="#F" n="59"/>compareas tali die coram nobis, vt ex 
+      <lb ed="#F" n="60"/>tunc procedamus in questione tali, quia 
+      <lb ed="#F" n="61"/>si die feriata non potest iudicare, 
+      com<lb ed="#F" n="62" break="no"/>parere tamen potest pars citata, tamem 
+      <lb ed="#F" n="63"/>nobis non multa videtur differentia im 
+      <lb ed="#F" n="64"/>hoc, hic autem attendendum est, quod 
+      <lb ed="#F" n="65"/>licet teneat citatio, quando exprimit 
+      er<lb ed="#F" n="66" break="no"/>rorem pro termino assignando, puta 
+      <lb ed="#F" n="67"/>quia sic dicit ad comparendum coram 
+      <lb ed="#F" n="68"/>nobis in tali causa, tibi assignamus diem 
+      <lb ed="#F" n="69"/>dominicum, ita quod nec in dominiea, 
+      <lb ed="#F" n="70"/>nec in sequenti comparere tenetur, si 
+      ta<lb ed="#F" n="71" break="no"/>men non exprimat errorem, sed tamen 
+      <lb ed="#F" n="72"/>in die solenni occurrat dies termini, 
+      pu<lb ed="#F" n="73" break="no"/>ta decima die vensas responsurus, &amp; 
+      de<lb ed="#F" n="74" break="no"/>cima die veniat dies solennis, non 
+      tene<lb ed="#F" n="75" break="no"/>tur comparere in solenni die, sed sequenti 
+      <lb ed="#F" n="76"/>die sic, quia duo videntur mandata, &amp; 
+      <lb ed="#F" n="77"/>quod ad diem compareat, &amp; quod 
+      com<lb ed="#F" n="78" break="no"/>pareat. ff. de arbi. Celsus. licet ergo 
+      ha<lb ed="#F" n="79" break="no"/>beat excusationem in die solenni, tamem 
+      <lb ed="#F" n="80"/>in sequenti die, non habet 
+      excusatio<lb ed="#F" n="81" break="no"/>nem, &amp; datio termini bene tenet. Idem 
+      <lb ed="#F" n="82"/>dicimus, si per decem aut viginti 
+      die<lb ed="#F" n="83" break="no"/>durent dies feriati. Item melius videtur. 
+      <lb ed="#F" n="84"/>quod etiam si in die feriato expresse 
+      ter<lb ed="#F" n="85" break="no"/>minus assignetur, quod teneat, &amp; quoo 
+      <lb ed="#F" n="86"/>comparere debeant partes, licet non die 
+      <lb ed="#F" n="87"/>feriato tamen post illum. sup. tit. proxi 
+      <lb ed="#F" n="88"/>exposuit. sup. de in integ. restitutione. 
+      <lb ed="#F" n="89"/>cum ex literis. Coram. inf. de dolo. cum 
+      <lb ed="#F" n="90"/>dilecti. inf. de accu. veniens. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e381">
+                  <lb ed="#F" n="91"/>Solenniter) possunt enim constitu. 
+      <lb ed="#F" n="92"/>ere aliquem Sanctum solenniter 
+      vene<lb ed="#F" n="93" break="no"/>rari, sed non possunt aliquem Sanctum 
+      <lb ed="#F" n="94"/>sanctorum collegio sine authoritate 
+      Pa<lb ed="#F" n="95" break="no"/>pae asscribere. (Necessitas) quia si res sit 
+      <lb ed="#F" n="96"/>tempore peritura. sup. eodem. licet ff de 
+      <lb ed="#F" n="97"/>ferijs. licet. ff. de dam. infect. l. prima. &amp; 
+      <lb ed="#F" n="98"/>l. fiet missio. ff. quemadmod. te. aper. l. 1. 
+      <lb ed="#F" n="99"/>ff. eo. l. 2. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e404">
+                  <lb ed="#F" n="100"/>2 (Pietas) de alimentis pupillorum. 
+      <lb ed="#F" n="101"/>causas autem spirituales, vt electionum. 
+      <lb ed="#F" n="102"/>inquisitionum, &amp; huiusmodi, etiam 
+      die<lb ed="#F" n="103" break="no"/>bus fersatis exerceri possunt, quia &amp; 
+      pi<lb ed="#F" n="104" break="no"/>etas &amp; necessitas eas audiri suadet. &amp; 
+      <lb ed="#F" n="105"/>argumentum. 15. quaestio. quarta. 
+      placi<lb ed="#F" n="106" break="no"/>to. (Consentientibus). ff. de arbi. si 
+      fe<lb ed="#F" n="107" break="no"/>riatis. in fine. ff. de postu. quos. Ob 
+      <lb ed="#F" n="108"/>necessstates) talis casus contingit 
+      pro<lb ed="#F" n="109" break="no"/>pter causam, quae vertebatur inter 
+      <lb ed="#F" n="110"/>conuentum Rofens. &amp; episcopum 
+      eius<lb ed="#F" n="111" break="no"/>dem loci commisit iudex 
+      examinan<lb ed="#F" n="112" break="no"/>dum, &amp; vt instructam remittere eam ad 
+      <pb ed="#F" n="215-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>sedem apostolicam. Ipsi autem iudices 
+      <lb ed="#F" n="2"/>in lunio praefixere terminum partibus, 
+      <lb ed="#F" n="3"/>vbi in medio Augusti pro causa ipsa 
+      es<lb ed="#F" n="4" break="no"/>sent coram Papa. parte autem 
+      conuen<lb ed="#F" n="5" break="no"/>tus in termino comparente, &amp; 
+      audito<lb ed="#F" n="6" break="no"/>rem impetrante, pars episcopi non 
+      com<lb ed="#F" n="7" break="no"/>paruit, vnde auditor datus 
+      condemna<lb ed="#F" n="8" break="no"/>uit eum in expensis. Postmodum autem 
+      <lb ed="#F" n="9"/>vltra medietatem Octobris comparuit 
+      <lb ed="#F" n="10"/>procurator pro episcopo, petens 
+      reuo<lb ed="#F" n="11" break="no"/>cars sententiam expensarum, allegans quod 
+      <lb ed="#F" n="12"/>in medio Augusti comparere non 
+      de<lb ed="#F" n="13" break="no"/>buit, quia tunc sunt feriae messium in 
+      <lb ed="#F" n="14"/>Anglia. Item in mense Septembris 
+      com<lb ed="#F" n="15" break="no"/>parere non debuit, quia tunc sunt fersae 
+      <lb ed="#F" n="16"/>in curia Papae, vnde &amp; si praesens fuisset, 
+      <lb ed="#F" n="17"/>respondere non cogeretur, ergo non 
+      de<lb ed="#F" n="18" break="no"/>bet contumax reputari, vt patet. ff. de 
+      <lb ed="#F" n="19"/>iud. l. non videtur. post finitas autem 
+      <lb ed="#F" n="20"/>vtrasquoe ferias, venit continuatis 
+      gressi<lb ed="#F" n="21" break="no"/>bus quam cito potuit, &amp; ideo cum non 
+      <lb ed="#F" n="22"/>fuerit episeopus, nec in mora, nec in 
+      cul<lb ed="#F" n="23" break="no"/>pa, iniusta fuit sententia, &amp; ideo 
+      reuo<lb ed="#F" n="24" break="no"/>canda. Dicit enim lex, quod tempore 
+      <lb ed="#F" n="25"/>messium &amp; vindemiarum nemo 
+      cogen<lb ed="#F" n="26" break="no"/>dus est ire ad forum. Item occupati circa 
+      <lb ed="#F" n="27"/>rem rusticam, non sunt cogendi ire ad 
+      <lb ed="#F" n="28"/>forum. ff. de ferijs. I. prima, Item cum 
+      fe<lb ed="#F" n="29" break="no"/>riae plus inductae sunt in fauorem 
+      liti<lb ed="#F" n="30" break="no"/>gantium, ne tunc abstineatur a re 
+      rusti<lb ed="#F" n="31" break="no"/>ca, quam in fauorem iudicis, potius sunt 
+      <lb ed="#F" n="32"/>attendendae feriae litigatorum, quam 
+      iu<lb ed="#F" n="33" break="no"/>dicis. C. de legi. quod fa. Item causa 
+      qua<lb ed="#F" n="34" break="no"/>re facta est constitutio in istis 
+      litigatori<lb ed="#F" n="35" break="no"/>bus est, quia si in medio Augusti 
+      com<lb ed="#F" n="36" break="no"/>paruissent, abstracti fuissent a re rustica 
+      <lb ed="#F" n="37"/>ita messibus, ergo &amp; beneficium 
+      consti<lb ed="#F" n="38" break="no"/>tutionis durare debet. ff. de pactis. quod 
+      <lb ed="#F" n="39"/>dictum. C. qui ad li. ve. non pos. l. 
+      secun<lb ed="#F" n="40" break="no"/>da. Item licet hic non dicat ius expresse 
+      <lb ed="#F" n="41"/>tamen interpretatione principis, vel 
+      iu<lb ed="#F" n="42" break="no"/>risdictione iudicis leges, quae similem 
+      <lb ed="#F" n="43"/>habent aequitatem, &amp; vtilitatem ad hunc 
+      <lb ed="#F" n="44"/>tasum sunt retrahendae. ff. de legibus. &amp; 
+      <lb ed="#F" n="45"/>ideo cum duabus legibus sequentibus. 
+      <lb ed="#F" n="46"/>Item pro episcopo facit. sup. titul. proxi. 
+      <lb ed="#F" n="47"/>exposuit. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e541">
+                  <lb ed="#F" n="48"/>In contrarium autem pars 
+      conuen<lb ed="#F" n="49" break="no"/>tus dicebat, quod ille qui assignauit 
+      ter<lb ed="#F" n="50" break="no"/>minum, non tenebatur vitare aliquod 
+      <lb ed="#F" n="51"/>tempus, nec ferias curiae Romanae, sed 
+      <lb ed="#F" n="52"/>illas cauere vel vitare debebat, quia si 
+      <lb ed="#F" n="53"/>tempore feriato in curia compareret, 
+      <lb ed="#F" n="54"/>frustra hoc esset, nam nullius peregrini 
+      <lb ed="#F" n="55"/>lite non contestata, quia turpis etc. 8. dis. 
+      <lb ed="#F" n="56"/>quae contra. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e563">
+                  <lb ed="#F" n="57"/>Nec obest quod obiicitur, quond fe¬ 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="58"/>riae istae inductae sunt in fauorem 
+      rusti<lb ed="#F" n="59" break="no"/>corum, quod non fateor, imo inductae 
+      <lb ed="#F" n="60"/>sunt ob requiem laboris inter feruores 
+      <lb ed="#F" n="61"/>aestiuos. C. de ferijs. omnes. tamen hoc 
+      <lb ed="#F" n="62"/>dato, non sequitur, quod non debeat 
+      <lb ed="#F" n="63"/>alicui assignari terminus eo tempore, 
+      <lb ed="#F" n="64"/>quo intendit circa rem rusticam, quia si 
+      <lb ed="#F" n="65"/>hoc diceretur sequeretur absurditas, quod 
+      <lb ed="#F" n="66"/>nunquam possunt vocari in ius, cum 
+      <lb ed="#F" n="67"/>quasi semper fere omnes homines circa 
+      <lb ed="#F" n="68"/>opera sua insistant, nam iste casus non 
+      <lb ed="#F" n="69"/>numeratur inter illos, quos habes no. 
+      <lb ed="#F" n="70"/>C. &amp; ff. de in ius vo. non enim fuit intene 
+      <lb ed="#F" n="71"/>tio conditoris legis, eos in totum 
+      excu<lb ed="#F" n="72" break="no"/>sare, sed voluit quaedam tempora anni, 
+      <lb ed="#F" n="73"/>quae ad hoc videntur idoneiora ad has 
+      <lb ed="#F" n="74"/>ferias statuere, licet saepe contingere 
+      pos<lb ed="#F" n="75" break="no"/>sit, quod aliquibus esset vtilius, quod 
+      <lb ed="#F" n="76"/>alunes temporibus haberent ferias, lex 
+      <lb ed="#F" n="77"/>enim non potuit, nec expediuit quod 
+      <lb ed="#F" n="78"/>omnes casus exprimeret, &amp; singulorum 
+      <lb ed="#F" n="79"/>vtilitates praecaueret. ff. de legl. iura. &amp; 
+      <lb ed="#F" n="80"/>l. sequent. &amp; l. non possunt. &amp; l. sequent. 
+      <lb ed="#F" n="81"/>ff. de prae. l. quarta. &amp; quia lex debet esse 
+      <lb ed="#F" n="82"/>generalis. quarta distinctsone. erit 
+      au<lb ed="#F" n="83" break="no"/>tem. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e626">
+                  <lb ed="#F" n="84"/>Item nec interpretatione 
+      impera<lb ed="#F" n="85" break="no"/>toris, nec surisdictione iudicis 
+      trahen<lb ed="#F" n="86" break="no"/>dae sunt istae feriae ad omnes occupatos 
+      <lb ed="#F" n="87"/>circa opera sua, qusa non esset ipsis &amp; 
+      <lb ed="#F" n="88"/>alijs, qui eos in ius vocare vellent, vel 
+      <lb ed="#F" n="89"/>quos ipsi vocarent, nec aeduum nec 
+      <lb ed="#F" n="90"/>vtile. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e644">
+                  <lb ed="#F" n="91"/>Item non obest. ff. de ferijs. l. prima. 
+      <lb ed="#F" n="92"/>vbi dicitur: occupati circa rem 
+      rusti<lb ed="#F" n="93" break="no"/>cam, non sunt vocandi in ius, quia 
+      sub<lb ed="#F" n="94" break="no"/>intelligendum est quod non sunt 
+      vo<lb ed="#F" n="95" break="no"/>candi dsebus feriatis, sed in alijs secus. 
+      <lb ed="#F" n="96"/>Papa autem sententsam tulit pro 
+      con<lb ed="#F" n="97" break="no"/>uentu, dicens quod in assignatione 
+      ter<lb ed="#F" n="98" break="no"/>mini non sunt attendendae feriae nisi 
+      iu<lb ed="#F" n="99" break="no"/>dicis coram quo agi debet, nec est 
+      cu<lb ed="#F" n="100" break="no"/>randum si feriae sunt, quando illi 
+      impo<lb ed="#F" n="101" break="no"/>nitur terminus, &amp; incipit viam eundi ad 
+      <lb ed="#F" n="102"/>iudicem, vel etiam si in via incidant. 
+      ar<lb ed="#F" n="103" break="no"/>gumentum. ff. de adul. miles. §. 
+      quadra<lb ed="#F" n="104" break="no"/>ginta. ff. ex quibus causis ma. sed &amp; 
+      si<lb ed="#F" n="105" break="no"/>§. penultimo. principes enim rati sunt 
+      <lb ed="#F" n="106"/>tempora ferijs in legibus deputata 
+      mo<lb ed="#F" n="107" break="no"/>derata esse, ita quod iudici non licet ea 
+      <lb ed="#F" n="108"/>mutare, nec augere, nec diminuere, licet 
+      <lb ed="#F" n="109"/>saepe occurrant casus in quibus vtile 
+      <lb ed="#F" n="110"/>esset aliud facere. ff. qui &amp; am quibus ma. 
+      <lb ed="#F" n="111"/>li. l. prospexit. &amp; vides simile lex 
+      mode<lb ed="#F" n="112" break="no"/>rata est tempus ad postulandum 
+      septen<lb ed="#F" n="113" break="no"/>decim ann. &amp; tamen licet multi minores 
+      <lb ed="#F" n="114"/>septendecim ann. inueniantur idoneio¬ 
+      <pb ed="#F" n="215-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>res ad postulandum, quam maiores, 
+      ta<lb ed="#F" n="2" break="no"/>men hic non licet mutare. ff. de postulam. 
+      <lb ed="#F" n="3"/>l. 1. §. pueritiam. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e709">
+                  <lb ed="#F" n="4"/>Item tunc dixit Papa, quod si aliqui 
+      <lb ed="#F" n="5"/>de remotis partibus essent in curia per 
+      <lb ed="#F" n="6"/>se, vel per procuratores, &amp; dum 
+      agere<lb ed="#F" n="7" break="no"/>tur causa eorum occurrerent feriae si 
+      nul<lb ed="#F" n="8" break="no"/>latenus laederentur, quod cogeret eos 
+      <lb ed="#F" n="9"/>litigare, quia malitijs hominum non est 
+      <lb ed="#F" n="10"/>indulgendum. ff. de rei vendi. in fundo. 
+      <lb ed="#F" n="11"/>Item dixit quod bene faciet ille, qui 
+      sta<lb ed="#F" n="12" break="no"/>tuit terminum si in eo statuendo 
+      atten<lb ed="#F" n="13" break="no"/>datur quantum potest, quod litigatores 
+      <lb ed="#F" n="14"/>etiam ferijs suae patriae potiantur, nisi 
+      <lb ed="#F" n="15"/>aliqua ratio moueat in contrarium, 
+      ta<lb ed="#F" n="16" break="no"/>men si iudex non faciet propter hoc non 
+      <lb ed="#F" n="17"/>poterit aliqua pars appellare, 
+      praesumi<lb ed="#F" n="18" break="no"/>tur enim pro iudice. sup. de elect. bonae 
+      <lb ed="#F" n="19"/>memoriae. sup. de renunc. in praesentia. 
+      <lb ed="#F" n="20"/>eltem cum hoc e arbitrio sudicis 
+      relin<lb ed="#F" n="21" break="no"/>quatur, non poterit aliqua pars 
+      appella<lb ed="#F" n="22" break="no"/>ri siue in ferijs patriae suae extra terminum 
+      <lb ed="#F" n="23"/>assignet. argumentum. sup. de offic. 
+      de<lb ed="#F" n="24" break="no"/>leg. consuluit. §. 1. Si autem diceretur quod 
+      <lb ed="#F" n="25"/>feriae litigantium sunt obseruandae, &amp; 
+      <lb ed="#F" n="26"/>constat quod etiam feriae curiae R 
+      oma<lb ed="#F" n="27" break="no"/>nae sunt obseruandae, ergo duplices sunt 
+      <lb ed="#F" n="28"/>obseruandae, quod est absurdum, cum 
+      <lb ed="#F" n="29"/>hoc non inueniatur lege cautum. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e769">
+                  <lb ed="#F" n="30"/> Item dicimus, quod etiam si a 
+      iudi<lb ed="#F" n="31" break="no"/>ce non inducantur generaliter feriae, 
+      ta<lb ed="#F" n="32" break="no"/>men iudex siue ordinarius, siue 
+      delega<lb ed="#F" n="33" break="no"/>tus eas seruare debet eo. sce. tempore, quo 
+      <lb ed="#F" n="34"/>communiter messes fiunt: sicut in l. 
+      prae<lb ed="#F" n="35" break="no"/>al. apparet. 
+      </p>
+               <p xml:id="inleiv-d1e635-d1e785">
+                  <lb ed="#F" n="36"/>In terris autem, vbi non bibitur 
+      vi<lb ed="#F" n="37" break="no"/>num, communiter, sicut in Hybernia non 
+      <lb ed="#F" n="38"/>dantur induciae pro vindemijs, sed in 
+      <lb ed="#F" n="39"/>terris, vbi communiter bibitur vinum, 
+      <lb ed="#F" n="40"/>licet ibi non sint vineae dandae sunt 
+      in<lb ed="#F" n="41" break="no"/>duciae pro vindemijs, &amp; vbicunqe pro 
+      <lb ed="#F" n="42"/>mess ibus, quia licet ex suis terris non 
+      col<lb ed="#F" n="43" break="no"/>ligantur grana, oportet tamen quod pro 
+      <lb ed="#F" n="44"/>aliquo tempore anni praeordinetur de 
+      <lb ed="#F" n="45"/>vino &amp; grano quo per totum annum vti 
+      <lb ed="#F" n="46"/>debeant. (Partium) . C. de fer. l. 1. ff. eo. l. 1. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

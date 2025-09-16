@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 24</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 24</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="118-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e317" type="decretales-l1t24">
+            <head xml:id="inleiv-d1e317-Hd1e98">Titulus 24</head>
+            <p xml:id="inleiv-d1e317-d1e100">
+               <lb ed="#F" n="35"/>TITVLVS XXIIII. 
+      <lb ed="#F" n="36"/>DE OFEICIO 
+      ARCHI<lb ed="#F" n="37" break="no"/>PRESPVTERI. 
+      </p>
+            <div xml:id="inleiv-d1e317-Dd1e109" type="decretales-l1t24c1">
+               <head xml:id="inleiv-d1e317-Hd1e111">Caput 1</head>
+               <p xml:id="inleiv-d1e317-d1e113">
+                  <lb ed="#F" n="38"/>CAPVT I. 
+      <lb ed="#F" n="39"/>1 Arcbiprerbrter subest Archidiacono, quo 
+      <lb ed="#F" n="40"/>ad administrationem, non quo ad ordinem.
+      </p>
+               <p xml:id="inleiv-d1e317-d1e122">
+                  <lb ed="#F" n="41"/>VT 
+      ARCIIIPRESPX<lb ed="#F" n="42" break="no"/>TER. &amp; inf. (Volumus 
+      sub<lb ed="#F" n="43" break="no"/>esse) vt est de consuetudine, 
+      <lb ed="#F" n="44"/>&amp; intellige quo ad 
+      admini<lb ed="#F" n="45" break="no"/>strationem, non quo ad 
+      or<lb ed="#F" n="46" break="no"/>dinem subest archi. 2. q. 7. puta. C. de offi. 
+      <lb ed="#F" n="47"/>iud. l. 1. in his quae spectant ad officium 
+      ar<lb ed="#F" n="48" break="no"/>chi. vel de iur. vel consuetudine. (Et quod) 
+      <lb ed="#F" n="49"/>voluimus, quod archipresbyter etc. (
+      Col<lb ed="#F" n="50" break="no"/>lectam) id est, missam. 69. dist. quoniam. 
+      <lb ed="#F" n="51"/>(Iniunxerunt) 25. dist. perlectis. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e317-Dd1e149" type="decretales-l1t24c2">
+               <head xml:id="inleiv-d1e317-Hd1e151">Caput 2</head>
+               <p xml:id="inleiv-d1e317-d1e153">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="52"/>CAPVT II. 
+      <lb ed="#F" n="53"/>1 Arebiprerhpter absente episcopo &amp; necesas 
+      <lb ed="#F" n="54"/>tete vrgente pores recontillere inrpi 
+      <lb ed="#F" n="55"/>paenitentem. 
+      </p>
+               <p xml:id="inleiv-d1e317-d1e166">
+                  <lb ed="#F" n="56"/>MINISTERIVM 
+      AR<lb ed="#F" n="57" break="no"/>CHIIPRESBVT. (
+      Car<lb ed="#F" n="58" break="no"/>dinalium) idest, 
+      principali<lb ed="#F" n="59" break="no"/>um. 7. quaestio. 1. 
+      pastora<lb ed="#F" n="60" break="no"/>lis. (In c ommunicatione) id 
+      <lb ed="#F" n="61"/>est, in missarum celebratione, &amp; per 
+      to<lb ed="#F" n="62" break="no"/>tam septimanam facienda, quae incipit 
+      <lb ed="#F" n="63"/>die Dominico. (Obtemperando) q. d. non 
+      <lb ed="#F" n="64"/>eos puniat sua authoritate, sed episcopo 
+      <lb ed="#F" n="65"/>referatur, si in aliquo male viuunt, &amp; 
+      con<lb ed="#F" n="66" break="no"/>tra eos mandatum sui episcopi fatiat. (
+      Ce<lb ed="#F" n="67" break="no"/>dant) quando debent officijs interesse. 
+      <lb ed="#F" n="68"/>(Prohibita) si qua ad ordinationem 
+      perti<lb ed="#F" n="69" break="no"/>nent episcopalem. 18. dist. quamuis 
+      coepi<lb ed="#F" n="70" break="no"/>scopi. (Consulto) &amp; praesente, sed &amp; si est 
+      <lb ed="#F" n="71"/>absens &amp; necessitas vrget etiam eo 
+      incon<lb ed="#F" n="72" break="no"/>sulto potest absoluere. 26. q. 6. c. vlti. 
+      intel<lb ed="#F" n="73" break="no"/>ligitur hoc de solenniter poenitente, sed 
+      <lb ed="#F" n="74"/>in hoc casu etiam simplex sacerdos eum 
+      <lb ed="#F" n="75"/>absoluere potest. ar. 17. q. 4. si quis sua. &amp; 
+      <lb ed="#F" n="76"/>etiam laicus, vt quidam dicunt. de conse. 
+      <lb ed="#F" n="77"/>dist. aefanctum est baptisma. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e317-Dd1e217" type="decretales-l1t24c3">
+               <head xml:id="inleiv-d1e317-Hd1e219">Caput 3</head>
+               <p xml:id="inleiv-d1e317-d1e221">
+                  <lb ed="#F" n="78"/>CAPVT III.
+      </p>
+               <p xml:id="inleiv-d1e317-d1e226">
+                  <lb ed="#F" n="79"/>OFFICIVM A 
+      RCHII<lb ed="#F" n="80" break="no"/>PRESBVTERI. (Foris) 
+      <lb ed="#F" n="81"/>id est, extra ciuitatem, &amp; ita 
+      <lb ed="#F" n="82"/>habes quod omnes foranei 
+      <lb ed="#F" n="83"/>acramenta, &amp; sepulturas in 
+      <lb ed="#F" n="84"/>maiori ecclesia recipi ent, nisi forte 
+      elige<lb ed="#F" n="85" break="no"/>rent alibi sepeliri. Sed certe hoc tantum 
+      <lb ed="#F" n="86"/>videtur loqui de grauiter peccantibus. ar. 
+      <lb ed="#F" n="87"/>50. dist. in ca. 26 quaestio. 6. c. fi. (Cum 
+      <lb ed="#F" n="88"/>omnibus) id est, omnium sacerdotum, quia 
+      <lb ed="#F" n="89"/>ibi archipresbvtero confiteri debent. (
+      Ex<lb ed="#F" n="90" break="no"/>inde)id est, postquam audiunt 
+      confessio<lb ed="#F" n="91" break="no"/>nem. (Illis) peregrinis &amp; sacerdotibus. 
+      <lb ed="#F" n="92"/>(Curam) vt omnia sacramenta recipiant 
+      <lb ed="#F" n="93"/>peregrini plus caeteris indigent, quia ibi 
+      <lb ed="#F" n="94"/>notos non habent, de sacerdotibus autem 
+      <lb ed="#F" n="95"/>confunderetur ecclesia, si sine 
+      sacramen<lb ed="#F" n="96" break="no"/>tis decederent. 
+      </p>
+               <p xml:id="inleiv-d1e317-d1e268">
+                  <lb ed="#F" n="97"/>CAPVT IIII.
+      </p>
+               <p xml:id="inleiv-d1e317-d1e273">
+                  <lb ed="#F" n="98"/>VT SINGVLAE. Hloc 
+      ca<lb ed="#F" n="99" break="no"/>pitulum loquitur de 
+      archi<lb ed="#F" n="100" break="no"/>episcopo rurali, &amp; superius 
+      <lb ed="#F" n="101"/>de ciuitatens. (Titulos) id est 
+      <lb ed="#F" n="102"/>ecclesia. 70. di. c. 2. (Suae) 
+      ar<lb ed="#F" n="103" break="no"/>chi. quod solus episcopus est ordinarius.
+      <lb ed="#F" n="104"/>11. q. 1. de persona. 80. distin. non debere. 
+      <pb ed="#F" n="118-v"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>(partiatur) inf. de praesum. mandata. (De 
+      <lb ed="#F" n="2"/>cretum) id est, contra ordinationes Epit 
+      <lb ed="#F" n="3"/>scoporum, secundum eorum autem 
+      sta<lb ed="#F" n="4" break="no"/>tuta possunt minora negotia diffinire, 
+      <lb ed="#F" n="5"/>eum sint ordinarii vt not inf. de effi. ordi. 
+      <lb ed="#F" n="6"/>eum ab. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

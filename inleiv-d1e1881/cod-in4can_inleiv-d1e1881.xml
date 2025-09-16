@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 18</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 18</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="515-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1881" type="decretales-l5t18">
+            <head xml:id="inleiv-d1e1881-Hd1e98">Titulus 18</head>
+            <p xml:id="inleiv-d1e1881-d1e100">
+               <lb ed="#F" n="30"/>TITULUS XVIII 
+      <lb ed="#F" n="31"/>DE FVRTIS. 
+      </p>
+            <div xml:id="inleiv-d1e1881-Dd1e107" type="decretales-l5t18c1">
+               <head xml:id="inleiv-d1e1881-Hd1e109">Caput 1</head>
+               <p xml:id="inleiv-d1e1881-d1e111">
+                  <lb ed="#F" n="32"/>CAPVT I 
+      </p>
+               <p xml:id="inleiv-d1e1881-d1e116">
+                  <lb ed="#F" n="33"/>IEVRAT VRGominem) 
+      libe<lb ed="#F" n="34" break="no"/>rum, secus si setuum. ff. ad les faui. 
+      <lb ed="#F" n="35"/>deplagia. l. vlt. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1881-Dd1e126" type="decretales-l5t18c2">
+               <head xml:id="inleiv-d1e1881-Hd1e128">Caput 2</head>
+               <p xml:id="inleiv-d1e1881-d1e130">
+                  <lb ed="#F" n="36"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1881-d1e135">
+                  <lb ed="#F" n="37"/>FVRES. (Diacono) No. in 
+      ne<lb ed="#F" n="38" break="no"/>cessitate quem posse 
+      confite<lb ed="#F" n="39" break="no"/>ri diacono. de consecra. 
+      di<lb ed="#F" n="40" break="no"/>stin. 4. sancimus. de poeniter, 
+      <lb ed="#F" n="41"/>distin. 1. quem poenitet. &amp; dist. 
+      <lb ed="#F" n="42"/>6. c. 1. (Orandum) pro omnibus viuis est 
+      <lb ed="#F" n="43"/>orandum, sed pro mortuis quos constat in 
+      <lb ed="#F" n="44"/>mortali peccato mortuos non est 
+      oran<lb ed="#F" n="45" break="no"/>dum, vt hic. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1881-Dd1e158" type="decretales-l5t18c3">
+               <head xml:id="inleiv-d1e1881-Hd1e160">Caput 3</head>
+               <p xml:id="inleiv-d1e1881-d1e162">
+                  <lb ed="#F" n="46"/>APVT III 
+      <lb ed="#F" n="47"/>SI QVIS PROPTER 
+      <lb ed="#F" n="48"/>(Necessitatem) modicam. Si 
+      <lb ed="#F" n="49"/>enim esset magna, ex qua 
+      ti<lb ed="#F" n="50" break="no"/>meretur periculum, 
+      nullate<lb ed="#F" n="51" break="no"/>aus peccaret. de conse. dist. 
+      <lb ed="#F" n="52"/>5. discipulos. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1881-Dd1e182" type="decretales-l5t18c4">
+               <head xml:id="inleiv-d1e1881-Hd1e184">Caput 4</head>
+               <p xml:id="inleiv-d1e1881-d1e186">
+                  <lb ed="#F" n="53"/>CAPVT IIII 
+      <lb ed="#F" n="54"/>Res furtinae cui restitui debeant. 
+      </p>
+               <p xml:id="inleiv-d1e1881-d1e193">
+                  <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>QVI CVM FVRE. (
+      Part<lb ed="#F" n="56" break="no"/>tur) quia ei in maleficio 
+      par<lb ed="#F" n="57" break="no"/>ticipat, siue accipiendo, fiue 
+      <lb ed="#F" n="58"/>occultando, vnde actione 
+      <lb ed="#F" n="59"/>urti tenetur. insti., de obla. 
+      <lb ed="#F" n="60"/>quae ex delic. nas §. ope. Ille qui furtum 
+      <lb ed="#F" n="61"/>fecit, &amp; rem furtiuam alienauit, si habet 
+      <lb ed="#F" n="62"/>vnde satisfaciat laeso, de eo satis faciat, si 
+      <lb ed="#F" n="63"/>non habet, vnde satisfaciat, &amp; potest 
+      ha<lb ed="#F" n="64" break="no"/>bere rem furtiuam, furtiue recuperando 
+      <lb ed="#F" n="65"/>eam ab eo, in quem alienauit, vel dolo 
+      bo<lb ed="#F" n="66" break="no"/>no, puta si sic mandato, vel violentia, tunc 
+      <lb ed="#F" n="67"/>restituat eam illi, a quo furatus est. 
+      <lb ed="#F" n="68"/>Et hoc dicunt quidam esse verum, si 
+      <lb ed="#F" n="69"/>ille in quem res alienata est sciebat eam 
+      <lb ed="#F" n="70"/>esse furtiuam, quia sic vtiliter gessit 
+      nego<lb ed="#F" n="71" break="no"/>tium suum, cum eam sine periculo animae 
+      <lb ed="#F" n="72"/>tenere non posset. arg. ff. de nego. gest. si 
+      <lb ed="#F" n="73"/>pu. §. si ti. Ad idem est arg. ff. deposi. bona 
+      <lb ed="#F" n="74"/>fides. ff. de rei vendi. officium. &amp; hoc 
+      de<lb ed="#F" n="75" break="no"/>bet facere, etiam si prohiberet, quod non 
+      <lb ed="#F" n="76"/>restitueret, quia multa bona etc. 45. dist. 
+      <lb ed="#F" n="77"/>de iudae. 23. q. 3. ipsa. Et hocdicunt quidam 
+      <lb ed="#F" n="78"/>ita esse verum, nisi probabiliter timer et 
+      <lb ed="#F" n="79"/>graue periculum inde prouenturum. 
+      <lb ed="#F" n="80"/>VERBI GRATIA: Quia timet quod 
+      <lb ed="#F" n="81"/>ille, a quo sic res accidit eum occideret. 
+      <lb ed="#F" n="82"/>vel aliud confimile timeret in sua persona 
+      <lb ed="#F" n="83"/>vel aliorum, nam in hoc casu dicunt, quod 
+      <lb ed="#F" n="84"/>debet eam restituere ei, in quem eam 
+      alie<lb ed="#F" n="85" break="no"/>nauit, &amp; non ei, cui eam furatus est. arg. 
+      C<lb ed="#F" n="86" break="no"/>depo. Authen. sed ideo. &amp; dicunt quod non 
+      <lb ed="#F" n="87"/>peccat restituendo ei possessionem, quam 
+      <lb ed="#F" n="88"/>habebat, quia nihil iuris modo tribuit ei. 
+      <lb ed="#F" n="89"/>sed possessionem quam primo habebat, 
+      <lb ed="#F" n="90"/>&amp; quam furto, vel fraude sibi abstulit, sibi 
+      <lb ed="#F" n="91"/>restituit, vnde licet peccauerit, quando 
+      <lb ed="#F" n="92"/>primo dedit, modo tamen non peccat, 
+      <lb ed="#F" n="93"/>quia nihil dat. Alii tamen dicunt, quod ex 
+      <lb ed="#F" n="94"/>quo eam habet, omnino eam reddat vero 
+      <lb ed="#F" n="95"/>domino, quia propter nullum scandalum 
+      <lb ed="#F" n="96"/>debet facere peccatum, quod esset si eam 
+      <lb ed="#F" n="97"/>non domino restitueret, sed si non 
+      habe<lb ed="#F" n="98" break="no"/>ret eam, bene dicunt, quod melius est, vbi 
+      <lb ed="#F" n="99"/>timet haec pericula prouentura, quod nec 
+      <lb ed="#F" n="100"/>furaretur eam ab eo, in quem alienauerit, 
+      <lb ed="#F" n="101"/>nec fraude accipiat, imo si inueniret 
+      <lb ed="#F" n="102"/>eam in via, dimittat eam, quia in veritate 
+      <lb ed="#F" n="103"/>sua non est. arg. C. vnde vi. 
+      conquereba<lb ed="#F" n="104" break="no"/>tur. Alii dicunt quod melius est in hoc 
+      <lb ed="#F" n="105"/>casu, scilicet, quando eam habet, quod 
+      <lb ed="#F" n="106"/>nec vni, nec alii restituat, sed occupanti 
+      <lb ed="#F" n="107"/>dimittat, quia nihil ad eum de ea, &amp; suum 
+      <lb ed="#F" n="108"/>peccatum defleat, hic tamen videtur 
+      <lb ed="#F" n="109"/>quod tunc debet habere locum, quando 
+      <lb ed="#F" n="110"/>non tenebatur ad restitutionem, puta quia 
+      <lb ed="#F" n="111"/>ad manus eius deuenisset sine datione 
+      <pb ed="#F" n="516-r"/>
+                  <cb ed="#F" n="a"/>
+                  <lb ed="#F" n="1"/>alicuius, &amp; sine oblatione, nam si ei data 
+      <lb ed="#F" n="2"/>esset, vel alii abstulisset, tunc teneretur 
+      <lb ed="#F" n="3"/>ad restituendum ei, qui eam dedit, vel ei a 
+      <lb ed="#F" n="4"/>quo abstulit, vbi autem non timeretur 
+      in<lb ed="#F" n="5" break="no"/>de graue periculum prouenturum, tunc 
+      <lb ed="#F" n="6"/>satis dicerem, quod vero domino eam 
+      re<lb ed="#F" n="7" break="no"/>stituat. Si autem ille in quem alienata est 
+      <lb ed="#F" n="8"/>res, non sciebat ea esse furtiuam, tunc 
+      nul<lb ed="#F" n="9" break="no"/>lomodo debet ei auferre possessionem, 
+      ni<lb ed="#F" n="10" break="no"/>si ex voluntate sua, &amp; si ad eum quocunque 
+      <lb ed="#F" n="11"/>modo perueniat possessio nomine eius, in 
+      <lb ed="#F" n="12"/>quem alienauit eam ipsi restituet. arg. C. 
+      <lb ed="#F" n="13"/>depo. Authen. sed iam. &amp; quia nisi cum 
+      <lb ed="#F" n="14"/>scandalo. I. de no. oper. nun. c. 2. &amp; idem in 
+      <lb ed="#F" n="15"/>similibus iudicandum est, &amp; hoc dicimus 
+      <lb ed="#F" n="16"/>in consilio animae, nam in iudicio in 
+      pluri<lb ed="#F" n="17" break="no"/>bus secus fieret propter ignorantiam 
+      fa<lb ed="#F" n="18" break="no"/>cti. Indicat.) Nota aliquem teneri 
+      indi<lb ed="#F" n="19" break="no"/>care furem. ff. de his qui la. oc. l. 1. &amp; 2. ff. de 
+      <lb ed="#F" n="20"/>fur. ciuile. ff. de iur. fis. ex quibusdam. §. 
+      <lb ed="#F" n="21"/>Diuus. C. ad. l. Cor. de fal. minore. C. dehis 
+      <lb ed="#F" n="22"/>qui ad ec. confu. praesenti. ff. de praescri. 
+      <lb ed="#F" n="23"/>ver. non solent. ar. contra. ff. de con. obtur. 
+      <lb ed="#F" n="24"/>cau. l. 4. §. vlt. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1881-Dd1e379" type="decretales-l5t18c5">
+               <head xml:id="inleiv-d1e1881-Hd1e381">Caput 5</head>
+               <p xml:id="inleiv-d1e1881-d1e383">
+                  <lb ed="#F" n="25"/>CAPVT v. 
+      <lb ed="#F" n="26"/>EX LITERIS. (Infamia) 
+      <lb ed="#F" n="27"/>infamia facti grauat 
+      opini<lb ed="#F" n="28" break="no"/>onem. ff. de obse. li. l. 1. &amp; a 
+      <lb ed="#F" n="29"/>promotione repellit. 34. 
+      di<lb ed="#F" n="30" break="no"/>stin. laici. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

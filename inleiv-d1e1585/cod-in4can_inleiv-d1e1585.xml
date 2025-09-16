@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Titulus 13</title>
+            <author ref="#per-inivin">Innocent IV</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Titulus 13</title>
+               <date when="2025-09-16">September 16, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-09-16" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#F" n="474-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="inleiv-d1e1585" type="decretales-l4t13">
+            <head xml:id="inleiv-d1e1585-Hd1e98">Titulus 13</head>
+            <p xml:id="inleiv-d1e1585-d1e100">
+               <lb ed="#F" n="14"/>TITVLVS XIII.
+      </p>
+            <p xml:id="inleiv-d1e1585-d1e105">
+               <lb ed="#F" n="15"/>DE EO QVI 
+      COGNO<lb ed="#F" n="16" break="no"/>VIT CONSANGVINEAM 
+      <lb ed="#F" n="17"/>vxoris suae. 
+      </p>
+            <div xml:id="inleiv-d1e1585-Dd1e114" type="decretales-l4t13c1">
+               <head xml:id="inleiv-d1e1585-Hd1e116">Caput 1</head>
+               <p xml:id="inleiv-d1e1585-d1e118">
+                  <lb ed="#F" n="18"/>CAPVT 1.
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e123">
+                  <lb ed="#F" n="19"/>SI QVIS. (Cum filiastra 
+      <lb ed="#F" n="20"/>nec a matre) ipsa autem 
+      lici<lb ed="#F" n="21" break="no"/>te exiget. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e133" type="decretales-l4t13c2">
+               <head xml:id="inleiv-d1e1585-Hd1e135">Caput 2</head>
+               <p xml:id="inleiv-d1e1585-d1e137">
+                  <lb ed="#F" n="22"/>CAPVT II. 
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e142">
+                  <lb ed="#F" n="23"/>VENIENS. (Sponsae) de fu. 
+      <lb ed="#F" n="24"/>turo (dispensatione). 
+      Dispen<lb ed="#F" n="25" break="no"/>satio necessaria est, 
+      vbicun<lb ed="#F" n="26" break="no"/>que aliquid fit contra ius, 
+      si<lb ed="#F" n="27" break="no"/>beodoe uesint clerici, siue laici. (Eam) 
+      <lb ed="#F" n="28"/>scilicet matrem. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e160" type="decretales-l4t13c3">
+               <head xml:id="inleiv-d1e1585-Hd1e162">Caput 3</head>
+               <p xml:id="inleiv-d1e1585-d1e164">
+                  <lb ed="#F" n="29"/>CAPVT III. 
+      <lb ed="#F" n="30"/>DE ILLO. (Publicum) ita 
+      <lb ed="#F" n="31"/>quod probari possit, nam melius 
+      <lb ed="#F" n="32"/>est tacere, quam deficiat in 
+      <lb ed="#F" n="33"/>probationibus. 2. q. 7. 
+      pleri<lb ed="#F" n="34" break="no"/>que. secus si esset sponsa de 
+      <lb ed="#F" n="35"/>futuro. supr. de spon. praeterea. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e183" type="decretales-l4t13c4">
+               <head xml:id="inleiv-d1e1585-Hd1e185">Caput 4</head>
+               <p xml:id="inleiv-d1e1585-d1e187">
+                  <lb ed="#F" n="36"/>CAPVT IIII. 
+      <lb ed="#F" n="37"/>TRANSMISSAE NOBIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e195" type="decretales-l4t13c5">
+               <head xml:id="inleiv-d1e1585-Hd1e197">Caput 5</head>
+               <p xml:id="inleiv-d1e1585-d1e199">
+                  <lb ed="#F" n="38"/>CAPVT V.
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e204">
+                  <lb ed="#F" n="39"/>SVpER EO. (Quod separari) sup. 
+      <lb ed="#F" n="40"/>)de testi. praeterea. contra solu. ibi. 
+      Se<lb ed="#F" n="41" break="no"/>parari. sup. de praes tertio contra. sol. ibi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e214" type="decretales-l4t13c6">
+               <head xml:id="inleiv-d1e1585-Hd1e216">Caput 6</head>
+               <p xml:id="inleiv-d1e1585-d1e218">
+                  <lb ed="#F" n="42"/>CAPVT VI. 
+      <lb ed="#F" n="43"/>1 Affinitas contrahitur per fornicarium coitum.
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e225">
+                  <lb ed="#F" n="44"/>DISCRETIONEM. 
+      Re<lb ed="#F" n="45" break="no"/>petat) not. per fornicarium 
+      <lb ed="#F" n="46"/>coitum contrahi affinitatem. 
+      <lb ed="#F" n="47"/>(Adulterii) not. dicit 
+      adul<lb ed="#F" n="48" break="no"/>terium quod fit 
+      cumspon<lb ed="#F" n="49" break="no"/>sa alterius de praesenti. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e242" type="decretales-l4t13c7">
+               <head xml:id="inleiv-d1e1585-Hd1e244">Caput 7</head>
+               <p xml:id="inleiv-d1e1585-d1e246">
+                  <lb ed="#F" n="50"/>CAPVT VII. 
+      <lb ed="#F" n="51"/>1 Affinitas vt contrahatur, necesse est vt fiat 
+      <lb ed="#F" n="52"/>ptriusque commixtio
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e255">
+                  <lb ed="#F" n="53"/>FRATEENITATI TVAE. (
+      Ex<lb ed="#F" n="54" break="no"/>traordinaria) &amp; idemesset si extraors 
+      <cb ed="#F" n="b"/>
+                  <lb ed="#F" n="55"/>dinaria pollutio non interuenisset. (Ex 
+      <lb ed="#F" n="56"/>extraordinaria) extraordinaria enim pos 
+      <lb ed="#F" n="57"/>lutio alterius tantum etiam si intra daus 
+      <lb ed="#F" n="58"/>strapudoris fiat, non facit affinitatem, nec 
+      <lb ed="#F" n="59"/>matrimonium consummat, nisi ex affectu 
+      <lb ed="#F" n="60"/>fiat matrimoniall. 35. q. 3. extraordina. 
+      <lb ed="#F" n="61"/>ria. ad hoc enim vt contrahatur affinitas, 
+      <lb ed="#F" n="62"/>
+                  <!-- line coord error -->
+                  <lb ed="#F" n="63"/>necesse est sanguinis vtriusque fieri comi. 
+      <lb ed="#F" n="64"/>xtionem. arg. 35. q. 10. fraternitatis. vnde 
+      <lb ed="#F" n="65"/>licet mulier semem emittat, si vir non emit. 
+      <lb ed="#F" n="66"/>tit, non contrahitur affinitas, &amp; est ad hoc. 
+      <lb ed="#F" n="67"/>ar. de frigido, qui palpitando potest mu. 
+      <lb ed="#F" n="68"/>
+                  <!-- line coord error -->
+                  <lb ed="#F" n="69"/>lierem prouocare ad seminis emissionem, &amp; 
+      <lb ed="#F" n="70"/>econuerso, &amp; tamen non est ibi matrimo. 
+      <lb ed="#F" n="71"/>nium, vel commixtio seminis, &amp; ideonet 
+      <lb ed="#F" n="72"/>affinitas, sed si vir emittat in menbro 
+      mu<lb ed="#F" n="73" break="no"/>lieris, &amp; non mulier, duDitari potest, 
+      ta<lb ed="#F" n="74" break="no"/>men siue emittat, siue non, &amp; etiamneutro 
+      <lb ed="#F" n="75"/>emittente, tamen sponsalia primo facta 
+      <lb ed="#F" n="76"/>ratificari crederem propter consensum 
+      ma<lb ed="#F" n="77" break="no"/>trimonialem, qui ibi est, vel presumitur. 
+      <lb ed="#F" n="78"/>ar. praealle. c. extraordinaria. dummodo 
+      <lb ed="#F" n="79"/>sint matrimonio apti, vel proximi. su. de 
+      <lb ed="#F" n="80"/>despon. impu. continebatur. haec autem 
+      <lb ed="#F" n="81"/>secunda sponsalia separantur, non 
+      pro<lb ed="#F" n="82" break="no"/>pter affinitatem, sed propter publicae hos 
+      <lb ed="#F" n="83"/>nestatis iustitiam. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e332" type="decretales-l4t13c8">
+               <head xml:id="inleiv-d1e1585-Hd1e334">Caput 8</head>
+               <p xml:id="inleiv-d1e1585-d1e336">
+                  <lb ed="#F" n="84"/>CAPVT VIII. 
+      <lb ed="#F" n="85"/>EX LITERIS. (Puellae) cum hac 
+      puel<lb ed="#F" n="86" break="no"/>lla erant tantum sponsalia. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e347" type="decretales-l4t13c9">
+               <head xml:id="inleiv-d1e1585-Hd1e349">Caput 9</head>
+               <p xml:id="inleiv-d1e1585-d1e351">
+                  <lb ed="#F" n="87"/>CAPVT IX
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e356">
+                  <lb ed="#F" n="88"/>VENIENS. (Consulas) nam 
+      <lb ed="#F" n="89"/>si non sponsam 
+      cognouitan<lb ed="#F" n="90" break="no"/>tequam sponsam de futuro, 
+      <lb ed="#F" n="91"/>neutram habere potest. su. 
+      <lb ed="#F" n="92"/>c. proxi. secus si prius 
+      co<lb ed="#F" n="93" break="no"/>gnouisset sponsam, cum affinitas 
+      super<lb ed="#F" n="94" break="no"/>ueniens non dirimat matrimonium. su. 
+      <lb ed="#F" n="95"/>eo. discretionem inf. c. proxi. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e377" type="decretales-l4t13c10">
+               <head xml:id="inleiv-d1e1585-Hd1e379">Caput 10</head>
+               <p xml:id="inleiv-d1e1585-d1e381">
+                  <lb ed="#F" n="96"/>CAPVT X. 
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e386">
+                  <lb ed="#F" n="97"/>TVAE ERATERNITATIS. 
+      </p>
+            </div>
+            <div xml:id="inleiv-d1e1585-Dd1e392" type="decretales-l4t13c11">
+               <head xml:id="inleiv-d1e1585-Hd1e394">Caput 11</head>
+               <p xml:id="inleiv-d1e1585-d1e396">
+                  <lb ed="#F" n="98"/>CAPVT XI.
+      </p>
+               <p xml:id="inleiv-d1e1585-d1e401">
+                  <lb ed="#F" n="99"/>ORDANAE MVLIERIS. 
+      </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
