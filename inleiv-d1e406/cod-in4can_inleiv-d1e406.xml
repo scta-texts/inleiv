@@ -1,234 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 32</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 32</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="155-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e406" type="decretales-l1t32">
-            <head xml:id="inleiv-d1e406-Hd1e98">Titulus 32</head>
-            <p xml:id="inleiv-d1e406-d1e100">
-               <lb ed="#F" n="60"/>TITVLVS XXXII 
-      <lb ed="#F" n="61"/>DE OFFICIO IV. 
-      <lb ed="#F" n="62"/>DICIS. 
-      </p>
-            <div xml:id="inleiv-d1e406-Dd1e109" type="decretales-l1t32c1">
-               <head xml:id="inleiv-d1e406-Hd1e111">Caput 1</head>
-               <p xml:id="inleiv-d1e406-d1e113">
-                  <lb ed="#F" n="63"/>CAPVT I.
-      </p>
-               <p xml:id="inleiv-d1e406-d1e118">
-                  <lb ed="#F" n="64"/>EX LITERIS. (Nostri mo.) 
-      <lb ed="#F" n="65"/>quod immediate in 
-      tempo<lb ed="#F" n="66" break="no"/>ralibus &amp; spiritualibus ad 
-      <lb ed="#F" n="67"/>monasterium fossae nouae 
-      per<lb ed="#F" n="68" break="no"/>tinebant cofficium) hoc enim 
-      <lb ed="#F" n="69"/>ad officium iudicis pertinet. ff. de offic. 
-      <lb ed="#F" n="70"/>procon. nequaquam aduocatos. ff. de 
-      <lb ed="#F" n="71"/>post. l. prima. §. ait praetor. C. de postul. 
-      <lb ed="#F" n="72"/>prouidendum. (Non obstante) nec est 
-      con<lb ed="#F" n="73" break="no"/>tra. inf. de appel. ex insinuatione. quia ibi 
-      <lb ed="#F" n="74"/>non aieitut ex hac causa cecefadonem 
-      <lb ed="#F" n="75"/>admissam. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e406-Dd1e148" type="decretales-l1t32c2">
-               <head xml:id="inleiv-d1e406-Hd1e150">Caput 2</head>
-               <p xml:id="inleiv-d1e406-d1e152">
-                  <lb ed="#F" n="76"/>CAPVT II 
-      <lb ed="#F" n="77"/>1 Actio dicitur esse officium iudicum. Et quae 
-      <lb ed="#F" n="78"/>sit tam eius ius ac potestas. 
-      <lb ed="#F" n="79"/>2 In quibus casibus locum habeat officium 
-      iu<lb ed="#F" n="80" break="no"/>dicia. 
-      </p>
-               <p xml:id="inleiv-d1e406-d1e165">
-                  <lb ed="#F" n="81"/>IVDICIS OEPICIVM. 
-      <lb ed="#F" n="82"/>(Pro actione) pone casum. 
-      <lb ed="#F" n="83"/>inf. de in integ. rest. c. pen. 
-      <lb ed="#F" n="84"/>(Veluti.) dixit Mar. quod 
-      <lb ed="#F" n="85"/>offic. iudicis est actio. 
-      argu<lb ed="#F" n="86" break="no"/>men. ff. de actio. &amp; obli. verbum. sed 
-      Ioan<lb ed="#F" n="87" break="no"/>&amp; Axo. contra, vt ff. de mino. quod si 
-      mi<lb ed="#F" n="88" break="no"/>nor. §. vlti. sed dicis, quae vis est, si sit actio, 
-      <lb ed="#F" n="89"/>necne aeRespon. quia quando 
-      implorabi<lb ed="#F" n="90" break="no"/>tur officium iudicis, sed non vt actio 
-      in<lb ed="#F" n="91" break="no"/>tentatur, in optione iudicis est negare. 
-      <lb ed="#F" n="92"/>vel concedere, &amp; cum propono 
-      actio<lb ed="#F" n="93" break="no"/>nem, propono auxilium mihi non 
-      aliun<lb ed="#F" n="94" break="no"/>de competens, sed ex persona mea. Vnde 
-      <lb ed="#F" n="95"/>siue velit, siue non, oportet eum tanquam 
-      <lb ed="#F" n="96"/>mercenarium suae dominae seruire, 
-      scili<lb ed="#F" n="97" break="no"/>cet, ac meae. C. depo. l. quarta. ff. de rei 
-      <lb ed="#F" n="98"/>vendi. officium. ff. quod metus caus. 
-      me<lb ed="#F" n="99" break="no"/>tum. §. ex hoc. &amp; sic sequeretur absurdum 
-      <lb ed="#F" n="100"/>2quod aliquis sibi seruiret. 
-      Principali<lb ed="#F" n="101" break="no"/>ter) nam si non principaliter, sed 
-      inciden<lb ed="#F" n="102" break="no"/>ter, veluti super articulis quae post litis 
-      <lb ed="#F" n="103"/>contestationem incidunt, vel super ipso 
-      <lb ed="#F" n="104"/>processu iudicii petitur restitutio, sine 
-      or<lb ed="#F" n="105" break="no"/>dine iudiciario procedi potest, alias 
-      au<lb ed="#F" n="106" break="no"/>tem officium iudicis habet locum in 
-      <lb ed="#F" n="107"/>petitione alimentorum, siue a minore, 
-      <lb ed="#F" n="108"/>siue a maiore petatur. ff. de libe. 
-      agno<lb ed="#F" n="109" break="no"/>sca. si qui a liber. in Authentic. quibus 
-      <pb ed="#F" n="156-r"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>mo. natu. effi. sui. §. discretis. &amp; §. si quis 
-      <lb ed="#F" n="2"/>autem. &amp; C. ad sena. con. Orfi. si qua. 
-      Au<lb ed="#F" n="3" break="no"/>then. vt li. ma. &amp; auiae. §. illud quoqe. ff. de 
-      <lb ed="#F" n="4"/>libe. agno. l. pen. &amp; l. alimenta. ff. de libe. 
-      <lb ed="#F" n="5"/>ag. l. vlt. ff. vbi pu. edu. de. per totum. ff. de 
-      <lb ed="#F" n="6"/>ali. pu. pres. l. 1. ff. so. ma. si cum do. §. sicut. 
-      <lb ed="#F" n="7"/>Aut hen. de iure do. dotis. C. de iure do. pro 
-      <lb ed="#F" n="8"/>haeredi. ff. fami. ercis. si filia. §. si filius. &amp; l. 
-      <lb ed="#F" n="9"/>si maritus. 16. quaestio. 7. quicunque. Item si 
-      <lb ed="#F" n="10"/>minor petat restitutionem de mino. in 
-      cau<lb ed="#F" n="11" break="no"/>sae. cum legibus sequ. vsque ad l. vicem. Item 
-      <lb ed="#F" n="12"/>si petatur cautio de dam. infect. ff. de dam. 
-      <lb ed="#F" n="13"/>infect. l. 1. l. dies. &amp; l. praetor. §. 1. de praeto. 
-      <lb ed="#F" n="14"/>stipu. l. 1. Item cum petitur satisdatio 
-      no<lb ed="#F" n="15" break="no"/>mine legis. ff. vt leg. vel fi. no. ca. l. 1. &amp; l. 
-      <lb ed="#F" n="16"/>etiam. Item cum pater petit filium in 
-      po<lb ed="#F" n="17" break="no"/>testate. ff. de rei ven. l. 1. §. per hanc. Item si 
-      <lb ed="#F" n="18"/>dominus exigat vltra debitum a censito, 
-      <lb ed="#F" n="19"/>vel vasallo. C. libr. 11. in quibus cau. colo. l. 
-      <lb ed="#F" n="20"/>1. Authen. de quaestore. C. de colo. &amp; cen. 
-      <lb ed="#F" n="21"/>Ip. e. &amp; vlti. Item si imponatur collecta 
-      vl<lb ed="#F" n="22" break="no"/>tra vires patrimonii. Item si inhabiles 
-      vo<lb ed="#F" n="23" break="no"/>centur ad munera, vel alii qui vocari non 
-      <lb ed="#F" n="24"/>debent. ff. de vaca. mune. sextumdecimum. 
-      <lb ed="#F" n="25"/>§. vlti. C. quemadmodum ad ci. mune. l. 1. 
-      <lb ed="#F" n="26"/>3. &amp; 4. &amp; 6. li. 10. Item pro exigendis 
-      rediti<lb ed="#F" n="27" break="no"/>bus a colo. asseri. &amp; non ipsi eos denegent  
-      <lb ed="#F" n="28"/>ea ratione, quia dubitant, aut sint domini, 
-      <lb ed="#F" n="29"/>qui reditus exigunt. C. de agri. &amp; cen. 
-      liti<lb ed="#F" n="30" break="no"/>bus. §. 1. libro 11. Item si petat salarium 
-      <lb ed="#F" n="31"/>Grammaticus, Geometricus, Medicus, 
-      <lb ed="#F" n="32"/>Rethoricus, Aduocatus, Obstetrix, &amp; 
-      Nu<lb ed="#F" n="33" break="no"/>trix. ff. de va. &amp; extraord. cog. l. prima. §. 1. 
-      <lb ed="#F" n="34"/>&amp; per to. titu. Item si petantur fructus a 
-      <lb ed="#F" n="35"/>possessore. C. de rei ven. certam. §. bona. 
-      <lb ed="#F" n="36"/>ff. de rei ven. §. praeterea. &amp; l. si vnus. §. vlti. 
-      <lb ed="#F" n="37"/>instit. de offic. iudi. §. sed. ff. de vsur. neque. 
-      <lb ed="#F" n="38"/>ff. de pe. haere. sed &amp; si. §. si autem. &amp; §. 
-      con<lb ed="#F" n="39" break="no"/>suluit. ff. si ser. vend. l. loci. ver. postu. C. 
-      <lb ed="#F" n="40"/>de fru. &amp; lit. expen. l. secunda. ff. de peti. 
-      <lb ed="#F" n="41"/>haered. illud. §. praedo. &amp; §. ad officium. 
-      <lb ed="#F" n="42"/>Item si petantur impensae siue de nouo 
-      fa<lb ed="#F" n="43" break="no"/>ctae, siue in refectione. C. de rei vend. l. 
-      do<lb ed="#F" n="44" break="no"/>mum. ff. de pet. haered. plene. &amp; illud. §. ad 
-      <lb ed="#F" n="45"/>officium. Item si petuntur vsurae in 
-      bonae<lb ed="#F" n="46" break="no"/>fidei iudicis, &amp; his qui bonaefidei iudicii 
-      <lb ed="#F" n="47"/>naturam imitantur. C. de in inte. res. 
-      mi<lb ed="#F" n="48" break="no"/>nor. C. de vsur. l. 2. &amp; 3. ff. de vsu. vsurae. ff. 
-      <lb ed="#F" n="49"/>de neg. ge. quia timendum. Item si 
-      repe<lb ed="#F" n="50" break="no"/>tatur res a medico propter mala 
-      medica<lb ed="#F" n="51" break="no"/>menta. ff. de var. &amp; extraor. cog. 
-      medi<lb ed="#F" n="52" break="no"/>cus. Item si petatur vsus aquae ciuiliter 
-      in<lb ed="#F" n="53" break="no"/>stitutae. ff. de serui. quoties. ff. si ser. vend. 
-      <lb ed="#F" n="54"/>ficut. §. Aristote. Item si petatur riuus 
-      iu<lb ed="#F" n="55" break="no"/>sti. vici. ff. si ser. ven. l. 2. ff. de pub. si ego. §. si 
-      <lb ed="#F" n="56"/>de vsufruc. Item si petatur equa &amp; partus 
-      <lb ed="#F" n="57"/>eius, quae penes te peperit. C. de rei vend. l. 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="58"/>partum. ff. de publica. si ego. Item si 
-      mit<lb ed="#F" n="59" break="no"/>tantur animalia in fundo meo. Item si 
-      mul<lb ed="#F" n="60" break="no"/>ti homines erant distribuendi per plura 
-      <lb ed="#F" n="61"/>praedia, &amp; plures quam debeant 
-      mittan<lb ed="#F" n="62" break="no"/>tur, imo habes pro illis. 5. casibus vnam. l. 
-      <lb ed="#F" n="63"/>ff. de va. &amp; extraor. de vsu. Item si petatur 
-      <lb ed="#F" n="64"/>ne quid fiat in via publica vrbana, per quam 
-      <lb ed="#F" n="65"/>quis ire non possit, &amp; si factum sit quod 
-      <lb ed="#F" n="66"/>tollatur, &amp; vt viae reparentur, &amp; ne quid 
-      <lb ed="#F" n="67"/>immundum proiiciatur. ff. ne quid in 
-      lo<lb ed="#F" n="68" break="no"/>co pu. fi. l. 2. §. interdictum. ff. de vi. &amp; lo. 
-      <lb ed="#F" n="69"/>pu. l. 2. &amp; 3. &amp; vl. Item si agatur contra eum, 
-      <lb ed="#F" n="70"/>qui missum in possessionem deiicit, vel 
-      <lb ed="#F" n="71"/>mitti iussum ire non permittit. ff. ne vis fi. 
-      <lb ed="#F" n="72"/>ei qui in pos. l. si quis missus. Item si petat 
-      <lb ed="#F" n="73"/>filius a patre emancipari. ff. de condi. &amp; 
-      <lb ed="#F" n="74"/>cemon. sic lege. ff. si quis a patre. ma. l. vlt. 
-      <lb ed="#F" n="75"/>Item si creditor petat possidere bona 
-      de<lb ed="#F" n="76" break="no"/>bitoris. ff. ex quib. cau. in pos. Item ait 
-      prae<lb ed="#F" n="77" break="no"/>tor. &amp; l. igitur bona. l. cum proponas. &amp; l. 
-      <lb ed="#F" n="78"/>vlti. argumen. C. de praescrip. 30. an. si quis 
-      <lb ed="#F" n="79"/>causae. §. vlti. Item si petantur separari 
-      bo<lb ed="#F" n="80" break="no"/>na. ff. e. l. vlti. Item si petatur curator 
-      bo<lb ed="#F" n="81" break="no"/>nis. ff. de cu. bo. dam. l. 1. &amp; vlti. Item si 
-      pe<lb ed="#F" n="82" break="no"/>tatur sententia pronunciari nulla, vel 
-      pro<lb ed="#F" n="83" break="no"/>cessus. inf. de procu. in nostra. ff. de offic. 
-      <lb ed="#F" n="84"/>deleg. cum contingat. ff. de fer. l. 1. 
-      Ali<lb ed="#F" n="85" break="no"/>as ante) sicut implorat officium iudicis, 
-      <lb ed="#F" n="86"/>vt det sibi aduocatum. sup. c. proxi. vel vt 
-      <lb ed="#F" n="87"/>condemnet aduersarium in expensis pro 
-      <lb ed="#F" n="88"/>contumacia, vel fiat missio in 
-      possessio<lb ed="#F" n="89" break="no"/>nem, vel quod repellatur miles a 
-      procura<lb ed="#F" n="90" break="no"/>tione, &amp; consimilia, in his enim non est 
-      <lb ed="#F" n="91"/>necesse litis contestationem fieri, vel 
-      <lb ed="#F" n="92"/>ordinem iudiciarium seruari, &amp; dicitur 
-      <lb ed="#F" n="93"/>incidenter peti officium iudicis, quia illud 
-      <lb ed="#F" n="94"/>non peto propter se, sed propter aliud, 
-      si<lb ed="#F" n="95" break="no"/>cut aduocatus petitur propter causam, 
-      <lb ed="#F" n="96"/>non propter se, vel quando imploratur li. 
-      <lb ed="#F" n="97"/>pen. vt in praeal. iuribus. &amp; vbi etiam aliquid 
-      <lb ed="#F" n="98"/>pro se petitur, sed ratione rei, postea 
-      haben<lb ed="#F" n="99" break="no"/>dae, vel litis proponendae ex sua petitione 
-      <lb ed="#F" n="100"/>nihil consequitur, nec aliquid iuris sibi in 
-      <lb ed="#F" n="101"/>re quaeritur. C. vt in pos. le. l. 1. &amp; idem 
-      vbi<lb ed="#F" n="102" break="no"/>cunque imponenda est summaria 
-      cogni<lb ed="#F" n="103" break="no"/>tio. (Ad hoc) iud. of. ff. de rei ven. non 
-      so<lb ed="#F" n="104" break="no"/>lum. &amp; l. item si verberatum. §. 1. C. de rei 
-      <lb ed="#F" n="105"/>vend. certum. insti. de offi. iudi. §. post 
-      in<lb ed="#F" n="106" break="no"/>choatum. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 32</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 32</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="155-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e406" type="decretales-l1t32">
+        <head xml:id="inleiv-d1e406-Hd1e98">Titulus 32</head>
+        <p xml:id="inleiv-d1e406-d1e100">
+          <lb ed="#F" n="60"/>TITVLVS XXXII 
+          <lb ed="#F" n="61"/>DE OFFICIO IV. 
+          <lb ed="#F" n="62"/>DICIS. 
+        </p>
+        <div xml:id="inleiv-d1e406-Dd1e109" type="decretales-l1t32c1">
+          <head xml:id="inleiv-d1e406-Hd1e111">Caput 1</head>
+          <p xml:id="inleiv-d1e406-d1e113">
+            <lb ed="#F" n="63"/>CAPVT I.
+          </p>
+          <p xml:id="inleiv-d1e406-d1e118">
+            <lb ed="#F" n="64"/>EX LITERIS. (Nostri mo.) 
+            <lb ed="#F" n="65"/>quod immediate in 
+            tempo<lb ed="#F" n="66" break="no"/>ralibus &amp; spiritualibus ad 
+            <lb ed="#F" n="67"/>monasterium fossae nouae 
+            per<lb ed="#F" n="68" break="no"/>tinebant cofficium) hoc enim 
+            <lb ed="#F" n="69"/>ad officium iudicis pertinet. ff. de offic. 
+            <lb ed="#F" n="70"/>procon. nequaquam aduocatos. ff. de 
+            <lb ed="#F" n="71"/>post. l. prima. §. ait praetor. C. de postul. 
+            <lb ed="#F" n="72"/>prouidendum. (Non obstante) nec est 
+            con<lb ed="#F" n="73" break="no"/>tra. inf. de appel. ex insinuatione. quia ibi 
+            <lb ed="#F" n="74"/>non aieitut ex hac causa cecefadonem 
+            <lb ed="#F" n="75"/>admissam. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e406-Dd1e148" type="decretales-l1t32c2">
+          <head xml:id="inleiv-d1e406-Hd1e150">Caput 2</head>
+          <p xml:id="inleiv-d1e406-d1e152">
+            <lb ed="#F" n="76"/>CAPVT II 
+            <lb ed="#F" n="77"/>1 Actio dicitur esse officium iudicum. Et quae 
+            <lb ed="#F" n="78"/>sit tam eius ius ac potestas. 
+            <lb ed="#F" n="79"/>2 In quibus casibus locum habeat officium 
+            iu<lb ed="#F" n="80" break="no"/>dicia. 
+          </p>
+          <p xml:id="inleiv-d1e406-d1e165">
+            <lb ed="#F" n="81"/>IVDICIS OEPICIVM. 
+            <lb ed="#F" n="82"/>(Pro actione) pone casum. 
+            <lb ed="#F" n="83"/>inf. de in integ. rest. c. pen. 
+            <lb ed="#F" n="84"/>(Veluti.) dixit Mar. quod 
+            <lb ed="#F" n="85"/>offic. iudicis est actio. 
+            argu<lb ed="#F" n="86" break="no"/>men. ff. de actio. &amp; obli. verbum. sed 
+            Ioan<lb ed="#F" n="87" break="no"/>&amp; Axo. contra, vt ff. de mino. quod si 
+            mi<lb ed="#F" n="88" break="no"/>nor. §. vlti. sed dicis, quae vis est, si sit actio, 
+            <lb ed="#F" n="89"/>necne aeRespon. quia quando 
+            implorabi<lb ed="#F" n="90" break="no"/>tur officium iudicis, sed non vt actio 
+            in<lb ed="#F" n="91" break="no"/>tentatur, in optione iudicis est negare. 
+            <lb ed="#F" n="92"/>vel concedere, &amp; cum propono 
+            actio<lb ed="#F" n="93" break="no"/>nem, propono auxilium mihi non 
+            aliun<lb ed="#F" n="94" break="no"/>de competens, sed ex persona mea. Vnde 
+            <lb ed="#F" n="95"/>siue velit, siue non, oportet eum tanquam 
+            <lb ed="#F" n="96"/>mercenarium suae dominae seruire, 
+            scili<lb ed="#F" n="97" break="no"/>cet, ac meae. C. depo. l. quarta. ff. de rei 
+            <lb ed="#F" n="98"/>vendi. officium. ff. quod metus caus. 
+            me<lb ed="#F" n="99" break="no"/>tum. §. ex hoc. &amp; sic sequeretur absurdum 
+            <lb ed="#F" n="100"/>2quod aliquis sibi seruiret. 
+            Principali<lb ed="#F" n="101" break="no"/>ter) nam si non principaliter, sed 
+            inciden<lb ed="#F" n="102" break="no"/>ter, veluti super articulis quae post litis 
+            <lb ed="#F" n="103"/>contestationem incidunt, vel super ipso 
+            <lb ed="#F" n="104"/>processu iudicii petitur restitutio, sine 
+            or<lb ed="#F" n="105" break="no"/>dine iudiciario procedi potest, alias 
+            au<lb ed="#F" n="106" break="no"/>tem officium iudicis habet locum in 
+            <lb ed="#F" n="107"/>petitione alimentorum, siue a minore, 
+            <lb ed="#F" n="108"/>siue a maiore petatur. ff. de libe. 
+            agno<lb ed="#F" n="109" break="no"/>sca. si qui a liber. in Authentic. quibus 
+            <pb ed="#F" n="156-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>mo. natu. effi. sui. §. discretis. &amp; §. si quis 
+            <lb ed="#F" n="2"/>autem. &amp; C. ad sena. con. Orfi. si qua. 
+            Au<lb ed="#F" n="3" break="no"/>then. vt li. ma. &amp; auiae. §. illud quoqe. ff. de 
+            <lb ed="#F" n="4"/>libe. agno. l. pen. &amp; l. alimenta. ff. de libe. 
+            <lb ed="#F" n="5"/>ag. l. vlt. ff. vbi pu. edu. de. per totum. ff. de 
+            <lb ed="#F" n="6"/>ali. pu. pres. l. 1. ff. so. ma. si cum do. §. sicut. 
+            <lb ed="#F" n="7"/>Aut hen. de iure do. dotis. C. de iure do. pro 
+            <lb ed="#F" n="8"/>haeredi. ff. fami. ercis. si filia. §. si filius. &amp; l. 
+            <lb ed="#F" n="9"/>si maritus. 16. quaestio. 7. quicunque. Item si 
+            <lb ed="#F" n="10"/>minor petat restitutionem de mino. in 
+            cau<lb ed="#F" n="11" break="no"/>sae. cum legibus sequ. vsque ad l. vicem. Item 
+            <lb ed="#F" n="12"/>si petatur cautio de dam. infect. ff. de dam. 
+            <lb ed="#F" n="13"/>infect. l. 1. l. dies. &amp; l. praetor. §. 1. de praeto. 
+            <lb ed="#F" n="14"/>stipu. l. 1. Item cum petitur satisdatio 
+            no<lb ed="#F" n="15" break="no"/>mine legis. ff. vt leg. vel fi. no. ca. l. 1. &amp; l. 
+            <lb ed="#F" n="16"/>etiam. Item cum pater petit filium in 
+            po<lb ed="#F" n="17" break="no"/>testate. ff. de rei ven. l. 1. §. per hanc. Item si 
+            <lb ed="#F" n="18"/>dominus exigat vltra debitum a censito, 
+            <lb ed="#F" n="19"/>vel vasallo. C. libr. 11. in quibus cau. colo. l. 
+            <lb ed="#F" n="20"/>1. Authen. de quaestore. C. de colo. &amp; cen. 
+            <lb ed="#F" n="21"/>Ip. e. &amp; vlti. Item si imponatur collecta 
+            vl<lb ed="#F" n="22" break="no"/>tra vires patrimonii. Item si inhabiles 
+            vo<lb ed="#F" n="23" break="no"/>centur ad munera, vel alii qui vocari non 
+            <lb ed="#F" n="24"/>debent. ff. de vaca. mune. sextumdecimum. 
+            <lb ed="#F" n="25"/>§. vlti. C. quemadmodum ad ci. mune. l. 1. 
+            <lb ed="#F" n="26"/>3. &amp; 4. &amp; 6. li. 10. Item pro exigendis 
+            rediti<lb ed="#F" n="27" break="no"/>bus a colo. asseri. &amp; non ipsi eos denegent  
+            <lb ed="#F" n="28"/>ea ratione, quia dubitant, aut sint domini, 
+            <lb ed="#F" n="29"/>qui reditus exigunt. C. de agri. &amp; cen. 
+            liti<lb ed="#F" n="30" break="no"/>bus. §. 1. libro 11. Item si petat salarium 
+            <lb ed="#F" n="31"/>Grammaticus, Geometricus, Medicus, 
+            <lb ed="#F" n="32"/>Rethoricus, Aduocatus, Obstetrix, &amp; 
+            Nu<lb ed="#F" n="33" break="no"/>trix. ff. de va. &amp; extraord. cog. l. prima. §. 1. 
+            <lb ed="#F" n="34"/>&amp; per to. titu. Item si petantur fructus a 
+            <lb ed="#F" n="35"/>possessore. C. de rei ven. certam. §. bona. 
+            <lb ed="#F" n="36"/>ff. de rei ven. §. praeterea. &amp; l. si vnus. §. vlti. 
+            <lb ed="#F" n="37"/>instit. de offic. iudi. §. sed. ff. de vsur. neque. 
+            <lb ed="#F" n="38"/>ff. de pe. haere. sed &amp; si. §. si autem. &amp; §. 
+            con<lb ed="#F" n="39" break="no"/>suluit. ff. si ser. vend. l. loci. ver. postu. C. 
+            <lb ed="#F" n="40"/>de fru. &amp; lit. expen. l. secunda. ff. de peti. 
+            <lb ed="#F" n="41"/>haered. illud. §. praedo. &amp; §. ad officium. 
+            <lb ed="#F" n="42"/>Item si petantur impensae siue de nouo 
+            fa<lb ed="#F" n="43" break="no"/>ctae, siue in refectione. C. de rei vend. l. 
+            do<lb ed="#F" n="44" break="no"/>mum. ff. de pet. haered. plene. &amp; illud. §. ad 
+            <lb ed="#F" n="45"/>officium. Item si petuntur vsurae in 
+            bonae<lb ed="#F" n="46" break="no"/>fidei iudicis, &amp; his qui bonaefidei iudicii 
+            <lb ed="#F" n="47"/>naturam imitantur. C. de in inte. res. 
+            mi<lb ed="#F" n="48" break="no"/>nor. C. de vsur. l. 2. &amp; 3. ff. de vsu. vsurae. ff. 
+            <lb ed="#F" n="49"/>de neg. ge. quia timendum. Item si 
+            repe<lb ed="#F" n="50" break="no"/>tatur res a medico propter mala 
+            medica<lb ed="#F" n="51" break="no"/>menta. ff. de var. &amp; extraor. cog. 
+            medi<lb ed="#F" n="52" break="no"/>cus. Item si petatur vsus aquae ciuiliter 
+            in<lb ed="#F" n="53" break="no"/>stitutae. ff. de serui. quoties. ff. si ser. vend. 
+            <lb ed="#F" n="54"/>ficut. §. Aristote. Item si petatur riuus 
+            iu<lb ed="#F" n="55" break="no"/>sti. vici. ff. si ser. ven. l. 2. ff. de pub. si ego. §. si 
+            <lb ed="#F" n="56"/>de vsufruc. Item si petatur equa &amp; partus 
+            <lb ed="#F" n="57"/>eius, quae penes te peperit. C. de rei vend. l. 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="58"/>partum. ff. de publica. si ego. Item si 
+            mit<lb ed="#F" n="59" break="no"/>tantur animalia in fundo meo. Item si 
+            mul<lb ed="#F" n="60" break="no"/>ti homines erant distribuendi per plura 
+            <lb ed="#F" n="61"/>praedia, &amp; plures quam debeant 
+            mittan<lb ed="#F" n="62" break="no"/>tur, imo habes pro illis. 5. casibus vnam. l. 
+            <lb ed="#F" n="63"/>ff. de va. &amp; extraor. de vsu. Item si petatur 
+            <lb ed="#F" n="64"/>ne quid fiat in via publica vrbana, per quam 
+            <lb ed="#F" n="65"/>quis ire non possit, &amp; si factum sit quod 
+            <lb ed="#F" n="66"/>tollatur, &amp; vt viae reparentur, &amp; ne quid 
+            <lb ed="#F" n="67"/>immundum proiiciatur. ff. ne quid in 
+            lo<lb ed="#F" n="68" break="no"/>co pu. fi. l. 2. §. interdictum. ff. de vi. &amp; lo. 
+            <lb ed="#F" n="69"/>pu. l. 2. &amp; 3. &amp; vl. Item si agatur contra eum, 
+            <lb ed="#F" n="70"/>qui missum in possessionem deiicit, vel 
+            <lb ed="#F" n="71"/>mitti iussum ire non permittit. ff. ne vis fi. 
+            <lb ed="#F" n="72"/>ei qui in pos. l. si quis missus. Item si petat 
+            <lb ed="#F" n="73"/>filius a patre emancipari. ff. de condi. &amp; 
+            <lb ed="#F" n="74"/>cemon. sic lege. ff. si quis a patre. ma. l. vlt. 
+            <lb ed="#F" n="75"/>Item si creditor petat possidere bona 
+            de<lb ed="#F" n="76" break="no"/>bitoris. ff. ex quib. cau. in pos. Item ait 
+            prae<lb ed="#F" n="77" break="no"/>tor. &amp; l. igitur bona. l. cum proponas. &amp; l. 
+            <lb ed="#F" n="78"/>vlti. argumen. C. de praescrip. 30. an. si quis 
+            <lb ed="#F" n="79"/>causae. §. vlti. Item si petantur separari 
+            bo<lb ed="#F" n="80" break="no"/>na. ff. e. l. vlti. Item si petatur curator 
+            bo<lb ed="#F" n="81" break="no"/>nis. ff. de cu. bo. dam. l. 1. &amp; vlti. Item si 
+            pe<lb ed="#F" n="82" break="no"/>tatur sententia pronunciari nulla, vel 
+            pro<lb ed="#F" n="83" break="no"/>cessus. inf. de procu. in nostra. ff. de offic. 
+            <lb ed="#F" n="84"/>deleg. cum contingat. ff. de fer. l. 1. 
+            Ali<lb ed="#F" n="85" break="no"/>as ante) sicut implorat officium iudicis, 
+            <lb ed="#F" n="86"/>vt det sibi aduocatum. sup. c. proxi. vel vt 
+            <lb ed="#F" n="87"/>condemnet aduersarium in expensis pro 
+            <lb ed="#F" n="88"/>contumacia, vel fiat missio in 
+            possessio<lb ed="#F" n="89" break="no"/>nem, vel quod repellatur miles a 
+            procura<lb ed="#F" n="90" break="no"/>tione, &amp; consimilia, in his enim non est 
+            <lb ed="#F" n="91"/>necesse litis contestationem fieri, vel 
+            <lb ed="#F" n="92"/>ordinem iudiciarium seruari, &amp; dicitur 
+            <lb ed="#F" n="93"/>incidenter peti officium iudicis, quia illud 
+            <lb ed="#F" n="94"/>non peto propter se, sed propter aliud, 
+            si<lb ed="#F" n="95" break="no"/>cut aduocatus petitur propter causam, 
+            <lb ed="#F" n="96"/>non propter se, vel quando imploratur li. 
+            <lb ed="#F" n="97"/>pen. vt in praeal. iuribus. &amp; vbi etiam aliquid 
+            <lb ed="#F" n="98"/>pro se petitur, sed ratione rei, postea 
+            haben<lb ed="#F" n="99" break="no"/>dae, vel litis proponendae ex sua petitione 
+            <lb ed="#F" n="100"/>nihil consequitur, nec aliquid iuris sibi in 
+            <lb ed="#F" n="101"/>re quaeritur. C. vt in pos. le. l. 1. &amp; idem 
+            vbi<lb ed="#F" n="102" break="no"/>cunque imponenda est summaria 
+            cogni<lb ed="#F" n="103" break="no"/>tio. (Ad hoc) iud. of. ff. de rei ven. non 
+            so<lb ed="#F" n="104" break="no"/>lum. &amp; l. item si verberatum. §. 1. C. de rei 
+            <lb ed="#F" n="105"/>vend. certum. insti. de offi. iudi. §. post 
+            in<lb ed="#F" n="106" break="no"/>choatum. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

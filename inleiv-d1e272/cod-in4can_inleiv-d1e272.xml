@@ -1,282 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 20</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 20</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="111-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e272" type="decretales-l1t20">
-            <head xml:id="inleiv-d1e272-Hd1e98">Titulus 20</head>
-            <p xml:id="inleiv-d1e272-d1e100">
-               <lb ed="#F" n="96"/>TITVLVS X X. 
-      <lb ed="#F" n="97"/>DE CORPORE VITI. 
-      <lb ed="#F" n="98"/>ATIS ORDINANDIS, 
-      <lb ed="#F" n="99"/>vel non. 
-      </p>
-            <div xml:id="inleiv-d1e272-Dd1e111" type="decretales-l1t20c1">
-               <head xml:id="inleiv-d1e272-Hd1e113">Caput 1</head>
-               <p xml:id="inleiv-d1e272-d1e115">
-                  <lb ed="#F" n="100"/>CAPVT I. 
-      <lb ed="#F" n="101"/> Episcopus in multum enormi &amp; notorio 
-      eri<lb ed="#F" n="102" break="no"/>mine dispensat, secus in bis, qui sunt 
-      cor<lb ed="#F" n="103" break="no"/>pore vitiati. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e126">
-                  <lb ed="#F" n="104"/>DE PRESBVTERO. (
-      Cam<lb ed="#F" n="105" break="no"/>paniae.) Si dubitatur an 
-      scan<lb ed="#F" n="106" break="no"/>dalum generet, recurritur 
-      <lb ed="#F" n="107"/>ad arbitrium episcopi. inf. e. 
-      <lb ed="#F" n="108"/>c. proxi. Item an possit ei 
-      per<lb ed="#F" n="109" break="no"/>mittere celebrare in priuato non publico, 
-      <lb ed="#F" n="110"/>vt arg. inf. eo. significauit. inf. de cle. pere. 
-      <lb ed="#F" n="111"/>tuae. (Permittere) contra. inf. de cle. pu. in 
-      <lb ed="#F" n="112"/>du. c. 1. contra. 31. dist. si quis post. Sol. h. 
-      <pb ed="#F" n="111-v"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>dispensatio ibi ius commune. Et habes 
-      <lb ed="#F" n="2"/>hic arg. quod in multum enormi crimine 
-      <lb ed="#F" n="3"/>&amp; notorio, dispensat episcopus. ad idem. 
-      <lb ed="#F" n="4"/>inf. de apost. c. 2. si autem esset corpore 
-      vi<lb ed="#F" n="5" break="no"/>tiatus, non posset dispensare cum eo. 30. 
-      <lb ed="#F" n="6"/>dist. venio. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e272-Dd1e166" type="decretales-l1t20c2">
-               <head xml:id="inleiv-d1e272-Hd1e168">Caput 2</head>
-               <p xml:id="inleiv-d1e272-d1e170">
-                  <lb ed="#F" n="7"/>CAPVT II. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e175">
-                  <lb ed="#F" n="8"/>CVM DE TVA. In eculo. ff. 
-      <lb ed="#F" n="9"/>de aedil. edi. quod clauum. §. 
-      <lb ed="#F" n="10"/>bosus. (canonici) &amp; 
-      concu<lb ed="#F" n="11" break="no"/>binae. (Consilio.) Puta si 
-      ge<lb ed="#F" n="12" break="no"/>nerat scandalum, non 
-      con<lb ed="#F" n="13" break="no"/>firmat electione, si autem non generat, 
-      <lb ed="#F" n="14"/>confirmat. sup. c. proxi. (In quo) id est, 
-      <lb ed="#F" n="15"/>in qua confirmatione(Curauimus) solus 
-      <lb ed="#F" n="16"/>enim Papa dispensare potest in hoc. sup. 
-      <lb ed="#F" n="17"/>de fil. preebyt. c. vlt. 30. dist. nemo. Vel dic, 
-      <lb ed="#F" n="18"/>quod cum electo in episcopum non 
-      po<lb ed="#F" n="19" break="no"/>test dispensare nisi Papa in praedictis. Vel 
-      <lb ed="#F" n="20"/>dic, quod archiepiscopus potest 
-      dispensa<lb ed="#F" n="21" break="no"/>re, &amp; hoc non negatur hic, sed potius 
-      con<lb ed="#F" n="22" break="no"/>trarium est verum. supra, de elect. 
-      inno<lb ed="#F" n="23" break="no"/>tuit. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e272-Dd1e213" type="decretales-l1t20c3">
-               <head xml:id="inleiv-d1e272-Hd1e215">Caput 3</head>
-               <p xml:id="inleiv-d1e272-d1e217">
-                  <lb ed="#F" n="24"/>CAPVT III.
-      </p>
-               <p xml:id="inleiv-d1e272-d1e222">
-                  <lb ed="#F" n="25"/>EX PARTE G. (In 
-      cunabu<lb ed="#F" n="26" break="no"/>lis) corpore vitiatus 
-      spon<lb ed="#F" n="27" break="no"/>te, nulla causa 
-      interuenien<lb ed="#F" n="28" break="no"/>te, repellitur ab ordinibus, 
-      <lb ed="#F" n="29"/>quia repellitur iam 
-      promo<lb ed="#F" n="30" break="no"/>tus. 33. dist. meritum. 35. dist. qui partem. 
-      <lb ed="#F" n="31"/>si quis a me. si autem iusta causa subesset, 
-      <lb ed="#F" n="32"/>puta timor leprae non prohibetur incidi. 
-      <lb ed="#F" n="33"/>inf. eod. ex parte. nisi generet 
-      deformita<lb ed="#F" n="34" break="no"/>tem: tunc enim in omni casu repelletur. 
-      <lb ed="#F" n="35"/>35. dist. lator. si euan. inf. eo. c. vlt. &amp; idem 
-      <lb ed="#F" n="36"/>est si casu, vt eisdem. c. (Nicen. concilii.) 
-      <lb ed="#F" n="37"/>55. dist. si quis a me. &amp; c. si quis peregre. (In 
-      <lb ed="#F" n="38"/>cenpribes. ) rr. dift. eunuebues 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e272-Dd1e257" type="decretales-l1t20c4">
-               <head xml:id="inleiv-d1e272-Hd1e259">Caput 4</head>
-               <p xml:id="inleiv-d1e272-d1e261">
-                  <lb ed="#F" n="39"/>CAPVT IIII. 
-      <lb ed="#F" n="40"/>1 An &amp; quando virilia sectus possit 
-      promo<lb ed="#F" n="41" break="no"/>ueri. 
-      <lb ed="#F" n="42"/>2 Et quid requiratur ad hoc, vt sit irregularis, 
-      <lb ed="#F" n="43"/>qui ex indignatione se secat. 
-      <lb ed="#F" n="44"/>3 In casu abscisstonis membri potest episcopus 
-      <lb ed="#F" n="45"/>etiam sine authoritate Papae dispensaret
-      </p>
-               <p xml:id="inleiv-d1e272-d1e279">
-                  <lb ed="#F" n="46"/>SIGNIFICAVIT. (Nobis) 
-      <lb ed="#F" n="47"/>virilia quomodocunque se 
-      <lb ed="#F" n="48"/>secuerit quis, vel secari 
-      man<lb ed="#F" n="49" break="no"/>dauit sponte, siue vt 
-      obsequi<lb ed="#F" n="50" break="no"/>um praestet Deo vt hic, siue 
-      <lb ed="#F" n="51"/>ex indignatione, siue nimio dolore 
-      mor<lb ed="#F" n="52" break="no"/>bi, promoueri non potest. 33. distin. 
-      mari<lb ed="#F" n="53" break="no"/>tum. sup. eod. c. proxi. secus autem si a me¬ 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="54"/>dicis, vel a seipso consilio tamen 
-      medico<lb ed="#F" n="55" break="no"/>rum, vel a dominis, vel a barbaris, vel casu 
-      <lb ed="#F" n="56"/>fortuito sectus sit in membris, quae non 
-      <lb ed="#F" n="57"/>generant deformitatem. 30. dist. si quis 
-      eu<lb ed="#F" n="58" break="no"/>nuchus. (praecepta) sic enim seruandum 
-      <lb ed="#F" n="59"/>est secundum quod distinximus. sup. capi. 
-      <lb ed="#F" n="60"/>proxi. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e316">
-                  <lb ed="#F" n="61"/>Et intellige quod ad hoc, vt sit 
-      irre<lb ed="#F" n="62" break="no"/>gularis etiam qui ex indignatione se 
-      se<lb ed="#F" n="63" break="no"/>cat, oportet quod amiserit aliquod 
-      mem<lb ed="#F" n="64" break="no"/>brum, licet sufficiat quantumlibet vile. 
-      <lb ed="#F" n="65"/>33. dist. maritum. Idem est &amp; si non amisit 
-      <lb ed="#F" n="66"/>membrum totum, sed partem, sed tamen 
-      <lb ed="#F" n="67"/>est talis pars, quae deformitatem generet, 
-      <lb ed="#F" n="68"/>vnde generetur scandalum. sup. eod. c. 1. 
-      <lb ed="#F" n="69"/>vel etiam inhabilem reddit ad officium 
-      <lb ed="#F" n="70"/>exequendum. inf. eod. Thomas. vnde 
-      li<lb ed="#F" n="71" break="no"/>cet indignans extraxerit sibi dentem, vel 
-      <lb ed="#F" n="72"/>quantumcunque grauiter se secuerit, nisi 
-      <lb ed="#F" n="73"/>membrum amiserit, non est irregularis, 
-      <lb ed="#F" n="74"/>vel etiam potius corpore vitiatus. Alii 
-      <lb ed="#F" n="75"/>dicunt sufficere ad irregularitatem, si 
-      non<lb ed="#F" n="76" break="no"/>dum membrum, sed etiam si partem 
-      men<lb ed="#F" n="77" break="no"/>bri etiam quae non generat deformitatem 
-      <lb ed="#F" n="78"/>abscindat ex indignatione. 35. dist. si 
-      par<lb ed="#F" n="79" break="no"/>tem: hic enim licet non possit repelli, quia 
-      <lb ed="#F" n="80"/>corpore vitiatus, potest tamem repelli, quia 
-      <lb ed="#F" n="81"/>sponte se abscidit, sed nec retinere 
-      po<lb ed="#F" n="82" break="no"/>test sine dispensatione, si infamia inde fit, 
-      <lb ed="#F" n="83"/>vel notorium. sup. de tempo. ordi. c. fin. 
-      <lb ed="#F" n="84"/>Alil autem non credunt, quod illi qui sibi 
-      <lb ed="#F" n="85"/>manus iniiciunt, non possunt promoueri 
-      <lb ed="#F" n="86"/>sine dispensatione. arg. contra. 33. dist. qui 
-      <lb ed="#F" n="87"/>partem. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e377">
-                  <lb ed="#F" n="88"/>Sed illud intelligo, quod ex quo 
-      no<lb ed="#F" n="89" break="no"/>torium est, quod ex indignatione partem 
-      <lb ed="#F" n="90"/>digiti sibi amputauit, non debet 
-      promo<lb ed="#F" n="91" break="no"/>ueri sine dispensatione, sed alijs secus si 
-      <lb ed="#F" n="92"/>amisisset casu, vel etiam si vere esset 
-      noto<lb ed="#F" n="93" break="no"/>rium, quod ex indignatione fecisset, quia 
-      <lb ed="#F" n="94"/>tunc ex quo non generaret 
-      deformita<lb ed="#F" n="95" break="no"/>tem, non impediretur promotio, si autem 
-      <lb ed="#F" n="96"/>ita secuerit quod claudicaret repellitur 
-      <lb ed="#F" n="97"/>tantum, quia corpore vitiatus. Et tua) 
-      <lb ed="#F" n="98"/>authoritas archiepiscopi in hoc valet, quod 
-      <lb ed="#F" n="99"/>authoritate Papae poterit plus minus ve 
-      <lb ed="#F" n="100"/>saltem in minoribus criminibus 
-      dispensa<lb ed="#F" n="101" break="no"/>re, vel speciale est, quod quando abscidit 
-      <lb ed="#F" n="102"/>virilia propter Deum potest, licet stulte 
-      <lb ed="#F" n="103"/>possit episcopus dispensare, sine 
-      dispensa<lb ed="#F" n="104" break="no"/>tione autem non poterit promoueri, vel 
-      <lb ed="#F" n="105"/>in susceptis remanere, vel dic, quod ideo 
-      <lb ed="#F" n="106"/>suam authoritatem Papa addidit, vt 
-      secu<lb ed="#F" n="107" break="no"/>rius faceret, cum tantum necesse non 
-      es<lb ed="#F" n="108" break="no"/>set: hoc tamen non credo. Item non 
-      di<lb ed="#F" n="109" break="no"/>stinguo vtrum instabat operi licito necne. 
-      <lb ed="#F" n="110"/>quando vitiatus est, quantum ad hoc, vt 
-      <pb ed="#F" n="112-r"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>irregnlaris fiat, sed ad hoc prodest, quod 
-      <lb ed="#F" n="2"/>facilius dispensabitur (Concedas) ex 
-      dis<lb ed="#F" n="3" break="no"/>pensatione alias contra. 55. distin. si quis a 
-      <lb ed="#F" n="4"/>me. Inno. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e272-Dd1e443" type="decretales-l1t20c5">
-               <head xml:id="inleiv-d1e272-Hd1e445">Caput 5</head>
-               <p xml:id="inleiv-d1e272-d1e447">
-                  <lb ed="#F" n="5"/>CAPVT V. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e452">
-                  <lb ed="#F" n="6"/>EX PARTE. (M.) 33. quaest. 2. 
-      <lb ed="#F" n="7"/>hoc ipsum. infra de cleric. aegro. tua 
-      <lb ed="#F" n="8"/>nos. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e272-Dd1e462" type="decretales-l1t20c6">
-               <head xml:id="inleiv-d1e272-Hd1e464">Caput 6</head>
-               <p xml:id="inleiv-d1e272-d1e466">
-                  <lb ed="#F" n="9"/>CAPVT VI. 
-      <lb ed="#F" n="10"/>1 Irregularitas non facit aliquem ab abbatia 
-      <lb ed="#F" n="11"/>remoueri, sed taciturnitas peccati. 
-      <lb ed="#F" n="12"/>2 Non tenetur quis consiteri crimina, de 
-      qui<lb ed="#F" n="13" break="no"/>bae nox s2it conuiclaes, vel confesuas, vel 
-      <lb ed="#F" n="14"/>altar sunt notoria. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e482">
-                  <lb ed="#F" n="15"/>EXPOSVISTI NOBIS. 
-      <lb ed="#F" n="16"/>COrdines) bene dicit 
-      ordi<lb ed="#F" n="17" break="no"/>nes, ipsos enim suscipiendo 
-      <lb ed="#F" n="18"/>X tac endo irregularitatem 
-      <lb ed="#F" n="19"/>peccauit. 35. distinct. ex 
-      poe<lb ed="#F" n="20" break="no"/>nitentibus. &amp; sup. de renunc. nisi cum 
-      pri<lb ed="#F" n="21" break="no"/>dem. §. personae. 36. dist. quia. 34. distinct. si 
-      <lb ed="#F" n="22"/>1 seruus sciens. nam ab abbatia non 
-      remo<lb ed="#F" n="23" break="no"/>uetur propter irregularitatem. 30. distinc. 
-      <lb ed="#F" n="24"/>accedens. 16. quaestio. 1. legi. sup. de aetat. &amp; 
-      <lb ed="#F" n="25"/>quali. tua. sed propter peecata 
-      taciturni<lb ed="#F" n="26" break="no"/>tatis. 55. distinct. ex poenitentibus. &amp; 
-      pro<lb ed="#F" n="27" break="no"/>pter hanc taciturnitatem non facit 
-      exe<lb ed="#F" n="28" break="no"/>cutionem sic suscepti ordinis. sup. de 
-      re<lb ed="#F" n="29" break="no"/>nune. nisi cum pridem. §. personae. 
-      tene<lb ed="#F" n="30" break="no"/>tur etiam confiteri crimina de quibus est 
-      <lb ed="#F" n="31"/>conuictus confessus, vel deprehensus, vel 
-      <lb ed="#F" n="32"/>alias notoria. 50. distinct. l. si ille. alia 
-      au<lb ed="#F" n="33" break="no"/>tem crimina confiteri non tenetur, sed si 
-      <lb ed="#F" n="34"/>confiteatur &amp; dispensetur securus est, vt 
-      <lb ed="#F" n="35"/>vlterius non accusetur, aliter autem 
-      se<lb ed="#F" n="36" break="no"/>cus. 34. distinct. cap. vltim. Vel dic, quod 
-      <lb ed="#F" n="37"/>haec Abbatia talis erat, quae quaerebat 
-      sa<lb ed="#F" n="38" break="no"/>cerdotem abbatem. 
-      </p>
-               <p xml:id="inleiv-d1e272-d1e537">
-                  <lb ed="#F" n="39"/>CAPVT VII. 
-      <lb ed="#F" n="40"/>THOMAS. (Pollicem) supr. eod. 
-      <lb ed="#F" n="41"/>capitul. 1. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 20</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 20</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="111-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e272" type="decretales-l1t20">
+        <head xml:id="inleiv-d1e272-Hd1e98">Titulus 20</head>
+        <p xml:id="inleiv-d1e272-d1e100">
+          <lb ed="#F" n="96"/>TITVLVS XX. 
+          <lb ed="#F" n="97"/>DE CORPORE VITI. 
+          <lb ed="#F" n="98"/>ATIS ORDINANDIS, 
+          <lb ed="#F" n="99"/>vel non. 
+        </p>
+        <div xml:id="inleiv-d1e272-Dd1e111" type="decretales-l1t20c1">
+          <head xml:id="inleiv-d1e272-Hd1e113">Caput 1</head>
+          <p xml:id="inleiv-d1e272-d1e115">
+            <lb ed="#F" n="100"/>CAPVT I. 
+            <lb ed="#F" n="101"/> Episcopus in multum enormi &amp; notorio 
+            eri<lb ed="#F" n="102" break="no"/>mine dispensat, secus in bis, qui sunt 
+            cor<lb ed="#F" n="103" break="no"/>pore vitiati. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e126">
+            <lb ed="#F" n="104"/>DE PRESBVTERO. (
+            Cam<lb ed="#F" n="105" break="no"/>paniae.) Si dubitatur an 
+            scan<lb ed="#F" n="106" break="no"/>dalum generet, recurritur 
+            <lb ed="#F" n="107"/>ad arbitrium episcopi. inf. e. 
+            <lb ed="#F" n="108"/>c. proxi. Item an possit ei 
+            per<lb ed="#F" n="109" break="no"/>mittere celebrare in priuato non publico, 
+            <lb ed="#F" n="110"/>vt arg. inf. eo. significauit. inf. de cle. pere. 
+            <lb ed="#F" n="111"/>tuae. (Permittere) contra. inf. de cle. pu. in 
+            <lb ed="#F" n="112"/>du. c. 1. contra. 31. dist. si quis post. Sol. h. 
+            <pb ed="#F" n="111-v"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>dispensatio ibi ius commune. Et habes 
+            <lb ed="#F" n="2"/>hic arg. quod in multum enormi crimine 
+            <lb ed="#F" n="3"/>&amp; notorio, dispensat episcopus. ad idem. 
+            <lb ed="#F" n="4"/>inf. de apost. c. 2. si autem esset corpore 
+            vi<lb ed="#F" n="5" break="no"/>tiatus, non posset dispensare cum eo. 30. 
+            <lb ed="#F" n="6"/>dist. venio. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e272-Dd1e166" type="decretales-l1t20c2">
+          <head xml:id="inleiv-d1e272-Hd1e168">Caput 2</head>
+          <p xml:id="inleiv-d1e272-d1e170">
+            <lb ed="#F" n="7"/>CAPVT II. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e175">
+            <lb ed="#F" n="8"/>CVM DE TVA. In eculo. ff. 
+            <lb ed="#F" n="9"/>de aedil. edi. quod clauum. §. 
+            <lb ed="#F" n="10"/>bosus. (canonici) &amp; 
+            concu<lb ed="#F" n="11" break="no"/>binae. (Consilio.) Puta si 
+            ge<lb ed="#F" n="12" break="no"/>nerat scandalum, non 
+            con<lb ed="#F" n="13" break="no"/>firmat electione, si autem non generat, 
+            <lb ed="#F" n="14"/>confirmat. sup. c. proxi. (In quo) id est, 
+            <lb ed="#F" n="15"/>in qua confirmatione(Curauimus) solus 
+            <lb ed="#F" n="16"/>enim Papa dispensare potest in hoc. sup. 
+            <lb ed="#F" n="17"/>de fil. preebyt. c. vlt. 30. dist. nemo. Vel dic, 
+            <lb ed="#F" n="18"/>quod cum electo in episcopum non 
+            po<lb ed="#F" n="19" break="no"/>test dispensare nisi Papa in praedictis. Vel 
+            <lb ed="#F" n="20"/>dic, quod archiepiscopus potest 
+            dispensa<lb ed="#F" n="21" break="no"/>re, &amp; hoc non negatur hic, sed potius 
+            con<lb ed="#F" n="22" break="no"/>trarium est verum. supra, de elect. 
+            inno<lb ed="#F" n="23" break="no"/>tuit. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e272-Dd1e213" type="decretales-l1t20c3">
+          <head xml:id="inleiv-d1e272-Hd1e215">Caput 3</head>
+          <p xml:id="inleiv-d1e272-d1e217">
+            <lb ed="#F" n="24"/>CAPVT III.
+          </p>
+          <p xml:id="inleiv-d1e272-d1e222">
+            <lb ed="#F" n="25"/>EX PARTE G. (In 
+            cunabu<lb ed="#F" n="26" break="no"/>lis) corpore vitiatus 
+            spon<lb ed="#F" n="27" break="no"/>te, nulla causa 
+            interuenien<lb ed="#F" n="28" break="no"/>te, repellitur ab ordinibus, 
+            <lb ed="#F" n="29"/>quia repellitur iam 
+            promo<lb ed="#F" n="30" break="no"/>tus. 33. dist. meritum. 35. dist. qui partem. 
+            <lb ed="#F" n="31"/>si quis a me. si autem iusta causa subesset, 
+            <lb ed="#F" n="32"/>puta timor leprae non prohibetur incidi. 
+            <lb ed="#F" n="33"/>inf. eod. ex parte. nisi generet 
+            deformita<lb ed="#F" n="34" break="no"/>tem: tunc enim in omni casu repelletur. 
+            <lb ed="#F" n="35"/>35. dist. lator. si euan. inf. eo. c. vlt. &amp; idem 
+            <lb ed="#F" n="36"/>est si casu, vt eisdem. c. (Nicen. concilii.) 
+            <lb ed="#F" n="37"/>55. dist. si quis a me. &amp; c. si quis peregre. (In 
+            <lb ed="#F" n="38"/>cenpribes. ) rr. dift. eunuebues 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e272-Dd1e257" type="decretales-l1t20c4">
+          <head xml:id="inleiv-d1e272-Hd1e259">Caput 4</head>
+          <p xml:id="inleiv-d1e272-d1e261">
+            <lb ed="#F" n="39"/>CAPVT IIII. 
+            <lb ed="#F" n="40"/>1 An &amp; quando virilia sectus possit 
+            promo<lb ed="#F" n="41" break="no"/>ueri. 
+            <lb ed="#F" n="42"/>2 Et quid requiratur ad hoc, vt sit irregularis, 
+            <lb ed="#F" n="43"/>qui ex indignatione se secat. 
+            <lb ed="#F" n="44"/>3 In casu abscisstonis membri potest episcopus 
+            <lb ed="#F" n="45"/>etiam sine authoritate Papae dispensaret
+          </p>
+          <p xml:id="inleiv-d1e272-d1e279">
+            <lb ed="#F" n="46"/>SIGNIFICAVIT. (Nobis) 
+            <lb ed="#F" n="47"/>virilia quomodocunque se 
+            <lb ed="#F" n="48"/>secuerit quis, vel secari 
+            man<lb ed="#F" n="49" break="no"/>dauit sponte, siue vt 
+            obsequi<lb ed="#F" n="50" break="no"/>um praestet Deo vt hic, siue 
+            <lb ed="#F" n="51"/>ex indignatione, siue nimio dolore 
+            mor<lb ed="#F" n="52" break="no"/>bi, promoueri non potest. 33. distin. 
+            mari<lb ed="#F" n="53" break="no"/>tum. sup. eod. c. proxi. secus autem si a me¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="54"/>dicis, vel a seipso consilio tamen 
+            medico<lb ed="#F" n="55" break="no"/>rum, vel a dominis, vel a barbaris, vel casu 
+            <lb ed="#F" n="56"/>fortuito sectus sit in membris, quae non 
+            <lb ed="#F" n="57"/>generant deformitatem. 30. dist. si quis 
+            eu<lb ed="#F" n="58" break="no"/>nuchus. (praecepta) sic enim seruandum 
+            <lb ed="#F" n="59"/>est secundum quod distinximus. sup. capi. 
+            <lb ed="#F" n="60"/>proxi. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e316">
+            <lb ed="#F" n="61"/>Et intellige quod ad hoc, vt sit 
+            irre<lb ed="#F" n="62" break="no"/>gularis etiam qui ex indignatione se 
+            se<lb ed="#F" n="63" break="no"/>cat, oportet quod amiserit aliquod 
+            mem<lb ed="#F" n="64" break="no"/>brum, licet sufficiat quantumlibet vile. 
+            <lb ed="#F" n="65"/>33. dist. maritum. Idem est &amp; si non amisit 
+            <lb ed="#F" n="66"/>membrum totum, sed partem, sed tamen 
+            <lb ed="#F" n="67"/>est talis pars, quae deformitatem generet, 
+            <lb ed="#F" n="68"/>vnde generetur scandalum. sup. eod. c. 1. 
+            <lb ed="#F" n="69"/>vel etiam inhabilem reddit ad officium 
+            <lb ed="#F" n="70"/>exequendum. inf. eod. Thomas. vnde 
+            li<lb ed="#F" n="71" break="no"/>cet indignans extraxerit sibi dentem, vel 
+            <lb ed="#F" n="72"/>quantumcunque grauiter se secuerit, nisi 
+            <lb ed="#F" n="73"/>membrum amiserit, non est irregularis, 
+            <lb ed="#F" n="74"/>vel etiam potius corpore vitiatus. Alii 
+            <lb ed="#F" n="75"/>dicunt sufficere ad irregularitatem, si 
+            non<lb ed="#F" n="76" break="no"/>dum membrum, sed etiam si partem 
+            men<lb ed="#F" n="77" break="no"/>bri etiam quae non generat deformitatem 
+            <lb ed="#F" n="78"/>abscindat ex indignatione. 35. dist. si 
+            par<lb ed="#F" n="79" break="no"/>tem: hic enim licet non possit repelli, quia 
+            <lb ed="#F" n="80"/>corpore vitiatus, potest tamem repelli, quia 
+            <lb ed="#F" n="81"/>sponte se abscidit, sed nec retinere 
+            po<lb ed="#F" n="82" break="no"/>test sine dispensatione, si infamia inde fit, 
+            <lb ed="#F" n="83"/>vel notorium. sup. de tempo. ordi. c. fin. 
+            <lb ed="#F" n="84"/>Alil autem non credunt, quod illi qui sibi 
+            <lb ed="#F" n="85"/>manus iniiciunt, non possunt promoueri 
+            <lb ed="#F" n="86"/>sine dispensatione. arg. contra. 33. dist. qui 
+            <lb ed="#F" n="87"/>partem. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e377">
+            <lb ed="#F" n="88"/>Sed illud intelligo, quod ex quo 
+            no<lb ed="#F" n="89" break="no"/>torium est, quod ex indignatione partem 
+            <lb ed="#F" n="90"/>digiti sibi amputauit, non debet 
+            promo<lb ed="#F" n="91" break="no"/>ueri sine dispensatione, sed alijs secus si 
+            <lb ed="#F" n="92"/>amisisset casu, vel etiam si vere esset 
+            noto<lb ed="#F" n="93" break="no"/>rium, quod ex indignatione fecisset, quia 
+            <lb ed="#F" n="94"/>tunc ex quo non generaret 
+            deformita<lb ed="#F" n="95" break="no"/>tem, non impediretur promotio, si autem 
+            <lb ed="#F" n="96"/>ita secuerit quod claudicaret repellitur 
+            <lb ed="#F" n="97"/>tantum, quia corpore vitiatus. Et tua) 
+            <lb ed="#F" n="98"/>authoritas archiepiscopi in hoc valet, quod 
+            <lb ed="#F" n="99"/>authoritate Papae poterit plus minus ve 
+            <lb ed="#F" n="100"/>saltem in minoribus criminibus 
+            dispensa<lb ed="#F" n="101" break="no"/>re, vel speciale est, quod quando abscidit 
+            <lb ed="#F" n="102"/>virilia propter Deum potest, licet stulte 
+            <lb ed="#F" n="103"/>possit episcopus dispensare, sine 
+            dispensa<lb ed="#F" n="104" break="no"/>tione autem non poterit promoueri, vel 
+            <lb ed="#F" n="105"/>in susceptis remanere, vel dic, quod ideo 
+            <lb ed="#F" n="106"/>suam authoritatem Papa addidit, vt 
+            secu<lb ed="#F" n="107" break="no"/>rius faceret, cum tantum necesse non 
+            es<lb ed="#F" n="108" break="no"/>set: hoc tamen non credo. Item non 
+            di<lb ed="#F" n="109" break="no"/>stinguo vtrum instabat operi licito necne. 
+            <lb ed="#F" n="110"/>quando vitiatus est, quantum ad hoc, vt 
+            <pb ed="#F" n="112-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>irregnlaris fiat, sed ad hoc prodest, quod 
+            <lb ed="#F" n="2"/>facilius dispensabitur (Concedas) ex 
+            dis<lb ed="#F" n="3" break="no"/>pensatione alias contra. 55. distin. si quis a 
+            <lb ed="#F" n="4"/>me. Inno. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e272-Dd1e443" type="decretales-l1t20c5">
+          <head xml:id="inleiv-d1e272-Hd1e445">Caput 5</head>
+          <p xml:id="inleiv-d1e272-d1e447">
+            <lb ed="#F" n="5"/>CAPVT V. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e452">
+            <lb ed="#F" n="6"/>EX PARTE. (M.) 33. quaest. 2. 
+            <lb ed="#F" n="7"/>hoc ipsum. infra de cleric. aegro. tua 
+            <lb ed="#F" n="8"/>nos. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e272-Dd1e462" type="decretales-l1t20c6">
+          <head xml:id="inleiv-d1e272-Hd1e464">Caput 6</head>
+          <p xml:id="inleiv-d1e272-d1e466">
+            <lb ed="#F" n="9"/>CAPVT VI. 
+            <lb ed="#F" n="10"/>1 Irregularitas non facit aliquem ab abbatia 
+            <lb ed="#F" n="11"/>remoueri, sed taciturnitas peccati. 
+            <lb ed="#F" n="12"/>2 Non tenetur quis consiteri crimina, de 
+            qui<lb ed="#F" n="13" break="no"/>bae nox s2it conuiclaes, vel confesuas, vel 
+            <lb ed="#F" n="14"/>altar sunt notoria. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e482">
+            <lb ed="#F" n="15"/>EXPOSVISTI NOBIS. 
+            <lb ed="#F" n="16"/>COrdines) bene dicit 
+            ordi<lb ed="#F" n="17" break="no"/>nes, ipsos enim suscipiendo 
+            <lb ed="#F" n="18"/>X tac endo irregularitatem 
+            <lb ed="#F" n="19"/>peccauit. 35. distinct. ex 
+            poe<lb ed="#F" n="20" break="no"/>nitentibus. &amp; sup. de renunc. nisi cum 
+            pri<lb ed="#F" n="21" break="no"/>dem. §. personae. 36. dist. quia. 34. distinct. si 
+            <lb ed="#F" n="22"/>1 seruus sciens. nam ab abbatia non 
+            remo<lb ed="#F" n="23" break="no"/>uetur propter irregularitatem. 30. distinc. 
+            <lb ed="#F" n="24"/>accedens. 16. quaestio. 1. legi. sup. de aetat. &amp; 
+            <lb ed="#F" n="25"/>quali. tua. sed propter peecata 
+            taciturni<lb ed="#F" n="26" break="no"/>tatis. 55. distinct. ex poenitentibus. &amp; 
+            pro<lb ed="#F" n="27" break="no"/>pter hanc taciturnitatem non facit 
+            exe<lb ed="#F" n="28" break="no"/>cutionem sic suscepti ordinis. sup. de 
+            re<lb ed="#F" n="29" break="no"/>nune. nisi cum pridem. §. personae. 
+            tene<lb ed="#F" n="30" break="no"/>tur etiam confiteri crimina de quibus est 
+            <lb ed="#F" n="31"/>conuictus confessus, vel deprehensus, vel 
+            <lb ed="#F" n="32"/>alias notoria. 50. distinct. l. si ille. alia 
+            au<lb ed="#F" n="33" break="no"/>tem crimina confiteri non tenetur, sed si 
+            <lb ed="#F" n="34"/>confiteatur &amp; dispensetur securus est, vt 
+            <lb ed="#F" n="35"/>vlterius non accusetur, aliter autem 
+            se<lb ed="#F" n="36" break="no"/>cus. 34. distinct. cap. vltim. Vel dic, quod 
+            <lb ed="#F" n="37"/>haec Abbatia talis erat, quae quaerebat 
+            sa<lb ed="#F" n="38" break="no"/>cerdotem abbatem. 
+          </p>
+          <p xml:id="inleiv-d1e272-d1e537">
+            <lb ed="#F" n="39"/>CAPVT VII. 
+            <lb ed="#F" n="40"/>THOMAS. (Pollicem) supr. eod. 
+            <lb ed="#F" n="41"/>capitul. 1. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

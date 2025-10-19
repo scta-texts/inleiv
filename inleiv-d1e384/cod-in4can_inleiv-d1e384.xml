@@ -1,396 +1,396 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 30</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 30</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="146-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e384" type="decretales-l1t30">
-            <head xml:id="inleiv-d1e384-Hd1e98">Titulus 30</head>
-            <p xml:id="inleiv-d1e384-d1e100">
-               <lb ed="#F" n="44"/>TITVLVS XXX 
-      <lb ed="#F" n="45"/>OFFICIO LEGATI.
-      </p>
-            <div xml:id="inleiv-d1e384-Dd1e107" type="decretales-l1t30c1">
-               <head xml:id="inleiv-d1e384-Hd1e109">Caput 1</head>
-               <p xml:id="inleiv-d1e384-d1e111">
-                  <lb ed="#F" n="46"/>CAPVT I. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e116">
-                  <lb ed="#F" n="47"/>CVM RON IGNORETIS 
-      <lb ed="#F" n="48"/>Per app. etiam in alijs 
-      casi<lb ed="#F" n="49" break="no"/>bus, quos dicimus infra( 
-      au<lb ed="#F" n="50" break="no"/>dire) quid possit legatus, 
-      col<lb ed="#F" n="51" break="no"/>ligendum est ex literis 
-      lega<lb ed="#F" n="52" break="no"/>ti. inf. de priui. porro. &amp; non est contra. 25. 
-      <lb ed="#F" n="53"/>q. 2 seruatis quaedam, tamen potest etiam 
-      <lb ed="#F" n="54"/>si non exprimantur, vt hic. (studuisti) co¬ 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="55"/>gnitionem, id est, antequam incipiat 
-      co<lb ed="#F" n="56" break="no"/>gnoscere delegatus (deroget) sup. de 
-      re<lb ed="#F" n="57" break="no"/>ser. cum sit Ro. simpedire) 1i1. q. 1. c. 
-      perue<lb ed="#F" n="58" break="no"/>nit. &amp; 95. di. eccle. C. de do. in hoc. 93. dist. 
-      <lb ed="#F" n="59"/>praecipimus (mandatum) C. si aduer. rem 
-      <lb ed="#F" n="60"/>iudi. aduersus. ff. ad Treb. ille a quo. §. 
-      tem<lb ed="#F" n="61" break="no"/>pestiue. Confirmare) in communi 
-      for<lb ed="#F" n="62" break="no"/>ma, quae modicum valet confirmamus, 
-      si<lb ed="#F" n="63" break="no"/>cut lata est. inf. de conces. praeben. &amp; eccl. 
-      <lb ed="#F" n="64"/>non vacan. quia diuersi. cum causae autem 
-      <lb ed="#F" n="65"/>cognitione non potest, quia per consequens 
-      <lb ed="#F" n="66"/>posset infirmare. 21. dist. inferior. ff. de re 
-      <lb ed="#F" n="67"/>iudi. qui condem. de pae. dist. 1. verbum. ff. 
-      <lb ed="#F" n="68"/>de reb iar eibes 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e169" type="decretales-l1t30c2">
-               <head xml:id="inleiv-d1e384-Hd1e171">Caput 2</head>
-               <p xml:id="inleiv-d1e384-d1e173">
-                  <lb ed="#F" n="69"/>CAPVT 1I 
-      <lb ed="#F" n="70"/>1 Paena an possit post latam sententiam remitti. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e180">
-                  <lb ed="#F" n="71"/>NISI SPECIALIS. (Illa 
-      dile<lb ed="#F" n="72" break="no"/>ctio) Not. iu. amore 
-      remitte<lb ed="#F" n="73" break="no"/>re poenam. 30. dist. clerico. 35. 
-      <lb ed="#F" n="74"/>qon. 9. praetio autem non 
-      po<lb ed="#F" n="75" break="no"/>test. 1. q. 1. nullus. Item ex quo 
-      <lb ed="#F" n="76"/>sentent ia lata est, non potest amore 
-      remit<lb ed="#F" n="77" break="no"/>tere poenam. 2. quaest. 3. §. notandum. si alio 
-      <lb ed="#F" n="78"/>agente condemnatus sit, non potest 
-      remit<lb ed="#F" n="79" break="no"/>ti poena sine consensu eius pro quo lata est 
-      <lb ed="#F" n="80"/>sententia si ei interesset. Item 
-      pecuniali<lb ed="#F" n="81" break="no"/>ter, idem videtur quibusdam si suam 
-      pro<lb ed="#F" n="82" break="no"/>sequatur iniuriam, alii tamen 
-      contra<lb ed="#F" n="83" break="no"/>dicunt. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e212" type="decretales-l1t30c3">
-               <head xml:id="inleiv-d1e384-Hd1e214">Caput 3</head>
-               <p xml:id="inleiv-d1e384-d1e216">
-                  <lb ed="#F" n="84"/>CAPVT III. 
-      <lb ed="#F" n="85"/>1 Delegatus anabseluere postit extma 
-      prouinci<lb ed="#F" n="86" break="no"/>am sibi decretam 
-      <lb ed="#F" n="87"/>2 An smita legatione darent indulgentia a 
-      le<lb ed="#F" n="88" break="no"/>gatis concessae. 
-      <lb ed="#F" n="89"/>Legatus an sit iudex ordinariur. 
-      <lb ed="#F" n="90"/>3 An sententia ferri possit sub conditione. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e234">
-                  <lb ed="#F" n="91"/>QVOP 
-      TRANSLATIO<lb ed="#F" n="92" break="no"/>NEM. &amp; inf. (speciali) 
-      quae<lb ed="#F" n="93" break="no"/>dam sunt quae necesse est 
-      spe<lb ed="#F" n="94" break="no"/>cialiter demandari. ff. quae in 
-      <lb ed="#F" n="95"/>au. cre. si pater. ff. de pact. 
-      <lb ed="#F" n="96"/>iuregentium. §. vlti. ff. de procu. 
-      Pompo<lb ed="#F" n="97" break="no"/>nius. &amp; l. mandato (priuilegii) imo &amp; 
-      quae<lb ed="#F" n="98" break="no"/>dam alia, non enim potest absoluere 
-      ex<lb ed="#F" n="99" break="no"/>communicatum a domino Papa, &amp; quod 
-      <lb ed="#F" n="100"/>plus est a delegato eius. sup. eod. studuisti. 
-      <lb ed="#F" n="101"/>nec vacaturam concedere. inf. de praeben. 
-      <lb ed="#F" n="102"/>dilect. (etsi) id est, quamuis.
-      </p>
-               <p xml:id="inleiv-d1e384-d1e263">
-                  <lb ed="#F" n="103"/>Ex ipso) non solum ipsos de 
-      prouin<lb ed="#F" n="104" break="no"/>cia, sed etiam alios extra prouinciam 
-      de<lb ed="#F" n="105" break="no"/>cretam potest delegatus absoluere. inf. 
-      <lb ed="#F" n="106"/>eod. excommunicatis. &amp; sic quod de 
-      fa<lb ed="#F" n="107" break="no"/>cto approbat ecclesia Ro. sufficit, vt 
-      habe<lb ed="#F" n="108" break="no"/>atur pro iure. ff. de legis de quibus. ff. de 
-      <lb ed="#F" n="109"/>adop. emancipatam. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e281">
-                  <pb ed="#F" n="146-v"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>Et hoc intelligo verum in legato, qui 
-      <lb ed="#F" n="2"/>a latere Papae mittitur, scilicet, Cardinali. 
-      <lb ed="#F" n="3"/>inf. de sen. excom. ad eminentiam. c. ea. 
-      <lb ed="#F" n="4"/>noscitur. Alii autem legati qui non sunt 
-      <lb ed="#F" n="5"/>Cardinales, &amp; qui ex prinilegio sunt 
-      lega<lb ed="#F" n="6" break="no"/>ti, non plus habent potestatis, quam in 
-      pri<lb ed="#F" n="7" break="no"/>uilegio continetur inf. eo. c. pe. inf. de 
-      pri<lb ed="#F" n="8" break="no"/>ui. porro. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e306">
-                  <lb ed="#F" n="9"/>Sed quid dices de indulgentijs, quas 
-      <lb ed="#F" n="10"/>dedere, durant ne finita legatione eorum, 
-      <lb ed="#F" n="11"/>&amp; quid dices de sententijs, quae feruntur 
-      <lb ed="#F" n="12"/>sic, quicunque fecerit furtum sit 
-      excom<lb ed="#F" n="13" break="no"/>municatus Respon. quod sic, legatus enim 
-      <lb ed="#F" n="14"/>est iudex ordinarius. C. de offi. rec. prouin. 
-      <lb ed="#F" n="15"/>quia habet imperium. ff. de offi. procon. l. 
-      <lb ed="#F" n="16"/>&amp; ideo, legatum enim si est ex Cardinalibus, 
-      <lb ed="#F" n="17"/>similem dicimus proconsuli. ar. ff. de offi. 
-      <lb ed="#F" n="18"/>procon. l. 1. &amp; vlt. alios autem legatos 
-      sin<lb ed="#F" n="19" break="no"/>gulos similes dicimus praesidibus. arg. ff. de 
-      <lb ed="#F" n="20"/>offi. praesi. l. 1. praeterea apparet eum 
-      ordi<lb ed="#F" n="21" break="no"/>narium, qui vniuersae causae criminales &amp; 
-      <lb ed="#F" n="22"/>ciuiles prouinciae ad eum deferuntur. supe. 
-      <lb ed="#F" n="23"/>eod. c. 1. cum autem hoc possint alii 
-      ordi<lb ed="#F" n="24" break="no"/>narij. inf. de senten. excommu. a nobis. inf. 
-      <lb ed="#F" n="25"/>de poeni. &amp; remis. nostro, multo fortius 
-      le<lb ed="#F" n="26" break="no"/>gati habent enim maius imperium 
-      omni<lb ed="#F" n="27" break="no"/>bus iudicibus in prouincia post 
-      Princi<lb ed="#F" n="28" break="no"/>pem. ff. de effic. procon. si in aliqua. §. 
-      pe<lb ed="#F" n="29" break="no"/>nult. &amp; l. nec quicquam. Item praefectus 
-      <lb ed="#F" n="30"/>ad tempus &amp; in perpetuum potest 
-      ali<lb ed="#F" n="31" break="no"/>quem prohibere. ff. de offic. praefec vr. l. 1. 
-      <lb ed="#F" n="32"/>S pe. arg. contra. ff. de pe. l. vlti. ff. de priui. 
-      <lb ed="#F" n="33"/>l. puto. §. vlt. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e363">
-                  <lb ed="#F" n="34"/>Item videtur quasi determinatum, 
-      <lb ed="#F" n="35"/>quod posset ferre sententiam sub 
-      conditi<lb ed="#F" n="36" break="no"/>one, puta si quis sic fecerit, vt talem poenam 
-      <lb ed="#F" n="37"/>patietur, quod duret, &amp; indulgentias 
-      da<lb ed="#F" n="38" break="no"/>ret. inf. c. vlt. quod nos credimus. Nec ob. 
-      <lb ed="#F" n="39"/>l. de poenis. &amp; de priuil. quae loquantur, 
-      <lb ed="#F" n="40"/>vbi iudex absque causae cognitione poenam 
-      <lb ed="#F" n="41"/>infert sine praefinitione temporis, quae 
-      poe<lb ed="#F" n="42" break="no"/>na tantum suae administrationis tempore 
-      <lb ed="#F" n="43"/>durare intelligitur, secus vbi cum causae 
-      <lb ed="#F" n="44"/>cognitione. Item secus in indulgentijs, 
-      <lb ed="#F" n="45"/>quae funt extendendae. sup. de consti. prin. 
-      <lb ed="#F" n="46"/>l. vlt. nunquid dispensare poteste Respon. 
-      <lb ed="#F" n="47"/>sic. inf. de transact. ex parte. Alii autem 
-      le<lb ed="#F" n="48" break="no"/>gati, qui non sunt cardinales, possunt 
-      ab<lb ed="#F" n="49" break="no"/>soluere excommunicatos, secundum 
-      te<lb ed="#F" n="50" break="no"/>norem decre inf. eo excommunicatis. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e404" type="decretales-l1t30c4">
-               <head xml:id="inleiv-d1e384-Hd1e406">Caput 4</head>
-               <p xml:id="inleiv-d1e384-d1e408">
-                  <lb ed="#F" n="51"/>CAPVT IIII. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e413">
-                  <lb ed="#F" n="52"/>LICET TRANEN. (Ad 
-      no<lb ed="#F" n="53" break="no"/>strae) hoc multum delinquit. 
-      <lb ed="#F" n="54"/>2. q. 1. nomen. &amp; 3. q6. 6. 
-      mul<lb ed="#F" n="55" break="no"/>tum. n1. q. 3. deniqe. C. de reli. 
-      <lb ed="#F" n="56"/>l. 2. ar. contra. inf. de ap. con¬ 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="57"/>stitutus. sol ibicmalitiose. ) ff. nau. cau. sta. 
-      <lb ed="#F" n="58"/>licet. §. 2. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e434" type="decretales-l1t30c5">
-               <head xml:id="inleiv-d1e384-Hd1e436">Caput 5</head>
-               <p xml:id="inleiv-d1e384-d1e438">
-                  <lb ed="#F" n="59"/>CAPVT IV. 
-      <lb ed="#F" n="60"/>1 plenum ius non quaeritur ex praesentatione, 
-      <lb ed="#F" n="61"/>sed ex eallatione. 
-      </p>
-               <p xml:id="inleiv-d1e384-d1e447">
-                  <lb ed="#F" n="62"/>
-                  <sic>DDILECVS</sic> FI. R. (in 
-      con<lb ed="#F" n="63" break="no"/>cessione) ex praesentatione 
-      <lb ed="#F" n="64"/>enim patroni, non quaeritur 
-      <lb ed="#F" n="65"/>lenum ius, sicut ex 
-      conces<lb ed="#F" n="66" break="no"/>ione episcopi, si 
-      discordan<lb ed="#F" n="67" break="no"/>tibus patronis post quatuor menses 
-      confe<lb ed="#F" n="68" break="no"/>rat. inf. de iure patr. quoniam in quibusdam. 
-      <lb ed="#F" n="69"/>&amp; c. propter. vel melius plus habet in 
-      con<lb ed="#F" n="70" break="no"/>cessione praelatus quam in praesentatione 
-      <lb ed="#F" n="71"/>patronus, supple in ecclesiis vbi habet 
-      col<lb ed="#F" n="72" break="no"/>lationem, quia ex collatione omnia 
-      con<lb ed="#F" n="73" break="no"/>sequitur institutus, sed ex praesentatione 
-      <lb ed="#F" n="74"/>non sequitur ius in re, licet consequatur 
-      <lb ed="#F" n="75"/>ad rem petendam &amp; personalem actionem 
-      <lb ed="#F" n="76"/>contra episcopum. inf. de iure patro. cam 
-      <lb ed="#F" n="77"/>autem. &amp; e pastoralis. &amp; c. cam dilect. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e487" type="decretales-l1t30c6">
-               <head xml:id="inleiv-d1e384-Hd1e489">Caput 6</head>
-               <p xml:id="inleiv-d1e384-d1e491">
-                  <lb ed="#F" n="78"/>CAPVT VI. 
-      <lb ed="#F" n="79"/>2 Nnpotest egressia prouintiam absgoluere at 
-      <lb ed="#F" n="80"/>excommunicatione quam tulit in 
-      exexi<lb ed="#F" n="81" break="no"/>stens, &amp; quid si exiit non animo 
-      deseren<lb ed="#F" n="82" break="no"/>di delegationem, am poterit exira 
-      prauin<lb ed="#F" n="83" break="no"/>ciam excommunicare, habes in nu. 2. 
-      <lb ed="#F" n="84"/>2 Egressus prouinciam quam habeat 
-      iurifdicti<lb ed="#F" n="85" break="no"/>onem. Et quid facere possit. &amp; nu. 1. 
-      <lb ed="#F" n="86"/>Facta avnius prouinciae, an possint in alia 
-      ex<lb ed="#F" n="87" break="no"/>ercere a legato:
-      </p>
-               <p xml:id="inleiv-d1e384-d1e515">
-                  <lb ed="#F" n="88"/>NOVIT ILLE. (
-      Promulga<lb ed="#F" n="89" break="no"/>uit) egressus prouinciam non 
-      <lb ed="#F" n="90"/>potest absoluere ab 
-      excom<lb ed="#F" n="91" break="no"/>municatione quam tulit 
-      ex<lb ed="#F" n="92" break="no"/>stens in ea. ff. de offic. 
-      praesi<lb ed="#F" n="93" break="no"/>dis. l. 3. sed delegati ab eo possunt 
-      absolue<lb ed="#F" n="94" break="no"/>re post egressum eius &amp; ligare, &amp; de 
-      <lb ed="#F" n="95"/>causis cognoscere si coeperunt vti 
-      iurisdi<lb ed="#F" n="96" break="no"/>ctione antequam egrederentur, quia 
-      per<lb ed="#F" n="97" break="no"/>petuauerit iurisdictionem fuam. arg. sup. 
-      <lb ed="#F" n="98"/>de offic. dele. licet. inf. eod. c. vlt. &amp; ab his 
-      <lb ed="#F" n="99"/>appellabitur Papa vel suecessor legati, sed 
-      <lb ed="#F" n="100"/>antequam ingrediantur prouinciam non 
-      <lb ed="#F" n="101"/>potest exercere contentiosam 
-      iurisdicti<lb ed="#F" n="102" break="no"/>onem. ff. de offic. procon. obseruare. 
-      Cau<lb ed="#F" n="103" break="no"/>sam autem quam inchoauit legatus, non 
-      <lb ed="#F" n="104"/>perficiet post suum egressum, licetalius 
-      <lb ed="#F" n="105"/>legatus qui succedet ei, vel dominus 
-      Pa<lb ed="#F" n="106" break="no"/>pa, qui intelligitur ei succedere, ex quo 
-      <lb ed="#F" n="107"/>alium non dat. ff. de offi. iudi. mortuo. <ref xml:id="inleiv-d1e384-Rd1e560">C. 
-      <lb ed="#F" n="108"/>de iudi. properandum. §. sin autem in 
-      me<lb ed="#F" n="109" break="no"/>tu.</ref> ff. de iudi. mortuo. Hinc est quod intra 
-      <lb ed="#F" n="110"/>annum non exequitur sententiam suam. 
-      <lb ed="#F" n="111"/>Nec contra. sup. de offic. deleg. quaerenti. 
-      <pb ed="#F" n="147-r"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>quae loquitur in delegato, legatus autem 
-      <lb ed="#F" n="2"/>est ordinarius. Alii dicunt, sed non placee 
-      <lb ed="#F" n="3"/>idem in delegato &amp; legato. arg. inf. de 
-      of<lb ed="#F" n="4" break="no"/>fic. or. pastoralis. §. 1. est ergo verum 
-      se<lb ed="#F" n="5" break="no"/>cundum eos id, quod dicit decre. 
-      quaeren<lb ed="#F" n="6" break="no"/>ti. quod etiam post sententiam retinet 
-      iu<lb ed="#F" n="7" break="no"/>risdictionem intra annum legatus &amp; 
-      de<lb ed="#F" n="8" break="no"/>leg. hic autem postquam deserit 
-      prouin<lb ed="#F" n="9" break="no"/>ciam sibi deputatam, vel delegatam, 
-      nul<lb ed="#F" n="10" break="no"/>lam iurisdictionem habet. 
-      <lb ed="#F" n="11"/>
-                  <!-- line coord error -->
-               </p>
-               <p xml:id="inleiv-d1e384-d1e603">
-                  <lb ed="#F" n="12"/>Quid si exierit prouineiam non anio 
-      <lb ed="#F" n="13"/>mo deserendi delegationem, sed iterum 
-      <lb ed="#F" n="14"/>reuersurus, nunquid poterit extra 
-      prouin<lb ed="#F" n="15" break="no"/>ciam excommunicare, &amp; videtur quod 
-      <lb ed="#F" n="16"/>non, quia excommunicatio requirit 
-      cogni<lb ed="#F" n="17" break="no"/>tionem causae. 2. q. 1. nemo. sed de causa non 
-      <lb ed="#F" n="18"/>potest cognoscere, nisi sedendo pro 
-      tribu<lb ed="#F" n="19" break="no"/>nali. 2. quaestio. 3. abolito. sed hoc in alia 
-      <lb ed="#F" n="20"/>prouincia facere non potest. 9. q. 2. 
-      episco<lb ed="#F" n="21" break="no"/>pum. &amp; in pluribus. c. eiusdem. Idem vero 
-      <lb ed="#F" n="22"/>fatemur nisi habeat licentiam episcopi 
-      <lb ed="#F" n="23"/>dioce. vt in eisdem c. dicitur. Crederem 
-      <lb ed="#F" n="24"/>tamen, quod posset absoluere, vbi suum 
-      <lb ed="#F" n="25"/>errorem recognoscit sine causae 
-      cognitio<lb ed="#F" n="26" break="no"/>ne propter periculum 
-      excommunicatio<lb ed="#F" n="27" break="no"/>nis. arg. inf. de sen. excom. sacro. circa fi. 
-      <lb ed="#F" n="28"/>sup. eod. c. 2. Delegare autem causas 
-      po<lb ed="#F" n="29" break="no"/>test extra prouinciam cum non eam 
-      de<lb ed="#F" n="30" break="no"/>seruerit, quia hoc non exigit causae 
-      cogni<lb ed="#F" n="31" break="no"/>tionem. ff. de offic. procon. aliquando. &amp; 
-      <lb ed="#F" n="32"/>hoc olim tantum, quando necessariam 
-      mo<lb ed="#F" n="33" break="no"/>ram faciebat extra prouinciam. hodie 
-      au<lb ed="#F" n="34" break="no"/>tem delegatus, potest si solam voluntariam 
-      <lb ed="#F" n="35"/>moram trahat. Authen. de colla. §. 
-      ante<lb ed="#F" n="36" break="no"/>quam. in ver. in prouincia. credimus etiam 
-      <lb ed="#F" n="37"/>quod possit dare praebendas extra 
-      prouin<lb ed="#F" n="38" break="no"/>ciam. arg. inf. de appel. qua fronte. &amp; 
-      ha<lb ed="#F" n="39" break="no"/>bes hic ex pressum, quod si quis est legatus 
-      <lb ed="#F" n="40"/>in pluribus prouineijs, facta vnius 
-      prouin<lb ed="#F" n="41" break="no"/>ciae potest in alia exercere. sup. de postu. 
-      <lb ed="#F" n="42"/>ad hoc. in fi. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e674" type="decretales-l1t30c8">
-               <head xml:id="inleiv-d1e384-Hd1e676">Caput 8</head>
-               <p xml:id="inleiv-d1e384-d1e678">
-                  <lb ed="#F" n="43"/>CAPVT VIII. 
-      <lb ed="#F" n="44"/>COLENTES. &amp; inf. couandiu.) C. 
-      <lb ed="#F" n="45"/>de cura. furio. cum aliis. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e688" type="decretales-l1t30c9">
-               <head xml:id="inleiv-d1e384-Hd1e690">Caput 9</head>
-               <p xml:id="inleiv-d1e384-d1e692">
-                  <lb ed="#F" n="46"/>CAPVT IX.
-      </p>
-               <p xml:id="inleiv-d1e384-d1e697">
-                  <lb ed="#F" n="47"/>EXCoMMvNICATIS. Pro 
-      <lb ed="#F" n="48"/>latere, latus Principis siue 
-      <lb ed="#F" n="49"/>Papae sunt Card. ff. ad l. Iul. 
-      <lb ed="#F" n="50"/>Maiest. si quis eum. &amp; hi, 
-      sci<lb ed="#F" n="51" break="no"/>licet, Cardinales extra 
-      pro<lb ed="#F" n="52" break="no"/>uinciam hominem alterius prouinciae 
-      ab<lb ed="#F" n="53" break="no"/>soluere possunt. (Aliunde) ergo a 
-      contra<lb ed="#F" n="54" break="no"/>rio sensu suis comprouincialibus possunt 
-      <lb ed="#F" n="55"/>munus absolutionis impendere legati, qui 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="56"/>non sunt de latere, &amp; qui non sibi 
-      vendi<lb ed="#F" n="57" break="no"/>cant ex priuilegio legationem, si autem ex 
-      <lb ed="#F" n="58"/>priuilegio sibi vendicarent, nec etiam 
-      <lb ed="#F" n="59"/>prouinciales absoluere possunt, vt hic 
-      se<lb ed="#F" n="60" break="no"/>atiter. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e384-Dd1e733" type="decretales-l1t30c10">
-               <head xml:id="inleiv-d1e384-Hd1e735">Caput 10</head>
-               <p xml:id="inleiv-d1e384-d1e737">
-                  <lb ed="#F" n="61"/>CAPVT X 
-      <lb ed="#F" n="62"/>1 Legatus an possit condere leges generales.
-      </p>
-               <p xml:id="inleiv-d1e384-d1e744">
-                  <lb ed="#F" n="63"/>NEMINI DVPIVM ESSE 
-      <lb ed="#F" n="64"/>VOLVMVS. (Statuta) &amp; ita 
-      <lb ed="#F" n="65"/>habes, quod legatus potest 
-      <lb ed="#F" n="66"/>condere leges generales, non 
-      <lb ed="#F" n="67"/>tamen contrarias legibus &amp; 
-      <lb ed="#F" n="68"/>constitutionibus generalibus. C. de offic. 
-      <lb ed="#F" n="69"/>presbyt. alle. l. forma. Et credo, quod in 
-      <lb ed="#F" n="70"/>condendo talia statuta debet requirere 
-      <lb ed="#F" n="71"/>consilium praelatorum prouinciae. 9. qon. 
-      <lb ed="#F" n="72"/>3. per totum. &amp; maxime in c. 1. 3. 4. &amp; 5. &amp; 
-      <lb ed="#F" n="73"/>aliquando requirere debet populum. de 
-      <lb ed="#F" n="74"/>conse. dist. 3. c. 1. sed credo, quod etiam eis 
-      <lb ed="#F" n="75"/>irrequisitis teneant statuta, quae facit 
-      le<lb ed="#F" n="76" break="no"/>gatus de his, quae pertinent ad 
-      iurisdictio<lb ed="#F" n="77" break="no"/>nem suam. aro praealleil. formam. sed de 
-      <lb ed="#F" n="78"/>alijs secus. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 30</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 30</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="146-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e384" type="decretales-l1t30">
+        <head xml:id="inleiv-d1e384-Hd1e98">Titulus 30</head>
+        <p xml:id="inleiv-d1e384-d1e100">
+          <lb ed="#F" n="44"/>TITVLVS XXX 
+          <lb ed="#F" n="45"/>OFFICIO LEGATI.
+        </p>
+        <div xml:id="inleiv-d1e384-Dd1e107" type="decretales-l1t30c1">
+          <head xml:id="inleiv-d1e384-Hd1e109">Caput 1</head>
+          <p xml:id="inleiv-d1e384-d1e111">
+            <lb ed="#F" n="46"/>CAPVT I. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e116">
+            <lb ed="#F" n="47"/>CVM RON IGNORETIS 
+            <lb ed="#F" n="48"/>Per app. etiam in alijs 
+            casi<lb ed="#F" n="49" break="no"/>bus, quos dicimus infra( 
+            au<lb ed="#F" n="50" break="no"/>dire) quid possit legatus, 
+            col<lb ed="#F" n="51" break="no"/>ligendum est ex literis 
+            lega<lb ed="#F" n="52" break="no"/>ti. inf. de priui. porro. &amp; non est contra. 25. 
+            <lb ed="#F" n="53"/>q. 2 seruatis quaedam, tamen potest etiam 
+            <lb ed="#F" n="54"/>si non exprimantur, vt hic. (studuisti) co¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="55"/>gnitionem, id est, antequam incipiat 
+            co<lb ed="#F" n="56" break="no"/>gnoscere delegatus (deroget) sup. de 
+            re<lb ed="#F" n="57" break="no"/>ser. cum sit Ro. simpedire) 1i1. q. 1. c. 
+            perue<lb ed="#F" n="58" break="no"/>nit. &amp; 95. di. eccle. C. de do. in hoc. 93. dist. 
+            <lb ed="#F" n="59"/>praecipimus (mandatum) C. si aduer. rem 
+            <lb ed="#F" n="60"/>iudi. aduersus. ff. ad Treb. ille a quo. §. 
+            tem<lb ed="#F" n="61" break="no"/>pestiue. Confirmare) in communi 
+            for<lb ed="#F" n="62" break="no"/>ma, quae modicum valet confirmamus, 
+            si<lb ed="#F" n="63" break="no"/>cut lata est. inf. de conces. praeben. &amp; eccl. 
+            <lb ed="#F" n="64"/>non vacan. quia diuersi. cum causae autem 
+            <lb ed="#F" n="65"/>cognitione non potest, quia per consequens 
+            <lb ed="#F" n="66"/>posset infirmare. 21. dist. inferior. ff. de re 
+            <lb ed="#F" n="67"/>iudi. qui condem. de pae. dist. 1. verbum. ff. 
+            <lb ed="#F" n="68"/>de reb iar eibes 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e169" type="decretales-l1t30c2">
+          <head xml:id="inleiv-d1e384-Hd1e171">Caput 2</head>
+          <p xml:id="inleiv-d1e384-d1e173">
+            <lb ed="#F" n="69"/>CAPVT 1I 
+            <lb ed="#F" n="70"/>1 Paena an possit post latam sententiam remitti. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e180">
+            <lb ed="#F" n="71"/>NISI SPECIALIS. (Illa 
+            dile<lb ed="#F" n="72" break="no"/>ctio) Not. iu. amore 
+            remitte<lb ed="#F" n="73" break="no"/>re poenam. 30. dist. clerico. 35. 
+            <lb ed="#F" n="74"/>qon. 9. praetio autem non 
+            po<lb ed="#F" n="75" break="no"/>test. 1. q. 1. nullus. Item ex quo 
+            <lb ed="#F" n="76"/>sentent ia lata est, non potest amore 
+            remit<lb ed="#F" n="77" break="no"/>tere poenam. 2. quaest. 3. §. notandum. si alio 
+            <lb ed="#F" n="78"/>agente condemnatus sit, non potest 
+            remit<lb ed="#F" n="79" break="no"/>ti poena sine consensu eius pro quo lata est 
+            <lb ed="#F" n="80"/>sententia si ei interesset. Item 
+            pecuniali<lb ed="#F" n="81" break="no"/>ter, idem videtur quibusdam si suam 
+            pro<lb ed="#F" n="82" break="no"/>sequatur iniuriam, alii tamen 
+            contra<lb ed="#F" n="83" break="no"/>dicunt. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e212" type="decretales-l1t30c3">
+          <head xml:id="inleiv-d1e384-Hd1e214">Caput 3</head>
+          <p xml:id="inleiv-d1e384-d1e216">
+            <lb ed="#F" n="84"/>CAPVT III. 
+            <lb ed="#F" n="85"/>1 Delegatus anabseluere postit extma 
+            prouinci<lb ed="#F" n="86" break="no"/>am sibi decretam 
+            <lb ed="#F" n="87"/>2 An smita legatione darent indulgentia a 
+            le<lb ed="#F" n="88" break="no"/>gatis concessae. 
+            <lb ed="#F" n="89"/>Legatus an sit iudex ordinariur. 
+            <lb ed="#F" n="90"/>3 An sententia ferri possit sub conditione. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e234">
+            <lb ed="#F" n="91"/>QVOP 
+            TRANSLATIO<lb ed="#F" n="92" break="no"/>NEM. &amp; inf. (speciali) 
+            quae<lb ed="#F" n="93" break="no"/>dam sunt quae necesse est 
+            spe<lb ed="#F" n="94" break="no"/>cialiter demandari. ff. quae in 
+            <lb ed="#F" n="95"/>au. cre. si pater. ff. de pact. 
+            <lb ed="#F" n="96"/>iuregentium. §. vlti. ff. de procu. 
+            Pompo<lb ed="#F" n="97" break="no"/>nius. &amp; l. mandato (priuilegii) imo &amp; 
+            quae<lb ed="#F" n="98" break="no"/>dam alia, non enim potest absoluere 
+            ex<lb ed="#F" n="99" break="no"/>communicatum a domino Papa, &amp; quod 
+            <lb ed="#F" n="100"/>plus est a delegato eius. sup. eod. studuisti. 
+            <lb ed="#F" n="101"/>nec vacaturam concedere. inf. de praeben. 
+            <lb ed="#F" n="102"/>dilect. (etsi) id est, quamuis.
+          </p>
+          <p xml:id="inleiv-d1e384-d1e263">
+            <lb ed="#F" n="103"/>Ex ipso) non solum ipsos de 
+            prouin<lb ed="#F" n="104" break="no"/>cia, sed etiam alios extra prouinciam 
+            de<lb ed="#F" n="105" break="no"/>cretam potest delegatus absoluere. inf. 
+            <lb ed="#F" n="106"/>eod. excommunicatis. &amp; sic quod de 
+            fa<lb ed="#F" n="107" break="no"/>cto approbat ecclesia Ro. sufficit, vt 
+            habe<lb ed="#F" n="108" break="no"/>atur pro iure. ff. de legis de quibus. ff. de 
+            <lb ed="#F" n="109"/>adop. emancipatam. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e281">
+            <pb ed="#F" n="146-v"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>Et hoc intelligo verum in legato, qui 
+            <lb ed="#F" n="2"/>a latere Papae mittitur, scilicet, Cardinali. 
+            <lb ed="#F" n="3"/>inf. de sen. excom. ad eminentiam. c. ea. 
+            <lb ed="#F" n="4"/>noscitur. Alii autem legati qui non sunt 
+            <lb ed="#F" n="5"/>Cardinales, &amp; qui ex prinilegio sunt 
+            lega<lb ed="#F" n="6" break="no"/>ti, non plus habent potestatis, quam in 
+            pri<lb ed="#F" n="7" break="no"/>uilegio continetur inf. eo. c. pe. inf. de 
+            pri<lb ed="#F" n="8" break="no"/>ui. porro. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e306">
+            <lb ed="#F" n="9"/>Sed quid dices de indulgentijs, quas 
+            <lb ed="#F" n="10"/>dedere, durant ne finita legatione eorum, 
+            <lb ed="#F" n="11"/>&amp; quid dices de sententijs, quae feruntur 
+            <lb ed="#F" n="12"/>sic, quicunque fecerit furtum sit 
+            excom<lb ed="#F" n="13" break="no"/>municatus Respon. quod sic, legatus enim 
+            <lb ed="#F" n="14"/>est iudex ordinarius. C. de offi. rec. prouin. 
+            <lb ed="#F" n="15"/>quia habet imperium. ff. de offi. procon. l. 
+            <lb ed="#F" n="16"/>&amp; ideo, legatum enim si est ex Cardinalibus, 
+            <lb ed="#F" n="17"/>similem dicimus proconsuli. ar. ff. de offi. 
+            <lb ed="#F" n="18"/>procon. l. 1. &amp; vlt. alios autem legatos 
+            sin<lb ed="#F" n="19" break="no"/>gulos similes dicimus praesidibus. arg. ff. de 
+            <lb ed="#F" n="20"/>offi. praesi. l. 1. praeterea apparet eum 
+            ordi<lb ed="#F" n="21" break="no"/>narium, qui vniuersae causae criminales &amp; 
+            <lb ed="#F" n="22"/>ciuiles prouinciae ad eum deferuntur. supe. 
+            <lb ed="#F" n="23"/>eod. c. 1. cum autem hoc possint alii 
+            ordi<lb ed="#F" n="24" break="no"/>narij. inf. de senten. excommu. a nobis. inf. 
+            <lb ed="#F" n="25"/>de poeni. &amp; remis. nostro, multo fortius 
+            le<lb ed="#F" n="26" break="no"/>gati habent enim maius imperium 
+            omni<lb ed="#F" n="27" break="no"/>bus iudicibus in prouincia post 
+            Princi<lb ed="#F" n="28" break="no"/>pem. ff. de effic. procon. si in aliqua. §. 
+            pe<lb ed="#F" n="29" break="no"/>nult. &amp; l. nec quicquam. Item praefectus 
+            <lb ed="#F" n="30"/>ad tempus &amp; in perpetuum potest 
+            ali<lb ed="#F" n="31" break="no"/>quem prohibere. ff. de offic. praefec vr. l. 1. 
+            <lb ed="#F" n="32"/>S pe. arg. contra. ff. de pe. l. vlti. ff. de priui. 
+            <lb ed="#F" n="33"/>l. puto. §. vlt. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e363">
+            <lb ed="#F" n="34"/>Item videtur quasi determinatum, 
+            <lb ed="#F" n="35"/>quod posset ferre sententiam sub 
+            conditi<lb ed="#F" n="36" break="no"/>one, puta si quis sic fecerit, vt talem poenam 
+            <lb ed="#F" n="37"/>patietur, quod duret, &amp; indulgentias 
+            da<lb ed="#F" n="38" break="no"/>ret. inf. c. vlt. quod nos credimus. Nec ob. 
+            <lb ed="#F" n="39"/>l. de poenis. &amp; de priuil. quae loquantur, 
+            <lb ed="#F" n="40"/>vbi iudex absque causae cognitione poenam 
+            <lb ed="#F" n="41"/>infert sine praefinitione temporis, quae 
+            poe<lb ed="#F" n="42" break="no"/>na tantum suae administrationis tempore 
+            <lb ed="#F" n="43"/>durare intelligitur, secus vbi cum causae 
+            <lb ed="#F" n="44"/>cognitione. Item secus in indulgentijs, 
+            <lb ed="#F" n="45"/>quae funt extendendae. sup. de consti. prin. 
+            <lb ed="#F" n="46"/>l. vlt. nunquid dispensare poteste Respon. 
+            <lb ed="#F" n="47"/>sic. inf. de transact. ex parte. Alii autem 
+            le<lb ed="#F" n="48" break="no"/>gati, qui non sunt cardinales, possunt 
+            ab<lb ed="#F" n="49" break="no"/>soluere excommunicatos, secundum 
+            te<lb ed="#F" n="50" break="no"/>norem decre inf. eo excommunicatis. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e404" type="decretales-l1t30c4">
+          <head xml:id="inleiv-d1e384-Hd1e406">Caput 4</head>
+          <p xml:id="inleiv-d1e384-d1e408">
+            <lb ed="#F" n="51"/>CAPVT IIII. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e413">
+            <lb ed="#F" n="52"/>LICET TRANEN. (Ad 
+            no<lb ed="#F" n="53" break="no"/>strae) hoc multum delinquit. 
+            <lb ed="#F" n="54"/>2. q. 1. nomen. &amp; 3. q6. 6. 
+            mul<lb ed="#F" n="55" break="no"/>tum. n1. q. 3. deniqe. C. de reli. 
+            <lb ed="#F" n="56"/>l. 2. ar. contra. inf. de ap. con¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="57"/>stitutus. sol ibicmalitiose. ) ff. nau. cau. sta. 
+            <lb ed="#F" n="58"/>licet. §. 2. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e434" type="decretales-l1t30c5">
+          <head xml:id="inleiv-d1e384-Hd1e436">Caput 5</head>
+          <p xml:id="inleiv-d1e384-d1e438">
+            <lb ed="#F" n="59"/>CAPVT IV. 
+            <lb ed="#F" n="60"/>1 plenum ius non quaeritur ex praesentatione, 
+            <lb ed="#F" n="61"/>sed ex eallatione. 
+          </p>
+          <p xml:id="inleiv-d1e384-d1e447">
+            <lb ed="#F" n="62"/>
+            <sic>DDILECVS</sic> FI. R. (in 
+            con<lb ed="#F" n="63" break="no"/>cessione) ex praesentatione 
+            <lb ed="#F" n="64"/>enim patroni, non quaeritur 
+            <lb ed="#F" n="65"/>lenum ius, sicut ex 
+            conces<lb ed="#F" n="66" break="no"/>ione episcopi, si 
+            discordan<lb ed="#F" n="67" break="no"/>tibus patronis post quatuor menses 
+            confe<lb ed="#F" n="68" break="no"/>rat. inf. de iure patr. quoniam in quibusdam. 
+            <lb ed="#F" n="69"/>&amp; c. propter. vel melius plus habet in 
+            con<lb ed="#F" n="70" break="no"/>cessione praelatus quam in praesentatione 
+            <lb ed="#F" n="71"/>patronus, supple in ecclesiis vbi habet 
+            col<lb ed="#F" n="72" break="no"/>lationem, quia ex collatione omnia 
+            con<lb ed="#F" n="73" break="no"/>sequitur institutus, sed ex praesentatione 
+            <lb ed="#F" n="74"/>non sequitur ius in re, licet consequatur 
+            <lb ed="#F" n="75"/>ad rem petendam &amp; personalem actionem 
+            <lb ed="#F" n="76"/>contra episcopum. inf. de iure patro. cam 
+            <lb ed="#F" n="77"/>autem. &amp; e pastoralis. &amp; c. cam dilect. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e487" type="decretales-l1t30c6">
+          <head xml:id="inleiv-d1e384-Hd1e489">Caput 6</head>
+          <p xml:id="inleiv-d1e384-d1e491">
+            <lb ed="#F" n="78"/>CAPVT VI. 
+            <lb ed="#F" n="79"/>2 Nnpotest egressia prouintiam absgoluere at 
+            <lb ed="#F" n="80"/>excommunicatione quam tulit in 
+            exexi<lb ed="#F" n="81" break="no"/>stens, &amp; quid si exiit non animo 
+            deseren<lb ed="#F" n="82" break="no"/>di delegationem, am poterit exira 
+            prauin<lb ed="#F" n="83" break="no"/>ciam excommunicare, habes in nu. 2. 
+            <lb ed="#F" n="84"/>2 Egressus prouinciam quam habeat 
+            iurifdicti<lb ed="#F" n="85" break="no"/>onem. Et quid facere possit. &amp; nu. 1. 
+            <lb ed="#F" n="86"/>Facta avnius prouinciae, an possint in alia 
+            ex<lb ed="#F" n="87" break="no"/>ercere a legato:
+          </p>
+          <p xml:id="inleiv-d1e384-d1e515">
+            <lb ed="#F" n="88"/>NOVIT ILLE. (
+            Promulga<lb ed="#F" n="89" break="no"/>uit) egressus prouinciam non 
+            <lb ed="#F" n="90"/>potest absoluere ab 
+            excom<lb ed="#F" n="91" break="no"/>municatione quam tulit 
+            ex<lb ed="#F" n="92" break="no"/>stens in ea. ff. de offic. 
+            praesi<lb ed="#F" n="93" break="no"/>dis. l. 3. sed delegati ab eo possunt 
+            absolue<lb ed="#F" n="94" break="no"/>re post egressum eius &amp; ligare, &amp; de 
+            <lb ed="#F" n="95"/>causis cognoscere si coeperunt vti 
+            iurisdi<lb ed="#F" n="96" break="no"/>ctione antequam egrederentur, quia 
+            per<lb ed="#F" n="97" break="no"/>petuauerit iurisdictionem fuam. arg. sup. 
+            <lb ed="#F" n="98"/>de offic. dele. licet. inf. eod. c. vlt. &amp; ab his 
+            <lb ed="#F" n="99"/>appellabitur Papa vel suecessor legati, sed 
+            <lb ed="#F" n="100"/>antequam ingrediantur prouinciam non 
+            <lb ed="#F" n="101"/>potest exercere contentiosam 
+            iurisdicti<lb ed="#F" n="102" break="no"/>onem. ff. de offic. procon. obseruare. 
+            Cau<lb ed="#F" n="103" break="no"/>sam autem quam inchoauit legatus, non 
+            <lb ed="#F" n="104"/>perficiet post suum egressum, licetalius 
+            <lb ed="#F" n="105"/>legatus qui succedet ei, vel dominus 
+            Pa<lb ed="#F" n="106" break="no"/>pa, qui intelligitur ei succedere, ex quo 
+            <lb ed="#F" n="107"/>alium non dat. ff. de offi. iudi. mortuo. <ref xml:id="inleiv-d1e384-Rd1e560">C. 
+              <lb ed="#F" n="108"/>de iudi. properandum. §. sin autem in 
+              me<lb ed="#F" n="109" break="no"/>tu.</ref> ff. de iudi. mortuo. Hinc est quod intra 
+            <lb ed="#F" n="110"/>annum non exequitur sententiam suam. 
+            <lb ed="#F" n="111"/>Nec contra. sup. de offic. deleg. quaerenti. 
+            <pb ed="#F" n="147-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>quae loquitur in delegato, legatus autem 
+            <lb ed="#F" n="2"/>est ordinarius. Alii dicunt, sed non placee 
+            <lb ed="#F" n="3"/>idem in delegato &amp; legato. arg. inf. de 
+            of<lb ed="#F" n="4" break="no"/>fic. or. pastoralis. §. 1. est ergo verum 
+            se<lb ed="#F" n="5" break="no"/>cundum eos id, quod dicit decre. 
+            quaeren<lb ed="#F" n="6" break="no"/>ti. quod etiam post sententiam retinet 
+            iu<lb ed="#F" n="7" break="no"/>risdictionem intra annum legatus &amp; 
+            de<lb ed="#F" n="8" break="no"/>leg. hic autem postquam deserit 
+            prouin<lb ed="#F" n="9" break="no"/>ciam sibi deputatam, vel delegatam, 
+            nul<lb ed="#F" n="10" break="no"/>lam iurisdictionem habet. 
+            <lb ed="#F" n="11"/>
+            <!-- line coord error -->
+          </p>
+          <p xml:id="inleiv-d1e384-d1e603">
+            <lb ed="#F" n="12"/>Quid si exierit prouineiam non anio 
+            <lb ed="#F" n="13"/>mo deserendi delegationem, sed iterum 
+            <lb ed="#F" n="14"/>reuersurus, nunquid poterit extra 
+            prouin<lb ed="#F" n="15" break="no"/>ciam excommunicare, &amp; videtur quod 
+            <lb ed="#F" n="16"/>non, quia excommunicatio requirit 
+            cogni<lb ed="#F" n="17" break="no"/>tionem causae. 2. q. 1. nemo. sed de causa non 
+            <lb ed="#F" n="18"/>potest cognoscere, nisi sedendo pro 
+            tribu<lb ed="#F" n="19" break="no"/>nali. 2. quaestio. 3. abolito. sed hoc in alia 
+            <lb ed="#F" n="20"/>prouincia facere non potest. 9. q. 2. 
+            episco<lb ed="#F" n="21" break="no"/>pum. &amp; in pluribus. c. eiusdem. Idem vero 
+            <lb ed="#F" n="22"/>fatemur nisi habeat licentiam episcopi 
+            <lb ed="#F" n="23"/>dioce. vt in eisdem c. dicitur. Crederem 
+            <lb ed="#F" n="24"/>tamen, quod posset absoluere, vbi suum 
+            <lb ed="#F" n="25"/>errorem recognoscit sine causae 
+            cognitio<lb ed="#F" n="26" break="no"/>ne propter periculum 
+            excommunicatio<lb ed="#F" n="27" break="no"/>nis. arg. inf. de sen. excom. sacro. circa fi. 
+            <lb ed="#F" n="28"/>sup. eod. c. 2. Delegare autem causas 
+            po<lb ed="#F" n="29" break="no"/>test extra prouinciam cum non eam 
+            de<lb ed="#F" n="30" break="no"/>seruerit, quia hoc non exigit causae 
+            cogni<lb ed="#F" n="31" break="no"/>tionem. ff. de offic. procon. aliquando. &amp; 
+            <lb ed="#F" n="32"/>hoc olim tantum, quando necessariam 
+            mo<lb ed="#F" n="33" break="no"/>ram faciebat extra prouinciam. hodie 
+            au<lb ed="#F" n="34" break="no"/>tem delegatus, potest si solam voluntariam 
+            <lb ed="#F" n="35"/>moram trahat. Authen. de colla. §. 
+            ante<lb ed="#F" n="36" break="no"/>quam. in ver. in prouincia. credimus etiam 
+            <lb ed="#F" n="37"/>quod possit dare praebendas extra 
+            prouin<lb ed="#F" n="38" break="no"/>ciam. arg. inf. de appel. qua fronte. &amp; 
+            ha<lb ed="#F" n="39" break="no"/>bes hic ex pressum, quod si quis est legatus 
+            <lb ed="#F" n="40"/>in pluribus prouineijs, facta vnius 
+            prouin<lb ed="#F" n="41" break="no"/>ciae potest in alia exercere. sup. de postu. 
+            <lb ed="#F" n="42"/>ad hoc. in fi. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e674" type="decretales-l1t30c8">
+          <head xml:id="inleiv-d1e384-Hd1e676">Caput 8</head>
+          <p xml:id="inleiv-d1e384-d1e678">
+            <lb ed="#F" n="43"/>CAPVT VIII. 
+            <lb ed="#F" n="44"/>COLENTES. &amp; inf. couandiu.) C. 
+            <lb ed="#F" n="45"/>de cura. furio. cum aliis. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e688" type="decretales-l1t30c9">
+          <head xml:id="inleiv-d1e384-Hd1e690">Caput 9</head>
+          <p xml:id="inleiv-d1e384-d1e692">
+            <lb ed="#F" n="46"/>CAPVT IX.
+          </p>
+          <p xml:id="inleiv-d1e384-d1e697">
+            <lb ed="#F" n="47"/>EXCoMMvNICATIS. Pro 
+            <lb ed="#F" n="48"/>latere, latus Principis siue 
+            <lb ed="#F" n="49"/>Papae sunt Card. ff. ad l. Iul. 
+            <lb ed="#F" n="50"/>Maiest. si quis eum. &amp; hi, 
+            sci<lb ed="#F" n="51" break="no"/>licet, Cardinales extra 
+            pro<lb ed="#F" n="52" break="no"/>uinciam hominem alterius prouinciae 
+            ab<lb ed="#F" n="53" break="no"/>soluere possunt. (Aliunde) ergo a 
+            contra<lb ed="#F" n="54" break="no"/>rio sensu suis comprouincialibus possunt 
+            <lb ed="#F" n="55"/>munus absolutionis impendere legati, qui 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="56"/>non sunt de latere, &amp; qui non sibi 
+            vendi<lb ed="#F" n="57" break="no"/>cant ex priuilegio legationem, si autem ex 
+            <lb ed="#F" n="58"/>priuilegio sibi vendicarent, nec etiam 
+            <lb ed="#F" n="59"/>prouinciales absoluere possunt, vt hic 
+            se<lb ed="#F" n="60" break="no"/>atiter. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e384-Dd1e733" type="decretales-l1t30c10">
+          <head xml:id="inleiv-d1e384-Hd1e735">Caput 10</head>
+          <p xml:id="inleiv-d1e384-d1e737">
+            <lb ed="#F" n="61"/>CAPVT X 
+            <lb ed="#F" n="62"/>1 Legatus an possit condere leges generales.
+          </p>
+          <p xml:id="inleiv-d1e384-d1e744">
+            <lb ed="#F" n="63"/>NEMINI DVPIVM ESSE 
+            <lb ed="#F" n="64"/>VOLVMVS. (Statuta) &amp; ita 
+            <lb ed="#F" n="65"/>habes, quod legatus potest 
+            <lb ed="#F" n="66"/>condere leges generales, non 
+            <lb ed="#F" n="67"/>tamen contrarias legibus &amp; 
+            <lb ed="#F" n="68"/>constitutionibus generalibus. C. de offic. 
+            <lb ed="#F" n="69"/>presbyt. alle. l. forma. Et credo, quod in 
+            <lb ed="#F" n="70"/>condendo talia statuta debet requirere 
+            <lb ed="#F" n="71"/>consilium praelatorum prouinciae. 9. qon. 
+            <lb ed="#F" n="72"/>3. per totum. &amp; maxime in c. 1. 3. 4. &amp; 5. &amp; 
+            <lb ed="#F" n="73"/>aliquando requirere debet populum. de 
+            <lb ed="#F" n="74"/>conse. dist. 3. c. 1. sed credo, quod etiam eis 
+            <lb ed="#F" n="75"/>irrequisitis teneant statuta, quae facit 
+            le<lb ed="#F" n="76" break="no"/>gatus de his, quae pertinent ad 
+            iurisdictio<lb ed="#F" n="77" break="no"/>nem suam. aro praealleil. formam. sed de 
+            <lb ed="#F" n="78"/>alijs secus. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,279 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 16</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 16</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="105-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e227" type="decretales-l1t16">
-            <head xml:id="inleiv-d1e227-Hd1e98">Titulus 16</head>
-            <p xml:id="inleiv-d1e227-d1e100">
-               <lb ed="#F" n="65"/>TITVLVS XVI 
-      <lb ed="#F" n="66"/>DE SACRAMENTIS 
-      <lb ed="#F" n="67"/>ITERANDIS, VEL NON. 
-      </p>
-            <div xml:id="inleiv-d1e227-Dd1e109" type="decretales-l1t16c1">
-               <head xml:id="inleiv-d1e227-Hd1e111">Caput 1</head>
-               <p xml:id="inleiv-d1e227-d1e113">
-                  <lb ed="#F" n="68"/>CAPVT I. 
-      <lb ed="#F" n="69"/>1 An manuum imposutio sit necessatia int 
-      ordt<lb ed="#F" n="70" break="no"/>natione. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e122">
-                  <lb ed="#F" n="71"/>PASTORALIS. &amp; incta, 
-      <lb ed="#F" n="72"/>(Consulere) licet non 
-      respon<lb ed="#F" n="73" break="no"/>deat, tu dic, quod non debet 
-      <lb ed="#F" n="74"/>ministrare, antequam 
-      sup<lb ed="#F" n="75" break="no"/>pleatur. 52. distinct. 
-      solicitu<lb ed="#F" n="76" break="no"/>do. inf. eod. cap. vlti. Alii dicunt, quod 
-      <lb ed="#F" n="77"/>manus impositio non est de substantia ora 
-      <lb ed="#F" n="78"/>dinis, &amp; ideo celebrare potest. (
-      Manu<lb ed="#F" n="79" break="no"/>um) id est, benedictionem. 1. quaest. 1. 
-      ma<lb ed="#F" n="80" break="no"/>nus. &amp; haec manus impositio fit non solum 
-      <lb ed="#F" n="81"/>subdiacono, sed in minoribus ordinibus 
-      <lb ed="#F" n="82"/>constitutis. 69. dist. c. 1. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e151">
-                  <lb ed="#F" n="83"/>1 Consecratoria) manus impositio 
-      au<lb ed="#F" n="84" break="no"/>tem non fit nisi diacono &amp; superioribus. 
-      <lb ed="#F" n="85"/>inf. eod. cap. vltim. 24. distinct. 
-      subdiaco<lb ed="#F" n="86" break="no"/>nus. Tu dic, quod hae impositiones non 
-      <lb ed="#F" n="87"/>sunt necessariae, quia vera litera est 
-      dia<lb ed="#F" n="88" break="no"/>conatus. (Delinitus) id est, vnctus 
-      secun<lb ed="#F" n="89" break="no"/>dum veram literam, quae est diaconatus 
-      <lb ed="#F" n="90"/>non est necessaria ista gloss. quia 
-      diaco<lb ed="#F" n="91" break="no"/>nus bene recipit manus impositionem. 
-      <lb ed="#F" n="92"/>(Supplendus. ) sup. titul. proxi. cum 
-      venis<lb ed="#F" n="93" break="no"/>set. in princip. 1. quaestio. 1. S. ec ce. inf. 
-      eod<lb ed="#F" n="94" break="no"/>cap. vlt. (Supplendum) quia sibi fiet 
-      ma<lb ed="#F" n="95" break="no"/>nus impositio, &amp; dicetur oratio, quae 
-      dici<lb ed="#F" n="96" break="no"/>tur, quando fit manus impositio. inf. c. vlt. 
-      <lb ed="#F" n="97"/>sed in secundo casu, vbi oleo vnctus est, 
-      <lb ed="#F" n="98"/>non credimus balsamo vngendum, de 
-      <lb ed="#F" n="99"/>quo oleo &amp; balsamo fit chrisma, scilicet, 
-      <lb ed="#F" n="100"/>&amp; de chrismate vngendum est. sup. titul. 
-      <lb ed="#F" n="101"/>prox. c. 1. circa princip. Erat ergo 
-      chrisma<lb ed="#F" n="102" break="no"/>te vngendus, &amp; oratio dicenda, quae dici 
-      <lb ed="#F" n="103"/>consueuit cum chrismate vngitur, licet 
-      di<lb ed="#F" n="104" break="no"/>cta fuerit, nec habet in hoc sacramento, vbi 
-      <lb ed="#F" n="105"/>non sunt diuersi actus locum, quod 
-      omis<lb ed="#F" n="106" break="no"/>sum est, caute supplendum, sed quasi 
-      to<lb ed="#F" n="107" break="no"/>tum est iterandum, nisi forte propter 
-      ali<lb ed="#F" n="108" break="no"/>quas solennitates quae non reiterabuntur 
-      <lb ed="#F" n="109"/>si primo factae fuerunt. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e227-Dd1e213" type="decretales-l1t16c2">
-               <head xml:id="inleiv-d1e227-Hd1e215">Caput 2</head>
-               <p xml:id="inleiv-d1e227-d1e217">
-                  <pb ed="#F" n="106-r"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>CAPVT II. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e226">
-                  <lb ed="#F" n="2"/>VOBIS HVMILITER. (
-      Ex<lb ed="#F" n="3" break="no"/>humandos) quia non sunt in 
-      <lb ed="#F" n="4"/>culpa, quicquid de 
-      corpori<lb ed="#F" n="5" break="no"/>bus eorum fit post mortem, 
-      <lb ed="#F" n="6"/>sed si elegissent scienter ab 
-      <lb ed="#F" n="7"/>eis sepeliri, crederent exhumandos, cum 
-      <lb ed="#F" n="8"/>gratiter deliquerint. as. dist. c. fi. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e227-Dd1e245" type="decretales-l1t16c3">
-               <head xml:id="inleiv-d1e227-Hd1e247">Caput 3</head>
-               <p xml:id="inleiv-d1e227-d1e249">
-                  <lb ed="#F" n="9"/>CAPVT III. 
-      <lb ed="#F" n="10"/>1 Cuiusnodi fuerit rituc ordinationis in 
-      primi<lb ed="#F" n="11" break="no"/>tiua ecclesia. 
-      <lb ed="#F" n="12"/>2 Dimissa in ordinatione non sunt iteranda, sed 
-      <lb ed="#F" n="13"/>sipplendum est. &amp; vide in num. 3. e .
-      </p>
-               <p xml:id="inleiv-d1e227-d1e262">
-                  <lb ed="#F" n="14"/>RESPVTER ET 
-      DIACO<lb ed="#F" n="15" break="no"/>NVS. (Ritu) de ritu 
-      Aposto<lb ed="#F" n="16" break="no"/>lico inuenitur in epistola ad 
-      <lb ed="#F" n="17"/>Titum, alias Timo. quod 
-      <lb ed="#F" n="18"/>manus imponebat 
-      ordinan<lb ed="#F" n="19" break="no"/>dis, &amp; quod orationem fundebat super 
-      <lb ed="#F" n="20"/>eos, aliam autem formam non inuenimus 
-      <lb ed="#F" n="21"/>ab eis seruatam, vnde credimus, quod nisi 
-      <lb ed="#F" n="22"/>essent formae postea inuentae, sufficeret 
-      <lb ed="#F" n="23"/>ordinatori dicere, sis sacerdos, vel alia 
-      ae<lb ed="#F" n="24" break="no"/>quipollentia verba, sed subsequentibus 
-      <lb ed="#F" n="25"/>temporibus formas, quae seruantur, 
-      eccle<lb ed="#F" n="26" break="no"/>sia ordinauit, &amp; sunt tantae necessitatis 
-      di<lb ed="#F" n="27" break="no"/>ctae formae, quod si ijs non seruaris aliquis 
-      <lb ed="#F" n="28"/>fuerit ordinatus, supplendum est, quod 
-      <lb ed="#F" n="29"/>omissum est, &amp; si formae seruant character 
-      <lb ed="#F" n="30"/>infigitur animae, id est, figura 
-      intellectua<lb ed="#F" n="31" break="no"/>lis, &amp; indeficibilis ostendens ordinem 
-      col<lb ed="#F" n="32" break="no"/>latum ipsi consecrato, nec mireris si per 
-      <lb ed="#F" n="33"/>institutionem ecclesiae infigitur character 
-      <lb ed="#F" n="34"/>in anima, cum animae sint de 
-      iurisdictio<lb ed="#F" n="35" break="no"/>ne Papae, &amp; spiritualium patrum, vnde 
-      su<lb ed="#F" n="36" break="no"/>per eis constitutiones suas facere potest, 
-      <lb ed="#F" n="37"/>dummodo non sint contrariae 
-      constituti<lb ed="#F" n="38" break="no"/>onibe Dei. ar. 10. dist. suscipitis. 95. dist. cum 
-      <lb ed="#F" n="39"/>ad verum. inf. de ma. &amp; obe. solitae. &amp; arg. 
-      <lb ed="#F" n="40"/>ad hoc. 1. quaestio. 1. quod Deo. vbi dicitur, 
-      <lb ed="#F" n="41"/>quod Imperator facit per suas 
-      constituti<lb ed="#F" n="42" break="no"/>enes, quod character militaris 
-      indiuisibi<lb ed="#F" n="43" break="no"/>liter affigitur militi, &amp; posset dici, quod 
-      <lb ed="#F" n="44"/>ille character qui infigitur ex 
-      constitutio<lb ed="#F" n="45" break="no"/>ne Imperatoris, non infigitur intuitu 
-      ani<lb ed="#F" n="46" break="no"/>mae principaliter, sed corporis, quod ex eo 
-      <lb ed="#F" n="47"/>apparet, quia mortuo milite, anima nihil 
-      <lb ed="#F" n="48"/>ex illo charactere consequitur: in 
-      mona<lb ed="#F" n="49" break="no"/>chatu autem non videtur, quod infigatur 
-      <lb ed="#F" n="50"/>character, quia Papa facere posset, quod 
-      <lb ed="#F" n="51"/>non esset monachus, qui ordinem 
-      consti<lb ed="#F" n="52" break="no"/>tuit monachorum. ar. inf. de sta. mo. cum 
-      <lb ed="#F" n="53"/>ad mo. (Omissum) manus impositioc 
-      Ite<lb ed="#F" n="54" break="no"/>randum) ordo(Statuto) no. iisdem 
-      tempo<lb ed="#F" n="55" break="no"/>ribus supplendum, quibus conferendum, 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="56"/>scilicet, in quatuor temporibus. sup. de 
-      <lb ed="#F" n="57"/>temp. ord. c. 1. 2. &amp; 3. &amp; seq. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e362">
-                  <lb ed="#F" n="58"/>2 Supplendi) in sabbato enim 
-      quatu<lb ed="#F" n="59" break="no"/>or temporum vocabitur hic sacerdos, &amp; 
-      <lb ed="#F" n="60"/>manus impositio, quae fuit in ordinatione 
-      <lb ed="#F" n="61"/>modo supplebitur, &amp; dicentur orationes, 
-      <lb ed="#F" n="62"/>quae praecipiuntur dici, quando fit manus 
-      <lb ed="#F" n="63"/>impositio, quia ipse manus impositioni 
-      <lb ed="#F" n="64"/>adherent, &amp; de manus impositione fit 
-      men<lb ed="#F" n="65" break="no"/>tio in orationibus, forte &amp; idem dicimus, 
-      <lb ed="#F" n="66"/>si omissa fuerit vnctio. sup. tit. 1. &amp; est 
-      ve<lb ed="#F" n="67" break="no"/>rum quod non est iterandum, sed 
-      supplen<lb ed="#F" n="68" break="no"/>dum vbi diuisi &amp; diuersi sunt actus, sicut 
-      <lb ed="#F" n="69"/>est in ordinatione sacerdotis, vbi alius 
-      <lb ed="#F" n="70"/>actus est tenere manus super caput, aliud 
-      <lb ed="#F" n="71"/>dare ei calicem, aliud patenam, aliud 
-      in<lb ed="#F" n="72" break="no"/>ungere, quorum si aliquod fuerit 
-      legiti<lb ed="#F" n="73" break="no"/>me factum, non erit postea reiterandum, 
-      <lb ed="#F" n="74"/>vt hic. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e401">
-                  <lb ed="#F" n="75"/>Quidam tamen dicunt, quod haec 
-      <lb ed="#F" n="76"/>duo, scilicet, de patena &amp; calice, non sunt 
-      <lb ed="#F" n="77"/>supplenda, quia de substantia, tamem 
-      secu<lb ed="#F" n="78" break="no"/>rius est supplere, sed si partem dixerit 
-      ora<lb ed="#F" n="79" break="no"/>tionis, &amp; non totam, nunquid esset 
-      tan<lb ed="#F" n="80" break="no"/>tum medietas orationis dicenda, &amp; 
-      dici<lb ed="#F" n="81" break="no"/>mus, quod a capite dicenda est, tamen in 
-      <lb ed="#F" n="82"/>ordinibus multae orationes possunt esse, 
-      <lb ed="#F" n="83"/>quae non sunt de substantia ordinis, vnde 
-      <lb ed="#F" n="84"/>si aliter ordo legitime collatus erit, 
-      pro<lb ed="#F" n="85" break="no"/>pter hoc non iteraretur, sed si aliqua 
-      dees<lb ed="#F" n="86" break="no"/>sent, de his quae sunt de substantia ordinis, 
-      <lb ed="#F" n="87"/>vel de quibus dubitatur, an sint de substana 
-      <lb ed="#F" n="88"/>tia, vel etiam de solennibus, cum 
-      postmo<lb ed="#F" n="89" break="no"/>dum illa quae sunt de substantia 
-      supplen<lb ed="#F" n="90" break="no"/>tur, &amp; alia omnia omissa suppleri debent. 
-      <lb ed="#F" n="91"/>
-                  <!-- line coord error -->
-               </p>
-               <p xml:id="inleiv-d1e227-d1e443">
-                  <lb ed="#F" n="92"/>Sed quid si vnxisset tantum vnam 
-      <lb ed="#F" n="93"/>manum, nunquid postea tantum altera 
-      <lb ed="#F" n="94"/>manus vngetur, &amp; est dicendum quod sic. 
-      <lb ed="#F" n="95"/>arg. hic, quia iterari non debet, quia iam 
-      <lb ed="#F" n="96"/>constat manum vnctam, &amp; vbi in 
-      oratio<lb ed="#F" n="97" break="no"/>nibus dicitur, manus in plurali, diceretur 
-      <lb ed="#F" n="98"/>manus in singulari, etc. mn orationibus, si 
-      <lb ed="#F" n="99"/>nesciatur quid sit de substantia, si facta 
-      es<lb ed="#F" n="100" break="no"/>set vnctio in aliquo, &amp; non dicta oratio 
-      <lb ed="#F" n="101"/>dicenda erit omnino, &amp; non facienda 
-      <lb ed="#F" n="102"/>vnctio, sed non econuerso, quia oratio 
-      ad<lb ed="#F" n="103" break="no"/>herere dicitur vnctioni, &amp; non 
-      econuer<lb ed="#F" n="104" break="no"/>so, quod ex ipsis orationibus apparet, quae 
-      <lb ed="#F" n="105"/>de vnctione faciunt mentionem. Sed 
-      <lb ed="#F" n="106"/>nos contra dicimus, quia ex quo actus non 
-      <lb ed="#F" n="107"/>sunt diuisi, quod etiam si orationes 
-      dimi<lb ed="#F" n="108" break="no"/>serit iterum facienda est vnctio, quomodo 
-      <lb ed="#F" n="109"/>enim diceret sacerdos sacrificare dignare 
-      <lb ed="#F" n="110"/>per hanc vnctionem. sup. tit. proxi. c. 1. &amp; in 
-      ba<lb ed="#F" n="111" break="no"/>ptismo expressus apparet, quomodo enim 
-      <lb ed="#F" n="112"/>diceret, ego baptixo, nisi immergeret, 
-      li<lb ed="#F" n="113" break="no"/>cet prius etiam immersus esset. ar. de bap. c. 1. 
-      <pb ed="#F" n="106-v"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>sed si non posset suppleri per eundem, qui 
-      <lb ed="#F" n="2"/>ordinauit, potest per alium suppleri, &amp; 
-      <lb ed="#F" n="3"/>nunquam debet per alium suppleri, si per 
-      <lb ed="#F" n="4"/>primum perfici potest. 7. q. 1. nihil. quod 
-      <lb ed="#F" n="5"/>etiam obtinet in officijs vespertinis, &amp; alijs. 
-      <lb ed="#F" n="6"/>7. quaest. 1. illud. sed si conspersisset oleum 
-      <lb ed="#F" n="7"/>super manus ordinandi, &amp; inuasisset eum 
-      <lb ed="#F" n="8"/>infirmitas, antequam vnxisset, alius 
-      sup<lb ed="#F" n="9" break="no"/>plens, vel ipse alia vice oleum fundet, &amp; a 
-      <lb ed="#F" n="10"/>capite incipiet, quia licet actus diuisi non 
-      <lb ed="#F" n="11"/>sint iterandi, si tamen vnus actus non 
-      perfi<lb ed="#F" n="12" break="no"/>ciatur a capite incipietur. 
-      </p>
-               <p xml:id="inleiv-d1e227-d1e524">
-                  <lb ed="#F" n="13"/> Vnde si quis inter conficiendum 
-      sa<lb ed="#F" n="14" break="no"/>cramentum eucharistiae, dum est in verbis 
-      <lb ed="#F" n="15"/>illis, hoc est corpus meum, deficiat, alius 
-      <lb ed="#F" n="16"/>non incipiat a capite, scilicet, ibi qui 
-      pri<lb ed="#F" n="17" break="no"/>die. Idem dicimus in baptismo, sed si 
-      ce<lb ed="#F" n="18" break="no"/>lebrato sacramento eucharistiae, vel 
-      cor<lb ed="#F" n="19" break="no"/>poris deficiat alius, non incipiat a 
-      sacra<lb ed="#F" n="20" break="no"/>mento corporis, sed sanguinis (Impositio) 
-      <lb ed="#F" n="21"/>falsa litera est impositio &amp; vera est 
-      suspen<lb ed="#F" n="22" break="no"/>sio extracta de registro (Effunditur) id 
-      <lb ed="#F" n="23"/>est, dicitur cum deuotione. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 16</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 16</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="105-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e227" type="decretales-l1t16">
+        <head xml:id="inleiv-d1e227-Hd1e98">Titulus 16</head>
+        <p xml:id="inleiv-d1e227-d1e100">
+          <lb ed="#F" n="65"/>TITVLVS XVI 
+          <lb ed="#F" n="66"/>DE SACRAMENTIS 
+          <lb ed="#F" n="67"/>ITERANDIS, VEL NON. 
+        </p>
+        <div xml:id="inleiv-d1e227-Dd1e109" type="decretales-l1t16c1">
+          <head xml:id="inleiv-d1e227-Hd1e111">Caput 1</head>
+          <p xml:id="inleiv-d1e227-d1e113">
+            <lb ed="#F" n="68"/>CAPVT I. 
+            <lb ed="#F" n="69"/>1 An manuum imposutio sit necessatia int 
+            ordt<lb ed="#F" n="70" break="no"/>natione. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e122">
+            <lb ed="#F" n="71"/>PASTORALIS. &amp; incta, 
+            <lb ed="#F" n="72"/>(Consulere) licet non 
+            respon<lb ed="#F" n="73" break="no"/>deat, tu dic, quod non debet 
+            <lb ed="#F" n="74"/>ministrare, antequam 
+            sup<lb ed="#F" n="75" break="no"/>pleatur. 52. distinct. 
+            solicitu<lb ed="#F" n="76" break="no"/>do. inf. eod. cap. vlti. Alii dicunt, quod 
+            <lb ed="#F" n="77"/>manus impositio non est de substantia ora 
+            <lb ed="#F" n="78"/>dinis, &amp; ideo celebrare potest. (
+            Manu<lb ed="#F" n="79" break="no"/>um) id est, benedictionem. 1. quaest. 1. 
+            ma<lb ed="#F" n="80" break="no"/>nus. &amp; haec manus impositio fit non solum 
+            <lb ed="#F" n="81"/>subdiacono, sed in minoribus ordinibus 
+            <lb ed="#F" n="82"/>constitutis. 69. dist. c. 1. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e151">
+            <lb ed="#F" n="83"/>1 Consecratoria) manus impositio 
+            au<lb ed="#F" n="84" break="no"/>tem non fit nisi diacono &amp; superioribus. 
+            <lb ed="#F" n="85"/>inf. eod. cap. vltim. 24. distinct. 
+            subdiaco<lb ed="#F" n="86" break="no"/>nus. Tu dic, quod hae impositiones non 
+            <lb ed="#F" n="87"/>sunt necessariae, quia vera litera est 
+            dia<lb ed="#F" n="88" break="no"/>conatus. (Delinitus) id est, vnctus 
+            secun<lb ed="#F" n="89" break="no"/>dum veram literam, quae est diaconatus 
+            <lb ed="#F" n="90"/>non est necessaria ista gloss. quia 
+            diaco<lb ed="#F" n="91" break="no"/>nus bene recipit manus impositionem. 
+            <lb ed="#F" n="92"/>(Supplendus. ) sup. titul. proxi. cum 
+            venis<lb ed="#F" n="93" break="no"/>set. in princip. 1. quaestio. 1. S. ec ce. inf. 
+            eod<lb ed="#F" n="94" break="no"/>cap. vlt. (Supplendum) quia sibi fiet 
+            ma<lb ed="#F" n="95" break="no"/>nus impositio, &amp; dicetur oratio, quae 
+            dici<lb ed="#F" n="96" break="no"/>tur, quando fit manus impositio. inf. c. vlt. 
+            <lb ed="#F" n="97"/>sed in secundo casu, vbi oleo vnctus est, 
+            <lb ed="#F" n="98"/>non credimus balsamo vngendum, de 
+            <lb ed="#F" n="99"/>quo oleo &amp; balsamo fit chrisma, scilicet, 
+            <lb ed="#F" n="100"/>&amp; de chrismate vngendum est. sup. titul. 
+            <lb ed="#F" n="101"/>prox. c. 1. circa princip. Erat ergo 
+            chrisma<lb ed="#F" n="102" break="no"/>te vngendus, &amp; oratio dicenda, quae dici 
+            <lb ed="#F" n="103"/>consueuit cum chrismate vngitur, licet 
+            di<lb ed="#F" n="104" break="no"/>cta fuerit, nec habet in hoc sacramento, vbi 
+            <lb ed="#F" n="105"/>non sunt diuersi actus locum, quod 
+            omis<lb ed="#F" n="106" break="no"/>sum est, caute supplendum, sed quasi 
+            to<lb ed="#F" n="107" break="no"/>tum est iterandum, nisi forte propter 
+            ali<lb ed="#F" n="108" break="no"/>quas solennitates quae non reiterabuntur 
+            <lb ed="#F" n="109"/>si primo factae fuerunt. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e227-Dd1e213" type="decretales-l1t16c2">
+          <head xml:id="inleiv-d1e227-Hd1e215">Caput 2</head>
+          <p xml:id="inleiv-d1e227-d1e217">
+            <pb ed="#F" n="106-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>CAPVT II. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e226">
+            <lb ed="#F" n="2"/>VOBIS HVMILITER. (
+            Ex<lb ed="#F" n="3" break="no"/>humandos) quia non sunt in 
+            <lb ed="#F" n="4"/>culpa, quicquid de 
+            corpori<lb ed="#F" n="5" break="no"/>bus eorum fit post mortem, 
+            <lb ed="#F" n="6"/>sed si elegissent scienter ab 
+            <lb ed="#F" n="7"/>eis sepeliri, crederent exhumandos, cum 
+            <lb ed="#F" n="8"/>gratiter deliquerint. as. dist. c. fi. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e227-Dd1e245" type="decretales-l1t16c3">
+          <head xml:id="inleiv-d1e227-Hd1e247">Caput 3</head>
+          <p xml:id="inleiv-d1e227-d1e249">
+            <lb ed="#F" n="9"/>CAPVT III. 
+            <lb ed="#F" n="10"/>1 Cuiusnodi fuerit rituc ordinationis in 
+            primi<lb ed="#F" n="11" break="no"/>tiua ecclesia. 
+            <lb ed="#F" n="12"/>2 Dimissa in ordinatione non sunt iteranda, sed 
+            <lb ed="#F" n="13"/>sipplendum est. &amp; vide in num. 3. e .
+          </p>
+          <p xml:id="inleiv-d1e227-d1e262">
+            <lb ed="#F" n="14"/>RESPVTER ET 
+            DIACO<lb ed="#F" n="15" break="no"/>NVS. (Ritu) de ritu 
+            Aposto<lb ed="#F" n="16" break="no"/>lico inuenitur in epistola ad 
+            <lb ed="#F" n="17"/>Titum, alias Timo. quod 
+            <lb ed="#F" n="18"/>manus imponebat 
+            ordinan<lb ed="#F" n="19" break="no"/>dis, &amp; quod orationem fundebat super 
+            <lb ed="#F" n="20"/>eos, aliam autem formam non inuenimus 
+            <lb ed="#F" n="21"/>ab eis seruatam, vnde credimus, quod nisi 
+            <lb ed="#F" n="22"/>essent formae postea inuentae, sufficeret 
+            <lb ed="#F" n="23"/>ordinatori dicere, sis sacerdos, vel alia 
+            ae<lb ed="#F" n="24" break="no"/>quipollentia verba, sed subsequentibus 
+            <lb ed="#F" n="25"/>temporibus formas, quae seruantur, 
+            eccle<lb ed="#F" n="26" break="no"/>sia ordinauit, &amp; sunt tantae necessitatis 
+            di<lb ed="#F" n="27" break="no"/>ctae formae, quod si ijs non seruaris aliquis 
+            <lb ed="#F" n="28"/>fuerit ordinatus, supplendum est, quod 
+            <lb ed="#F" n="29"/>omissum est, &amp; si formae seruant character 
+            <lb ed="#F" n="30"/>infigitur animae, id est, figura 
+            intellectua<lb ed="#F" n="31" break="no"/>lis, &amp; indeficibilis ostendens ordinem 
+            col<lb ed="#F" n="32" break="no"/>latum ipsi consecrato, nec mireris si per 
+            <lb ed="#F" n="33"/>institutionem ecclesiae infigitur character 
+            <lb ed="#F" n="34"/>in anima, cum animae sint de 
+            iurisdictio<lb ed="#F" n="35" break="no"/>ne Papae, &amp; spiritualium patrum, vnde 
+            su<lb ed="#F" n="36" break="no"/>per eis constitutiones suas facere potest, 
+            <lb ed="#F" n="37"/>dummodo non sint contrariae 
+            constituti<lb ed="#F" n="38" break="no"/>onibe Dei. ar. 10. dist. suscipitis. 95. dist. cum 
+            <lb ed="#F" n="39"/>ad verum. inf. de ma. &amp; obe. solitae. &amp; arg. 
+            <lb ed="#F" n="40"/>ad hoc. 1. quaestio. 1. quod Deo. vbi dicitur, 
+            <lb ed="#F" n="41"/>quod Imperator facit per suas 
+            constituti<lb ed="#F" n="42" break="no"/>enes, quod character militaris 
+            indiuisibi<lb ed="#F" n="43" break="no"/>liter affigitur militi, &amp; posset dici, quod 
+            <lb ed="#F" n="44"/>ille character qui infigitur ex 
+            constitutio<lb ed="#F" n="45" break="no"/>ne Imperatoris, non infigitur intuitu 
+            ani<lb ed="#F" n="46" break="no"/>mae principaliter, sed corporis, quod ex eo 
+            <lb ed="#F" n="47"/>apparet, quia mortuo milite, anima nihil 
+            <lb ed="#F" n="48"/>ex illo charactere consequitur: in 
+            mona<lb ed="#F" n="49" break="no"/>chatu autem non videtur, quod infigatur 
+            <lb ed="#F" n="50"/>character, quia Papa facere posset, quod 
+            <lb ed="#F" n="51"/>non esset monachus, qui ordinem 
+            consti<lb ed="#F" n="52" break="no"/>tuit monachorum. ar. inf. de sta. mo. cum 
+            <lb ed="#F" n="53"/>ad mo. (Omissum) manus impositioc 
+            Ite<lb ed="#F" n="54" break="no"/>randum) ordo(Statuto) no. iisdem 
+            tempo<lb ed="#F" n="55" break="no"/>ribus supplendum, quibus conferendum, 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="56"/>scilicet, in quatuor temporibus. sup. de 
+            <lb ed="#F" n="57"/>temp. ord. c. 1. 2. &amp; 3. &amp; seq. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e362">
+            <lb ed="#F" n="58"/>2 Supplendi) in sabbato enim 
+            quatu<lb ed="#F" n="59" break="no"/>or temporum vocabitur hic sacerdos, &amp; 
+            <lb ed="#F" n="60"/>manus impositio, quae fuit in ordinatione 
+            <lb ed="#F" n="61"/>modo supplebitur, &amp; dicentur orationes, 
+            <lb ed="#F" n="62"/>quae praecipiuntur dici, quando fit manus 
+            <lb ed="#F" n="63"/>impositio, quia ipse manus impositioni 
+            <lb ed="#F" n="64"/>adherent, &amp; de manus impositione fit 
+            men<lb ed="#F" n="65" break="no"/>tio in orationibus, forte &amp; idem dicimus, 
+            <lb ed="#F" n="66"/>si omissa fuerit vnctio. sup. tit. 1. &amp; est 
+            ve<lb ed="#F" n="67" break="no"/>rum quod non est iterandum, sed 
+            supplen<lb ed="#F" n="68" break="no"/>dum vbi diuisi &amp; diuersi sunt actus, sicut 
+            <lb ed="#F" n="69"/>est in ordinatione sacerdotis, vbi alius 
+            <lb ed="#F" n="70"/>actus est tenere manus super caput, aliud 
+            <lb ed="#F" n="71"/>dare ei calicem, aliud patenam, aliud 
+            in<lb ed="#F" n="72" break="no"/>ungere, quorum si aliquod fuerit 
+            legiti<lb ed="#F" n="73" break="no"/>me factum, non erit postea reiterandum, 
+            <lb ed="#F" n="74"/>vt hic. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e401">
+            <lb ed="#F" n="75"/>Quidam tamen dicunt, quod haec 
+            <lb ed="#F" n="76"/>duo, scilicet, de patena &amp; calice, non sunt 
+            <lb ed="#F" n="77"/>supplenda, quia de substantia, tamem 
+            secu<lb ed="#F" n="78" break="no"/>rius est supplere, sed si partem dixerit 
+            ora<lb ed="#F" n="79" break="no"/>tionis, &amp; non totam, nunquid esset 
+            tan<lb ed="#F" n="80" break="no"/>tum medietas orationis dicenda, &amp; 
+            dici<lb ed="#F" n="81" break="no"/>mus, quod a capite dicenda est, tamen in 
+            <lb ed="#F" n="82"/>ordinibus multae orationes possunt esse, 
+            <lb ed="#F" n="83"/>quae non sunt de substantia ordinis, vnde 
+            <lb ed="#F" n="84"/>si aliter ordo legitime collatus erit, 
+            pro<lb ed="#F" n="85" break="no"/>pter hoc non iteraretur, sed si aliqua 
+            dees<lb ed="#F" n="86" break="no"/>sent, de his quae sunt de substantia ordinis, 
+            <lb ed="#F" n="87"/>vel de quibus dubitatur, an sint de substana 
+            <lb ed="#F" n="88"/>tia, vel etiam de solennibus, cum 
+            postmo<lb ed="#F" n="89" break="no"/>dum illa quae sunt de substantia 
+            supplen<lb ed="#F" n="90" break="no"/>tur, &amp; alia omnia omissa suppleri debent. 
+            <lb ed="#F" n="91"/>
+            <!-- line coord error -->
+          </p>
+          <p xml:id="inleiv-d1e227-d1e443">
+            <lb ed="#F" n="92"/>Sed quid si vnxisset tantum vnam 
+            <lb ed="#F" n="93"/>manum, nunquid postea tantum altera 
+            <lb ed="#F" n="94"/>manus vngetur, &amp; est dicendum quod sic. 
+            <lb ed="#F" n="95"/>arg. hic, quia iterari non debet, quia iam 
+            <lb ed="#F" n="96"/>constat manum vnctam, &amp; vbi in 
+            oratio<lb ed="#F" n="97" break="no"/>nibus dicitur, manus in plurali, diceretur 
+            <lb ed="#F" n="98"/>manus in singulari, etc. mn orationibus, si 
+            <lb ed="#F" n="99"/>nesciatur quid sit de substantia, si facta 
+            es<lb ed="#F" n="100" break="no"/>set vnctio in aliquo, &amp; non dicta oratio 
+            <lb ed="#F" n="101"/>dicenda erit omnino, &amp; non facienda 
+            <lb ed="#F" n="102"/>vnctio, sed non econuerso, quia oratio 
+            ad<lb ed="#F" n="103" break="no"/>herere dicitur vnctioni, &amp; non 
+            econuer<lb ed="#F" n="104" break="no"/>so, quod ex ipsis orationibus apparet, quae 
+            <lb ed="#F" n="105"/>de vnctione faciunt mentionem. Sed 
+            <lb ed="#F" n="106"/>nos contra dicimus, quia ex quo actus non 
+            <lb ed="#F" n="107"/>sunt diuisi, quod etiam si orationes 
+            dimi<lb ed="#F" n="108" break="no"/>serit iterum facienda est vnctio, quomodo 
+            <lb ed="#F" n="109"/>enim diceret sacerdos sacrificare dignare 
+            <lb ed="#F" n="110"/>per hanc vnctionem. sup. tit. proxi. c. 1. &amp; in 
+            ba<lb ed="#F" n="111" break="no"/>ptismo expressus apparet, quomodo enim 
+            <lb ed="#F" n="112"/>diceret, ego baptixo, nisi immergeret, 
+            li<lb ed="#F" n="113" break="no"/>cet prius etiam immersus esset. ar. de bap. c. 1. 
+            <pb ed="#F" n="106-v"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>sed si non posset suppleri per eundem, qui 
+            <lb ed="#F" n="2"/>ordinauit, potest per alium suppleri, &amp; 
+            <lb ed="#F" n="3"/>nunquam debet per alium suppleri, si per 
+            <lb ed="#F" n="4"/>primum perfici potest. 7. q. 1. nihil. quod 
+            <lb ed="#F" n="5"/>etiam obtinet in officijs vespertinis, &amp; alijs. 
+            <lb ed="#F" n="6"/>7. quaest. 1. illud. sed si conspersisset oleum 
+            <lb ed="#F" n="7"/>super manus ordinandi, &amp; inuasisset eum 
+            <lb ed="#F" n="8"/>infirmitas, antequam vnxisset, alius 
+            sup<lb ed="#F" n="9" break="no"/>plens, vel ipse alia vice oleum fundet, &amp; a 
+            <lb ed="#F" n="10"/>capite incipiet, quia licet actus diuisi non 
+            <lb ed="#F" n="11"/>sint iterandi, si tamen vnus actus non 
+            perfi<lb ed="#F" n="12" break="no"/>ciatur a capite incipietur. 
+          </p>
+          <p xml:id="inleiv-d1e227-d1e524">
+            <lb ed="#F" n="13"/> Vnde si quis inter conficiendum 
+            sa<lb ed="#F" n="14" break="no"/>cramentum eucharistiae, dum est in verbis 
+            <lb ed="#F" n="15"/>illis, hoc est corpus meum, deficiat, alius 
+            <lb ed="#F" n="16"/>non incipiat a capite, scilicet, ibi qui 
+            pri<lb ed="#F" n="17" break="no"/>die. Idem dicimus in baptismo, sed si 
+            ce<lb ed="#F" n="18" break="no"/>lebrato sacramento eucharistiae, vel 
+            cor<lb ed="#F" n="19" break="no"/>poris deficiat alius, non incipiat a 
+            sacra<lb ed="#F" n="20" break="no"/>mento corporis, sed sanguinis (Impositio) 
+            <lb ed="#F" n="21"/>falsa litera est impositio &amp; vera est 
+            suspen<lb ed="#F" n="22" break="no"/>sio extracta de registro (Effunditur) id 
+            <lb ed="#F" n="23"/>est, dicitur cum deuotione. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

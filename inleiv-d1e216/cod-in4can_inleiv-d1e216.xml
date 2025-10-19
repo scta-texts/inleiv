@@ -1,191 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 15</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 15</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="105-r"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e216" type="decretales-l1t15">
-            <head xml:id="inleiv-d1e216-Hd1e98">Titulus 15</head>
-            <p xml:id="inleiv-d1e216-d1e100">
-               <cb ed="#F" n="b"/>
-               <lb ed="#F" n="55"/>TITVLLS, X V. 
-      <lb ed="#F" n="56"/>DE SACRA VN. 
-      <lb ed="#F" n="57"/>CTIO NE.. 
-      </p>
-            <div xml:id="inleiv-d1e216-Dd1e111" type="decretales-l1t15c1">
-               <head xml:id="inleiv-d1e216-Hd1e113">Caput 1</head>
-               <p xml:id="inleiv-d1e216-d1e115">
-                  <lb ed="#F" n="58"/>CAPVT I. 
-      <lb ed="#F" n="59"/>1 Vnctio sacra quam babeat significationem. 
-      <lb ed="#F" n="60"/>2 Per baculum quo vtuntur episcopi, quae 
-      de<lb ed="#F" n="61" break="no"/>signantur.
-      </p>
-               <p xml:id="inleiv-d1e216-d1e126">
-                  <lb ed="#F" n="62"/>CVM VENISSET. (Apud 
-      <lb ed="#F" n="63"/>nos) Graecos, scribit enim 
-      Pa<lb ed="#F" n="64" break="no"/>triarchae Constantinopoli. 
-      la<lb ed="#F" n="65" break="no"/>tino, sed proximus ante eum 
-      <lb ed="#F" n="66"/>fuerat ibi Patriarcha graecus, 
-      <lb ed="#F" n="67"/>a quo iste episcopus erat consecratus. (
-      Sup<lb ed="#F" n="68" break="no"/>pleri) . 1. q. 1. §. ecce(Cor). i. anima quae hic 
-      <lb ed="#F" n="69"/>ideo dicitur cor: quia in anima non fructificat 
-      <lb ed="#F" n="70"/>vnctio, nisi de corde &amp; voluntate 
-      proce<lb ed="#F" n="71" break="no"/>dat. (Infirmatur) 95. dist. §. sed istud (
-      Fi<lb ed="#F" n="72" break="no"/>dei ) id est, fidelis presbyvt. vel, id est, 
-      secun<lb ed="#F" n="73" break="no"/>dum fidem sanctam. (Infirmum) id est, 
-      in<lb ed="#F" n="74" break="no"/>firmo proderit contra infirmitatem 
-      cor<lb ed="#F" n="75" break="no"/>poris, vt vel eam minuat, vel vt patientius 
-      <lb ed="#F" n="76"/>toleret, &amp; etiam proficiet ad salutem 
-      aeter<lb ed="#F" n="77" break="no"/>nam. (Vnctionem) id est, vnctio, id est, 
-      gra<lb ed="#F" n="78" break="no"/>tia spiritussancti inuisibilis, quae fiet in 
-      ani<lb ed="#F" n="79" break="no"/>ma corpore exterius vncto.
-      </p>
-               <p xml:id="inleiv-d1e216-d1e168">
-                  <lb ed="#F" n="80"/>1 Signum) vt praeter id, quod ingerit 
-      sen<lb ed="#F" n="81" break="no"/>sibus hominum, scilicet, ipsam vnctionem 
-      <lb ed="#F" n="82"/>&amp; characterem animae infixum, &amp; aliud 
-      fa<lb ed="#F" n="83" break="no"/>ciat venire in notitiam hominum, scilicet, 
-      <lb ed="#F" n="84"/>gratiam animae infusam, sed ipse character 
-      <lb ed="#F" n="85"/>antequam sit expressus, sacramentum est, 
-      <lb ed="#F" n="86"/>dum efficit, quod designat, quia infusionis 
-      <lb ed="#F" n="87"/>gratia in anima causa est, &amp; id ipsum 
-      desi<lb ed="#F" n="88" break="no"/>gnat, vt post id, quod ingerit sensibus 
-      ho<lb ed="#F" n="89" break="no"/>minum, scilicet, ipsam vnctionem, &amp; 
-      chara<lb ed="#F" n="90" break="no"/>cterem ante infixum, aliud faciat venire 
-      <lb ed="#F" n="91"/>ad notitiam hominum, scilicet, gratiam 
-      ani<lb ed="#F" n="92" break="no"/>mae infusam: hic etiam character animae 
-      <lb ed="#F" n="93"/>impressus est sacramentum, quia facit quod 
-      <lb ed="#F" n="94"/>significauit, quia praeter id, quod designat, 
-      <lb ed="#F" n="95"/>scilicet, gratiae infusionem, &amp; etiam ipsius 
-      <lb ed="#F" n="96"/>gratiae infusionis causa est, vnde sequitur, 
-      <lb ed="#F" n="97"/>quod si di. quod designat) c lic salutem (quod 
-      <lb ed="#F" n="98"/>designat) quid designat vnctio, quid oleum, 
-      <lb ed="#F" n="99"/>quid balsamum inferius dicetur (
-      Cate<lb ed="#F" n="100" break="no"/>chuminorum) id est, quo vnguntur 
-      cate<lb ed="#F" n="101" break="no"/>chumini &amp; infirmi. (Et conficitur) supple 
-      <lb ed="#F" n="102"/>ad exhibendum extremam vnctionem. 
-      <lb ed="#F" n="103"/>(Conficitur) etc. nam &amp; de chrismate, 
-      fi<lb ed="#F" n="104" break="no"/>unt exteriores vnctiones, vt sequitur. (
-      My<lb ed="#F" n="105" break="no"/>stica) id est, significatiua, id est, propter 
-      <lb ed="#F" n="106"/>significationem. (Ab intus) procedit, id 
-      <lb ed="#F" n="107"/>est, de conscientia. ( Mortis) supple du¬ 
-      <pb ed="#F" n="105-v"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>centis (Cortina) id est, fidelis vnus alium 
-      <lb ed="#F" n="2"/>ad fidem per bona opera trahat ( 
-      Vnguen<lb ed="#F" n="3" break="no"/>to) scilicet, chrismate( Vnge) id est, 
-      men<lb ed="#F" n="4" break="no"/>tem humilia. vel, id est, mentem 
-      miseri<lb ed="#F" n="5" break="no"/>cordiae habe. (Et fac.) munda opera fac. 
-      <lb ed="#F" n="6"/>(Distillauerint) id est, opera mea dederunt 
-      <lb ed="#F" n="7"/>bonum odorem alijs. (Oleo) id est, 
-      chris<lb ed="#F" n="8" break="no"/>mate, in cuius confectione est oleum. 
-      CBal<lb ed="#F" n="9" break="no"/>samo) id est, chrismate, in cuius 
-      confectio<lb ed="#F" n="10" break="no"/>ne est balsamum. (Sicut) ad id quod 
-      se<lb ed="#F" n="11" break="no"/>ipsum, scilicet, ad salutem(lllius) scilicet. 
-      <lb ed="#F" n="12"/>Christi(Caput. )33. q. 5. cum caput. (
-      Vn<lb ed="#F" n="13" break="no"/>xerit (id est, mihi gratiam infundit (
-      Euan<lb ed="#F" n="14" break="no"/>gelizare )id est, praedicare(Annum ) 1. q. 1. 
-      <lb ed="#F" n="15"/>iudices. (Delibutio) id est, vnctio. (
-      Capi<lb ed="#F" n="16" break="no"/>tis) id est, Christi. (differentia) 96. di. duo 
-      <lb ed="#F" n="17"/>(Nos) . i. omnes Christianos. (Vos) 
-      Chri<lb ed="#F" n="18" break="no"/>stianicGenus) id est, electi generis 
-      homi<lb ed="#F" n="19" break="no"/>num(Regali) id est, estis reges, id est, bene 
-      <lb ed="#F" n="20"/>vos regentes &amp; estis sacerdotes, id est, 
-      san<lb ed="#F" n="21" break="no"/>cta exempla exhibentes (In pectore) 96. dist. 
-      <lb ed="#F" n="22"/>peruenit. de conse. dist. 6. de his (Manus) de 
-      <lb ed="#F" n="23"/>conse. dist. 4. de hinc. c. presbyteri. &amp;. c. 
-      no<lb ed="#F" n="24" break="no"/>uissime. vbi istarum vnctionum 
-      significa<lb ed="#F" n="25" break="no"/>tio habetur. (Per caput.) quod hic 
-      intel<lb ed="#F" n="26" break="no"/>ligitur idem quod vertex(Oculi) 1 i. 
-      intel<lb ed="#F" n="27" break="no"/>lectus (In capite) . i. mente. (Cuius) 
-      men<lb ed="#F" n="28" break="no"/>tis. (Odorem, id est, ad eius famosissimam 
-      <lb ed="#F" n="29"/>misericordiam(Nomen) id est, cuius 
-      fa<lb ed="#F" n="30" break="no"/>ma est de infinita misericordia. (Simplex) 
-      <lb ed="#F" n="31"/>de conse. dist. 4. presby teri. (Idem) 95. dist. 
-      <lb ed="#F" n="32"/>peruenit contra sol. illud ad tempus pro 
-      <lb ed="#F" n="33"/>scandalo fuit toleratum: licet hodie si 
-      sa<lb ed="#F" n="34" break="no"/>cerdos simplex chrismat nihil ageret. sup. 
-      <lb ed="#F" n="35"/>de conse. quanto. 2. q. 7. accusatio. (
-      Vica<lb ed="#F" n="36" break="no"/>rii) o68. dist. quorum(venerat) ad robur: sed 
-      <lb ed="#F" n="37"/>per baptismum bene erant absoluti 
-      pecca<lb ed="#F" n="38" break="no"/>tis. (Catechismo) . i. diluuio. (Iudaizat) hic 
-      <lb ed="#F" n="39"/>colligitur a parte alium ordinem in 
-      sub<lb ed="#F" n="40" break="no"/>stantia habuisse diaco. in veteri 
-      testamen<lb ed="#F" n="41" break="no"/>to, alium in nouo, alias iudaizare videtur 
-      <lb ed="#F" n="42"/>ecclesia in identitate. (Baculo) de consec. 
-      <lb ed="#F" n="43"/>dist. 1. nullus. 45. distin. disciplina. 
-      <lb ed="#F" n="44"/> Per historiam) not. quod cum Petrus 
-      <lb ed="#F" n="45"/>misisset Martialem, &amp; collegam in 
-      ger<lb ed="#F" n="46" break="no"/>manias, mortuus est Martialis &amp; collega 
-      <lb ed="#F" n="47"/>rediit ad Petrum, &amp; Petrus dedit ei 
-      bacu<lb ed="#F" n="48" break="no"/>lum, &amp; praecepit ei, quod tangeret 
-      mor<lb ed="#F" n="49" break="no"/>tuum, &amp; diceret ei surge in nomine 
-      do<lb ed="#F" n="50" break="no"/>mini, &amp; quod iret ad praedicandum, qui 
-      <lb ed="#F" n="51"/>cum 40. die a tempore mortis rediisset ad 
-      <lb ed="#F" n="52"/>eum, tetigit mortuum, &amp; surrexit, &amp; ne 
-      <lb ed="#F" n="53"/>quia post non recuperauit baculum, non 
-      <lb ed="#F" n="54"/>vtitur eodem, haec est historia mystica, 
-      <lb ed="#F" n="55"/>ratio est, quia baculus in summitate 
-      ha<lb ed="#F" n="56" break="no"/>bet recuruationem, quasi ad trahendum, 
-      <lb ed="#F" n="57"/>quod Papae hoc non est necesse, quia nul¬ 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="58"/>lus ab eo diuertere potest. Item per 
-      bacu<lb ed="#F" n="59" break="no"/>lum designatur coenrtio, accipiunt ergo 
-      <lb ed="#F" n="60"/>reliqui praelati baculum a superioribus in 
-      <lb ed="#F" n="61"/>signum, quod accipiunt coenrtionem, sed 
-      <lb ed="#F" n="62"/>cum Papa a solo Deo habet potestatem, 
-      <lb ed="#F" n="63"/>non debet habere baculum. 21. dist. in 
-      no<lb ed="#F" n="64" break="no"/>no. &amp; c. quamuis. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 15</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 15</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="105-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e216" type="decretales-l1t15">
+        <head xml:id="inleiv-d1e216-Hd1e98">Titulus 15</head>
+        <p xml:id="inleiv-d1e216-d1e100">
+          <cb ed="#F" n="b"/>
+          <lb ed="#F" n="55"/>TITVLLS, X V. 
+          <lb ed="#F" n="56"/>DE SACRA VN. 
+          <lb ed="#F" n="57"/>CTIO NE.. 
+        </p>
+        <div xml:id="inleiv-d1e216-Dd1e111" type="decretales-l1t15c1">
+          <head xml:id="inleiv-d1e216-Hd1e113">Caput 1</head>
+          <p xml:id="inleiv-d1e216-d1e115">
+            <lb ed="#F" n="58"/>CAPVT I. 
+            <lb ed="#F" n="59"/>1 Vnctio sacra quam babeat significationem. 
+            <lb ed="#F" n="60"/>2 Per baculum quo vtuntur episcopi, quae 
+            de<lb ed="#F" n="61" break="no"/>signantur.
+          </p>
+          <p xml:id="inleiv-d1e216-d1e126">
+            <lb ed="#F" n="62"/>CVM VENISSET. (Apud 
+            <lb ed="#F" n="63"/>nos) Graecos, scribit enim 
+            Pa<lb ed="#F" n="64" break="no"/>triarchae Constantinopoli. 
+            la<lb ed="#F" n="65" break="no"/>tino, sed proximus ante eum 
+            <lb ed="#F" n="66"/>fuerat ibi Patriarcha graecus, 
+            <lb ed="#F" n="67"/>a quo iste episcopus erat consecratus. (
+            Sup<lb ed="#F" n="68" break="no"/>pleri) . 1. q. 1. §. ecce(Cor). i. anima quae hic 
+            <lb ed="#F" n="69"/>ideo dicitur cor: quia in anima non fructificat 
+            <lb ed="#F" n="70"/>vnctio, nisi de corde &amp; voluntate 
+            proce<lb ed="#F" n="71" break="no"/>dat. (Infirmatur) 95. dist. §. sed istud (
+            Fi<lb ed="#F" n="72" break="no"/>dei ) id est, fidelis presbyvt. vel, id est, 
+            secun<lb ed="#F" n="73" break="no"/>dum fidem sanctam. (Infirmum) id est, 
+            in<lb ed="#F" n="74" break="no"/>firmo proderit contra infirmitatem 
+            cor<lb ed="#F" n="75" break="no"/>poris, vt vel eam minuat, vel vt patientius 
+            <lb ed="#F" n="76"/>toleret, &amp; etiam proficiet ad salutem 
+            aeter<lb ed="#F" n="77" break="no"/>nam. (Vnctionem) id est, vnctio, id est, 
+            gra<lb ed="#F" n="78" break="no"/>tia spiritussancti inuisibilis, quae fiet in 
+            ani<lb ed="#F" n="79" break="no"/>ma corpore exterius vncto.
+          </p>
+          <p xml:id="inleiv-d1e216-d1e168">
+            <lb ed="#F" n="80"/>1 Signum) vt praeter id, quod ingerit 
+            sen<lb ed="#F" n="81" break="no"/>sibus hominum, scilicet, ipsam vnctionem 
+            <lb ed="#F" n="82"/>&amp; characterem animae infixum, &amp; aliud 
+            fa<lb ed="#F" n="83" break="no"/>ciat venire in notitiam hominum, scilicet, 
+            <lb ed="#F" n="84"/>gratiam animae infusam, sed ipse character 
+            <lb ed="#F" n="85"/>antequam sit expressus, sacramentum est, 
+            <lb ed="#F" n="86"/>dum efficit, quod designat, quia infusionis 
+            <lb ed="#F" n="87"/>gratia in anima causa est, &amp; id ipsum 
+            desi<lb ed="#F" n="88" break="no"/>gnat, vt post id, quod ingerit sensibus 
+            ho<lb ed="#F" n="89" break="no"/>minum, scilicet, ipsam vnctionem, &amp; 
+            chara<lb ed="#F" n="90" break="no"/>cterem ante infixum, aliud faciat venire 
+            <lb ed="#F" n="91"/>ad notitiam hominum, scilicet, gratiam 
+            ani<lb ed="#F" n="92" break="no"/>mae infusam: hic etiam character animae 
+            <lb ed="#F" n="93"/>impressus est sacramentum, quia facit quod 
+            <lb ed="#F" n="94"/>significauit, quia praeter id, quod designat, 
+            <lb ed="#F" n="95"/>scilicet, gratiae infusionem, &amp; etiam ipsius 
+            <lb ed="#F" n="96"/>gratiae infusionis causa est, vnde sequitur, 
+            <lb ed="#F" n="97"/>quod si di. quod designat) c lic salutem (quod 
+            <lb ed="#F" n="98"/>designat) quid designat vnctio, quid oleum, 
+            <lb ed="#F" n="99"/>quid balsamum inferius dicetur (
+            Cate<lb ed="#F" n="100" break="no"/>chuminorum) id est, quo vnguntur 
+            cate<lb ed="#F" n="101" break="no"/>chumini &amp; infirmi. (Et conficitur) supple 
+            <lb ed="#F" n="102"/>ad exhibendum extremam vnctionem. 
+            <lb ed="#F" n="103"/>(Conficitur) etc. nam &amp; de chrismate, 
+            fi<lb ed="#F" n="104" break="no"/>unt exteriores vnctiones, vt sequitur. (
+            My<lb ed="#F" n="105" break="no"/>stica) id est, significatiua, id est, propter 
+            <lb ed="#F" n="106"/>significationem. (Ab intus) procedit, id 
+            <lb ed="#F" n="107"/>est, de conscientia. ( Mortis) supple du¬ 
+            <pb ed="#F" n="105-v"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>centis (Cortina) id est, fidelis vnus alium 
+            <lb ed="#F" n="2"/>ad fidem per bona opera trahat ( 
+            Vnguen<lb ed="#F" n="3" break="no"/>to) scilicet, chrismate( Vnge) id est, 
+            men<lb ed="#F" n="4" break="no"/>tem humilia. vel, id est, mentem 
+            miseri<lb ed="#F" n="5" break="no"/>cordiae habe. (Et fac.) munda opera fac. 
+            <lb ed="#F" n="6"/>(Distillauerint) id est, opera mea dederunt 
+            <lb ed="#F" n="7"/>bonum odorem alijs. (Oleo) id est, 
+            chris<lb ed="#F" n="8" break="no"/>mate, in cuius confectione est oleum. 
+            CBal<lb ed="#F" n="9" break="no"/>samo) id est, chrismate, in cuius 
+            confectio<lb ed="#F" n="10" break="no"/>ne est balsamum. (Sicut) ad id quod 
+            se<lb ed="#F" n="11" break="no"/>ipsum, scilicet, ad salutem(lllius) scilicet. 
+            <lb ed="#F" n="12"/>Christi(Caput. )33. q. 5. cum caput. (
+            Vn<lb ed="#F" n="13" break="no"/>xerit (id est, mihi gratiam infundit (
+            Euan<lb ed="#F" n="14" break="no"/>gelizare )id est, praedicare(Annum ) 1. q. 1. 
+            <lb ed="#F" n="15"/>iudices. (Delibutio) id est, vnctio. (
+            Capi<lb ed="#F" n="16" break="no"/>tis) id est, Christi. (differentia) 96. di. duo 
+            <lb ed="#F" n="17"/>(Nos) . i. omnes Christianos. (Vos) 
+            Chri<lb ed="#F" n="18" break="no"/>stianicGenus) id est, electi generis 
+            homi<lb ed="#F" n="19" break="no"/>num(Regali) id est, estis reges, id est, bene 
+            <lb ed="#F" n="20"/>vos regentes &amp; estis sacerdotes, id est, 
+            san<lb ed="#F" n="21" break="no"/>cta exempla exhibentes (In pectore) 96. dist. 
+            <lb ed="#F" n="22"/>peruenit. de conse. dist. 6. de his (Manus) de 
+            <lb ed="#F" n="23"/>conse. dist. 4. de hinc. c. presbyteri. &amp;. c. 
+            no<lb ed="#F" n="24" break="no"/>uissime. vbi istarum vnctionum 
+            significa<lb ed="#F" n="25" break="no"/>tio habetur. (Per caput.) quod hic 
+            intel<lb ed="#F" n="26" break="no"/>ligitur idem quod vertex(Oculi) 1 i. 
+            intel<lb ed="#F" n="27" break="no"/>lectus (In capite) . i. mente. (Cuius) 
+            men<lb ed="#F" n="28" break="no"/>tis. (Odorem, id est, ad eius famosissimam 
+            <lb ed="#F" n="29"/>misericordiam(Nomen) id est, cuius 
+            fa<lb ed="#F" n="30" break="no"/>ma est de infinita misericordia. (Simplex) 
+            <lb ed="#F" n="31"/>de conse. dist. 4. presby teri. (Idem) 95. dist. 
+            <lb ed="#F" n="32"/>peruenit contra sol. illud ad tempus pro 
+            <lb ed="#F" n="33"/>scandalo fuit toleratum: licet hodie si 
+            sa<lb ed="#F" n="34" break="no"/>cerdos simplex chrismat nihil ageret. sup. 
+            <lb ed="#F" n="35"/>de conse. quanto. 2. q. 7. accusatio. (
+            Vica<lb ed="#F" n="36" break="no"/>rii) o68. dist. quorum(venerat) ad robur: sed 
+            <lb ed="#F" n="37"/>per baptismum bene erant absoluti 
+            pecca<lb ed="#F" n="38" break="no"/>tis. (Catechismo) . i. diluuio. (Iudaizat) hic 
+            <lb ed="#F" n="39"/>colligitur a parte alium ordinem in 
+            sub<lb ed="#F" n="40" break="no"/>stantia habuisse diaco. in veteri 
+            testamen<lb ed="#F" n="41" break="no"/>to, alium in nouo, alias iudaizare videtur 
+            <lb ed="#F" n="42"/>ecclesia in identitate. (Baculo) de consec. 
+            <lb ed="#F" n="43"/>dist. 1. nullus. 45. distin. disciplina. 
+            <lb ed="#F" n="44"/> Per historiam) not. quod cum Petrus 
+            <lb ed="#F" n="45"/>misisset Martialem, &amp; collegam in 
+            ger<lb ed="#F" n="46" break="no"/>manias, mortuus est Martialis &amp; collega 
+            <lb ed="#F" n="47"/>rediit ad Petrum, &amp; Petrus dedit ei 
+            bacu<lb ed="#F" n="48" break="no"/>lum, &amp; praecepit ei, quod tangeret 
+            mor<lb ed="#F" n="49" break="no"/>tuum, &amp; diceret ei surge in nomine 
+            do<lb ed="#F" n="50" break="no"/>mini, &amp; quod iret ad praedicandum, qui 
+            <lb ed="#F" n="51"/>cum 40. die a tempore mortis rediisset ad 
+            <lb ed="#F" n="52"/>eum, tetigit mortuum, &amp; surrexit, &amp; ne 
+            <lb ed="#F" n="53"/>quia post non recuperauit baculum, non 
+            <lb ed="#F" n="54"/>vtitur eodem, haec est historia mystica, 
+            <lb ed="#F" n="55"/>ratio est, quia baculus in summitate 
+            ha<lb ed="#F" n="56" break="no"/>bet recuruationem, quasi ad trahendum, 
+            <lb ed="#F" n="57"/>quod Papae hoc non est necesse, quia nul¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="58"/>lus ab eo diuertere potest. Item per 
+            bacu<lb ed="#F" n="59" break="no"/>lum designatur coenrtio, accipiunt ergo 
+            <lb ed="#F" n="60"/>reliqui praelati baculum a superioribus in 
+            <lb ed="#F" n="61"/>signum, quod accipiunt coenrtionem, sed 
+            <lb ed="#F" n="62"/>cum Papa a solo Deo habet potestatem, 
+            <lb ed="#F" n="63"/>non debet habere baculum. 21. dist. in 
+            no<lb ed="#F" n="64" break="no"/>no. &amp; c. quamuis. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 27</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 27</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="118-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e350" type="decretales-l1t27">
-            <head xml:id="inleiv-d1e350-Hd1e98">Titulus 27</head>
-            <p xml:id="inleiv-d1e350-d1e100">
-               <lb ed="#F" n="22"/>TITVLVS XXVII 
-      <lb ed="#F" n="23"/>DE OFFICIO CV. 
-      <lb ed="#F" n="24"/>STODIS. 
-      </p>
-            <div xml:id="inleiv-d1e350-Dd1e109" type="decretales-l1t27c1">
-               <head xml:id="inleiv-d1e350-Hd1e111">Caput 1</head>
-               <p xml:id="inleiv-d1e350-d1e113">
-                  <lb ed="#F" n="25"/>CAPVT I. 
-      </p>
-               <p xml:id="inleiv-d1e350-d1e118">
-                  <lb ed="#F" n="26"/>CVSTOS ECCLESIAE 
-      <lb ed="#F" n="27"/>(Indomitus) ex quo enim 
-      in<lb ed="#F" n="28" break="no"/>corrigibilis est, sine 
-      accusa<lb ed="#F" n="29" break="no"/>tione remoueri potest: quia 
-      <lb ed="#F" n="30"/>notorium est eius erimen. 7. 
-      <lb ed="#F" n="31"/>dist. non licuit . 11. q. 1. si quis sa. 2. q 7. 
-      qua<lb ed="#F" n="32" break="no"/>propter. S1. di. Maximianus. 23. dist. c. vlti. 
-      <lb ed="#F" n="33"/>infra, qui fi. sint leg. per venerabilem. inf. 
-      <lb ed="#F" n="34"/>de iureiur. quaerelam. bene dicit 
-      indomi<lb ed="#F" n="35" break="no"/>tus, quia priusquam deponatur, &amp; alius 
-      <lb ed="#F" n="36"/>substituatur, debet suspendi ab officio. 
-      <lb ed="#F" n="37"/>suprade aeta. &amp; quali. quaeris. &amp; idem est 
-      <lb ed="#F" n="38"/>in similibus, vt si non portet coronam. 
-      </p>
-            </div>
-            <div xml:id="inleiv-d1e350-Dd1e150" type="decretales-l1t27c2">
-               <head xml:id="inleiv-d1e350-Hd1e152">Caput 2</head>
-               <p xml:id="inleiv-d1e350-d1e154">
-                  <lb ed="#F" n="39"/>CAPVT II. 
-      <lb ed="#F" n="40"/>PVSTOS SOLICITVS 
-      DE<lb ed="#F" n="41" break="no"/>BET ESSE. 
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 27</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 27</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="118-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e350" type="decretales-l1t27">
+        <head xml:id="inleiv-d1e350-Hd1e98">Titulus 27</head>
+        <p xml:id="inleiv-d1e350-d1e100">
+          <lb ed="#F" n="22"/>TITVLVS XXVII 
+          <lb ed="#F" n="23"/>DE OFFICIO CV. 
+          <lb ed="#F" n="24"/>STODIS. 
+        </p>
+        <div xml:id="inleiv-d1e350-Dd1e109" type="decretales-l1t27c1">
+          <head xml:id="inleiv-d1e350-Hd1e111">Caput 1</head>
+          <p xml:id="inleiv-d1e350-d1e113">
+            <lb ed="#F" n="25"/>CAPVT I. 
+          </p>
+          <p xml:id="inleiv-d1e350-d1e118">
+            <lb ed="#F" n="26"/>CVSTOS ECCLESIAE 
+            <lb ed="#F" n="27"/>(Indomitus) ex quo enim 
+            in<lb ed="#F" n="28" break="no"/>corrigibilis est, sine 
+            accusa<lb ed="#F" n="29" break="no"/>tione remoueri potest: quia 
+            <lb ed="#F" n="30"/>notorium est eius erimen. 7. 
+            <lb ed="#F" n="31"/>dist. non licuit . 11. q. 1. si quis sa. 2. q 7. 
+            qua<lb ed="#F" n="32" break="no"/>propter. S1. di. Maximianus. 23. dist. c. vlti. 
+            <lb ed="#F" n="33"/>infra, qui fi. sint leg. per venerabilem. inf. 
+            <lb ed="#F" n="34"/>de iureiur. quaerelam. bene dicit 
+            indomi<lb ed="#F" n="35" break="no"/>tus, quia priusquam deponatur, &amp; alius 
+            <lb ed="#F" n="36"/>substituatur, debet suspendi ab officio. 
+            <lb ed="#F" n="37"/>suprade aeta. &amp; quali. quaeris. &amp; idem est 
+            <lb ed="#F" n="38"/>in similibus, vt si non portet coronam. 
+          </p>
+        </div>
+        <div xml:id="inleiv-d1e350-Dd1e150" type="decretales-l1t27c2">
+          <head xml:id="inleiv-d1e350-Hd1e152">Caput 2</head>
+          <p xml:id="inleiv-d1e350-d1e154">
+            <lb ed="#F" n="39"/>CAPVT II. 
+            <lb ed="#F" n="40"/>PVSTOS SOLICITVS 
+            DE<lb ed="#F" n="41" break="no"/>BET ESSE. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>

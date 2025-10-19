@@ -1,263 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Titulus 19</title>
-            <author ref="#per-inivin">Innocent IV</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Titulus 19</title>
-               <date when="2025-09-16">September 16, 2025</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2025-09-16" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#F" n="110-v"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="inleiv-d1e261" type="decretales-l1t19">
-            <head xml:id="inleiv-d1e261-Hd1e98">Titulus 19</head>
-            <p xml:id="inleiv-d1e261-d1e100">
-               <lb ed="#F" n="30"/>TITVLVS XIX. 
-      </p>
-            <p xml:id="inleiv-d1e261-d1e105">
-               <lb ed="#F" n="31"/>DE OELIGATIS AD 
-      <lb ed="#F" n="32"/>RAT IOCINIA 
-      ORDI<lb ed="#F" n="33" break="no"/>nandis, vel non. 
-      </p>
-            <p xml:id="inleiv-d1e261-d1e114">
-               <lb ed="#F" n="34"/>1 Obligatus etiam cum iuramento alicui ad 
-      ser<lb ed="#F" n="35" break="no"/>uiendum, an possie ingredi religionem. 
-      <lb ed="#F" n="36"/>PLIGATIS. Pone aliquem 
-      <lb ed="#F" n="37"/>obligatum etiam 
-      iuramen<lb ed="#F" n="38" break="no"/>to alicui curiae, vel alii ad sera 
-      <lb ed="#F" n="39"/>uiendum, vel in propria 
-      per<lb ed="#F" n="40" break="no"/>ona, vel ad scribendum 
-      li<lb ed="#F" n="41" break="no"/>brum, vel ad regimen ciuitatis, nunquid 
-      <lb ed="#F" n="42"/>poterit ingredi religionem? Respon. si 
-      <lb ed="#F" n="43"/>nulla fraude ducitur, scilicet, vt fugiat 
-      la<lb ed="#F" n="44" break="no"/>borem, vel expensas, sed sola charitate 
-      <lb ed="#F" n="45"/>Dei secure ingrediatur, quia qui lege 
-      <lb ed="#F" n="46"/>Dei, etc. 19. quaestio. 2. duae. inf. de re. &amp; 
-      <lb ed="#F" n="47"/>transeun. licet. tamen de bonis eius, quae 
-      <lb ed="#F" n="48"/>habet, vel etiam quae obuenient post 
-      ingres<lb ed="#F" n="49" break="no"/>sum monasterii satisfiet illis, quibus 
-      obli<lb ed="#F" n="50" break="no"/>gatus erat. 19. q. vl. si qua. C. de epis. &amp; cle. 
-      <lb ed="#F" n="51"/>Deo nobis. §. 1. vel etiam si scribere scit, vel 
-      <lb ed="#F" n="52"/>aliquod opus facere, quod possit exercere sal¬ 
-      <cb ed="#F" n="b"/>
-               <lb ed="#F" n="53"/>ua regula, &amp; officio non neglecto, de illo 
-      <lb ed="#F" n="54"/>satisfaciet. ar. 91. di. clericis. primo tamen 
-      <lb ed="#F" n="55"/>deducet expensas, ne sit monasterio 
-      one<lb ed="#F" n="56" break="no"/>rosus. arg. 16. q. 6. de lapsis. sed illud 
-      loqui<lb ed="#F" n="57" break="no"/>tur de missis in monasterium ad agendam 
-      <lb ed="#F" n="58"/>poenitentiam, in alijs autem dicunt non 
-      de<lb ed="#F" n="59" break="no"/>ducendas expensas, quia qui altari 
-      ser<lb ed="#F" n="60" break="no"/>uit, etc. 21. q. 2. ad ratiocinia(. Debitores ) ex 
-      <lb ed="#F" n="61"/>causa mutui, vel alia huiusmodi 
-      promo<lb ed="#F" n="62" break="no"/>ueri possunt. ff. de mu. &amp; ho. reos. item 
-      cu<lb ed="#F" n="63" break="no"/>riales, qui sena exercent, vt tabelliones in 
-      <lb ed="#F" n="64"/>ciuilibus causis. 60. dist. Osius. 
-      </p>
-            <div xml:id="inleiv-d1e261-Dd1e186" type="decretales-l1t19c1">
-               <head xml:id="inleiv-d1e261-Hd1e188">Caput 1</head>
-               <p xml:id="inleiv-d1e261-d1e190">
-                  <lb ed="#F" n="65"/>CAPVT I. 
-      <lb ed="#F" n="66"/>1 Laici existetes generales administratores fferi 
-      <lb ed="#F" n="67"/>non debent clerici, nisi prius reddiderinn 
-      <lb ed="#F" n="68"/>rationem suae administrationis. 
-      <lb ed="#F" n="69"/>2 Laicus si in canonicum assumi debet: debet 
-      <lb ed="#F" n="70"/>befelripresertim ari retioeinis 
-      obli<lb ed="#F" n="71" break="no"/>gatus fuait. 
-      <lb ed="#F" n="72"/>3 As genera personarum non debeamt 
-      proma<lb ed="#F" n="73" break="no"/>ueri. 
-      <lb ed="#F" n="74"/>4 Clerici non possunt publita vectigalia 
-      con<lb ed="#F" n="75" break="no"/>ducere. 
-      <lb ed="#F" n="76"/>clerician posit esse procuratores &amp; talia 
-      <lb ed="#F" n="77"/>officia exercere. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e221">
-                  <lb ed="#F" n="78"/>MAGNVS EPISCOPVS. 
-      <lb ed="#F" n="79"/>(Dixit) id est, quaesiuit (
-      Pro<lb ed="#F" n="80" break="no"/>curatores, actores, 
-      executo<lb ed="#F" n="81" break="no"/>res, seu curatores) generalis 
-      <lb ed="#F" n="82"/>am procurator, quam ac. 
-      <lb ed="#F" n="83"/>exe. &amp; cur. Pupillorum) contra 
-      admi<lb ed="#F" n="84" break="no"/>nistratores pupillorum, &amp; maiorum 
-      ab<lb ed="#F" n="85" break="no"/>sentium si eligantur, vel postulantur in 
-      cle<lb ed="#F" n="86" break="no"/>ricos, quilibet de ecclesia excipiens 
-      con<lb ed="#F" n="87" break="no"/>tra eos admittitur, sed si essent 
-      admini<lb ed="#F" n="88" break="no"/>stratores maiorum praesentium, non 
-      ad<lb ed="#F" n="89" break="no"/>mitterentur, alii contra eos praeter ipsos, 
-      <lb ed="#F" n="90"/>quorum administratores fuerunt, nec ipsi 
-      <lb ed="#F" n="91"/>intra tempus statutum. sup. de elect. 
-      statu<lb ed="#F" n="92" break="no"/>imus. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e256">
-                  <lb ed="#F" n="93"/>Ordinari) haec decreta. dicit, quod 
-      <lb ed="#F" n="94"/>laici qui sunt generales administratores, 
-      <lb ed="#F" n="95"/>non debent fieri clerici, nisi prius 
-      reddi<lb ed="#F" n="96" break="no"/>derint rationem suae administrationis, sed 
-      <lb ed="#F" n="97"/>hoc non dicit, quod clerici qui gerunt 
-      ge<lb ed="#F" n="98" break="no"/>nerales administrationes etiam laicorum 
-      <lb ed="#F" n="99"/>prohibeantur eligi ad dignitates. Et est 
-      ra<lb ed="#F" n="100" break="no"/>tio diuersitatis, quia in primo casu illi, 
-      <lb ed="#F" n="101"/>quorum negotia gerunt grauantur, quia 
-      <lb ed="#F" n="102"/>sui administratores forum mutant, in 
-      se<lb ed="#F" n="103" break="no"/>cundo autem casu non mutant, sed 
-      con<lb ed="#F" n="104" break="no"/>tra. 21. quaestio. 2. c. 1. &amp; 2. vbi dicitur, quod 
-      <lb ed="#F" n="105"/>clerici non debent tales administrationes 
-      <lb ed="#F" n="106"/>suscipere, &amp; si acciperent aut dimittant, 
-      <lb ed="#F" n="107"/>aut deponantur, sed certe si recte inspicias, 
-      <lb ed="#F" n="108"/>non contradicunt, quia ibi non 
-      prohibe<lb ed="#F" n="109" break="no"/>tur quin possint eligi, dum tolerantur. 
-      <pb ed="#F" n="111-r"/>
-                  <cb ed="#F" n="a"/>
-                  <lb ed="#F" n="1"/>(Dixit) id est, respondit (honore) 
-      praedi<lb ed="#F" n="2" break="no"/>ctorum officiorum. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e304">
-                  <lb ed="#F" n="3"/>2 (Postulati) not. quod laicus si debet 
-      <lb ed="#F" n="4"/>assumi in canonicum, debet postulari, &amp; 
-      <lb ed="#F" n="5"/>maxime qui fuit ratiocinijs obligatus, &amp; 
-      <lb ed="#F" n="6"/>dicimus eum postulandum a iudice sub 
-      <lb ed="#F" n="7"/>quo debet reddere ratiocinia. C. de epis. 
-      <lb ed="#F" n="8"/>officiales. vocatis his quorum negotia 
-      <lb ed="#F" n="9"/>acta sunt, &amp; quod laedi possunt tali 
-      con<lb ed="#F" n="10" break="no"/>cessione. ff. de adop. Nam dicimus etiam 
-      <lb ed="#F" n="11"/>solum consensum ad liberationem illius 
-      <lb ed="#F" n="12"/>sufficere, cui obligatus est. 54. dist. si quis 
-      <lb ed="#F" n="13"/>quicunque. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e331">
-                  <lb ed="#F" n="14"/>(Munerari) obligati ratiocinijs non 
-      <lb ed="#F" n="15"/>ecclesiasticae, sed secularis personae, vel quia 
-      <lb ed="#F" n="16"/>sint, &amp; perseuerent procuratores 
-      genera<lb ed="#F" n="17" break="no"/>les, vel domorum, vel actores causarum, 
-      <lb ed="#F" n="18"/>vel executores negotiorum, seu curatores 
-      <lb ed="#F" n="19"/>pupillorum, &amp; multo fortius aliorum, alii 
-      <lb ed="#F" n="20"/>etiam officiales generales non debent 
-      pro<lb ed="#F" n="21" break="no"/>moueri, vt hic, imo si promoti fuerint, aut 
-      <lb ed="#F" n="22"/>dimittent officium, aut remouebuntur. 
-      <lb ed="#F" n="23"/>21. quaestio. 3. c. 1. &amp; 2. inf. ne cler. vel mona. 
-      <lb ed="#F" n="24"/>c. 1. &amp; no. quod non nominat tutores, nam 
-      <lb ed="#F" n="25"/>si tutelam, vel curam egerit, vel quae 
-      ne<lb ed="#F" n="26" break="no"/>cessaria sunt a legibus imposita aliquis 
-      ge<lb ed="#F" n="27" break="no"/>rat, non credo quod impediatur eius 
-      pro<lb ed="#F" n="28" break="no"/>motio, cum etiam promotus possit eam 
-      <lb ed="#F" n="29"/>suscipere. 86. dist. peruenit. sed &amp; aliarum 
-      <lb ed="#F" n="30"/>personarum miserabilium procurationes &amp; 
-      ad<lb ed="#F" n="31" break="no"/>ministrationes susceperint, tamem 
-      authori<lb ed="#F" n="32" break="no"/>tate episcopi eius promotio non 
-      impedi<lb ed="#F" n="33" break="no"/>tur, quod etiam promotus suscipit. S6. dist. 
-      <lb ed="#F" n="34"/>peruenit. similiter &amp; ecclesiarum. 80. dist. 
-      <lb ed="#F" n="35"/>iudicatum. 17. q. 6. noua. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e381">
-                  <lb ed="#F" n="36"/>Et sunt haec vera eo in officio 
-      perma<lb ed="#F" n="37" break="no"/>nente, si autem deposuit 
-      administratio<lb ed="#F" n="38" break="no"/>nem, adhuc tamen obligatus est ex ea, &amp; 
-      <lb ed="#F" n="39"/>siquidem sunt publica ratiocinia, non 
-      de<lb ed="#F" n="40" break="no"/>bet promoueri ante ea reddita, imo 
-      reuo<lb ed="#F" n="41" break="no"/>cari debet si promoueatur. C. de epis. offi. 
-      <lb ed="#F" n="42"/>31. distin. praeterea. Si vero sunt priuata 
-      ra<lb ed="#F" n="43" break="no"/>tiocinia, si in ipsa promotione mouetur 
-      <lb ed="#F" n="44"/>sibi quaestio, aut primo mota est. 
-      distin<lb ed="#F" n="45" break="no"/>guo, aut conuenitur de dolo &amp; perfidia, 
-      <lb ed="#F" n="46"/>aut de culpa. Si conuenitur de dolo, &amp; 
-      per<lb ed="#F" n="47" break="no"/>fidia ante finitam litem, promoueri non 
-      <lb ed="#F" n="48"/>debet. arg. 81. dist. tantis. 23. dist. illud. &amp; sic 
-      <lb ed="#F" n="49"/>etiam potest intelligi hoc. c. si de culpa 
-      <lb ed="#F" n="50"/>tantum conuenitur, promoueri 
-      indistin<lb ed="#F" n="51" break="no"/>cte potest: si autem non sit conuentus eodem 
-      <lb ed="#F" n="52"/>modo promoueri potest, nisi infamia sit 
-      <lb ed="#F" n="53"/>eum de dolo teneri, tunc enim ex officio 
-      <lb ed="#F" n="54"/>iudicis inquiret. 6. q. 1. infamis. Alii non 
-      <lb ed="#F" n="55"/>distinguunt inter publica ratiocinia, &amp; 
-      pri<lb ed="#F" n="56" break="no"/>uata. Nec an conueniatur de dolo, an de 
-      <lb ed="#F" n="57"/>culpa, cum haec distinctio nullo iure nita¬ 
-      <cb ed="#F" n="b"/>
-                  <lb ed="#F" n="58"/>tur, imo omnia iura in contrarium sonant, 
-      <lb ed="#F" n="59"/>scilicet, quod pro quibuscunque 
-      ratioci<lb ed="#F" n="60" break="no"/>nijs siue publicis siue priuatis astringatur, 
-      <lb ed="#F" n="61"/>promoueri non potest, nisi prius 
-      ratioci<lb ed="#F" n="62" break="no"/>nia sint reddita, vt hic, quod autem dixi 
-      <lb ed="#F" n="63"/>non possunt esse procuratores causarum, 
-      <lb ed="#F" n="64"/>scilicet, vel actionum intelligo coram 
-      iu<lb ed="#F" n="65" break="no"/>dice seculari, nisi pro ecclesia, vel 
-      misera<lb ed="#F" n="66" break="no"/>bilibus personis &amp; consanguineis, &amp; his 
-      <lb ed="#F" n="67"/>quorum negotia de iure gerit. ff. de postu. 
-      <lb ed="#F" n="68"/>l. 1. §. 1. &amp; l. seq. &amp; idem videtur dicendum 
-      <lb ed="#F" n="69"/>in procuratore, quod in aduocato not. 
-      <lb ed="#F" n="70"/>inf. de postul. c. 1. coram ecclesiastico enim 
-      <lb ed="#F" n="71"/>possunt, &amp; pro laicis. ar. eius quod dicitur 
-      <lb ed="#F" n="72"/>de aduocato a contrario sensu. inf. de 
-      po<lb ed="#F" n="73" break="no"/>stul. c. 1. 2. &amp; 3. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e468">
-                  <lb ed="#F" n="74"/> Item clerici non possunt esse 
-      condu<lb ed="#F" n="75" break="no"/>ctores. 21. q. 3. c. 2. &amp; intelligo publicorum 
-      <lb ed="#F" n="76"/>vectigalium, vel vbi conducant vilius vt 
-      <lb ed="#F" n="77"/>locent carius, quod non licet. C. loca. 
-      mi<lb ed="#F" n="78" break="no"/>lites. alias vnam possessionem pro opere 
-      <lb ed="#F" n="79"/>manuum suarum licitum est conducere 
-      <lb ed="#F" n="80"/>miserabilibus personis, &amp; consanguineis, 
-      <lb ed="#F" n="81"/>quorum negotia de iure geruntur. Authem. 
-      <lb ed="#F" n="82"/>de sanct. epis. §. si autem. 91. dist. clericus 
-      <lb ed="#F" n="83"/>victum. 
-      </p>
-               <p xml:id="inleiv-d1e261-d1e492">
-                  <lb ed="#F" n="84"/>Sed non credo quod possit 
-      conduce<lb ed="#F" n="85" break="no"/>re villarum reditus, sed solummodo quod 
-      <lb ed="#F" n="86"/>pro suis manibus operetur. aliter autem 
-      <lb ed="#F" n="87"/>cadit in vitium quaestus cupiditatis. inf. ne 
-      <lb ed="#F" n="88"/>cle. c. 1. Arg. contra ne praela. vic. su. c. vlt. 
-      <lb ed="#F" n="89"/>sed loquitur de ecclesia, a qua non est 
-      pro<lb ed="#F" n="90" break="no"/>hibitum conducere. Vel dic, quod vbicumque 
-      <lb ed="#F" n="91"/>inuenitur, quod clerici non possunt esse 
-      <lb ed="#F" n="92"/>procuratores, vel haec officia exercere, 
-      in<lb ed="#F" n="93" break="no"/>telligendum est generaliter, nam vnum 
-      <lb ed="#F" n="94"/>negotium clericorum vel laicorum, 
-      pro<lb ed="#F" n="95" break="no"/>curare, vel administrare non prohibentur.
-      </p>
-            </div>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Titulus 19</title>
+        <author ref="#per-inivin">Innocent IV</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Titulus 19</title>
+          <date when="2025-09-16">September 16, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="F" n="cod-in4can">Frankfurt-am-Main 1570</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-09-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#F" n="110-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="inleiv-d1e261" type="decretales-l1t19">
+        <head xml:id="inleiv-d1e261-Hd1e98">Titulus 19</head>
+        <p xml:id="inleiv-d1e261-d1e100">
+          <lb ed="#F" n="30"/>TITVLVS XIX. 
+        </p>
+        <p xml:id="inleiv-d1e261-d1e105">
+          <lb ed="#F" n="31"/>DE OELIGATIS AD 
+          <lb ed="#F" n="32"/>RAT IOCINIA 
+          ORDI<lb ed="#F" n="33" break="no"/>nandis, vel non. 
+        </p>
+        <p xml:id="inleiv-d1e261-d1e114">
+          <lb ed="#F" n="34"/>1 Obligatus etiam cum iuramento alicui ad 
+          ser<lb ed="#F" n="35" break="no"/>uiendum, an possie ingredi religionem. 
+          <lb ed="#F" n="36"/>PLIGATIS. Pone aliquem 
+          <lb ed="#F" n="37"/>obligatum etiam 
+          iuramen<lb ed="#F" n="38" break="no"/>to alicui curiae, vel alii ad sera 
+          <lb ed="#F" n="39"/>uiendum, vel in propria 
+          per<lb ed="#F" n="40" break="no"/>ona, vel ad scribendum 
+          li<lb ed="#F" n="41" break="no"/>brum, vel ad regimen ciuitatis, nunquid 
+          <lb ed="#F" n="42"/>poterit ingredi religionem? Respon. si 
+          <lb ed="#F" n="43"/>nulla fraude ducitur, scilicet, vt fugiat 
+          la<lb ed="#F" n="44" break="no"/>borem, vel expensas, sed sola charitate 
+          <lb ed="#F" n="45"/>Dei secure ingrediatur, quia qui lege 
+          <lb ed="#F" n="46"/>Dei, etc. 19. quaestio. 2. duae. inf. de re. &amp; 
+          <lb ed="#F" n="47"/>transeun. licet. tamen de bonis eius, quae 
+          <lb ed="#F" n="48"/>habet, vel etiam quae obuenient post 
+          ingres<lb ed="#F" n="49" break="no"/>sum monasterii satisfiet illis, quibus 
+          obli<lb ed="#F" n="50" break="no"/>gatus erat. 19. q. vl. si qua. C. de epis. &amp; cle. 
+          <lb ed="#F" n="51"/>Deo nobis. §. 1. vel etiam si scribere scit, vel 
+          <lb ed="#F" n="52"/>aliquod opus facere, quod possit exercere sal¬ 
+          <cb ed="#F" n="b"/>
+          <lb ed="#F" n="53"/>ua regula, &amp; officio non neglecto, de illo 
+          <lb ed="#F" n="54"/>satisfaciet. ar. 91. di. clericis. primo tamen 
+          <lb ed="#F" n="55"/>deducet expensas, ne sit monasterio 
+          one<lb ed="#F" n="56" break="no"/>rosus. arg. 16. q. 6. de lapsis. sed illud 
+          loqui<lb ed="#F" n="57" break="no"/>tur de missis in monasterium ad agendam 
+          <lb ed="#F" n="58"/>poenitentiam, in alijs autem dicunt non 
+          de<lb ed="#F" n="59" break="no"/>ducendas expensas, quia qui altari 
+          ser<lb ed="#F" n="60" break="no"/>uit, etc. 21. q. 2. ad ratiocinia(. Debitores ) ex 
+          <lb ed="#F" n="61"/>causa mutui, vel alia huiusmodi 
+          promo<lb ed="#F" n="62" break="no"/>ueri possunt. ff. de mu. &amp; ho. reos. item 
+          cu<lb ed="#F" n="63" break="no"/>riales, qui sena exercent, vt tabelliones in 
+          <lb ed="#F" n="64"/>ciuilibus causis. 60. dist. Osius. 
+        </p>
+        <div xml:id="inleiv-d1e261-Dd1e186" type="decretales-l1t19c1">
+          <head xml:id="inleiv-d1e261-Hd1e188">Caput 1</head>
+          <p xml:id="inleiv-d1e261-d1e190">
+            <lb ed="#F" n="65"/>CAPVT I. 
+            <lb ed="#F" n="66"/>1 Laici existetes generales administratores fferi 
+            <lb ed="#F" n="67"/>non debent clerici, nisi prius reddiderinn 
+            <lb ed="#F" n="68"/>rationem suae administrationis. 
+            <lb ed="#F" n="69"/>2 Laicus si in canonicum assumi debet: debet 
+            <lb ed="#F" n="70"/>befelripresertim ari retioeinis 
+            obli<lb ed="#F" n="71" break="no"/>gatus fuait. 
+            <lb ed="#F" n="72"/>3 As genera personarum non debeamt 
+            proma<lb ed="#F" n="73" break="no"/>ueri. 
+            <lb ed="#F" n="74"/>4 Clerici non possunt publita vectigalia 
+            con<lb ed="#F" n="75" break="no"/>ducere. 
+            <lb ed="#F" n="76"/>clerician posit esse procuratores &amp; talia 
+            <lb ed="#F" n="77"/>officia exercere. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e221">
+            <lb ed="#F" n="78"/>MAGNVS EPISCOPVS. 
+            <lb ed="#F" n="79"/>(Dixit) id est, quaesiuit (
+            Pro<lb ed="#F" n="80" break="no"/>curatores, actores, 
+            executo<lb ed="#F" n="81" break="no"/>res, seu curatores) generalis 
+            <lb ed="#F" n="82"/>am procurator, quam ac. 
+            <lb ed="#F" n="83"/>exe. &amp; cur. Pupillorum) contra 
+            admi<lb ed="#F" n="84" break="no"/>nistratores pupillorum, &amp; maiorum 
+            ab<lb ed="#F" n="85" break="no"/>sentium si eligantur, vel postulantur in 
+            cle<lb ed="#F" n="86" break="no"/>ricos, quilibet de ecclesia excipiens 
+            con<lb ed="#F" n="87" break="no"/>tra eos admittitur, sed si essent 
+            admini<lb ed="#F" n="88" break="no"/>stratores maiorum praesentium, non 
+            ad<lb ed="#F" n="89" break="no"/>mitterentur, alii contra eos praeter ipsos, 
+            <lb ed="#F" n="90"/>quorum administratores fuerunt, nec ipsi 
+            <lb ed="#F" n="91"/>intra tempus statutum. sup. de elect. 
+            statu<lb ed="#F" n="92" break="no"/>imus. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e256">
+            <lb ed="#F" n="93"/>Ordinari) haec decreta. dicit, quod 
+            <lb ed="#F" n="94"/>laici qui sunt generales administratores, 
+            <lb ed="#F" n="95"/>non debent fieri clerici, nisi prius 
+            reddi<lb ed="#F" n="96" break="no"/>derint rationem suae administrationis, sed 
+            <lb ed="#F" n="97"/>hoc non dicit, quod clerici qui gerunt 
+            ge<lb ed="#F" n="98" break="no"/>nerales administrationes etiam laicorum 
+            <lb ed="#F" n="99"/>prohibeantur eligi ad dignitates. Et est 
+            ra<lb ed="#F" n="100" break="no"/>tio diuersitatis, quia in primo casu illi, 
+            <lb ed="#F" n="101"/>quorum negotia gerunt grauantur, quia 
+            <lb ed="#F" n="102"/>sui administratores forum mutant, in 
+            se<lb ed="#F" n="103" break="no"/>cundo autem casu non mutant, sed 
+            con<lb ed="#F" n="104" break="no"/>tra. 21. quaestio. 2. c. 1. &amp; 2. vbi dicitur, quod 
+            <lb ed="#F" n="105"/>clerici non debent tales administrationes 
+            <lb ed="#F" n="106"/>suscipere, &amp; si acciperent aut dimittant, 
+            <lb ed="#F" n="107"/>aut deponantur, sed certe si recte inspicias, 
+            <lb ed="#F" n="108"/>non contradicunt, quia ibi non 
+            prohibe<lb ed="#F" n="109" break="no"/>tur quin possint eligi, dum tolerantur. 
+            <pb ed="#F" n="111-r"/>
+            <cb ed="#F" n="a"/>
+            <lb ed="#F" n="1"/>(Dixit) id est, respondit (honore) 
+            praedi<lb ed="#F" n="2" break="no"/>ctorum officiorum. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e304">
+            <lb ed="#F" n="3"/>2 (Postulati) not. quod laicus si debet 
+            <lb ed="#F" n="4"/>assumi in canonicum, debet postulari, &amp; 
+            <lb ed="#F" n="5"/>maxime qui fuit ratiocinijs obligatus, &amp; 
+            <lb ed="#F" n="6"/>dicimus eum postulandum a iudice sub 
+            <lb ed="#F" n="7"/>quo debet reddere ratiocinia. C. de epis. 
+            <lb ed="#F" n="8"/>officiales. vocatis his quorum negotia 
+            <lb ed="#F" n="9"/>acta sunt, &amp; quod laedi possunt tali 
+            con<lb ed="#F" n="10" break="no"/>cessione. ff. de adop. Nam dicimus etiam 
+            <lb ed="#F" n="11"/>solum consensum ad liberationem illius 
+            <lb ed="#F" n="12"/>sufficere, cui obligatus est. 54. dist. si quis 
+            <lb ed="#F" n="13"/>quicunque. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e331">
+            <lb ed="#F" n="14"/>(Munerari) obligati ratiocinijs non 
+            <lb ed="#F" n="15"/>ecclesiasticae, sed secularis personae, vel quia 
+            <lb ed="#F" n="16"/>sint, &amp; perseuerent procuratores 
+            genera<lb ed="#F" n="17" break="no"/>les, vel domorum, vel actores causarum, 
+            <lb ed="#F" n="18"/>vel executores negotiorum, seu curatores 
+            <lb ed="#F" n="19"/>pupillorum, &amp; multo fortius aliorum, alii 
+            <lb ed="#F" n="20"/>etiam officiales generales non debent 
+            pro<lb ed="#F" n="21" break="no"/>moueri, vt hic, imo si promoti fuerint, aut 
+            <lb ed="#F" n="22"/>dimittent officium, aut remouebuntur. 
+            <lb ed="#F" n="23"/>21. quaestio. 3. c. 1. &amp; 2. inf. ne cler. vel mona. 
+            <lb ed="#F" n="24"/>c. 1. &amp; no. quod non nominat tutores, nam 
+            <lb ed="#F" n="25"/>si tutelam, vel curam egerit, vel quae 
+            ne<lb ed="#F" n="26" break="no"/>cessaria sunt a legibus imposita aliquis 
+            ge<lb ed="#F" n="27" break="no"/>rat, non credo quod impediatur eius 
+            pro<lb ed="#F" n="28" break="no"/>motio, cum etiam promotus possit eam 
+            <lb ed="#F" n="29"/>suscipere. 86. dist. peruenit. sed &amp; aliarum 
+            <lb ed="#F" n="30"/>personarum miserabilium procurationes &amp; 
+            ad<lb ed="#F" n="31" break="no"/>ministrationes susceperint, tamem 
+            authori<lb ed="#F" n="32" break="no"/>tate episcopi eius promotio non 
+            impedi<lb ed="#F" n="33" break="no"/>tur, quod etiam promotus suscipit. S6. dist. 
+            <lb ed="#F" n="34"/>peruenit. similiter &amp; ecclesiarum. 80. dist. 
+            <lb ed="#F" n="35"/>iudicatum. 17. q. 6. noua. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e381">
+            <lb ed="#F" n="36"/>Et sunt haec vera eo in officio 
+            perma<lb ed="#F" n="37" break="no"/>nente, si autem deposuit 
+            administratio<lb ed="#F" n="38" break="no"/>nem, adhuc tamen obligatus est ex ea, &amp; 
+            <lb ed="#F" n="39"/>siquidem sunt publica ratiocinia, non 
+            de<lb ed="#F" n="40" break="no"/>bet promoueri ante ea reddita, imo 
+            reuo<lb ed="#F" n="41" break="no"/>cari debet si promoueatur. C. de epis. offi. 
+            <lb ed="#F" n="42"/>31. distin. praeterea. Si vero sunt priuata 
+            ra<lb ed="#F" n="43" break="no"/>tiocinia, si in ipsa promotione mouetur 
+            <lb ed="#F" n="44"/>sibi quaestio, aut primo mota est. 
+            distin<lb ed="#F" n="45" break="no"/>guo, aut conuenitur de dolo &amp; perfidia, 
+            <lb ed="#F" n="46"/>aut de culpa. Si conuenitur de dolo, &amp; 
+            per<lb ed="#F" n="47" break="no"/>fidia ante finitam litem, promoueri non 
+            <lb ed="#F" n="48"/>debet. arg. 81. dist. tantis. 23. dist. illud. &amp; sic 
+            <lb ed="#F" n="49"/>etiam potest intelligi hoc. c. si de culpa 
+            <lb ed="#F" n="50"/>tantum conuenitur, promoueri 
+            indistin<lb ed="#F" n="51" break="no"/>cte potest: si autem non sit conuentus eodem 
+            <lb ed="#F" n="52"/>modo promoueri potest, nisi infamia sit 
+            <lb ed="#F" n="53"/>eum de dolo teneri, tunc enim ex officio 
+            <lb ed="#F" n="54"/>iudicis inquiret. 6. q. 1. infamis. Alii non 
+            <lb ed="#F" n="55"/>distinguunt inter publica ratiocinia, &amp; 
+            pri<lb ed="#F" n="56" break="no"/>uata. Nec an conueniatur de dolo, an de 
+            <lb ed="#F" n="57"/>culpa, cum haec distinctio nullo iure nita¬ 
+            <cb ed="#F" n="b"/>
+            <lb ed="#F" n="58"/>tur, imo omnia iura in contrarium sonant, 
+            <lb ed="#F" n="59"/>scilicet, quod pro quibuscunque 
+            ratioci<lb ed="#F" n="60" break="no"/>nijs siue publicis siue priuatis astringatur, 
+            <lb ed="#F" n="61"/>promoueri non potest, nisi prius 
+            ratioci<lb ed="#F" n="62" break="no"/>nia sint reddita, vt hic, quod autem dixi 
+            <lb ed="#F" n="63"/>non possunt esse procuratores causarum, 
+            <lb ed="#F" n="64"/>scilicet, vel actionum intelligo coram 
+            iu<lb ed="#F" n="65" break="no"/>dice seculari, nisi pro ecclesia, vel 
+            misera<lb ed="#F" n="66" break="no"/>bilibus personis &amp; consanguineis, &amp; his 
+            <lb ed="#F" n="67"/>quorum negotia de iure gerit. ff. de postu. 
+            <lb ed="#F" n="68"/>l. 1. §. 1. &amp; l. seq. &amp; idem videtur dicendum 
+            <lb ed="#F" n="69"/>in procuratore, quod in aduocato not. 
+            <lb ed="#F" n="70"/>inf. de postul. c. 1. coram ecclesiastico enim 
+            <lb ed="#F" n="71"/>possunt, &amp; pro laicis. ar. eius quod dicitur 
+            <lb ed="#F" n="72"/>de aduocato a contrario sensu. inf. de 
+            po<lb ed="#F" n="73" break="no"/>stul. c. 1. 2. &amp; 3. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e468">
+            <lb ed="#F" n="74"/> Item clerici non possunt esse 
+            condu<lb ed="#F" n="75" break="no"/>ctores. 21. q. 3. c. 2. &amp; intelligo publicorum 
+            <lb ed="#F" n="76"/>vectigalium, vel vbi conducant vilius vt 
+            <lb ed="#F" n="77"/>locent carius, quod non licet. C. loca. 
+            mi<lb ed="#F" n="78" break="no"/>lites. alias vnam possessionem pro opere 
+            <lb ed="#F" n="79"/>manuum suarum licitum est conducere 
+            <lb ed="#F" n="80"/>miserabilibus personis, &amp; consanguineis, 
+            <lb ed="#F" n="81"/>quorum negotia de iure geruntur. Authem. 
+            <lb ed="#F" n="82"/>de sanct. epis. §. si autem. 91. dist. clericus 
+            <lb ed="#F" n="83"/>victum. 
+          </p>
+          <p xml:id="inleiv-d1e261-d1e492">
+            <lb ed="#F" n="84"/>Sed non credo quod possit 
+            conduce<lb ed="#F" n="85" break="no"/>re villarum reditus, sed solummodo quod 
+            <lb ed="#F" n="86"/>pro suis manibus operetur. aliter autem 
+            <lb ed="#F" n="87"/>cadit in vitium quaestus cupiditatis. inf. ne 
+            <lb ed="#F" n="88"/>cle. c. 1. Arg. contra ne praela. vic. su. c. vlt. 
+            <lb ed="#F" n="89"/>sed loquitur de ecclesia, a qua non est 
+            pro<lb ed="#F" n="90" break="no"/>hibitum conducere. Vel dic, quod vbicumque 
+            <lb ed="#F" n="91"/>inuenitur, quod clerici non possunt esse 
+            <lb ed="#F" n="92"/>procuratores, vel haec officia exercere, 
+            in<lb ed="#F" n="93" break="no"/>telligendum est generaliter, nam vnum 
+            <lb ed="#F" n="94"/>negotium clericorum vel laicorum, 
+            pro<lb ed="#F" n="95" break="no"/>curare, vel administrare non prohibentur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
